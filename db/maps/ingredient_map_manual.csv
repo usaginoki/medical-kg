@@ -1,0 +1,850 @@
+raw_norm,lang,ingredient_id,note
+盐,zh,ING:salt,
+生抽,zh,ING:soy-sauce,light soy sauce
+料酒,zh,ING:shaoxing-wine,Chinese cooking wine
+鸡蛋,zh,ING:egg,
+糖,zh,ING:sugar,
+蒜,zh,ING:garlic,
+水,zh,ING:water,
+油,zh,ING:vegetable-oil,cooking oil
+蚝油,zh,ING:oyster-sauce,
+白糖,zh,ING:sugar,
+老抽,zh,ING:soy-sauce,dark soy sauce
+面粉,zh,ING:wheat-flour,
+土豆,zh,ING:potato,
+花椒,zh,ING:sichuan-pepper,
+淀粉,zh,ING:starch,
+冰糖,zh,ING:sugar,rock sugar
+鸡精,zh,ING:meat-bouillon,chicken bouillon powder (MSG-based)
+香菜,zh,ING:coriander,coriander leaf
+醋,zh,ING:vinegar,
+香油,zh,ING:sesame-oil,
+牛奶,zh,ING:milk,
+酵母,zh,ING:yeast,
+食用油,zh,ING:vegetable-oil,
+香菇,zh,ING:shiitake,
+西红柿,zh,ING:tomato,
+青椒,zh,ING:bell-pepper,green bell pepper
+香叶,zh,ING:laurel,bay leaf
+猪肉,zh,ING:pork,
+黄油,zh,ING:butter,
+五花肉,zh,ING:pork,pork belly
+牛肉,zh,ING:beef,
+糯米粉,zh,ING:glutinous-rice-flour,
+排骨,zh,ING:pork,pork ribs
+耗油,zh,ING:oyster-sauce,misspelling of 蚝油
+大米,zh,ING:rice,
+豆腐,zh,ING:tofu,
+枸杞,zh,ING:goji,
+黄瓜,zh,ING:cucumber,
+味精,zh,ING:monosodium-glutamate,
+清水,zh,ING:water,
+红糖,zh,ING:brown-sugar,
+小米椒,zh,ING:chili-pepper,bird's eye chili
+鸡胸肉,zh,ING:chicken,chicken breast
+低筋面粉,zh,ING:wheat-flour,cake flour
+粉丝,zh,ING:glass-noodles,
+花生油,zh,ING:peanut-oil,
+番茄,zh,ING:tomato,
+金针菇,zh,ING:enokitake,
+玉米淀粉,zh,ING:cornstarch,
+植物油,zh,ING:vegetable-oil,
+芹菜,zh,ING:celery,
+玉米油,zh,ING:corn-oil,
+生粉,zh,ING:starch,
+蒜头,zh,ING:garlic,
+小米辣,zh,ING:chili-pepper,bird's eye chili
+猪油,zh,ING:lard,
+温水,zh,ING:water,
+米饭,zh,ING:rice,cooked rice
+虾,zh,ING:shrimp,
+虾仁,zh,ING:shrimp,peeled shrimp
+糯米,zh,ING:glutinous-rice,
+玉米,zh,ING:corn,
+奶粉,zh,ING:milk-powder,
+花椒粉,zh,ING:sichuan-pepper,ground
+红椒,zh,ING:bell-pepper,red bell pepper
+花生,zh,ING:peanut,
+食盐,zh,ING:salt,
+鸡腿,zh,ING:chicken,chicken leg
+白醋,zh,ING:vinegar,white vinegar
+火腿肠,zh,ING:sausage,ham sausage
+白菜,zh,ING:napa-cabbage,
+泡打粉,zh,ING:baking-powder,
+鸡翅,zh,ING:chicken,chicken wings
+蒜末,zh,ING:garlic,minced
+郫县豆瓣酱,zh,ING:doubanjiang,Pixian chili bean paste
+蒜瓣,zh,ING:garlic,
+开水,zh,ING:water,boiling
+陈醋,zh,ING:vinegar,Shanxi aged vinegar
+中筋面粉,zh,ING:wheat-flour,all-purpose
+青菜,zh,ING:pak-choy,"generic greens, usually bok choy"
+啤酒,zh,ING:beer,
+糖粉,zh,ING:sugar,icing sugar
+面条,zh,ING:noodles,
+黄酒,zh,ING:shaoxing-wine,
+鸡爪,zh,ING:chicken,chicken feet
+蒸鱼豉油,zh,ING:soy-sauce,seasoned soy sauce for fish
+西兰花,zh,ING:broccoli,
+鸡,zh,ING:chicken,
+肉末,zh,ING:pork,"minced meat, usually pork"
+火腿,zh,ING:ham,
+普通面粉,zh,ING:wheat-flour,
+红薯,zh,ING:sweet-potato,
+红豆,zh,ING:adzuki-bean,
+淡奶油,zh,ING:cream,whipping cream
+五香粉,zh,ING:chinese-five-spice-powder,
+冬瓜,zh,ING:wax-gourd,
+杏鲍菇,zh,ING:oyster-mushroom,king oyster mushroom (Pleurotus eryngii)
+香醋,zh,ING:vinegar,Zhenjiang vinegar
+水淀粉,zh,ING:starch,starch slurry
+色拉油,zh,ING:vegetable-oil,salad oil
+豆芽,zh,ING:bean-sprout,
+牛腩,zh,ING:beef,beef brisket
+大料,zh,ING:star-anise,
+干香菇,zh,ING:shiitake,dried
+萝卜,zh,ING:radish,
+虾皮,zh,ING:shrimp,dried small shrimp
+紫薯,zh,ING:sweet-potato,purple sweet potato
+银耳,zh,ING:white-fungus,
+瘦肉,zh,ING:pork,lean pork
+生菜,zh,ING:lettuce,
+酸菜,zh,ING:sauerkraut,Chinese pickled mustard/cabbage
+小苏打,zh,ING:baking-soda,
+羊肉,zh,ING:lamb,
+玉米粒,zh,ING:sweetcorn,
+味极鲜,zh,ING:soy-sauce,premium soy sauce
+尖椒,zh,ING:chili-pepper,
+白酒,zh,ING:spirit,baijiu
+娃娃菜,zh,ING:napa-cabbage,baby napa cabbage
+蒜苗,zh,ING:garlic,garlic shoots
+椰浆,zh,ING:coconut-milk,
+蛋黄,zh,ING:egg-yolk,
+花肉,zh,ING:pork,
+百合,zh,ING:lily-bulb,
+香蕉,zh,ING:banana,
+高筋面粉,zh,ING:wheat-flour,bread flour
+蒜蓉,zh,ING:garlic,
+白萝卜,zh,ING:daikon,
+腊肉,zh,ING:pork,Chinese cured pork
+小米,zh,ING:millet,foxtail millet
+腊肠,zh,ING:sausage,Chinese sausage
+饺子皮,zh,ING:wonton-wrapper,dumpling wrapper
+豆豉,zh,ING:fermented-black-beans,
+面包糠,zh,ING:breadcrumb,
+紫菜,zh,ING:purple-laver,
+香肠,zh,ING:sausage,
+鱼露,zh,ING:fish-sauce,
+粘米粉,zh,ING:rice-flour,
+菠萝,zh,ING:pineapple,
+红萝卜,zh,ING:carrot,
+奶油,zh,ING:cream,
+百香果,zh,ING:passion-fruit,
+热水,zh,ING:water,
+蛋清,zh,ING:egg,egg white
+鹌鹑蛋,zh,ING:quail-egg,
+芒果,zh,ING:mango,
+花椒油,zh,ING:sichuan-pepper,Sichuan pepper oil
+菜籽油,zh,ING:rapeseed-oil,
+鱿鱼,zh,ING:squid,
+莴笋,zh,ING:celtuce,
+花椒面,zh,ING:sichuan-pepper,ground
+猪肉馅,zh,ING:pork,minced pork
+鱼,zh,ING:fish,
+豆角,zh,ING:green-beans,
+纯净水,zh,ING:water,
+高汤,zh,ING:stock,
+肥牛,zh,ING:beef,thin-sliced fatty beef
+粉条,zh,ING:glass-noodles,sweet-potato starch noodles
+腐竹,zh,ING:tofu-skin,
+米,zh,ING:rice,
+米醋,zh,ING:vinegar,rice vinegar
+里脊肉,zh,ING:pork,pork tenderloin
+泡椒,zh,ING:chili-pepper,pickled chili
+黄豆,zh,ING:soybean,
+芋头,zh,ING:taro,
+鲫鱼,zh,ING:crucian-carp,
+葱,zh,ING:scallion,
+姜,zh,ING:ginger,
+生姜,zh,ING:ginger,
+葱花,zh,ING:scallion,chopped
+小葱,zh,ING:scallion,
+大葱,zh,ING:scallion,Chinese leek-type scallion
+洋葱,zh,ING:onion,
+香葱,zh,ING:scallion,
+老姜,zh,ING:ginger,
+姜片,zh,ING:ginger,sliced
+葱段,zh,ING:scallion,
+八角,zh,ING:star-anise,
+桂皮,zh,ING:cassia,
+干辣椒,zh,ING:chili-pepper,dried chili
+辣椒,zh,ING:chili-pepper,
+胡萝卜,zh,ING:carrot,
+胡椒粉,zh,ING:white-pepper,Chinese ground pepper is usually white
+白胡椒粉,zh,ING:white-pepper,
+黑胡椒,zh,ING:black-pepper,
+黑胡椒粉,zh,ING:black-pepper,
+孜然,zh,ING:cumin,
+孜然粉,zh,ING:cumin,
+辣椒粉,zh,ING:chili-pepper,chili powder
+辣椒面,zh,ING:chili-pepper,chili flakes
+咖喱,zh,ING:curry-powder,
+番茄酱,zh,ING:ketchup,
+豆瓣酱,zh,ING:doubanjiang,
+芝麻,zh,ING:sesame,
+白芝麻,zh,ING:sesame,
+芝麻油,zh,ING:sesame-oil,
+蜂蜜,zh,ING:honey,
+鸡汤,zh,ING:stock,chicken stock
+茄子,zh,ING:eggplant,
+鸡肉,zh,ING:chicken,
+韭菜,zh,ING:chinese-chives,
+蘑菇,zh,ING:mushroom,
+木耳,zh,ING:jew-s-ear,wood ear
+黑木耳,zh,ING:jew-s-ear,
+海带,zh,ING:kombu,kelp
+红枣,zh,ING:jujube,
+桂圆,zh,ING:longan,
+莲子,zh,ING:lotus,lotus seed
+山药,zh,ING:yam,Chinese yam
+花生米,zh,ING:peanut,
+橄榄油,zh,ING:olive-oil,
+酱油,zh,ING:soy-sauce,
+牛油果,zh,ING:avocado,
+柠檬,zh,ING:lemon,
+苹果,zh,ING:apple,
+猪蹄,zh,ING:pork,pig trotters
+五花,zh,ING:pork,
+鸡蛋液,zh,ING:egg,
+蚝,zh,ING:true-oyster,oyster
+牛里脊,zh,ING:beef,
+鸡架,zh,ING:chicken,
+排骨肉,zh,ING:pork,
+绿豆,zh,ING:mung-bean,
+黑米,zh,ING:rice,black rice
+燕麦,zh,ING:oats,
+核桃,zh,ING:walnut,
+红豆沙,zh,ING:adzuki-bean,red bean paste
+南瓜,zh,ING:pumpkin,
+山楂,zh,ING:hawthorn,
+蛋,zh,ING:egg,
+土鸡蛋,zh,ING:egg,
+油菜,zh,ING:rape,rapeseed greens (you cai)
+菠菜,zh,ING:spinach,
+空心菜,zh,ING:swamp-cabbage,water spinach
+秋葵,zh,ING:okra,
+包菜,zh,ING:cabbage,
+卷心菜,zh,ING:cabbage,
+紫甘蓝,zh,ING:cabbage,red cabbage
+西葫芦,zh,ING:zucchini,
+丝瓜,zh,ING:towel-gourd,
+苦瓜,zh,ING:bittergourd,
+莲藕,zh,ING:lotus,lotus root
+藕,zh,ING:lotus,lotus root
+豌豆,zh,ING:peas,
+毛豆,zh,ING:edamame,
+香肠片,zh,ING:sausage,
+咸蛋黄,zh,ING:egg-yolk,salted egg yolk
+皮蛋,zh,ING:egg,century egg
+鸭蛋,zh,ING:egg,duck egg
+鸭,zh,ING:wild-duck,duck
+牛骨,zh,ING:beef,beef bones
+羊排,zh,ING:lamb,lamb ribs
+鸡腿肉,zh,ING:chicken,
+豆腐皮,zh,ING:tofu-skin,
+千张,zh,ING:tofu-skin,
+豆干,zh,ING:tofu,dried tofu
+香干,zh,ING:tofu,dried tofu
+冬笋,zh,ING:bamboo-shoots,
+竹笋,zh,ING:bamboo-shoots,
+笋,zh,ING:bamboo-shoots,
+荸荠,zh,ING:water-chestnut,
+椰子油,zh,ING:coconut-oil,
+白胡椒,zh,ING:white-pepper,
+姜末,zh,ING:ginger,minced
+姜丝,zh,ING:ginger,
+葱姜,zh,ING:scallion,scallion and ginger
+葱白,zh,ING:scallion,
+蒜片,zh,ING:garlic,
+香菜末,zh,ING:coriander,
+生抽酱油,zh,ING:soy-sauce,
+鸡粉,zh,ING:meat-bouillon,chicken powder
+芝麻酱,zh,ING:tahini,sesame paste
+甜面酱,zh,ING:soy-sauce,sweet bean sauce (fermented wheat/soy)
+醪糟,zh,ING:rice,fermented glutinous rice (jiuniang)
+葡萄干,zh,ING:raisin,
+麦芽糖,zh,ING:glucose,maltose syrup
+可可粉,zh,ING:cocoa-powder,
+蕃茄酱,zh,ING:ketchup,variant spelling
+辣酱,zh,ING:chili-paste,chili sauce
+海鲜酱,zh,ING:hoisin-sauce,
+烧烤酱,zh,ING:barbeque-sauce,
+麻酱,zh,ING:tahini,sesame paste
+甜辣酱,zh,ING:chili-paste,sweet chili sauce
+色拉酱,zh,ING:mayonnaise,salad dressing (mayonnaise-type)
+沙拉酱,zh,ING:mayonnaise,salad dressing (mayonnaise-type)
+虾酱,zh,ING:trassi,shrimp paste
+杏仁粉,zh,ING:almond,almond flour
+杏仁片,zh,ING:almond,sliced almonds
+杏仁,zh,ING:almond,in cooking usually sweet almond
+樱桃,zh,ING:sweet-cherry,
+猕猴桃,zh,ING:kiwifruit,
+佛手瓜,zh,ING:chayote,
+马铃薯淀粉,zh,ING:potato-starch,
+白葡萄酒,zh,ING:white-wine,
+红酒,zh,ING:red-wine,
+葡萄酒,zh,ING:wine,
+草莓,zh,ING:strawberry,
+西芹,zh,ING:celery,
+青豆,zh,ING:peas,
+荷兰豆,zh,ING:snow-pea,
+口蘑,zh,ING:common-mushroom,white button mushroom
+年糕,zh,ING:rice-cake,
+郫县豆瓣,zh,ING:doubanjiang,
+青瓜,zh,ING:cucumber,
+花菜,zh,ING:cauliflower,
+马蹄,zh,ING:water-chestnut,
+炼乳,zh,ING:condensed-milk,
+剁椒,zh,ING:chili-pepper,chopped salted chili
+草果,zh,ING:cardamom,"black cardamom (Amomum tsao-ko), approximate"
+培根,zh,ING:pork,bacon
+梨,zh,ING:pear,
+雪梨,zh,ING:pear,
+朝天椒,zh,ING:chili-pepper,
+干贝,zh,ING:scallop,dried scallop
+低粉,zh,ING:wheat-flour,cake flour
+冰块,zh,ING:water,ice
+味淋,zh,ING:mirin,
+可乐,zh,ING:cola,
+凉白开,zh,ING:water,
+青柠,zh,ING:lime,
+花蛤,zh,ING:clam,
+蛤蜊,zh,ING:clam,
+花甲,zh,ING:clam,
+肋排,zh,ING:pork,pork ribs
+彩椒,zh,ING:bell-pepper,
+四季豆,zh,ING:green-beans,
+海参,zh,ING:sea-cucumber,
+香芹,zh,ING:parsley,
+酸奶,zh,ING:yogurt,
+海苔,zh,ING:nori,
+榨菜,zh,ING:pickle,zha cai (pickled mustard stem)
+意大利面,zh,ING:pasta,
+低筋粉,zh,ING:wheat-flour,
+藜麦,zh,ING:quinoa,
+全麦粉,zh,ING:wheat-flour,whole wheat flour
+木薯粉,zh,ING:cassava,tapioca starch
+中筋粉,zh,ING:wheat-flour,
+鲜奶,zh,ING:milk,
+香椿,zh,ING:toona,toon shoots
+栗子,zh,ING:chestnut,
+高粉,zh,ING:wheat-flour,bread flour
+平菇,zh,ING:oyster-mushroom,
+魔芋,zh,ING:konjac,
+淮山,zh,ING:yam,Chinese yam
+橙子,zh,ING:orange,
+乌冬面,zh,ING:noodles,udon
+豆皮,zh,ING:tofu-skin,
+荠菜,zh,ING:shepherd-s-purse,
+猪里脊,zh,ING:pork,
+螃蟹,zh,ING:crab,
+甜椒,zh,ING:bell-pepper,
+芡粉,zh,ING:starch,
+草菇,zh,ING:mushroom,straw mushroom
+茼蒿,zh,ING:garland-chrysanthemum,
+馄饨皮,zh,ING:wonton-wrapper,
+金桔,zh,ING:kumquat,
+高筋粉,zh,ING:wheat-flour,
+芸豆,zh,ING:kidney-beans,
+十三香,zh,ING:chinese-five-spice-powder,thirteen-spice powder (approximate)
+抹茶粉,zh,ING:green-tea,matcha
+豆沙,zh,ING:adzuki-bean,red bean paste
+豆沙馅,zh,ING:adzuki-bean,
+椰蓉,zh,ING:desiccated,desiccated coconut
+腐乳,zh,ING:tofu,fermented bean curd
+虫草花,zh,ING:mushroom,Cordyceps militaris (cultivated)
+猪肝,zh,ING:liver,pork liver
+肉松,zh,ING:pork,pork floss
+蜜枣,zh,ING:jujube,candied jujube
+蔓越莓,zh,ING:american-cranberry,
+蔓越莓干,zh,ING:american-cranberry,dried
+黄花菜,zh,ING:daylily,daylily buds
+澄粉,zh,ING:starch,wheat starch
+澄面,zh,ING:starch,wheat starch
+老干妈,zh,ING:chili-paste,Lao Gan Ma chili crisp
+火锅底料,zh,ING:chili-paste,hot-pot base
+猪肚,zh,ING:tripe,pork stomach
+培根片,zh,ING:pork,bacon
+肉,zh,ING:pork,unspecified meat; in Chinese home cooking usually pork
+肉馅,zh,ING:pork,"minced meat, usually pork"
+肉丝,zh,ING:pork,"shredded meat, usually pork"
+肉沫,zh,ING:pork,minced
+肉糜,zh,ING:pork,minced
+肉片,zh,ING:pork,"sliced meat, usually pork"
+肉丁,zh,ING:pork,diced
+里脊,zh,ING:pork,tenderloin
+杭椒,zh,ING:chili-pepper,
+指天椒,zh,ING:chili-pepper,
+线椒,zh,ING:chili-pepper,
+二荆条,zh,ING:chili-pepper,
+麻椒,zh,ING:sichuan-pepper,green Sichuan pepper
+豆瓣,zh,ING:doubanjiang,
+地瓜粉,zh,ING:starch,sweet-potato starch
+鹰嘴豆,zh,ING:chickpea,
+罗勒碎,zh,ING:basil,
+红茶,zh,ING:black-tea,
+吉利丁粉,zh,ING:gelatin,
+吉利丁片,zh,ING:gelatin,
+咸肉,zh,ING:pork,salted pork
+西蓝花,zh,ING:broccoli,
+午餐肉,zh,ING:pork,luncheon meat
+肥肠,zh,ING:pork,pork intestine
+菜花,zh,ING:cauliflower,
+韩国泡菜,zh,ING:kimchi,
+泡菜,zh,ING:kimchi,
+羊腿肉,zh,ING:lamb,
+梭子蟹,zh,ING:crab,
+红曲粉,zh,ING:rice,red yeast rice powder
+转化糖浆,zh,ING:glucose,invert syrup
+浓汤宝,zh,ING:stock,stock concentrate
+太太乐鲜鸡汁,zh,ING:meat-bouillon,liquid chicken bouillon
+味达美,zh,ING:soy-sauce,brand soy sauce
+南乳,zh,ING:tofu,red fermented bean curd
+塩,ja,ING:salt,
+水,ja,ING:water,
+醤油,ja,ING:soy-sauce,
+酒,ja,ING:sake,
+みりん,ja,ING:mirin,
+だし汁,ja,ING:dashi,
+酢,ja,ING:vinegar,
+米,ja,ING:rice,
+ごぼう,ja,ING:burdock,
+味噌,ja,ING:miso,
+大根,ja,ING:daikon,
+卵,ja,ING:egg,
+油揚げ,ja,ING:fried-tofu,aburaage
+こんにゃく,ja,ING:konjac,
+にんじん,ja,ING:carrot,
+ねぎ,ja,ING:scallion,negi
+油,ja,ING:vegetable-oil,
+干ししいたけ,ja,ING:shiitake,dried
+しょうが,ja,ING:ginger,
+しょうゆ,ja,ING:soy-sauce,
+里芋,ja,ING:taro,satoimo
+薄口醤油,ja,ING:soy-sauce,light (usukuchi)
+サラダ油,ja,ING:vegetable-oil,salad oil
+もち米,ja,ING:glutinous-rice,
+豆腐,ja,ING:tofu,
+片栗粉,ja,ING:potato-starch,katakuriko
+しいたけ,ja,ING:shiitake,
+淡口醤油,ja,ING:soy-sauce,usukuchi
+小豆,ja,ING:adzuki-bean,
+濃口醤油,ja,ING:soy-sauce,koikuchi
+長ねぎ,ja,ING:scallion,Japanese long onion (naganegi)
+なす,ja,ING:eggplant,
+かまぼこ,ja,ING:fish-cake,kamaboko
+じゃがいも,ja,ING:potato,
+揚げ油,ja,ING:vegetable-oil,frying oil
+熱湯,ja,ING:water,boiling
+唐辛子,ja,ING:chili-pepper,
+きゅうり,ja,ING:cucumber,
+煮干し,ja,ING:anchovy,niboshi (dried baby sardines/anchovies)
+れんこん,ja,ING:lotus,lotus root
+大豆,ja,ING:soybean,
+ごま,ja,ING:sesame,
+鶏肉,ja,ING:chicken,
+白ごま,ja,ING:sesame,
+白味噌,ja,ING:miso,white miso
+たまねぎ,ja,ING:onion,
+白菜,ja,ING:napa-cabbage,
+ちくわ,ja,ING:fish-cake,chikuwa
+上白糖,ja,ING:sugar,
+木綿豆腐,ja,ING:tofu,firm tofu
+赤味噌,ja,ING:miso,red miso
+厚揚げ,ja,ING:fried-tofu,atsuage
+かんぴょう,ja,ING:bottlegourd,kanpyo (dried gourd strips)
+鶏もも肉,ja,ING:chicken,chicken thigh
+さつまいも,ja,ING:sweet-potato,
+糸こんにゃく,ja,ING:konjac,shirataki
+ごま油,ja,ING:sesame-oil,
+紅しょうが,ja,ING:ginger,pickled red ginger
+生しいたけ,ja,ING:shiitake,fresh
+さやいんげん,ja,ING:green-beans,
+だいこん,ja,ING:daikon,
+薄口しょうゆ,ja,ING:soy-sauce,
+みょうが,ja,ING:myoga,
+食塩,ja,ING:salt,
+赤唐辛子,ja,ING:chili-pepper,
+うるち米,ja,ING:rice,non-glutinous rice
+焼き豆腐,ja,ING:tofu,grilled tofu
+あん,ja,ING:adzuki-bean,sweet bean paste (anko)
+豚肉,ja,ING:pork,
+きな粉,ja,ING:soy-flour,roasted soybean flour (kinako)
+薄力粉,ja,ING:wheat-flour,cake flour
+ご飯,ja,ING:rice,cooked rice
+青ねぎ,ja,ING:scallion,
+にんにく,ja,ING:garlic,
+ぬるま湯,ja,ING:water,lukewarm
+そうめん,ja,ING:noodles,somen (wheat)
+いりごま,ja,ING:sesame,toasted
+しめじ,ja,ING:shimeji-mushroom,
+三つ葉,ja,ING:mitsuba,
+高野豆腐,ja,ING:tofu,freeze-dried tofu (koya-dofu)
+たけのこ,ja,ING:bamboo-shoots,
+重曹,ja,ING:baking-soda,
+玉ねぎ,ja,ING:onion,
+春菊,ja,ING:garland-chrysanthemum,
+食紅,ja,ING:food-coloring,
+ごはん,ja,ING:rice,cooked rice
+かぼちゃ,ja,ING:pumpkin,kabocha
+木の芽,ja,ING:sansho,sansho leaf buds
+きなこ,ja,ING:soy-flour,kinako
+米粉,ja,ING:rice-flour,
+だし,ja,ING:dashi,
+こしょう,ja,ING:black-pepper,
+ざらめ,ja,ING:sugar,coarse sugar (zarame)
+青のり,ja,ING:macroalgae,aonori (green laver)
+米酢,ja,ING:vinegar,rice vinegar
+かつおだし,ja,ING:dashi,bonito dashi
+葉ねぎ,ja,ING:scallion,
+丸餅,ja,ING:rice-cake,round mochi
+もやし,ja,ING:bean-sprout,
+ふき,ja,ING:giant-butterbur,fuki
+上新粉,ja,ING:rice-flour,joshinko
+もち米粉,ja,ING:glutinous-rice-flour,
+白玉粉,ja,ING:glutinous-rice-flour,shiratamako
+みそ,ja,ING:miso,
+かつお節,ja,ING:bonito,katsuobushi (dried bonito flakes)
+さといも,ja,ING:taro,
+しそ,ja,ING:perilla,shiso
+黒ごま,ja,ING:sesame,black sesame
+くるみ,ja,ING:walnut,
+そば粉,ja,ING:buckwheat,buckwheat flour
+梅干し,ja,ING:japanese-apricot,umeboshi
+餅,ja,ING:rice-cake,mochi
+青じそ,ja,ING:perilla,green shiso
+大葉,ja,ING:perilla,ooba (green shiso)
+黒豆,ja,ING:soybean,black soybean
+いりこ,ja,ING:anchovy,iriko (dried anchovy)
+麦味噌,ja,ING:miso,barley miso
+地酒,ja,ING:sake,local sake
+ほうれん草,ja,ING:spinach,
+酒粕,ja,ING:sake,sake lees (sakekasu)
+干し椎茸,ja,ING:shiitake,dried
+白米,ja,ING:rice,
+打ち粉,ja,ING:wheat-flour,dusting flour
+湯,ja,ING:water,hot water
+本みりん,ja,ING:mirin,
+料理酒,ja,ING:sake,cooking sake
+豚三枚肉,ja,ING:pork,pork belly
+七味唐辛子,ja,ING:chili-pepper,shichimi (seven-spice chili)
+うるち米粉,ja,ING:rice-flour,
+えごま,ja,ING:perilla,egoma (perilla seed)
+すりごま,ja,ING:sesame,ground
+イワシ,ja,ING:pacific-sardine,sardine (iwashi)
+よもぎ,ja,ING:mugwort,yomogi
+おから,ja,ING:soybean,okara (soy pulp)
+わさび,ja,ING:wasabi,
+タイ,ja,ING:sea-bream,
+タコ,ja,ING:common-octopus,
+イカ,ja,ING:squid,
+金時豆,ja,ING:kidney-beans,
+ベーキングパウダー,ja,ING:baking-powder,
+もち粉,ja,ING:glutinous-rice-flour,
+こしあん,ja,ING:adzuki-bean,strained bean paste
+のり,ja,ING:nori,
+枝豆,ja,ING:edamame,
+サンマ,ja,ING:pacific-saury,
+だし醤油,ja,ING:soy-sauce,dashi soy sauce
+水あめ,ja,ING:glucose,starch syrup (mizuame)
+うどん,ja,ING:noodles,udon (wheat)
+わかめ,ja,ING:wakame,
+錦糸卵,ja,ING:egg,shredded omelette
+サバ,ja,ING:atlantic-mackerel,mackerel (saba; chub mackerel)
+白みそ,ja,ING:miso,
+出汁,ja,ING:dashi,
+干し大根,ja,ING:daikon,dried daikon
+エビ,ja,ING:shrimp,
+乾しいたけ,ja,ING:shiitake,dried
+清酒,ja,ING:sake,
+スルメイカ,ja,ING:squid,
+凍み豆腐,ja,ING:tofu,freeze-dried tofu
+せり,ja,ING:water-dropwort,seri
+おろししょうが,ja,ING:ginger,grated
+ゆでたけのこ,ja,ING:bamboo-shoots,boiled
+山椒の葉,ja,ING:sansho,
+牛乳,ja,ING:milk,
+小松菜,ja,ING:komatsuna,
+濃口しょうゆ,ja,ING:soy-sauce,
+すし飯,ja,ING:rice,sushi rice
+アジ,ja,ING:horse-mackerel,
+砂糖,ja,ING:sugar,
+さとう,ja,ING:sugar,
+しょう油,ja,ING:soy-sauce,
+生姜,ja,ING:ginger,
+ショウガ,ja,ING:ginger,
+ネギ,ja,ING:scallion,
+だし昆布,ja,ING:kombu,
+昆布,ja,ING:kombu,
+鶏卵,ja,ING:egg,
+たまご,ja,ING:egg,
+サツマイモ,ja,ING:sweet-potato,
+ニンジン,ja,ING:carrot,
+ゴボウ,ja,ING:burdock,
+大根葉,ja,ING:daikon,daikon leaves
+ほうれんそう,ja,ING:spinach,
+豚ばら肉,ja,ING:pork,
+牛肉,ja,ING:beef,
+みそ汁,ja,ING:miso,miso soup
+山椒,ja,ING:sansho,
+粉山椒,ja,ING:sansho,
+ゆず,ja,ING:citron,yuzu
+柚子,ja,ING:citron,yuzu
+すだち,ja,ING:lime,sudachi
+かぶ,ja,ING:turnip,
+しらたき,ja,ING:konjac,
+ささげ,ja,ING:cowpea,
+そば,ja,ING:noodles,soba
+人参,ja,ING:carrot,in Japanese 人参 (ninjin) = carrot
+金時人参,ja,ING:carrot,kintoki carrot
+小麦粉,ja,ING:wheat-flour,
+ゴマ油,ja,ING:sesame-oil,
+ケチャップ,ja,ING:ketchup,
+パン粉,ja,ING:breadcrumb,
+バター,ja,ING:butter,
+ちりめんじゃこ,ja,ING:anchovy,chirimen-jako (dried baby sardines)
+きぬさや,ja,ING:snow-pea,
+麹,ja,ING:rice,rice koji (Aspergillus-fermented rice)
+わらび,ja,ING:bracken,warabi (bracken fern)
+ハタハタ,ja,ING:sailfin-sandfish,
+さつま揚げ,ja,ING:fish-cake,
+鶏ガラ,ja,ING:chicken,chicken carcass (stock)
+地鶏,ja,ING:chicken,
+焼酎,ja,ING:spirit,shochu
+いんげん,ja,ING:green-beans,
+中力粉,ja,ING:wheat-flour,
+地粉,ja,ING:wheat-flour,local wheat flour
+番茶,ja,ING:green-tea,bancha
+削り節,ja,ING:bonito,dried fish flakes
+薄揚げ,ja,ING:fried-tofu,
+鯛,ja,ING:sea-bream,
+干し柿,ja,ING:persimmon,dried persimmon
+きくらげ,ja,ING:jew-s-ear,
+麩,ja,ING:gluten,wheat gluten (fu)
+鮎,ja,ING:ayu,
+栗,ja,ING:chestnut,
+えのき,ja,ING:enokitake,
+にら,ja,ING:chinese-chives,
+マヨネーズ,ja,ING:mayonnaise,
+ブリ,ja,ING:yellowtail-amberjack,"buri (Seriola quinqueradiata), approximate"
+さやえんどう,ja,ING:snow-pea,
+グラニュー糖,ja,ING:sugar,
+ラード,ja,ING:lard,
+鶏むね肉,ja,ING:chicken,
+みつば,ja,ING:mitsuba,
+納豆,ja,ING:natto,
+ぜんまい,ja,ING:osmund-fern,zenmai
+まいたけ,ja,ING:maitake,
+赤とうがらし,ja,ING:chili-pepper,
+鯉,ja,ING:common-carp,
+めんつゆ,ja,ING:soy-sauce,noodle soup base
+からし,ja,ING:mustard,karashi
+練り辛子,ja,ING:mustard,karashi paste
+練りからし,ja,ING:mustard,
+花かつお,ja,ING:bonito,
+かつおぶし,ja,ING:bonito,
+タケノコ,ja,ING:bamboo-shoots,
+フナ,ja,ING:crucian-carp,
+わけぎ,ja,ING:scallion,wakegi
+とりもも肉,ja,ING:chicken,
+えび,ja,ING:shrimp,
+薄口醬油,ja,ING:soy-sauce,
+とうがらし,ja,ING:chili-pepper,
+むきぐるみ,ja,ING:walnut,
+棒寒天,ja,ING:agar,
+寒天,ja,ING:agar,
+ザラメ,ja,ING:sugar,
+うど,ja,ING:udo,udo (Aralia cordata)
+里いも,ja,ING:taro,
+卯の花,ja,ING:soybean,okara
+出し汁,ja,ING:dashi,
+アサリ,ja,ING:clam,
+ウスターソース,ja,ING:worcestershite-sauce,
+ししとう,ja,ING:bell-pepper,shishito pepper (Capsicum annuum)
+きざみ海苔,ja,ING:nori,
+スルメ,ja,ING:squid,dried squid
+ぎんなん,ja,ING:ginkgo-nuts,
+そら豆,ja,ING:broad-bean,
+ほうじ茶,ja,ING:green-tea,roasted green tea
+素麺,ja,ING:noodles,
+アユ,ja,ING:ayu,
+椎茸,ja,ING:shiitake,
+かき,ja,ING:true-oyster,oyster (kaki); ambiguous with persimmon 柿
+氷,ja,ING:water,ice
+あずき,ja,ING:adzuki-bean,
+サワラ,ja,ING:spanish-mackerel,sawara (Japanese Spanish mackerel)
+もみじおろし,ja,ING:daikon,grated daikon with chili
+太刀魚,ja,ING:cutlassfish,
+カツオ節,ja,ING:bonito,katsuobushi
+花カツオ,ja,ING:bonito,
+干しシイタケ,ja,ING:shiitake,dried
+身欠きニシン,ja,ING:pacific-herring,dried herring
+身欠きにしん,ja,ING:pacific-herring,dried herring
+生サケ,ja,ING:salmon,
+マス,ja,ING:salmon,"trout/masu salmon, approximate"
+とうもろこし,ja,ING:corn,
+数の子,ja,ING:roe,herring roe
+てんさい糖,ja,ING:sugar,beet sugar
+中ざら糖,ja,ING:sugar,
+うるち粉,ja,ING:rice-flour,
+鶏がらスープ,ja,ING:chicken,chicken stock
+きのこ,ja,ING:mushroom,
+白身魚,ja,ING:fish,white fish
+魚,ja,ING:fish,
+みかんの皮,ja,ING:mandarin-orange,peel
+なると,ja,ING:fish-cake,naruto
+鶏がら,ja,ING:chicken,
+鷹の爪,ja,ING:chili-pepper,takanotsume
+モヤシ,ja,ING:bean-sprout,
+カブ,ja,ING:turnip,
+山の芋,ja,ING:yam,Japanese yam (Dioscorea)
+ダイコン,ja,ING:daikon,
+cornstarch,en,ING:cornstarch,
+brown,en,ING:sugar,brown-sugar
+light brown,en,ING:sugar,brown-sugar
+dark brown,en,ING:sugar,brown-sugar
+soft brown,en,ING:sugar,brown-sugar
+ginger,en,ING:garlic,ginger-garlic-paste
+curry,en,ING:curry-powder,ambiguous 'curry' line; most often curry powder
+hot,en,ING:water,water
+warm,en,ING:water,water
+cold,en,ING:water,water
+boiling,en,ING:water,water
+lukewarm,en,ING:water,water
+chilled,en,ING:water,water
+ice,en,ING:water,water
+milliliter of,en,ING:water,water
+glass,en,ING:water,water
+cupwater,en,ING:water,
+water to knead,en,ING:water,
+ice cube,en,ING:water,ice
+makhana,en,ING:foxnut,
+phool makhana,en,ING:foxnut,
+bowl makhana,en,ING:foxnut,
+sabudana,en,ING:tapioca-pearl,
+soaked sabudana,en,ING:tapioca-pearl,
+red curry paste,en,ING:thai-curry-paste,
+thai red curry paste,en,ING:thai-curry-paste,
+green curry paste,en,ING:thai-curry-paste,
+curry paste,en,ING:thai-curry-paste,
+caster,en,ING:sugar,sugar
+confectioner,en,ING:sugar,sugar
+powdered,en,ING:sugar,sugar
+superfine,en,ING:sugar,sugar
+fine,en,ING:sugar,sugar
+granulated white,en,ING:sugar,sugar
+sugar chini,en,ING:sugar,
+five,en,ING:spice,powder chinese-five-spice-powder
+chili,en,ING:garlic,sauce chili-paste
+coriander,en,ING:cumin,seed coriander-cumin-seed-powder
+sambal oelek,en,ING:chili-paste,
+aloo,en,ING:potato,
+split bengal,en,ING:gram,chana-dal
+mawa,en,ING:khoya,
+khoa,en,ING:khoya,
+panir,en,ING:paneer,
+slit green chilli,en,ING:chili-pepper,
+tabasco sauce,en,ING:hot-sauce,
+gingelly oil,en,ING:sesame-oil,sesame oil (South India)
+amchoor,en,ING:amchur,
+amchoor powder,en,ING:amchur,
+eno,en,ING:fruit-salt,
+soda,en,ING:baking-soda,
+cooking soda,en,ING:baking-soda,
+teriyaki sauce,en,ING:teriyaki-sauce,
+dashi,en,ING:dashi,
+refined flour,en,ING:refined-wheat-flour,
+white flour,en,ING:refined-wheat-flour,
+while flour,en,ING:refined-wheat-flour,typo
+allpurpose flour,en,ING:refined-wheat-flour,
+neutral oil,en,ING:vegetable-oil,
+ketjap manis,en,ING:soy-sauce,sweet soy sauce (kecap manis)
+malai,en,ING:cream,
+suji,en,ING:semolina,
+roasted,en,ING:gram,pottukadalai
+laung,en,ING:clove,
+lavang,en,ING:clove,
+matar,en,ING:peas,
+gongura leaf,en,ING:kenaf,gongura = Hibiscus cannabinus
+lauki,en,ING:bottlegourd,
+half and half,en,ING:half-half,
+catsup,en,ING:ketchup,
+tutti frutti,en,ING:candied-mixed-fruit,
+nam pla,en,ING:fish-sauce,
+split black,en,ING:gram,urad-dal
+black,en,ING:gram,dehusked urad-dal
+whole black,en,ING:gram,urad-dal
+dhal,en,ING:dal,
+rai,en,ING:mustard,mustard seed
+kaju,en,ING:cashew-nut,
+heeng,en,ING:asafoetida,
+amla,en,ING:nellikai,Indian gooseberry
+gur,en,ING:jaggery,
+spring roll wrapper,en,ING:wonton-wrapper,
+lumpia skin,en,ING:wonton-wrapper,
+baharat,en,ING:baharat,
+sumaq,en,ING:sumac,
+kasoori,en,ING:fenugreek,dried fenugreek leaves
+kasuri,en,ING:fenugreek,
+schezwan sauce,en,ING:chili-paste,Indo-Chinese chili sauce
+tandoori,en,ING:tandoori-masala,
+rajgira flour,en,ING:amaranth,
+kaddu,en,ING:pumpkin,
+javitri,en,ING:mace,
+tejpatta,en,ING:indian-bay-leaf,
+biryani leaf,en,ING:indian-bay-leaf,
+gorom moshla,en,ING:garam-masala,
+mung,en,ING:mung-bean,
+kong,en,ING:saffron,saffron
+samh flour,en,ING:samh,
+ground,en,ING:samh,seed samh
+tail fat,en,ING:tail-fat,
+minced young camel,en,ING:meat,camel-meat
+young camel,en,ING:meat,with bone camel-meat
+camel fat chopped,en,ING:camel-meat,camel fat
+mree,en,ING:jameed,
+mrees diced,en,ING:jameed,
+mrees cut into small piece,en,ING:jameed,
+red color,en,ING:food-coloring,
+color,en,ING:food-coloring,
+yellow color,en,ING:food-coloring,
+green color,en,ING:food-coloring,
+food colour,en,ING:food-coloring,
+colour,en,ING:food-coloring,
+yellow colour,en,ING:food-coloring,
+food color,en,ING:food-coloring,
+meat,en,ING:stock,stock
+oil or fat,en,ING:vegetable-oil,
+nion,en,ING:onion,typo
+oil plant,en,ING:sunflower-oil,Kyrgyz 'Oil plant (sunflower)'
+barberry,en,ING:barberry,
+silver foil,en,ING:silver-leaf,
+pinch,en,ING:salt,salt
+as requiredsalt,en,ING:salt,
+required,en,ING:salt,salt
+salt as taste,en,ING:salt,
+salt and,en,ING:water,salt
+hot oil,en,ING:vegetable-oil,
+oil for roasting,en,ING:vegetable-oil,
+oil to cook,en,ING:vegetable-oil,
+tbs oil,en,ING:vegetable-oil,
+table spoon oil,en,ING:vegetable-oil,
+plain flour for rolling,en,ING:wheat-flour,
+teaspoon,en,ING:turmeric,turmeric
+mixed veggy,en,ING:mixed-vegetables,
+to mato,en,ING:tomato,typo
+rendered fat,en,ING:tail-fat,Saudi recipe: rendered sheep fat
+fat chopped,en,ING:tail-fat,Saudi recipe: sheep fat
+coarse,en,ING:salt,salt
+millet flour,en,ING:millet,
+lamb or,en,ING:beef,meat lamb Kyrgyz recipe: lamb or beef

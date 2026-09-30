@@ -26,7 +26,9 @@ paper-centric literature review to a **dataset-centric survey**.
    cooking method), *Ingredients & compounds* (effect on the body), *Access status*, *Needs contact*.
 4. **`Countries/` and `Regions/`**: what data exists for each country, e.g. `Countries/Saudi Arabia.md`,
    `Regions/Central Asia.md`. `Regions/Global.md` covers the resources with no country labels.
-5. **[Access requests](Access%20requests.md)**: datasets that need a person to act (an email, a form, an account).
+5. **[Unified database](Database/Unified%20database.md)**: a DuckDB database linking dishes → ingredients →
+   compounds → symptoms/diseases and back (`db/`), with worked traces in `Database/`.
+6. **[Access requests](Access%20requests.md)**: datasets that need a person to act (an email, a form, an account).
    Drafts are in `Access-help/`, each tracked by a GitHub issue labelled `access-request`.
 
 ## What's in it (survey of 2026-09-30)
@@ -70,6 +72,8 @@ follows [`CLAUDE.md`](CLAUDE.md), whose section *Dataset-centric topics* covers 
 | Command | What it does |
 |---|---|
 | `uv run _tools/profile_dataset.py <slug>` | Profiles every table in `Data/<slug>/` (csv/tsv/json/jsonl/parquet/xlsx/sqlite) and writes `schema.md` (rows, columns, dtypes, non-null share, examples) and `sample.csv` |
+| `uv run db/build.py --fresh` | Builds the unified dish ↔ condition DuckDB (`db/unified.duckdb`, ~2 min); writes `db/build_report.md` |
+| `uv run db/trace.py dish\|condition\|sql …` | Prints dish → condition or condition → dish traces with sources and evidence grades |
 | `python3 _tools/build_geo.py [--check]` | Creates or refreshes `Countries/` and `Regions/` notes from the datasets' `countries` / `regions`. Only the generated block is rewritten; hand-written text is kept |
 | `python3 _tools/check_vault.py` | Checks required properties, allowed values in dataset notes, country/region links, `schema.md` for accessed datasets, duplicate note names, and that links and embeds resolve |
 | `uv run _tools/extract_all.py [citekey …]` | Downloads paper PDFs and extracts them with docling (template tool) |

@@ -136,8 +136,8 @@ what different cultures eat, which ingredients they use, and what those do to th
    - [[EMFID (Eastern Mediterranean Food Information Data Bank)]] and [[Lebanon traditional dishes composition]]
    - [[Wikidata dishes]]
 4. **Fill the Gulf gap:** the UAE nutrient dataset (contact authors), [[Arabic myfood24 FCDB]], and Kuwaiti dish tables.
-5. **Build the join layer:** resolve compounds by InChIKey (curcumin has two PubChem CIDs across sources), and map
-   dish ingredients to FooDB/FDC ids.
+5. **Build the join layer:** done on branch `unified-db`, as the [[Unified database]] (dish ↔ ingredient ↔ compound ↔
+   condition, DuckDB), with traces in [[Traces - dish to symptom]] and [[Traces - symptom to dish]].
 
 ## Datasets in this topic
 ![[Datasets.base#All datasets]]

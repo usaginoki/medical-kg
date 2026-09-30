@@ -49,7 +49,7 @@ def prop_list(fm, key):
     return [v for v in vals if v]
 
 
-scan = [p for d in ("Papers", "Questions", "Sessions", "Backlog", "Datasets", "Countries", "Regions")
+scan = [p for d in ("Papers", "Questions", "Sessions", "Backlog", "Datasets", "Countries", "Regions", "Database")
         for p in glob.glob(f"{d}/*.md")] + ["Backlog.md"]
 countries = {os.path.basename(p)[:-3] for p in glob.glob("Countries/*.md")}
 regions = {os.path.basename(p)[:-3] for p in glob.glob("Regions/*.md")}
@@ -118,7 +118,7 @@ for p in sorted(scan):
 # Obsidian resolves [[Name]] by file name, so the same name in two folders makes links ambiguous
 by_name = collections.defaultdict(list)
 for p in glob.glob("**/*.md", recursive=True):
-    if not p.startswith((".", "_tools", "Templates", "Access-help", "Data/")):
+    if not p.startswith((".", "_tools", "Templates", "Access-help", "Data/", "db/")):
         by_name[os.path.basename(p)].append(p)
 for n, ps in by_name.items():
     if len(ps) > 1:

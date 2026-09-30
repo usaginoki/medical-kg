@@ -59,5 +59,10 @@ The unit is the **dataset**, not the paper (`_tools/README.md` → *Dataset note
    `Backlog/<Name> (candidate).md` (note names must be unique vault-wide; `check_vault.py` flags duplicates).
 5. After all datasets: build `Countries/` + `Regions/` notes from the `countries` / `regions` properties.
 
+## Unified database
+`db/` builds a DuckDB database linking dishes ↔ ingredients ↔ compounds ↔ conditions (see `db/README.md`,
+`Database/Unified database.md`). Answer "what does this dish do / which dishes for this symptom" questions with
+`uv run db/trace.py`, and quote the evidence grade and source of every hop.
+
 ## Git
 PDFs and `.cache/` are git-ignored. Commit or push only when the user asks.

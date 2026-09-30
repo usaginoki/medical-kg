@@ -1,0 +1,407 @@
+nutrient_key,source,name,unit,mesh_id,compound_name
+Energy (kJ) [kJ],sfct,Energy (kJ),kJ,,
+Magnesium [mg],sfct,Magnesium,mg,MESH:D008274,Magnesium
+Energy (kcal) [kcal],sfct,Energy (kcal),kcal,,
+Phosphorus [mg],sfct,Phosphorus,mg,MESH:D010758,Phosphorus
+Moisture Content [g],sfct,Moisture Content,g,,
+Potassium [mg],sfct,Potassium,mg,MESH:D011188,Potassium
+Total Protein [g],sfct,Total Protein,g,MESH:D004044,Dietary Proteins
+Sodium [mg],sfct,Sodium,mg,MESH:D012964,Sodium
+Total Nitrogen [g],sfct,Total Nitrogen,g,,
+Chloride [mg],sfct,Chloride,mg,MESH:D002712,Chloride
+Total Fat [g],sfct,Total Fat,g,MESH:D004041,Dietary fats (total fat)
+Zinc [mg],sfct,Zinc,mg,MESH:D015032,Zinc
+Available Carbohydrates [g],sfct,Available Carbohydrates,g,MESH:D004040,Dietary carbohydrates
+Copper [mg],sfct,Copper,mg,MESH:D003300,Copper
+Total Carbohydrates [g],sfct,Total Carbohydrates,g,MESH:D004040,Dietary carbohydrates
+Manganese [mg],sfct,Manganese,mg,MESH:D008345,Manganese
+Total sugars [g],sfct,Total sugars,g,MESH:D000073417,Dietary sugars (total/added/free sugars)
+Selenium [µg],sfct,Selenium,µg,MESH:D012643,Selenium
+Added Sugar [g],sfct,Added Sugar,g,MESH:D000073417,Dietary sugars (total/added/free sugars)
+Iodine [µg],sfct,Iodine,µg,MESH:D007455,Iodine
+Total Dietary Fibre [g],sfct,Total Dietary Fibre,g,MESH:D004043,Dietary fiber
+Vitamin A (as Retinol) [µg],sfct,Vitamin A (as Retinol),µg,MESH:D014801,Vitamin A (retinol / RAE / RE)
+Soluble Fibre [g],sfct,Soluble Fibre,g,MESH:D004043,Dietary fiber
+Beta-carotene [µg],sfct,Beta-carotene,µg,MESH:D019207,beta-Carotene
+Insoluble Fibre [g],sfct,Insoluble Fibre,g,MESH:D004043,Dietary fiber
+Vitamin D [µg],sfct,Vitamin D,µg,MESH:D014807,Vitamin D
+Ash Content [g],sfct,Ash Content,g,,
+Vitamin E (as a-Tocopherol) [mg],sfct,Vitamin E (as a-Tocopherol),mg,MESH:D024502,alpha-Tocopherol
+Cholesterol [mg],sfct,Cholesterol,mg,MESH:D002791,Dietary cholesterol
+Vitamin K [µg],sfct,Vitamin K,µg,MESH:D014812,Vitamin K
+Saturated Fatty Acids [g],sfct,Saturated Fatty Acids,g,MESH:D005227,Saturated fatty acids (MeSH entry term of Fatty Acids)
+Vitamin C (as Ascorbic Acid) [mg],sfct,Vitamin C (as Ascorbic Acid),mg,MESH:D001205,Vitamin C (ascorbic acid)
+Monounsaturated Fatty Acids [g],sfct,Monounsaturated Fatty Acids,g,MESH:D005229,Monounsaturated fatty acids
+Vitamin B1 [mg],sfct,Vitamin B1,mg,MESH:D013831,Thiamine (B1)
+Polyunsaturated Fatty Acids [g],sfct,Polyunsaturated Fatty Acids,g,MESH:D005231,"Polyunsaturated fatty acids (MeSH: Fatty Acids, Unsaturated)"
+Vitamin B2 [mg],sfct,Vitamin B2,mg,MESH:D012256,Riboflavin (B2)
+Total Unsaturated Fat [g],sfct,Total Unsaturated Fat,g,MESH:D005231,Unsaturated fatty acids
+Vitamin B3 (Total) [mg],sfct,Vitamin B3 (Total),mg,MESH:D009525,Niacin (B3)
+Trans-Fat (TFA) [g],sfct,Trans-Fat (TFA),g,MESH:D044242,Trans fatty acids
+Vitamin B5 [mg],sfct,Vitamin B5,mg,MESH:D010205,Pantothenic acid (B5)
+Sum of Omega-3 (n-3) [g],sfct,Sum of Omega-3 (n-3),g,MESH:D015525,Omega-3 fatty acids
+Vitamin B6 [mg],sfct,Vitamin B6,mg,MESH:D025101,Vitamin B6
+Sum of Omega-6 (n-6) [g],sfct,Sum of Omega-6 (n-6),g,MESH:D043371,Omega-6 fatty acids
+Vitamin B7 (Biotin) [µg],sfct,Vitamin B7 (Biotin),µg,MESH:D001710,Biotin (B7)
+Sum of Omega-9 (n-9) [g],sfct,Sum of Omega-9 (n-9),g,,Omega-9 fatty acids
+Vitamin B9 (Folic Acid) [µg],sfct,Vitamin B9 (Folic Acid),µg,MESH:D005492,Folate / folic acid (B9)
+Calcium [mg],sfct,Calcium,mg,MESH:D002118,Calcium
+Vitamin B12 (Cyanocobalamin) [µg],sfct,Vitamin B12 (Cyanocobalamin),µg,MESH:D014805,Vitamin B12
+Iron [mg],sfct,Iron,mg,MESH:D007501,Iron
+H2O (ml/100g),bfct,H2O,ml,,
+Energy (kcal/100g),bfct,Energy,kcal,,
+CHO (g/100g),bfct,CHO,g,MESH:D004040,Dietary carbohydrates
+Fiber (g/100g),bfct,Fiber,g,MESH:D004043,Dietary fiber
+Sugar (g/100g),bfct,Sugar,g,MESH:D000073417,Dietary sugars (total/added/free sugars)
+Protein (g/100g),bfct,Protein,g,MESH:D004044,Dietary Proteins
+Fat (g/100g),bfct,Fat,g,MESH:D004041,Dietary fats (total fat)
+Total fat (g/100g),bfct,Total fat,g,MESH:D004041,Dietary fats (total fat)
+H2O (g/100g),bfct,H2O,g,,
+SFA (g/100g),bfct,SFA,g,MESH:D005227,Saturated fatty acids (MeSH entry term of Fatty Acids)
+TFA (g/100g),bfct,TFA,g,MESH:D044242,Trans fatty acids
+MUFA (g/100g),bfct,MUFA,g,MESH:D005229,Monounsaturated fatty acids
+Cholesterol (mg/100g),bfct,Cholesterol,mg,MESH:D002791,Dietary cholesterol
+Ash (g/100g),bfct,Ash,g,,
+Na (mg/100g),bfct,Na,mg,MESH:D012964,Sodium
+K (mg/100g),bfct,K,mg,MESH:D011188,Potassium
+Ca (mg/100g),bfct,Ca,mg,MESH:D002118,Calcium
+P (mg/100g),bfct,P,mg,MESH:D010758,Phosphorus
+Mg (mg/100g),bfct,Mg,mg,MESH:D008274,Magnesium
+Fe (mg/100g),bfct,Fe,mg,MESH:D007501,Iron
+Cu (mg/100g),bfct,Cu,mg,MESH:D003300,Copper
+Zn (mg/100g),bfct,Zn,mg,MESH:D015032,Zinc
+Mn (mg/100g),bfct,Mn,mg,MESH:D008345,Manganese
+B (mg/100g),bfct,B,mg,MESH:D001895,Boron
+Cr (mg/100g),bfct,Cr,mg,MESH:D002857,Chromium
+Al (mg/100g),bfct,Al,mg,MESH:D000535,Aluminium
+I (mg/100g),bfct,I,mg,MESH:D007455,Iodine
+Se (mcg/100g),bfct,Se,µg,MESH:D012643,Selenium
+Mo (mg/100g),bfct,Mo,mg,MESH:D008982,Molybdenum
+Vitamin C ascorbic acid (mg/100g),bfct,Vitamin C ascorbic acid,mg,MESH:D001205,Vitamin C (ascorbic acid)
+Thiamin (mg/100g),bfct,Thiamin,mg,MESH:D013831,Thiamine (B1)
+Riboflavin (mg/100g),bfct,Riboflavin,mg,MESH:D012256,Riboflavin (B2)
+Niacin (mg/100g),bfct,Niacin,mg,MESH:D009525,Niacin (B3)
+B6 (mg/100g),bfct,B6,mg,MESH:D025101,Vitamin B6
+Folate (mcg/100g),bfct,Folate,µg,MESH:D005492,Folate / folic acid (B9)
+B12 (mcg/100g),bfct,B12,µg,MESH:D014805,Vitamin B12
+Vitamin A retinol (mg/100g as printed),bfct,Vitamin A retinol,mg,MESH:D014801,Vitamin A (retinol / RAE / RE)
+Vitamin E (mg/100g),bfct,Vitamin E,mg,MESH:D014810,Vitamin E
+Vitamin D (IU),bfct,Vitamin D,IU,MESH:D014807,Vitamin D
+ENERC,kfct,Energy,kJ,,
+ENERC_2,kfct,Energy,kcal,,
+WATER,kfct,Water,g,,
+PROT,kfct,Protein,g,MESH:D004044,Dietary Proteins
+FAT,kfct,Fat,g,MESH:D004041,Dietary fats (total fat)
+CHOT,kfct,"Carbohydrate, total",g,MESH:D004040,Dietary carbohydrates
+CHO,kfct,"Carbohydrate, available",g,MESH:D004040,Dietary carbohydrates
+GLUS,kfct,Glucose,g,MESH:D005947,Glucose
+FRU,kfct,Fructose,g,MESH:D005632,Fructose
+SUCS,kfct,Sucrose,g,MESH:D013395,Sucrose
+SUGAR,kfct,"Sugars, total",g,MESH:D000073417,Dietary sugars (total/added/free sugars)
+SUGRD,kfct,"Sugars, reducing",g,MESH:D000073417,Dietary sugars (total/added/free sugars)
+LACS,kfct,Lactose,g,MESH:D007785,Lactose
+FIBT,kfct,"Fibre, total",g,MESH:D004043,Dietary fiber
+PECT,kfct,Pectin,g,MESH:D010368,Pectins
+ALC,kfct,Alcohol,g,MESH:D000431,Ethanol (alcohol)
+OA,kfct,Organic acids,g,,
+CA,kfct,Calcium,mg,MESH:D002118,Calcium
+FE,kfct,Iron,mg,MESH:D007501,Iron
+MG,kfct,Magnesium,mg,MESH:D008274,Magnesium
+P,kfct,Phosphorus,mg,MESH:D010758,Phosphorus
+K,kfct,Potassium,mg,MESH:D011188,Potassium
+ZN,kfct,Zinc,mg,MESH:D015032,Zinc
+CU,kfct,Copper,mg,MESH:D003300,Copper
+NA,kfct,Sodium,mg,MESH:D012964,Sodium
+ASH,kfct,Ash,g,,
+VITA,kfct,Vitamin A,µg,MESH:D014801,Vitamin A (retinol / RAE / RE)
+CARTB,kfct,beta-Carotene,µg,MESH:D019207,beta-Carotene
+CAROT,kfct,Carotene,µg,MESH:D019207,beta-Carotene
+VITE,kfct,Vitamin E,mg,MESH:D014810,Vitamin E
+THIA,kfct,Thiamin,mg,MESH:D013831,Thiamine (B1)
+RIBF,kfct,Riboflavin,mg,MESH:D012256,Riboflavin (B2)
+FOL,kfct,Folate,µg,MESH:D005492,Folate / folic acid (B9)
+VITC,kfct,Vitamin C,mg,MESH:D001205,Vitamin C (ascorbic acid)
+energy_kj,indb,energy,kj,,
+energy_kcal,indb,energy,kcal,,
+carb_g,indb,carb,g,MESH:D004040,Dietary carbohydrates
+protein_g,indb,protein,g,MESH:D004044,Dietary Proteins
+fat_g,indb,fat,g,MESH:D004041,Dietary fats (total fat)
+freesugar_g,indb,freesugar,g,MESH:D000073417,Dietary sugars (total/added/free sugars)
+fibre_g,indb,fibre,g,MESH:D004043,Dietary fiber
+sfa_mg,indb,sfa,mg,MESH:D005227,Saturated fatty acids (MeSH entry term of Fatty Acids)
+mufa_mg,indb,mufa,mg,MESH:D005229,Monounsaturated fatty acids
+pufa_mg,indb,pufa,mg,MESH:D005231,"Polyunsaturated fatty acids (MeSH: Fatty Acids, Unsaturated)"
+cholesterol_mg,indb,cholesterol,mg,MESH:D002791,Dietary cholesterol
+calcium_mg,indb,calcium,mg,MESH:D002118,Calcium
+phosphorus_mg,indb,phosphorus,mg,MESH:D010758,Phosphorus
+magnesium_mg,indb,magnesium,mg,MESH:D008274,Magnesium
+sodium_mg,indb,sodium,mg,MESH:D012964,Sodium
+potassium_mg,indb,potassium,mg,MESH:D011188,Potassium
+iron_mg,indb,iron,mg,MESH:D007501,Iron
+copper_mg,indb,copper,mg,MESH:D003300,Copper
+selenium_ug,indb,selenium,µg,MESH:D012643,Selenium
+chromium_mg,indb,chromium,mg,MESH:D002857,Chromium
+manganese_mg,indb,manganese,mg,MESH:D008345,Manganese
+molybdenum_mg,indb,molybdenum,mg,MESH:D008982,Molybdenum
+zinc_mg,indb,zinc,mg,MESH:D015032,Zinc
+vita_ug,indb,vita,µg,MESH:D014801,Vitamin A (retinol / RAE / RE)
+vite_mg,indb,vite,mg,MESH:D014810,Vitamin E
+vitd2_ug,indb,vitd2,µg,MESH:D004872,Vitamin D2 (ergocalciferol)
+vitd3_ug,indb,vitd3,µg,MESH:D002762,Vitamin D3 (cholecalciferol)
+vitk1_ug,indb,vitk1,µg,MESH:D010837,Vitamin K1 (phylloquinone)
+vitk2_ug,indb,vitk2,µg,MESH:D024482,Vitamin K2 (menaquinone)
+folate_ug,indb,folate,µg,MESH:D005492,Folate / folic acid (B9)
+vitb1_mg,indb,vitb1,mg,MESH:D013831,Thiamine (B1)
+vitb2_mg,indb,vitb2,mg,MESH:D012256,Riboflavin (B2)
+vitb3_mg,indb,vitb3,mg,MESH:D009525,Niacin (B3)
+vitb5_mg,indb,vitb5,mg,MESH:D010205,Pantothenic acid (B5)
+vitb6_mg,indb,vitb6,mg,MESH:D025101,Vitamin B6
+vitb7_ug,indb,vitb7,µg,MESH:D001710,Biotin (B7)
+vitb9_ug,indb,vitb9,µg,MESH:D005492,Folate / folic acid (B9)
+vitc_mg,indb,vitc,mg,MESH:D001205,Vitamin C (ascorbic acid)
+carotenoids_ug,indb,carotenoids,µg,MESH:D002338,Carotenoids (total)
+1008,usda,Energy,kcal,,
+1062,usda,Energy,kJ,,
+2047,usda,Energy (Atwater General Factors),kcal,,
+2048,usda,Energy (Atwater Specific Factors),kcal,,
+1051,usda,Water,g,,
+1007,usda,Ash,g,,
+1002,usda,Nitrogen,g,,
+1003,usda,Protein,g,MESH:D004044,Dietary Proteins
+1004,usda,Total lipid (fat),g,MESH:D004041,Dietary fats (total fat)
+1085,usda,Total fat (NLEA),g,MESH:D004041,Dietary fats (total fat)
+1005,usda,"Carbohydrate, by difference",g,MESH:D004040,Dietary carbohydrates
+1050,usda,"Carbohydrate, by summation",g,MESH:D004040,Dietary carbohydrates
+2000,usda,"Sugars, total including NLEA",g,MESH:D000073417,Dietary sugars (total/added/free sugars)
+1063,usda,"Sugars, Total NLEA",g,MESH:D000073417,Dietary sugars (total/added/free sugars)
+1235,usda,"Sugars, added",g,MESH:D000073417,Dietary sugars (total/added/free sugars)
+1010,usda,Sucrose,g,MESH:D013395,Sucrose
+1011,usda,Glucose,g,MESH:D005947,Glucose
+1012,usda,Fructose,g,MESH:D005632,Fructose
+1013,usda,Lactose,g,MESH:D007785,Lactose
+1014,usda,Maltose,g,MESH:D008320,Maltose
+1075,usda,Galactose,g,MESH:D005690,Galactose
+1009,usda,Starch,g,MESH:D013213,Starch
+1079,usda,"Fiber, total dietary",g,MESH:D004043,Dietary fiber
+1082,usda,"Fiber, soluble",g,MESH:D004043,Dietary fiber
+1084,usda,"Fiber, insoluble",g,MESH:D004043,Dietary fiber
+2033,usda,Total dietary fiber (AOAC 2011.25),g,MESH:D004043,Dietary fiber
+1018,usda,"Alcohol, ethyl",g,MESH:D000431,Ethanol (alcohol)
+1057,usda,Caffeine,mg,MESH:D002110,Caffeine
+1058,usda,Theobromine,mg,MESH:D013805,Theobromine
+1083,usda,Theophylline,mg,MESH:D013806,Theophylline
+1041,usda,Oxalic acid,mg,MESH:D019815,Oxalic acid
+1042,usda,Phytic acid,mg,MESH:D010833,Phytic acid
+1032,usda,Citric acid,mg,MESH:D019343,Citric acid
+1039,usda,Malic acid,mg,MESH:C030298,Malic acid
+1054,usda,Piperine,g,MESH:C008922,Piperine
+1059,usda,Nitrates,mg,MESH:D009566,Nitrates
+1060,usda,Nitrites,mg,MESH:D009573,Nitrites
+1087,usda,"Calcium, Ca",mg,MESH:D002118,Calcium
+1088,usda,"Chlorine, Cl",mg,MESH:D002712,Chloride
+1089,usda,"Iron, Fe",mg,MESH:D007501,Iron
+1090,usda,"Magnesium, Mg",mg,MESH:D008274,Magnesium
+1091,usda,"Phosphorus, P",mg,MESH:D010758,Phosphorus
+1092,usda,"Potassium, K",mg,MESH:D011188,Potassium
+1093,usda,"Sodium, Na",mg,MESH:D012964,Sodium
+1149,usda,"Salt, NaCl",mg,MESH:D017673,Salt (NaCl) equivalent
+1094,usda,"Sulfur, S",mg,MESH:D013455,Sulfur
+1095,usda,"Zinc, Zn",mg,MESH:D015032,Zinc
+1096,usda,"Chromium, Cr",µg,MESH:D002857,Chromium
+1098,usda,"Copper, Cu",mg,MESH:D003300,Copper
+1099,usda,"Fluoride, F",µg,MESH:D005459,Fluoride
+1100,usda,"Iodine, I",µg,MESH:D007455,Iodine
+1101,usda,"Manganese, Mn",mg,MESH:D008345,Manganese
+1102,usda,"Molybdenum, Mo",µg,MESH:D008982,Molybdenum
+1103,usda,"Selenium, Se",µg,MESH:D012643,Selenium
+1137,usda,"Boron, B",µg,MESH:D001895,Boron
+1104,usda,"Vitamin A, IU",IU,MESH:D014801,Vitamin A (retinol / RAE / RE)
+1105,usda,Retinol,µg,MESH:D014801,Vitamin A (retinol / RAE / RE)
+1106,usda,"Vitamin A, RAE",µg,MESH:D014801,Vitamin A (retinol / RAE / RE)
+1107,usda,"Carotene, beta",µg,MESH:D019207,beta-Carotene
+1108,usda,"Carotene, alpha",µg,MESH:C041635,alpha-Carotene
+1120,usda,"Cryptoxanthin, beta",µg,MESH:D065366,beta-Cryptoxanthin
+1121,usda,Lutein,µg,MESH:D014975,Lutein
+1122,usda,Lycopene,µg,MESH:D000077276,Lycopene
+1109,usda,Vitamin E (alpha-tocopherol),mg,MESH:D024502,alpha-Tocopherol
+1126,usda,"Tocopherol, gamma",mg,MESH:D024504,gamma-Tocopherol
+1110,usda,"Vitamin D (D2 + D3), International Units",IU,MESH:D014807,Vitamin D
+1114,usda,Vitamin D (D2 + D3),µg,MESH:D014807,Vitamin D
+1111,usda,Vitamin D2 (ergocalciferol),µg,MESH:D004872,Vitamin D2 (ergocalciferol)
+1112,usda,Vitamin D3 (cholecalciferol),µg,MESH:D002762,Vitamin D3 (cholecalciferol)
+1185,usda,Vitamin K (phylloquinone),µg,MESH:D010837,Vitamin K1 (phylloquinone)
+1183,usda,Vitamin K (Menaquinone-4),µg,MESH:D024482,Vitamin K2 (menaquinone)
+1162,usda,"Vitamin C, total ascorbic acid",mg,MESH:D001205,Vitamin C (ascorbic acid)
+1165,usda,Thiamin,mg,MESH:D013831,Thiamine (B1)
+1166,usda,Riboflavin,mg,MESH:D012256,Riboflavin (B2)
+1167,usda,Niacin,mg,MESH:D009525,Niacin (B3)
+1170,usda,Pantothenic acid,mg,MESH:D010205,Pantothenic acid (B5)
+1175,usda,Vitamin B-6,mg,MESH:D025101,Vitamin B6
+1176,usda,Biotin,µg,MESH:D001710,Biotin (B7)
+1177,usda,"Folate, total",µg,MESH:D005492,Folate / folic acid (B9)
+1186,usda,Folic acid,µg,MESH:D005492,Folate / folic acid (B9)
+1190,usda,"Folate, DFE",µg,MESH:D005492,Folate / folic acid (B9)
+1178,usda,Vitamin B-12,µg,MESH:D014805,Vitamin B12
+1253,usda,Cholesterol,mg,MESH:D002791,Dietary cholesterol
+1258,usda,"Fatty acids, total saturated",g,MESH:D005227,Saturated fatty acids (MeSH entry term of Fatty Acids)
+1292,usda,"Fatty acids, total monounsaturated",g,MESH:D005229,Monounsaturated fatty acids
+1293,usda,"Fatty acids, total polyunsaturated",g,MESH:D005231,"Polyunsaturated fatty acids (MeSH: Fatty Acids, Unsaturated)"
+1257,usda,"Fatty acids, total trans",g,MESH:D044242,Trans fatty acids
+1265,usda,SFA 16:0 (palmitic),g,MESH:D019308,Palmitic acid
+1266,usda,SFA 18:0 (stearic),g,MESH:C031183,Stearic acid
+1264,usda,SFA 14:0 (myristic),g,MESH:D019814,Myristic acid
+1263,usda,SFA 12:0 (lauric),g,MESH:C030358,Lauric acid
+1268,usda,"MUFA 18:1 (oleic, undifferentiated)",g,MESH:D019301,Oleic acid
+1269,usda,"PUFA 18:2 (linoleic, undifferentiated)",g,MESH:D019787,Linoleic acid
+1404,usda,"PUFA 18:3 n-3 c,c,c (ALA)",g,MESH:D017962,alpha-Linolenic acid
+1271,usda,PUFA 20:4 (arachidonic),g,MESH:D016718,Arachidonic acid
+1278,usda,PUFA 20:5 n-3 (EPA),g,MESH:D015118,EPA
+1272,usda,PUFA 22:6 n-3 (DHA),g,MESH:D004281,DHA
+1210,usda,Tryptophan,g,MESH:D014364,Tryptophan
+1213,usda,Leucine,g,MESH:D007930,Leucine
+1212,usda,Isoleucine,g,MESH:D007532,Isoleucine
+1214,usda,Lysine,g,MESH:D008239,Lysine
+1215,usda,Methionine,g,MESH:D008715,Methionine
+1217,usda,Phenylalanine,g,MESH:D010649,Phenylalanine
+1211,usda,Threonine,g,MESH:D013912,Threonine
+1219,usda,Valine,g,MESH:D014633,Valine
+1221,usda,Histidine,g,MESH:D006639,Histidine
+1220,usda,Arginine,g,MESH:D001120,Arginine
+1218,usda,Tyrosine,g,MESH:D014443,Tyrosine
+1216,usda,Cystine,g,MESH:D003545,Cysteine
+1222,usda,Alanine,g,MESH:D000409,Alanine
+1223,usda,Aspartic acid,g,MESH:D001224,Aspartic acid
+1224,usda,Glutamic acid,g,MESH:D018698,Glutamic acid
+1225,usda,Glycine,g,MESH:D005998,Glycine
+1226,usda,Proline,g,MESH:D011392,Proline
+1227,usda,Serine,g,MESH:D012694,Serine
+ENERC,infoods,Energy,kJ,,
+ENERC_KCAL,infoods,Energy,kcal,,
+WATER,infoods,Water,g,,
+PROT,infoods,Protein,g,MESH:D004044,Dietary Proteins
+PROCNT,infoods,"Protein, total",g,MESH:D004044,Dietary Proteins
+PROTCAA,infoods,Protein (amino acid residues),g,MESH:D004044,Dietary Proteins
+PROT-,infoods,Protein,g,MESH:D004044,Dietary Proteins
+FAT,infoods,Fat,g,MESH:D004041,Dietary fats (total fat)
+FAT-,infoods,Fat,g,MESH:D004041,Dietary fats (total fat)
+FATCE,infoods,Fat,g,MESH:D004041,Dietary fats (total fat)
+FATNLEA,infoods,Fat (triacylglycerol equivalents),g,MESH:D004041,Dietary fats (total fat)
+CHOCDF,infoods,"Carbohydrate, by difference",g,MESH:D004040,Dietary carbohydrates
+CHOCDF-,infoods,"Carbohydrate, by difference",g,MESH:D004040,Dietary carbohydrates
+CHOAVL,infoods,"Carbohydrate, available",g,MESH:D004040,Dietary carbohydrates
+CHOAVLM,infoods,"Carbohydrate, available (monosaccharide eq.)",g,MESH:D004040,Dietary carbohydrates
+CHOAVLDF-,infoods,"Carbohydrate, available by difference",g,MESH:D004040,Dietary carbohydrates
+ASH,infoods,Ash,g,,
+SUGAR,infoods,"Sugars, total",g,MESH:D000073417,Dietary sugars (total/added/free sugars)
+SUCS,infoods,Sucrose,g,MESH:D013395,Sucrose
+GLUS,infoods,Glucose,g,MESH:D005947,Glucose
+FRUS,infoods,Fructose,g,MESH:D005632,Fructose
+LACS,infoods,Lactose,g,MESH:D007785,Lactose
+MALS,infoods,Maltose,g,MESH:D008320,Maltose
+GALS,infoods,Galactose,g,MESH:D005690,Galactose
+STARCH,infoods,Starch,g,MESH:D013213,Starch
+FIBTG,infoods,"Fibre, total dietary",g,MESH:D004043,Dietary fiber
+FIB-,infoods,"Fibre, total dietary",g,MESH:D004043,Dietary fiber
+FIBSOL,infoods,"Fibre, soluble",g,MESH:D004043,Dietary fiber
+FIBINS,infoods,"Fibre, insoluble",g,MESH:D004043,Dietary fiber
+POLYL,infoods,Polyols,g,,
+OA,infoods,Organic acids,g,,
+ALC,infoods,Alcohol,g,MESH:D000431,Ethanol (alcohol)
+CAFFN,infoods,Caffeine,mg,MESH:D002110,Caffeine
+THEBRN,infoods,Theobromine,mg,MESH:D013805,Theobromine
+NA,infoods,Sodium,mg,MESH:D012964,Sodium
+NACL_EQ,infoods,Salt equivalent,g,MESH:D017673,Salt (NaCl) equivalent
+K,infoods,Potassium,mg,MESH:D011188,Potassium
+CA,infoods,Calcium,mg,MESH:D002118,Calcium
+MG,infoods,Magnesium,mg,MESH:D008274,Magnesium
+P,infoods,Phosphorus,mg,MESH:D010758,Phosphorus
+FE,infoods,Iron,mg,MESH:D007501,Iron
+ZN,infoods,Zinc,mg,MESH:D015032,Zinc
+CU,infoods,Copper,mg,MESH:D003300,Copper
+MN,infoods,Manganese,mg,MESH:D008345,Manganese
+ID,infoods,Iodine,µg,MESH:D007455,Iodine
+SE,infoods,Selenium,µg,MESH:D012643,Selenium
+CR,infoods,Chromium,µg,MESH:D002857,Chromium
+MO,infoods,Molybdenum,µg,MESH:D008982,Molybdenum
+CLD,infoods,Chloride,mg,MESH:D002712,Chloride
+VITA_RAE,infoods,Vitamin A (RAE),µg,MESH:D014801,Vitamin A (retinol / RAE / RE)
+VITA,infoods,Vitamin A,µg,MESH:D014801,Vitamin A (retinol / RAE / RE)
+RETOL,infoods,Retinol,µg,MESH:D014801,Vitamin A (retinol / RAE / RE)
+CARTA,infoods,alpha-Carotene,µg,MESH:C041635,alpha-Carotene
+CARTB,infoods,beta-Carotene,µg,MESH:D019207,beta-Carotene
+CARTBEQ,infoods,beta-Carotene equivalents,µg,MESH:D019207,beta-Carotene
+CRYPXB,infoods,beta-Cryptoxanthin,µg,MESH:D065366,beta-Cryptoxanthin
+VITD,infoods,Vitamin D,µg,MESH:D014807,Vitamin D
+ERGCAL,infoods,Ergocalciferol,µg,MESH:D004872,Vitamin D2 (ergocalciferol)
+CHOCAL,infoods,Cholecalciferol,µg,MESH:D002762,Vitamin D3 (cholecalciferol)
+VITE,infoods,Vitamin E,mg,MESH:D014810,Vitamin E
+TOCPHA,infoods,alpha-Tocopherol,mg,MESH:D024502,alpha-Tocopherol
+TOCPHG,infoods,gamma-Tocopherol,mg,MESH:D024504,gamma-Tocopherol
+VITK,infoods,Vitamin K,µg,MESH:D014812,Vitamin K
+VITK1,infoods,Phylloquinone,µg,MESH:D010837,Vitamin K1 (phylloquinone)
+VITK2,infoods,Menaquinone,µg,MESH:D024482,Vitamin K2 (menaquinone)
+THIA,infoods,Thiamin,mg,MESH:D013831,Thiamine (B1)
+RIBF,infoods,Riboflavin,mg,MESH:D012256,Riboflavin (B2)
+NIA,infoods,Niacin,mg,MESH:D009525,Niacin (B3)
+NE,infoods,Niacin equivalents,mg,MESH:D009525,Niacin (B3)
+NIAEQ,infoods,Niacin equivalents,mg,MESH:D009525,Niacin (B3)
+PANTAC,infoods,Pantothenic acid,mg,MESH:D010205,Pantothenic acid (B5)
+VITB6A,infoods,Vitamin B6,mg,MESH:D025101,Vitamin B6
+VITB6C,infoods,Vitamin B6,mg,MESH:D025101,Vitamin B6
+PYRXN,infoods,Pyridoxine,mg,MESH:D011736,Pyridoxine
+BIOT,infoods,Biotin,µg,MESH:D001710,Biotin (B7)
+FOL,infoods,Folate,µg,MESH:D005492,Folate / folic acid (B9)
+FOLDFE,infoods,Folate (DFE),µg,MESH:D005492,Folate / folic acid (B9)
+FOLFD,infoods,Food folate,µg,MESH:D005492,Folate / folic acid (B9)
+FOLAC,infoods,Folic acid,µg,MESH:D005492,Folate / folic acid (B9)
+VITB12,infoods,Vitamin B12,µg,MESH:D014805,Vitamin B12
+VITC,infoods,Vitamin C,mg,MESH:D001205,Vitamin C (ascorbic acid)
+CHOLE,infoods,Cholesterol,mg,MESH:D002791,Dietary cholesterol
+FACID,infoods,"Fatty acids, total",g,MESH:D005227,Fatty acids (total)
+FAESS,infoods,Essential fatty acids,g,MESH:D005228,Essential fatty acids
+FASAT,infoods,"Fatty acids, total saturated",g,MESH:D005227,Saturated fatty acids (MeSH entry term of Fatty Acids)
+FAMS,infoods,"Fatty acids, total monounsaturated",g,MESH:D005229,Monounsaturated fatty acids
+FAPU,infoods,"Fatty acids, total polyunsaturated",g,MESH:D005231,"Polyunsaturated fatty acids (MeSH: Fatty Acids, Unsaturated)"
+FAPUN3,infoods,"Fatty acids, total n-3 polyunsaturated",g,MESH:D015525,Omega-3 fatty acids
+FAPUN6,infoods,"Fatty acids, total n-6 polyunsaturated",g,MESH:D043371,Omega-6 fatty acids
+FATRN,infoods,"Fatty acids, total trans",g,MESH:D044242,Trans fatty acids
+F4D0,infoods,Butyric acid,mg,MESH:D020148,Butyric acid
+F12D0,infoods,Lauric acid,mg,MESH:C030358,Lauric acid
+F14D0,infoods,Myristic acid,mg,MESH:D019814,Myristic acid
+F16D0,infoods,Palmitic acid,mg,MESH:D019308,Palmitic acid
+F18D0,infoods,Stearic acid,mg,MESH:C031183,Stearic acid
+F18D1N9,infoods,Oleic acid,mg,MESH:D019301,Oleic acid
+F22D1,infoods,Erucic acid,mg,MESH:D004883,Erucic acid
+F18D2N6,infoods,Linoleic acid,mg,MESH:D019787,Linoleic acid
+F18D3N3,infoods,alpha-Linolenic acid,mg,MESH:D017962,alpha-Linolenic acid
+F18D3N6,infoods,gamma-Linolenic acid,mg,MESH:D017965,gamma-Linolenic acid
+F20D4N6,infoods,Arachidonic acid,mg,MESH:D016718,Arachidonic acid
+F20D5N3,infoods,EPA,mg,MESH:D015118,EPA
+F22D6N3,infoods,DHA,mg,MESH:D004281,DHA
+TRP,infoods,Tryptophan,mg,MESH:D014364,Tryptophan
+LEU,infoods,Leucine,mg,MESH:D007930,Leucine
+ILE,infoods,Isoleucine,mg,MESH:D007532,Isoleucine
+LYS,infoods,Lysine,mg,MESH:D008239,Lysine
+MET,infoods,Methionine,mg,MESH:D008715,Methionine
+PHE,infoods,Phenylalanine,mg,MESH:D010649,Phenylalanine
+THR,infoods,Threonine,mg,MESH:D013912,Threonine
+VAL,infoods,Valine,mg,MESH:D014633,Valine
+HIS,infoods,Histidine,mg,MESH:D006639,Histidine
+ARG,infoods,Arginine,mg,MESH:D001120,Arginine
+TYR,infoods,Tyrosine,mg,MESH:D014443,Tyrosine
+CYSTE,infoods,Cysteine,mg,MESH:D003545,Cysteine
+ALA,infoods,Alanine,mg,MESH:D000409,Alanine
+ASP,infoods,Aspartic acid,mg,MESH:D001224,Aspartic acid
+GLU,infoods,Glutamic acid,mg,MESH:D018698,Glutamic acid
+GLY,infoods,Glycine,mg,MESH:D005998,Glycine
+PRO,infoods,Proline,mg,MESH:D011392,Proline
+SER,infoods,Serine,mg,MESH:D012694,Serine
+TAU,infoods,Taurine,mg,MESH:D013654,Taurine
+REFUSE,infoods,Refuse,%,,
+1,foodb_nutrient,Fat,,MESH:D004041,Dietary fats (total fat)
+2,foodb_nutrient,Proteins,,MESH:D004044,Dietary Proteins
+3,foodb_nutrient,Carbohydrate,,MESH:D004040,Dietary carbohydrates
+4,foodb_nutrient,Fatty acids,,MESH:D005227,Fatty acids (total)
+5,foodb_nutrient,Fiber (dietary),,MESH:D004043,Dietary fiber
+38,foodb_nutrient,Energy,,,
+39,foodb_nutrient,Ash,,,

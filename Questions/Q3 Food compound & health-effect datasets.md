@@ -143,6 +143,13 @@ These constraints are recorded in the dataset notes and apply to all three quest
 | Licence not stated | [[CMAUP]], [[NPASS]], [[HERB]], [[TM-MC]], [[DDID]], [[SymMap]] (v1 paper CC BY-NC), [[UNaProd]] (paper says free "with no restriction"), [[Indian Nutrient Databank (INDB)]] (IFCT source restricted), [[FmLAMA]] (derived from CC0 Wikidata) |
 | Distribution status unclear | [[Central Asian Digital Visual Food Atlas]] (no licence; the PDF was removed from the repo head, so ask the authors before redistributing); [[Central Asian Food Dataset]] (conflicting licences: MIT vs CC BY-NC 4.0 for CAFD) |
 
+## Unified database
+The chain above is implemented as a DuckDB database that links 46,253 dishes → 1,688 ingredients → 258k compounds →
+24.6k conditions, with 5,014 food–drug interactions: see [[Unified database]]. Worked examples in both directions
+(e.g. Saudi Timman Rice → curcumin/piperine → CTD; nausea → ginger → dishes by country; hypertension → soy sauce and
+miso sodium in Japan, licorice's conflicting evidence) are in [[Traces - dish to symptom]] and
+[[Traces - symptom to dish]].
+
 ## Gaps & open questions
 - **No open, culture-labelled food → compound → effect graph exists.** [[FoodAtlas]] comes closest but needs an API key (NEEDS USER), and it has no culture labels.
 - **FooDB lacks nigella, sumac, camel milk, za'atar, ghee and labneh.** Thymoquinone (FDB013274) is linked only to winter savory. Use [[NPASS]] (web composition) or [[Dr. Duke's Phytochemical and Ethnobotanical Databases]] for nigella; camel milk has no compound source in the vault.

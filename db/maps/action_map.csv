@@ -1,0 +1,203 @@
+action,condition_id,direction,note
+antiemetic,MESH:D014839,beneficial,Vomiting; prevents nausea and vomiting
+antiemetic,MESH:D009325,beneficial,Nausea; prevents nausea and vomiting
+carminative,MESH:D005414,beneficial,Flatulence; relieves gas
+antipyretic,MESH:D005334,beneficial,Fever
+febrifuge,MESH:D005334,beneficial,Fever; traditional synonym of antipyretic
+diaphoretic,MESH:D005334,beneficial,Fever; induces sweating; traditionally used to break fevers
+refrigerant,MESH:D005334,beneficial,Fever; traditional 'cooling' remedy for fever
+analgesic,MESH:D010146,beneficial,Pain
+anodyne,MESH:D010146,beneficial,Pain; traditional synonym of analgesic
+antinociceptive,MESH:D010146,beneficial,Pain
+anesthetic,MESH:D010146,beneficial,Pain; local/general anaesthetic activity
+antineuralgic,MESH:D009437,beneficial,Neuralgia
+antimigraine,MESH:D008881,beneficial,Migraine Disorders
+antidiabetic,MESH:D003920,beneficial,Diabetes Mellitus
+antidiabetic,MESH:D006943,beneficial,Hyperglycemia
+hypoglycemic,MESH:D003920,beneficial,Diabetes Mellitus; blood-glucose lowering
+hypoglycemic,MESH:D006943,beneficial,Hyperglycemia; blood-glucose lowering
+aldose reductase inhibitor,MESH:D048909,beneficial,Diabetes Complications; mechanism used against diabetic complications
+hyperglycemic,MESH:D006943,harmful,Hyperglycemia; raises blood glucose
+antihypertensive,MESH:D006973,beneficial,Hypertension
+hypotensive,MESH:D006973,beneficial,Hypertension; blood-pressure lowering
+hypertensive,MESH:D006973,harmful,Hypertension; raises blood pressure
+antitussive,MESH:D003371,beneficial,Cough
+expectorant,MESH:D003371,beneficial,Cough; loosens phlegm
+pectoral,MESH:D003371,beneficial,Cough; traditional chest/cough remedy
+antiasthmatic,MESH:D001249,beneficial,Asthma
+bronchodilator,MESH:D001249,beneficial,Asthma
+antibronchitic,MESH:D001991,beneficial,Bronchitis
+laxative,MESH:D003248,beneficial,Constipation
+purgative,MESH:D003248,beneficial,Constipation; strong laxative
+cathartic,MESH:D003248,beneficial,Constipation; strong laxative
+aperient,MESH:D003248,beneficial,Constipation; mild laxative
+antidiarrheal,MESH:D003967,beneficial,Diarrhea
+antidysenteric,MESH:D004403,beneficial,Dysentery
+anti-inflammatory,MESH:D007249,beneficial,Inflammation
+antiphlogistic,MESH:D007249,beneficial,Inflammation; traditional synonym of anti-inflammatory
+antiedemic,MESH:D004487,beneficial,Edema
+diuretic,MESH:D004487,beneficial,Edema; increases urine output
+antilithic,MESH:D052878,beneficial,Urolithiasis; dissolves or prevents stones
+sedative,MESH:D007319,beneficial,Sleep Initiation and Maintenance Disorders
+sedative,MESH:D001008,beneficial,Anxiety Disorders
+hypnotic,MESH:D007319,beneficial,Sleep Initiation and Maintenance Disorders
+soporific,MESH:D007319,beneficial,Sleep Initiation and Maintenance Disorders
+anti-insomniac,MESH:D007319,beneficial,Sleep Initiation and Maintenance Disorders
+anxiolytic,MESH:D001008,beneficial,Anxiety Disorders
+tranquilizer,MESH:D001008,beneficial,Anxiety Disorders
+antidepressant,MESH:D003866,beneficial,Depressive Disorder
+anticonvulsant,MESH:D012640,beneficial,Seizures
+anticonvulsant,MESH:D004827,beneficial,Epilepsy
+antiepileptic,MESH:D004827,beneficial,Epilepsy
+convulsant,MESH:D012640,harmful,Seizures; induces convulsions
+antispasmodic,MESH:D013035,beneficial,Spasm
+antialzheimer,MESH:D000544,beneficial,Alzheimer Disease
+antidementia,MESH:D003704,beneficial,Dementia
+antiparkinsonian,MESH:D010300,beneficial,Parkinson Disease
+hepatoprotective,MESH:D008107,beneficial,Liver Diseases
+hepatoprotective,MESH:D056486,beneficial,Chemical and Drug Induced Liver Injury
+antihepatotoxic,MESH:D056486,beneficial,Chemical and Drug Induced Liver Injury
+anticirrhotic,MESH:D008103,beneficial,Liver Cirrhosis
+hepatotoxic,MESH:D056486,harmful,Chemical and Drug Induced Liver Injury
+cholagogue,MESH:D002779,beneficial,Cholestasis; promotes bile flow
+choleretic,MESH:D002779,beneficial,Cholestasis; increases bile secretion
+hypocholesterolemic,MESH:D006937,beneficial,Hypercholesterolemia
+hypolipidemic,MESH:D006949,beneficial,Hyperlipidemias
+antiatherosclerotic,MESH:D050197,beneficial,Atherosclerosis
+antiobesity,MESH:D009765,beneficial,Obesity
+stomachic,MESH:D004415,beneficial,Dyspepsia; digestive tonic
+digestive,MESH:D004415,beneficial,Dyspepsia; aids digestion
+appetite stimulant,MESH:D000855,beneficial,Anorexia; appetite loss
+antiulcer,MESH:D010437,beneficial,Peptic Ulcer
+ulcerogenic,MESH:D010437,harmful,Peptic Ulcer
+antigastritic,MESH:D005756,beneficial,Gastritis
+anticolitic,MESH:D003092,beneficial,Colitis
+galactagogue,MESH:D007775,beneficial,Lactation Disorders; promotes milk flow (hypogalactia)
+emmenagogue,MESH:D000568,beneficial,Amenorrhea; induces menstruation
+antidysmenorrheic,MESH:D004412,beneficial,Dysmenorrhea
+anti-premenstrual syndrome,MESH:D011293,beneficial,Premenstrual Syndrome
+aphrodisiac,MESH:D007172,beneficial,Erectile Dysfunction
+aphrodisiac,MESH:D012735,beneficial,"Sexual Dysfunction, Physiological"
+anthelmintic,MESH:D006373,beneficial,Helminthiasis; expels worms
+vermifuge,MESH:D006373,beneficial,Helminthiasis; expels worms
+taenifuge,MESH:D013622,beneficial,Taeniasis; expels tapeworms
+schistosomicide,MESH:D012552,beneficial,Schistosomiasis
+amebicide,MESH:D000562,beneficial,Amebiasis
+antimalarial,MESH:D008288,beneficial,Malaria
+antiplasmodial,MESH:D008288,beneficial,Malaria
+antileishmanic,MESH:D007896,beneficial,Leishmaniasis
+trypanocide,MESH:D014352,beneficial,Trypanosomiasis
+trichomonicide,MESH:D014245,beneficial,Trichomonas Infections
+pediculicide,MESH:D010373,beneficial,Lice Infestations
+antibacterial,MESH:D001424,beneficial,Bacterial Infections
+antiseptic,MESH:D007239,beneficial,Infections
+antistaphylococcic,MESH:D013203,beneficial,Staphylococcal Infections
+antistreptococcic,MESH:D013290,beneficial,Streptococcal Infections
+antisalmonella,MESH:D012480,beneficial,Salmonella Infections
+antitubercular,MESH:D014376,beneficial,Tuberculosis
+antifungal,MESH:D009181,beneficial,Mycoses
+candidicide,MESH:D002177,beneficial,Candidiasis
+antiviral,MESH:D014777,beneficial,Virus Diseases
+antiherpetic,MESH:D006561,beneficial,Herpes Simplex
+anti-hiv,MESH:D015658,beneficial,HIV Infections
+antiflu,MESH:D007251,beneficial,"Influenza, Human"
+antitumor,MESH:D009369,beneficial,Neoplasms
+anticancer,MESH:D009369,beneficial,Neoplasms
+antineoplastic,MESH:D009369,beneficial,Neoplasms
+cancer preventive,MESH:D009369,beneficial,Neoplasms; chemopreventive claim
+chemopreventive,MESH:D009369,beneficial,Neoplasms
+antileukemic,MESH:D007938,beneficial,Leukemia
+antimelanomic,MESH:D008545,beneficial,Melanoma
+carcinogenic,MESH:D009369,harmful,Neoplasms
+antiarrhythmic,MESH:D001145,beneficial,"Arrhythmias, Cardiac"
+cardiotonic,MESH:D006333,beneficial,Heart Failure; strengthens heart contraction
+antianginal,MESH:D000787,beneficial,Angina Pectoris
+cardioprotective,MESH:D006331,beneficial,Heart Diseases
+cardiotoxic,MESH:D066126,harmful,Cardiotoxicity
+antiaggregant,MESH:D013927,beneficial,Thrombosis; anti-platelet aggregation
+antithrombotic,MESH:D013927,beneficial,Thrombosis
+anticoagulant,MESH:D013927,beneficial,Thrombosis
+hemostatic,MESH:D006470,beneficial,Hemorrhage; stops bleeding
+styptic,MESH:D006470,beneficial,Hemorrhage; stops bleeding
+antianemic,MESH:D000740,beneficial,Anemia
+antisickling,MESH:D000755,beneficial,"Anemia, Sickle Cell"
+hemolytic,MESH:D000743,harmful,"Anemia, Hemolytic"
+antiallergic,MESH:D006967,beneficial,Hypersensitivity
+antihistaminic,MESH:D006967,beneficial,Hypersensitivity
+antianaphylactic,MESH:D000707,beneficial,Anaphylaxis
+allergenic,MESH:D006967,harmful,Hypersensitivity
+antiarthritic,MESH:D001168,beneficial,Arthritis
+antirheumatic,MESH:D012216,beneficial,Rheumatic Diseases
+antiosteoporotic,MESH:D010024,beneficial,Osteoporosis
+uricosuric,MESH:D006073,beneficial,Gout
+uricosuric,MESH:D033461,beneficial,Hyperuricemia
+antipruritic,MESH:D011537,beneficial,Pruritus
+antiacne,MESH:D000152,beneficial,Acne Vulgaris
+antipsoriatic,MESH:D011565,beneficial,Psoriasis
+antidermatitic,MESH:D003872,beneficial,Dermatitis
+antieczemic,MESH:D004485,beneficial,Eczema
+dermatitigenic,MESH:D003872,harmful,Dermatitis; causes dermatitis
+phototoxic,MESH:D017484,harmful,"Dermatitis, Phototoxic"
+antialopecic,MESH:D000505,beneficial,Alopecia
+vulnerary,MESH:D014947,beneficial,Wounds and Injuries; heals wounds
+cicatrizant,MESH:D014947,beneficial,Wounds and Injuries; promotes scarring/healing
+anticariogenic,MESH:D003731,beneficial,Dental Caries
+antiplaque,MESH:D003773,beneficial,Dental Plaque
+antigingivitic,MESH:D005891,beneficial,Gingivitis
+antiperiodontic,MESH:D010510,beneficial,Periodontal Diseases
+antistomatitic,MESH:D013280,beneficial,Stomatitis
+anticataract,MESH:D002386,beneficial,Cataract
+antiglaucomic,MESH:D005901,beneficial,Glaucoma
+antithyroid,MESH:D006980,beneficial,Hyperthyroidism
+antinephritic,MESH:D009393,beneficial,Nephritis
+nephrotoxic,MESH:D007674,harmful,Kidney Diseases
+neurotoxic,MESH:D020258,harmful,Neurotoxicity Syndromes
+teratogenic,MESH:D000013,harmful,Congenital Abnormalities
+abortifacient,MESH:D000022,harmful,"Abortion, Spontaneous; may induce miscarriage"
+antifertility,MESH:D007246,harmful,Infertility; reduces fertility
+antiprostatitic,MESH:D011472,beneficial,Prostatitis
+antifatigue,MESH:D005221,beneficial,Fatigue
+antidote,MESH:D011041,beneficial,Poisoning
+emetic,MESH:D014839,harmful,Vomiting; induces vomiting (therapeutic emesis)
+antiscorbutic,MESH:D012614,beneficial,Scurvy
+antiischemic,MESH:D007511,beneficial,Ischemia
+antiperiodic,MESH:D008288,beneficial,Malaria; prevents periodic (malarial) fevers
+antiparasitic,MESH:D010272,beneficial,Parasitic Diseases
+fertility agent,MESH:D007246,beneficial,Infertility; promotes fertility
+antilymphomic,MESH:D008223,beneficial,Lymphoma
+anti-syndrome-x,MESH:D024821,beneficial,Metabolic Syndrome
+anticoronary,MESH:D003327,beneficial,Coronary Disease
+antiotitic,MESH:D010031,beneficial,Otitis
+antidecubitic,MESH:D003668,beneficial,Pressure Ulcer
+anti-ebv,MESH:D020031,beneficial,Epstein-Barr Virus Infections
+antipolio,MESH:D011051,beneficial,Poliomyelitis
+antirhinoviral,MESH:D003139,beneficial,Common Cold
+antimaculitic,MESH:D008268,beneficial,Macular Degeneration
+antisunburn,MESH:D013471,beneficial,Sunburn
+antiseborrheic,MESH:D012628,beneficial,"Dermatitis, Seborrheic"
+antimetastatic,MESH:D009362,beneficial,Neoplasm Metastasis
+antihemorrhoidal,MESH:D006484,beneficial,Hemorrhoids
+scabicide,MESH:D012532,beneficial,Scabies
+antitumor (breast),MESH:D001943,beneficial,Breast Neoplasms
+antitumor (colon),MESH:D003110,beneficial,Colonic Neoplasms
+antitumor (lung),MESH:D008175,beneficial,Lung Neoplasms
+antitumor (prostate),MESH:D011471,beneficial,Prostatic Neoplasms
+antisarcomic,MESH:D012509,beneficial,Sarcoma
+antihepatomic,MESH:D006528,beneficial,"Carcinoma, Hepatocellular"
+anti-ms,MESH:D009103,beneficial,Multiple Sclerosis
+antigiardial,MESH:D005873,beneficial,Giardiasis
+antialcoholic,MESH:D000437,beneficial,Alcoholism
+antiescherichic,MESH:D004927,beneficial,Escherichia coli Infections
+mycobactericide,MESH:D009164,beneficial,Mycobacterium Infections
+antiprotozoal,MESH:D011528,beneficial,Protozoan Infections
+antiperistaltic,MESH:D003967,beneficial,Diarrhea; slows gut motility
+antineuritic,MESH:D009443,beneficial,Neuritis
+sialogogue,MESH:D014987,beneficial,Xerostomia; promotes salivation
+radioprotective,MESH:D011832,beneficial,Radiation Injuries
+pyrogenic,MESH:D005334,harmful,Fever; induces fever
+tremorigenic,MESH:D014202,harmful,Tremor; induces tremor
+hallucinogenic,MESH:D006212,harmful,Hallucinations
+tachycardic,MESH:D013610,harmful,Tachycardia; raises heart rate
+bradycardic,MESH:D001919,harmful,Bradycardia; lowers heart rate
+paralytic,MESH:D010243,harmful,Paralysis
+spasmogenic,MESH:D013035,harmful,Spasm; induces spasm

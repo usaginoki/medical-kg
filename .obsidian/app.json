@@ -6,6 +6,7 @@
     "_tools/",
     ".venv/",
     "Templates/",
-    "Data/"
+    "Data/",
+    "db/"
   ]
 }

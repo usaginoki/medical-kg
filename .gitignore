@@ -34,3 +34,7 @@ Access-help/**
 # dataset folders that are full git clones (nested repos bypass the schema/sample rule above)
 Data/central-asian-digital-visual-food-atlas/
 Data/central-asian-food-dataset/
+
+# unified database build output
+db/*.duckdb
+db/*.duckdb.wal

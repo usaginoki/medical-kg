@@ -1,0 +1,111 @@
+alias,condition_id,lang,note
+dropsy,MESH:D004487,en,Edema; obsolete term
+piles,MESH:D006484,en,Hemorrhoids
+cold,MESH:D003139,en,Common Cold
+flu,MESH:D007251,en,"Influenza, Human"
+lumbago,MESH:D017116,en,Low Back Pain
+gravel,MESH:D007669,en,Kidney Calculi; obsolete term for small stones
+ague,MESH:D008288,en,Malaria; obsolete term for malarial fever
+flux,MESH:D004403,en,Dysentery; obsolete term
+phthisis,MESH:D014397,en,"Tuberculosis, Pulmonary; obsolete term"
+consumption,MESH:D014397,en,"Tuberculosis, Pulmonary; obsolete term"
+debility,MESH:D001247,en,Asthenia
+swelling,MESH:D004487,en,Edema
+wound,MESH:D014947,en,Wounds and Injuries
+boil,MESH:D005667,en,Furunculosis
+itch,MESH:D011537,en,Pruritus
+tumor,MESH:D009369,en,Neoplasms
+cancer,MESH:D009369,en,Neoplasms
+rheumatism,MESH:D012216,en,Rheumatic Diseases
+venereal,MESH:D012749,en,Sexually Transmitted Diseases
+ache(head),MESH:D006261,en,Headache
+ache(tooth),MESH:D014098,en,Toothache
+ache(stomach),MESH:D015746,en,Abdominal Pain
+ache(ear),MESH:D004433,en,Earache
+ache(back),MESH:D001416,en,Back Pain
+stomach ache,MESH:D015746,en,Abdominal Pain
+stomachache,MESH:D015746,en,Abdominal Pain
+bellyache,MESH:D015746,en,Abdominal Pain
+sore(throat),MESH:D010612,en,Pharyngitis
+sore throat,MESH:D010612,en,Pharyngitis
+skin,MESH:D012871,en,Skin Diseases; organ term in traditional-use lists
+eye,MESH:D005128,en,Eye Diseases; organ term in traditional-use lists
+kidney,MESH:D007674,en,Kidney Diseases; organ term in traditional-use lists
+liver,MESH:D008107,en,Liver Diseases; organ term in traditional-use lists
+lung,MESH:D008171,en,Lung Diseases; organ term in traditional-use lists
+stomach,MESH:D013272,en,Stomach Diseases; organ term in traditional-use lists
+heart,MESH:D006331,en,Heart Diseases; organ term in traditional-use lists
+intestine,MESH:D007410,en,Intestinal Diseases; organ term in traditional-use lists
+bladder,MESH:D001745,en,Urinary Bladder Diseases; organ term in traditional-use lists
+nerves,MESH:D009422,en,Nervous System Diseases; organ term in traditional-use lists
+spleen,MESH:D013158,en,Splenic Diseases; organ term in traditional-use lists
+throat,MESH:D010608,en,Pharyngeal Diseases; organ term in traditional-use lists
+ear,MESH:D004427,en,Ear Diseases; organ term in traditional-use lists
+uterus,MESH:D014591,en,Uterine Diseases; organ term in traditional-use lists
+bite(snake),MESH:D012909,en,Snake Bites
+bite(dog),MESH:D011818,en,"Rabies; dog bite, traditionally for rabies"
+bite(bug),MESH:D007299,en,Insect Bites and Stings
+impotency,MESH:D007172,en,Erectile Dysfunction
+sterility,MESH:D007246,en,Infertility
+stone,MESH:D052878,en,Urolithiasis
+calculus,MESH:D052878,en,Urolithiasis
+anasarca,MESH:D004487,en,Edema; generalised oedema
+leucorrhea,MESH:D007973,en,Leukorrhea
+blennorrhagia,MESH:D006069,en,Gonorrhea
+pimple,MESH:D000152,en,Acne Vulgaris
+eruption,MESH:D005076,en,Exanthema
+chill,MESH:D023341,en,Chills
+cachexia,MESH:D002100,en,Cachexia
+marasmus,MESH:D044342,en,Malnutrition
+scald,MESH:D002056,en,Burns
+burn,MESH:D002056,en,Burns
+bruise,MESH:D003288,en,Contusions
+wen,MESH:D004814,en,Epidermal Cyst
+cooling effect on body,MESH:D005334,en,Fever; IMPPAT 'cooling' use
+lack of digestive power,MESH:D004415,en,Dyspepsia; IMPPAT phrase
+high blood sugar,MESH:D006943,en,Hyperglycemia
+sugar,MESH:D003920,en,Diabetes Mellitus; colloquial
+bloating,MESH:D005414,en,Flatulence
+heartburn,MESH:D006356,en,Heartburn
+insomnia,MESH:D007319,en,Sleep Initiation and Maintenance Disorders
+sleeplessness,MESH:D007319,en,Sleep Initiation and Maintenance Disorders
+sleeplessness/insomnia,MESH:D007319,en,Sleep Initiation and Maintenance Disorders; IMPPAT label
+kidney calculi/nephrolithiasis,MESH:D007669,en,Kidney Calculi; IMPPAT label
+urinary calculi/urolithiasis,MESH:D052878,en,Urolithiasis; IMPPAT label
+wounds and injuries/trauma,MESH:D014947,en,Wounds and Injuries; IMPPAT label
+sweating/diaphoretic,MESH:D005334,en,Fever; IMPPAT label (diaphoretic)
+bleeds profusely,MESH:D006470,en,Hemorrhage; IMPPAT label
+trauma,MESH:D014947,en,Wounds and Injuries
+fracture,MESH:D050723,en,"Fractures, Bone"
+parturition,MESH:D048949,en,Labor Pain; traditional use at childbirth
+labor,MESH:D048949,en,Labor Pain
+puerperium,MESH:D011644,en,Puerperal Disorders
+ophthalmia,MESH:D003231,en,Conjunctivitis; traditional term for eye inflammation
+catarrh,MESH:D012141,en,Respiratory Tract Infections; traditional term for mucous inflammation of airways
+bilious,MESH:D001660,en,Biliary Tract Diseases
+scrofula,MESH:D014388,en,"Tuberculosis, Lymph Node"
+dermatosis,MESH:D012871,en,Skin Diseases
+renitis,MESH:D009393,en,Nephritis
+splenitis,MESH:D013158,en,Splenic Diseases
+sclerosis(spleen),MESH:D013163,en,Splenomegaly
+tumor(abdomen),MESH:D000008,en,Abdominal Neoplasms
+tumor(breast),MESH:D001943,en,Breast Neoplasms
+cancer(breast),MESH:D001943,en,Breast Neoplasms
+cancer(stomach),MESH:D013274,en,Stomach Neoplasms
+cancer(uterus),MESH:D014594,en,Uterine Neoplasms
+polyp(nose),MESH:D009298,en,Nasal Polyps
+adenopathy,MESH:D000072281,en,Lymphadenopathy
+congestion,MESH:D015508,en,Nasal Obstruction
+internulcer,MESH:D010437,en,Peptic Ulcer; Duke term for internal ulcers
+circulation,MESH:D014652,en,Vascular Diseases; traditional 'circulation' use
+herpes,MESH:D006566,en,Herpesviridae Infections
+whitlow,MESH:D010304,en,Paronychia
+condyloma,MESH:D003218,en,Condylomata Acuminata
+respiratory,MESH:D012140,en,Respiratory Tract Diseases; organ term in traditional-use lists
+cardiac,MESH:D006331,en,Heart Diseases; organ term in traditional-use lists
+blood,MESH:D006402,en,Hematologic Diseases; organ term in traditional-use lists
+urogenital,MESH:D000091642,en,Urogenital Diseases; organ term in traditional-use lists
+urogenital system,MESH:D000091642,en,Urogenital Diseases; IMPPAT label
+hemicrania,MESH:D008881,en,Migraine Disorders; one-sided headache (not anencephaly)
+pertussis,MESH:D014917,en,Whooping Cough
+disorder of ejaculation,MESH:D000097910,en,Ejaculatory Dysfunction; IMPPAT label

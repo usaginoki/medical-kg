@@ -147,3 +147,11 @@ PDFs (`Attachments/**/*.pdf`) and the docling cache (`.cache/`) are git-ignored 
 redistributed). After a fresh clone run `uv sync && uv run _tools/extract_all.py` to re-download and
 re-extract them from each note's `pdf_url`. PDFs behind bot protection (e.g. SSRN) must be saved
 manually to `Attachments/<key>/<key>.pdf` first; the script then reuses them.
+
+## Unified database (`db/`, `Database/`)
+`uv run db/build.py --fresh` builds `db/unified.duckdb` (git-ignored) from the datasets in `Data/`. It has one stage per
+entity (conditions, compounds, ingredients, dishes, links), plus curated maps in `db/maps/`. The stage contract and
+the id conventions are in `db/README.md`. `uv run db/trace.py dish|condition|sql …` prints traces as Markdown.
+Human documentation and worked traces are in `Database/`. After adding or re-downloading a dataset, re-run the build
+and check `db/build_report.md`: it must show no orphan references.
+
