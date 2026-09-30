@@ -1,0 +1,51 @@
+page,section,product,H2O (g/100g),Energy (kcal/100g),CHO (g/100g),Fiber (g/100g),Sugar (g/100g),Protein (g/100g),Total fat (g/100g)
+51,Snacks,AL Kaleej Cheese and onion puff,1.09,514.00,52.00,4.48,2.50,8.40,29.30
+51,Snacks,AL Kaleej Pufak puff,1.11,586.00,51.00,<1.00,1.30,5.50,40.30
+51,Snacks,AL Kaleej Barbecue puff,1.71,520.00,52.00,3.88,2.60,8.10,30.40
+51,Snacks,AL Kaleej Chilli puff,1.84,517.00,52.00,3.97,2.10,8.50,30.10
+51,Snacks,AL Kaleej tomato puff,2.57,510.00,53.00,4.00,3.40,7.60,29.00
+51,Snacks,AL Kaleej Cramel popcorn,3.72,423.00,74.00,4.40,42.90,4.80,10.40
+51,Snacks,Cocktail Chips,0.96,521.00,63.00,2.44,<1.00,1.60,28.50
+51,Snacks,Cocktail Snacks,1.69,520.00,60.00,1.36,1.40,2.60,29.80
+51,Snacks,Cocktail kari kari snack,0.73,546.00,60.00,2.32,<1.00,2.80,32.60
+51,Snacks,Cocktail twist snack,0.86,509.00,66.00,2.36,1.10,1.40,25.90
+51,Snacks,Cocktail ring snack,1.73,452.00,71.00,3.98,1.50,2.70,16.50
+51,Snacks,Cocktail ring snack,2.15,564.00,53.00,1.78,<1.00,4.00,37.40
+51,Snacks,Soft popcorn,4.46,517.00,55.50,4.63,1.13,7.93,30.25
+51,Snacks,Milk compound chocolate (chocolate and co.),1.51,580.00,51.00,ND,44.50,6.60,39.20
+51,Snacks,DARK compound chocolate (chocolate and co.),1.04,568.00,57.00,ND,45.60,4.40,36.20
+51,Snacks,White compound chocolate (chocolate and co.),1.30,591.00,52.00,ND,50.40,4.80,40.80
+51,Snacks,Hide and seek biscuits,2.54,472.00,72.00,2.83,32.00,6.20,18.00
+51,Snacks,Cookie Dough Brownie ( Gulf sea sweets),22.60,474.00,11.00,11.60,13.30,11.70,40.50
+51,Snacks,Banana muffin (Gulf sea sweets ),48.40,294.00,8.00,5.02,13.70,15.10,21.40
+51,Snacks,Dark chocolate donut (Gulf sea sweets),18.60,488.00,25.00,10.60,17.80,13.80,39.90
+51,Snacks,Almond cookie (Gulf sea sweets),9.84,466.00,46.00,12.50,24.00,12.00,28.90
+51,Snacks,Milk chocolate doughnut (Gulf sea sweets),19.70,484.00,21.00,11.90,13.80,15.50,40.70
+51,Snacks,Nutricrunch cream crackers (Jupiter product),5.37,446.00,63.00,3.65,1.40,10.50,16.00
+51,Snacks,Parle G gold biscuits (Jupiter product),3.24,461.00,72.00,1.41,21.80,6.90,15.70
+51,Snacks,krack jack (Jupiter product),2.32,482.00,66.00,1.87,15.20,8.60,20.00
+53,Frozen products,Fish fillet (Sitra meat factory),69.10,132.00,11.00,1.77,<1.00,14.00,3.03
+53,Frozen products,Chicken kabab (Bahrain meat factory),71.70,117.00,2.00,3.27,1.30,17.00,3.58
+53,Frozen products,Diet beef burger (Sitra meat factory),70.20,132.00,2.00,4.13,<1.00,14.50,6.48
+53,Frozen products,Kunafa prawns (Stra meat factory),58.60,207.00,16.00,3.30,<1.00,10.30,10.80
+53,Frozen products,Beef kofta (Sitra meat factory),ND,163.00,<1.00,<1.00,<1.00,17.60,10.20
+53,Frozen products,Beef salami (Raidan meat factory),57.20,264.00,3.00,<1.00,<1.00,16.10,<0.20
+53,Frozen products,Beef pepperoni (Raidan meat factory),55.90,277.00,1.00,<1.00,<1.00,17.90,22.40
+53,Frozen products,Beef kabab - Diet (Alsalwa meat factory),73.90,104.00,3.00,<1.00,<1.00,20.20,1.06
+53,Frozen products,Beef Burger Diet (Alsalwa meat factory),73.40,106.00,3.00,<1.00,<1.00,20.70,1.06
+53,Frozen products,Beef kebbah (Alsalwa meat factory),52.20,220.00,24.00,2.88,4.50,9.80,8.59
+53,Frozen products,Beef kabaab (Alsalwa meat factory),70.00,163.00,<1.00,<1.00,<1.00,17.60,10.20
+53,Frozen products,Spicy fish fingers (shell fisheries company),ND,170.00,20.00,2.28,1.50,7.30,7.38
+53,Frozen products,Bahraini Beef Burger (Meat Town ),ND,150.00,8.00,0.00,0.70,17.00,7.00
+53,Frozen products,Chicken Mosahab Spicy (Meat Town ),ND,209.00,18.00,0.00,0.00,17.00,7.70
+55,beverages,Cocktail drink with added sugar (Areej factorys),87.50,50.80,12.00,<1.00,10.60,<0.10,<0.10
+55,beverages,Cardamom & saffron flavored milk (Areej factorys),83.20,77.10,13.00,<1.00,7.70,0.80,2.20
+55,beverages,Mrange drink (Areej factorys),87.20,51.80,13.00,<1.00,11.30,<0.10,<0.10
+55,beverages,Lemon drink (Areej factorys),87.00,52.80,13.00,<1.00,10.60,<0.10,<0.10
+55,beverages,Strawberry drink (Areej factorys),86.70,54.10,13.00,<1.00,10.80,<0.10,<0.10
+55,beverages,Mango drink (Areej factorys),87.30,51.50,13.00,<1.00,10.80,<0.10,<0.10
+55,beverages,Vimto drink (Areej factorys),87.50,50.80,12.00,<1.00,11.00,<0.10,<0.10
+55,beverages,Spanish orange juice with peach flavor (Areej factorys),88.10,47.40,11.00,<1.00,10.10,0.30,<0.10
+55,beverages,Alphonso mango juice with peach flavor (Areej factorys),88.60,45.70,11.00,<1.00,9.70,0.10,<0.10
+55,beverages,Cola drink (Areej factorys),87.80,49.40,12.00,<1.00,11.20,<0.10,<0.10
+55,beverages,Sun fresh cola (Bahrain juice filling factory),88.20,48.10,12.00,<1.00,10.80,0.10,<0.10

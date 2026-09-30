@@ -1,0 +1,42 @@
+code,food_group_code,food_code,name_english,name_kyrgyz,scientific_name,biblio_ids
+01_00028,1,28,Badyrak (popped wheat),Бадырак,,KG00016;KG00025
+01_00020,1,20,Ozgon rice,Өзгөн күрүчү,Oryza sativa,KG00010;KG00027
+04_00035,4,35,"Beetroot, raw",Кызылча,Beta vulgaris,KG00019;KG00032
+04_00034,4,34,"Carrot, raw",Сабиз,Daucus carota,KG00019;KG00032
+05_00036,5,36,Apple and pear puree with honey,Бал менен алма- алмурут пюреси,,KG00020;KG00025
+05_00038,5,38,Apple and pear puree with rice,Күрүч менен алма жана алмурут пюреси,,KG00020;KG00025
+05_00037,5,37,Apple and pumpkin puree with honey,Бал менен алма- ашкабак пюреси,,KG00020;KG00025
+05_00039,5,39,Apple and pumpkin puree with rice,Күрүч менен алма-ашкабак пюреси,,KG00020;KG00025
+05_00009,5,9,"Apple Kirghis, raw",Кыргыз алмасы,Malus kirghisorum,KG00005;KG00032
+05_00008,5,8,"Apple Sieversii, raw",Сиверс алмасы,Malus sieversii,KG00005;KG00032
+05_00025,5,25,Apricot dried,Кургатылган өрүк,Prunus armeniaca,KG00013;KG00029
+05_00007,5,7,"Barberry, raw",Бөрү карагат,Berberis oblonga,KG00005;KG00036
+05_00029,5,29,"Black currant, frozen",Кара карагат,Ribes nigrum,KG00017;KG00021;KG00025
+05_00030,5,30,Blackcurrant jam,Карагат джеми,,KG00021;KG00032
+05_00041,5,41,"Blackcurrant, raw",Кара карагат,Ribes nigrum,KG00019;KG00032
+05_00003,5,3,"Cherry plum, black, wild, raw",Кара алыча,Prunus divaricata Ledeb.,KG00018;KG00032
+05_00001,5,1,"Cherry plum, red, wild, raw",Кызыл алыча,Prunus divaricata Ledeb.,KG00018;KG00032
+05_00002,5,2,"Cherry plum, yellow, wild, raw",Сары алыча,Prunus divaricata Ledeb.,KG00018;KG00032
+05_00006,5,6,"Dogrose, raw",Ит мурун,Rosa canina,KG00005;KG00019;KG00032
+05_00005,5,5,"Hawthorn, raw",Туркестан долоносу,"Crataegus turkestanica, Crataegus songorica",KG00005;KG00019;KG00034
+05_00032,5,32,"Mulberry, red, raw",Тыт,Morus spp.,KG00019;KG00028
+05_00010,5,10,"Pear Korshinskyi, raw",Коржинский алмуруту,Pyrus korshinskyi,KG00005;KG00027
+05_00031,5,31,"Persimmon, raw",Хурма,Diōspyros kaki,KG00019;KG00032
+05_00033,5,33,"Rowan, raw",Четин жөнөкөй,Sorbus aucuparia,KG00019;KG00032
+05_00004,5,4,"Sea buckthorn, raw",Чычырканак,Hippophae rhamnoides,KG00005;KG00019;KG00032
+06_00019,6,19,Pistachio,Мисте,Pistacia vera L.,KG00009;KG00025;KG00032
+06_00027,6,27,Walnut,Грек жаңгагы,Juglans regia L.,KG00004;KG00015;KG00023
+07_00026,7,26,Chuchuk (sausage),Чучук,,KG00014
+07_00021,7,21,"Yak meat, calf (young meat), raw",Топоз эти,,KG00011;KG00031
+10_00023,10,23,"Cow milk, raw",Уйдун сүтү,,KG00012;KG00030
+10_00040,10,40,"Hainak milk, raw",Хайнак сүтү,,KG00022;KG00026
+10_00011,10,11,Koumiss,Кымыз,,KG00003;KG00035
+10_00012,10,12,Koumiss dried,Кургатылган кымыз,,KG00003
+10_00022,10,22,"Mare milk, raw",Бээнин сүтү,,KG00008;KG00040;KG00041
+10_00024,10,24,"Yak milk, raw",Топоз сүтү,,KG00012;KG00026
+11_00017,11,17,Beef fat,Уйдун майы,,KG00007;KG00032
+11_00018,11,18,Horse fat,Жылкынын майы,,KG00007;KG00031
+11_00016,11,16,Yak fat,Топоз майы,,KG00007;KG00031
+12_00013,12,13,Bozo,Бозо,,KG00002;KG00033
+12_00014,12,14,Bozodoy,Бозодой,,KG00002
+13_00015,13,15,Honey,Бал,,KG00006;KG00032;KG00042

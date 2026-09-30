@@ -1,0 +1,51 @@
+Download & API Field Descriptions,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4
+Table / File,Field,Definition of data element ,Synonyms (used on user interface only) ,API Location
+,GLOBAL column definitions,"These fields appear in multiple files, and their definition is typically the same unless noted below",,
+,fdc_id,Unique permanent identifier of a food in the food table,,
+,id,"Unique permanent identifier of other kinds of data (e.g. nutrients, lab methods, etc.) in their related table",,
+,,,,
+agricultural_acquisition,,Non-processed foods obtained directly from the location where they are produced,,food (is a type of food)
+,fdc_id,ID of the food in the food table,FDC Source ID,
+,acquisition_date,The date this food was obtained,,
+,market_class,"The name of the specific kind of this food (eg. ""Pinto"" for pinto beans)",,
+,treatment,"Any special condition relevant to the production of this food - typically ""drought"" or ""control""",,
+,state,The state in which this food was produced,,
+,,,,
+acquisition_sample,,"Acquisitions may be blended with other acquisitions to create a sample food, and an acquisition can be used to created more than one sample food. This file stores which acquisitions and sample foods are related to each other.",,N/A Download only
+,fdc_id_of_sample_food,ID of the sample food that uses the acquisitioned food,,
+,fdc_id_of_acquisition_food,ID of the acquisitioned food used in the sample food,,
+,,,,
+branded_food,,Foods whose nutrient values are typically obtained from food label data provided by food brand owners.,,food (is a type of food)
+,fdc_id,ID of the food in the food table,,
+,brand_owner,Brand owner for the food,,
+,gtin_upc,GTIN or UPC code identifying the food,GTIN/UPC,gtinUpc
+,ingredients,The list of ingredients (as it appears on the product label),,
+,serving_size,The amount of the serving size when expressed as gram or ml,,
+,serving_size_unit,The unit used to express the serving size (gram or ml),,
+,household_serving_fulltext,amount and unit of serving size when expressed in household units,,
+,branded_food_category,"The category of the branded food, assigned by GDSN or Label Insight",,
+,data_source,The source of the data for this food. GDSN (for GS1) or LI (for Label Insight).,,
+,modified_date,"This date reflects when the product data was last modified by the data provider, i.e., the manufacturer",,
+,available_date,This is the date when the product record was available for inclusion in the database.,,
+,,,,
+food,,"Any substance consumed by humans for nutrition, taste and/or aroma",,
+,fdc_id,Unique permanent identifier of the food,FDC Source ID (used for acquisition foods),
+,foodClass,For internal use only,,
+,data_type        ,Type of food data (see Files tab for possible values).,,
+,description,Description of the food,,
+,food_category_id,Id of the food category the food belongs to,,foodGroup
+,publication_date,Date when the food was published to FoodData Central,"Published, Published Date",
+,scientific_name,The scientific name for the food,,
+,food_key,A string of characters used to identify both the current and all historical records for a specific food.,,
+,,,,
+food_attribute,,The value for a generic property of a food,"More Information (tab), Update Log (tab)",food->foodAttributes
+,id,,,
+,fdc_id,ID of the food this food attribute pertains to,,
+,seq_num,The order the attribute will be displayed on the released food.,,sequenceNumber
+,food_attribute_type_id,ID of the type of food attribute to which this value is associated for a specific food,,foodAttributeType
+,name,Name of food attribute,Changes (on Update Log),
+,value,The actual value of the attribute,,
+,,,,
+food_attribute_type,,The list of supported attributes associated with a food,,food->foodAttributes->foodAttributeType
+,id,,,
+,name,Name of the attribute associated with the food - should be displayable to users,,

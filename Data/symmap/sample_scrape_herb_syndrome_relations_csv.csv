@@ -1,0 +1,46 @@
+source_herb_id,source_herb,Syndrome_Pinyin,Syndrome_name,Type,Syndrome_English,Syndrome_id
+SMHB00367,Shengjiang (fresh ginger),Han Tan,寒痰,Summarized terms,cold phlegm,SMSY00027
+SMHB00367,Shengjiang (fresh ginger),Wei Han,胃寒,Summarized terms,the stomach affected by cold,SMSY00166
+SMHB00367,Shengjiang (fresh ginger),Feng Han,风寒,Summarized terms,wind-cold syndrome,SMSY00216
+SMHB00367,Shengjiang (fresh ginger),Feng Re,风热,Summarized terms,wind and heat,SMSY00222
+SMHB00136,Ganjiang (dried ginger),Han Yin,寒饮,Summarized terms,fluid retention,SMSY00029
+SMHB00136,Ganjiang (dried ginger),Qi Zhi,气滞,Summarized terms,sluggish flow of qi,SMSY00044
+SMHB00090,Dazao (jujube),Pi Xu,脾虚,Summarized terms,deficiency of spleen,SMSY00184
+SMHB00143,Gouqizi (goji),Nei Re,内热,Summarized terms,intrinsic heat,SMSY00009
+SMHB00143,Gouqizi (goji),Jing Yu,精亏,Summarized terms,deficiency of spermatozoa,SMSY00128
+SMHB00143,Gouqizi (goji),Jing Xie Yu Xu,精血亏虚,Summarized terms,deficiency of the essence and blood ,SMSY00131
+SMHB00143,Gouqizi (goji),Xu Lao,虚劳,Summarized terms,consumptive disease ,SMSY00186
+SMHB00143,Gouqizi (goji),Xie Xu,血虚,Summarized terms,deficiency of blood,SMSY00201
+SMHB00340,Rougui (cassia bark),Gong Leng,宫冷,Summarized terms,cold sensation in uterus,SMSY00018
+SMHB00340,Rougui (cassia bark),Qi Zhi,气滞,Summarized terms,sluggish flow of qi,SMSY00044
+SMHB00340,Rougui (cassia bark),Qi Xu,气虚,Summarized terms,air weakness,SMSY00046
+SMHB00340,Rougui (cassia bark),Qi Ni,气逆,Summarized terms,abnormal rising of qi ,SMSY00050
+SMHB00340,Rougui (cassia bark),Shen Xu,肾虚,Summarized terms,deficiency in kidney ,SMSY00161
+SMHB00340,Rougui (cassia bark),Pi Xu,脾虚,Summarized terms,deficiency of spleen,SMSY00184
+SMHB00340,Rougui (cassia bark),Xu Han,虚寒,Summarized terms,deficiency-cold,SMSY00188
+SMHB00340,Rougui (cassia bark),Xu Tuo,虚脱,Summarized terms,prostration syndrome,SMSY00192
+SMHB00340,Rougui (cassia bark),Xu Yang Shang Fu,虚阳上浮,Summarized terms,floating of weak yang,SMSY00193
+SMHB00340,Rougui (cassia bark),Yang Xu,阳虚,Summarized terms,yang deficiency,SMSY00206
+SMHB00198,Jianghuang (turmeric),Feng Shi,风湿,Summarized terms,wind-dampness,SMSY00221
+SMHB00515,Shanzha (hawthorn),Qi Zhi,气滞,Summarized terms,sluggish flow of qi,SMSY00044
+SMHB00515,Shanzha (hawthorn),Qi Xu,气虚,Summarized terms,air weakness,SMSY00046
+SMHB00515,Shanzha (hawthorn),Tan Zu,痰阻,Summarized terms,retention of phlegm,SMSY00110
+SMHB00515,Shanzha (hawthorn),Yu Xie,瘀血,Summarized terms,stagnant blood,SMSY00120
+SMHB00515,Shanzha (hawthorn),Yu Zu,瘀阻,Summarized terms,Stagnation,SMSY00122
+SMHB00515,Shanzha (hawthorn),Yu Zu Jing Bi,瘀阻经闭,Summarized terms,amenorrhea due to congestion,SMSY00123
+SMHB00515,Shanzha (hawthorn),Ji Zhi Xie Li,积滞泻痢,Summarized terms,indigestion accompanied with diarrhea and dysentery,SMSY00126
+SMHB00515,Shanzha (hawthorn),Rou Shi Ji Zhi,肉食积滞,Summarized terms,retention of meat and food in the stomach,SMSY00133
+SMHB00515,Shanzha (hawthorn),Wei Re,胃热,Summarized terms, stomach heat,SMSY00169
+SMHB00515,Shanzha (hawthorn),Pi Xu,脾虚,Summarized terms,deficiency of spleen,SMSY00184
+SMHB00515,Shanzha (hawthorn),Xie Yu,血瘀,Summarized terms,stasis of blood,SMSY00200
+SMHB00515,Shanzha (hawthorn),Feng Tan,风痰,Summarized terms,wind-phlegm,SMSY00224
+SMHB00515,Shanzha (hawthorn),Shi Ji,食积,Summarized terms,food stagnation,SMSY00226
+SMHB00515,Shanzha (hawthorn),Yin Shi Ji Zhi,饮食积滞,Summarized terms,food stagnation,SMSY00233
+SMHB00359,Shanyao (yam),Qi Zhi,气滞,Summarized terms,sluggish flow of qi,SMSY00044
+SMHB00359,Shanyao (yam),Qi Xu,气虚,Summarized terms,air weakness,SMSY00046
+SMHB00359,Shanyao (yam),Fei Xu,肺虚,Summarized terms,asthenia of lung,SMSY00160
+SMHB00359,Shanyao (yam),Shen Xu,肾虚,Summarized terms,deficiency in kidney ,SMSY00161
+SMHB00359,Shanyao (yam),Pi Shen Xu,脾肾虚,Summarized terms,splenonephric deficiency ,SMSY00175
+SMHB00359,Shanyao (yam),Pi Xu,脾虚,Summarized terms,deficiency of spleen,SMSY00184
+SMHB00359,Shanyao (yam),Xu Chuan,虚喘,Summarized terms,dyspnea due to deficiency,SMSY00187
+SMHB00359,Shanyao (yam),Xu Re,虚热,Summarized terms,asthenia-heat,SMSY00190

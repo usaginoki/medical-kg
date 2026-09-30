@@ -1,0 +1,51 @@
+Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7
+FNDDS -> FDC Crosswalk,,Data was imported from FNDDS 2019-2020 MS Access database to FDC Access database and CSV files,,,,,
+Main goal is to document where imported survey (FNDDS) data is stored in FDC,,,,,,,
+,FNDDS Table Name,FNDDS Column Name,,FDC Table Name*,FDC Column Name*,FDC Location on Website,Migration Notes
+,AddFoodDesc,Food code,,food_attribute,fdc_id,Food Details -> FDC ID,Used to link to survey_fndds_food . food_code
+,AddFoodDesc,Seq num,,food_attribute,seq_num,Attributes -> Seq num,
+,AddFoodDesc,Start date,,survey_fndds_food,start_date,Food Details -> Start date,
+,AddFoodDesc,End date,,survey_fndds_food,end_date,Food Details -> End date,
+,AddFoodDesc,Additional food description,,food_attribute,value,Attributes -> Additional Description,
+,DerivDesc,derivation_ code,,fndds_derivation,derivation_code,,
+,DerivDesc,derivation_description,,fndds_derivation,derivation_description,,
+,FNDDSNutVal,Food code,,food_nutrient,fdc_id,Food Details -> FDC ID,Used to link to survey_fndds_food . food_code
+,FNDDSNutVal,Nutrient code,,food_nutrient,nutrient_id,,Based on nutrient.nutrient_nbr = 'Nutrient code'
+,FNDDSNutVal,Start date,,survey_fndds_food,start_date,,
+,FNDDSNutVal,End date,,survey_fndds_food,end_date,Food Details -> End date,
+,FNDDSNutVal,Nutrient value,,food_nutrient,amount,Nutrients - > Amount,
+,FNDDSRecCount,Full File Name,,,,,
+,FNDDSRecCount,no_of_records,,,,,
+,FNDDSIngred,Food code,,input_food,fdc_id,Food Details -> FDC ID,Used to link to survey_fndds_food . food_code
+,FNDDSIngred,Start date,,survey_fndds_food,start_date,Food Details -> Start date,
+,FNDDSIngred,End date,,survey_fndds_food,end_date,Food Details -> End date,
+,FNDDSIngred,Seq num,,input_food,seq_num,Ingredients -> Seq Num,
+,FNDDSIngred,Ingredient code,,input_food,sr_code,Ingredients -> Ingredient Code,
+,FNDDSIngred,Ingredient description,,input_food,sr_description,Ingredients -> Ingredient Description,
+,FNDDSIngred,Amount,,input_food,amount,Ingredients -> Amount,
+,FNDDSIngred,Measure,,input_food,unit,Ingredients -> Measure,
+,FNDDSIngred,Portion code,,input_food,portion_code,Portions -> Portion Code,
+,FoodPortionDesc,Portion description,,input_food,portion_description,Portions -> Portion Description,
+,FNDDSIngred,Retention code,,input_food,retention_code,Ingredients -> Retention Code,
+,FNDDSIngred,Ingredient weight,,input_food,gram_weight,Ingredients -> Ingredient Weight(g),
+,FoodPortionDesc,Portion code,,food_portion,modifier,,
+,FoodPortionDesc,Start date,,survey_fndds_food,start_date,Food Details -> Start date,
+,FoodPortionDesc,End date,,survey_fndds_food,end_date,Food Details -> End date,
+,FoodPortionDesc,Portion description,,food_portion,portion_description,Ingredients -> Portion,
+,FoodSubcodeLinks,Food code,,survey_fndds_food,food_code,Food Details -> Food Code,
+,FoodSubcodeLinks,Subcode,,,,,"Used to link to FoodWeights (We only import subcodes into food_portion that have a subcode code of 0 (""default gram weights"")) so this field is not needed."
+,FoodSubcodeLinks,Start date,,survey_fndds_food,start_date,Food Details -> Start date,
+,FoodSubcodeLinks,End date,,survey_fndds_food,end_date,Food Details -> End date,
+,FoodWeights,Food code,,food_portion,fdc_id,Food Details -> FDC ID,Used to link to survey_fndds_food . food_code
+,FoodWeights,Subcode,,,,,See FoodSubcodeLinks . Subcode explanation
+,FoodWeights,Seq num,,food_portion,seq_num,Portions -> Seq num,
+,FoodWeights,Portion code,,food_portion,modifier,Portions -> Portion code,
+,FoodWeights,Start date,,survey_fndds_food,start_date,Food Details -> Start date,
+,FoodWeights,End date,,survey_fndds_food,end_date,Food Details -> End date,
+,FoodWeights,Portion weight,,food_portion,gram_weight,Portions -> Weight (g),
+,IngredNutVal,Ingredient code,,fndds_ingredient_nutrient_value,ingredient_code,,
+,IngredNutVal,ingredient description,,fndds_ingredient_nutrient_value,ingredient_description,,
+,IngredNutVal,Nutrient code,,fndds_ingredient_nutrient_value,nutrient_code,,
+,IngredNutVal,Nutrient value,,fndds_ingredient_nutrient_value,nutrient_value,,
+,IngredNutVal,Nutrient value source,,fndds_ingredient_nutrient_value,nutrient_value_source,,
+,IngredNutVal,FDC ID,,fndds_ingredient_nutrient_value,fdc_id,,

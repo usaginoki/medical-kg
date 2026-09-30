@@ -1,0 +1,51 @@
+recipe_code_org,recipe_code,recipe_name_org,recipe_name,primarysource
+5.1,ASC001,Hot Tea,Hot tea (Garam Chai),asc_manual
+5.2,ASC002,Instant Coffee,Instant coffee,asc_manual
+5.3,ASC003,Espreso coffee,Espreso coffee,asc_manual
+5.4,ASC004,Iced Tea,Iced tea,asc_manual
+5.5,ASC005,Raw Mango Panna ,Raw mango drink (Aam panna),asc_manual
+5.6,ASC006,Fruit Punch ( with fresh juices ),Fruit Punch (with fresh juices),asc_manual
+5.7,ASC007,Fruit Punch ( with squashes ),Fruit Punch (with squashes),asc_manual
+5.8,ASC008,Lemonade,Lemonade,asc_manual
+5.8.a,ASC009,Lem-o-gin,Lem-o-gin,asc_manual
+5.9,ASC010,Zeera Pani,Cumin infused water (Jeere/Zeere ka pani),asc_manual
+5.1,ASC011,Coco pine cooler,Coco pine cooler,asc_manual
+5.11,ASC012,Summer Cooler,Summer cooler,asc_manual
+5.13,ASC014,Hot cocoa,Hot cocoa,asc_manual
+5.14,ASC015,Cold coffee with Ice cream,Cold coffee with ice cream,asc_manual
+5.15,ASC016,Banana Milkshake ,Banana milkshake (Kele milkshake),asc_manual
+5.15 a,ASC017,Mango Milkshake ,Mango milkshake (Aam milkshake),asc_manual
+5.15 b,ASC018,Pineapple Milkshake,Pineapple milkshake (Ananas milkshake),asc_manual
+5.15 c,ASC019,Orange Milkshake ,Orange milkshake (Narangi milkshake),asc_manual
+5.16,ASC020,Egg Nog,Egg nog,asc_manual
+5.17,ASC021,Lassi (Sweet),Sweet Lassi (Meethi lassi),asc_manual
+5.17 a,ASC022,Lassi (Salted),Lassi (salted),asc_manual
+6.1,ASC023,Cheese and Chilli sandwich ,Cheese and chilli sandwich ,asc_manual
+6.2,ASC024,Egg Sandwich,Egg sandwich (Ande ka sandwich),asc_manual
+6.3,ASC025,Cucumber sandwich,Cucumber sandwich (Kheere ka sandwich),asc_manual
+6.4,ASC026,Cheese and Pineapple sandwich,Cheese and pineapple sandwich (Cheese aur ananas ka sandwich),asc_manual
+6.5,ASC027,Cheese and Tomato sandwich ,Cheese and tomato sandwich (Cheese aur tamatar ke sandwich),asc_manual
+6.6,ASC028,Chicken sandwich,Chicken sandwich,asc_manual
+6.7,ASC029,Peanut and Tomato sandwich ,Peanut and tomato sandwich (Moongfali aur tamatar ka sandwich),asc_manual
+6.8,ASC030,Rainbow sandwich,Rainbow sandwich,asc_manual
+6.9,ASC031,Club sandwich ,Club sandwich ,asc_manual
+6.9 a,ASC032,Vegetarian club sandwich ,Vegetarian club sandwich,asc_manual
+6.1,ASC033,Pin Wheel sandwich ,Pin wheel sandwich,asc_manual
+6.11,ASC034,Carrot Apple sandwich,Carrot apple sandwich (Gajar aur seb ka sandwich),asc_manual
+6.12,ASC035,Salami sandwich ,Salami sandwich,asc_manual
+6.13,ASC036,Vegetable and mayonnaise sandwich,Vegetable and mayonnaise sandwich,asc_manual
+6.14,ASC037,Egg and tomato sandwich ,Egg and tomato sandwich (Ande aur tamatar ka sandwich),asc_manual
+6.15,ASC038,Sweet open sandwich,Sweet open sandwich,asc_manual
+6.16,ASC039,Mushroom and cheese toast sandwich ,Mushroom and cheese sandwich (toasted),asc_manual
+6.17,ASC040,Tomato and cheese toasted sandwich ,Cheese and tomato sandwich (toasted) (Cheese aur tamatar ke sandwich (toasted)),asc_manual
+6.18,ASC041,Pea Potato toasted sandwich ,Pea potato sandwich (toasted) (Matar aloo ka sandwich),asc_manual
+6.18 a,ASC042,Paneer pea toasted sandwich,Paneer pea sandwich (toasted) (Paneer matar ka sandwich),asc_manual
+6.18 b,ASC043,Chicken toasted sandwich,Chicken sandwich (toasted),asc_manual
+6.18 c,ASC044,Pea keema toasted sandwich,Pea keema sandwich (toasted) (Matar aur keema ka sandwich),asc_manual
+6.19,ASC045,Classic club sandwich,Classic club sandwich,asc_manual
+6.2,ASC046,Sesame taost,Sesame toast,asc_manual
+7.1,ASC047,Cracked Wheat porridge ,Cracked wheat porridge (Meetha daliya),asc_manual
+7.2,ASC048,Semolina Porridge,Semolina porridge (Suji/Rava daliya),asc_manual
+7.4,ASC050,Oatmeal Porridge,Oatmeal Porridge,asc_manual
+7.5 a,ASC051,Cornflakes,Cornflakes with milk,asc_manual
+7.5 b,ASC052,Rice Flakes,Rice flakes (Chiwda/Aval),asc_manual

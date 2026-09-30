@@ -1,0 +1,51 @@
+ingredient,candidate,cosine,pmi,avoidance,score,cat,cat_candidate,category_evidence_status,category_supported,category_review_hold
+agar,condensed milk,0.5682,-2.9951,1.0,0.5682,,,needs_category_evidence,False,True
+agar,jam,0.493,-2.9951,1.0,0.493,,,needs_category_evidence,False,True
+agar,caramel,0.4334,-2.9951,1.0,0.4334,,,needs_category_evidence,False,True
+agar,peach,0.4315,-2.9951,1.0,0.4315,,,needs_category_evidence,False,True
+agar,pecan,0.4179,-2.9951,1.0,0.4179,,,needs_category_evidence,False,True
+agar,nutella,0.4116,-2.9951,1.0,0.4116,,,needs_category_evidence,False,True
+agar,nectar,0.4044,-2.9951,1.0,0.4044,,,needs_category_evidence,False,True
+agar,baking soda,0.4165,-1.3718,0.7287,0.3035,,,needs_category_evidence,False,True
+ajinomoto,msg,0.6717,-2.9951,1.0,0.6717,,,needs_category_evidence,False,True
+ajinomoto,snow pea,0.5368,-2.9951,1.0,0.5368,,,needs_category_evidence,False,True
+ajinomoto,lemongrass,0.4403,-2.9951,1.0,0.4403,,,needs_category_evidence,False,True
+ajinomoto,galangal,0.4106,-2.9951,1.0,0.4106,,,needs_category_evidence,False,True
+ajinomoto,tamari,0.3942,-2.9951,1.0,0.3942,,,needs_category_evidence,False,True
+ajinomoto,bouillon,0.3757,-2.9951,1.0,0.3757,,,needs_category_evidence,False,True
+ajinomoto,chestnut,0.355,-2.9951,1.0,0.355,,,needs_category_evidence,False,True
+ajinomoto,broth,0.3947,-0.2029,0.5334,0.2105,,,needs_category_evidence,False,True
+ajwain,carrom,0.6795,-1.9625,0.8274,0.5622,spice,,needs_category_evidence,False,True
+ajwain,pointed gourd,0.3305,-2.9951,1.0,0.3305,spice,,needs_category_evidence,False,True
+ajwain,salt,0.4822,0.4875,0.4181,0.2016,spice,,needs_category_evidence,False,True
+ajwain,chili,0.5364,0.8036,0.3652,0.1959,spice,spice,category_supported,True,False
+ajwain,puri,0.4067,0.3119,0.4474,0.1819,spice,,needs_category_evidence,False,True
+ajwain,papad,0.3443,-0.1308,0.5214,0.1795,spice,,needs_category_evidence,False,True
+ajwain,cumin,0.5288,1.0061,0.3314,0.1752,spice,spice,category_supported,True,False
+ajwain,coriander,0.5203,1.0025,0.332,0.1727,spice,spice,category_supported,True,False
+allspice,nectar,0.4806,-2.9951,1.0,0.4806,,,needs_category_evidence,False,True
+allspice,applesauce,0.47,-2.9951,1.0,0.47,,,needs_category_evidence,False,True
+allspice,yeast,0.5171,0.7995,0.3659,0.1892,,,needs_category_evidence,False,True
+allspice,butter,0.4897,0.8376,0.3595,0.1761,,dairy,needs_category_evidence,False,True
+allspice,berry,0.515,0.9561,0.3398,0.175,,,needs_category_evidence,False,True
+allspice,honey,0.4804,0.8099,0.3642,0.175,,sweetener,needs_category_evidence,False,True
+allspice,wine,0.571,1.2121,0.297,0.1696,,,needs_category_evidence,False,True
+allspice,sugar,0.4874,0.913,0.347,0.1691,,sweetener,needs_category_evidence,False,True
+almond,fruit,0.5754,0.5049,0.4151,0.2389,nut,,needs_category_evidence,False,True
+almond,baking soda,0.4937,0.4117,0.4307,0.2126,nut,,needs_category_evidence,False,True
+almond,custard,0.5666,1.2168,0.2962,0.1678,nut,,needs_category_evidence,False,True
+almond,nut,0.7413,1.6695,0.2205,0.1635,nut,,needs_category_evidence,False,True
+almond,vanilla,0.5988,1.3946,0.2665,0.1596,nut,,needs_category_evidence,False,True
+amaranth,bajra,0.3163,-2.9951,1.0,0.3163,,grain,needs_category_evidence,False,True
+amaranth,phoron,0.2964,-2.9951,1.0,0.2964,,,needs_category_evidence,False,True
+amaranth,ragi,0.2926,-2.9951,1.0,0.2926,,grain,needs_category_evidence,False,True
+amaranth,arrowroot,0.2911,-2.9951,1.0,0.2911,,,needs_category_evidence,False,True
+amaranth,bhaji,0.2904,-2.9951,1.0,0.2904,,,needs_category_evidence,False,True
+amaranth,jowar,0.2902,-2.9951,1.0,0.2902,,grain,needs_category_evidence,False,True
+amaranth,chana,0.287,-2.9951,1.0,0.287,,legume,needs_category_evidence,False,True
+amaranth,barley,0.2863,-2.9951,1.0,0.2863,,,needs_category_evidence,False,True
+amchur,mango,0.5432,-0.4773,0.5793,0.3146,,fruit,needs_category_evidence,False,True
+amchur,salt,0.5766,0.4653,0.4218,0.2432,,,needs_category_evidence,False,True
+amchur,curd,0.492,0.0889,0.4847,0.2385,,dairy,needs_category_evidence,False,True
+amchur,chili,0.6857,0.9603,0.3391,0.2325,,spice,needs_category_evidence,False,True
+amchur,papad,0.4499,-0.0153,0.5021,0.2259,,,needs_category_evidence,False,True

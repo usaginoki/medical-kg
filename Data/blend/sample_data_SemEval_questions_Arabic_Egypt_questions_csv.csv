@@ -1,0 +1,51 @@
+Unnamed: 0,ID,Topic,Source,Question,Translation
+0,Al-en-01,Food,English (US),ماذا يأكل الأطفال كوجبة خفيفة في الحضانة في مصر؟,What is a common snack for nursery kids in Egypt?
+1,Al-en-02,Food,English (US),ما هو الطعام الشعبي الذي يتناول مع البيرة في مصر؟,What is a popular food to go with beer in Egypt?
+2,Al-en-04,Food,English (US),ما هي الفاكهة الأكثر شعبية في مصر؟,What is the most popular fruit in Egypt?
+3,Al-en-06,Food,English (US),ما هو طعام كافتيريا المدرسة الشائع في مصر؟,What is a common school cafeteria food in Egypt?
+4,Al-en-08,Food,English (US),ما هي الوجبات الخفيفة التي يتناولها الناس في مراكز التسوق في مصر؟,What are the most commonly eaten snacks at shopping malls in Egypt?
+5,Al-en-09,Food,English (US),ما هي الوجبة الخفيفة الشعبية في مدينة الملاهي في مصر؟,What is a popular snack at an amusement park in Egypt?
+6,Al-en-16,Education,English (US),في أي سن يبدأ الأطفال الذهاب للحضانة في مصر؟ (يرجي استعمال الأرقام العربية فقط (12 على سبيل المثال) ).,"At what age do kids start nursery in Egypt? (Provide Arabic numerals (e.g., 12) only.)"
+7,Al-en-17,Education,English (US),ما هو النشاط الرياضي المفضل بعد المدرسة لتلاميذ الابتدائي في مصر؟,What is a popular afterschool sport for primary schools in Egypt?
+8,Al-en-18,Education,English (US),ما هي المادة التي يتلقى فيها أكثر تلاميذ الابتدائي دروسا خصوصية؟,For which subject do primary school students get private education in Egypt?
+9,Al-en-19,Education,English (US),ما هي اللغة الثانية الشائعة لطلاب الثانوية في مصر؟,What is a popular second language for secondary school students in Egypt?
+10,Al-en-21,Education,English (US),أي مادة هي الأهم لتعليم الموهوبين في مصر؟,Which subject is the most important for gifted education in Egypt?
+11,Al-en-32,Holidays/Celebration/Leisure,English (US),ما هو الطبق الرئيسي لعيد الشكر في مصر؟,What is the main dish for Thanksgiving in Egypt?
+12,Al-en-33,Holidays/Celebration/Leisure,English (US),ماذا يفعل الناس للاحتفال بعيد الهالوين في مصر؟,What do people do to celebrate Halloween in Egypt?
+13,Al-en-34,Holidays/Celebration/Leisure,English (US),كيف يحتفل الناس برأس السنة الجديدة في مصر؟,What do people do to celebrate New Year's Day in Egypt?
+14,Al-en-35,Holidays/Celebration/Leisure,English (US),ماذا يفعل الناس للاحتفال بعيد الميلاد المجيد في مصر؟,What do people do to celebrate Christmas in Egypt?
+15,Al-en-36,Holidays/Celebration/Leisure,English (US),أي نوع من الطعام يرتبط بعيد الهالوين في مصر؟,What food is associated with Halloween in Egypt?
+16,Al-en-37,Holidays/Celebration/Leisure,English (US),ما هي الأطعمة المرتبطة  بعيد الميلاد المجيد في مصر؟,What food is associated with Christmas in Egypt?
+17,Al-en-38,Holidays/Celebration/Leisure,English (US),ما هو الطعام المرتبط بعيد الحب في مصر؟,What food is associated with Valentine's day in Egypt?
+18,Al-en-39,Holidays/Celebration/Leisure,English (US),ماذا يأكل الناس في أعياد ميلادهم في مصر؟,What do people eat on their birthday in Egypt?
+19,Al-en-40,Holidays/Celebration/Leisure,English (US),ما هو أشهر مكان لخروج العائلات مع الأطفال الصغار في مصر؟,What is a popular outdoor place for families to have fun with little kids in Egypt?
+20,Al-en-43,Holidays/Celebration/Leisure,English (US),ما هي الأنشطة العائلية المنزلية في مصر؟,What is a popular indoor activity for families in Egypt?
+21,An-ar-02,Education,Arabic (Algeria),أين يتناول طلبة الجامعة غداءهم في مصر؟,Where do university students have lunch in Egypt?
+22,An-ar-03,Education,Arabic (Algeria),في أي شهر يتم عادة جدولة الامتحانات النهائية في المدارس الثانوية في مصر؟ (أجب برقم من 1 إلى 12),Which month is the final exam term usually scheduled at secondary schools in Egypt? (Provide Arabic numerals (1~12) only.)
+23,An-ar-08,Education,Arabic (Algeria),ماهو عدد الساعات التي يقضيها طلاب الثانوية  في المدرسة في مصر؟ (استعمل الأرقام العربية الصحيحة (0~24)، بدون أي نقاط عشرية.),"How many hours a day do students in Egypt usually spend at secondary school? (Provide Arabic numerals in integers (0~24), without any decimal points.)"
+24,An-ar-09,Education,Arabic (Algeria),ما هو عدد اللغات التي يدرسها طلاب المدارس الثانوية في مصر؟ (أجب برقم، مثلا 5.),"How many languages do students study at secondary school in Egypt? (Provide Arabic numerals (e.g., 5) only.)"
+25,An-ar-34,Sport,Arabic (Algeria),ما هي أشهر رياضة جماعية في المدارس المصرية؟,What is the most popular sport played in a team at school in Egypt?
+26,An-ar-35,Sport,Arabic (Algeria),من هو أشهر معلق رياضي في مصر؟,Who is the most popular sports commentator in Egypt?
+27,An-ar-36,Sport,Arabic (Algeria),ما هو أشهر فريق رياضي في مصر؟,What is the most popular sports team in Egypt?
+28,An-ar-43,Sport,Arabic (Algeria),ما هي الأماكن أو الفضاءات الشائعة التي يتجمع فيها الأفراد في مصر لمشاهدة بث رياضي؟,What are the common places or venues where individuals in Egypt usually gather to watch sports broadcasts?
+29,Ca-sp-05,Food,Spanish (Spain),ما هو عدد الوجبات التي يتناولها الناس يوميا في مصر عادة؟ (استعمل الأرقام العربية مثل 5),"How many meals per day do people from Egypt usually have? (Provide Arabic numerals (e.g., 5) only.)"
+30,Ca-sp-06,Food,Spanish (Spain),ما هي أهم وجبة يومية بالنسبة للشعب المصري؟,Which is the most important meal of the day to people from Egypt?
+31,Ca-sp-08,Food,Spanish (Spain),ما هو أكثر مكون شائع الاستخدام في النظام الغذائي المصري؟,What is the most common ingredient used in Egypt's diet?
+32,Ca-sp-09,Food,Spanish (Spain),ماذا يأكل الناس في مصر عادة للتحلية بعد الطعام؟,What do people from Egypt usually eat for dessert?
+33,Ca-sp-11,Food,Spanish (Spain),أي يوم من أيام الأسبوع ينظم الناس عادة وجبة عائلية في مصر؟,Which day of the week do people usually organize a family meal in Egypt?
+34,Ca-sp-14,Food,Spanish (Spain),ما هو المشروب الساخن الأكثر شعبية في مصر؟,Which is the most popular hot drink in Egypt?
+35,Ca-sp-19,Holidays/Celebration/Leisure,Spanish (Spain),ماذا يشرب الشباب في مصر عادة في النادي الليلي؟,What do young people from Egypt usually drink at the night club?
+36,Ca-sp-21,Holidays/Celebration/Leisure,Spanish (Spain),في أي شهر يأخذ الناس عادة عطلاتهم في مصر؟ (استعمل الأرقام العربية مثل 1~12).,In which month do people usually take holidays in Egypt? (Provide Arabic numerals (1~12) only.)
+37,Ca-sp-29,Holidays/Celebration/Leisure,Spanish (Spain),ما هي تقاليد ليلة رأس السنة في مصر؟,What tradition is there in Egypt for New Year's Eve?
+38,Ca-sp-38,Family,Spanish (Spain),ما هو النوع المنتشر (التقليدي) لمنازل العائلات في مصر؟,Which is the typical type of house for a family in Egypt?
+39,Ca-sp-41,Family,Spanish (Spain),أين يعيش كبار السن العاجزين عادة في مصر؟,Where do the dependent elderly usually live in Egypt?
+40,Ca-sp-42,Family,Spanish (Spain),ماهي مدة إجازة الأمومة في مصر بالأسابيع؟ (استعمل الأرقام العربية مثل 7، 8.).,"How long (in weeks) is Egypt's maternity leave for mums? (Provide Arabic numerals (e.g., 20) only.)"
+41,Ca-sp-43,Family,Spanish (Spain),ما هي مدة إجازة الأبوة في مصر(بالأسابيع)؟ (استعمل الأرقام العربية مثل 7، 8.),"How long (in weeks) is Egypt's paternity leave for dads? (Provide Arabic numerals (e.g., 20) only.)"
+42,Ca-sp-45,Family,Spanish (Spain),ماهي الوجهة الشائعة لقضاء عطلة عائلية في مصر؟,What type of destination is commonly chosen for a family holiday in Egypt?
+43,Gu-ch-05,Sport,Chinese (China),ما هي الرياضات المفضلة لكبار السن في مصر؟,What sports do seniors like the most in Egypt?
+44,Gu-ch-06,Sport,Chinese (China),ما هي الرياضات المفضلة للرجال في مصر؟,What sports do men like to play the most in Egypt?
+45,Gu-ch-07,Sport,Chinese (China),من هو أشهر لاعب/لاعبة كرة سلة في مصر؟,Who is the most famous basketball player in Egypt?
+46,Gu-ch-08,Sport,Chinese (China),ما هو أشهر رياضة للأطفال في مصر؟,What is the most popular sports among children in Egypt?
+47,Gu-ch-09,Sport,Chinese (China),ما هي الرياضات المفضلة للنساء في مصر؟,What sports do women like to play the most in Egypt?
+48,Gu-ch-11,Sport,Chinese (China),ما هي الرياضة  التي فازت مصر فيها بأكبر عدد من الميداليات الذهبية في الأولمبياد؟,In which sports event at the olympics has Egypt won the most gold medals?
+49,Gu-ch-15,Sport,Chinese (China),ما هي الرياضات التي يفضل ممارستها طلاب الجامعة الذكور في مصر؟,What sports do male students in university like to play the most in Egypt?

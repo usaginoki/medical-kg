@@ -1,0 +1,51 @@
+accession,root,path,term,level,type
+HMDB0000001,Physiological effect,Physiological effect > Health effect,Health effect,2,parent
+HMDB0000001,Physiological effect,Physiological effect > Health effect > Health condition,Health condition,3,parent
+HMDB0000001,Physiological effect,Physiological effect > Health effect > Health condition > Kidney disease,Kidney disease,4,child
+HMDB0000001,Physiological effect,Physiological effect > Health effect > Health condition > Diabetes mellitus type 2,Diabetes mellitus type 2,4,child
+HMDB0000001,Physiological effect,Physiological effect > Health effect > Health condition > Metabolism and nutrition disorders,Metabolism and nutrition disorders,4,parent
+HMDB0000001,Physiological effect,Physiological effect > Health effect > Health condition > Metabolism and nutrition disorders > Obesity,Obesity,5,child
+HMDB0000001,Disposition,Disposition > Source > Endogenous,Endogenous,3,child
+HMDB0000002,Physiological effect,Physiological effect > Health effect,Health effect,2,parent
+HMDB0000002,Physiological effect,Physiological effect > Health effect > Health condition,Health condition,3,parent
+HMDB0000002,Physiological effect,Physiological effect > Health effect > Health condition > Cancer,Cancer,4,parent
+HMDB0000002,Physiological effect,Physiological effect > Health effect > Health condition > Cancer > Leukemia,Leukemia,5,child
+HMDB0000002,Disposition,Disposition > Source > Endogenous,Endogenous,3,child
+HMDB0000002,Disposition,Disposition > Source > Food,Food,3,child
+HMDB0000002,Disposition,Disposition > Source > Biological,Biological,3,parent
+HMDB0000002,Disposition,Disposition > Source > Biological > Plant,Plant,4,parent
+HMDB0000002,Disposition,Disposition > Source > Biological > Plant > Poaceae,Poaceae,5,child
+HMDB0000002,Disposition,Disposition > Source > Biological > Plant > Fabaceae,Fabaceae,5,child
+HMDB0000002,Disposition,Disposition > Source > Biological > Plant > Glycine max,Glycine max,5,child
+HMDB0000002,Disposition,Disposition > Source > Biological > Plant > Cucurbitaceae,Cucurbitaceae,5,child
+HMDB0000002,Disposition,Disposition > Source > Biological > Plant > Theobroma cacao,Theobroma cacao,5,child
+HMDB0000002,Disposition,Disposition > Source > Biological > Animal,Animal,4,child
+HMDB0000005,Disposition,Disposition > Source > Endogenous,Endogenous,3,child
+HMDB0000005,Disposition,Disposition > Source > Food,Food,3,child
+HMDB0000005,Disposition,Disposition > Source > Biological,Biological,3,parent
+HMDB0000005,Disposition,Disposition > Source > Biological > Plant,Plant,4,parent
+HMDB0000005,Disposition,Disposition > Source > Biological > Plant > Poaceae,Poaceae,5,child
+HMDB0000005,Disposition,Disposition > Source > Biological > Plant > Fabaceae,Fabaceae,5,child
+HMDB0000005,Disposition,Disposition > Source > Biological > Plant > Glycine max,Glycine max,5,child
+HMDB0000005,Disposition,Disposition > Source > Biological > Plant > Cucurbitaceae,Cucurbitaceae,5,child
+HMDB0000005,Disposition,Disposition > Source > Biological > Plant > Theobroma cacao,Theobroma cacao,5,child
+HMDB0000005,Disposition,Disposition > Source > Biological > Animal,Animal,4,child
+HMDB0000008,Physiological effect,Physiological effect > Health effect,Health effect,2,parent
+HMDB0000008,Physiological effect,Physiological effect > Health effect > Health condition,Health condition,3,parent
+HMDB0000008,Physiological effect,Physiological effect > Health effect > Health condition > Schizophrenia,Schizophrenia,4,child
+HMDB0000008,Physiological effect,Physiological effect > Health effect > Health condition > Pyruvate dehydrogenase deficiency,Pyruvate dehydrogenase deficiency,4,child
+HMDB0000008,Disposition,Disposition > Source > Endogenous,Endogenous,3,child
+HMDB0000010,Physiological effect,Physiological effect > Health effect,Health effect,2,parent
+HMDB0000010,Physiological effect,Physiological effect > Health effect > Health condition,Health condition,3,parent
+HMDB0000010,Physiological effect,Physiological effect > Health effect > Health condition > Prolactinoma,Prolactinoma,4,child
+HMDB0000010,Disposition,Disposition > Source > Endogenous,Endogenous,3,child
+HMDB0000010,Disposition,Disposition > Source > Food,Food,3,child
+HMDB0000010,Disposition,Disposition > Source > Biological,Biological,3,parent
+HMDB0000010,Disposition,Disposition > Source > Biological > Animal,Animal,4,child
+HMDB0000011,Physiological effect,Physiological effect > Health effect,Health effect,2,parent
+HMDB0000011,Physiological effect,Physiological effect > Health effect > Health condition,Health condition,3,parent
+HMDB0000011,Physiological effect,Physiological effect > Health effect > Health condition > Diabetes mellitus type 2,Diabetes mellitus type 2,4,child
+HMDB0000011,Physiological effect,Physiological effect > Health effect > Health condition > Schizophrenia,Schizophrenia,4,child
+HMDB0000011,Physiological effect,Physiological effect > Health effect > Health condition > Anoxia,Anoxia,4,child
+HMDB0000011,Physiological effect,Physiological effect > Health effect > Health condition > Metabolism and nutrition disorders,Metabolism and nutrition disorders,4,parent
+HMDB0000011,Physiological effect,Physiological effect > Health effect > Health condition > Metabolism and nutrition disorders > Obesity,Obesity,5,child

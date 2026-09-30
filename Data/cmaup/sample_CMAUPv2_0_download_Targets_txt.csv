@@ -1,0 +1,51 @@
+Target_ID,Gene_Symbol,Protein_Name,Uniprot_ID,ChEMBL_ID,TTD_ID,if_DTP,if_CYP,if_therapeutic_target,Target_Class_Level1,Target_Class_Level2,Target_Class_Level3,Target_Class_level_displayed,Target_type
+NPT598,RORB,Nuclear receptor ROR-beta,Q92753,CHEMBL3091268,,0,0,1,Transcription factor,Nuclear receptor,Nuclear hormone receptor subfamily 1,Nuclear hormone receptor subfamily 1,Therapeutic Target
+NPT48,KDM4E,Lysine-specific demethylase 4D-like,B2RXH2,CHEMBL1293226,T17036,0,0,1,Epigenetic regulator,Eraser,Lysine demethylase,Lysine demethylase,Therapeutic Target
+NPT1448,SGK1,Serine/threonine-protein kinase Sgk1,O00141,CHEMBL2343,T64682,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT4567,GRM8,Metabotropic glutamate receptor 8,O00222,CHEMBL3228,T77548,0,0,1,Membrane receptor,Family C G protein-coupled receptor,Small molecule receptor (family C GPCR),Small molecule receptor (family C GPCR),Therapeutic Target
+NPT4999,MEN1,Menin,O00255,CHEMBL1615381,,0,0,1,Unclassified protein,n.a.,n.a.,Unclassified protein,Therapeutic Target
+NPT1446,PIK3CD,PI3-kinase p110-delta subunit,O00329,CHEMBL3130,T67849,0,0,1,Enzyme,Transferase,n.a.,Transferase,Therapeutic Target
+NPT1702,PLK4,Serine/threonine-protein kinase PLK4,O00444,CHEMBL3788,T71374,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT1717,STK25,Serine/threonine-protein kinase 25,O00506,CHEMBL5552,,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT1418,FAAH,Anandamide amidohydrolase,O00519,CHEMBL2243,T34389,0,0,1,Enzyme,Hydrolase,n.a.,Hydrolase,Therapeutic Target
+NPT203,CES2,Carboxylesterase 2,O00748,CHEMBL3180,,0,0,1,Enzyme,Hydrolase,n.a.,Hydrolase,Therapeutic Target
+NPT4018,SCD,Acyl-CoA desaturase,O00767,CHEMBL5555,,0,0,1,Enzyme,n.a.,n.a.,Enzyme,Therapeutic Target
+NPT3334,CIT,Citron Rho-interacting kinase,O14578,CHEMBL5579,T91397,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT956,PTGES,Prostaglandin E synthase,O14684,CHEMBL5658,T02562,0,0,1,Enzyme,Isomerase,n.a.,Isomerase,Therapeutic Target
+NPT3441,MAP2K7,Dual specificity mitogen-activated protein kinase kinase 7,O14733,CHEMBL3530,T53159,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT144,TERT,Telomerase reverse transcriptase,O14746,CHEMBL2916,,0,0,1,Enzyme,Transferase,n.a.,Transferase,Therapeutic Target
+NPT1608,CHEK1,Serine/threonine-protein kinase Chk1,O14757,CHEMBL4630,T62449,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT869,FFAR1,Free fatty acid receptor 1,O14842,CHEMBL4422,T25608,0,0,1,Membrane receptor,Family A G protein-coupled receptor,Small molecule receptor (family A GPCR),Small molecule receptor (family A GPCR),Therapeutic Target
+NPT981,IKBKB,Inhibitor of nuclear factor kappa B kinase beta subunit,O14920,CHEMBL1991,T78429,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT1432,AURKA,Serine/threonine-protein kinase Aurora-A,O14965,CHEMBL4722,T87675,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT3221,GAK,Serine/threonine-protein kinase GAK,O14976,CHEMBL4355,,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT3335,DCLK1,Serine/threonine-protein kinase DCLK1,O15075,CHEMBL5683,T42447,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT982,CHUK,Inhibitor of nuclear factor kappa B kinase alpha subunit,O15111,CHEMBL3476,,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT538,NPC1,Niemann-Pick C1 protein,O15118,CHEMBL1293277,,0,0,1,Transporter,n.a.,n.a.,Transporter,Therapeutic Target
+NPT3333,MUSK,"Muscle, skeletal receptor tyrosine protein kinase",O15146,CHEMBL5684,T44387,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT1540,SLC22A2,Solute carrier family 22 member 2,O15244,CHEMBL1743122,,1,0,0,Transporter,Electrochemical transporter,SLC superfamily of solute carriers,SLC superfamily of solute carriers,Drug Transporter
+NPT613,SLC22A1,Solute carrier family 22 member 1,O15245,CHEMBL5685,,1,0,0,Transporter,Electrochemical transporter,SLC superfamily of solute carriers,SLC superfamily of solute carriers,Drug Transporter
+NPT1614,MAPK13,MAP kinase p38 delta,O15264,CHEMBL2939,,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT686,HDAC3,Histone deacetylase 3,O15379,CHEMBL1829,T05090,0,0,1,Epigenetic regulator,Eraser,Histone deacetylase,Histone deacetylase,Therapeutic Target
+NPT1699,PDPK1,3-phosphoinositide dependent protein kinase-1,O15530,CHEMBL2534,,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT5301,MLNR,Motilin receptor,O43193,CHEMBL2203,T62306,0,0,1,Membrane receptor,Family A G protein-coupled receptor,Peptide receptor (family A GPCR),Peptide receptor (family A GPCR),Therapeutic Target
+NPT1687,DAPK3,Death-associated protein kinase 3,O43293,CHEMBL2468,T81623,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT3442,MAP3K7,Mitogen-activated protein kinase kinase kinase 7,O43318,CHEMBL5776,T04361,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT1447,RIPK2,Serine/threonine-protein kinase RIPK2,O43353,CHEMBL5014,T92463,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT497,MGAM,Maltase-glucoamylase,O43451,CHEMBL2074,T92777,0,0,1,Enzyme,Hydrolase,n.a.,Hydrolase,Therapeutic Target
+NPT949,CA12,Carbonic anhydrase XII,O43570,CHEMBL3242,T16987,0,0,1,Enzyme,Lyase,n.a.,Lyase,Therapeutic Target
+NPT3460,DYRK3,Dual-specificity tyrosine-phosphorylation regulated kinase 3,O43781,CHEMBL4575,T97149,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT1270,AKR1B10,Aldo-keto reductase family 1 member B10,O60218,CHEMBL5983,,0,0,1,Enzyme,Oxidoreductase,n.a.,Oxidoreductase,Therapeutic Target
+NPT1660,NUAK1,NUAK family SNF1-like kinase 1,O60285,CHEMBL5784,T21653,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT3246,JAK2,Tyrosine-protein kinase JAK2,O60674,CHEMBL2971,T08391,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT1282,MITF,Microphthalmia-associated transcription factor,O75030,CHEMBL1741165,,0,0,1,Transcription factor,n.a.,n.a.,Transcription factor,Therapeutic Target
+NPT3107,ROCK2,Rho-associated protein kinase 2,O75116,CHEMBL2973,T06093,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT3398,ULK1,Serine/threonine-protein kinase ULK1,O75385,CHEMBL6006,T79307,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT1890,ERN1,Serine/threonine-protein kinase/endoribonuclease IRE1,O75460,CHEMBL1163101,T01003,0,0,1,Enzyme,n.a.,n.a.,Enzyme,Therapeutic Target
+NPT543,NR1I2,Pregnane X receptor,O75469,CHEMBL3401,T82702,0,0,1,Transcription factor,Nuclear receptor,Nuclear hormone receptor subfamily 1,Nuclear hormone receptor subfamily 1,Therapeutic Target
+NPT10,GMNN,Geminin,O75496,CHEMBL1293278,T57387,0,0,1,Unclassified protein,n.a.,n.a.,Unclassified protein,Therapeutic Target
+NPT1613,RPS6KA5,Ribosomal protein S6 kinase alpha 5,O75582,CHEMBL4237,T50224,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT45,USP2,Ubiquitin carboxyl-terminal hydrolase 2,O75604,CHEMBL1293227,T95183,0,0,1,Enzyme,Protease,Cysteine protease,Cysteine protease,Therapeutic Target
+NPT3374,RPS6KA4,Ribosomal protein S6 kinase alpha 4,O75676,CHEMBL3125,,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT1708,STK16,Serine/threonine-protein kinase 16,O75716,CHEMBL3938,T04303,0,0,1,Enzyme,Kinase,Protein Kinase,Protein Kinase,Therapeutic Target
+NPT1546,SLC22A3,Solute carrier family 22 member 3,O75751,CHEMBL2073673,T55948,1,0,0,Transporter,Electrochemical transporter,SLC superfamily of solute carriers,SLC superfamily of solute carriers,Drug Transporter

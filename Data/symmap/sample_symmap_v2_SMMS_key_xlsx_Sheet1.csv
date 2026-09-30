@@ -1,0 +1,51 @@
+MM_symptom_id,Field_name,Field_context
+1,MM_symptom_name,Postoperative Pain
+1,UMLS_id,C0030201
+1,Alias,Pain Post-Op
+1,Alias,"Pain, Postoperative"
+1,Alias,Pain Postoperative
+1,Alias,Postoperative Pain
+1,Alias,Pain Post Op
+1,Alias,Postoperative Pain Nos
+1,Alias,Post-Operative Pain
+1,Alias,Postoperative Pains
+1,Alias,Pain;Post-Op
+1,Alias,Pain Postop
+1,Alias,Post-Op Pain
+1,Alias,Pain Post-Operative
+1,Alias,Postop Pain
+2,MM_symptom_name,Panic State
+2,UMLS_id,C0030318
+2,Alias,Panic Reaction
+2,Alias,Panic State
+2,Alias,Panics
+2,Alias,Panic
+2,Alias,Panic-Stricken
+2,Alias,Panicky
+2,Alias,Reaction Panic
+2,Alias,Panic; State
+2,Alias,State; Panic
+3,MM_symptom_name,Rash
+3,UMLS_id,C0015230
+3,Alias,Eruption
+3,Alias,Eruption Of Skin
+3,Alias,Skin Rash
+3,Alias,Exanthema
+3,Alias,Cutaneous Eruption On Skin
+3,Alias,Efflorescence
+3,Alias,Rash And Other Nonspecific Skin Eruption Nos
+3,Alias,Rash/Nonspec.Skin Erupt.Nos
+3,Alias,Rash Nos
+3,Alias,Cutaneous Eruption
+3,Alias,Rash (Nonspecific)
+3,Alias,"Cutaneous Eruption, Nos"
+3,Alias,Exanthem
+3,Alias,Spots
+3,Alias,Exanthemas
+3,Alias,Skin Eruption
+3,Alias,Rashes
+3,Alias,Rash And Other Nonspecific Skin Eruption
+3,Alias,Eruption; Skin
+3,Alias,Rash/Nonspec.Skin Eruption
+3,Alias,"Eruption, Nos"
+3,Alias,Rash

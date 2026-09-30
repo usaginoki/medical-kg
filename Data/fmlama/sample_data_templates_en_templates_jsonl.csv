@@ -1,0 +1,11 @@
+relation,template,avg
+hasParts_1,[X] is a dish made with [Y].,12.17
+hasParts_2,[X] is a type of food that includes [Y].,11.75
+hasParts_3,The dish [X] is made with [Y].,9.33
+hasParts_4,The dish [X] uses [Y] as an ingredient.,9.9
+hasParts_5,The dish [X] is made from [Y].,11.14
+country_1,"In [C], [X] is a dish made with [Y].",12.17
+country_2,"In [C], [X] is a type of food that includes [Y].",11.75
+country_3,"In [C], the dish [X] is made with [Y].",9.33
+country_4,"In [C], the dish [X] uses [Y] as an ingredient.",9.9
+country_5,"In [C], the dish [X] is made from [Y].",11.14

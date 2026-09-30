@@ -1,0 +1,125 @@
+"""Profile downloaded dataset files and write a schema summary + small sample.
+
+Usage: uv run _tools/profile_dataset.py <slug> [--rows 50] [--max-read 200000]
+
+Scans Data/<slug>/ recursively for tabular files (csv, tsv, txt with delimiters, json, jsonl,
+parquet, xlsx/xls, sqlite/db) and writes:
+  Data/<slug>/schema.md   one section per table: rows, columns, dtype, non-null %, #unique, examples
+  Data/<slug>/sample.csv  first --rows rows of the largest table (sample_<table>.csv for the others)
+Large files are read up to --max-read rows; the row count is then counted separately.
+"""
+import argparse, json, os, re, sqlite3, sys
+
+import pandas as pd
+
+VAULT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+EXT = {".csv", ".tsv", ".txt", ".json", ".jsonl", ".ndjson", ".parquet", ".xlsx", ".xls", ".sqlite", ".db"}
+SKIP = {"schema.md"}
+
+
+def count_lines(path):
+    with open(path, "rb") as f:
+        return sum(1 for _ in f)
+
+
+def read_tables(path, max_read):
+    """Yield (table_name, DataFrame, total_rows) for every table in one file."""
+    ext = os.path.splitext(path)[1].lower()
+    name = os.path.relpath(path)
+    if ext in {".csv", ".tsv", ".txt"}:
+        sep = "\t" if ext == ".tsv" else None
+        try:
+            df = pd.read_csv(path, sep=sep, engine="python", nrows=max_read, on_bad_lines="skip",
+                             encoding_errors="replace")
+        except Exception:  # stray quote characters in unquoted TSVs: read quotes literally
+            df = pd.read_csv(path, sep=sep or "\t", engine="python", nrows=max_read, on_bad_lines="skip",
+                             encoding_errors="replace", quoting=3)
+        total = len(df) if len(df) < max_read else count_lines(path) - 1
+        yield name, df, total
+    elif ext in {".jsonl", ".ndjson"}:
+        df = pd.read_json(path, lines=True, nrows=max_read)
+        total = len(df) if len(df) < max_read else count_lines(path)
+        yield name, df, total
+    elif ext == ".json":
+        with open(path, encoding="utf-8", errors="replace") as f:
+            data = json.load(f)
+        if isinstance(data, dict):  # {"table": [...]} or {id: record}
+            lists = {k: v for k, v in data.items() if isinstance(v, list) and v and isinstance(v[0], dict)}
+            if lists:
+                for k, v in lists.items():
+                    yield f"{name}:{k}", pd.json_normalize(v[:max_read], max_level=1), len(v)
+                return
+            data = [dict(_key=k, **v) if isinstance(v, dict) else {"_key": k, "value": v} for k, v in data.items()]
+        yield name, pd.json_normalize(data[:max_read], max_level=1), len(data)
+    elif ext == ".parquet":
+        df = pd.read_parquet(path)
+        yield name, df.head(max_read), len(df)
+    elif ext in {".xlsx", ".xls"}:
+        for sheet, df in pd.read_excel(path, sheet_name=None, nrows=max_read).items():
+            yield f"{name}:{sheet}", df, len(df)
+    elif ext in {".sqlite", ".db"}:
+        con = sqlite3.connect(path)
+        for (t,) in con.execute("select name from sqlite_master where type='table'"):
+            total = con.execute(f'select count(*) from "{t}"').fetchone()[0]
+            yield f"{name}:{t}", pd.read_sql(f'select * from "{t}" limit {max_read}', con), total
+
+
+def cell(v, width=60):
+    s = re.sub(r"\s+", " ", str(v)).replace("|", "\\|")
+    return s if len(s) <= width else s[: width - 1] + "…"
+
+
+def profile(df):
+    rows = []
+    for c in df.columns:
+        col = df[c]
+        try:
+            nunique = col.nunique(dropna=True)
+        except TypeError:  # lists / dicts in cells
+            nunique = col.astype(str).nunique()
+        ex = [cell(v, 40) for v in col.dropna().astype(str).unique()[:3]]
+        rows.append(f"| `{cell(c, 40)}` | {col.dtype} | {100 * col.notna().mean():.0f}% | {nunique} | {' · '.join(ex)} |")
+    return rows
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("slug")
+    ap.add_argument("--rows", type=int, default=50)
+    ap.add_argument("--max-read", type=int, default=200_000)
+    a = ap.parse_args()
+    root = os.path.join(VAULT, "Data", a.slug)
+    if not os.path.isdir(root):
+        sys.exit(f"no such directory: {root}")
+    os.chdir(root)
+    files = sorted(os.path.join(d, f)[2:] for d, _, fs in os.walk(".") for f in fs
+                   if os.path.splitext(f)[1].lower() in EXT and f not in SKIP and not f.startswith("sample"))
+    tables, errors = [], []
+    for f in files:
+        try:
+            for name, df, total in read_tables(f, a.max_read):
+                tables.append((name, df, total, os.path.getsize(f)))
+        except Exception as e:  # keep going: one unreadable file shouldn't stop the profile
+            errors.append(f"- `{f}`: {type(e).__name__}: {cell(e, 120)}")
+    if not tables:
+        sys.exit("no readable tables found\n" + "\n".join(errors))
+
+    tables.sort(key=lambda t: -t[2])
+    out = [f"# Schema profile: {a.slug}", "",
+           f"Generated by `_tools/profile_dataset.py` from {len(files)} file(s) in `Data/{a.slug}/`. "
+           "Column meanings belong in the dataset note.", "",
+           "| table | rows | columns | file size |", "|---|---|---|---|"]
+    out += [f"| `{n}` | {tot:,} | {df.shape[1]} | {sz / 1e6:.1f} MB |" for n, df, tot, sz in tables]
+    for i, (n, df, tot, _) in enumerate(tables):
+        sample = "sample.csv" if i == 0 else "sample_" + re.sub(r"[^A-Za-z0-9]+", "_", n).strip("_")[-60:] + ".csv"
+        df.head(a.rows).to_csv(sample, index=False)
+        out += ["", f"## `{n}`", "", f"{tot:,} rows × {df.shape[1]} columns · sample: `{sample}`", "",
+                "| column | dtype | non-null | unique | examples |", "|---|---|---|---|---|", *profile(df)]
+    if errors:
+        out += ["", "## Unreadable files", *errors]
+    open("schema.md", "w").write("\n".join(out) + "\n")
+    print(f"wrote Data/{a.slug}/schema.md ({len(tables)} tables) + samples")
+
+
+if __name__ == "__main__":
+    main()

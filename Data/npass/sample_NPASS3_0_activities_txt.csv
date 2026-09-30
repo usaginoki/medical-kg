@@ -1,0 +1,51 @@
+np_id,target_id,activity_type_grouped,activity_relation,activity_type,activity_value,activity_units,assay_organism,assay_tax_id,assay_strain,assay_tissue,assay_cell_type,ref_id,ref_id_type
+NPC46644,NPT918,Kd,=,Kd,26,nM,Homo sapiens,9606,n.a.,n.a.,n.a.,23362862,PMID
+NPC229354,NPT918,Kd,=,Kd,16,nM,Homo sapiens,9606,n.a.,n.a.,n.a.,23362862,PMID
+NPC477425,NPT211,IC50,=,IC50,820,nM,Homo sapiens,9606,n.a.,n.a.,T47D,18004798,PMID
+NPC477427,NPT211,IC50,>,IC50,30000,nM,Homo sapiens,9606,n.a.,n.a.,T47D,18004798,PMID
+NPC477531,NPT589,Others,=,Activity,47,%,Bos taurus,9913,n.a.,n.a.,n.a.,23691929,PMID
+NPC477531,NPT589,Others,=,Kb,1.02,10'4/M,Bos taurus,9913,n.a.,n.a.,n.a.,23691929,PMID
+NPC477531,NPT1514,Others,=,Activity,44,%,Bos taurus,9913,n.a.,n.a.,n.a.,23691929,PMID
+NPC477531,NPT1514,Others,=,Kb,4.3,10'5/M,Bos taurus,9913,n.a.,n.a.,n.a.,23691929,PMID
+NPC477531,NPT1514,Others,=,Activity,82,%,Bos taurus,9913,n.a.,n.a.,n.a.,23691929,PMID
+NPC477532,NPT589,Others,=,Activity,36,%,Bos taurus,9913,n.a.,n.a.,n.a.,23691929,PMID
+NPC477532,NPT589,Others,=,Kb,0.72,10'4/M,Bos taurus,9913,n.a.,n.a.,n.a.,23691929,PMID
+NPC477532,NPT1514,Others,=,Activity,22,%,Bos taurus,9913,n.a.,n.a.,n.a.,23691929,PMID
+NPC477532,NPT1514,Others,=,Kb,2.2,10'5/M,Bos taurus,9913,n.a.,n.a.,n.a.,23691929,PMID
+NPC477532,NPT1514,Others,=,Activity,55,%,Bos taurus,9913,n.a.,n.a.,n.a.,23691929,PMID
+NPC477533,NPT589,Others,=,Activity,36,%,Bos taurus,9913,n.a.,n.a.,n.a.,23691929,PMID
+NPC477533,NPT589,Others,=,Kb,0.09,10'4/M,Bos taurus,9913,n.a.,n.a.,n.a.,23691929,PMID
+NPC477533,NPT1514,Others,=,Activity,28,%,Bos taurus,9913,n.a.,n.a.,n.a.,23691929,PMID
+NPC477533,NPT1514,Others,=,Kb,2,10'5/M,Bos taurus,9913,n.a.,n.a.,n.a.,23691929,PMID
+NPC477533,NPT1514,Others,=,Activity,54,%,Bos taurus,9913,n.a.,n.a.,n.a.,23691929,PMID
+NPC477126,NPT668,Others,=,Activity,169,%,Homo sapiens,9606,n.a.,n.a.,n.a.,18052129,PMID
+NPC477127,NPT668,Others,=,Activity,134,%,Homo sapiens,9606,n.a.,n.a.,n.a.,18052129,PMID
+NPC477131,NPT668,Others,=,Activity,114,%,Homo sapiens,9606,n.a.,n.a.,n.a.,18052129,PMID
+NPC477292,NPT441,IC50,>,IC50,500000,nM,Homo sapiens,9606,n.a.,n.a.,n.a.,18192087,PMID
+NPC477291,NPT2249,Others,=,Inhibition,12.9,%,n.a.,n.a.,n.a.,n.a.,n.a.,17967541,PMID
+NPC477291,NPT2249,Others,=,Inhibition,24.6,%,n.a.,n.a.,n.a.,n.a.,n.a.,17967541,PMID
+NPC477291,NPT2249,IC50,>,IC50,20000000,nM,n.a.,n.a.,n.a.,n.a.,n.a.,17967541,PMID
+NPC477291,NPT2249,Others,>,Ratio IC50,3.4,n.a.,n.a.,n.a.,n.a.,n.a.,n.a.,17967541,PMID
+NPC477291,NPT441,IC50,>,IC50,500000,nM,Homo sapiens,9606,n.a.,n.a.,n.a.,18192087,PMID
+NPC476558,NPT983,Others,=,Inhibition,64,%,Homo sapiens,9606,n.a.,n.a.,n.a.,24621263,PMID
+NPC477581,NPT178,IC50,=,IC50,9970,nM,Homo sapiens,9606,n.a.,n.a.,n.a.,24593120,PMID
+NPC477582,NPT178,IC50,=,IC50,9710,nM,Homo sapiens,9606,n.a.,n.a.,n.a.,24593120,PMID
+NPC477583,NPT178,IC50,=,IC50,16850,nM,Homo sapiens,9606,n.a.,n.a.,n.a.,24593120,PMID
+NPC477584,NPT178,IC50,=,IC50,6440,nM,Homo sapiens,9606,n.a.,n.a.,n.a.,24593120,PMID
+NPC477893,NPT1618,EC50,=,EC50,900,nM,Mus musculus,10090,n.a.,n.a.,n.a.,24955889,PMID
+NPC477894,NPT1618,EC50,>,EC50,100000,nM,Mus musculus,10090,n.a.,n.a.,n.a.,24955889,PMID
+NPC477896,NPT1618,EC50,>,EC50,100000,nM,Mus musculus,10090,n.a.,n.a.,n.a.,24955889,PMID
+NPC477895,NPT1618,EC50,>,EC50,100000,nM,Mus musculus,10090,n.a.,n.a.,n.a.,24955889,PMID
+NPC477897,NPT1618,EC50,>,EC50,100000,nM,Mus musculus,10090,n.a.,n.a.,n.a.,24955889,PMID
+NPC477957,NPT546,EC50,=,EC50,770,nM,Homo sapiens,9606,n.a.,n.a.,n.a.,24959987,PMID
+NPC477958,NPT546,EC50,=,EC50,780,nM,Homo sapiens,9606,n.a.,n.a.,n.a.,24959987,PMID
+NPC478014,NPT5077,IC50,=,IC50,15000,nM,Bos taurus,9913,n.a.,Spleen,n.a.,24960234,PMID
+NPC478015,NPT5077,IC50,=,IC50,25000,nM,Bos taurus,9913,n.a.,Spleen,n.a.,24960234,PMID
+NPC478016,NPT5077,IC50,=,IC50,26000,nM,Bos taurus,9913,n.a.,Spleen,n.a.,24960234,PMID
+NPC478017,NPT5077,IC50,=,IC50,29000,nM,Bos taurus,9913,n.a.,Spleen,n.a.,24960234,PMID
+NPC477978,NPT1167,Ki,=,Ki,25000,nM,Mus musculus,10090,CD1,Brain,n.a.,25562563,PMID
+NPC477978,NPT1168,Ki,>,Ki,50000,nM,Mus musculus,10090,CD1,Brain,n.a.,25562563,PMID
+NPC477839,NPT570,IC50,=,IC50,1900,nM,Homo sapiens,9606,n.a.,n.a.,n.a.,25686392,PMID
+NPC477837,NPT570,IC50,>,IC50,10000,nM,Homo sapiens,9606,n.a.,n.a.,n.a.,25686392,PMID
+NPC477837,NPT570,Others,=,Inhibition,41,%,Homo sapiens,9606,n.a.,n.a.,n.a.,25686392,PMID
+NPC477838,NPT570,IC50,>,IC50,10000,nM,Homo sapiens,9606,n.a.,n.a.,n.a.,25686392,PMID

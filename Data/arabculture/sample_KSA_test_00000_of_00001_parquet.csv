@@ -1,0 +1,159 @@
+worker_id,sample_id,sub_topic,first_statement,options,answer_key,relevant_to_this_country,relevant_to_other_countries,should_discard,country,region
+KSA-1,1 | Breakfast,الافطار,يتناول خالد وجبة الإفطار يوم الأحد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['الإفطار يتضمن السمك والأرز',
+       ' الإفطار يتضمن الشكشوكة والبيض المقلي',
+       ' الإفطار يتضمن شريحة لحم وخبز'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,KSA,Gulf
+KSA-1,2 | Breakfast,الافطار,تفضل عائلة محمد تناول الافطار مبكراً,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يشمل الإفطار البرجر والبطاطس',
+       ' يشمل الإفطار الكبدة والخبز العربي',
+       ' يشمل الإفطار البيتزا والمعكرونة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,KSA,Gulf
+KSA-1,3 | Breakfast,الافطار,يتناول محمد وجبة الإفطار بعد صلاة الفجر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يشمل الإفطار الفول مع الخبز', ' يشمل الإفطار البرجر مع البيض',
+       ' يشمل الإفطار البيتزا مع البطاطس'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,KSA,Gulf
+KSA-1,4 | Breakfast,الافطار,يحب أسامة تناول وجبة افطاره كل صباح,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' الأصناف المقدمة في الإفطار السوشي والشاي الأخضر',
+       ' الأصناف المقدمة في الإفطار الفلافل والحمص',
+       ' الأصناف المقدمة في الإفطار الفول مع الخبز والشاي بالحليب'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,KSA,Gulf
+KSA-1,5 | Breakfast,الافطار,يتناول انس وجبة الافطار عند جدته,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتضمن الإفطار العريكة والقرصان', ' يتضمن الإفطار الفطائر والكيك',
+       ' يتضمن الإفطار الكرواسون مع الزبدة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,KSA,Gulf
+KSA-1,6 | Lunch,الغداء,تتناول عائلة احمد الغداء في يوم الجمعة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يحتوي الغداء على المندي', ' يحتوي الغداء على السوشي',
+       ' يحتوي الغداء على الباستا'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,KSA,Gulf
+KSA-1,7 | Lunch,الغداء,يفضل محمد أن تكون وجبة غدائه متكاملة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تشمل وجبة الغداء الجريش مع مرقة اللحم والأرز',
+       ' تشمل وجبة الغداء مكرونة بالبشاميل وسلطة خضراء',
+       ' تشمل وجبة الغداء لفائف التاكو مع الصلصة الحارة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,KSA,Gulf
+KSA-1,8 | Lunch,الغداء,يفضل سعد و أصدقاؤه تناول الغداء معًا,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['وجبة غداء سعد مع أصدقاءه كانت الباستا',
+       ' وجبة غداء سعد مع أصدقاءه كانت دجاج الشواية و الرز',
+       ' وجبة غداء سعد مع أصدقاءه كانت شوربة البازلاء'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,KSA,Gulf
+KSA-1,9 | Lunch,الغداء,يفضل احمد و فهد تناول الغداء يوم السبت,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يحتوي الغداء على الكبه', ' يحتوي الغداء على السوشي',
+       ' يحتوي الغداء على المضغوط'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,KSA,Gulf
+KSA-1,10 | Lunch,الغداء,يحب خالد أن تكون وجبة الغداء دسمة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتكون الغداء من كبسة حاشي و لبن', ' يتكون الغداء من معكرونة',
+       ' يتكون الغداء من حمام محشي'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,KSA,Gulf
+KSA-1,11 | Dinner,العشاء,تأكل نورة وجبة العشاء بعد السابعة مساء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تأكل نورة التاكو في العشاء',
+       ' تأكل نورة النواشف والفطائر في العشاء',
+       ' تأكل نورة الرز مع لحم الخنزير في العشاء'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,KSA,Gulf
+KSA-1,12 | Dinner,العشاء,تأكل عائلة سعيد العشاء سويا,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتكون العشاء من السلطة و المتبل',
+       ' يتكون العشاء من ساندوتشات التوست المحمص',
+       ' يتكون العشاء من المرقوق و الجريش'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,KSA,Gulf
+KSA-1,13 | Iftar (Ramadan),افطار رمضان,يبدأ الافطار في رمضان بعد المغرب,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يبدأ الصائم في أكل الكنافة', ' يبدأ الصائم في أكل التمر والقهوة',
+       ' يبدأ الصائم في أكل الرز مع اللحم أو الدجاج'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,KSA,Gulf
+KSA-1,14 | Iftar (Ramadan),افطار رمضان,تحضر والدة احمد الاطباق الرئيسية لفطور رمضان,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يشمل فطور رمضان الفسيخ و المكبوس',
+       ' يشمل فطور رمضان الشوربة والسمبوسة',
+       ' يشمل فطور رمضان البيتزا مع البطاطس'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,KSA,Gulf
+KSA-1,15 | Iftar (Ramadan),افطار رمضان,تجلس سارة مع عائلتها للافطار في رمضان,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يحتوي الإفطار على اللقيمات مع القهوة السعودية',
+       ' يحتوي الإفطار على سبستيان شيز كيك',
+       ' يحتوي الإفطار على البرجر والبطاطس'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,,No,KSA,Gulf
+KSA-1,16 | Iftar (Ramadan),افطار رمضان,الأطباق التي تعد في فطور رمضان يختلف عن باقي افطار السنة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['فطور رمضان يتضمن شوربة المحار والسمبوسة',
+       ' فطور رمضان يتضمن شوربة الحب والسمبوسة',
+       ' فطور رمضان يتضمن شوربة العدس والبسبوسة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,KSA,Gulf
+KSA-1,17 | Iftar (Ramadan),افطار رمضان,منيرة تساعد أمها في تحضير افطار رمضان,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['بعض العائلات تقسم الافطار لثلاث فترات بعد اذان المغرب لكسر الصيام والجزء الثاني بعد اذان التراويح والجزء الثالث بعد صلاة العشاء',
+       ' بعض العائلات تقسم الافطار لجزئين جزء بعد اذان المغرب لكسر الصيام وجزء بعد صلاة التراويح',
+       ' بعض العائلات تقسم الافطار لجزئين جزء بعد صلاة المغرب لكسر الصيام وجزء بعد صلاة التراويح'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,KSA,Gulf
+KSA-1,18 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),تتناول عائلة سالم قبل اذان الفجر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['سالم وعائلته يتسحرون على سوشي', ' سالم وعائلته يتسحرون على باستا',
+       ' سالم وعائلته يتسحرون على كبسة دجاج'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,KSA,Gulf
+KSA-1,19 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),سعد نهض يريد وجبة خفيفة في السحور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['سعد شرب الشوربة واكل السمبوسة', ' سعد أكل الزبادي والخبز.',
+       ' سعد أكل البرجر مع البطاطس المقلي'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,KSA,Gulf
+KSA-1,20 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),السحور له وقت مبكر أو متأخر ولكنه يكون قبل اذان الفجر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['وقت السحور المبكر يكون عند منتصف الليل ووقت السحور المتأخر يكون قبل الآذان بخمس دقائق',
+       ' وقت السحور المبكر يكون عند منتصف الليل ووقت السحور المتأخر يكون قبل الآذان بساعة',
+       ' وقت السحور المبكر يكون بعد التراويح ووقت السحور المتأخر يكون قبل الآذان بساعة'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,KSA,Gulf
+KSA-1,21 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),هناك أطباق خفيفة وتعتبر مناسبة للسحور قبل الصيام,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['الأطباق الخفيفة تشمل الكورسان مع الزبدة',
+       ' الأطباق الخفيفة تشمل التمر و اللبن',
+       ' الأطباق الخفيفة تشمل  التاكو مع الصلصة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,KSA,Gulf
+KSA-1,22 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),تتناول عبير وجبة السحور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تتكون وجبة السحور من الشوربة', ' تتكون وجبة السحور من البروستد',
+       ' تتكون وجبة السحور من المرقوق'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,KSA,Gulf
+KSA-1,23 | Dessert,حلوى,يأكل محمد حلى مع القهوة العربية,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يأكل محمد تمر وتشيز كيك مع القهوة العربية',
+       ' يأكل محمد تمر وبقلاوة مع القهوة العربية',
+       ' يأكل محمد تشيز كيك وبقلاوة مع القهوة العربية'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,KSA,Gulf
+KSA-1,24 | Dessert,حلوى,نوال كانت تناول الكيك مع والدتها,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تحب نوال أكل الكيك وخاصة كيكة الدخن',
+       ' تحب نوال أكل الكيك وخاصة البراونيز',
+       ' تحب نوال أكل الكيك وخاصة البانكيك'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",No,Yes,No,KSA,Gulf
+KSA-1,25 | Dessert,حلوى,الحنيني أحد أطباق الحلويات المشهورة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يصنع الحنيني من الطحين، السكر، البيض، الحليب، الزبدة، ذرور الخبز، الونيلية، والملح. عند التقديم، يمكن إضافة الشوكولا إليها أو الفواكه أو المربى أو شراب القيقب.',
+       ' يصنع الحنيني أو الممروس من التمر، والطحين، السمن أو الزبدة، والهيل المطحون، والزعفران، ويتميّز بطعمٍ التمر اللذيذ',
+       ' يتكون الحنيني من البسكويت المعروف باسم ليديفنكر (أصابع الست)، والتي تغمس في قهوة الاسبرسو المُرة وترص في طبق ويضاف عليها الخليط المكون من (صفار البيض، جبنة الماسكاربوني، سكر، فانيليا). وتشكل بشكل طبقات وترش ببودرة الكاكاو على السطح'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,KSA,Gulf
+KSA-1,26 | Fruits,فاكهة,سامي يأكل الفواكه بكثرة في فصل الصيف,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يأكل سامي مع عائلته التوت والكرز بعد صلاة الجمعة لتخفيف حرارة الشمس',
+       ' يأكل سامي مع عائلته البرتقال واليوسفندي بعد صلاة الجمعة لتخفيف حرارة الشمس',
+       ' يأكل سامي مع عائلته البطيخ والشمام بعد صلاة الجمعة لتخفيف حرارة الشمس'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,KSA,Gulf
+KSA-1,27 | Fruits,فاكهة,عائشة حضرت الفواكه لعزيمة الغداء لوالدها وكان أحد الأصناف المهمة هي الفواكه,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تحتوي مائدة الغداء في العزائم على فواكه متعددة منها البرتقال والتفاح',
+       ' تحتوي مائدة الغداء في العزائم على فواكه متعددة منها الكرز والتوت',
+       ' تحتوي مائدة الغداء في العزائم على فواكه متعددة منها الشمندر وجوز الهند'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,KSA,Gulf
+KSA-1,30 | Snacks,وجبات خفيفة,تسمر العائلة سوياً عند شاشة التلفزيون ويشربون الشاهي,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تتناول العائلة الشيبس مع الشاهي',
+       ' تتناول العائلة الفشار مع الشاهي',
+       ' تتناول العائلة الفصفص مع الشاهي'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",No,Yes,No,KSA,Gulf
+KSA-1,1 | wedding location,مكان الزواج,مكان الزواج يحدد باتفاق بين العريس والعروس وعائلتهم,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تفضل العوائل اقامة الزواج في قاعات الأفراح الكبيرة أو الفنادق الفاخرة',
+       ' تفضل العوائل اقامة الزواج في المنزل أو الاستراحة',
+       ' تفضل العوائل اقامة الزواج في قاعات الأماكن المفتوحة مثل الحدائق'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,KSA,Gulf
+KSA-1,2 | wedding food,طعام الزواج,تختلف أطعمة الزواج من منطقة لأخرى,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['غالب المناطق تشترك في تقديم الشيزكيك وكيكة التوت في الزواجات',
+       ' غالب المناطق تشترك في تقديم الشاورما والحلوى في الزواجات',
+       ' غالب المناطق تشترك في تقديم الرز واللحم والحلوى في الزواجات'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,KSA,Gulf
+KSA-1,3 | wedding dowry,مهر الزواج,المهر تختلف قيمته من عائلة لأخرى,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['المهر لا يختلف بين البكر والثيب', ' مهر البكر أعلى من مهر الثيب',
+       ' مهر الثيب أعلى من مهر البكر'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,KSA,Gulf
+KSA-1,6 | men cermony vs. women cermony,احتفالات الزواج للرجال vs احتفالات الزواج للنساء,احتفال الزواج في قسم الرجال مختلف عن طريقة احتفال النساء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['حفل زواج الرجال يكون باستقبال الضيوف عند الباب من قبل أهل العريس وتقليطهم في المكان ويجلس في صدر الزواج العريس وأهله وأهل العروس من الرجال',
+       ' حفل زواج الرجال يكون باستقبال الضيوف عند الباب من قبل أهل العريس وتقليطهم في المكان ويجلس في صدر الزواج أكبر رجل سناً من الحاضرين',
+       ' حفل زواج الرجال يكون بالذهاب واحضار الضيوف من بيوتهم من قبل أهل العريس ومن ثم تقليطهم للمجلس'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,KSA,Gulf
+KSA-1,7 | men cermony vs. women cermony,احتفالات الزواج للرجال vs احتفالات الزواج للنساء,الاحتفال في قسم النساء مختلف اعرافه عن الاحتفال في قسم الرجال,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يكون الاحتفال في قسم النساء بزف العروس و الغناء و الرقص',
+       ' يكون الاحتفال في قسم النساء بالجلوس بصمت لحين انتهاء الزواج',
+       ' يكون الاحتفال في قسم النساء قائم على عدم حضور العروس و اهلها للزواج'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,KSA,Gulf
+KSA-1,8 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,الزواج يتضمن رقصات شعبية متعارف عليها,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['الرقص الحركي من أشهر الرقصات التي تجدها في الزواجات',
+       ' الدبكة الفلسطينية من أشهر الرقصات التي تجدها في الزواجات',
+       ' العرضة الجنوبية من أشهر الرقصات التي تجدها في الزواجات'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,KSA,Gulf
+KSA-1,9 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,يبدأ استقبال الضيوف في الزواج قبل وصول العريس,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['بعد ما يصل العريس للزواج ويتلقى التبريكات من الحضور يتم توديع الحضور',
+       ' بعد ما يصل العريس للزواج ويتلقى التبريكات من الحضور يتم ادخال فقط كبار العائلة لوجبة العشاء',
+       ' بعد ما يصل العريس للزواج ويتلقى التبريكات من الحضور يتم ادخال الحضور لوجبة العشاء'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,KSA,Gulf
+KSA-1,10 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,بعض الأعراف يتم ادخال العريس على العروس في زواج النساء مع تخفيف الاضاءة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['أخذ صور المعازيم فقط بعد الزفة',
+       ' ترمي العروس باقة الورد بعد الزفة',
+       ' أخذ صور العريس والعروس بعد الزفة'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,KSA,Gulf
+KSA-1,12 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,تستعرض القبائل عاداتها في الزواج لاظهار الاعتزاز والفخر بأصلهم,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['بعض القبائل تلحن الشيلات في الزواج كنوع من الفخر والفرحة',
+       ' بعض القبائل تلحن الموسيقى الأجنبية في الزواج كنوع من الفخر والفرحة',
+       ' بعض القبائل تلحن الأغاني في الزواج كنوع من الفخر والفرحة'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,KSA,Gulf
+KSA-1,1 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,تقوم أسرة أحمد بتحضير الحلوى قبل عيد الفطر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تحضر أسرة أحمد الشيزكيك والبراونيز',
+       ' تحضر أسرة أحمد المعمول والكعك لتقديمها للضيوف',
+       ' تحضر أسرة أحمد كيكة التوت والكرز'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,KSA,Gulf
+KSA-1,2 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,يذهب محمد مع أبناءه لشراء ملابس جديدة استعدادًا لعيد الفطر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يذهب محمد مع أبناءه للخياط لتفصيل ثوب العيد',
+       ' يذهب محمد مع أبناءه للخياط لتفصيل بدلة العيد',
+       ' يذهب محمد مع أبناءه لشراء تيشرتات العيد'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,KSA,Gulf
+KSA-1,3 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,يشتري خالد أضحيته قبل عيد الأضحى,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يذبح خالد أضحيته بمساعدة العامل وتوزع الأضاحي للأهل فقط',
+       ' يعطي خالد أضحية كاملة لكل فرد من العائلة وهم يذبحونها بانفسهم',
+       ' يذبح خالد أضحيته بمساعدة العامل وتوزع الأضاحي للأهل والجيران والأقرباء ويتصدق بجزء منها للفقراء والمساكين'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,KSA,Gulf
+KSA-1,4 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,تقوم عائلة سارة بزيارة السوق لشراء هدايا العيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['توزع هدايا العيد من السبائك الذهبية النقدية على الأقارب والأصحاب وخاصة الأطفال',
+       ' توزع هدايا العيد من الحلويات والأموال النقدية على الأقارب والأصحاب وخاصة الأطفال',
+       ' توزع هدايا العيد من التماثيل والدروع النقدية على الأقارب والأصحاب وخاصة الأطفال'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,KSA,Gulf
+KSA-1,5 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,ذهب تركي مع أبناء خاله لشراء ألعاب العيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['اشترى تركي وأبناء خاله الكرة', ' اشترى تركي وأبناء خاله الطراطيع',
+       ' اشترى تركي وأبناء خاله المكعبات'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,KSA,Gulf
+KSA-1,6 | traditions during religous holidays,العادات في الأعياد الدينية,يكبر الناس تكبيرات مخصوصة وردت عن النبي صلى الله عليه وسلم بعد فراغهم من صلاة عيد الأضحى,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يردد الناس ""أشهد أن ﻻ إله إﻻ الله وأشهد أن محمد رسول الله"" بعد فراغهم من صلاة عيد الأضحى',
+       ' يردد الناس ""الحمدلله رب العالمين الرحمن الرحيم مالك يوم الدين"" بعد فراغهم من صلاة عيد الأضحى',
+       ' يردد الناس ""الله أكبر ، الله أكبر الله أكبر لا إله إلا الله ، والله أكبر الله أكبر ولله الحمد"" بعد فراغهم من صلاة عيد الأضحى'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,KSA,Gulf
+KSA-1,7 | traditions during religous holidays,العادات في الأعياد الدينية,يحرص الرجال على الاستعداد لصلاة العيد حيث يلبسون الجديد من الثياب ومثلهم الأطفال، وترافقهم النساء حيث يؤدون الصلاة في مساجد ومصليات مختلفة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يجلس الجميع صف مع بعضهم لا فرق بين رجل وامرأة',
+       ' تجلس النساء في مقدمة مسجد العيد ويكون الرجال في الخلف',
+       ' يتقدم الرجال في مسجد العيد ويكون النساء في الخلف'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,KSA,Gulf
+KSA-1,9 | traditions during religous holidays,العادات في الأعياد الدينية,تجتمع العائلات الكبيرة عند الجد والجدة في عيد الفطر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تجتمع العائلة عن منزل الجد والجدة ويأكلون العريكة والمبثوث في مائدة الفطور',
+       ' تجتمع العائلة عن منزل الجد والجدة ويأكلون مفن البيض بالجبن في مائدة الفطور',
+       ' تجتمع العائلة عن منزل الجد والجدة ويأكلون البانكيك والاومليت في مائدة الفطور'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,KSA,Gulf
+KSA-1,10 | traditions during religous holidays,العادات في الأعياد الدينية,تبدأ أجواء الفرح بعيد الأضحى مع صلاة العيد واجتماع المصلين في المسجد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يلبس الرجال الثوب وتسمع التكبيرات في المسجد ثم يبدون بالرقص الشعبي',
+       ' يلبس الرجال الثوب والشماغ وتسمع التكبيرات في المسجد ويتطيبون بالعود ثم يتبادلون التهاني ويوزع الأطفال الحلوى والتمر على المصلين',
+       ' يلبس الرجال البدلة الرسمية وتسمع التكبيرات في المسجد ويتطيبون بالعود ثم يتبادلون التهاني ويوزع الأطفال الحلوى والتمر على المصلين'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,KSA,Gulf
+KSA-1,12 | traditions during religous holidays,العادات في الأعياد الدينية,يخرج المسلمين زكاة الفطر في اعياد الفطر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['للنوم في منزل الجد', ' لتناول الإفطار بشكل منفرد دون العائلة',
+       ' يخرج الرحل صاع من الأرز أو أكثر عنه وعن أهل بيته يصل إلى مستحقي الزكاة'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,KSA,Gulf
+KSA-1,13 | traditions during religous holidays,العادات في الأعياد الدينية,تقوم عائلة سارة بتوزيع العيدية في أعياد الفطر والاضحى,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['توزع العيدية على الفقراء والمساكين',
+       ' توزع العيدية على أبناء الأقارب والجيران',
+       ' يتصدق بالعيدية عن المتوفين'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,KSA,Gulf
+KSA-1,16 | activities for non-religous holidays,العادات في الأعياد الغير دينية,يحتفل محمد باليوم الوطني السعودي مع عائلته,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يذهب محمد مع عائلته لزيارة الأهل والجيران للاحتفال باليوم الوطني',
+       ' يحضر محمد مع عائلته العروض الوطنية وفعاليات الألعاب النارية',
+       ' يذهب محمد مع عائلته لمسجد العيد للصلاة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,KSA,Gulf
+KSA-1,17 | activities for non-religous holidays,العادات في الأعياد الغير دينية,يوم التأسيس هو يوم وطني يحت يحتفل فيه مناسبة تأسيس الدولة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يوم التأسيس يوم للاحتفال بمناسبة تأسيس الدولة السعودية الثانية',
+       ' يوم التأسيس يوم للاحتفال بمناسبة تأسيس الدولة السعودية الأولى',
+       ' يوم التأسيس يوم للاحتفال بمناسبة تأسيس الدولة السعودية الحالية'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,KSA,Gulf

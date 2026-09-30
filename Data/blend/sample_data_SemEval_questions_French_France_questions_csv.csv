@@ -1,0 +1,51 @@
+Unnamed: 0,ID,Topic,Source,Question,Translation
+0,Al-en-01,Food,English (US),Qu’est-ce qu’un enfant de maternelle mange couramment en guise d'encas en France ?,What is a common snack for nursery kids in France?
+1,Al-en-02,Food,English (US),Qu'aime-t-on manger couramment en France pour accompagner une bière ?,What is a popular food to go with beer in France?
+2,Al-en-04,Food,English (US),Quel est le fruit préféré des Français ?,What is the most popular fruit in France?
+3,Al-en-06,Food,English (US),Quel plat est le plus couramment proposé à la cantine ou cafétéria scolaire en France ?,What is a common school cafeteria food in France?
+4,Al-en-08,Food,English (US),Quels sont les snacks les plus consommés dans les centres commerciaux en France ?,What are the most commonly eaten snacks at shopping malls in France?
+5,Al-en-09,Food,English (US),Quel est le snack le plus populaire dans les parcs d’attractions en France ?,What is a popular snack at an amusement park in France?
+6,Al-en-16,Education,English (US),"À quel âge les enfants entrent-ils en maternelle en France ? (Donnez la réponse en chiffres arabes uniquement, ex. 12.)","At what age do kids start nursery in France? (Provide Arabic numerals (e.g., 12) only.)"
+7,Al-en-17,Education,English (US),Quel sport pratiqué après l’école est le plus populaire chez les enfants en primaire en France ?,What is a popular afterschool sport for primary schools in France?
+8,Al-en-18,Education,English (US),En quelle matière les élèves de primaire reçoivent-ils des cours de soutien scolaire privés en France ?,For which subject do primary school students get private education in France?
+9,Al-en-19,Education,English (US),Quelle est la seconde langue la plus étudiée par les collégiens et lycéens en France ?,What is a popular second language for secondary school students in France?
+10,Al-en-21,Education,English (US),Quelle est la matière la plus importante dans l’enseignement donné aux élèves à haut potentiel en France ?,Which subject is the most important for gifted education in France?
+11,Al-en-32,Holidays/Celebration/Leisure,English (US),Quel est le plat principal servi pour Thanksgiving en France ?,What is the main dish for Thanksgiving in France?
+12,Al-en-33,Holidays/Celebration/Leisure,English (US),Que font les Français pour célébrer Halloween ?,What do people do to celebrate Halloween in France?
+13,Al-en-34,Holidays/Celebration/Leisure,English (US),Que font les Français pour célébrer le jour de l’An ?,What do people do to celebrate New Year's Day in France?
+14,Al-en-35,Holidays/Celebration/Leisure,English (US),Que font les Français pour célébrer Noël ?,What do people do to celebrate Christmas in France?
+15,Al-en-36,Holidays/Celebration/Leisure,English (US),Quel aliment est associé à Halloween en France ?,What food is associated with Halloween in France?
+16,Al-en-37,Holidays/Celebration/Leisure,English (US),Quel aliment est associé à Noël en France ?,What food is associated with Christmas in France?
+17,Al-en-38,Holidays/Celebration/Leisure,English (US),Quel aliment est associé à la Saint-Valentin en France ?,What food is associated with Valentine's day in France?
+18,Al-en-39,Holidays/Celebration/Leisure,English (US),Que mange-t-on le jour de son anniversaire en France ?,What do people eat on their birthday in France?
+19,Al-en-40,Holidays/Celebration/Leisure,English (US),Quel lieu en plein air est prisé par les familles avec de jeunes enfants pour s'amuser en France ?,What is a popular outdoor place for families to have fun with little kids in France?
+20,Al-en-43,Holidays/Celebration/Leisure,English (US),Quelle activité d'intérieur à faire en famille est populaire en France ?,What is a popular indoor activity for families in France?
+21,An-ar-02,Education,Arabic (Algeria),Où les étudiants universitaires déjeunent-ils en France ?,Where do university students have lunch in France?
+22,An-ar-03,Education,Arabic (Algeria),En quel mois les examens de fin d'année dans le secondaire ont-ils généralement lieu en France ? (Répondez en chiffres arabes de 1 à 12.),Which month is the final exam term usually scheduled at secondary schools in France? (Provide Arabic numerals (1~12) only.)
+23,An-ar-08,Education,Arabic (Algeria),Combien d’heures par jour les élèves passent-ils habituellement au collège/lycée en France ? (Nombres entiers en chiffres arabes uniquement (0~24).),"How many hours a day do students in France usually spend at secondary school? (Provide Arabic numerals in integers (0~24), without any decimal points.)"
+24,An-ar-09,Education,Arabic (Algeria),"Combien de langues les élèves étudient-ils au lycée en France ? (Chiffres arabes uniquement, ex : 5.)","How many languages do students study at secondary school in France? (Provide Arabic numerals (e.g., 5) only.)"
+25,An-ar-34,Sport,Arabic (Algeria),Quel est le sport d’équipe préféré des écoliers en France ?,What is the most popular sport played in a team at school in France?
+26,An-ar-35,Sport,Arabic (Algeria),Qui est le commentateur sportif préféré des Français ?,Who is the most popular sports commentator in France?
+27,An-ar-36,Sport,Arabic (Algeria),Quelle est l’équipe sportive la plus populaire en France ?,What is the most popular sports team in France?
+28,An-ar-43,Sport,Arabic (Algeria),Quels sont les lieux où les gens se rassemblent le plus souvent pour regarder des retransmissions sportives en France ?,What are the common places or venues where individuals in France usually gather to watch sports broadcasts?
+29,Ca-sp-05,Food,Spanish (Spain),"Combien de repas par jour les Français prennent-ils en général ? (Chiffres arabes uniquement, e.g., 5.)","How many meals per day do people from France usually have? (Provide Arabic numerals (e.g., 5) only.)"
+30,Ca-sp-06,Food,Spanish (Spain),Quel est le repas le plus important de la journée pour les Français ?,Which is the most important meal of the day to people from France?
+31,Ca-sp-08,Food,Spanish (Spain),Quel est l’ingrédient le plus couramment utilisé dans la nourriture française ?,What is the most common ingredient used in France's diet?
+32,Ca-sp-09,Food,Spanish (Spain),Que mangent généralement les Français pour le dessert ?,What do people from France usually eat for dessert?
+33,Ca-sp-11,Food,Spanish (Spain),Quel jour de la semaine les gens organisent-ils le plus souvent un repas en famille en France ?,Which day of the week do people usually organize a family meal in France?
+34,Ca-sp-14,Food,Spanish (Spain),Quelle est la boisson chaude la plus populaire en France ?,Which is the most popular hot drink in France?
+35,Ca-sp-19,Holidays/Celebration/Leisure,Spanish (Spain),Que boivent généralement les jeunes dans les boîtes de nuit en France ?,What do young people from France usually drink at the night club?
+36,Ca-sp-21,Holidays/Celebration/Leisure,Spanish (Spain),En quel mois les Français prennent-ils habituellement leurs vacances ? (Répondez en chiffres arabes de 1 à 12 uniquement.),In which month do people usually take holidays in France? (Provide Arabic numerals (1~12) only.)
+37,Ca-sp-29,Holidays/Celebration/Leisure,Spanish (Spain),Quelle est la tradition en France pour passer le réveillon du Nouvel An ?,What tradition is there in France for New Year's Eve?
+38,Ca-sp-38,Family,Spanish (Spain),Quel est le type de logement le plus courant pour une famille en France ?,Which is the typical type of house for a family in France?
+39,Ca-sp-41,Family,Spanish (Spain),Où vivent habituellement les personnes âgées dépendantes en France ?,Where do the dependent elderly usually live in France?
+40,Ca-sp-42,Family,Spanish (Spain),"Quelle est la durée de la scolarité obligatoire en France (en années) ? (Chiffres arabes uniquement, ex : 12.)","How long (in weeks) is France's maternity leave for mums? (Provide Arabic numerals (e.g., 20) only.)"
+41,Ca-sp-43,Family,Spanish (Spain),"Quelle est la durée du congé maternité en France ? ( Répondez en nombre de semaines et en chiffres arabes uniquement, ex : 20.)","How long (in weeks) is France's paternity leave for dads? (Provide Arabic numerals (e.g., 20) only.)"
+42,Ca-sp-45,Family,Spanish (Spain),Quel type de destination est souvent choisi pour les vacances en famille en France ?,What type of destination is commonly chosen for a family holiday in France?
+43,Gu-ch-05,Sport,Chinese (China),Quels sports les seniors préfèrent-ils pratiquer en France ?,What sports do seniors like the most in France?
+44,Gu-ch-06,Sport,Chinese (China),Quels sports les hommes aiment-ils le plus pratiquer en France ?,What sports do men like to play the most in France?
+45,Gu-ch-07,Sport,Chinese (China),Qui est le basketteur le plus célèbre en France ?,Who is the most famous basketball player in France?
+46,Gu-ch-08,Sport,Chinese (China),Quel est le sport le plus populaire chez les enfants en France ?,What is the most popular sports among children in France?
+47,Gu-ch-09,Sport,Chinese (China),Quels sports les femmes aiment-elles le plus pratiquer en France ?,What sports do women like to play the most in France?
+48,Gu-ch-11,Sport,Chinese (China),Dans quelle épreuve olympique la France a-t-elle remporté le plus de médailles d’or ?,In which sports event at the olympics has France won the most gold medals?
+49,Gu-ch-15,Sport,Chinese (China),Quel sport est le plus prisé par les étudiants de sexe masculin dans les universités françaises ?,What sports do male students in university like to play the most in France?

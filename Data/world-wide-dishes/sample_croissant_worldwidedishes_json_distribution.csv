@@ -1,0 +1,2 @@
+@type,name,contentSize,contentUrl,encodingFormat,sha256
+sc:FileObject,WorldWideDishes_2024_June_World_Wide_Dishes,358 KB,https://raw.githubusercontent.com/oxai/world-wide-dishes/main/data/WorldWideDishes_2024_June_World_Wide_Dishes.csv,text/csv,bf5ecc0dd1ee791df2a1c6f4934ad53743cf04a4242073d88b0de77e67c9fd8b

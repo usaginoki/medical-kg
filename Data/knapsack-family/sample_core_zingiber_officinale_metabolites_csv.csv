@@ -1,0 +1,51 @@
+C_ID,CAS_ID,metabolite_name,molecular_formula,mw,organism
+C00000135,464-48-2,(-)-Camphor,C10H16O,152.12011513,Zingiber officinale | ROSC.
+C00000136,470-82-6,"1,8-Cineol",C10H18O,154.1357652,Zingiber officinale
+C00000149,6750-60-3,Espatulenol,C15H24O,220.18271539,Zingiber officinale
+C00000163,473-16-5,alpha-Eudesmol,C15H26O,222.19836545,Zingiber officinale
+C00000164,473-15-4,beta-Eudesmol,C15H26O,222.19836545,Zingiber officinale
+C00000165,1209-71-8,gamma-Eudesmol,C15H26O,222.19836545,Zingiber officinale
+C00000357,66-25-1,Hexanal,C6H12O,100.08881501,Zingiber officinale
+C00000619,97-53-0,Eugenol,C10H12O2,164.08372963,Zingiber officinale
+C00000620,97-54-1,Isoeugenol,C10H12O2,164.08372963,Zingiber officinale
+C00000805,80-56-8,alpha-Pinene,C10H16,136.12520051,Zingiber officinale | ROSC.
+C00000806,18172-67-3,(-)-beta-Pinene,C10H16,136.12520051,Zingiber officinale
+C00000816,127-91-3,beta-Pinene,C10H16,136.12520051,Zingiber officinale | ROSC.
+C00000819,76-22-2,Camphor,C10H16O,152.12011513,Zingiber officinale
+C00000823,138-86-3,Limonene,C10H16,136.12520051,Zingiber officinale
+C00000839,13466-78-9,3-Carene,C10H16,136.12520051,Zingiber officinale
+C00000843,3338-55-4,cis-beta-Ocimene,C10H16,136.12520051,Zingiber officinale
+C00000844,106-22-9,Citronellol,C10H20O,156.15141526,Zingiber officinale
+C00000845,106-24-1,(E)-geraniol,C10H18O,154.1357652,Zingiber officinale
+C00000853,123-35-3,beta-Myrcene,C10H16,136.12520051,Zingiber officinale
+C00000855,106-25-2,beta-Nerol,C10H18O,154.1357652,Zingiber officinale
+C00000861,586-62-9,alpha-Terpinolene,C10H16,136.12520051,Zingiber officinale | ROSC.
+C00000911,502-65-8,Lycopene,C40H56,536.43820179,Zingiber officinale
+C00000919,7235-40-7,beta-Carotene,C40H56,536.43820179,Zingiber officinale
+C00001016,5128-44-9,"5-Hydroxy-7,4'-dimethoxyflavone",C17H14O5,298.08412356,Zingiber officinale
+C00001028,21392-57-4,"5,7-Dimethoxyflavone",C17H14O4,282.08920894,Zingiber officinale
+C00001042,26964-29-4,"Galangin 3,5,7-trimethyl ether",C18H16O5,312.09977362,Zingiber officinale
+C00001179,50-81-7,(+)-Ascorbic acid,C6H8O6,176.03208799,Zingiber officinale
+C00001221,143-07-7,Dodecanoic acid,C12H24O2,200.17763001,Zingiber officinale
+C00001223,557-59-5,Lignoceric acid,C24H48O2,368.36543078,Zingiber officinale
+C00001228,544-63-8,Myristic acid,C14H28O2,228.20893014,Zingiber officinale
+C00001234,373-49-9,Palmitoleic acid,C16H30O2,254.2245802,Zingiber officinale
+C00001252,544-86-5,Hentriacontan-1-ol,C31H64O,452.49571666,Zingiber officinale
+C00001260,630-03-5,Nonacosane,C29H60,408.46950191,Zingiber officinale
+C00001270,630-05-7,Triacontane,C33H68,464.53210217,Zingiber officinale
+C00002526,446-72-0,Genistein,C15H10O5,270.05282343,Zingiber officinale
+C00002657,123-08-0,4-Hydroxybenzaldehyde,C7H6O2,122.03677944,Zingiber officinale
+C00002682,121-34-6,Vanillic acid,C8H8O4,168.04225874,Zingiber officinale
+C00002683,5463-22-9,Vanillin,C8H8O3,152.04734412,Zingiber officinale
+C00002720,73263-62-4,5-O-Caffeoylshikimic acid,C16H16O8,336.08451749,Zingiber officinale
+C00002724,327-97-9,3-Caffeoylquinic acid,C16H18O9,354.09508217,Zingiber officinale
+C00002731,458-37-7,Curcumin,C21H20O6,368.12598837,Zingiber officinale
+C00002741,93-15-2,Methyleugenol,C11H14O2,178.09937969,Zingiber officinale
+C00002743,1135-24-6,Ferulic acid,C10H10O4,194.05790881,Zingiber officinale
+C00002746,61871-71-4,[6]-Gingerdione,C17H24O4,292.16745925,Zingiber officinale
+C00002747,128700-97-0,Gingerenone A,C21H24O5,356.16237388,Zingiber officinale
+C00002748,23513-14-6,(S)-6-Gingerol,C17H26O4,294.18310932,Zingiber officinale
+C00002762,607-91-0,Myristicin,C11H12O3,192.07864425,Zingiber officinale
+C00002764,27113-22-0,[6]-Paradol,C17H26O3,278.1881947,Zingiber officinale
+C00002771,94-59-7,Safrole,C10H10O2,162.06807956,Zingiber officinale
+C00002774,555-66-8,[6]-Shogaol,C17H24O3,276.17254463,Zingiber officinale

@@ -1,0 +1,51 @@
+table,category,code,english_name,arabic_name,source_stars,source,H2O (ml/100g),Energy (kcal/100g),CHO (g/100g),Fiber (g/100g),Sugar (g/100g),Protein (g/100g),Fat (g/100g),SFA (g/100g),TFA (g/100g),MUFA (g/100g),Cholesterol (mg/100g),Ash (g/100g)
+macronutrients,Cereal-based dishes,1.1,KHUBZ TANOOR,خبز تنور,1,Direct chemical analysis (MOH Bahrain),25.10,299.0,62.00,2.09,2.40,10.2,ND,0.24,<0.20,0.16,<3.00,1.80
+macronutrients,Cereal-based dishes,1.2,KHUBZ REGAG,خبز رقاق,2,FCT Kuwait,13.88,333.57,70.28,5.82,ND,12.71,0.99,0.27,ND,0.24,ND,2.21
+macronutrients,Cereal-based dishes,1.3,KHUBZ MAHYAWA,خبز مهياوة,1,Direct chemical analysis (MOH Bahrain),38.50,243.0,50.00,3.31,1.50,7.9,1.95,0.26,0.20,0.60,ND,2.00
+macronutrients,Cereal-based dishes,1.4,CHAPATI,جباتي,5,FCT Jordan,30.90,259.0,57.00,0.80,ND,8.8,1.20,ND,ND,ND,0.00,1.60
+macronutrients,Milk-based dishes,2.1,KARAK TEA,شاي كرك,1,Direct chemical analysis (MOH Bahrain),88.70,50.5,9.00,1.00,7.30,1.1,1.33,50.50,0.81,0.32,4.00,0.30
+macronutrients,Milk-based dishes,2.2,HALOOMI CHEESE,جبن حلوم,2,FCT Kuwait,45.82,320.53,6.61,0.00,ND,17.55,24.87,0.00,0.35,5.10,57.73,5.14
+macronutrients,Milk-based dishes,2.3,MAHALABIA,مهلبية,2,FCT Kuwait,68.26,152.66,22.01,0.00,ND,3.19,5.76,1.26,ND,0.12,5.14,0.78
+macronutrients,Chicken-based dishes,3.1,MACHBOOS DAJAJ,مجبوس دجاج,1,Direct chemical analysis (MOH Bahrain),64.10,168.0,15.00,2.94,1.00,12.4,7.33,2.31,0.20,3.47,46.00,1.30
+macronutrients,Chicken-based dishes,3.2,BIRIYANI DAJAJ,برياني دجاج,2,FCT Kuwait,64.59,157.1,22.15,2.80,ND,7.45,1.82,0.85,0.07,0.87,12.49,1.36
+macronutrients,Chicken-based dishes,3.3,DAJAJ BELFREN,دجاج بالفرن,2,FCT Kuwait,67.75,144.27,12.69,2.63,ND,12.31,6.07,1.98,0.37,2.50,37.74,2.23
+macronutrients,Chicken-based dishes,3.4,SALOONA DAJAJ,صالونة دجاج,2,FCT Kuwait,78.40,92.0,6.10,ND,ND,8.7,3.60,1.23,ND,1.44,13.20,1.80
+macronutrients,Chicken-based dishes,3.5,MADROOBAH DAJAJ,مضروبة دجاج,1,Direct chemical analysis (MOH Bahrain),86.00,58.6,8.00,<1.00,<1.00,3.9,1.28,0.31,<0.20,0.48,10.00,0.90
+macronutrients,Chicken-based dishes,3.6,HAREES CHICKEN,هريس دجاج,4,FCT Oman,79.91,83.33,14.27,ND,ND,3.33,1.43,ND,ND,ND,ND,1.04
+macronutrients,Chicken-based dishes,3.7,MASLI DAJAJ,,1,Direct chemical analysis (MOH Bahrain),69.40,131.0,19.00,1.92,<1.00,7.9,3.14,1.13,<0.20,1.36,17.00,0.80
+macronutrients,Chicken-based dishes,3.8,) SHISH TAWOOQ,شيش طاووق,3,FCT Lebanon,61.30,164.0,ND,0.20,ND,16.9,3.90,1.10,ND,ND,ND,ND
+macronutrients,Meat-based dishes,4.1,BIRYANI MEAT,برياني لحم,2,FCT Kuwait,64.50,158.0,21.50,ND,ND,6.9,4.90,2.30,ND,1.83,9.70,1.30
+macronutrients,Meat-based dishes,4.2,MACHBOOS MEAT,مجبوس لحم,1,Direct chemical analysis (MOH Bahrain),66.80,139.0,19.00,3.46,<1.00,9.8,3.56,1.50,<0.20,1.60,25.00,1.10
+macronutrients,Meat-based dishes,4.3,QOUZI,غوزي,2,FCT Kuwait,46.70,287.6,24.27,2.01,ND,10.78,15.37,11.27,0.45,0.74,28.88,1.62
+macronutrients,Meat-based dishes,4.4,SALOONA MEAT,صالونة لحم,1,Direct chemical analysis (MOH Bahrain),79.00,98.7,6.00,1.58,<1.00,9.5,4.25,1.89,0.24,1.87,30.00,0.90
+macronutrients,Meat-based dishes,4.5,MARAG BAMIAH,مرق بامية,2,FCT Kuwait,83.60,64.0,4.60,ND,ND,6.3,2.20,0.96,ND,0.75,5.40,1.50
+macronutrients,Meat-based dishes,4.6,MARAG SHABZI,مرق شبزي,2,FCT Kuwait,78.33,106.88,7.11,5.38,ND,6.04,5.98,2.79,0.08,1.96,26.17,2.32
+macronutrients,Meat-based dishes,4.7,MACARONA BACHAMEL MEAT,مكرونة بشاميل باللحم,2,FCT Kuwait,66.54,148.55,20.00,2.70,ND,7.49,3.73,2.45,0.05,0.23,13.82,1.36
+macronutrients,Meat-based dishes,4.8,HAREES MEAT,هريس لحم,2,FCT Kuwait,80.60,81.0,11.10,ND,ND,3.3,2.60,0.87,ND,1.02,3.40,0.90
+macronutrients,Meat-based dishes,4.9,KOFTA,كفتة,2,FCT Kuwait,65.39,170.12,4.51,4.55,ND,18.06,10.81,3.41,0.20,4.55,61.16,3.03
+macronutrients,Meat-based dishes,4.1,WARAK ENAB WITH MEAT,ورق عنب باللحم,3,FCT Lebanon,75.10,102.0,17.70,6.70,1.10,4.4,1.50,2.40,0.05,1.00,ND,1.30
+macronutrients,Meat-based dishes,4.11,MAHSHI KOOSA,محشي كوسا,2,FCT Kuwait,77.99,86.37,14.67,2.05,ND,4.86,1.51,0.80,ND,0.57,6.77,1.42
+macronutrients,Meat-based dishes,4.12,TIKKA MEAT,تكة لحم,1,Direct chemical analysis (MOH Bahrain),54.60,221.0,5.00,5.39,<1.00,25.5,12.22,6.32,1.01,4.31,66.00,2.50
+macronutrients,Seafood-based dishes,5.1,MACHBOOS HAMOUR,مجبوس هامور,1,Direct chemical analysis (MOH Bahrain),69.00,133.0,114.00,1.48,ND,13.1,3.04,1.23,<0.20,1.10,35.00,0.90
+macronutrients,Seafood-based dishes,5.2,MOMAWASH RUBYAN,اموش ربيان,2,FCT Kuwait,69.50,117.0,18.00,ND,ND,8.3,1.25,0.55,ND,0.47,17.50,1.80
+macronutrients,Seafood-based dishes,5.3,FRIED SAFI,صافي مقلي,1,Direct chemical analysis (MOH Bahrain),61.70,196.0,<1.00,<1.00,<1.00,24.2,10.98,4.72,<0.20,4.61,59.00,2.80
+macronutrients,Seafood-based dishes,5.4,GRILLED SUPREME,سوبريم مشوي,1,Direct chemical analysis (MOH Bahrain),60.40,211.0,2.00,1.86,<1.00,22.4,13.29,3.70,<0.20,5.96,88.00,2.20
+macronutrients,Seafood-based dishes,5.5,RUBYAN MASHWI,ربيان مشوي,2,FCT Kuwait,72.11,116.37,7.07,2.00,ND,11.56,4.65,0.53,ND,0.67,150.75,4.61
+macronutrients,Seafood-based dishes,5.6,FISH SANEYA,صينية سمك,2,FCT Kuwait,75.47,104.55,5.99,3.80,ND,11.76,3.73,1.39,ND,1.23,45.88,3.05
+macronutrients,Seafood-based dishes,5.7,SALOONA SHURI,صالونة سمك شعري,1,Direct chemical analysis (MOH Bahrain),81.90,83.1,6.00,2.84,2.10,5.9,4.60,1.88,<0.20,1.92,14.00,1.40
+macronutrients,Seafood-based dishes,5.8,HAMMSAT RUBYAN,حمصة ربيان,2,FCT Kuwait,74.13,103.18,6.87,3.16,ND,10.72,2.76,0.67,ND,0.88,95.91,4.56
+macronutrients,Seafood-based dishes,5.9,DRIED FISH,سمك مجفف,7,FCT UAE,66.36,134.29,0.01,ND,ND,23.57,4.43,ND,ND,ND,ND,5.61
+macronutrients,Seafood-based dishes,5.1,STEAMED CEABS (FROZEN),قباقب بالبخار مجمدة,1,Direct chemical analysis (MOH Bahrain),75.20,97.4,<1.00,<1.00,<1.00,18.4,2.62,1.34,<0.20,0.58,134.00,ND
+macronutrients,Vegetables & legumes-based dishes,6.1,TABOULA,تبولة,3,FCT Lebanon,88.30,53.0,6.10,3.20,0.60,1.9,2.30,0.00,T,0.40,ND,1.40
+macronutrients,Vegetables & legumes-based dishes,6.2,FATOUSH,فتوش,3,FCT Lebanon,88.10,52.0,7.20,6.00,1.60,1.5,1.90,1.70,0.02,0.90,ND,1.30
+macronutrients,Vegetables & legumes-based dishes,6.3,MAHSHI WARAQ ENAB BI ZAIT,ورق عنب بالزيت,5,FCT Jordan,69.20,122.0,ND,1.60,ND,3.7,2.10,0.40,ND,ND,ND,ND
+macronutrients,Vegetables & legumes-based dishes,6.4,MALFOUF MAHCHI,ملفوف محشي,5,FCT Jordan,81.50,75.0,12.10,1.30,2.10,3.8,1.30,1.10,0.02,0.60,ND,1.30
+macronutrients,Vegetables & legumes-based dishes,6.5,ACHAR BAHRAINI (MIXED PICKLES),آجار بحريني,1,Direct chemical analysis (MOH Bahrain),ND,74.0,15.00,11.80,<3.00,3.5,1.90,1.10,ND,ND,ND,ND
+macronutrients,Vegetables & legumes-based dishes,6.6,HOMMOS,حمص,3,FCT Lebanon,68.20,146.0,17.20,5.70,1.60,7.5,5.20,2.80,0.03,2.70,ND,1.90
+macronutrients,Vegetables & legumes-based dishes,6.7,FALAFEL,فالفل,3,FCT Lebanon,31.30,339.0,36.50,ND,3.60,13.3,15.60,4.40,0.04,5.40,ND,3.40
+macronutrients,Vegetables & legumes-based dishes,6.8,FOUL MOUDAMAS,فول مدمس,5,FCT Jordan,75.30,116.0,14.20,3.50,1.00,5.3,4.20,1.50,0.02,1.70,ND,1.00
+macronutrients,Vegetables & legumes-based dishes,6.9,EGG WITH TAMATO,بيض وطماط,1,Direct chemical analysis (MOH Bahrain),87.50,54.9,3.00,2.09,1.40,4.1,ND,1.26,<0.20,1.70,ND,1.40
+macronutrients,Vegetables & legumes-based dishes,6.1,MOTHBAL,متبل,3,FCT Lebanon,74.70,140.0,ND,2.10,ND,3.5,11.00,1.90,0.00,ND,ND,ND
+macronutrients,Vegetables & legumes-based dishes,6.11,BABA GHANOUJ,بابا غنوج,3,FCT Lebanon,91.50,39.0,4.50,3.10,2.80,1.1,1.80,4.30,0.09,4.20,ND,1.10
+macronutrients,Vegetables & legumes-based dishes,6.12,SWEET CORN,ذرة حلوة,4,FCT Oman,123.50,182.9,42.50,5.00,5.40,5.8,2.20,0.30,ND,ND,ND,ND
+macronutrients,Vegetables & legumes-based dishes,6.13,MATHAI,متاي,1,Direct chemical analysis (MOH Bahrain),3.34,512.0,38.00,6.16,1.10,17.6,31.20,13.80,<0.20,13.10,<3.00,4.10

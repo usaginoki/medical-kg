@@ -1,0 +1,51 @@
+Unnamed: 0,ID,Topic,Source,Question,Translation
+0,Al-en-01,Food,English (US),¿Cuál es un tentempié común para niños de preescolar en España?,What is a common snack for preschool kids in Spain?
+1,Al-en-02,Food,English (US),¿Cuál es una comida popular para acompañar la cerveza en España?,What is a popular food to go with beer in Spain?
+2,Al-en-04,Food,English (US),¿Cuál es la fruta más popular en España?,What is the most popular fruit in Spain?
+3,Al-en-06,Food,English (US),¿Cuál es una comida común en las cafeterías escolares de España?,What is a common school cafeteria food in Spain?
+4,Al-en-08,Food,English (US),¿Cuáles son los aperitivos más consumidos en los centros comerciales de España?,What are the most commonly eaten snacks at shopping malls in Spain?
+5,Al-en-09,Food,English (US),¿Cuál es un aperitivo popular en un parque de atracciones en España?,What is a popular snack at an amusement park in Spain?
+6,Al-en-16,Education,English (US),"¿A qué edad comienzan los niños el preescolar en España? (Proporciona la respuesta en números (por ejemplo, 12).)","At what age do kids start preschool in Spain? (Provide Arabic numerals (e.g., 12) only.)"
+7,Al-en-17,Education,English (US),¿Cuál es un deporte extraescolar popular en la escuela primaria en España?,What is a popular afterschool sport for elementary schools in Spain?
+8,Al-en-18,Education,English (US),¿Para qué asignatura reciben educación privada los estudiantes de primaria en España?,For which subject do elementary students get private education in Spain?
+9,Al-en-19,Education,English (US),¿Cuál es un segundo idioma popular para los estudiantes de secundaria en España?,What is a popular second language for high school students in Spain?
+10,Al-en-21,Education,English (US),¿Qué asignatura es la más importante para la educación de los superdotados en España?,Which subject is the most important for gifted education in Spain?
+11,Al-en-32,Holidays/Celebration/Leisure,English (US),¿Cuál es el plato principal para el Día de Acción de Gracias en España?,What is the main dish for Thanksgiving in Spain?
+12,Al-en-33,Holidays/Celebration/Leisure,English (US),¿Qué hacen las personas para celebrar Halloween en España?,What do people do to celebrate Halloween in Spain?
+13,Al-en-34,Holidays/Celebration/Leisure,English (US),¿Qué hacen las personas para celebrar el Año Nuevo en España?,What do people do to celebrate New Year's Day in Spain?
+14,Al-en-35,Holidays/Celebration/Leisure,English (US),¿Qué hacen las personas para celebrar la Navidad en España?,What do people do to celebrate Christmas in Spain?
+15,Al-en-36,Holidays/Celebration/Leisure,English (US),¿Qué comida se asocia con Halloween en España?,What food is associated with Halloween in Spain?
+16,Al-en-37,Holidays/Celebration/Leisure,English (US),¿Qué comida se asocia con la Navidad en España?,What food is associated with Christmas in Spain?
+17,Al-en-38,Holidays/Celebration/Leisure,English (US),¿Qué comida se asocia con el día de San Valentín en España?,What food is associated with Valentine's day in Spain?
+18,Al-en-39,Holidays/Celebration/Leisure,English (US),¿Qué comen las personas en su cumpleaños en España?,What do people eat on their birthday in Spain?
+19,Al-en-40,Holidays/Celebration/Leisure,English (US),¿Cuál es un lugar al aire libre popular para que las familias se diviertan con niños pequeños en España?,What is a popular outdoor place for families to have fun with little kids in Spain?
+20,Al-en-43,Holidays/Celebration/Leisure,English (US),¿Cuál es una actividad de interior popular para las familias en España?,What is a popular indoor activity for families in Spain?
+21,An-ar-02,Education,Arabic (Algeria),¿Dónde almuerzan los estudiantes universitarios en España?,Where do university students have lunch in Spain?
+22,An-ar-03,Education,Arabic (Algeria),¿En qué mes se suele programar el período de exámenes finales en los institutos de España? (Indica solo con números del 1 al 12).,Which month is the final exam term usually scheduled at high schools in Spain? (Provide Arabic numerals (1~12) only.)
+23,An-ar-08,Education,Arabic (Algeria),"¿Cuántas horas al día suelen pasar los estudiantes en el instituto en España? (Indica el número en números enteros (0~24), sin ningún decimal.)","How many hours a day do students in Spain usually spend at high school? (Provide Arabic numerals in integers (0~24), without any decimal points.)"
+24,An-ar-09,Education,Arabic (Algeria),"¿Cuántos idiomas estudian los alumnos en el instituto en España? (Indica solo en números, por ejemplo, 5.)","How many languages do students study at high school in Spain? (Provide Arabic numerals (e.g., 5) only.)"
+25,An-ar-34,Sport,Arabic (Algeria),¿Cuál es el deporte de equipo más popular que se juega en las escuelas en España?,What is the most popular sport played in a team at school in Spain?
+26,An-ar-35,Sport,Arabic (Algeria),¿Quién es el comentarista deportivo más popular en España?,Who is the most popular sport commentator in Spain?
+27,An-ar-36,Sport,Arabic (Algeria),¿Cuál es el equipo deportivo más popular en España?,What is the most popular sport team in Spain?
+28,An-ar-43,Sport,Arabic (Algeria),¿Cuáles son los lugares o establecimientos habituales donde la gente en España suele reunirse para ver las retransmisiones deportivas?,What are the common places or venues where individuals in Spain usually gather to watch sports broadcasts?
+29,Ca-sp-05,Food,Spanish (Spain),"¿Cuántas comidas al día suelen tener las personas de España? (Porporciona la respuesta en números (por ejemplo, 5).)","How many meals per day do people from Spain usually have? (Provide Arabic numerals (e.g., 5) only.)"
+30,Ca-sp-06,Food,Spanish (Spain),¿Cuál es la comida más importante del día para la gente de España?,Which is the most important meal of the day to people from Spain?
+31,Ca-sp-08,Food,Spanish (Spain),¿Cuál es el ingrediente más común utilizado en la dieta española?,What is the most common ingredient used in Spain's diet?
+32,Ca-sp-09,Food,Spanish (Spain),¿Qué suelen comer los españoles de postre?,What do people from Spain usually eat for dessert?
+33,Ca-sp-11,Food,Spanish (Spain),¿Qué día de la semana suelen organizar una comida familiar en España?,Which day of the week do people usually organize a family meal in Spain?
+34,Ca-sp-14,Food,Spanish (Spain),¿Cuál es la bebida caliente más popular en España?,Which is the most popular hot drink in Spain?
+35,Ca-sp-19,Holidays/Celebration/Leisure,Spanish (Spain),¿Qué suelen beber los jóvenes de España en la discoteca?,What do young people from Spain usually drink at the night club?
+36,Ca-sp-21,Holidays/Celebration/Leisure,Spanish (Spain),¿En qué mes suelen las personas tomar vacaciones en España? (Proporciona la respuesta en números del 1 al 12).,At which month do people usually take holidays in Spain? (Provide Arabic numerals (1~12) only.)
+37,Ca-sp-29,Holidays/Celebration/Leisure,Spanish (Spain),¿Qué tradición hay en España para Nochevieja?,What tradition is there in Spain for New Year's Eve?
+38,Ca-sp-38,Family,Spanish (Spain),¿Cuál es el tipo de casa típico para una familia en España?,Which is the typical type of house for a family in Spain?
+39,Ca-sp-41,Family,Spanish (Spain),¿Dónde suelen vivir las personas mayores dependientes en España?,Where do the dependent elderly usually live in Spain?
+40,Ca-sp-42,Family,Spanish (Spain),"¿Cuántas semanas dura la baja por maternidad en España para las madres? (Proporciona la respuesta en números, por ejemplo, 20).","How long (in weeks) is Spain's maternity leave for mums? (Provide Arabic numerals (e.g., 20) only.)"
+41,Ca-sp-43,Family,Spanish (Spain),"¿Cuántas semanas dura la baja por paternidad en España para los padres? (Proporciona la respuesta en números, por ejemplo, 20).","How long (in weeks) is Spain's paternity leave for dads? (Provide Arabic numerals (e.g., 20) only.)"
+42,Ca-sp-45,Family,Spanish (Spain),¿Qué tipo de destino se elige comúnmente para unas vacaciones familiares en España?,What type of destination is commonly chosen for a family vacation in Spain?
+43,Gu-ch-05,Sport,Chinese (China),¿Qué deportes prefieren los mayores en España?,What sports do seniors like the most in Spain?
+44,Gu-ch-06,Sport,Chinese (China),¿Qué deportes prefieren practicar los hombres en España?,What sports do men like to play the most in Spain?
+45,Gu-ch-07,Sport,Chinese (China),¿Quién es el jugador de baloncesto más famoso de España?,Who is the most famous basketball player in Spain?
+46,Gu-ch-08,Sport,Chinese (China),¿Cuál es el deporte más popular entre los niños en España?,What is the most popular sports among children in Spain?
+47,Gu-ch-09,Sport,Chinese (China),¿Qué deportes les gusta practicar más a las mujeres en España?,What sports do women like to play the most in Spain?
+48,Gu-ch-11,Sport,Chinese (China),¿En qué evento deportivo ha ganado España más medallas de oro en los Juegos Olímpicos?,What sports event has Spain won the most gold medals at the Olympics?
+49,Gu-ch-15,Sport,Chinese (China),¿Qué deportes prefieren practicar los estudiantes universitarios en España?,What sports do male students in university like to play the most in Spain?

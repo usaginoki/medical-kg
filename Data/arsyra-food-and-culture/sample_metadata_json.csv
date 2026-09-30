@@ -1,0 +1,17 @@
+_key,value
+name,ArSyra Food & Culture — Arabic Culinary Dialect Data
+version,2026.03.31
+description,"Arabic food culture data — local dishes, ingredients, and culinary expressions."
+license,CC-BY-NC-SA-4.0
+totalRecords,4579
+nativeSpeakerRecords,3679
+syntheticRecords,900
+nativeSpeakerPct,80.3
+sampleRecords,50
+accessModel,preview
+contact,support@arsyra.com
+categories,['food_culture']
+countries,"['SY', 'EU', 'TN', 'MA', 'PS', 'XX', 'IQ', 'EG', 'DZ', 'SA', 'JO', 'LB', 'AE', 'SD', 'YE', 'LY', 'KW']"
+dialects,"['levantine', 'maghrebi', 'iraqi', 'egyptian', 'gulf', 'sudanese', 'other']"
+exported_at,2026-03-31T00:00:02.787Z
+source,ArSyra — Multi-Dialect Arabic Data (https://arsyra.com)

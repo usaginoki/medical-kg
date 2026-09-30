@@ -46,5 +46,16 @@ When the user gives a research question with sub-questions:
 - Final report: per paper the note path, questions tagged, 1-line key finding, then NEW CANDIDATES
   (relevant references not yet in the vault: title, first author+year, arXiv id, why).
 
+## Dataset-centric topics (e.g. `cultural-food-health`)
+The unit is the **dataset**, not the paper (`_tools/README.md` → *Dataset notes*). Per dataset:
+1. Follow the access link and actually try to get the data (git clone --depth 1, `kagglehub`, `hf download`,
+   website download, API query, small polite scrape). Record honestly what worked in `accessed`,
+   `access_method`, `access_notes`; distinguish "authors give a link" (`availability`) from "we got it".
+2. Download to `Data/<slug>/` (≤ ~500 MB, else a subset), run `uv run _tools/profile_dataset.py <slug>`.
+3. Write `Datasets/<Name>.md`: every table with its columns *and what they mean* (from docs/paper),
+   countries, food fields or body-effect fields. Latest version only; older versions go in *Versions*.
+4. If there is a paper, write a light `Papers/` note (linked both ways via `papers` / `datasets`).
+5. After all datasets: build `Countries/` + `Regions/` notes from the `countries` / `regions` properties.
+
 ## Git
 PDFs and `.cache/` are git-ignored. Commit or push only when the user asks.

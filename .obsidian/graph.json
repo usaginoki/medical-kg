@@ -27,6 +27,27 @@
         "a": 1,
         "rgb": 11657298
       }
+    },
+    {
+      "query": "tag:#type/dataset",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "tag:#type/country",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "tag:#type/region",
+      "color": {
+        "a": 1,
+        "rgb": 10044158
+      }
     }
   ],
   "collapse-display": false,
@@ -39,6 +60,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7028339322050723,
+  "scale": 0.3089754638231604,
   "close": true
 }

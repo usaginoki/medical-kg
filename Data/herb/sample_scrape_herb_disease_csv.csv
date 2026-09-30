@@ -1,0 +1,9 @@
+source_herb_id,source_herb,Disease id,Disease name,Disease alias name,UMLS disease type,P value,FDR BH
+HERB001787,Gan Jiang,HBDIS002418,Pleurisy,Pleuritis;Pleurisy,Disease or Syndrome,3.48623e-06,0.00779869
+HERB001787,Gan Jiang,HBDIS002739,"Shock, Hemorrhagic","Shock, Hemorrhagic",Pathologic Function,4.87946e-06,0.00909613
+HERB001787,Gan Jiang,HBDIS002855,Cerebrovascular Accident,"Cerebral Vascular Events;Cerebral Infarction;Cerebrovascular Accidents;Stroke, Not Specified As Haemorrhage Or Infarction;Stroke, Ischemic;Cerebrovascular Accident;Cerebrovascular Disease;Acute Cerebrovascular Accidents;Stroke",Disease or Syndrome,3.35496e-06,0.00779869
+HERB001787,Gan Jiang,HBDIS002939,Thrombosis,Thrombus;Thrombosis,Pathologic Function,1.63952e-06,0.00779869
+HERB001787,Gan Jiang,HBDIS003442,Thrombus,Thrombus;Thrombosis,Pathologic Function,1.35183e-06,0.00779869
+HERB001787,Gan Jiang,HBDIS011529,Acute Cerebrovascular Accidents,Acute Cerebrovascular Accidents;Stroke;Cerebrovascular Accident,Disease or Syndrome,2.2046e-06,0.00779869
+HERB002840,Jiang Huang,HBDIS002001,Muscular Atrophy,Muscular Atrophy;Neurogenic Muscular Atrophy,Pathologic Function,8.72456e-07,0.00487921
+HERB002840,Jiang Huang,HBDIS006533,Neurogenic Muscular Atrophy,"Skeletal Muscle Atrophy;Neurogenic Muscle Atrophy;Muscle Degeneration;Amyotrophy;Muscular Atrophy;Muscle Wasting;Muscle Atrophy;Muscle Atrophy, Neurogenic;Muscle Hypotrophy;Neurogenic Muscular Atrophy;Amyotrophy Involving The Extremities",Pathologic Function,8.72456e-07,0.00487921

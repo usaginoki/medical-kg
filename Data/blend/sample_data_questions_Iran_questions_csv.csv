@@ -1,0 +1,51 @@
+Unnamed: 0,ID,Topic,Source,Question,Translation
+0,Al-en-01,Food,English (US),یک میان وعده معمول برای بچه‌های پیش دبستانی درایران چیست؟,What is a common snack for preschool kids in Iran?
+1,Al-en-02,Food,English (US),یک غذای محبوب برای خوردن با آبجو درایران چیست؟,What is a popular food to go with beer in Iran?
+2,Al-en-04,Food,English (US),محبوب‌ترین میوه درایران چیست؟,What is the most popular fruit in Iran?
+3,Al-en-06,Food,English (US),یک غذای معمولی کافه‌تریای مدارسایران چیست؟,What is a common school cafeteria food in Iran?
+4,Al-en-08,Food,English (US),در ایران متداول‌ترین تنقلاتی که در مراکز خرید مصرف می‌شوند چیست؟,What are the most commonly eaten snacks at shopping malls in Iran?
+5,Al-en-09,Food,English (US),یک میان وعده محبوب در شهربازی درایران چیست؟,What is a popular snack at an amusement park in Iran?
+6,Al-en-16,Education,English (US),در کشور شما در چه سنی بچه‌ها به پیش‌دبستانی می‌روند؟ (فقط از اعداد استفاده کنید),"At what age do kids start preschool in Iran? (Provide Arabic numerals (e.g., 12) only.)"
+7,Al-en-17,Education,English (US),در ایران یک ورزش محبوب بعد از مدرسه برای دانش‌آموزان دبستانی چیست؟,What is a popular afterschool sport for elementary schools in Iran?
+8,Al-en-18,Education,English (US),درایران دانش‌آموزان دبستانی برای چه درسی تحصیلات خصوصی می‌گیرند؟,For which subject do elementary students get private education in Iran?
+9,Al-en-19,Education,English (US),درایران یک زبان دوم محبوب برای دانش‌آموزان دبیرستانی چیست؟,What is a popular second language for high school students in Iran?
+10,Al-en-21,Education,English (US),در کشور شما در دوره‌ی استعدادهای درخشان به کدام درس اهمیت بیشتری داده می‌شود؟,Which subject is the most important for gifted education in Iran?
+11,Al-en-32,Holidays/Celebration/Leisure,English (US),غذای اصلی شکرگزاری درایران چیست؟,What is the main dish for Thanksgiving in Iran?
+12,Al-en-33,Holidays/Celebration/Leisure,English (US),مردم برای جشن گرفتن هالووین درایران چه کارهایی انجام می‌دهند؟,What do people do to celebrate Halloween in Iran?
+13,Al-en-34,Holidays/Celebration/Leisure,English (US),مردم برای جشن گرفتن روز سال نو درایران چه کاری انجام می‌دهند؟,What do people do to celebrate New Year's Day in Iran?
+14,Al-en-35,Holidays/Celebration/Leisure,English (US),درایران مردم برای جشن گرفتن کریسمس چه کارهایی انجام می‌دهند؟,What do people do to celebrate Christmas in Iran?
+15,Al-en-36,Holidays/Celebration/Leisure,English (US),چه غذایی با هالووین درایران مرتبط است؟,What food is associated with Halloween in Iran?
+16,Al-en-37,Holidays/Celebration/Leisure,English (US),چه غذایی با کریسمس درایران مرتبط است؟,What food is associated with Christmas in Iran?
+17,Al-en-38,Holidays/Celebration/Leisure,English (US),چه غذایی با روز ولنتاین درایران مرتبط است؟,What food is associated with Valentine's day in Iran?
+18,Al-en-39,Holidays/Celebration/Leisure,English (US),مردم در کشور شما در جشن تولد معمولا چه چیزی می‌خورند؟,What do people eat on their birthday in Iran?
+19,Al-en-40,Holidays/Celebration/Leisure,English (US),یک مکان محبوب فضای باز برای خانواده‌ها برای تفریح با بچه‌های کوچک درایران چیست؟,What is a popular outdoor place for families to have fun with little kids in Iran?
+20,Al-en-43,Holidays/Celebration/Leisure,English (US),یک فعالیت محبوب (زیرسقفی) برای خانواده‌ها در کشور شما چیست؟,What is a popular indoor activity for families in Iran?
+21,An-ar-02,Education,Arabic (Algeria),در ایران دانشجویان دانشگاه  کجا ناهار می‌خورند؟,Where do university students have lunch in Iran?
+22,An-ar-03,Education,Arabic (Algeria),در کشور شما امتحانات نهایی دبیرستان‌ها معمولاً در چه ماهی برگزار می‌شود؟ (فقط از اعداد استفاده کنید),Which month is the final exam term usually scheduled at high schools in Iran? (Provide Arabic numerals (1~12) only.)
+23,An-ar-08,Education,Arabic (Algeria),در ایران دانش‌آموزان  معمولاً چند ساعت در روز را در دبیرستان می‌گذرانند؟ (از اعداد عربی به صورت صحیح (0 تا 24) و بدون نقطه اعشار استفاده کنید.),"How many hours a day do students in Iran usually spend at high school? (Provide Arabic numerals in integers (0~24), without any decimal points.)"
+24,An-ar-09,Education,Arabic (Algeria),در ایران دانش‌آموزان در دبیرستان چند زبان مطالعه می‌کنند؟ (فقط عدد عربی (مثلاً 5) ارائه دهید.),"How many languages do students study at high school in Iran? (Provide Arabic numerals (e.g., 5) only.)"
+25,An-ar-34,Sport,Arabic (Algeria),درایران محبوب‌ترین ورزش دسته‌جمعی که در مدارس بازی می‌شود، چیست؟,What is the most popular sport played in a team at school in Iran?
+26,An-ar-35,Sport,Arabic (Algeria),درایران محبوب‌ترین گزارشگر ورزشی چه کسی است؟,Who is the most popular sport commentator in Iran?
+27,An-ar-36,Sport,Arabic (Algeria),درایران محبوب‌ترین تیم ورزشی کدام است؟,What is the most popular sport team in Iran?
+28,An-ar-43,Sport,Arabic (Algeria),در کشور شما مکان‌ ها یا محل‌هایی که افراد معمولاً برای تماشای برنامه‌های ورزشی در آنجا جمع می‌شوند، کدام‌ها هستند؟,What are the common places or venues where individuals in Iran usually gather to watch sports broadcasts?
+29,Ca-sp-05,Food,Spanish (Spain),مردم در کشور شما معمولاً روزانه چند وعده غذا می‌خورند؟ (فقط از اعداد استفاده کنید),"How many meals per day do people from Iran usually have? (Provide Arabic numerals (e.g., 5) only.)"
+30,Ca-sp-06,Food,Spanish (Spain),کدام وعده غذایی از روز برای مردم درایران مهم‌تر است؟,Which is the most important meal of the day to people from Iran?
+31,Ca-sp-08,Food,Spanish (Spain),متداول‌ترین ماده‌ی غذایی مورد استفاده در رژیم غذایی درایران چیست؟,What is the most common ingredient used in Iran's diet?
+32,Ca-sp-09,Food,Spanish (Spain),مردم درایران معمولاً برای دسر چه می‌خورند؟,What do people from Iran usually eat for dessert?
+33,Ca-sp-11,Food,Spanish (Spain),مردم درایران معمولاً در چه روزی از هفته مهمانی خانوادگی برگزار می‌کنند؟,Which day of the week do people usually organize a family meal in Iran?
+34,Ca-sp-14,Food,Spanish (Spain),محبوب‌ترین نوشیدنی گرم درایران کدام است؟,Which is the most popular hot drink in Iran?
+35,Ca-sp-19,Holidays/Celebration/Leisure,Spanish (Spain),جوانان درایران معمولاً در کلاب شبانه چه چیزی می‌نوشند؟,What do young people from Iran usually drink at the night club?
+36,Ca-sp-21,Holidays/Celebration/Leisure,Spanish (Spain),مردم معمولاً در چه ماهی در کشور شما تعطیلات می‌گیرند؟ (فقط از اعداد استفاده کنید),At which month do people usually take holidays in Iran? (Provide Arabic numerals (1~12) only.)
+37,Ca-sp-29,Holidays/Celebration/Leisure,Spanish (Spain),در شب سال نو درایران چه سنت‌هایی وجود دارد؟,What tradition is there in Iran for New Year's Eve?
+38,Ca-sp-38,Family,Spanish (Spain),درایران معمولاً چه نوع خانه‌ای برای یک خانواده معمول است؟,Which is the typical type of house for a family in Iran?
+39,Ca-sp-41,Family,Spanish (Spain),درایران افراد مسن وابسته معمولاً در کجا زندگی می‌کنند؟,Where do the dependent elderly usually live in Iran?
+40,Ca-sp-42,Family,Spanish (Spain),در کشور شما مرخصی زایمان برای مادران چند هفته است؟ (فقط از اعداد استفاده کنید),"How long (in weeks) is Iran's maternity leave for mums? (Provide Arabic numerals (e.g., 20) only.)"
+41,Ca-sp-43,Family,Spanish (Spain),در کشور شما مرخصی زایمان برای پدران چند هفته است؟ (فقط از اعداد استفاده کنید),"How long (in weeks) is Iran's paternity leave for dads? (Provide Arabic numerals (e.g., 20) only.)"
+42,Ca-sp-45,Family,Spanish (Spain),درایران معمولاً چه نوع مقصدی برای تعطیلات خانوادگی انتخاب می‌شود؟,What type of destination is commonly chosen for a family vacation in Iran?
+43,Gu-ch-05,Sport,Chinese (China),درایران سالمندان بیشتر از چه ورزش‌هایی خوششان می‌آید؟,What sports do seniors like the most in Iran?
+44,Gu-ch-06,Sport,Chinese (China),درایران مردان بیشتر به بازی کردن چه ورزش‌هایی علاقه دارند؟,What sports do men like to play the most in Iran?
+45,Gu-ch-07,Sport,Chinese (China),درایران معروف‌ترین بازیکن بسکتبال چه کسی است؟,Who is the most famous basketball player in Iran?
+46,Gu-ch-08,Sport,Chinese (China),درایران محبوب‌ترین ورزش بین کودکان چیست؟,What is the most popular sports among children in Iran?
+47,Gu-ch-09,Sport,Chinese (China),درایران زنان بیشتر به بازی کردن چه ورزش‌هایی علاقه دارند؟,What sports do women like to play the most in Iran?
+48,Gu-ch-11,Sport,Chinese (China),درایران چه رویداد ورزشی در المپیک بیشترین مدال طلا را کسب کرده است؟,What sports event has Iran won the most gold medals at the Olympics?
+49,Gu-ch-15,Sport,Chinese (China),درایران دانشجویان پسر در دانشگاه‌ها بیشتر به چه ورزش‌هایی علاقه دارند؟,What sports do male students in university like to play the most in Iran?

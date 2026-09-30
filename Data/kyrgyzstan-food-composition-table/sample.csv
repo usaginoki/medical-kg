@@ -1,0 +1,51 @@
+recipe_no,food_code,dish_name,ingredient,raw_weight_g,edible_weight_g
+1,13001,Beshbarmak,"Lamb, horse or beef meat",218.0,156.0
+1,13001,Beshbarmak,Meat cooked,,100.0
+1,13001,Beshbarmak,Chicken egg fresh,8.0,8.0
+1,13001,Beshbarmak,Wheat flour fine Type 405,62.0,62.0
+1,13001,Beshbarmak,Drinking water,15.0,15.0
+1,13001,Beshbarmak,Table salt,2.0,2.0
+1,13001,Beshbarmak,Mass of dough,,83.0
+1,13001,Beshbarmak,Mass of cooked noodles,,150.0
+1,13001,Beshbarmak,Onions fresh,36.0,30.0
+1,13001,Beshbarmak,Black pepper,0.5,0.5
+1,13001,Beshbarmak,Bouillon,,150.0
+1,13001,Beshbarmak,Total raw weight of ingredients in g,341.5,280.0
+1,13001,Beshbarmak,TOTAL COOKED WEIGHT,,430.0
+2,13002,Dymdama,"Meat fresh (can be beef, lamb, ribs)",227.0,167.0
+2,13002,Dymdama,Meat cooked,,100.0
+2,13002,Dymdama,Potatoes,100.0,72.0
+2,13002,Dymdama,Onions fresh,50.0,42.0
+2,13002,Dymdama,Carrot fresh,50.0,37.0
+2,13002,Dymdama,Red pepper fresh,50.0,37.0
+2,13002,Dymdama,Aubergine fresh cooked,50.0,34.0
+2,13002,Dymdama,Tomato red fresh,50.0,42.0
+2,13002,Dymdama,Fresh cabbage,50.0,40.0
+2,13002,Dymdama,Garlic,10.0,8.0
+2,13002,Dymdama,Black pepper,5.0,4.0
+2,13002,Dymdama,Oil or fat,15.0,15.0
+2,13002,Dymdama,Water,50.0,50.0
+2,13002,Dymdama,Total raw weight of ingredients in g,707.0,548.0
+2,13002,Dymdama,TOTAL COOKED WEIGHT,,45.0
+3,13003,Plov with Barberry,Lamb or beef meat,150.0,107.0
+3,13003,Plov with Barberry,Roasted meat mass,,75.0
+3,13003,Plov with Barberry,Oil plant,30.0,30.0
+3,13003,Plov with Barberry,Rice (Uzgen),80.0,80.0
+3,13003,Plov with Barberry,Carrots,100.0,80.0
+3,13003,Plov with Barberry,Оnion,36.0,30.0
+3,13003,Plov with Barberry,Barberry,2.0,2.0
+3,13003,Plov with Barberry,Salt,2.0,2.0
+3,13003,Plov with Barberry,Water,,80.0
+3,13003,Plov with Barberry,Total raw weight of ingredients in g,400.0,370.0
+3,13003,Plov with Barberry,TOTAL COOKED WEIGHT,,350.0
+4,13004,Manty,Wheat flour N 405,75.0,75.0
+4,13004,Manty,Drinking water,30.0,30.0
+4,13004,Manty,Salt,1.0,1.0
+4,13004,Manty,Mass of the dough,,100.0
+4,13004,Manty,Sunflower seed oil,5.0,5.0
+4,13004,Manty,Lamb or beef meat,200.0,143.0
+4,13004,Manty,Onions fresh,77.0,65.0
+4,13004,Manty,Salt,1.5,1.5
+4,13004,Manty,Ground red pepper,1.0,1.0
+4,13004,Manty,Water,20.0,20.0
+4,13004,Manty,"Vinegar 3%, for serving",5.0,5.0

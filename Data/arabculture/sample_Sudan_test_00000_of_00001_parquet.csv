@@ -1,0 +1,128 @@
+worker_id,sample_id,sub_topic,first_statement,options,answer_key,relevant_to_this_country,relevant_to_other_countries,should_discard,country,region
+Sudan-1,1 | Breakfast,الافطار,تحضر أمي العصيدة  ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تؤكل العصيدة مع الفول', ' تؤكل العصيدة مع الطعمية',
+       ' تؤكل العصيدة مع الملاح'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,3 | Breakfast,الافطار,تحضر أمنة فتة العدس بواسطة شوربة العدس,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تقديم العدس مع الويكة', ' يتم تقديم العدس مع الشعيرية',
+       ' يتم تقديم العدس مع العيش'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,4 | Breakfast,الافطار,قلت مزن الطعمية في الزيت ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تحضير الطعمية من الكبكبيه', ' يتم تحضير الطعمية من الفول',
+       ' يتم تحضير الطعمية من فول الصويا'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,5 | Breakfast,الافطار,في إفطار الجمعة يكون هنالك طبق يقدم اخر الوجبة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['هذا الطبق هو البسكويت', ' هذا الطبق هو الشية',
+       ' هذا الطبق هو الشعيرية مع السكر'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,6 | Lunch,الغداء,حضرت منة شية الجمر ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تحضيرها في الفرن', ' يتم تحضيرها في الصاج',
+       ' يتم تحضيرها في المنقد'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,7 | Lunch,الغداء,حضرت أميرة شية الصاج,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تحضيرها في المنقد', ' يتم تحضيرها في الصاج',
+       ' يتم تحضيرها في الفرن'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,8 | Lunch,الغداء,حضرت أية ضلعة الخروف,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تم تجهيزالعرديب من شوربة لحمة الضلعة',
+       ' تم تجهيز فتة لحم من شوربة لحمة الضلعة',
+       ' تم تجهيز العدس من شوربة لحمة الضلعة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,9 | Lunch,الغداء,حضر لؤى سلطة الأسود,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تحضير سلطة الأسود من البازنجان',
+       ' يتم تحضير سلطة الأسود من الطماطم',
+       ' يتم تحضير سلطة الأسود من البطيخ'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,10 | Lunch,الغداء,حضرت خالتي البامية المفروكة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['بتم تحضير البامية المفروكة بواسطة شوربة الارانب',
+       ' بتم تحضير البامية المفروكة بواسطة شوربة البط',
+       ' بتم تحضير البامية المفروكة بواسطة شوربة اللحم'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,11 | Dinner,العشاء,تجمعت الاسرة في فناء المنزل مع صلاة المغرب,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تجمعوا لأكل الفريك', ' تجمعوا لشرب شاي المغرب',
+       '  تجمعوا لشرب العصاير'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,12 | Dinner,العشاء,اشترى والد محمد عشاء اطفاله من عربة يجرها حمار,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['اشترى والد محمد العصاير', ' اشترى والد محمد الحليب',
+       ' اشترى والد محمد شاي مغربي'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,13 | Iftar (Ramadan),افطار رمضان,حضرت سمية عصير التبلدي,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتمتع نبات التبلدي بفايتمين س عالي',
+       ' يتمتع نبات التبلدي بحديد عالي',
+       ' يتمتع نبات التبلدي بكالسيوم عالي'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,14 | Iftar (Ramadan),افطار رمضان,حضرت جدتي البليلة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تحضير البليلة من الكبكبيه', ' يتم تحضير البليلة من الفول',
+       ' يتم تحضير البليلة من فول الصويا'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,15 | Iftar (Ramadan),افطار رمضان,اشترت أمي الحلومر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تجهيز الحلومر كاقراص الطعمية', ' يتم تجهيز الحلومر كالبليلة',
+       ' يتم تجهيز الحلومر كطبقات الكسرة'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,16 | Iftar (Ramadan),افطار رمضان,حضر أخي عصير العرديب,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['لعصير العرديب مذاق حلو', ' لعصير العرديب مذاق حامض',
+       ' لعصير العرديب مذاق مالح'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,17 | Iftar (Ramadan),افطار رمضان,أعدت أختي عصيدة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم صنع العصيدة من فول الصويا', ' يتم صنع العصيدة من دقيق القمح',
+       ' يتم صنع العصيدة من الذرة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,18 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),جهزت أختي الرقاق,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يكون الرقاق في شكل طبقات كالكسرة',
+       ' يكون الرقاق في شكل أقراص كالطعمية', ' يكون الرقاق مسحون كالدقيق'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Sudan,Nile Valley
+Sudan-1,19 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),حضرت زينب مديدة القمح,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تحضير مديدة الثمح بواسطة الشاي',
+       ' يتم تحضير مديدة القمح بواسطة اللبن',
+       ' يتم تحضير مديدة القمح بواسطة العصير'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,20 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),جهزعلوية النشا,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تجهيز النشا بواسطة العصير', ' يتم تجهيز النشا بواسطة الماء',
+       ' يتم تجهيز النشا بواسطة اللبن'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,21 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),حضرت محاسن فطير بالحليب ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتمتع الفطير بقوام مثل الفول', ' يتمتع الفطير بقوام مثل الطعمية',
+       ' يتمتع الفطير بقوام مثل الكسرة'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,22 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),جهزت أختي الرقاق,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يقدم الرقاق مع العسل', ' يقدم الرقاق مع الحليب',
+       ' يقدم الرقاق مع الجبن'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,23 | Dessert,حلوى,حضرت زينب مديدة الدخن,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تحضير مديدة الدخن بواسطة العصير',
+       ' يتم تحضير مديدة الدخن بواسطة الشاي',
+       ' يتم تحضير مديدة الدخن بواسطة اللبن'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,24 | Dessert,حلوى,اعدت سها السكسكانية ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم اعداد السكسكانية مع الملح',
+       ' يتم اعداد السكسكانية مع السكر و السمن',
+       ' يتم اعداد السكسكانية مع العسل'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,25 | Dessert,حلوى,حضرت زينب سلطة فواكه,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تجهيز العصائر الغازية و خلطه مع الفواكه المقطعة',
+       ' يتم تجهيز عصير و خلطه مع الفواكه المقطعة',
+       ' يتم تجهيز اللبن و خلطه مع الفواكه المقطعة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Sudan,Nile Valley
+Sudan-1,26 | Fruits,فاكهة,يتم بيع الدوم في الدكان,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم هرس الدوم الى بدرة لتسهيل اكله',
+       ' يتم هرس الدوم و خلطه مع عصير لتسهيل شربه', ' لا يتم اكل الدوم'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,27 | Fruits,فاكهة,اشتري محمد قصب السكر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم مضغ قصب السكر', ' يتم بلغ قصب السكر',
+       ' يتم مضغ و بلع قصب السكر'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Sudan,Nile Valley
+Sudan-1,28 | Fruits,فاكهة,اشترت فاطمة النبث,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم التخلص من بذرة النبق', ' يتم خلط بذرة النبق و شربه',
+       ' يتم اكل بذرة النبق'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,29 | Snacks,وجبات خفيفة,حضر خالد الشاي باللبن,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم وضع بهارات في الشاي باللبن مثل القرفة و الحبهان',
+       ' يتم وضع بهارات في الشاي باللبن مثل الشمار',
+       ' يتم وضع بهارات في الشاي باللبن مثل شطة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Sudan,Nile Valley
+Sudan-1,30 | Snacks,وجبات خفيفة,حضرت مدرار القهوة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم وضع بهارات في القهوة مثل الجنزبيل',
+       ' يتم وضع بهارات في القهوة مثل الكركم',
+       ' يتم وضع بهارات في القهوة مثل الملح'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Sudan,Nile Valley
+Sudan-1,3 | wedding dowry,مهر الزواج,ضمن مهر العروسة أفضل العطور السودانية,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تتضمن العطور السودانية خمرة العود',
+       ' تتضمن العطور السودانية خمرة المحلب و الصندل',
+       ' تتضمن العطور السودانية الفيرساتشي'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,4 | wedding (other logistics),تجهيزات أخرى للزواج,يتم حبس العروسة من الزوار,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تتم الحبسة قبل الخطوبة', ' تتم الحبسة بعد الزواج',
+       ' تتم الحبسة قبل الزواج'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,6 | men cermony vs. women cermony,احتفالات الزواج للرجال vs احتفالات الزواج للنساء,في رقيص العروس يكون هنالك عزائم,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتضمن الحضور نساء و رجال', ' يتضمن الحضوررجال فقط',
+       ' يتضمن الحضور نساء فقط'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Sudan,Nile Valley
+Sudan-1,7 | men cermony vs. women cermony,احتفالات الزواج للرجال vs احتفالات الزواج للنساء,جهزت خالتي حنة العريس,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['في حنة العريس يتم وضع الحنة لصديقات العريس',
+       ' في حنة العريس يتم وضع الحنة لاصدقاء العريس',
+       ' في حنة العريس يتم وضع الحنة لصديقات العروس'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,8 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,"تكثر ""النقطة"" في أغاني الحماس","{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يكون النقطة مبلغ محدد مسبقا', ' يكون النقطة مبلغا عشوائيا',
+       ' يكون النقطة بعملة الدولار فقط'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,9 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,غنت المغنية العديل و الزين,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['العديل و الزين هي الغنية المعتمدة في الزفاف',
+       ' العديل و الزين هي الغنية المعتمدة في الجرتك',
+       ' العديل و الزين هي الغنية المعتمدة في رقيص العروس'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,10 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,في أخر الزفاف يكون هنالك الجرتك,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['الألوان المعتمدة في الجرتق هو الأزرق و الفضي',
+       ' الألوان المعتمدة في الجرتق هو الأحمر و الذهبي',
+       ' الألوان المعتمدة في الجرتق هو الأخضر و الأصفر'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,11 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,ختام أيام فعاليات الزواج يتضمن رقيص العروس ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['احد الألوان الأساسية في رقيص العروس هو الأخضر',
+       ' احد الألوان الأساسية في رقيص العروس هي الأحمر',
+       ' احد الألوان الأساسية في رقيص العروس هو الأصفر'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,12 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج, تم عقد الزواج العروسين يوم الجمعة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['في العادة يكون للعروسة ولي ذكر في عقد زواجها',
+       ' في العادة تحضر العروسة عقد زواجها بنفسها',
+       ' في العادة تكون صديقة العروسة الولي في عقد زواج العروسة'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,2 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,جهز الأطفال ملابس العيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم لبس الملابس القديمة و البالية', ' يتم لبس أفضل الملابس',
+       ' لا نهتم بما نلبسه في العيد'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Sudan,Nile Valley
+Sudan-1,6 | traditions during religous holidays,العادات في الأعياد الدينية,يهف الناس زيارة الجيران في العيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم زيارة الجيران بعد صلاة العيد مباشرة',
+       ' يتم زيارة الجيران قبل صلاة العيد',
+       '  يتم زيارة الجيرانبعد صلاة الظهر في العيد'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Sudan,Nile Valley
+Sudan-1,9 | traditions during religous holidays,العادات في الأعياد الدينية,جهز عم حامد الذبيحة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم الذبح امام المسجد', ' يتم الذبح امام المدارس',
+       ' يتم الذبح امام المنزل'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Sudan,Nile Valley
+Sudan-1,10 | traditions during religous holidays,العادات في الأعياد الدينية,يتم شراء حلاوة المولد في المولد النبوي الشريف,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم شراء و توزيع مستلذمات المنزل على الأهالي و الأصدقاء',
+       ' يتم شراء و توزيع اللحوم على الأهالي و الأصدقاء',
+       ' يتم شراء و توزيع حلاوة المولد على الأهالي و الأصدقاء'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,11 | traditions during religous holidays,العادات في الأعياد الدينية,عيدية هي مقدار من المال يوزع كهدايا,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم إعطاء العيدية من الكبار الى الصغار',
+       ' يتم إعطاء العيدية من الصغار الى الكبار',
+       ' يتم إعطاء العيدية بين الصغار'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Sudan,Nile Valley
+Sudan-1,12 | traditions during religous holidays,العادات في الأعياد الدينية,أول لمة في العيد يتجمع فيها العائلة ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['بكون لمة العيد في منزل الخالة', ' بكون لمة العيد في منزل الجدة',
+       ' بكون لمة العيد في منزل العمة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Sudan,Nile Valley
+Sudan-1,13 | traditions during religous holidays,العادات في الأعياد الدينية,يزور عدد من السودانين البلد في الأعياد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم زيارة الاصدقاء التي تكون في الأقاليم او ما يعرف بالبلد',
+       ' يتم زيارة الاساتذة التي تكون في الأقاليم او ما يعرف بالبل',
+       ' يتم زيارة العائلة التي تكون في الأقاليم او ما يعرف بالبلد'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Sudan,Nile Valley
+Sudan-1,14 | traditions during religous holidays,العادات في الأعياد الدينية,يتم تعطير البيت بواسطة البخور ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يكون البخور اول التجهيزات للعيد', ' لا يتم التبخير في الأعياد',
+       ' يكون البخور اخر التجهيزات للعيد'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,15 | traditions during religous holidays,العادات في الأعياد الدينية,يجهز الشربوت للعيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم عمل الشربوت من البلح', ' يتم عمل الشربوت من الذرة',
+       ' يتم عمل الشربوت من القمح'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,16 | activities for non-religous holidays,العادات في الأعياد الغير دينية,عيد استقلال السودان الرسمي هو الأول من يناير,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم احتفال عيد الاستقلال باغاني البنات',
+       ' يتم احتفال عيد الاستقلال باغاني الحقيبة',
+       ' يتم احتفال عيد الاستقلال بنشيد العلم'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,18 | activities for non-religous holidays,العادات في الأعياد الغير دينية,غنت أسرتي أغنية عيدالميلاد بالإنجليزية ثم العربية,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['ختمت أغاني العيدميلاد ب""يا وطني يا بلد أحبابي""',
+       ' ختمت أغاني العيدميلاد ب""يلا حالم بالم""',
+       ' ختمت أغاني العيدميلاد ب""نحن جند الله""'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Sudan,Nile Valley
+Sudan-1,19 | activities for non-religous holidays,العادات في الأعياد الغير دينية,دعت نزهة ضديقاتها لشرب الجبنة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['الجبنة هي الشاي', ' الجبنة هي عصير القنقليز', ' الجبنة هي القهوة'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Sudan,Nile Valley

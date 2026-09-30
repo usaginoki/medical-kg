@@ -1,0 +1,51 @@
+Disease_id,Disease_Name,Disease_definition,UMLS_id,MeSH_id,OMIM_id,Orphanet_id,ICD10CM_id,MedDRA_id,Version,Link_disease_id,Suppress
+1,"Basal Ganglia Calcification, Idiopathic, 1",,C0393590,C536275,213600|616413|606656|213600|615483|2|615007,1980.0,G23.8,10059626,"v1,v2",,0
+2,"Generalized Junctional Epidermolysis Bullosa, Non-Herlitz Type","Generalized non-Herlitz-type junctional epidermolysis bullosa is a form of non-Herlitz-type junctional epidermolysis bullosa (JEB-nH, see this term) characterized by generalized skin blistering, atrop",,,226650,79402.0,Q81.8,,v1,,0
+3,Dominant Beta-Thalassemia,Dominant beta-thalassemia is a form of beta-thalassemia (see this term) resulting in moderate to severe anemia.,C1858990,C565834,603902,231226.0,D56.1,,"v1,v2",,0
+4,Cataract 13 With Adult I Phenotype,,C3805373,,116700,,,,v1,,0
+5,Fumarase Deficiency,,C0342770|C2936826|C0342770,,606812,,,,"v1,v2",,0
+6,"Erythroderma, Congenital, With Palmoplantar Keratoderma, Hypotrichosis, And Hyper-Ige",,C3809719,,615508,,,,v1,,0
+7,Alpha-Thalassemia-X-Linked Intellectual Disability Syndrome,"X-linked alpha thalassaemia mental retardation (ATR-X) syndrome in males is associated with profound developmental delay, facial dysmorphism, genital abnormalities and alpha thalassaemia. Female carri",C1845055,C538258,301040,847.0,D56.0,,"v1,v2",,0
+8,"Neuropathy, Hereditary Motor And Sensory, Okinawa Type","SNOMEDCT_US_2016_09_01:An autosomal dominant form of hereditary motor and sensory neuropathy with dominant proximal involvement. Manifestations include adult-onset proximal neurogenic atrophy, sensory involvement, painful muscle cramps, fasciculations, areflexia, and high incidences of elevated creatine kinase levels, hyperlipidemia, and diabetes mellitus.|SNOMEDCT_US_2016_09_01:An autosomal dominant form of hereditary motor and sensory neuropathy with dominant proximal involvement. Manifestations include adult-onset proximal neurogenic atrophy, sensory involvement, painful muscle cramps, fasciculations, areflexia, and high incidences of elevated creatine kinase levels, hyperlipidaemia, and diabetes mellitus.",C1858338,C535717,604484,,,,v1,,0
+9,Encephalopathy Due To Prosaposin Deficiency,Encephalopathy due to prosaposin deficiency is a lysosomal storage disease belonging to the group of sphingolipidoses.,,,611721,139406.0,E75.2,,v1,,0
+10,Tn Polyagglutination Syndrome,,C0272137,C562719,300622,,,,v1,,0
+11,Apolipoprotein A-I Deficiency,Apolipoprotein AI (Apo A-I) deficiency is a rare lipoprotein metabolism disorder characterized biochemically by complete absence of apolipoprotein AI and extremely low plasma high density lipoprotein ,C0342898|C1704429|C0342898,D052456,604091,425.0,E78.6,10065133,"v1,v2",,0
+12,Geroderma Osteodysplastica,"Geroderma osteodysplastica (GO) is characterized by lax and wrinkled skin (especially on the dorsum of the hands and feet and abdomen), progeroid features, hip dislocation, joint laxity, severe short ",C0432255,C537799,231070,2078.0,Q82.8,,"v1,v2",,0
+13,Joubert Syndrome,"Joubert syndrome (JS) is characterized by congenital malformation of the brainstem and agenesis or hypoplasia of the cerebellar vermis leading to an abnormal respiratory pattern, nystagmus, hypotonia,",,,614424|6|612291|616781|616654|610688|617622|615636,475.0,Q04.3,,v1,,0
+14,"Skin/Hair/Eye Pigmentation, Variation In, 4",,C3805375|C2676042,,113750,,,,v1,,0
+15,"Ciliary Dyskinesia, Primary, 14",,C3151136,,613807,,,,"v1,v2",,0
+16,Supravalvular Aortic Stenosis,"SupraValvar Aortic Stenosis (SVAS) is characterized by the narrowing of the aorta lumen (close to its origin) or other arteries (branch pulmonary arteries, coronary arteries). This narrowing of the ao",C0003499|C0003499|C2936909|C1305147,D021921,185500,3193.0,Q25.3,10042598,"v1,v2",,0
+17,"Bare Lymphocyte Syndrome, Type Ii",,C1859538|C1859534|C1859535|C1859536|C1859537|C2931418,,209920,,,,v1,,0
+18,Anterior Segment Dysgenesis 1,,C1862839,C537775,107250,,,,v1,,0
+19,"Spondylocostal Dysostosis 2, Autosomal Recessive",,C1837549,C535781,608681,,,,v1,,0
+20,Spinocerebellar Ataxia 7,"SNOMEDCT_US_2016_09_01:A neurodegenerative disorder with progressive ataxia, motor system abnormalities, dysarthria, dysphagia and retinal degeneration leading to progressive blindness. Manifestations that present in infancy and early childhood include muscle weakness, wasting, hypotonia, poor feeding, failure to thrive and loss of motor milestones. Inherited autosomal dominantly. The prognosis depends on the age of symptom onset. An earlier onset is associated with a more severe and rapidly progressive disease.|MSH2017_2016_08_12:A group of dominantly inherited, predominatly late-onset, cerebellar ataxias which have been divided into multiple subtypes based on clinical features and genetic mapping. Progressive ataxia is a central feature of these conditions, and in certain subtypes POLYNEUROPATHY; DYSARTHRIA; visual loss; and other disorders may develop. (From Joynt, Clinical Neurology, 1997, Ch65, pp 12-17; J Neuropathol Exp Neurol 1998 Jun;57(6):531-43)",C0752125,D020754,164500,,,,"v1,v2",,0
+21,"Congenital Disorder Of Glycosylation, Type Id",,C1832736,C535742,601110,79321.0,E77.8,,"v1,v2",,0
+22,"Facial Clefting, Oblique, 1",,C1838348,C537736,600251,,,,v1,,0
+23,"Spinocerebellar Ataxia, Autosomal Recessive 17",,C4015301,,616127,,,,"v1,v2",,0
+24,"Epilepsy, Familial Focal, With Variable Foci 1",,C1858477,C565785,604364,,,,"v1,v2",,0
+25,"Optic Atrophy 10 With Or Without Ataxia, Mental Retardation, And Seizures",,C4225227,,616732,,,,v1,,0
+26,Argininosuccinic Aciduria,"Argininosuccinic aciduria (ASA) is a disorder of urea cycle metabolism most commonly characterized by either a severe, neonatal-onset form that manifests with hyperammonemia accompanied with vomiting,",C0268547,D056807,207900,23.0,E72.2,10058299,"v1,v2",,0
+27,"Split-Hand/Foot Malformation 1 With Sensorineural Hearing Loss, Autosomal Recessive",,C1857344,C565647,220600,,,,v1,,0
+28,Alpers-Huttenlocher Syndrome,Alpers Huttenlocher syndrome (AHS) is a cerebrohepatopathy and a rare and severe form of mitochondrial DNA (mtDNA) depletion syndrome characterized by the triad of progressive developmental regression,C0205710,D002549,203700,726.0,G31.8,10062943,"v1,v2",,0
+29,"T-Cell Immunodeficiency, Recurrent Infections, And Autoimmunity With Or Without Cardiac Malformations",,C3553943,,614868,,,,v1,,0
+30,"Spastic Paraplegia 72, Autosomal Recessive",,C3810160|C3810160|C3810161,,615625,,,,"v1,v2",,0
+31,"Autoimmune Lymphoproliferative Syndrome, Type Iia",,C1858968,C565833,603909,,,,v1,,0
+32,Bardet-Biedl Syndrome 14,,C2673874,C567141,615991,,,,"v1,v2",,0
+33,"Griscelli Syndrome, Type 3",,C1836573,C537303,609227,79478.0,E70.3,,v1,,0
+34,"Microphthalmia, Syndromic 5",,C1864690|C1864690|C4225436,,610125,,,,"v1,v2",,0
+35,Dystrophic Epidermolysis Bullosa Pruriginosa,"Dystrophic epidermolysis bullosa pruriginosa is a rare subtype of dystrophic epidermolysis bullosa (DEB, see this term) characterized by generalized or localized skin lesions associated with severe, i",C1275114,C563192,604129,89843.0,Q81.2,,"v1,v2",,0
+36,Multiple Intestinal Atresia,Multiple intestinal atresia is a rare form of intestinal atresia characterized by the presence of numerous atresic segments in the small bowel (duodenum) or large bowel and leading to symptoms of inte,C0220744,C562441,243150,2300.0,Q43.8,10028210,"v1,v2",,0
+37,Unverricht-Lundborg Disease,"Unverricht-Lundborg disease (ULD) is a rare progressive myoclonic epilepsy disorder characterized by action- and stimulus-sensitive myoclonus, and tonic-clonic seizures with ataxia, but with only a mi",C0751785,D020194,254800|612437|254800|310370,308.0,G40.3,10054895,"v1,v2",,0
+38,"Myasthenic Syndrome, Congenital, 8",,C3808739,,615120,,,,v1,,0
+39,Naegeli-Franceschetti-Jadassohn Syndrome,"Naegeli-Franceschetti-Jadassohn (NFJ) syndrome is a rare ectodermal dysplasia that affects the skin, sweat glands, nails, and teeth.",C0343111,C538331,161000,69087.0,Q82.4,,v1,,0
+40,"Muscular Dystrophy-Dystroglycanopathy (Limb-Girdle), Type C, 14",,C3714932,,615352,,,,"v1,v2",,0
+41,"Coenzyme Q10 Deficiency, Primary, 5",,C3553374,,614654,,,,"v1,v2",,0
+42,"Gaucher Disease, Perinatal Lethal",,C1842704,C564306,608013,85212.0,E75.2,,"v1,v2",,0
+43,Optic Atrophy 7 With Or Without Auditory Neuropathy,,C2751812,C567833,612989,,,,"v1,v2",,0
+44,Shox-Related Short Stature,"SHOX-related short stature is a primary bone dysplasia characterized by a height that is 2 standard deviations below the corresponding mean height for a given age, sex and population group, in the abs",,,300582,314795.0,Q87.1,,v1,,0
+45,"Diarrhea 3, Secretory Sodium, Congenital, With Or Without Other Congenital Anomalies",,C2678346|C0267663,,270420,,,,v1,,0
+46,"Microphthalmia, Syndromic 12",,C3809803,,615524,,,,"v1,v2",,0
+47,"Cardioencephalomyopathy, Fatal Infantile, Due To Cytochrome C Oxidase Deficiency 4",,C4225304,,616501,,,,v1,,0
+48,"Microcephalic Osteodysplastic Primordial Dwarfism, Type I",,C1859452,C537577,210710,,,,"v1,v2",,0
+49,"Hyperuricemic Nephropathy, Familial Juvenile, 1",,C0268113,C537696,162000,,,,v1,,0
+50,Lethal Congenital Contracture Syndrome 9,,C4225303,,616503,,,,v1,,0

@@ -1,0 +1,51 @@
+target_id,target_type,target_name,target_organism_tax_id,target_organism,uniprot_id
+NPT1031,Cell line,Ca9-22,9606,Homo sapiens,n.a.
+NPT1034,Cell line,Lu1,9606,Homo sapiens,n.a.
+NPT1045,Cell line,U2OS,9606,Homo sapiens,n.a.
+NPT1059,Cell line,HMEC,9606,Homo sapiens,n.a.
+NPT1076,Cell line,B-cells,n.a.,n.a.,n.a.
+NPT1081,Cell line,BXPC-3,9606,Homo sapiens,n.a.
+NPT1082,Cell line,NCI-H2126,9606,Homo sapiens,n.a.
+NPT1083,Cell line,A-375,9606,Homo sapiens,n.a.
+NPT1085,Cell line,KETR3,9606,Homo sapiens,n.a.
+NPT1086,Cell line,SK-HEP1,9606,Homo sapiens,n.a.
+NPT1091,Cell line,RPMI-7951,9606,Homo sapiens,n.a.
+NPT1094,Cell line,697,9606,Homo sapiens,n.a.
+NPT1097,Cell line,MKN-45,9606,Homo sapiens,n.a.
+NPT111,Cell line,K562,9606,Homo sapiens,n.a.
+NPT112,Cell line,MOLT-4,9606,Homo sapiens,n.a.
+NPT1125,Cell line,T98G,9606,Homo sapiens,n.a.
+NPT113,Cell line,RAW264.7,10090,Mus musculus,n.a.
+NPT1135,Cell line,Hepatocyte,10116,Rattus norvegicus,n.a.
+NPT1136,Cell line,mast cells,10090,Mus musculus,n.a.
+NPT114,Cell line,LoVo,9606,Homo sapiens,n.a.
+NPT116,Cell line,HL-60,9606,Homo sapiens,n.a.
+NPT1160,Cell line,BJ,9606,Homo sapiens,n.a.
+NPT1161,Cell line,CHO,10029,Cricetulus griseus,n.a.
+NPT1171,Cell line,HEp-2,9606,Homo sapiens,n.a.
+NPT1174,Cell line,A375,9606,Homo sapiens,n.a.
+NPT1178,Cell line,KB 3-1,9606,Homo sapiens,n.a.
+NPT1179,Cell line,MKN-28,9606,Homo sapiens,n.a.
+NPT1182,Cell line,J774.A1,10090,Mus musculus,n.a.
+NPT1183,Cell line,WiDr,9606,Homo sapiens,n.a.
+NPT1184,Cell line,Daoy,9606,Homo sapiens,n.a.
+NPT1189,Cell line,DG-75,9606,Homo sapiens,n.a.
+NPT1195,Cell line,PMNL,n.a.,n.a.,n.a.
+NPT1212,Cell line,N1E-115,10090,Mus musculus,n.a.
+NPT1215,Cell line,8505C,9606,Homo sapiens,n.a.
+NPT1216,Cell line,FaDu,9606,Homo sapiens,n.a.
+NPT1229,Cell line,Huh-7,9606,Homo sapiens,n.a.
+NPT1294,Cell line,NRK,10116,Rattus norvegicus,n.a.
+NPT1298,Cell line,A9,10090,Mus musculus,n.a.
+NPT1306,Cell line,WISH,9606,Homo sapiens,n.a.
+NPT1307,Cell line,Calu-1,9606,Homo sapiens,n.a.
+NPT1309,Cell line,Osteoblasts,n.a.,n.a.,n.a.
+NPT1312,Cell line,SW1990,9606,Homo sapiens,n.a.
+NPT1313,Cell line,Capan-2,9606,Homo sapiens,n.a.
+NPT1317,Cell line,CCRF S-180,10090,Mus musculus,n.a.
+NPT1329,Cell line,Detroit 551,9606,Homo sapiens,n.a.
+NPT133,Cell line,ZR-75-1,9606,Homo sapiens,n.a.
+NPT134,Cell line,SK-BR-3,9606,Homo sapiens,n.a.
+NPT1353,Cell line,CCRF-HSB-2,9606,Homo sapiens,n.a.
+NPT1354,Cell line,TGBC11TKB,9606,Homo sapiens,n.a.
+NPT1357,Cell line,H22,10090,Mus musculus,n.a.

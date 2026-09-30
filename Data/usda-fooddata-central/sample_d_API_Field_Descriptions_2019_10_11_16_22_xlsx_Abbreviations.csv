@@ -1,0 +1,10 @@
+Abbreviation,Meaning
+,
+Abbreviations used in data element names,
+id,unique identification number
+max,minimum
+min,minimum
+,
+,
+Abbreviations used for API fields,
+,Field is not included as it is a reference to a parent element

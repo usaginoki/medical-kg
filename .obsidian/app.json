@@ -5,6 +5,8 @@
   "userIgnoreFilters": [
     "_tools/",
     ".venv/",
-    "Templates/"
+    "Templates/",
+    "Data/",
+    "Access-help/"
   ]
 }

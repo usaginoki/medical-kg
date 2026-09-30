@@ -1,0 +1,51 @@
+Unnamed: 0,ID,Topic,Source,Question,Translation
+0,Al-en-01,Food,English (US),Ποιο είναι ένα συνηθισμένο σνακ για παιδιά προσχολικής ηλικίας στην Ελλάδα;,What is a common snack for preschool kids in Greece?
+1,Al-en-02,Food,English (US),Ποιο είναι ένα δημοφιλές φαγητό που συνοδεύει τη μπύρα στην Ελλάδα;,What is a popular food to go with beer in Greece?
+2,Al-en-04,Food,English (US),Ποιο είναι το πιο δημοφιλές φρούτο στην Ελλάδα;,What is the most popular fruit in Greece?
+3,Al-en-06,Food,English (US),Ποιο είναι ένα συνηθισμένο φαγητό στα σχολεία στην Ελλάδα;,What is a common school cafeteria food in Greece?
+4,Al-en-08,Food,English (US),Ποια είναι τα πιο συνηθισμένα σνακ που καταναλώνονται στα εμπορικά κέντρα στην Ελλάδα;,What are the most commonly eaten snacks at shopping malls in Greece?
+5,Al-en-09,Food,English (US),Ποιο είναι ένα δημοφιλές σνακ σε λούνα παρκ στην Ελλάδα;,What is a popular snack at an amusement park in Greece?
+6,Al-en-16,Education,English (US),"Σε ποια ηλικία αρχίζουν τα παιδιά το νηπιαγωγείο στην Ελλάδα; (Χρησιμοποιείστε μόνο αραβικούς αριθμούς (π.χ., 4).)","At what age do kids start preschool in Greece? (Provide Arabic numerals (e.g., 12) only.)"
+7,Al-en-17,Education,English (US),Ποιο είναι ένα δημοφιλές απογευματινό άθλημα για τα δημοτικά σχολεία στην Ελλάδα;,What is a popular afterschool sport for elementary schools in Greece?
+8,Al-en-18,Education,English (US),Για ποιο μάθημα παίρνουν ιδιαίτερα μαθήματα οι μαθητές δημοτικού στην Ελλάδα;,For which subject do elementary students get private education in Greece?
+9,Al-en-19,Education,English (US),Ποια είναι μια δημοφιλής δεύτερη γλώσσα για τους μαθητές λυκείου στην Ελλάδα;,What is a popular second language for high school students in Greece?
+10,Al-en-21,Education,English (US),Ποιο μάθημα είναι το πιο σημαντικό για την εκπαίδευση των προικισμένων παιδιών στην Ελλάδα;,Which subject is the most important for gifted education in Greece?
+11,Al-en-32,Holidays/Celebration/Leisure,English (US),Ποιο είναι το κυρίως πιάτο για την Ημέρα των Ευχαριστιών στην Ελλάδα;,What is the main dish for Thanksgiving in Greece?
+12,Al-en-33,Holidays/Celebration/Leisure,English (US),Τι κάνουν οι άνθρωποι για να γιορτάσουν το Halloween στην Ελλάδα;,What do people do to celebrate Halloween in Greece?
+13,Al-en-34,Holidays/Celebration/Leisure,English (US),Τι κάνουν οι άνθρωποι για να γιορτάσουν την Πρωτοχρονιά στην Ελλάδα;,What do people do to celebrate New Year's Day in Greece?
+14,Al-en-35,Holidays/Celebration/Leisure,English (US),Τι κάνουν οι άνθρωποι για να γιορτάσουν τα Χριστούγεννα στην Ελλάδα;,What do people do to celebrate Christmas in Greece?
+15,Al-en-36,Holidays/Celebration/Leisure,English (US),Ποιο φαγητό συνδέεται με το Halloween στην Ελλάδα;,What food is associated with Halloween in Greece?
+16,Al-en-37,Holidays/Celebration/Leisure,English (US),Ποιο φαγητό συνδέεται με τα Χριστούγεννα στην Ελλάδα;,What food is associated with Christmas in Greece?
+17,Al-en-38,Holidays/Celebration/Leisure,English (US),Τι φαγητό συνδέεται με την ημέρα του Αγίου Βαλεντίνου στην Ελλάδα;,What food is associated with Valentine's day in Greece?
+18,Al-en-39,Holidays/Celebration/Leisure,English (US),Τι τρώνε οι άνθρωποι στα γενέθλιά τους στην Ελλάδα;,What do people eat on their birthday in Greece?
+19,Al-en-40,Holidays/Celebration/Leisure,English (US),Ποιο είναι ένα δημοφιλές υπαίθριο μέρος για τις οικογένειες να διασκεδάζουν με μικρά παιδιά στην Ελλάδα;,What is a popular outdoor place for families to have fun with little kids in Greece?
+20,Al-en-43,Holidays/Celebration/Leisure,English (US),Ποια είναι μια  δημοφιλής δραστηριότητα εσωτερικού χώρου για οικογένειες στην Ελλάδα;,What is a popular indoor activity for families in Greece?
+21,An-ar-02,Education,Arabic (Algeria),Πού τρώνε μεσημεριανό οι φοιτητές του πανεπιστημίου στην Ελλάδα;,Where do university students have lunch in Greece?
+22,An-ar-03,Education,Arabic (Algeria),Σε ποιον μήνα συνήθως προγραμματίζονται οι τελικές εξετάσεις στα λύκεια στην Ελλάδα; (Χρησιμοποιείστε μόνο αραβικούς αριθμούς (1~12).),Which month is the final exam term usually scheduled at high schools in Greece? (Provide Arabic numerals (1~12) only.)
+23,An-ar-08,Education,Arabic (Algeria),"Πόσες ώρες την ημέρα συνήθως περνούν οι μαθητές στο λύκειο στην Ελλάδα; (Χρησιμοποιείστε ακέραιους αραβικούς αριθμούς (0~24), χωρίς δεκαδικά ψηφία.)","How many hours a day do students in Greece usually spend at high school? (Provide Arabic numerals in integers (0~24), without any decimal points.)"
+24,An-ar-09,Education,Arabic (Algeria),"Πόσες γλώσσες μελετούν οι μαθητές στο λύκειο στην Ελλάδα; (Χρησιμοποιείστε μόνο αραβικούς αριθμούς (π.χ., 5).)","How many languages do students study at high school in Greece? (Provide Arabic numerals (e.g., 5) only.)"
+25,An-ar-34,Sport,Arabic (Algeria),Ποιο είναι το πιο δημοφιλές ομαδικό άθλημα που παίζεται στα σχολεία στην Ελλάδα;,What is the most popular sport played in a team at school in Greece?
+26,An-ar-35,Sport,Arabic (Algeria),Ποιος είναι ο πιο δημοφιλής αθλητικός σχολιαστής στην Ελλάδα;,Who is the most popular sport commentator in Greece?
+27,An-ar-36,Sport,Arabic (Algeria),Ποια είναι η πιο δημοφιλής αθλητική ομάδα στην Ελλάδα;,What is the most popular sport team in Greece?
+28,An-ar-43,Sport,Arabic (Algeria),Ποια είναι τα συνηθισμένα μέρη ή χώροι όπου τα άτομα στην Ελλάδα συνήθως συγκεντρώνονται για να παρακολουθήσουν αθλητικές μεταδόσεις;,What are the common places or venues where individuals in Greece usually gather to watch sports broadcasts?
+29,Ca-sp-05,Food,Spanish (Spain),"Πόσα γεύματα την ημέρα συνήθως έχουν οι άνθρωποι από την Ελλάδα; (Χρησιμοποιείστε μόνο αραβικούς αριθμούς, π.χ., 5.)","How many meals per day do people from Greece usually have? (Provide Arabic numerals (e.g., 5) only.)"
+30,Ca-sp-06,Food,Spanish (Spain),Ποιο είναι το πιο σημαντικό γεύμα της ημέρας για τους Έλληνες;,Which is the most important meal of the day to people from Greece?
+31,Ca-sp-08,Food,Spanish (Spain),Ποιο είναι το πιο συνηθισμένο συστατικό που χρησιμοποιείται στη διατροφή της Ελλάδας;,What is the most common ingredient used in Greece's diet?
+32,Ca-sp-09,Food,Spanish (Spain),Τι συνήθως τρώνε οι άνθρωποι από την Ελλάδα για επιδόρπιο;,What do people from Greece usually eat for dessert?
+33,Ca-sp-11,Food,Spanish (Spain),Ποια μέρα της εβδομάδας συνήθως οργανώνουν οι άνθρωποι ένα οικογενειακό γεύμα στην Ελλάδα;,Which day of the week do people usually organize a family meal in Greece?
+34,Ca-sp-14,Food,Spanish (Spain),Ποιο είναι το πιο δημοφιλές ζεστό ποτό στην Ελλάδα;,Which is the most popular hot drink in Greece?
+35,Ca-sp-19,Holidays/Celebration/Leisure,Spanish (Spain),Τι συνήθως πίνουν οι νέοι από την Ελλάδα στα νυχτερινά κέντρα;,What do young people from Greece usually drink at the night club?
+36,Ca-sp-21,Holidays/Celebration/Leisure,Spanish (Spain),Σε ποιον μήνα συνήθως οι άνθρωποι παίρνουν διακοπές στην Ελλάδα; (Χρησιμοποιείστε μόνο αραβικούς αριθμούς (1~12).),At which month do people usually take holidays in Greece? (Provide Arabic numerals (1~12) only.)
+37,Ca-sp-29,Holidays/Celebration/Leisure,Spanish (Spain),Ποια είναι η παράδοση στην Ελλάδα για την Πρωτοχρονιά;,What tradition is there in Greece for New Year's Eve?
+38,Ca-sp-38,Family,Spanish (Spain),Ποιος είναι ο τυπικός τύπος σπιτιού για μια οικογένεια στην Ελλάδα;,Which is the typical type of house for a family in Greece?
+39,Ca-sp-41,Family,Spanish (Spain),Πού συνήθως ζουν οι εξαρτώμενοι ηλικιωμένοι στην Ελλάδα;,Where do the dependent elderly usually live in Greece?
+40,Ca-sp-42,Family,Spanish (Spain),"Πόσο διαρκεί (σε εβδομάδες) η άδεια μητρότητας στην Ελλάδα για τις μητέρες; (Χρησιμοποιείστε μόνο αραβικούς αριθμούς (π.χ., 20).)","How long (in weeks) is Greece's maternity leave for mums? (Provide Arabic numerals (e.g., 20) only.)"
+41,Ca-sp-43,Family,Spanish (Spain),"Πόσο διαρκεί (σε εβδομάδες) η άδεια πατρότητας στην Ελλάδα για τους μπαμπάδες; (Χρησιμοποιείστε μόνο αραβικούς αριθμούς (π.χ., 20).)","How long (in weeks) is Greece's paternity leave for dads? (Provide Arabic numerals (e.g., 20) only.)"
+42,Ca-sp-45,Family,Spanish (Spain),Ποιο είδος προορισμού επιλέγεται συνήθως για οικογενειακές διακοπές στην Ελλάδα;,What type of destination is commonly chosen for a family vacation in Greece?
+43,Gu-ch-05,Sport,Chinese (China),Ποια αθλήματα προτιμούν περισσότερο οι ηλικιωμένοι στην Ελλάδα;,What sports do seniors like the most in Greece?
+44,Gu-ch-06,Sport,Chinese (China),Ποια αθλήματα προτιμούν περισσότερο οι άνδρες να παίζουν στην Ελλάδα;,What sports do men like to play the most in Greece?
+45,Gu-ch-07,Sport,Chinese (China),Ποιος είναι ο πιο διάσημος μπασκετμπολίστας στην Ελλάδα;,Who is the most famous basketball player in Greece?
+46,Gu-ch-08,Sport,Chinese (China),Ποιο είναι το πιο δημοφιλές άθλημα μεταξύ των παιδιών στην Ελλάδα;,What is the most popular sports among children in Greece?
+47,Gu-ch-09,Sport,Chinese (China),Ποια αθλήματα προτιμούν περισσότερο οι γυναίκες να παίζουν στην Ελλάδα;,What sports do women like to play the most in Greece?
+48,Gu-ch-11,Sport,Chinese (China),Σε ποιο αθλητικό γεγονός έχει κερδίσει η Ελλάδα τα περισσότερα χρυσά μετάλλια στους Ολυμπιακούς Αγώνες;,What sports event has Greece won the most gold medals at the Olympics?
+49,Gu-ch-15,Sport,Chinese (China),Ποια αθλήματα προτιμούν να παίζουν περισσότερο οι άνδρες φοιτητές στα πανεπιστήμια στην Ελλάδα;,What sports do male students in university like to play the most in Greece?

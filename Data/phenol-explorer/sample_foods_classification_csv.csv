@@ -1,0 +1,51 @@
+class,subclass,food_name,food_id
+Alcoholic beverages,Beers,Beer [Ale],492
+Alcoholic beverages,Beers,Beer [Dark],494
+Alcoholic beverages,Beers,Beer [Alcohol free],531
+Alcoholic beverages,Beers,Beer [Regular],539
+Alcoholic beverages,Ciders,Cider,28
+Alcoholic beverages,Liquors - Nut liquors,"Walnut, liquor",720
+Alcoholic beverages,Spirits - Brandy,Cognac,193
+Alcoholic beverages,Spirits - Rum,Rum,194
+Alcoholic beverages,Spirits - Whisky,Scotch whisky,192
+Alcoholic beverages,Wines - Berry wines,"Muscadine grape, red wine",145
+Alcoholic beverages,Wines - Berry wines,"Blackcurrant, wine",148
+Alcoholic beverages,Wines - Berry wines,"Black crowberry, wine",150
+Alcoholic beverages,Wines - Berry wines,"Fox grape, red wine",233
+Alcoholic beverages,Wines - Berry wines,"Fox grape, white wine",234
+Alcoholic beverages,Wines - Fortified Wines,Sherry,147
+Alcoholic beverages,Wines - Grape wines,Wine [Red],135
+Alcoholic beverages,Wines - Grape wines,Wine [White],136
+Alcoholic beverages,Wines - Grape wines,Wine [Rosé],137
+Alcoholic beverages,Wines - Sparkling wines,Champagne,139
+Cereals and cereal products,Cereal products,"Breakfast cereals, bran",219
+Cereals and cereal products,Cereal products,"Bread, refined flour",226
+Cereals and cereal products,Cereal products,Pasta,227
+Cereals and cereal products,Cereal products,"Bread, common wheat, whole grain flour",229
+Cereals and cereal products,Cereal products,"Bread, rye, whole grain flour",293
+Cereals and cereal products,Cereal products,"Pasta, whole grain",299
+Cereals and cereal products,Cereal products,"Breakfast cereals, muesli",301
+Cereals and cereal products,Cereal products,"Breakfast cereals, oat, whole-meal",975
+Cereals and cereal products,Cereal products,"Breakfast cereals, corn",976
+Cereals and cereal products,Cereals,"Hard wheat, whole grain flour",210
+Cereals and cereal products,Cereals,"Hard wheat, semolina",216
+Cereals and cereal products,Cereals,"Hard wheat, refined flour",218
+Cereals and cereal products,Cereals,"Common wheat, whole grain flour",224
+Cereals and cereal products,Cereals,"Common wheat, refined flour",225
+Cereals and cereal products,Cereals,"Rye, whole grain flour",292
+Cereals and cereal products,Cereals,"Barley, whole grain flour",300
+Cereals and cereal products,Cereals,"Maize, whole grain",304
+Cereals and cereal products,Cereals,"Oat, whole grain flour",305
+Cereals and cereal products,Cereals,"Sorghum, whole grain",308
+Cereals and cereal products,Cereals,"Common wheat, germ",315
+Cereals and cereal products,Cereals,"Rye, refined flour",316
+Cereals and cereal products,Cereals,"Buckwheat, refined flour",317
+Cereals and cereal products,Cereals,"Buckwheat, whole grain flour",321
+Cereals and cereal products,Cereals,"Rice, refined",324
+Cereals and cereal products,Cereals,"Oat, refined flour",325
+Cereals and cereal products,Cereals,"Maize, refined flour",326
+Cereals and cereal products,Cereals,"Buckwheat, grits",337
+Cereals and cereal products,Cereals,"Oat, rolled",338
+Cereals and cereal products,Cereals,"Rice, whole grain",354
+Cereals and cereal products,Cereals,Maize [Blue],402
+Cereals and cereal products,Cereals,Maize [Purple],404

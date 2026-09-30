@@ -1,0 +1,51 @@
+Recipe_id,D_F,Ing_id,M_or_C,ingredient_Phrase,ingredient_name,ndb_id,quantity,size,state,temperature,unit
+105798,,2,A,1 cup butter,butter,12198,1,,,,cup
+105798,,6,A,3/4 cup plus 2 tablespoons granulated sugar,sugar,16200,3/4,,granulated,,cup
+105798,,76,A,2 egg yolks,egg yolk,1125,2,,,,
+105798,,232,A,1 teaspoon almond extract,almond extract,93600,1,,,,teaspoon
+105798,,0,A,1 dash salt,salt,10165,1,,,,dash
+105798,,18,A,2 1/2 - 2 3/4 cups all-purpose flour,purpose flour,93600,2 1/2 - 2 3/4,,,,cups
+105798,,100,A,"1 egg white , slightly beaten",egg white,1124,1,,beaten,,
+105798,,64,A,4 tablespoons chopped almonds,almond,4529,4,,chopped,,tablespoons
+105799,,3,M,8 cups water,water,14555,8,,,,cups
+105799,,0,A,1 dash salt,salt,10165,1,,,,dash
+105799,,185,A,4 cups white rice,white rice,20044,4,,,,cups
+105799,,11,M,1 gallon whole milk,milk,1211,1,,,,gallon
+105799,,15,A,10 -12 cinnamon sticks,cinnamon,18964,10 -12,,,,
+105799,,2,A,1/2 cup butter,butter,12198,1/2,,,,cup
+105799,,6,M,1 cup sugar,sugar,19908,1,,,,cup
+105799,,64,A,1 almonds,almond,4529,1,,,,
+105799,,947,A,cinnamon sugar,cinnamon sugar,8579,,,,,
+105800,,14,A,"3 1/2 cups flour ( sifted , all-purpose )",flour,16115,3 1/2,,sifted,,cups
+105800,,80,A,1 teaspoon baking soda,baking soda,18372,1,,,,teaspoon
+105800,,0,A,1/4 teaspoon salt,salt,10165,1/4,,,,teaspoon
+105800,,23,A,1 tablespoon powdered ginger,ginger,11216,1,,powdered,,tablespoon
+105800,,51,A,1/4 teaspoon nutmeg,nutmeg,2025,1/4,,,,teaspoon
+105800,,65,A,2 teaspoons powdered cloves,clove,2011,2,,powdered,,teaspoons
+105800,,15,A,2 teaspoons cinnamon,cinnamon,18964,2,,,,teaspoons
+105800,,2,A,1/2 lb butter,butter,12198,1/2,,,,
+105800,,6,M,1 cup sugar,sugar,19908,1,,,,cup
+105800,,271,A,1/2 cup molasses ( either light or dark ),molasses,19304,1/2,,,,cup
+105800,,64,A,"5 ounces almonds ( whole , blanched )",almond,4529,5,,blanched,,ounces
+105801,fresh,192,A,1 fresh pineapple,pineapple,9266,1,,,,
+105801,fresh,326,A,1 fresh chili pepper,chili pepper,11670,1,,,,
+105801,,55,A,1/3 cup honey or 1/3 cup maple syrup,honey,7088,1/3,,,,cup
+105801,,36,A,"1 lime , juice of",lime juice,9160,1,,,,
+105801,,109,A,3/4 cup flaked coconut,coconut,12104,3/4,,flaked,,cup
+105801,,415,A,vanilla ice cream,vanilla ice cream,21333,,,,,
+105802,,2,A,"1/4 lb butter , softened",butter,12198,1/4,,softened,,
+105802,,6,M,1 1/2 cups sugar,sugar,19908,1 1/2,,,,cups
+105802,,76,A,2 egg yolks,egg yolk,1125,2,,,,
+105802,,14,M,2 1/2 cups flour,flour,20061,2 1/2,,,,cups
+105802,,40,A,3 teaspoons baking powder,baking powder,18369,3,,,,teaspoons
+105802,,0,A,1 dash salt,salt,10165,1,,,,dash
+105802,,11,M,1 cup milk,milk,1211,1,,,,cup
+105802,,77,M,1 teaspoon vanilla,vanilla,2050,1,,,,teaspoon
+105802,,610,A,"1 lemon , juice and zest of ( My Grandmother says to only squeeze the juice out of half a lemon and only use a few pinches of zest )",lemon juice zest,93600,1,,juice,,
+105802,,100,A,"2 egg whites , stiffly beaten",egg white,1124,2,,beaten,,
+105802,,14,M,1 cup flour,flour,20061,1,,,,cup
+105802,,31,M,3/4 cup light brown sugar,brown sugar,19334,3/4,,,,cup
+105802,,15,A,1 teaspoon ground cinnamon,cinnamon,18964,1,,ground,,teaspoon
+105802,,51,A,1/4 teaspoon ground nutmeg,nutmeg,2025,1/4,,ground,,teaspoon
+105802,,2,A,"1/4 lb butter , softened",butter,12198,1/4,,softened,,
+13115,,29,A,6 potatoes,potato,11352,6,,,,

@@ -1,0 +1,40 @@
+id,legacy_id,type,public_id,name,export,state,annotation_quality,description,wikipedia_id,comments,dfc_id,duke_id,eafus_id,dfc_name,compound_source,metabolism,synthesis_citations,general_citations,creator_id,updater_id,created_at,updated_at
+1,10930.0,,FDBN00001,Fat,False,,low,,,,,FAT,,,DUKE,,,,,,2014-11-05 13:42:10 UTC,2014-11-05 13:42:10 UTC
+2,10946.0,,FDBN00002,Proteins,False,,low,,,,,PROTEIN|PROTEINS,,,DUKE,,,,,,2014-11-05 13:42:15 UTC,2014-11-05 13:42:15 UTC
+3,16037.0,,FDBN00003,Carbohydrate,False,,low,"Carbohydrates (or saccharides) are organic compounds with the empirical formula Cm(H2O)n. The carbohydrates  are divided into four chemical groupings: monosaccharides, disaccharides, oligosaccharides, and polysaccharides. The monosaccharides and disaccharides are commonly referred to as sugars. [Wikipedia]",Carbohydrate,,,CARBOHYDRATE|CARBOHYDRATES,,,DUKE,,,,,,2014-11-05 13:44:06 UTC,2014-11-05 13:44:06 UTC
+4,23404.0,,FDBN00004,Fatty acids,False,,low,,,,,FATTY-ACIDS,1335.0,,EAFUS,,,,,,2014-11-05 13:46:00 UTC,2014-11-05 13:46:00 UTC
+5,11134.0,,FDBN00005,Fiber (dietary),False,,low,,,,,FIBER(DIETARY),,,DUKE,,,,,,2014-11-05 13:47:36 UTC,2014-11-05 13:47:36 UTC
+6,58893.0,,FDBN00006,13:0,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:49:16 UTC,2014-11-05 13:49:16 UTC
+7,58894.0,,FDBN00007,14:1,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:49:19 UTC,2014-11-05 13:49:19 UTC
+8,58895.0,,FDBN00008,15:1,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:49:38 UTC,2014-11-05 13:49:38 UTC
+9,58896.0,,FDBN00009,16:1 c,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:49:52 UTC,2014-11-05 13:49:52 UTC
+10,58897.0,,FDBN00010,16:1 t,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:49:59 UTC,2014-11-05 13:49:59 UTC
+11,58898.0,,FDBN00011,16:1 undifferentiated,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:50:04 UTC,2014-11-05 13:50:04 UTC
+12,58899.0,,FDBN00012,17:1,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:51:16 UTC,2014-11-05 13:51:16 UTC
+13,58900.0,,FDBN00013,18:1 c,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:51:34 UTC,2014-11-05 13:51:34 UTC
+14,58901.0,,FDBN00014,18:1 t,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:51:45 UTC,2014-11-05 13:51:45 UTC
+15,58902.0,,FDBN00015,18:1 undifferentiated,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:51:57 UTC,2014-11-05 13:51:57 UTC
+16,58903.0,,FDBN00016,18:2 CLAs,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:53:09 UTC,2014-11-05 13:53:09 UTC
+17,58904.0,,FDBN00017,18:2 i,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:53:16 UTC,2014-11-05 13:53:16 UTC
+18,58905.0,,FDBN00018,18:2 t not further defined,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:53:17 UTC,2014-11-05 13:53:17 UTC
+19,58906.0,,FDBN00019,"18:2 t,t",False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:53:23 UTC,2014-11-05 13:53:23 UTC
+20,58907.0,,FDBN00020,18:2 undifferentiated,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:53:26 UTC,2014-11-05 13:53:26 UTC
+21,58908.0,,FDBN00021,18:3 undifferentiated,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:54:38 UTC,2014-11-05 13:54:38 UTC
+22,58909.0,,FDBN00022,18:3i,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:55:48 UTC,2014-11-05 13:55:48 UTC
+23,58910.0,,FDBN00023,18:4,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:55:49 UTC,2014-11-05 13:55:49 UTC
+24,58911.0,,FDBN00024,20:1,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:56:45 UTC,2014-11-05 13:56:45 UTC
+25,58912.0,,FDBN00025,"20:2 n-6 c,c",False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:57:50 UTC,2014-11-05 13:57:50 UTC
+26,58913.0,,FDBN00026,20:3 n-3,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:58:07 UTC,2014-11-05 13:58:07 UTC
+27,58914.0,,FDBN00027,20:3 n-6,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:58:11 UTC,2014-11-05 13:58:11 UTC
+28,58915.0,,FDBN00028,20:3 undifferentiated,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:58:16 UTC,2014-11-05 13:58:16 UTC
+29,58916.0,,FDBN00029,20:4 undifferentiated,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:58:33 UTC,2014-11-05 13:58:33 UTC
+30,58917.0,,FDBN00030,21:5,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:59:36 UTC,2014-11-05 13:59:36 UTC
+31,58918.0,,FDBN00031,22:0,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 13:59:37 UTC,2014-11-05 13:59:37 UTC
+32,58919.0,,FDBN00032,22:1 c,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 14:00:03 UTC,2014-11-05 14:00:03 UTC
+33,58920.0,,FDBN00033,22:1 t,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 14:00:09 UTC,2014-11-05 14:00:09 UTC
+34,58921.0,,FDBN00034,22:1 undifferentiated,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 14:00:14 UTC,2014-11-05 14:00:14 UTC
+35,58922.0,,FDBN00035,22:4,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 14:01:10 UTC,2014-11-05 14:01:10 UTC
+36,58923.0,,FDBN00036,22:5 n-3,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 14:01:15 UTC,2014-11-05 14:01:15 UTC
+37,58924.0,,FDBN00037,24:1 c,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 14:02:21 UTC,2014-11-05 14:02:21 UTC
+38,58928.0,,FDBN00038,Energy,False,,low,,,,,,,,TABLES,,,,,,2014-11-05 14:02:28 UTC,2014-11-05 14:02:28 UTC
+39,,,FDBN00039,Ash,False,,low,,,,,,,,TABLES,,,,,,2019-08-02 19:45:58 UTC,2019-08-02 19:45:58 UTC

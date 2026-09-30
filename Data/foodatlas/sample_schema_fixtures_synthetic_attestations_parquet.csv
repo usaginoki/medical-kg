@@ -1,0 +1,4 @@
+attestation_id,evidence_id,source,head_name_raw,tail_name_raw,conc_value,conc_unit,conc_value_raw,conc_unit_raw,food_part,food_processing,quality_score,validated,validated_correct,head_candidates,tail_candidates
+att001,ev001,fdc,Apple,Vitamin C,4.6,mg/100g,4.6,mg/100 g,raw,,0.95,False,True,[],[]
+att002,ev001,fdc,Apple,Vitamin C,5.2,mg/100g,5.2,mg/100 g,,dried,,True,True,"[""f001""]","[""c001""]"
+att003,ev002,lit2kg,,,,,,,,,0.8,,,[],[]

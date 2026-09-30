@@ -1,0 +1,51 @@
+sample_id,study_id,treatment,origin_type,origin_name,GSM,time_point,concentration
+0,0,cranberry extract,cell type,endothelial cells,129143,6 hours,-
+1,0,grapeseed extract,cell type,endothelial cells,129152,6 hours,-
+2,0,control,cell type,endothelial cells,129146,6 hours,-
+3,0,red wine extract,cell type,endothelial cells,129149,6 hours,-
+4,0,cranberry extract,cell type,endothelial cells,129147,6 hours,-
+5,0,grapeseed extract,cell type,endothelial cells,129144,6 hours,-
+6,0,control,cell type,endothelial cells,129150,6 hours,-
+7,0,red wine extract,cell type,endothelial cells,129153,6 hours,-
+8,0,control,cell type,endothelial cells,129142,6 hours,-
+9,0,red wine extract,cell type,endothelial cells,129145,6 hours,-
+10,0,grapeseed extract,cell type,endothelial cells,129148,6 hours,-
+11,0,cranberry extract,cell type,endothelial cells,129151,6 hours,-
+12,1,control,cell type,LNCaP,1185138,6 hours,0
+13,1,sulforaphane,cell type,Normal prostate epithelial cells,1185135,24 hours,15 µM
+14,1,sulforaphane,cell type,PC-3,1185158,24 hours,15 µM
+15,1,sulforaphane,cell type,LNCaP,1185141,6 hours,15 µM
+16,1,control,cell type,PC-3,1185155,24 hours,0
+17,1,sulforaphane,cell type,Normal prostate epithelial cells,1185129,6 hours,15 µM
+18,1,sulforaphane,cell type,PC-3,1185152,6 hours,15 µM
+19,1,control,cell type,PC-3,1185149,6 hours,0
+20,1,control,cell type,PrEC,1185132,24 hours,0
+21,1,sulforaphane,cell type,PC-3,1185153,6 hours,15 µM
+22,1,control,cell type,PrEC,1185133,24 hours,0
+23,1,control,cell type,PC-3,1185150,6 hours,0
+24,1,sulforaphane,cell type,Normal prostate epithelial cells,1185130,6 hours,15 µM
+25,1,sulforaphane,cell type,Normal prostate epithelial cells,1185136,24 hours,15 µM
+26,1,control,cell type,PC-3,1185156,24 hours,0
+27,1,sulforaphane,cell type,LNCaP,1185147,24 hours,15 µM
+28,1,control,cell type,LNCaP,1185144,24 hours,0
+29,1,control,cell type,Normal prostate epithelial cells,1185127,6 hours,0
+30,1,control,cell type,PrEC,1185131,24 hours,0
+31,1,sulforaphane,cell type,Normal prostate epithelial cells,1185128,6 hours,15 µM
+32,1,control,cell type,LNCaP,1185145,24 hours,0
+33,1,control,cell type,Normal prostate epithelial cells,1185125,6 hours,0
+34,1,sulforaphane,cell type,LNCaP,1185148,24 hours,15 µM
+35,1,control,cell type,PC-3,1185151,6 hours,0
+36,1,control,cell type,LNCaP,1185139,6 hours,0
+37,1,sulforaphane,cell type,PC-3,1185159,24 hours,15 µM
+38,1,sulforaphane,cell type,LNCaP,1185142,6 hours,15 µM
+39,1,sulforaphane,cell type,PC-3,1185160,24 hours,15 µM
+40,1,control,cell type,LNCaP,1185143,24 hours,0
+41,1,sulforaphane,cell type,Normal prostate epithelial cells,1185134,24 hours,15 µM
+42,1,control,cell type,Normal prostate epithelial cells,1185126,6 hours,0
+43,1,sulforaphane,cell type,LNCaP,1185140,6 hours,15 µM
+44,1,sulforaphane,cell type,LNCaP,1185146,24 hours,15 µM
+45,1,control,cell type,LNCaP,1185137,6 hours,0
+46,1,control,cell type,PC-3,1185157,24 hours,0
+47,1,sulforaphane,cell type,PC-3,1185154,6 hours,15 µM
+48,2,,,,1254420,,
+49,2,,,,1254417,,

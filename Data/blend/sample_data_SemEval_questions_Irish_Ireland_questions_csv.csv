@@ -1,0 +1,51 @@
+Unnamed: 0,ID,Topic,Source,Question,Translation
+0,Al-en-01,Food,English (US),Cad is sneaiceanna coitianta do pháistí réamhscoile in Éirinn?,What is a common snack for preschool kids in Ireland?
+1,Al-en-02,Food,English (US),Cén bia is coitianta a théann le beoir in Éirinn?,What is a popular food to go with beer in Ireland?
+2,Al-en-04,Food,English (US),Cad é an toradh is mó a bhfuil tóir air in Éirinn?,What is the most popular fruit in Ireland?
+3,Al-en-06,Food,English (US),Cad é an bia coitianta i gcaifitéire scoile in Éirinn?,What is a common school cafeteria food in Ireland?
+4,Al-en-08,Food,English (US),Cad iad na sneaiceanna is coitianta a ithetar in ionaid siopadóireachta in Éirinn?,What are the most commonly eaten snacks at shopping malls in Ireland?
+5,Al-en-09,Food,English (US),Cad é sneaiceanna coitianta i bpáirc spraoi in Éirinn?,What is a popular snack at an amusement park in Ireland?
+6,Al-en-16,Education,English (US),Cén aois a thosnaíonn páistí an réamhscoile/naíonra in Éirinn?,"At what age do kids start preschool in Ireland? (Provide Arabic numerals (e.g., 12) only.)"
+7,Al-en-17,Education,English (US),Cén spórt iarscoile is coitianta i measc bunscoileanna in Éirinn?,What is a popular afterschool sport for elementary schools in Ireland?
+8,Al-en-18,Education,English (US),Cén ábhar a fhaigheann daltaí bunscoile oideachas príobháideach in Éirinn?,For which subject do elementary students get private education in Ireland?
+9,Al-en-19,Education,English (US),Cén dara teanga is coitianta i measc daltaí ardscoile in Éirinn?,What is a popular second language for high school students in Ireland?
+10,Al-en-21,Education,English (US),Cad é an t-ábhar is tábhachtaí d'oideachas cumasach in Éirinn?,Which subject is the most important for gifted education in Ireland?
+11,Al-en-32,Holidays/Celebration/Leisure,English (US),Cad é an príomh-mhias do altú buíochais in Éirinn?,What is the main dish for Thanksgiving in Ireland?
+12,Al-en-33,Holidays/Celebration/Leisure,English (US),Cad a dhéanann daoine chun Oíche Shamhna a cheiliúradh in Éirinn?,What do people do to celebrate Halloween in Ireland?
+13,Al-en-34,Holidays/Celebration/Leisure,English (US),Cad a dhéanann daoine chun Lá Caille a cheiliúradh in Éirinn?,What do people do to celebrate New Year's Day in Ireland?
+14,Al-en-35,Holidays/Celebration/Leisure,English (US),Cad a dhéanann daoine chun an Nollaig a cheiliúradh in Éirinn?,What do people do to celebrate Christmas in Ireland?
+15,Al-en-36,Holidays/Celebration/Leisure,English (US),Cén saghas bia atá ceangailte le Shamhna?,What food is associated with Halloween in Ireland?
+16,Al-en-37,Holidays/Celebration/Leisure,English (US),Cén saghas bia atá ceangailte leis an Nollaig?,What food is associated with Christmas in Ireland?
+17,Al-en-38,Holidays/Celebration/Leisure,English (US),Cén bia a bhaineann le Lá Vailintín in Éirinn?,What food is associated with Valentine's day in Ireland?
+18,Al-en-39,Holidays/Celebration/Leisure,English (US),Cad a itheann daoine ar a lá breithe in Éirinn?,What do people eat on their birthday in Ireland?
+19,Al-en-40,Holidays/Celebration/Leisure,English (US),Cén áit lasmuigh is mó tóir in Éirinn do theaghlaigh le páistí óga chun spraoi a bheith acu?,What is a popular outdoor place for families to have fun with little kids in Ireland?
+20,Al-en-43,Holidays/Celebration/Leisure,English (US),Cad é an ghníomhaíocht faoi dhíon is coitianta do theaghlaigh in Éirinn?,What is a popular indoor activity for families in Ireland?
+21,An-ar-02,Education,Arabic (Algeria),Cá mbíonn lón ag mic léinn ollscoile in Éirinn?,Where do university students have lunch in Ireland?
+22,An-ar-03,Education,Arabic (Algeria),Cén mhí a bhíonn an téarma scrúdaithe deiridh sceidealaithe de ghnáth i meánscoileanna in Éirinn?,Which month is the final exam term usually scheduled at high schools in Ireland? (Provide Arabic numerals (1~12) only.)
+23,An-ar-08,Education,Arabic (Algeria),Cé mhéad uair an chloig sa lá a chaitheann daltaí in Éirinn ar meánscoil de ghnáth?,"How many hours a day do students in Ireland usually spend at high school? (Provide Arabic numerals in integers (0~24), without any decimal points.)"
+24,An-ar-09,Education,Arabic (Algeria),Cé mhéad teanga a fhoghlaimíonn daltaí ar meánscoil in Éirinn?,"How many languages do students study at high school in Ireland? (Provide Arabic numerals (e.g., 5) only.)"
+25,An-ar-34,Sport,Arabic (Algeria),Cén spórt foirne is mó tóir a imrítear ar scoil in Éirinn?,What is the most popular sport played in a team at school in Ireland?
+26,An-ar-35,Sport,Arabic (Algeria),Cé hé an tráchtaire spóirt is mó tóir in Éirinn?,Who is the most popular sport commentator in Ireland?
+27,An-ar-36,Sport,Arabic (Algeria),Cén fhoireann spóirt is mó tóir in Éirinn?,What is the most popular sport team in Ireland?
+28,An-ar-43,Sport,Arabic (Algeria),Cad iad na háiteanna nó na hionaid choitianta a mbíonn daoine aonair in Éirinn ag teacht le chéile de ghnáth chun craoltaí spóirt a fheiceáil?,What are the common places or venues where individuals in Ireland usually gather to watch sports broadcasts?
+29,Ca-sp-05,Food,Spanish (Spain),Cé mhéad béile a bhíonn ag daoine as Éirinn de ghnáth in aghaidh an lae?,"How many meals per day do people from Ireland usually have? (Provide Arabic numerals (e.g., 5) only.)"
+30,Ca-sp-06,Food,Spanish (Spain),Cé acu an béile is tábhachtaí den lá do mhuintir na hÉireann?,Which is the most important meal of the day to people from Ireland?
+31,Ca-sp-08,Food,Spanish (Spain),Cad é an comhábhar is coitianta a úsáidtear i réim bia na hÉireann?,What is the most common ingredient used in Ireland's diet?
+32,Ca-sp-09,Food,Spanish (Spain),Cad a itheann daoine as Éirinn de ghnáth mar mhilseog?,What do people from Ireland usually eat for dessert?
+33,Ca-sp-11,Food,Spanish (Spain),Cén lá den tseachtain a bhíonn béile teaghlaigh á eagrú ag daoine in Éirinn de ghnáth?,Which day of the week do people usually organize a family meal in Ireland?
+34,Ca-sp-14,Food,Spanish (Spain),Cé acu deoch te is mó tóir in Éirinn?,Which is the most popular hot drink in Ireland?
+35,Ca-sp-19,Holidays/Celebration/Leisure,Spanish (Spain),Cad a ólann daoine óga as Éirinn de ghnáth sa chlub oíche?,What do young people from Ireland usually drink at the night club?
+36,Ca-sp-21,Holidays/Celebration/Leisure,Spanish (Spain),Cén mhí a mbíonn daoine ag dul ar saoire in Éirinn de ghnáth?,At which month do people usually take holidays in Ireland? (Provide Arabic numerals (1~12) only.)
+37,Ca-sp-29,Holidays/Celebration/Leisure,Spanish (Spain),Cén trádisiún a bhfuil in Éirinn don oíche Chinn Bliana?,What tradition is there in Ireland for New Year's Eve?
+38,Ca-sp-38,Family,Spanish (Spain),Cén cineál tí is gnách do theaghlach in Éirinn?,Which is the typical type of house for a family in Ireland?
+39,Ca-sp-41,Family,Spanish (Spain),Cá mbíonn cónaí ar dhaoine scothaosta cleithiúnacha in Éirinn de ghnáth?,Where do the dependent elderly usually live in Ireland?
+40,Ca-sp-42,Family,Spanish (Spain),Cá fhad a mhaireann saoire mháithreachais in Éirinn do mháithreacha?,"How long (in weeks) is Ireland's maternity leave for mums? (Provide Arabic numerals (e.g., 20) only.)"
+41,Ca-sp-43,Family,Spanish (Spain),Cá fhad a mhaireann saoire atharthachta d'aithreacha in Éirinn?,"How long (in weeks) is Ireland's paternity leave for dads? (Provide Arabic numerals (e.g., 20) only.)"
+42,Ca-sp-45,Family,Spanish (Spain),Cén cineál ceann scríbe a roghnaítear go coitianta le haghaidh laethanta saoire teaghlaigh in Éirinn?,What type of destination is commonly chosen for a family vacation in Ireland?
+43,Gu-ch-05,Sport,Chinese (China),Cad iad na spóirt is mó a thaitníonn le daoine scothaosta in Éirinn?,What sports do seniors like the most in Ireland?
+44,Gu-ch-06,Sport,Chinese (China),Cad iad na spóirt is mó a thaitníonn le fir in Éirinn?,What sports do men like to play the most in Ireland?
+45,Gu-ch-07,Sport,Chinese (China),Cé hé an t-imreoir cispheile is cáiliúla in Éirinn?,Who is the most famous basketball player in Ireland?
+46,Gu-ch-08,Sport,Chinese (China),Cad iad na spóirt is mó a bhfuil tóir orthu i measc leanaí in Éirinn?,What is the most popular sports among children in Ireland?
+47,Gu-ch-09,Sport,Chinese (China),Cad iad na spóirt is mó a thaitníonn le mná a imirt in Éirinn?,What sports do women like to play the most in Ireland?
+48,Gu-ch-11,Sport,Chinese (China),Cén imeacht spóirt inar bhuaigh Éire an líon is mó bonn óir ag na Cluichí Oilimpeacha?,What sports event has Ireland won the most gold medals at the Olympics?
+49,Gu-ch-15,Sport,Chinese (China),Cad iad na spóirt is mó a thaitníonn le mic léinn fhireanna san ollscoil a imirt in Éirinn?,What sports do male students in university like to play the most in Ireland?

@@ -1,0 +1,51 @@
+url,origin,origin_name,lang,sub_label,obj_label
+http://www.wikidata.org/entity/Q396184,Canada,Canada,en,poutine,"['cheese curds', 'gravy', 'french fries']"
+http://www.wikidata.org/entity/Q28803,England,England,en,sandwich,['bread']
+http://www.wikidata.org/entity/Q203925,England,England,en,fish and chips,"['french fries', 'fish as food']"
+http://www.wikidata.org/entity/Q860465,England,England,en,roast beef,['beef']
+http://www.wikidata.org/entity/Q927904,England,England,en,toffee,"['sugar', 'butter', 'molasses', 'rubber']"
+http://www.wikidata.org/entity/Q322787,England,England,en,mashed potato,"['milk', 'butter', 'potato']"
+http://www.wikidata.org/entity/Q471866,Japan,Japan,en,miso soup,"['water', 'miso']"
+http://www.wikidata.org/entity/Q87590,Japan,Japan,en,castella,['flour']
+http://www.wikidata.org/entity/Q1051482,Japan,Japan,en,dorayaki,"['castella', 'red bean paste']"
+http://www.wikidata.org/entity/Q483163,Japan,Japan,en,yakitori,['chicken meat']
+http://www.wikidata.org/entity/Q559408,Japan,Japan,en,yōkan,['agar']
+http://www.wikidata.org/entity/Q1051265,Japan,Japan,en,instant noodles,"['soup', 'noodle']"
+http://www.wikidata.org/entity/Q234646,Japan,Japan,en,ramen,"['noodle', 'broth']"
+http://www.wikidata.org/entity/Q877913,Japan,Japan,en,dango,['rice flour']
+http://www.wikidata.org/entity/Q647175,Japan,Japan,en,teriyaki,"['meat', 'tare sauce']"
+http://www.wikidata.org/entity/Q427226,Japan,Japan,en,omurice,"['fried rice', 'chicken egg']"
+http://www.wikidata.org/entity/Q1061856,Japan,Japan,en,shabu-shabu,['meat']
+http://www.wikidata.org/entity/Q13393,Japan,Japan,en,onigiri,"['rice', 'nori']"
+http://www.wikidata.org/entity/Q295568,Hungary,Hungary,en,Dobos torte,"['rum', 'powdered sugar', 'sponge cake', 'lemon juice', 'chocolate', 'vanilla']"
+http://www.wikidata.org/entity/Q575790,Hungary,Hungary,en,lángos,"['milk', 'potato', 'sugar', 'table salt', 'wheat flour', 'nutritional yeast']"
+http://www.wikidata.org/entity/Q130186,Spain,Spain,en,torte,"['buttercream', 'crust']"
+http://www.wikidata.org/entity/Q212121,Spain,Spain,en,paella,"['rice', 'chicken', 'table salt', 'saffron', 'olive oil', 'Phaseolus lunatus', 'tomato', 'green bean', 'rabbit meat']"
+http://www.wikidata.org/entity/Q281751,Spain,Spain,en,Spanish omelette,"['table salt', 'olive oil', 'onion', 'potato', 'chicken egg']"
+http://www.wikidata.org/entity/Q202677,Spain,Spain,en,gazpacho,"['tomato', 'lemon juice', 'olive oil', 'Capsicum', 'vinegar', 'Allium cepa', 'Cucumis sativus', 'Garlic (allium sativum)', 'table salt', 'bread', 'Capsicum annuum', 'water']"
+http://www.wikidata.org/entity/Q152088,Belgium,Belgium,en,french fries,"['potato', 'table salt', 'vegetable oil']"
+http://www.wikidata.org/entity/Q375,Belgium,Belgium,en,waffle,['batter']
+http://www.wikidata.org/entity/Q1072192,Lebanon,Lebanon,en,baba ghanoush,"['tahini', 'eggplant']"
+http://www.wikidata.org/entity/Q379138,United States of America,United States of America,en,fudge,"['milk', 'sugar', 'butter']"
+http://www.wikidata.org/entity/Q2339814,United States of America,United States of America,en,s'more,"['chocolate', 'marshmallow', 'graham cracker']"
+http://www.wikidata.org/entity/Q1284887,United States of America,United States of America,en,red velvet cake,['flour']
+http://www.wikidata.org/entity/Q503494,United States of America,United States of America,en,cobbler,"['batter', 'fruit']"
+http://www.wikidata.org/entity/Q503129,United States of America,United States of America,en,chocolate brownie,"['sugar', 'butter', 'flour', 'egg', 'cocoa bean']"
+http://www.wikidata.org/entity/Q1369093,United States of America,United States of America,en,peanut butter and jelly sandwich,"['jam', 'bread', 'peanut butter']"
+http://www.wikidata.org/entity/Q1072190,United States of America,United States of America,en,chicken nugget,['chicken meat']
+http://www.wikidata.org/entity/Q894562,United States of America,United States of America,en,Boston cream pie,['sponge cake']
+http://www.wikidata.org/entity/Q806097,United States of America,United States of America,en,banana bread,"['banana', 'sugar', 'flour']"
+http://www.wikidata.org/entity/Q44541,United States of America,United States of America,en,pancake,"['milk', 'oil', 'flour', 'egg']"
+http://www.wikidata.org/entity/Q1284379,United States of America,United States of America,en,pecan pie,['Carya illinoinensis']
+http://www.wikidata.org/entity/Q667478,United States of America,United States of America,en,cheeseburger,"['cheese', 'patty', 'bun']"
+http://www.wikidata.org/entity/Q272198,United States of America,United States of America,en,marshmallow,"['water', 'glucose', 'gelatin', 'corn syrup', 'flavoring']"
+http://www.wikidata.org/entity/Q1093380,United States of America,United States of America,en,club sandwich,"['toast', 'bacon', 'tomato', 'turkey meat']"
+http://www.wikidata.org/entity/Q816851,United States of America,United States of America,en,cupcake,"['sugar', 'butter', 'flour', 'egg', 'raising agent']"
+http://www.wikidata.org/entity/Q525586,United States of America,United States of America,en,Twinkie,['wheat flour']
+http://www.wikidata.org/entity/Q1104585,United States of America,United States of America,en,Cobb salad,"['chicken', 'cheese', 'bacon', 'egg', 'avocado', 'tomato', 'vinaigrette', 'Lactuca']"
+http://www.wikidata.org/entity/Q13319,United States of America,United States of America,en,frozen yogurt,['milk']
+http://www.wikidata.org/entity/Q1160522,United States of America,United States of America,en,gumbo,"['roux', 'bell pepper', 'onion', 'okra', 'celery', 'filé']"
+http://www.wikidata.org/entity/Q1329680,United States of America,United States of America,en,chocolate chip,['chocolate']
+http://www.wikidata.org/entity/Q1710389,United States of America,United States of America,en,hash browns,['potato']
+http://www.wikidata.org/entity/Q782794,United States of America,United States of America,en,fortune cookie,"['sugar', 'vanilla', 'flour']"
+http://www.wikidata.org/entity/Q714179,United States of America,United States of America,en,Snickers,"['chocolate', 'caramel', 'nougat', 'peanut']"

@@ -1,0 +1,51 @@
+Unnamed: 0,ID,Topic,Source,Question,Translation
+0,Al-en-01,Food,English (US),Menene abincin kayan fulawa na gama gari na makarantar reno na yara a Arewacin Najeriya?,What is a common snack for preschool kids in Northern Nigeria?
+1,Al-en-02,Food,English (US),Menene shahararren abincin da ake ci da giya a Arewacin Najeriya?,What is a popular food to go with beer in Northern Nigeria?
+2,Al-en-04,Food,English (US),Wane irin 'ya'yan itace ne yafi shahara a Arewacin Najeriya?,What is the most popular fruit in Northern Nigeria?
+3,Al-en-06,Food,English (US),Menene abinci na gama gari a gidan abinci na makaranta a Arewacin Najeriya?,What is a common school cafeteria food in Northern Nigeria?
+4,Al-en-08,Food,English (US),Waɗanne ababan motsa baki ne na gama gari da ake ci a cikin shagunnan sayayya a Arewacin Najeriya?,What are the most commonly eaten snacks at shopping malls in Northern Nigeria?
+5,Al-en-09,Food,English (US),Menene abincin sha'awa da ake ci a wurin shaƙatawa a Arewacin Najeriya?,What is a popular snack at an amusement park in Northern Nigeria?
+6,Al-en-16,Education,English (US),"A wane shekaru yara suke fara zuwa makarantar share-fagen shiga firamare a Arewacin Najeriya? (Ka bayar da lambobi na Larabci (misali, 12) kawai.)","At what age do kids start preschool in Northern Nigeria? (Provide Arabic numerals (e.g., 12) only.)"
+7,Al-en-17,Education,English (US),Wane irin wasan motsa jiki ne yara ke yi bayan makaranta a makarantun firamare a Arewacin Najeriya?,What is a popular afterschool sport for elementary schools in Northern Nigeria?
+8,Al-en-18,Education,English (US),Wane darasi ne ɗaliban firamare ke samun ilimin kashin kansu a Arewacin Najeriya?,For which subject do elementary students get private education in Northern Nigeria?
+9,Al-en-19,Education,English (US),Wane sanannan yare ne yake a matsayin yare na biyu ga dalibai yan sakandare a Arewacin Najeriya?,What is a popular second language for high school students in Northern Nigeria?
+10,Al-en-21,Education,English (US),Wane darasi ne mafi muhimmanci ga ilimin hazikai a Arewacin Najeriya?,Which subject is the most important for gifted education in Northern Nigeria?
+11,Al-en-32,Holidays/Celebration/Leisure,English (US),Menene babban abincin godiya a Arewacin Najeriya?,What is the main dish for Thanksgiving in Northern Nigeria?
+12,Al-en-33,Holidays/Celebration/Leisure,English (US),Me mutane ke yi don murnar Halloween a Arewacin Najeriya?,What do people do to celebrate Halloween in Northern Nigeria?
+13,Al-en-34,Holidays/Celebration/Leisure,English (US),Me mutane ke yi don murnar sabuwar shekara a Arewacin Najeriya?,What do people do to celebrate New Year's Day in Northern Nigeria?
+14,Al-en-35,Holidays/Celebration/Leisure,English (US),Me mutane ke yi don murnar Kirsimeti a Arewacin Najeriya?,What do people do to celebrate Christmas in Northern Nigeria?
+15,Al-en-36,Holidays/Celebration/Leisure,English (US),Wane abinci ne ake dangantawa da Halloween a Arewacin Najeriya?,What food is associated with Halloween in Northern Nigeria?
+16,Al-en-37,Holidays/Celebration/Leisure,English (US),Wane abinci ne ake dangantawa da Kirsimeti a Arewacin Najeriya?,What food is associated with Christmas in Northern Nigeria?
+17,Al-en-38,Holidays/Celebration/Leisure,English (US),Wane abinci ne ake dangantawa da ranar soyayya a Arewacin Najeriya?,What food is associated with Valentine's day in Northern Nigeria?
+18,Al-en-39,Holidays/Celebration/Leisure,English (US),Me mutane ke ci a ranar haihuwarsu a Arewacin Najeriya?,What do people eat on their birthday in Northern Nigeria?
+19,Al-en-40,Holidays/Celebration/Leisure,English (US),Wane shahararre buɗaɗɗen wuri ne da iyalai ke zuwa don nishadi da kananan yara a Arewacin Najeriya?,What is a popular outdoor place for families to have fun with little kids in Northern Nigeria?
+20,Al-en-43,Holidays/Celebration/Leisure,English (US),Wanne ne aikin cikin gida da aka fi so ga iyali a Arewacin Najeriya?,What is a popular indoor activity for families in Northern Nigeria?
+21,An-ar-02,Education,Arabic (Algeria),A ina ɗaliban jami'a ke ci abincin rana a Arewacin Najeriya?,Where do university students have lunch in Northern Nigeria?
+22,An-ar-03,Education,Arabic (Algeria),Wane wata ne ake yawan shirya jarabawar karshe a makarantun sakandare a Arewacin Najeriya? (Ka bayar da lambobin Larabci (1~12) kawai.),Which month is the final exam term usually scheduled at high schools in Northern Nigeria? (Provide Arabic numerals (1~12) only.)
+23,An-ar-08,Education,Arabic (Algeria),"Awanni nawa ɗaliban makarantar sakandare a Arewacin Najeriya suke yi a makaranta a kowacce rana? (Ka bayar da lambobin Larabci a cikin gaba daya (0~24), ba tare da wani digo ba.)","How many hours a day do students in Northern Nigeria usually spend at high school? (Provide Arabic numerals in integers (0~24), without any decimal points.)"
+24,An-ar-09,Education,Arabic (Algeria),"Yaruka nawa ɗalibai ke karantawa a makarantun sakandare a Arewacin Najeriya? (Ka bayar da lambobin Larabci (misali, 5) kawai.)","How many languages do students study at high school in Northern Nigeria? (Provide Arabic numerals (e.g., 5) only.)"
+25,An-ar-34,Sport,Arabic (Algeria),Wane wasa ne aka fi bugawa a matsayin tawaga a makarantun Arewacin Najeriya?,What is the most popular sport played in a team at school in Northern Nigeria?
+26,An-ar-35,Sport,Arabic (Algeria),Wane ne mai sharhin wasanni mafi shahara a Arewacin Najeriya?,Who is the most popular sport commentator in Northern Nigeria?
+27,An-ar-36,Sport,Arabic (Algeria),Wacce Ƙungiyar wasanni ce mafi shahara a Arewacin Najeriya?,What is the most popular sport team in Northern Nigeria?
+28,An-ar-43,Sport,Arabic (Algeria),Waɗanne wuraren taro ne mutane a Arewacin Najeriya sukan taru domin kallon watsa shirye-shiryen wasanni?,What are the common places or venues where individuals in Northern Nigeria usually gather to watch sports broadcasts?
+29,Ca-sp-05,Food,Spanish (Spain),"Abinci nawa mutanen Arewacin Najeriya ke ci a kowace rana? (Ka bayar da lambobi na Larabci (misali, 5) kawai.)","How many meals per day do people from Northern Nigeria usually have? (Provide Arabic numerals (e.g., 5) only.)"
+30,Ca-sp-06,Food,Spanish (Spain),Wane abinci ne mafi muhimmanci na rana ga mutanen Arewacin Najeriya?,Which is the most important meal of the day to people from Northern Nigeria?
+31,Ca-sp-08,Food,Spanish (Spain),Menene sinadaran da aka fi amfani da shi a abincin Arewacin Najeriya?,What is the most common ingredient used in Northern Nigeria's diet?
+32,Ca-sp-09,Food,Spanish (Spain),Me mutanen Arewacin Najeriya suka saba ci a matsayin kayan zaki?,What do people from Northern Nigeria usually eat for dessert?
+33,Ca-sp-11,Food,Spanish (Spain),Wacce rana ce cikin mako mutane sukan shirya abincin iyali a Arewacin Najeriya?,Which day of the week do people usually organize a family meal in Northern Nigeria?
+34,Ca-sp-14,Food,Spanish (Spain),Wanne abin sha mai zafi ne yafi shahara abin sha a Arewacin Najeriya?,Which is the most popular hot drink in Northern Nigeria?
+35,Ca-sp-19,Holidays/Celebration/Leisure,Spanish (Spain),Me matasa 'yan Arewacin Najeriya ke sha a kulob din dare?,What do young people from Northern Nigeria usually drink at the night club?
+36,Ca-sp-21,Holidays/Celebration/Leisure,Spanish (Spain),A wane wata ne mutane sukan dauki hutu a Arewacin Najeriya? (Ka bayar da lambobi na Larabci (1~12) kawai.),At which month do people usually take holidays in Northern Nigeria? (Provide Arabic numerals (1~12) only.)
+37,Ca-sp-29,Holidays/Celebration/Leisure,Spanish (Spain),Wane al'ada ake yi a Arewacin Najeriya don bikin dare na sabuwar shekara?,What tradition is there in Northern Nigeria for New Year's Eve?
+38,Ca-sp-38,Family,Spanish (Spain),Wane irin gida ne aka saba gina wa iyali a Arewacin Najeriya?,Which is the typical type of house for a family in Northern Nigeria?
+39,Ca-sp-41,Family,Spanish (Spain),A ina tsofaffi da suka dogara da wasu suke fi zama a Arewacin Najeriya?,Where do the dependent elderly usually live in Northern Nigeria?
+40,Ca-sp-42,Family,Spanish (Spain),"Tsawon sati nawa ne lokacin hutun haihuwa a Arewacin Najeriya? (Ka bayar da lambobi na Larabci kawai (misali, 20).)","How long (in weeks) is Northern Nigeria's maternity leave for mums? (Provide Arabic numerals (e.g., 20) only.)"
+41,Ca-sp-43,Family,Spanish (Spain),"Tsawon makonni nawa ne hutun uba a Arewacin Najeriya? (Ka bayar da lambobi na Larabci kawai (misali, 20).)","How long (in weeks) is Northern Nigeria's paternity leave for dads? (Provide Arabic numerals (e.g., 20) only.)"
+42,Ca-sp-45,Family,Spanish (Spain),Wane irin wuri ake zaba akai-akai don hutun iyali a Arewacin Najeriya?,What type of destination is commonly chosen for a family vacation in Northern Nigeria?
+43,Gu-ch-05,Sport,Chinese (China),Wane irin wasanni ne tsofaffi suka fi so a Arewacin Najeriya?,What sports do seniors like the most in Northern Nigeria?
+44,Gu-ch-06,Sport,Chinese (China),Wane irin wasanni ne maza suka fi so su yi a Arewacin Najeriya?,What sports do men like to play the most in Northern Nigeria?
+45,Gu-ch-07,Sport,Chinese (China),Wane ne ɗan wasan ƙallon kwando mafi shahara a Arewacin Najeriya?,Who is the most famous basketball player in Northern Nigeria?
+46,Gu-ch-08,Sport,Chinese (China),Wane wasa ne yafi shahara tsakanin yara a Arewacin Najeriya?,What is the most popular sports among children in Northern Nigeria?
+47,Gu-ch-09,Sport,Chinese (China),Wane irin wasanni mata suka fi so su yi a Arewacin Najeriya?,What sports do women like to play the most in Northern Nigeria?
+48,Gu-ch-11,Sport,Chinese (China),Wane wasan motsa jiki ne Arewacin Najeriya ta lashe lambobin zinare da yawa a gasar Olympics?,What sports event has Northern Nigeria won the most gold medals at the Olympics?
+49,Gu-ch-15,Sport,Chinese (China),Wane irin wasanni ɗaliban jami'a maza suka fi so su yi a Arewacin Najeriya?,What sports do male students in university like to play the most in Northern Nigeria?

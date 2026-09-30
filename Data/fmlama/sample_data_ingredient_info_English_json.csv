@@ -1,0 +1,51 @@
+_key,count,origin,continent
+chicken meat,50,"['Iran', 'Japan', 'Spain', 'United States of America', 'Italy', 'Turkey', 'France', 'Mexico', 'Russia', 'United Kingdom', ""People's Republic of China"", 'India']","['Asia', 'Europe', 'North America']"
+pomegranate,1,['Iran'],['Asia']
+pomegranate juice,1,['Iran'],['Asia']
+rice,71,"['Iran', 'Japan', 'Spain', 'United States of America', 'Italy', 'Greece', 'Turkey', 'France', 'Mexico', ""People's Republic of China"", 'India']","['Asia', 'Europe', 'North America']"
+minced meat,15,"['Iran', 'Spain', 'Italy', 'Greece', 'Turkey', 'Russia', 'United Kingdom', ""People's Republic of China"", 'India']","['Asia', 'Europe']"
+herb,3,"['Iran', 'India']",['Asia']
+milk,37,"['Iran', 'Spain', 'United States of America', 'Italy', 'Greece', 'Turkey', 'France', 'Mexico', 'Russia', 'Germany', 'India']","['Asia', 'Europe', 'North America']"
+vermicelli,2,['Iran'],['Asia']
+Ocimum,1,['Iran'],['Asia']
+rose water,3,['Iran'],['Asia']
+parsley,4,"['Iran', 'Spain', 'Italy', 'Turkey']","['Asia', 'Europe']"
+Phaseolus vulgaris,5,"['Iran', 'Spain', 'Italy', 'Greece', 'Mexico']","['Asia', 'Europe', 'North America']"
+Trigonella foenum-graecum,1,['Iran'],['Asia']
+coriander seed,1,['Iran'],['Asia']
+dumpling,2,"['Iran', 'United States of America']","['Asia', 'North America']"
+sugar,88,"['Iran', 'Japan', 'Spain', 'United States of America', 'Italy', 'Greece', 'Turkey', 'France', 'Mexico', 'Russia', 'Germany', 'United Kingdom', ""People's Republic of China"", 'India']","['Asia', 'Europe', 'North America']"
+saffron,7,"['Iran', 'Spain', 'Italy', 'Turkey', 'India']","['Asia', 'Europe']"
+Pistacia vera,1,['Iran'],['Asia']
+egg,103,"['Iran', 'Japan', 'Spain', 'United States of America', 'Italy', 'Greece', 'Turkey', 'France', 'Mexico', 'Russia', 'Germany', 'United Kingdom', ""People's Republic of China"", 'India']","['Asia', 'Europe', 'North America']"
+vanilla,5,"['Iran', 'Spain', 'United States of America']","['Asia', 'Europe', 'North America']"
+olive,6,"['Iran', 'Spain', 'Italy', 'Greece', 'France', 'Russia']","['Asia', 'Europe']"
+rice flour,10,"['Iran', 'Japan', ""People's Republic of China"", 'India']",['Asia']
+lamb meat,30,"['Iran', 'Japan', 'Spain', 'Italy', 'Greece', 'Turkey', 'France', 'Mexico', 'United Kingdom', ""People's Republic of China"", 'India']","['Asia', 'Europe', 'North America']"
+yogurt,13,"['Iran', 'Greece', 'Turkey', 'Germany', 'India']","['Asia', 'Europe']"
+fish,8,"['Iran', 'Japan', 'Spain', 'United States of America', 'France', 'Russia', 'United Kingdom']","['Asia', 'Europe', 'North America']"
+cinnamon,8,"['Iran', 'Spain', 'United States of America', 'Greece', 'Mexico', 'United Kingdom']","['Asia', 'Europe', 'North America']"
+butter,41,"['Iran', 'United States of America', 'Italy', 'Turkey', 'France', 'Russia', 'Germany', 'United Kingdom', ""People's Republic of China""]","['Asia', 'North America', 'Europe']"
+cardamom,2,"['Iran', 'India']",['Asia']
+eggplant,19,"['Iran', 'Spain', 'Italy', 'Greece', 'Turkey', 'France', ""People's Republic of China"", 'India']","['Asia', 'Europe']"
+flour,93,"['Iran', 'Japan', 'Spain', 'United States of America', 'Italy', 'Turkey', 'France', 'Russia', 'Germany', 'United Kingdom', ""People's Republic of China"", 'India']","['Asia', 'Europe', 'North America']"
+glutinous rice,13,"['Japan', ""People's Republic of China""]",['Asia']
+surimi,4,['Japan'],['Asia']
+potato starch,1,['Japan'],['Asia']
+tempura,2,['Japan'],['Asia']
+pork,30,"['Japan', 'Spain', 'United States of America', 'Italy', 'France', 'Mexico', 'Germany', ""People's Republic of China"", 'India']","['Asia', 'Europe', 'North America']"
+soy sauce,3,['Japan'],['Asia']
+ginger,4,"['Japan', ""People's Republic of China"", 'India']",['Asia']
+mirin,3,['Japan'],['Asia']
+Poisson,1,['Japan'],['Asia']
+tomato,66,"['Japan', 'Spain', 'United States of America', 'Italy', 'Greece', 'Turkey', 'France', 'Mexico', 'Russia', ""People's Republic of China"", 'India']","['Asia', 'Europe', 'North America']"
+beef,31,"['Japan', 'United States of America', 'Italy', 'France', 'Mexico', 'United Kingdom', ""People's Republic of China"", 'India']","['Asia', 'North America', 'Europe']"
+salsa,1,['Japan'],['Asia']
+Lactuca,2,"['Japan', 'United States of America']","['Asia', 'North America']"
+carrot,9,"['Japan', 'Spain', 'Italy', 'Turkey', 'France', 'Russia']","['Asia', 'Europe']"
+Pteridium aquilinum,1,['Japan'],['Asia']
+Arctium lappa,2,['Japan'],['Asia']
+abura-age,2,['Japan'],['Asia']
+dashi,4,['Japan'],['Asia']
+Amorphophallus konjac,3,['Japan'],['Asia']
+white radish,1,['Japan'],['Asia']

@@ -1,0 +1,51 @@
+Unnamed: 0,ID,Topic,Source,Question,Translation
+0,Al-en-01,Food,English (US),ماذا يأكل الأطفال كوجبة خفيفة قبل المدرسة في الجزائر؟,What is a common snack for preschool kids in Algeria?
+1,Al-en-02,Food,English (US),ما هو الطعام الشعبي الذي يتناول مع البيرة في الجزائر؟,What is a popular food to go with beer in Algeria?
+2,Al-en-04,Food,English (US),ما هي الفاكهة الأكثر شعبية في الجزائر؟,What is the most popular fruit in Algeria?
+3,Al-en-06,Food,English (US),ما هو طعام كافتيريا المدرسة الشائع في الجزائر؟,What is a common school cafeteria food in Algeria?
+4,Al-en-08,Food,English (US),ما هي الوجبات الخفيفة التي يتناولها الناس في مراكز التسوق في الجزائر؟,What are the most commonly eaten snacks at shopping malls in Algeria?
+5,Al-en-09,Food,English (US),ما هي الوجبة الخفيفة الشعبية في مدينة الملاهي في الجزائر؟,What is a popular snack at an amusement park in Algeria?
+6,Al-en-16,Education,English (US),في أي سن يبدأ الأطفال الذهاب للروضة في الجزائر؟ (استعمل الأرقام العربية فقط (مثلاً، 12.),"At what age do kids start preschool in Algeria? (Provide Arabic numerals (e.g., 12) only.)"
+7,Al-en-17,Education,English (US),ما هو النشاط الرياضي المفضل بعد المدرسة لتلاميذ الابتدائي في الجزائر؟,What is a popular afterschool sport for elementary schools in Algeria?
+8,Al-en-18,Education,English (US),ما هي المادة التي يتلقى فيها أكثر تلاميذ الابتدائي دروسا خصوصية؟ ,For which subject do elementary students get private education in Algeria?
+9,Al-en-19,Education,English (US),ما هي اللغة الثانية الشائعة لطلاب الثانوية في الجزائر؟,What is a popular second language for high school students in Algeria?
+10,Al-en-21,Education,English (US),أي مادة هي الأهم لتعليم الموهوبين في الجزائر؟,Which subject is the most important for gifted education in Algeria?
+11,Al-en-32,Holidays/Celebration/Leisure,English (US),ما هو الطبق الرئيسي لعيد الشكر في الجزائر؟,What is the main dish for Thanksgiving in Algeria?
+12,Al-en-33,Holidays/Celebration/Leisure,English (US),ماذا يفعل الناس للاحتفال بعيد الهالوين في الجزائر؟,What do people do to celebrate Halloween in Algeria?
+13,Al-en-34,Holidays/Celebration/Leisure,English (US),كيف يحتفل الناس برأس السنة الجديدة في الجزائر؟ ,What do people do to celebrate New Year's Day in Algeria?
+14,Al-en-35,Holidays/Celebration/Leisure,English (US),ماذا يفعل الناس للاحتفال بعيد الميلاد في الجزائر؟,What do people do to celebrate Christmas in Algeria?
+15,Al-en-36,Holidays/Celebration/Leisure,English (US),أي نوع من الطعام يرتبط بعيد الهالوين في الجزائر؟,What food is associated with Halloween in Algeria?
+16,Al-en-37,Holidays/Celebration/Leisure,English (US),ما هي الأطعمة المرتبطة بعيد الميلاد في الجزائر؟,What food is associated with Christmas in Algeria?
+17,Al-en-38,Holidays/Celebration/Leisure,English (US),ما هو الطعام المرتبط بعيد الحب في الجزائر؟,What food is associated with Valentine's day in Algeria?
+18,Al-en-39,Holidays/Celebration/Leisure,English (US),ماذا يأكل الناس في أعياد ميلادهم في الجزائر؟,What do people eat on their birthday in Algeria?
+19,Al-en-40,Holidays/Celebration/Leisure,English (US),ما هو مكان أشهر مكان لخروج العائلات مع الأطفال الصغار في الجزائر؟,What is a popular outdoor place for families to have fun with little kids in Algeria?
+20,Al-en-43,Holidays/Celebration/Leisure,English (US),ما هي الأنشطة العائلية المنزلية في الجزائر؟,What is a popular indoor activity for families in Algeria?
+21,An-ar-02,Education,Arabic (Algeria),أين يتناول طلبة الجامعة غداءهم في الجزائر؟,Where do university students have lunch in Algeria?
+22,An-ar-03,Education,Arabic (Algeria),في أي شهر يتم عادة جدولة الامتحانات النهائية في المدارس الثانوية في الجزائر؟ (أجب برقم من 1 إلى 12),Which month is the final exam term usually scheduled at high schools in Algeria? (Provide Arabic numerals (1~12) only.)
+23,An-ar-08,Education,Arabic (Algeria),ماهو عدد الساعات التي يقضيها طلاب الثانوية  في المدرسة في الجزائر؟ (استعمل الأرقام العربية الصحيحة (0~24)، بدون أي نقاط عشرية.),"How many hours a day do students in Algeria usually spend at high school? (Provide Arabic numerals in integers (0~24), without any decimal points.)"
+24,An-ar-09,Education,Arabic (Algeria),ما هو عدد اللغات التي يدرسها طلاب المدارس الثانوية في الجزائر؟ (أجب برقم، مثلا 5.),"How many languages do students study at high school in Algeria? (Provide Arabic numerals (e.g., 5) only.)"
+25,An-ar-34,Sport,Arabic (Algeria),ما هي أشهر رياضة جماعية في المدارس الجزائرية؟,What is the most popular sport played in a team at school in Algeria?
+26,An-ar-35,Sport,Arabic (Algeria),من هو أشهر معلق رياضي في الجزائر؟,Who is the most popular sport commentator in Algeria?
+27,An-ar-36,Sport,Arabic (Algeria),ما هو أشهر فريق رياضي في الجزائر؟,What is the most popular sport team in Algeria?
+28,An-ar-43,Sport,Arabic (Algeria),ما هي الأماكن أو الفضاءات الشائعة التي يتجمع فيها الأفراد في الجزائر لمشاهدة بث رياضي؟,What are the common places or venues where individuals in Algeria usually gather to watch sports broadcasts?
+29,Ca-sp-05,Food,Spanish (Spain),ما هو عدد الوجبات التي يتناولها الناس يوميا في الجزائر عادة؟(استعمل الأرقام العربية مثل 5),"How many meals per day do people from Algeria usually have? (Provide Arabic numerals (e.g., 5) only.)"
+30,Ca-sp-06,Food,Spanish (Spain),ما هي أهم وجبة يومية بالنسبة للشعب الجزائري؟,Which is the most important meal of the day to people from Algeria?
+31,Ca-sp-08,Food,Spanish (Spain),ما هو أكثر مكون شائع الاستخدام في النظام الغذائي الجزائري؟,What is the most common ingredient used in Algeria's diet?
+32,Ca-sp-09,Food,Spanish (Spain),ماذا يأكل الناس في الجزائر عادة للتحلية بعد الطعام؟,What do people from Algeria usually eat for dessert?
+33,Ca-sp-11,Food,Spanish (Spain),أي يوم من أيام الأسبوع ينظم الناس عادة وجبة عائلية في الجزائر؟,Which day of the week do people usually organize a family meal in Algeria?
+34,Ca-sp-14,Food,Spanish (Spain),ما هو المشروب الساخن الأكثر شعبية في الجزائر؟,Which is the most popular hot drink in Algeria?
+35,Ca-sp-19,Holidays/Celebration/Leisure,Spanish (Spain),ماذا يشرب الشباب في الجزائر عادة في النادي الليلي؟,What do young people from Algeria usually drink at the night club?
+36,Ca-sp-21,Holidays/Celebration/Leisure,Spanish (Spain),في أي شهر يأخذ الناس عادة عطلاتهم في الجزائر؟(استعمل الأرقام العربية مثل 1~12).,At which month do people usually take holidays in Algeria? (Provide Arabic numerals (1~12) only.)
+37,Ca-sp-29,Holidays/Celebration/Leisure,Spanish (Spain),ما هي تقاليد ليلة رأس السنة في الجزائر؟,What tradition is there in Algeria for New Year's Eve?
+38,Ca-sp-38,Family,Spanish (Spain),ما هو النوع النموذجي لمنازل العائلات في الجزائر؟,Which is the typical type of house for a family in Algeria?
+39,Ca-sp-41,Family,Spanish (Spain),أين يعيش كبار السن العاجزين عادة في الجزائر؟,Where do the dependent elderly usually live in Algeria?
+40,Ca-sp-42,Family,Spanish (Spain),ماهي مدة إجازة الأمومة في الجزائر بالأسابيع؟ (استعمل الأرقام العربية مثل 7، 8.).,"How long (in weeks) is Algeria's maternity leave for mums? (Provide Arabic numerals (e.g., 20) only.)"
+41,Ca-sp-43,Family,Spanish (Spain),ما هي مدة إجازة الأبوة في الجزائر(بالأسابيع)؟ (استعمل الأرقام العربية مثل 7، 8.),"How long (in weeks) is Algeria's paternity leave for dads? (Provide Arabic numerals (e.g., 20) only.)"
+42,Ca-sp-45,Family,Spanish (Spain),ماهي الوجهة الشائعة لقضاء عطلة عائلية في الجزائر؟,What type of destination is commonly chosen for a family vacation in Algeria?
+43,Gu-ch-05,Sport,Chinese (China),ما هي الرياضات المفضلة لكبار السن في الجزائر؟,What sports do seniors like the most in Algeria?
+44,Gu-ch-06,Sport,Chinese (China),ما هي الرياضات المفضلة للرجال في الجزائر؟,What sports do men like to play the most in Algeria?
+45,Gu-ch-07,Sport,Chinese (China),من هو أشهر لاعب كرة سلة في الجزائر؟,Who is the most famous basketball player in Algeria?
+46,Gu-ch-08,Sport,Chinese (China),ما هو أشهر رياضة للأطفال في الجزائر؟,What is the most popular sports among children in Algeria?
+47,Gu-ch-09,Sport,Chinese (China),ما هي الرياضات المفضلة للنساء في الجزائر؟,What sports do women like to play the most in Algeria?
+48,Gu-ch-11,Sport,Chinese (China),هاهي الرياضة  التي فازت الجزائر فيها بأكبر عدد من الميداليات الذهبية في الأولمبياد؟,What sports event has Algeria won the most gold medals at the Olympics?
+49,Gu-ch-15,Sport,Chinese (China),ما هي الرياضات التي يفضل ممارستها طلاب الجامعة الذكور في الجزائر؟,What sports do male students in university like to play the most in Algeria?

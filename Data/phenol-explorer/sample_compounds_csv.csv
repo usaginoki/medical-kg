@@ -1,0 +1,51 @@
+id,compound_class,compound_subclass,name,molecular_weight,synonyms,formula,cas_number,chebi_id,pubchem_compound_id,aglycones,created_at,updated_at
+19,Flavonoids,Anthocyanins,Cyanidin,287.244,"3,5,7,3',4'-Pentahydroxyflavylium",C15H11O6,13306-05-3,27843.0,128861.0,Cyanidin,2004-11-22 00:00:00 UTC,2015-05-10 23:28:37 UTC
+71,Flavonoids,Anthocyanins,"Cyanidin 3,5-O-diglucoside",611.525,,C27H31O16,,,441688.0,Cyanidin,2005-04-26 00:00:00 UTC,2015-05-10 23:28:38 UTC
+6,Flavonoids,Anthocyanins,Cyanidin 3-O-(6''-acetyl-galactoside),491.422,,C23H23O12,,,,Cyanidin,2005-03-25 11:36:49 UTC,2015-05-10 23:28:36 UTC
+42,Flavonoids,Anthocyanins,Cyanidin 3-O-(6''-acetyl-glucoside),491.422,,C23H23O12,,,,Cyanidin,2005-03-25 11:36:49 UTC,2015-05-10 23:28:37 UTC
+70,Flavonoids,Anthocyanins,Cyanidin 3-O-(6''-caffeoyl-glucoside),611.527,,C30H27O14,,,23724734.0,Cyanidin // Caffeic acid,2005-04-26 14:28:39 UTC,2015-05-10 23:28:38 UTC
+76,Flavonoids,Anthocyanins,Cyanidin 3-O-(6''-dioxalyl-glucoside),592.416,,C25H20O17,,,,Cyanidin,2005-10-06 16:29:06 UTC,2015-05-10 23:28:38 UTC
+84,Flavonoids,Anthocyanins,Cyanidin 3-O-(6''-malonyl-3''-glucosyl-glucoside),697.572,,C30H33O19,,,,Cyanidin,2006-06-20 00:00:00 UTC,2015-05-10 23:28:39 UTC
+13,Flavonoids,Anthocyanins,Cyanidin 3-O-(6''-malonyl-glucoside),535.431,,C24H23O14,,,443915.0,Cyanidin,2004-04-14 14:20:32 UTC,2015-05-10 23:28:36 UTC
+68,Flavonoids,Anthocyanins,Cyanidin 3-O-(6''-p-coumaroyl-glucoside),595.528,,C30H27O13,,,,Cyanidin // p-Coumaric acid,2005-04-26 14:28:39 UTC,2015-05-10 23:28:38 UTC
+24,Flavonoids,Anthocyanins,Cyanidin 3-O-(6''-succinyl-glucoside),549.458,,C25H25O14,,,,Cyanidin,2005-01-25 00:00:00 UTC,2015-05-10 23:28:37 UTC
+32,Flavonoids,Anthocyanins,Cyanidin 3-O-arabinoside,419.359,,C20H19O10,,,,Cyanidin,2002-08-22 11:51:47 UTC,2015-05-10 23:28:37 UTC
+8,Flavonoids,Anthocyanins,Cyanidin 3-O-galactoside,449.385,Ideain,C21H21O11,,27475.0,441699.0,Cyanidin,2002-08-22 11:51:47 UTC,2015-05-10 23:28:36 UTC
+9,Flavonoids,Anthocyanins,Cyanidin 3-O-glucoside,449.385,Kuromanin,C21H21O11,7084-24-4,28426.0,25244576.0,Cyanidin,2002-09-20 16:19:06 UTC,2015-05-10 23:28:36 UTC
+21,Flavonoids,Anthocyanins,Cyanidin 3-O-glucosyl-rutinoside,757.667,,C33H41O20,,,,Cyanidin,2004-12-08 00:00:00 UTC,2015-05-10 23:28:37 UTC
+10,Flavonoids,Anthocyanins,Cyanidin 3-O-rutinoside,595.526,Keracyanin ; Cyanidin 3-O-rhamnosyl-glucoside,C27H31O15,,28064.0,441674.0,Cyanidin,2002-09-20 16:19:39 UTC,2015-05-10 23:28:36 UTC
+50,Flavonoids,Anthocyanins,Cyanidin 3-O-sambubioside,616.952,Cyanidin 3-O-xylosyl-glucoside,C26H29ClO15,,,,Cyanidin,2005-01-28 11:35:21 UTC,2015-05-10 23:28:38 UTC
+69,Flavonoids,Anthocyanins,Cyanidin 3-O-sambubioside 5-O-glucoside,743.64,,C32H39O20,,,,Cyanidin,2005-04-26 14:28:39 UTC,2015-05-10 23:28:38 UTC
+11,Flavonoids,Anthocyanins,Cyanidin 3-O-sophoroside,611.525,,C27H31O16,,,11169452.0,Cyanidin,2002-09-20 16:20:08 UTC,2015-05-10 23:28:36 UTC
+53,Flavonoids,Anthocyanins,Cyanidin 3-O-xyloside,419.359,,C20H19O10,,,,Cyanidin,2005-02-04 16:35:08 UTC,2015-05-10 23:28:38 UTC
+62,Flavonoids,Anthocyanins,Cyanidin 3-O-xylosyl-rutinoside,727.641,,C32H39O19,,,,Cyanidin,2005-04-26 15:16:30 UTC,2015-05-10 23:28:38 UTC
+73,Flavonoids,Anthocyanins,"Delphinidin 3,5-O-diglucoside",627.525,,C27H31O17,,,10100906.0,Delphinidin,2005-10-03 15:15:26 UTC,2015-05-10 23:28:38 UTC
+5,Flavonoids,Anthocyanins,Delphinidin 3-O-(6''-acetyl-galactoside),507.421,,C23H23O13,,,,Delphinidin,2005-03-25 11:36:49 UTC,2015-05-10 23:28:36 UTC
+39,Flavonoids,Anthocyanins,Delphinidin 3-O-(6''-acetyl-glucoside),507.421,,C23H23O13,,,,Delphinidin,2005-03-25 11:36:49 UTC,2015-05-10 23:28:37 UTC
+64,Flavonoids,Anthocyanins,Delphinidin 3-O-(6''-p-coumaroyl-glucoside),611.527,,C30H27O14,,,15922818.0,Delphinidin // p-Coumaric acid,2005-09-08 13:42:36 UTC,2015-05-10 23:28:38 UTC
+29,Flavonoids,Anthocyanins,Delphinidin 3-O-arabinoside,435.358,,C20H19O11,,,25087690.0,Delphinidin,2005-01-27 00:00:00 UTC,2015-05-10 23:28:37 UTC
+95,Flavonoids,Anthocyanins,Delphinidin 3-O-feruloyl-glucoside,641.553,,C31H29O15,,,,Delphinidin,2007-03-23 00:00:00 UTC,2015-05-10 23:28:39 UTC
+27,Flavonoids,Anthocyanins,Delphinidin 3-O-galactoside,465.384,,C21H21O12,,,,Delphinidin,2005-01-27 00:00:00 UTC,2015-05-10 23:28:37 UTC
+28,Flavonoids,Anthocyanins,Delphinidin 3-O-glucoside,465.384,,C21H21O12,,,165558.0,Delphinidin,2005-01-27 00:00:00 UTC,2015-05-10 23:28:37 UTC
+83,Flavonoids,Anthocyanins,Delphinidin 3-O-glucosyl-glucoside,627.525,,C27H31O17,,,5316496.0,Delphinidin,2006-06-20 15:23:02 UTC,2015-05-10 23:28:39 UTC
+49,Flavonoids,Anthocyanins,Delphinidin 3-O-rutinoside,611.525,,C27H31O16,15674-58-5,,5492231.0,Delphinidin,2005-01-27 00:00:00 UTC,2015-05-10 23:28:37 UTC
+61,Flavonoids,Anthocyanins,Delphinidin 3-O-sambubioside,597.499,,C26H29O16,,,,Delphinidin,2005-04-26 15:00:58 UTC,2015-05-10 23:28:38 UTC
+57,Flavonoids,Anthocyanins,Delphinidin 3-O-xyloside,435.358,,C20H19O11,,,,Delphinidin,2005-04-26 14:08:36 UTC,2015-05-10 23:28:38 UTC
+20,Flavonoids,Anthocyanins,"Malvidin 3,5-O-diglucoside",655.578,Malvin,C29H35O17,,,441765.0,Malvidin,2004-11-22 00:00:00 UTC,2015-05-10 23:28:37 UTC
+43,Flavonoids,Anthocyanins,Malvidin 3-O-(6''-acetyl-galactoside),535.474,,C25H27O13,,,,Malvidin,2005-03-25 11:36:49 UTC,2015-05-10 23:28:37 UTC
+46,Flavonoids,Anthocyanins,Malvidin 3-O-(6''-acetyl-glucoside),535.474,,C25H27O13,,,,Malvidin,2005-03-25 11:36:49 UTC,2015-05-10 23:28:37 UTC
+75,Flavonoids,Anthocyanins,Malvidin 3-O-(6''-caffeoyl-glucoside),655.58,,C32H31O15,,,,Malvidin // Caffeic acid,2005-10-06 11:30:46 UTC,2015-05-10 23:28:38 UTC
+3,Flavonoids,Anthocyanins,Malvidin 3-O-(6''-p-coumaroyl-glucoside),639.58,,C32H31O14,,,,Malvidin // p-Coumaric acid,2005-09-07 11:07:11 UTC,2015-05-10 23:28:36 UTC
+37,Flavonoids,Anthocyanins,Malvidin 3-O-arabinoside,463.411,,C22H23O11,,,25079994.0,Malvidin,2005-01-27 00:00:00 UTC,2015-05-10 23:28:37 UTC
+54,Flavonoids,Anthocyanins,Malvidin 3-O-galactoside,528.89,,C23H25ClO12,30113-37-2,,94409.0,Malvidin,2005-02-04 00:00:00 UTC,2015-05-10 23:28:38 UTC
+36,Flavonoids,Anthocyanins,Malvidin 3-O-glucoside,493.437,,C23H25O12,7228-78-6,,443652.0,Malvidin,2005-01-27 00:00:00 UTC,2015-05-10 23:28:37 UTC
+18,Flavonoids,Anthocyanins,Pelargonidin,271.245,"3,5,7,4'-Tetrahydroxyflavylium",C15H11O5,7690-51-9,25863.0,67249.0,Pelargonidin,2004-11-19 00:00:00 UTC,2015-05-10 23:28:36 UTC
+74,Flavonoids,Anthocyanins,"Pelargonidin 3,5-O-diglucoside",630.979,,C27H31ClO15,,,167642.0,Pelargonidin,2005-10-03 15:17:54 UTC,2015-05-10 23:28:38 UTC
+51,Flavonoids,Anthocyanins,Pelargonidin 3-O-(6''-malonyl-glucoside),519.432,,C24H23O13,,,443913.0,Pelargonidin,2005-01-28 16:02:36 UTC,2015-05-10 23:28:38 UTC
+25,Flavonoids,Anthocyanins,Pelargonidin 3-O-(6''-succinyl-glucoside),533.458,,C25H25O13,,,,Pelargonidin,2005-01-25 00:00:00 UTC,2015-05-10 23:28:37 UTC
+48,Flavonoids,Anthocyanins,Pelargonidin 3-O-arabinoside,403.359,,C20H19O9,,,,Pelargonidin,2005-04-26 10:01:14 UTC,2015-05-10 23:28:37 UTC
+59,Flavonoids,Anthocyanins,Pelargonidin 3-O-galactoside,433.385,,C21H21O10,,,25021367.0,Pelargonidin,2005-04-26 14:28:39 UTC,2015-05-10 23:28:38 UTC
+12,Flavonoids,Anthocyanins,Pelargonidin 3-O-glucoside,433.385,,C21H21O10,18466-51-8,31967.0,9867509.0,Pelargonidin,2002-09-20 16:20:38 UTC,2015-05-10 23:28:36 UTC
+23,Flavonoids,Anthocyanins,Pelargonidin 3-O-glucosyl-rutinoside,741.667,,C33H41O19,,,,Pelargonidin,2005-01-24 00:00:00 UTC,2015-05-10 23:28:37 UTC
+17,Flavonoids,Anthocyanins,Pelargonidin 3-O-rutinoside,579.527,,C27H31O14,,,443917.0,Pelargonidin,2004-11-19 00:00:00 UTC,2015-05-10 23:28:36 UTC
+60,Flavonoids,Anthocyanins,Pelargonidin 3-O-sambubioside,565.5,,C26H29O14,,,,Pelargonidin,2005-04-26 14:59:33 UTC,2015-05-10 23:28:38 UTC

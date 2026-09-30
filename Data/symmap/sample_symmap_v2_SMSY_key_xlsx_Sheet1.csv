@@ -1,0 +1,51 @@
+Syndrome_id,Field_name,Field_context
+1,Syndrome_name,下元虚冷
+1,Syndrome_PinYin,Xia Yuan Xu Leng
+1,Syndrome_English,deficiency-cold of kidney
+2,Syndrome_name,下脘虚冷
+2,Syndrome_PinYin,Xia Wan Xu Leng
+2,Syndrome_English,deficiency-cold of kidney
+3,Syndrome_name,中气下陷
+3,Syndrome_PinYin,Zhong Qi Xia Xian
+3,Syndrome_English,sinking of the middle qi
+4,Syndrome_name,久病虚羸
+4,Syndrome_PinYin,Jiu Bing Xu Lei
+4,Syndrome_English,the debility from chronic illness
+5,Syndrome_name,乳食停滞
+5,Syndrome_PinYin,Ru Shi Ting Zhi
+5,Syndrome_English,milk stagnation
+6,Syndrome_name,亡阳
+6,Syndrome_PinYin,Wang Yang
+6,Syndrome_English,yang exhaustion
+7,Syndrome_name,产后瘀血
+7,Syndrome_PinYin,Chan Hou Yu Xie
+7,Syndrome_English,postpartum  blood stasis
+8,Syndrome_name,产后血虚
+8,Syndrome_PinYin,Chan Hou Xie Xu
+8,Syndrome_English,postpartum blood deficiency
+9,Syndrome_name,内热
+9,Syndrome_PinYin,Nei Re
+9,Syndrome_English,intrinsic heat
+10,Syndrome_name,冷哮
+10,Syndrome_PinYin,Leng Xiao
+10,Syndrome_English,asthma of cold type
+11,Syndrome_name,冷喘
+11,Syndrome_PinYin,Leng Chuan
+11,Syndrome_English,Cold-type Dyspnea
+12,Syndrome_name,冷泻
+12,Syndrome_PinYin,Leng Xie
+12,Syndrome_English,cold diarrhea
+13,Syndrome_name,劳伤
+13,Syndrome_PinYin,Lao Shang
+13,Syndrome_English,injury caused by strain and sprain
+14,Syndrome_name,外感
+14,Syndrome_PinYin,Wai Gan
+14,Syndrome_English,externally infected disease
+15,Syndrome_name,外感风寒
+15,Syndrome_PinYin,Wai Gan Feng Han
+15,Syndrome_English,affection by exopathic wind-cold
+16,Syndrome_name,实热
+16,Syndrome_PinYin,Shi Re
+16,Syndrome_English,strong fever
+17,Syndrome_name,实热积滞
+17,Syndrome_PinYin,Shi Re Ji Zhi

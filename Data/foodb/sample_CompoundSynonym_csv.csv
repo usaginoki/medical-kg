@@ -1,0 +1,51 @@
+id,synonym,synonym_source,created_at,updated_at,source_id,source_type
+105128,-(+)-biotin,biospider,2010-04-09 17:45:24 UTC,2014-11-05 14:52:52 UTC,14513,Compound
+74513,-(2-Nitrovinyl)anisole,biospider,2010-04-09 17:43:50 UTC,2014-11-05 14:52:52 UTC,10534,Compound
+74514,-(4-Methoxyphenyl)-2-nitroethene,biospider,2010-04-09 17:43:50 UTC,2014-11-05 14:52:52 UTC,10534,Compound
+201184,"-1,3-propanediamine",hmdb,2011-09-24 00:52:31 UTC,2014-11-05 14:52:52 UTC,28495,Compound
+85114,-acetylguaiacol,biospider,2010-04-09 17:44:23 UTC,2014-11-05 14:52:52 UTC,12058,Compound
+7335,-aminobutyric acid lactam,biospider,2010-04-09 17:40:25 UTC,2014-11-05 14:52:52 UTC,741,Compound
+7336,-aminobutyric lactam,biospider,2010-04-09 17:40:25 UTC,2014-11-05 14:52:52 UTC,741,Compound
+7337,-aminobutyrolactam,biospider,2010-04-09 17:40:25 UTC,2014-11-05 14:52:52 UTC,741,Compound
+223225,-Amyrenyl acetate,HMDB,2015-02-24 01:10:47 UTC,2015-02-24 01:10:47 UTC,15588,Compound
+61973,-camphor,biospider,2010-04-09 17:43:12 UTC,2014-11-05 14:52:52 UTC,9068,Compound
+211681,-Dichloroethane,HMDB,2015-02-23 22:48:51 UTC,2015-02-23 22:48:51 UTC,726,Compound
+87292,-diethylamino,biospider,2010-04-09 17:44:30 UTC,2014-11-05 14:52:52 UTC,12205,Compound
+222779,"-e,e-Farnesene",HMDB,2015-02-24 01:02:37 UTC,2015-02-24 01:02:37 UTC,14898,Compound
+114436,"-furancarboxylic acid, allyl ester",biospider,2010-04-09 17:45:52 UTC,2014-11-05 14:52:52 UTC,15874,Compound
+126506,-heptyl iso-butyrate,biospider,2010-04-09 17:46:29 UTC,2014-11-05 14:52:52 UTC,19889,Compound
+54928,-Hexyl-3-phenyl-propenal,biospider,2010-04-09 17:42:50 UTC,2014-11-05 14:52:52 UTC,8405,Compound
+214244,"-Hydroxy-1,4-naphthalenedione",HMDB,2015-02-23 23:13:50 UTC,2015-02-23 23:13:50 UTC,2708,Compound
+85115,-Hydroxy-3-methoxyphenyl methyl keton,biospider,2010-04-09 17:44:23 UTC,2014-11-05 14:52:52 UTC,12058,Compound
+73875,-methoxy acetophenone,biospider,2010-04-09 17:43:48 UTC,2014-11-05 14:52:52 UTC,10503,Compound
+74515,-Methoxy-4-(2-nitrovinyl)benzene,biospider,2010-04-09 17:43:50 UTC,2014-11-05 14:52:52 UTC,10534,Compound
+85116,-Methoxy-4-acetylphenol,biospider,2010-04-09 17:44:23 UTC,2014-11-05 14:52:52 UTC,12058,Compound
+74516,-methoxy-b-nitrostyrene,biospider,2010-04-09 17:43:50 UTC,2014-11-05 14:52:52 UTC,10534,Compound
+74517,-methoxy-w-nitrostyrene,biospider,2010-04-09 17:43:50 UTC,2014-11-05 14:52:53 UTC,10534,Compound
+78426,-Methyl-5-acetylthiophene,biospider,2010-04-09 17:44:02 UTC,2014-11-05 14:52:53 UTC,11133,Compound
+204907,-n-butyl-phthalate,hmdb,2011-09-24 01:29:18 UTC,2014-11-05 14:52:53 UTC,29520,Compound
+44298,-napthol,biospider,2010-04-09 17:42:18 UTC,2014-11-05 14:52:53 UTC,5842,Compound
+174124,-O-fucopyranosyl-2-acetamido-2-deoxyglucopyranose,hmdb,2011-09-23 20:41:59 UTC,2014-11-05 14:52:53 UTC,24195,Compound
+7338,-pyrrolidinone,biospider,2010-04-09 17:40:25 UTC,2014-11-05 14:52:53 UTC,741,Compound
+16844,-sabinone,biospider,2010-04-09 17:40:54 UTC,2014-11-05 14:52:53 UTC,1455,Compound
+7339,-tetrahydropyrrolone,biospider,2010-04-09 17:40:25 UTC,2014-11-05 14:52:53 UTC,741,Compound
+222916,-Thujone,HMDB,2015-02-24 01:03:41 UTC,2015-02-24 01:03:41 UTC,14963,Compound
+222780,-trans-Farnesene,HMDB,2015-02-24 01:02:37 UTC,2015-02-24 01:02:37 UTC,14898,Compound
+57186,",6-Dimethyl hept-5-en-1-al",biospider,2010-04-09 17:42:57 UTC,2014-11-05 14:52:53 UTC,8532,Compound
+207424,"??3',4',5,7-Tetrahydroxy-6-methoxyflavone 3'-O-b-D-glucopyranoside",manual,2012-09-20 16:06:03 UTC,2014-11-05 14:52:53 UTC,20282,Compound
+85301,.alpha-Spinasterin,biospider,2010-04-09 17:44:23 UTC,2014-11-05 14:52:53 UTC,12068,Compound
+217530,.alpha.-hydroxytoluene,HMDB,2015-02-23 23:43:45 UTC,2015-02-23 23:43:45 UTC,8746,Compound
+215426,.alpha.-keto-N-valeric acid,HMDB,2015-02-23 23:25:09 UTC,2015-02-23 23:25:09 UTC,3367,Compound
+211416,.alpha.-pipecolinic acid,HMDB,2015-02-23 22:44:58 UTC,2015-02-23 22:44:58 UTC,545,Compound
+217531,.alpha.-toluenol,HMDB,2015-02-23 23:43:45 UTC,2015-02-23 23:43:45 UTC,8746,Compound
+220095,.alpha.-toluic aldehyde,HMDB,2015-02-24 00:26:39 UTC,2015-02-24 00:26:39 UTC,12241,Compound
+20600,.beta-Ecdysterone,biospider,2010-04-09 17:41:06 UTC,2014-11-05 14:52:53 UTC,1996,Compound
+127837,.beta-Isophorone,biospider,2010-04-09 17:46:33 UTC,2014-11-05 14:52:53 UTC,20070,Compound
+204959,.beta.-(diethylamino)ethyl p-aminobenzoate,hmdb,2011-09-24 01:29:48 UTC,2014-11-05 14:52:53 UTC,29534,Compound
+205013,.beta.-(diethylamino)ethyl p-aminobenzoic acid,hmdb,2011-09-24 01:30:20 UTC,2014-11-05 14:52:53 UTC,29534,Compound
+204960,.beta.-Diethylaminoethyl 4-aminobenzoate,hmdb,2011-09-24 01:29:49 UTC,2014-11-05 14:52:53 UTC,29534,Compound
+205014,.beta.-Diethylaminoethyl 4-aminobenzoic acid,hmdb,2011-09-24 01:30:21 UTC,2014-11-05 14:52:53 UTC,29534,Compound
+222327,.beta.-ursolic acid,HMDB,2015-02-24 00:56:15 UTC,2015-02-24 00:56:15 UTC,14376,Compound
+14526,.gama.-cyclodextrin,biospider,2010-04-09 17:40:47 UTC,2014-11-05 14:52:53 UTC,1186,Compound
+85187,.omega.-aminotoluene,biospider,2010-04-09 17:44:23 UTC,2014-11-05 14:52:53 UTC,12062,Compound
+58186,.omega.-benzyl acetophenone,biospider,2010-04-09 17:43:00 UTC,2014-11-05 14:52:53 UTC,8745,Compound

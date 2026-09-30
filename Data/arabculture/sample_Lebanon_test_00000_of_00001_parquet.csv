@@ -1,0 +1,138 @@
+worker_id,sample_id,sub_topic,first_statement,options,answer_key,relevant_to_this_country,relevant_to_other_countries,should_discard,country,region
+Lebanon-1,1.0 | Breakfast,الافطار,جواد يتناول الكنافة على الافطار.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['جواد يتناولها بدون اي شراب.', ' جواد يتناولها مع الحليب.',
+       ' جواد يتناولها مع الشاي.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,2.0 | Breakfast,الافطار,دخل علي الى محل الصاج وطلب منقوشة زعتر واراد ان يشرب معها شيْ.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قدم له صاحب المحل الشاي الساخن.',
+       ' قدم له صاحب المحل الشوكولاته الساخنة.',
+       ' قدم له صاحب المحل مشروبا غازيا.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Lebanon,Levant
+Lebanon-1,3.0 | Breakfast,الافطار,أرادت أمي تناول الباذنجان المكبوس على الافطار.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تناولته بالشوكة والسكين.', ' تناولته كساندويش.',
+       ' تناولته بيدها.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,4.0 | Breakfast,الافطار,طلب علي من زوجته تحضير وجبة الافطار.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['وضعت زوجته على السفرة الكبة النيئة.',
+       ' وضعت زوجته على السفرة الالبان والاجبان.',
+       ' وضعت زوجته الشاورما على سفرة الافطار.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,5.0 | Breakfast,الافطار,وجد علي ان وجبة الافطار ينقصها شيئ.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['فطلب منها احضار الزيتون والخضروات الطازجة.',
+       ' فطلب منها احضار كباب الدجاج.', ' فطلب منها احضار الصبار.'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,6.0 | Lunch,الغداء,في نهاية الاسبوع دعتنا الجدة الى حفل صاج.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قامت الجدة بتحضير فطائر متنوعة كالبطاطا والبقلة والسبانخ.',
+       ' قامت الجدة بتحضير الخبز الساخن.',
+       ' قامت الجدة بعمل انواع مختلفة من البيتزا.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,7.0 | Lunch,الغداء,عندما ذهب مأمون وأصدقاؤه في نزهة الى الجبل أخذوا معهم الغداء.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['بدأ مامون بشي اللحم والطاووق بينما جهز الاخرين التبولة.',
+       ' جهز مأمون الفلافل وحضر اصدقؤه الصلصة.',
+       ' جهز مأمون المندي بينما قام اصدقؤه بتحضير الكشك.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Lebanon,Levant
+Lebanon-1,8.0 | Lunch,الغداء,نأخرت مايا في العمل فطلبت الغداء من المطعم المجاور. ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['كان الغداء عبارة عن ساندويش لبنة وكوب من الشاي.',
+       '  كان الغداء عبارة عن وجبة شاورما ومشروب غازي.',
+       ' كان الغداء عبارة عن منقوشة كشك وكوب شاي.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,9.0 | Lunch,الغداء,في فصل الشتاء، تحب ميمونة تناول وجبتها المفضلة في الايام الباردة.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تحب ميمونة تناول الكستناء.', ' تحب ميمونة تناول السوشي.',
+       ' تحب ميمونة تناول الكشك بالبطاطا.'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Lebanon,Levant
+Lebanon-1,10.0 | Lunch,الغداء,من عادات اللبنانيين تحضير اكلات تقدم ساخنة في ايام الشتاء.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['من هذه الاكلات الشاورما والشاي.',
+       ' من هذه الاكلات المنسف والعيران.',
+       ' من هذه الاكلات الششبرك و شوربة العدس مع البطاطا.'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Lebanon,Levant
+Lebanon-1,11.0 | Dinner,العشاء,من عادات اللبنانيين تحضير ما يسمى بالعادة كعشاء في سهرة البنات.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' العادة هي عبارة عن سندويشات طاووق ومشروب.',
+       ' العادة هي عبارة عن كبة وتبولة تقدم في نهاية السهرة.',
+       ' العادة هي عبارة عن الفاصوليا الساخنة.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Lebanon,Levant
+Lebanon-1,13.0 | Iftar (Ramadan),افطار رمضان,كان اول يوم رمضان فقامت خلود بتحضير الافطار لعائلتها,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['حضرت الفتوش والعصير.', ' حضرت البيتزا والفلافل.',
+       ' حضرت الفتوش وشوربة الشعيرية و البيتزا.'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,14.0 | Iftar (Ramadan),افطار رمضان,من الاساسيات على سفرة الافطار في لبنان تواجد المقبلات.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['المقبلات عبارة عن شوربة الدجاج والمتبلات.',
+       ' المقبلات عبارة عن بطاط، تبولة ومناقيش منوعة.',
+       ' المقبلات عبارة عن فتوش وبطاطا مقلية، شوربة الشعيرية، والسنبوسة.'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,15.0 | Iftar (Ramadan),افطار رمضان,اراد سامر تناول الحلوى بعد الافطار فطلب من والده احضارها.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['أحضر والد سامر معه صينية احتوت على المشبك، العوامة وموس الشوكولاتة.',
+       ' أحضر والد سامي حلوى التمر.',
+       ' أحضر والد سامر معه صينية احتوت على معكرونة، عوامة، زنود الست والكلاج.'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,16.0 | Iftar (Ramadan),افطار رمضان,ساعدت كارن امها بالتحضير للافطار فحضرت العصائر.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['حضرت كارن حليب اللوز والتمر.', ' حضرت كارن عصير الأناناس.',
+       ' حضرت كارن الجلاب، المشروبات الغازية والعرق سوس.'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,17.0 | Iftar (Ramadan),افطار رمضان,عند سماع اذان المغرب تبدأ العائلة بالفطور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتناولون الماء والتمر.', ' يتناولون الشوربة.', ' يتناولون الماء.'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",No,Yes,No,Lebanon,Levant
+Lebanon-1,18.0 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),تقوم يارا بتجهيز العصائر للسحور.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تجهز عصير الفراولة.', ' تجهز منقوع قمر الدين.',
+       ' تجهز منقوع اللوز.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,19.0 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),بعد سهرة مع الاصدقاء، اصرّ خاتم عليهم ان يبقوا للسحور.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['حضرت زوجته المنسف.', ' حضرت زوجته السلطات.',
+       ' حهزت زوجته الحشوات المتنوعة ليأخذها حاتم الى فرن المناقيش.'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,20.0 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),علمت ألما أن غدا أول سحور لرمضان.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['طلبت ألما من أمها الذهاب معها لشراء خبز الساندويش والجبن.',
+       ' طلبت ألما من أمها الذهاب معها لشراء التفاح.',
+       ' طلبت ألما من أمها الذهاب معها لشراء البوظة.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Lebanon,Levant
+Lebanon-1,21.0 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),حسام يحب فعل الخير في ليالي رمضان.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['طلب حسلم من فرن المعجنات تجهيز السحور للذين يحيون ليلة القدر.',
+       ' قام حسام بتوزيع المصاحف على الناس في الطرقات.',
+       ' طلب حسام من زوجته تجهيز بعض سجادات الصلاة للمصلين.'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,22.0 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),لتجهيز السحور قامت منى بتجهيز الالبان والاجبان.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['طلب زوجها اضافة الكبة المقلية.',
+       ' طلبن منها ابنها اضافة نوع من انواع الفتات.',
+       ' طلبت ابنتها بعض الدجاج المقلي.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,23.0 | Dessert,حلوى,كل نهاية اسبوع تصنع نوال، البيروتية، نوع من الحلوى اللبنانية لاطفالها.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['هذا السبت صنعت نوال حلوى الخطمي.',
+       ' هذا السبت صنعت نوال حلوى الكرز.',
+       ' هذا السبت صنعت نوال حلوى المفتقة.'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Lebanon,Levant
+Lebanon-1,24.0 | Dessert,حلوى,حنان ابنة الضيعة عزمت صديقاتها على العصرونية فصنعت لهم حلوى تقليدية.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['صنعت حنان الكلاج.', ' صنعت حنان الأرز بالحليب.',
+       ' صنعت حنان التيراميسو.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,25.0 | Dessert,حلوى,من أشهر انواع الحلوى التقليدية في لبنان:,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['دبس العنب ودبس الخرنوب.', ' الدونات بالشوكولاته.',
+       ' شراب القيقب الجنوبي.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Lebanon,Levant
+Lebanon-1,26.0 | Fruits,فاكهة,بما ان نتالي نباتية فقد حضر لها أصدقاؤها قالب عيد ميلاد مميز.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قالب الخضار والتوفو.', ' قالب كيك بالشوكولاتة والحليب.',
+       ' قالب البطيخ والفواكه.'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",No,Yes,No,Lebanon,Levant
+Lebanon-1,27.0 | Fruits,فاكهة,محمد مزارع بقاعي اراد تسويق بضاعته:,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['نشر فيديو للبرتقال والموز والخرنوب.',
+       ' نشر فيديو لبعض انواع البطيخ الاصفر والاحمر، العنب العبيدي، والكرز.',
+       ' نشر فيديو للعناب والخوخ والخرنوب.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,28.0 | Fruits,فاكهة,ذهبنا بنزهة عائلية، وفي طريقنا من البقاع الى صيدا شاهدنا أشجار فواكه.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['شاهدنا اشجار البرتقال والعنب.', ' شاهدنا اشجار الكاكاو والكرز.',
+       ' شاهدنا اشجار الموز والخرنوب.'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Lebanon,Levant
+Lebanon-1,29.0 | Snacks,وجبات خفيفة,أتى بعض الاصدقاء للزيارة فترة العصرونية.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['حضرت لهم الشوكولاتة بالكريما.', ' حضرت لهم الششبرك.',
+       ' حضرت لهم كيك والزلابية مع الحلاوة والبس.'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,30.0 | Snacks,وجبات خفيفة,في كل مرة نمضي فيها السهرة عند جدتنا تطعمنا اشياء لذيذة.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تطعمنا الأرز بحليب والمكسرات.', ' تطعمنا الفاكهة بالكراميل.',
+       ' تطعمنا الشيبس والعصير.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,1.0 | wedding location,مكان الزواج,الاسبوع القادم زفاف وليد و لين .,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['سيقيمان الحفل كلا في منزل والده.',
+       ' سيقيمان الفل كلا في صالة مخصصة للاعراس خارج مدينته.',
+       ' سيقيمان الحفل كلا في منزل عمه.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,2.0 | wedding food,طعام الزواج,دعت سارة صديقاتها الى حفل الزفاف وحضرت لهم الغداء.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تضمن الغداء العيران والمناقيش.',
+       ' تضمن الغداء السمك المشوي, الفتوش واللحم بعجين.',
+       ' تضمن الغداء منسف الارز واللحم، الفتوش والصفيحة.'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Lebanon,Levant
+Lebanon-1,3.0 | wedding dowry,مهر الزواج,ذهب عمر لخطبة سمية فطلب من والدها تحديد المهر.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['طلب والد سمية مهرها بيت.', ' طلب والد سمية مهرها قطعة ارض.',
+       ' طلب والد سمية مهرها بالليرة الذهبية، اللبنانية او الدولار.'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Lebanon,Levant
+Lebanon-1,4.0 | wedding (other logistics),تجهيزات أخرى للزواج,قبل اسبوع من العرس تبدأ العروس بنقل اغراضها.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يساعد العريس عروسته بنقل الاغراض وترتيبهم.',
+       ' تطلب العروس من الخدم تنظيف المنزل وترتيب الاغراض.',
+       ' تاخذ العروس صديقاتها المقربات وخالاتها لنقل الملابس والاغراض الى بيتها.'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,5.0 | wedding (other logistics),تجهيزات أخرى للزواج, انه نهار ليلة الحناء :,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يمتلئ المنزل بالزوار لمساعدة العروس على التحضير للعرس.',
+       ' يجتمع الاهل والاقارب والاصدقاء في بيت العروس لتحضير التبولة والكبة.',
+       ' لا يحضر أحد لمنزل العروس لانها منشغلة بالتحضيرات.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Lebanon,Levant
+Lebanon-1,6.0 | men cermony vs. women cermony,احتفالات الزواج للرجال vs احتفالات الزواج للنساء,ايلي وسارة سيتزوجان غدا. كل منهما سيقيم سهرة الحناء. ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['كل منهما سيقيم سهرة في صالة مختلفة.',
+       ' سيقيمان الحفلة في منزل العريس.',
+       ' كل منهما سيقيم السهرة في منزله.'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,7.0 | men cermony vs. women cermony,احتفالات الزواج للرجال vs احتفالات الزواج للنساء,في صباح العرس تقام عادة صبحية العريس.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['الصبحية عبارة عن افطار معجنات ثم حلاقة للعريس وزفة.',
+       ' الصبحية عبارة عن افطار يدعو فيه العريس العروس واهلها.',
+       ' الصبحية عبارة عن حفل توديع عزوبية للعريس.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Lebanon,Levant
+Lebanon-1,8.0 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,البارحة كانت سهرة حناء منى.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['جاء اهل العريس وحنوا اصابعها ولفوا حولها المال.',
+       ' قامت والدتها بتحنية كفوفها والباسها عقد من الذهب.',
+       ' جاءت صديقاتها ورسموا لها الحناء.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Lebanon,Levant
+Lebanon-1,9.0 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,خلال حفل زفاف صديقتنا المقربة، تقدمت وصديقاتي لنغني لها:,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['غنينا لها احدث الاغاني ورقصنا لها.', ' غنينا لها الميجانا.',
+       ' غنينا لها الزغاريط الفلكلورية.'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,10.0 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,ستزوج أمل ابنتها في القرية.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['دعت الاصدقاء لصناعة الكعك.', ' دعت الاهل والاصدقاء للرقص.',
+       ' دعت فرقة الدبكة وعازف المنجيرة.'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Lebanon,Levant
+Lebanon-1,11.0 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,سيحضر احمد عروسه الى البقاع.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['ينتظره اخوه ليغني له ويزفه.',
+       ' ينتظره اخوه بالسلاح ليطلق يعض الطلقات.',
+       ' تنتره اخته لتحني العروس.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Lebanon,Levant
+Lebanon-1,12.0 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,وصل العريس ومن معه لأخذ العروس.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يستقبله أهل العروس باطلاق المفرقعات النارية.',
+       ' استقبله أهل العروس بالزغاريد.',
+       ' يستقبله اهل العروس بأغنية طلب هدية.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,1.0 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,اليوم وقفة عرفة .,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['وزعت امي علينا المهمات في تنظيف المنزل وترتيبه.',
+       ' قضينا اليوم في النوم لكي لا نشعر بتعب الصيام.',
+       ' قضينا اليوم نتعبد لنستغل آخر ساعات الصيام.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,2.0 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,غدا اول يوم عيد.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['ذهبنا نتبضع وننهي شراء الملابس والضيافة.',
+       ' زرنا الاصقاء والجيران.', ' ذهبنا نوزع الطعام على المحتاجين.'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,4.0 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,ايقظتنا امي باكرا لأن غدا عيد الاضحى.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['بدأنا بصناعة الكعك والمعمول.',
+       ' يتبرع الناس بتزيين الطرقات ابتهاجا بالعيد.',
+       ' بدأنا بصناعة العوامة والمعكرونة.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,6.0 | traditions during religous holidays,العادات في الأعياد الدينية,في كل سنة يحتفل المسيحيون بعيد البربارة.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['في هذا العيد يدور الاطفال على المنازل يجمعون الحلوى.',
+       ' في هذا العيد يلونون البيض بالالوان.',
+       ' في هذا العيد يجتمع الاهل والاصدقاء على العشاء.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Lebanon,Levant
+Lebanon-1,7.0 | traditions during religous holidays,العادات في الأعياد الدينية,مع بزوغ فجر عيد الفطر:,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تتدفق اعداد كبيرة من المسلمين نحو جامع موحد لتأدية صلاة العيد.',
+       ' تتدفق اعداد كبيرة من المسلمين الى الساحات لتهنئة بعضهم.',
+       ' يرتدي الجميع افضل ثيابهم لاستقبال المهنئين بالعيد.'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,10.0 | traditions during religous holidays,العادات في الأعياد الدينية,توزع آني الارمنية في عيد الميلاد الحلوى.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['توزع القطايف.', ' توزع الشعيبيات.', ' توزع الغدايف.'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Lebanon,Levant
+Lebanon-1,11.0 | traditions during religous holidays,العادات في الأعياد الدينية,جوزيف جهز الصالة لعيد ميلاد المسيح.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['اضاء الغرفة و عطّرها.', ' وضع طاولة من الموالح والحلويات.',
+       ' وضع الشجرة وزينتها وهدايا للعائلة.'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,12.0 | traditions during religous holidays,العادات في الأعياد الدينية,يحتفل سليمان بعيد الاضحى. ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['جهز المنزل لاستقبال المهنئين.', ' جهز كبشا للذبح.',
+       ' جهز الدجاج لاقامة حفل شواء.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Lebanon,Levant
+Lebanon-1,13.0 | traditions during religous holidays,العادات في الأعياد الدينية,نادى محمد على اطفاله يوم العيد.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['دعاهم للذهاب لتهنئة الاقارب والاصدقاء.',
+       ' دعاهم ليوصلهم الى الجامع لصلاة المغرب والافطار.',
+       ' دعاهم لذهاب في نزهة.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Lebanon,Levant

@@ -1,0 +1,154 @@
+worker_id,sample_id,sub_topic,first_statement,options,answer_key,relevant_to_this_country,relevant_to_other_countries,should_discard,country,region
+Algeria-1,1 | Breakfast,الافطار,تفضل مريم اكل فطور صباح مشبع و لذيذ لبدأ يومها ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تحضر مريم ندويشات و مملحات مصحوبة بعصير',
+       ' تفضل مريم تحضير العصير و معجنات بالشكولاتة',
+       ' تحضر مريم قهوة بالحليب وترافقه بكرواسون'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Algeria,North Africa
+Algeria-1,2 | Breakfast,الافطار,في صباح عطلة نهاية الأسبوع تحرص الوالدة على تقديم فطور صباح  لذيذ و مميز للعائلة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قررت العائلة الخروج للغابة من اجل اخد فطور الصباح في مطعم',
+       ' استيقضت الوالدة باكرا لتحضير مسمن بالعسل و كسرة مع القهوة',
+       ' خرجت الوالدة صباحا لشراء كرواسون و خبز بالشكولاتة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Algeria,North Africa
+Algeria-1,3 | Breakfast,الافطار,استيقظ عمر على عجلة و قرر ان ياخد فطور خفيف و سهل,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['اكل موزة و رغيف خبز', ' حضر عمر قهوة ساخنة واكل تمر و ذهب للعمل',
+       ' شرب كوب حليب بارد و جبن في الخبز'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Algeria,North Africa
+Algeria-1,5 | Breakfast,الافطار,تقوم زينب دائما بتحضير رغائف البغرير المحبوبة في فطور الصباح,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم زينب بدهن الرغائف بالشكولاتة',
+       ' تقوم زينب بدهن الرغائف بالجبن الذائب',
+       ' تقوم زينب بدهن الرغائف بالزبدة و العسل'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Algeria,North Africa
+Algeria-1,6 | Lunch,الغداء,من أكلات العائلة المحبوبة و الخفيفة أكلة الحميس الذي تطبخه الأم,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم الوالدة بتقديم الحميس مع المعجنات',
+       ' تقوم الوالدة بتقديم الحميس مع الكسرة',
+       ' يقدم الحميس مع الليمون و الخل'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Algeria,North Africa
+Algeria-1,7 | Lunch,الغداء,بمناسبة يوم الجمعة تحضر الوالدة غذاء مميز و غني بالفيتامينات لكل أفراد العائلة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم الوالدة بتحضير طبق تقليدي كالكسكسي',
+       ' تقوم الوالدة بتحضير طبق صحي و متوازن',
+       ' تقوم الوالدة بتحضير طبق خاص باللحوم'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Algeria,North Africa
+Algeria-1,8 | Lunch,الغداء,تحرص الوالدة على ان يكون الغذاء طبق متكامل و مشبع,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتكون الغذاء من سلطة و طبق رئيسي و خبز',
+       ' يتكون الغذاء من شوربة و طبق رئيسي',
+       ' يتكون الغذاء من طبق رئيسي و تحلية'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Algeria,North Africa
+Algeria-1,9 | Lunch,الغداء,من اشهر الأطباق الجزائرية هو طبق الكسكسي الجزائري,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يقدم الكسكسي مع فواكه البحر',
+       ' عادة ما يقدم الكسكسي مع الحليب و الزبدة',
+       'عادة ما يقدم الكسكسي مع المرقة الحمراء أو اللبن'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Algeria,North Africa
+Algeria-1,10 | Lunch,الغداء,قررت سلمى مرافقة الشربة التي طبختها بمملحات,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['اضافت سلمى مع lلشوربة البوراك بالدجاج',
+       ' قررت سلمى اضافة بيتزا لمرافقة الشوربة',
+       ' قررت سلمى اضافة مورقات بالجبن'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Algeria,North Africa
+Algeria-1,11 | Dinner,العشاء,من اهم مرافقات الطبق الرئيسي على طاولة الطعام,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['  من المهم وجود طبق خبز سواء خبز الدار أو خبز الخباز',
+       '  من المهم وجود اللحوم او الدجاج في الأطباق المختلفة',
+       '  من المهم وجود حمود بوعلام على الطاولة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Algeria,North Africa
+Algeria-1,12 | Dinner,العشاء,تحضر الوالدة وجبة عشاء ساخنة في فصل الشتاء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم بتحضير طبق كبير من المعكرونة بالجبن',
+       ' تقوم الوالدة بطهي بطاطا مقلية و لحم مشوي',
+       ' تقوم الوالدة بتحضير شوربة عدس بالخضروات'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Algeria,North Africa
+Algeria-1,13 | Iftar (Ramadan),افطار رمضان,تحرص العائلات على عزم افراد الاسرة  في رمضان,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' تفضل العائلات الاكل في ديار الرحمة',
+       ' تحرص العائلات على عزم افراد الاسرة للافطار في رمضان',
+       ' تحرص العائلات على عزم افراد الاسرة لتناول السحور'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Algeria,North Africa
+Algeria-1,14 | Iftar (Ramadan),افطار رمضان,عند ادان المغرب يفضل الصائمون  كسر الصيام ثم صلاة المغرب,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['عادة ما يكسر الصيام بشرب الماء او اكل تمرة قبل بدء الصلاة',
+       '  يفضل كسر الصيام بشرب الشاربات قبل الصلاة',
+       ' يكسر الصيام باكل الشربة و البوراك ثم الصلاة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",,Yes,No,Algeria,North Africa
+Algeria-1,17 | Iftar (Ramadan),افطار رمضان,بعد افطار رمضان تجتمع العائلة في الصالون في سهرة رمضانية,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقدم الوالدة للعائلة شاي و قلب اللوز',
+       ' تقدم الوالدة مملحات و عصير', ' تقدم الوالدة فواكه موسميةمشكلة'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Algeria,North Africa
+Algeria-1,18 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),السحور وجبة مهمة لتزويد الجسم بالفيتامينات و الطاقة للصيام,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['عادة ما يتكون السحور من مسفوف باللبن مصحوبة بقهوة بالحليب',
+       ' عادة ما يتكون السحور من كعك و حلويات',
+       ' عادة ما يتكون السحور من وجبة العشاء كاملة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Algeria,North Africa
+Algeria-1,19 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),للسحور وقت محدد و ينتهي عند الاذان ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['عادة ما يقدم السحور قبل النوم',
+       ' عادة ما يقدم السحور بعد الاذان الثاني',
+       ' عادة ما يقدم السحور قبل الاذان الاول'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",,Yes,No,Algeria,North Africa
+Algeria-1,20 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),تتبع مريم حمية غدائية لدلك تفضل اكل سحور خفيف  ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' تتسحر مريم بالتمر مع قهوة و حليب',
+       ' تتسحر مريم  باكل  حساء و شرب الشربات',
+       ' تتسحرمريم بالسلطة وعصير ديتوكس'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",,Yes,No,Algeria,North Africa
+Algeria-1,21 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),يفضل الجد كمال السحور الخفيف و التقليدي,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يفضل الجد كمال السحور بالقهوة و البغرير',
+       ' يتسحرالجد كمال بالاكل التقليدي بشرب الكسرة و اللبن و التمر',
+       ' يفضل السحور بالماء و الزلابية'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Algeria,North Africa
+Algeria-1,22 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),يفضل فادي دائما السحور الخفيف و البسيط,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قهوة مع فواكه موسمية', ' قهوة ببريوش الشوكولاتة',
+       ' قهوة مع قلب اللوز'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Algeria,North Africa
+Algeria-1,23 | Dessert,حلوى,من الذ الحلويات التي تطبخها ليلى هي المشوشة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['عند التقديم تطلي ليلى المشوشة بالشكولاتة',
+       ' عند التقديم تطلي ليلى المشوشة بالعسل',
+       ' عند التقديم تطلي ليلى المشوشة بالمربى'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Algeria,North Africa
+Algeria-1,24 | Dessert,حلوى,حلى رمضان مميزة و متنوعة و موجودة في كل بيت في طول الشهر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['من اشهر حلويات رمضان هي المحلبية',
+       ' من اشهر حلويات رمضان هي الزلابية',
+       ' من اشهر حلويات رمضان هي الطمينة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Algeria,North Africa
+Algeria-1,25 | Dessert,حلوى,عند نجاح او حصول مناسبة سعيدة تحرص الام على طبخ حلوى للفال,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم الام بتحضير كعك التمر', ' تقوم الام بتحضير مشروبات',
+       ' تقوم الام بعجن الخفاف'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Algeria,North Africa
+Algeria-1,26 | Fruits,فاكهة,يحرص الجزائريون على تقديم الفواكه عند زيارة المريض,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يفضل تقديم الموز و التفاح عند زيارة المريض',
+       ' يفضل تقديم المكسرات عند زيارة المريض',
+       ' يفضل تقديم المشمش عند زيارة المريض'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",No,No,No,Algeria,North Africa
+Algeria-1,28 | Fruits,فاكهة,تستخدم في الحلويات  فواكه لذيذة تزيد في نكهة الحلويات ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' تعتبر فاكهة الكرز من اهم مكونات طبخ الحلويات',
+       ' تستعمل فاكهة التمر في الكتير من الحلويات',
+       ' تعتبر فاكهة الموز من اهم مكونات طبخ الحلويات'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Algeria,North Africa
+Algeria-1,29 | Snacks,وجبات خفيفة,تقوم ليلى بتحضير وجبة خفيفة لتاخذها للعمل,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم ليلى بتحضير كسرة بالجبن لتأخذها معها',
+       ' تقوم ليلى بتحضير سندويش بالدجاج', ' تقوم ليلى بتحضير دجاج مجفف'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Algeria,North Africa
+Algeria-1,30 | Snacks,وجبات خفيفة,يحب عمر ان يشتري وجبته الخفيفة المفضلة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يفضل دائما شراء معجنة بالجبن من عند الخباز',
+       ' يفضل دائما شراء كعك مطحون', ' يفضل دائما شراء حلوى معسلة'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",,No,No,Algeria,North Africa
+Algeria-1,1 | wedding location,مكان الزواج,مكان إقامة حفل الزفاف مهم للعروس مريم التي تريد مشاركة فرحتها مع كل أفراد عائلتها,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقيم مريم حفل زفافها في حديقة كبيرة',
+       ' تقيم مريم حفل زفافها في تراس البيت',
+       ' تقيم مريم حفل زفافها في صالة للاعراس'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Algeria,North Africa
+Algeria-1,2 | wedding food,طعام الزواج,يقدم في كل حفل زفاف عاصمي وجبة عاصمية لذيذة و مميزة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يقدم للمدعوين سلطة و مملحات و مشروبات',
+       ' يقدم للمدعوين سلطة ودجاج و مشويات مع بطاطا مقلية',
+       ' يقدم للمدعوين شربة و طبق ثاني مثوم باللحم و مشروبات'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Algeria,North Africa
+Algeria-1,3 | wedding dowry,مهر الزواج,يقدم كل عريس مهر لزوجته ليتمم اركان الزواج,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يجب ان يكون المهر اكثر من ٥٠٠٠٠٠ دينار',
+       ' يكون المهر على حسب اتفاق الزوجين',
+       ' يجب ان يكون المهر٥٠٠٠٠٠ دينار'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",No,Yes,No,Algeria,North Africa
+Algeria-1,4 | wedding (other logistics),تجهيزات أخرى للزواج,حسب العادات يوم قبل الزفاف تقوم عائلة العروس بفعاليات خاصة ضمن التقاليد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم النساء بالذهاب الى سوق الذهب للتحضير للحفلة الكبيرة',
+       ' تقوم العائلة بحفل عشاء العروس',
+       ' تقوم البنات باصطحاب العروس الى حمام العروس'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Algeria,North Africa
+Algeria-1,5 | wedding (other logistics),تجهيزات أخرى للزواج,تقوم العروس بتجهيز ملابسها لحفلة الزفاف لعدة اشهر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['فتختار فستان ابيض و ثلاث ملابس اخرى تقليدية تخيطها',
+       ' فتختار فستان ابيض طويل بطرحة و فتسان ابيض قصير للرقص',
+       ' فتختار فستان ابيض و طرحة طويلة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Algeria,North Africa
+Algeria-1,7 | men cermony vs. women cermony,احتفالات الزواج للرجال vs احتفالات الزواج للنساء,وجبة عشاء حفل الزفاف مهمة و يقوم الزوجين بتحضير حفلة العشاء لعائلتهم قبل الزفاف,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['احتفالات العريس تكون حفل عشاء اما حفل العروس يكون في صالة افراح',
+       ' احتفالات العريس تكون في حفل في الصالة فقط دون عشاء المدعويين',
+       ' وجبة العشاء تكون في احتفال العريس او العروس و ليس في الاثين'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Algeria,North Africa
+Algeria-1,8 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,من العادات و التقاليد ان يكون خروج العروس من منزلها خاص,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تخرج العروس من الباب تحت يد ابيها', ' تخرج العروس حافية القدمين',
+       ' تخرج العروس و ترمي الحلوى وراءها'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Algeria,North Africa
+Algeria-1,9 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,في حفلة الحنة تقوم النساء بالغناء عند وضع الحنة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' تغني النساء اغنية من زينو نهار اليوم',
+       ' تغني النساء اغنية حنة الحنينة', ' تغني النساء اغاني الراي'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Algeria,North Africa
+Algeria-1,10 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,الموسيقى في حفلات الزفاف لها اهمية خاصة تتناسب مع لبس العروسة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تكون الموسيقى هادءة و كلاسيكية لتوفر اجواء رومنسية',
+       ' تكون الموسيقى رومنسية شرقية',
+       ' تكون الموسيقى محلية حسب مختلف ولايات و الوطن'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Algeria,North Africa
+Algeria-1,11 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,تتجهز العروس بالفستان الابيض مع عريسها لدخول القاعة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يدخل العريسين للقاعة في بداية الزفاف للرقص',
+       ' يدخل العروسين في نهاية الحفلة ليرتدوا الخواتم و يقطعوا الكعك',
+       ' يدخل العريسين لوضع الخواتم و الرقص طول الحفلة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Algeria,North Africa
+Algeria-1,1 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,قبل قدوم رمضان تقوم الوالدة بشراء مستلزمات خاصة للشهر الكريم,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم بتزيين المنزل بزينة رمضان',
+       ' تقوم الوالدة بشراء علب بهارات جديدة',
+       ' تقوم الوالدة بشراء افرشة و أغطية جديدة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Algeria,North Africa
+Algeria-1,2 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,في ليلة مولد الرسول محمد (ص) تقوم الوالدة بطبخ أكلة الرشتة للاحتفال,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم الوالدة بطبخ الرشتة بفواكه البحر',
+       ' تقوم الوالدة بطبخ طبق الرشتة بالدجاج',
+       ' تطبخ الوالدة الرشتة بالعسل و المكسرات'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Algeria,North Africa
+Algeria-1,3 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,يزيد حماس الأطفال عند اقتراب عيد الفطر للقيام بعاداتهم المحبوبة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['شراء ملابس جديدة للاحتفال بعيد الفطر',
+       ' شراء لعب و مفرقعات للعب بها في عيد الفطر',
+       ' صوم اليوم الأخير من رمضان للوداع'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Algeria,North Africa
+Algeria-1,5 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,لعيد الاضحى مكانة مميزة في العائلة فيقوم الأب بشراء أضحية العيد للاحتفال به و مساعدة المحتاجين,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يشتري الأب أضحية آلعيد قبل أيام مذبوحة و مقطعة',
+       ' يشتري الأب الأضحية يوم العيد و تذبح عند الجزار',
+       ' يشتري الأب أضحية العيد قبل أيام و يبقيه في البيت'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Algeria,North Africa
+Algeria-1,6 | traditions during religous holidays,العادات في الأعياد الدينية,لعائلة منى عادة المعايدة على العائلة و المعارف في عيد الاضحى تحرص على عدم التفريط فيها,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['بعث رسالة نصية للتغافر و تمني أطيب الأمنيات',
+       ' مباركة العيد للجيران و الذهاب إلى بيت الجد و الجدة',
+       ' الاتصال بالاقارب و مباركة العيد عن طريق الهاتف فقط'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Algeria,North Africa
+Algeria-1,7 | traditions during religous holidays,العادات في الأعياد الدينية,بعد اكتمال مراسم الذبح للوالدة مهمة خاصة تقوم بها مع أفراد عائلتها,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['الاستعداد لقطع الذبيحة و تجهيز المشاوي',
+       ' الذهاب لزيارة العائلة و التغافر', ' طبخ حلويات عيد الاضحى'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Algeria,North Africa
+Algeria-1,8 | traditions during religous holidays,العادات في الأعياد الدينية,تعرف مريم بصنعها لحلوى الشراك تصنعها للترحيب بعيد الفطر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['حلوة الشراك التي تصنعها مريم تكون محشوة بالمربى',
+       'حلوة الشراك التي تصنعها مريم تكون مغطاة بالشكولاتة',
+       ' حلوة الشراك التي تصنعها مريم تكون مسكرة بالسكر الناعم'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Algeria,North Africa
+Algeria-1,9 | traditions during religous holidays,العادات في الأعياد الدينية,من فرحة العيد تقوم مريم بالحنة ليلة العيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['القيام مريم بالحنى على اليدين و الرجلين',
+       'تقوم مريم بالحنة على اليدين',
+       ' القيام مريم بالحنى في الرجلين فقط'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Algeria,North Africa
+Algeria-1,10 | traditions during religous holidays,العادات في الأعياد الدينية,للاخ الكبير  مهمات عديدة في عيد الاضحى و يتولى مسؤوليات كثيرة ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يساعد الأخ الكبير  ذبح الأضحية بنفسه',
+       ' يساعد الأخ الكبير الأب في الذبح و السلخ',
+       ' يساعد الأخ الكبير في تقطيع اللحم و تحضير باربيكيو المشاوي'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",,Yes,No,Algeria,North Africa
+Algeria-1,11 | traditions during religous holidays,العادات في الأعياد الدينية,من عادات وجبة الغداء في عيد الاضحى أكل اضلع الخروف المقلية ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يرافق أكل اضلع الخروف بطاطا مقلية',
+       ' يرافق أكل اضلع الخروف الأضحية آرز بالدجاج',
+       'يرافق أكل اضلع الخروف الأضحية حساء الخضروات'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",,No,No,Algeria,North Africa
+Algeria-1,12 | traditions during religous holidays,العادات في الأعياد الدينية,يوم عرفة بالنسبة لعائلة سلمى هو يوم للصيام و التحضير لعيد الاضحى,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم سلمى بالصيام و التجهيز للعشاء العائلي في مطعم',
+       ' تقوم سلمى بالصيام و الخروج لشراء حلوى العيد',
+       ' تقوم سلمى بصيام يوم عرفة و التحضير وجبات تقليدية للعشاء'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Algeria,North Africa
+Algeria-1,13 | traditions during religous holidays,العادات في الأعياد الدينية,بعد إنهاء ذبح الأضحية من عادات عائلة لبنى تشارك لحم الأضحية,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم العائلة بتبادل الذبائح مع العائلة و الجيران',
+       ' تقوم عائلة لبنى بتقطيع و توزيع حصة الفقراء للصدقة',
+       ' تصدق العائلة كل الذبيحة على أصدقاء العائلة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Algeria,North Africa
+Algeria-1,14 | traditions during religous holidays,العادات في الأعياد الدينية,تقوم ليلى في كل عيد فطر بطبخ حلوة الصابلي و تحضيرها جيدا لتكون جميلة و لذيذة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' دهن حلوة الصابلي بالشكولاتة ليلة العيد',
+       ' دهن حلوة الصابلي بالمعجون صباح العيد',
+       ' دهن حلوة الصابلي بالشكولاتة و المعجون يومان من قبل العيد'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",,No,No,Algeria,North Africa
+Algeria-1,15 | traditions during religous holidays,العادات في الأعياد الدينية,تقوم النساء بمناسبة العيد بتحضير انفسهن و الحرص على الظهور بأجمل حلة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['القيام بتصفيف الشعر يومان قبل العيد',
+       ' القيام بتصفيف الشعر و تنظيف البشرة صباح العيد',
+       ' الذهاب لتصفيف الشعر عند الحلاقة ليلة العيد'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Algeria,North Africa

@@ -1,0 +1,51 @@
+source_herb_id,source_herb,P_value,MM_symptom_name,FDR(Bonferroni),Relationship,FDR(BH),Value,UMLS_id,MM_symptom_id,MeSH_tree_numbers
+SMHB00367,Shengjiang (fresh ginger),,Cough Productive,,By_TCM_symptom,,0.2318,C0239134,SMMS00067,
+SMHB00367,Shengjiang (fresh ginger),0.023235,Gastric Disorder,1.0,By_TCM_symptom,0.0514233,0.2695,C0038354,SMMS00071,C06.405.748
+SMHB00367,Shengjiang (fresh ginger),0.0116833,Vomiting Neonatal,1.0,By_TCM_symptom,0.0380673,0.2615,C0270274,SMMS00074,
+SMHB00367,Shengjiang (fresh ginger),,"Sputums, Induced",,By_TCM_symptom,,,C3179346,SMMS00083,A12.200.808
+SMHB00367,Shengjiang (fresh ginger),,Catarrh,,By_TCM_symptom,,0.5424,C1384493,SMMS00095,C01.748.162|C01.925.782.687.207|C08.730.162
+SMHB00367,Shengjiang (fresh ginger),0.023235,Dermatosis Of Scalp,1.0,By_TCM_symptom,0.0514233,0.3039,C0036271,SMMS00313,C17.800.738
+SMHB00367,Shengjiang (fresh ginger),,Emesis,,By_TCM_symptom,,1.0911,C0042963,SMMS00327,C23.888.821.937
+SMHB00367,Shengjiang (fresh ginger),,Cough,,By_TCM_symptom,,0.6489,C0010200,SMMS00403,C08.618.248|C23.888.852.293
+SMHB00367,Shengjiang (fresh ginger),,Sputum,,By_TCM_symptom,,,C0038056,SMMS00534,A12.200.808
+SMHB00367,Shengjiang (fresh ginger),0.0346567,Sweating,1.0,By_TCM_symptom,0.0629519,0.2648,C0038990,SMMS00557,G07.110.232.693|G07.410.421.693|G13.750.860|G16.012.500.535.693
+SMHB00367,Shengjiang (fresh ginger),,Food Poisoning,,By_TCM_symptom,,0.3477,C0016479,SMMS00571,C25.723.415
+SMHB00367,Shengjiang (fresh ginger),0.0346567,Sweat,1.0,By_TCM_symptom,0.0629519,0.2521,C0038984,SMMS00604,A12.200.849
+SMHB00367,Shengjiang (fresh ginger),,Coryza,,By_TCM_symptom,,0.5565,C0086066,SMMS00626,C01.748.162|C01.925.782.687.207|C08.730.162
+SMHB00367,Shengjiang (fresh ginger),,Gagging,,By_TCM_symptom,,0.2617,C0016927,SMMS00800,C23.888.821.414|F02.830.702.157|G10.261.338|G11.561.731.251
+SMHB00367,Shengjiang (fresh ginger),0.023235,Stridor,1.0,By_TCM_symptom,0.0514233,0.2596,C0038450,SMMS00801,C23.888.852.779|E01.370.386.720|G09.772.775
+SMHB00367,Shengjiang (fresh ginger),,Common Cold,,By_TCM_symptom,,0.5326,C0009443,SMMS00817,C01.748.162|C01.925.782.687.207|C08.730.162
+SMHB00367,Shengjiang (fresh ginger),0.0459497,"Disease Of Vocal Cords, Nos",1.0,By_TCM_symptom,0.0756279,0.2703,C0264309,SMMS00840,
+SMHB00367,Shengjiang (fresh ginger),0.00191621,Cough Persistent,1.0,By_TCM_symptom,0.0103488,0.4975,C0562483,SMMS00898,
+SMHB00367,Shengjiang (fresh ginger),0.0116833,Anal Sphincter Atony,1.0,By_TCM_symptom,0.0380673,0.2476,C0877325,SMMS00929,
+SMHB00367,Shengjiang (fresh ginger),2.78146e-05,Poisoning By,0.689495,By_TCM_symptom,0.000331808,0.8564,C0032343,SMMS00948,C25.723
+SMHB00136,Ganjiang (dried ginger),,Abdomen Distention,,By_TCM_symptom,,0.629,C0000731,SMMS00007,
+SMHB00136,Ganjiang (dried ginger),0.0160104,Abdominal Tenderness,1.0,By_TCM_symptom,0.0439525,0.2233,C0232498,SMMS00046,
+SMHB00136,Ganjiang (dried ginger),,Physical Suffering,,By_TCM_symptom,,0.6168,C0751408,SMMS00060,C23.888.592.612|F02.830.816.444|G11.561.790.444
+SMHB00136,Ganjiang (dried ginger),0.0317713,Gastric Disorder,1.0,By_TCM_symptom,0.0599192,0.2629,C0038354,SMMS00071,C06.405.748
+SMHB00136,Ganjiang (dried ginger),0.0160104,Vomiting Neonatal,1.0,By_TCM_symptom,0.0439525,0.2518,C0270274,SMMS00074,
+SMHB00136,Ganjiang (dried ginger),0.0160104,Shock,1.0,By_TCM_symptom,0.0439525,0.3319,C0036974,SMMS00075,C23.550.835
+SMHB00136,Ganjiang (dried ginger),0.0160104,Anterior Cervical Pains,1.0,By_TCM_symptom,0.0439525,0.2517,C0751724,SMMS00125,C23.888.592.612.553
+SMHB00136,Ganjiang (dried ginger),0.0160104,Renal Agenesis,1.0,By_TCM_symptom,0.0439525,0.2222,C0542519,SMMS00141,
+SMHB00136,Ganjiang (dried ginger),,Monoparesis,,By_TCM_symptom,,0.2824,C0270795,SMMS00168,C10.597.636|C23.888.592.643
+SMHB00136,Ganjiang (dried ginger),,Hyperalgia,,By_TCM_symptom,,0.2783,C0020429,SMMS00237,C10.597.751.791.400|C23.888.592.763.770.400
+SMHB00136,Ganjiang (dried ginger),0.00359389,Gastrointestinal Discomfort,1.0,By_TCM_symptom,0.0171324,0.5003,C1096250,SMMS00246,
+SMHB00136,Ganjiang (dried ginger),,Diarrhea,,By_TCM_symptom,,0.2208,C0011991,SMMS00250,C23.888.821.214
+SMHB00136,Ganjiang (dried ginger),,Chill,,By_TCM_symptom,,0.2921,C0085593,SMMS00297,C23.888.208
+SMHB00136,Ganjiang (dried ginger),,Emesis,,By_TCM_symptom,,0.8304,C0042963,SMMS00327,C23.888.821.937
+SMHB00136,Ganjiang (dried ginger),,Pain,,By_TCM_symptom,,0.5942,C0030193,SMMS00337,C23.888.592.612|F02.830.816.444|G11.561.790.444
+SMHB00136,Ganjiang (dried ginger),0.0160104,"Cervical Pain, Posterior",1.0,By_TCM_symptom,0.0439525,0.2459,C0751725,SMMS00342,C23.888.592.612.553
+SMHB00136,Ganjiang (dried ginger),,Malaise And Fatigue,,By_TCM_symptom,,,C0024528,SMMS00378,
+SMHB00136,Ganjiang (dried ginger),0.0160104,Hypovolemic Shock,1.0,By_TCM_symptom,0.0439525,0.3273,C0020683,SMMS00385,C23.550.835
+SMHB00136,Ganjiang (dried ginger),,Cough,,By_TCM_symptom,,0.2279,C0010200,SMMS00403,C08.618.248|C23.888.852.293
+SMHB00136,Ganjiang (dried ginger),,Burning Pain,,By_TCM_symptom,,0.6166,C0234230,SMMS00412,C23.888.592.612|F02.830.816.444|G11.561.790.444
+SMHB00136,Ganjiang (dried ginger),0.0472864,"Diarrhea, Chronic",1.0,By_TCM_symptom,0.0769704,0.2196,C0401151,SMMS00418,
+SMHB00136,Ganjiang (dried ginger),,Splitting Pain,,By_TCM_symptom,,0.6161,C0458257,SMMS00431,C23.888.592.612|F02.830.816.444|G11.561.790.444
+SMHB00136,Ganjiang (dried ginger),,Abdomen Discomfort,,By_TCM_symptom,,0.4808,C0232487,SMMS00459,
+SMHB00136,Ganjiang (dried ginger),,Bronchial Asthma,,By_TCM_symptom,,,C0004096,SMMS00509,C08.127.108|C08.381.495.108|C08.674.095|C20.543.480.680.095
+SMHB00136,Ganjiang (dried ginger),0.0160104,Diarrhea Acute,1.0,By_TCM_symptom,0.0439525,0.2454,C0740441,SMMS00528,
+SMHB00136,Ganjiang (dried ginger),,Migratory Pain,,By_TCM_symptom,,0.6214,C0751407,SMMS00569,C23.888.592.612|F02.830.816.444|G11.561.790.444
+SMHB00136,Ganjiang (dried ginger),0.0160104,Joint Stiffness,1.0,By_TCM_symptom,0.0439525,0.2546,C0162298,SMMS00599,
+SMHB00136,Ganjiang (dried ginger),0.0160104,Cough Increased,1.0,By_TCM_symptom,0.0439525,0.254,C0574067,SMMS00602,
+SMHB00136,Ganjiang (dried ginger),0.0160104,Diarrhea Watery,1.0,By_TCM_symptom,0.0439525,0.2163,C0239182,SMMS00622,
+SMHB00136,Ganjiang (dried ginger),,Ache,,By_TCM_symptom,,0.6176,C0234238,SMMS00627,C23.888.592.612|F02.830.816.444|G11.561.790.444

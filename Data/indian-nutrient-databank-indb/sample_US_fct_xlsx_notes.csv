@@ -1,0 +1,7 @@
+Notes 
+The following notes apply to the data values:
+""
+prefix 'US' added before the original USDA code to identify the source data obtained from https://fdc.nal.usda.gov/
+nutrient values are expressed per 100g of the food except in the case of beverages which are presented per 100ml.
+where there is no information on the amount of a nutrient the value is represented by NA
+"the data for 'retention_factor' was obtained from the USDA Table of Nutrient Retention Factors, Release 6 (2007) [https://agdatacommons.nal.usda.gov/articles/dataset/USDA_Table_of_Nutrient_Retention_Factors_Release_6_2007_/24660888]."

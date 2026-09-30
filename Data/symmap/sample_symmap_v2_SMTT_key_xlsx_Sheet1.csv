@@ -1,0 +1,51 @@
+Gene_id,Field_name,Field_context
+1,Gene_symbol,A2M
+1,Gene_name,Alpha-2-macroglobulin
+1,Protein_name,Alpha-2-macroglobulin
+1,Ensembl_id,ENSG00000175899
+2,Gene_symbol,A2ML1
+2,Gene_name,Alpha-2-macroglobulin Like 1
+2,Ensembl_id,ENSG00000166535
+3,Gene_symbol,A4GALT
+3,Gene_name,"Alpha 1,4-galactosyltransferase (P Blood Group)"
+3,Ensembl_id,ENSG00000128274
+4,Gene_symbol,AAAS
+4,Gene_name,Aladin WD Repeat Nucleoporin
+4,Ensembl_id,ENSG00000094914
+5,Gene_symbol,AAGAB
+5,Gene_name,Alpha And Gamma Adaptin Binding Protein
+5,Ensembl_id,ENSG00000103591
+6,Gene_symbol,AANAT
+6,Gene_name,aralkylamine N-acetyltransferase
+6,Protein_name,Serotonin N-acetyltransferase
+6,Ensembl_id,ENSG00000129673
+7,Gene_symbol,AARS
+7,Gene_name,Alanyl-tRNA Synthetase
+7,Protein_name,"Alanine--tRNA Ligase, Cytoplasmic"
+7,Ensembl_id,ENSG00000090861
+8,Gene_symbol,AARS2
+8,Gene_name,"Alanyl-tRNA Synthetase 2, Mitochondrial"
+8,Protein_name,"Alanine--tRNA Ligase, Mitochondrial"
+8,Ensembl_id,ENSG00000124608
+9,Gene_symbol,AASS
+9,Gene_name,Aminoadipate-semialdehyde Synthase
+9,Protein_name,"Alpha-aminoadipic Semialdehyde Synthase, Mitochondrial"
+9,Ensembl_id,ENSG00000008311
+10,Gene_symbol,ABAT
+10,Gene_name,4-aminobutyrate Aminotransferase
+10,Protein_name,"4-aminobutyrate Aminotransferase, Mitochondrial"
+10,Ensembl_id,ENSG00000183044
+11,Gene_symbol,ABCA1
+11,Gene_name,ATP Binding Cassette Subfamily A Member 1
+11,Protein_name,ATP-binding Cassette Sub-family A Member 1
+11,Ensembl_id,ENSG00000165029
+12,Gene_symbol,ABCA12
+12,Gene_name,ATP Binding Cassette Subfamily A Member 12
+12,Ensembl_id,ENSG00000144452
+13,Gene_symbol,ABCA3
+13,Gene_name,ATP Binding Cassette Subfamily A Member 3
+13,Ensembl_id,ENSG00000167972
+14,Gene_symbol,ABCA4
+14,Gene_name,ATP Binding Cassette Subfamily A Member 4
+14,Ensembl_id,ENSG00000198691
+15,Gene_symbol,ABCA5

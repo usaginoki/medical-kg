@@ -1,0 +1,51 @@
+source_herb_id,source_herb,P_value,Orphanet_id,FDR(Bonferroni),Relationship,FDR(BH),Value,Disease_id,Disease_name,OMIM_id
+SMHB00367,Shengjiang (fresh ginger),0.00035665,79321.0,1.0,By_MM_symptom,0.00357057,0.5531,SMDE00021,"Congenital Disorder Of Glycosylation, Type Id",601110
+SMHB00367,Shengjiang (fresh ginger),3.91249e-05,23.0,1.0,By_MM_symptom,0.000606256,0.4725,SMDE00026,Argininosuccinic Aciduria,207900
+SMHB00367,Shengjiang (fresh ginger),4.50698e-05,726.0,1.0,By_MM_symptom,0.000682802,0.5471,SMDE00028,Alpers-Huttenlocher Syndrome,203700
+SMHB00367,Shengjiang (fresh ginger),5.90459e-05,,1.0,By_MM_symptom,0.000845327,0.5139,SMDE00083,"Niemann-Pick Disease, Type A",257200
+SMHB00367,Shengjiang (fresh ginger),7.61637e-05,,1.0,By_MM_symptom,0.00102964,0.5252,SMDE00087,"Pseudohypoaldosteronism, Type I, Autosomal Recessive",264350
+SMHB00367,Shengjiang (fresh ginger),0.000340691,99967.0,1.0,By_ingredient,0.00238549,18.4912,SMDE00094,Myxoid Liposarcoma,613488
+SMHB00367,Shengjiang (fresh ginger),3.38076e-05,228305.0,1.0,By_MM_symptom,0.000542454,0.5503,SMDE00136,"Carnitine Palmitoyltransferase Ii Deficiency, Infantile",600649
+SMHB00367,Shengjiang (fresh ginger),0.00010875,,1.0,By_MM_symptom,0.00138104,0.4976,SMDE00160,Mitochondrial Dna Depletion Syndrome 3 (Hepatocerebral Type),251880
+SMHB00367,Shengjiang (fresh ginger),6.18187e-07,,0.540593,By_ingredient,1.80324e-05,2.6028,SMDE00271,"Episodic Ataxia, Type 1",160120
+SMHB00367,Shengjiang (fresh ginger),8.60437e-05,25.0,1.0,By_MM_symptom,0.00114095,0.4382,SMDE00276,Glutaryl-Coa Dehydrogenase Deficiency,231670
+SMHB00367,Shengjiang (fresh ginger),1.25335e-05,158.0,1.0,By_MM_symptom|By_ingredient,0.000237972,0.5001,SMDE00352,"Carnitine Deficiency, Systemic Primary",212140
+SMHB00367,Shengjiang (fresh ginger),4.50698e-05,,1.0,By_MM_symptom,0.000682802,0.4732,SMDE00362,Dihydrolipoamide Dehydrogenase Deficiency,246900
+SMHB00367,Shengjiang (fresh ginger),6.13639e-07,,1.0,By_MM_symptom,1.98139e-05,0.8896,SMDE00376,Alpha-Methylacetoacetic Aciduria,203750
+SMHB00367,Shengjiang (fresh ginger),6.7184e-05,33.0,1.0,By_MM_symptom,0.000936414,0.5021,SMDE00415,Isovaleric Acidemia,243500
+SMHB00367,Shengjiang (fresh ginger),5.59825e-06,,1.0,By_MM_symptom,0.000122837,0.5333,SMDE00435,Methylmalonic Aciduria Due To Methylmalonyl-Coa Mutase Deficiency,251000
+SMHB00367,Shengjiang (fresh ginger),8.62346e-07,,1.0,By_MM_symptom,2.62394e-05,1.0865,SMDE00436,Methionine Adenosyltransferase Deficiency,250850
+SMHB00367,Shengjiang (fresh ginger),6.109999999999999e-40,,1.9500000000000002e-35,By_ingredient,2.16e-36,27.9262,SMDE00461,Orthostatic Intolerance,604715
+SMHB00367,Shengjiang (fresh ginger),2.90697e-05,370927.0,1.0,By_MM_symptom,0.000478163,0.4899,SMDE00486,Ssr4-Cdg,300934
+SMHB00367,Shengjiang (fresh ginger),5.59825e-06,510.0,1.0,By_MM_symptom,0.000122837,0.5701,SMDE00522,Lesch-Nyhan Syndrome,300322|308950
+SMHB00367,Shengjiang (fresh ginger),0.000184273,,1.0,By_ingredient,0.00149283,3.3385,SMDE00576,Li-Fraumeni Syndrome 1,151623
+SMHB00367,Shengjiang (fresh ginger),3.91249e-05,90.0,1.0,By_MM_symptom,0.000606256,0.4813,SMDE00664,Argininemia,207800
+SMHB00367,Shengjiang (fresh ginger),6.978e-05,276575.0,1.0,By_MM_symptom,0.000967017,0.6568,SMDE00697,Autosomal Dominant Hyperinsulinism Due To Sur1 Deficiency,256450
+SMHB00367,Shengjiang (fresh ginger),0.000537704,30925.0,1.0,By_MM_symptom,0.00496137,0.5053,SMDE00716,Hereditary Central Diabetes Insipidus,125700|304900
+SMHB00367,Shengjiang (fresh ginger),0.000205226,,1.0,By_MM_symptom,0.0023115,0.4735,SMDE00730,"Diabetes Insipidus, Nephrogenic, Autosomal",125800
+SMHB00367,Shengjiang (fresh ginger),7.61637e-05,,1.0,By_MM_symptom,0.00102964,0.534,SMDE00775,Mitochondrial Dna Depletion Syndrome 6 (Hepatocerebral Type),256810
+SMHB00367,Shengjiang (fresh ginger),0.000273001,,1.0,By_MM_symptom,0.00289685,0.5219,SMDE00780,"Liver Failure, Infantile, Transient",613070
+SMHB00367,Shengjiang (fresh ginger),0.000852665,,1.0,By_ingredient,0.00479607,24.1422,SMDE00788,Amyotrophic Lateral Sclerosis 1,105400
+SMHB00367,Shengjiang (fresh ginger),0.000388457,79242.0,1.0,By_MM_symptom,0.00381914,0.4878,SMDE00826,Holocarboxylase Synthetase Deficiency,253270
+SMHB00367,Shengjiang (fresh ginger),2.75043e-05,,1.0,By_MM_symptom,0.000456187,0.6876,SMDE00849,"Leiomyoma, Uterine",150699
+SMHB00367,Shengjiang (fresh ginger),0.000197712,,1.0,By_ingredient,0.00157497,13.7408,SMDE00871,Pheochromocytoma,171300
+SMHB00367,Shengjiang (fresh ginger),6.13639e-07,90791.0,1.0,By_MM_symptom,1.98139e-05,0.5217,SMDE00900,Congenital Adrenal Hyperplasia Due To 3-Beta-Hydroxysteroid Dehydrogenase Deficiency,201810
+SMHB00367,Shengjiang (fresh ginger),7.61637e-05,79319.0,1.0,By_MM_symptom,0.00102964,0.5215,SMDE00937,Mpi-Cdg,602579
+SMHB00367,Shengjiang (fresh ginger),0.000780922,35.0,1.0,By_MM_symptom,0.00667396,0.4507,SMDE00961,Propionic Acidemia,606054
+SMHB00367,Shengjiang (fresh ginger),1.25335e-05,,1.0,By_MM_symptom,0.000237972,0.4811,SMDE01001,3-Methylcrotonyl-Coa Carboxylase 2 Deficiency,210210
+SMHB00367,Shengjiang (fresh ginger),8.77696e-06,,1.0,By_MM_symptom,0.000177146,0.7618,SMDE01072,"Cleft Palate, Isolated",119540
+SMHB00367,Shengjiang (fresh ginger),0.000388457,,1.0,By_MM_symptom,0.00381914,0.4819,SMDE01099,"Congenital Disorder Of Glycosylation, Type Ia",212065
+SMHB00367,Shengjiang (fresh ginger),1.25335e-05,,1.0,By_MM_symptom,0.000237972,0.4953,SMDE01138,"Methylmalonic Aciduria, Cblb Type",251110
+SMHB00367,Shengjiang (fresh ginger),2.85819e-07,168558.0,0.540581,By_MM_symptom,1.0447e-05,0.525,SMDE01151,"46,Xy Disorder Of Sex Development-Adrenal Insufficiency Due To Cyp11A1 Deficiency Syndrome",613743
+SMHB00367,Shengjiang (fresh ginger),8.60437e-05,,1.0,By_MM_symptom,0.00114095,5.216,SMDE01164,3-Hydroxyacyl-Coa Dehydrogenase Deficiency,231530
+SMHB00367,Shengjiang (fresh ginger),0.000273001,,1.0,By_MM_symptom|By_ingredient,0.00289685,4.1916,SMDE01210,Retinoblastoma,180200
+SMHB00367,Shengjiang (fresh ginger),3.38076e-05,79134.0,1.0,By_MM_symptom,0.000542454,0.544,SMDE01221,Dend Syndrome,606176
+SMHB00367,Shengjiang (fresh ginger),0.000373594,,1.0,By_ingredient,0.00256029,0.2372,SMDE01243,Isobutyryl-Coa Dehydrogenase Deficiency,611283
+SMHB00367,Shengjiang (fresh ginger),5.90459e-05,,1.0,By_MM_symptom,0.000845327,0.5274,SMDE01290,"Acyl-Coa Dehydrogenase, Medium-Chain, Deficiency Of",201450
+SMHB00367,Shengjiang (fresh ginger),8.82211e-06,,1.0,By_MM_symptom,0.000177873,0.6173,SMDE01312,"Ornithine Transcarbamylase Deficiency, Hyperammonemia Due To",311250
+SMHB00367,Shengjiang (fresh ginger),1.03757e-05,,1.0,By_ingredient,0.000163008,58.2456,SMDE01348,Alzheimer Disease,104300
+SMHB00367,Shengjiang (fresh ginger),6.13639e-07,,1.0,By_MM_symptom,1.98139e-05,0.4952,SMDE01371,"Inflammatory Skin And Bowel Disease, Neonatal, 2",616069
+SMHB00367,Shengjiang (fresh ginger),6.7184e-05,,1.0,By_MM_symptom,0.000936414,0.5408,SMDE01398,Mitochondrial Complex I Deficiency,252010
+SMHB00367,Shengjiang (fresh ginger),1.78825e-05,,1.0,By_MM_symptom|By_ingredient,0.000321605,0.4728,SMDE01504,Multiple Acyl-Coa Dehydrogenase Deficiency,231680
+SMHB00367,Shengjiang (fresh ginger),0.000226191,,1.0,By_MM_symptom,0.0024899,16.5347,SMDE01506,"Cryptorchidism, Unilateral Or Bilateral",219050
+SMHB00367,Shengjiang (fresh ginger),6.13639e-07,,1.0,By_MM_symptom,1.98139e-05,0.5508,SMDE01565,"Porphyria, Acute Hepatic",612740

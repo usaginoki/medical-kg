@@ -6,6 +6,8 @@ properties:
     displayName: Relevance
   questions:
     displayName: Questions
+  datasets:
+    displayName: Datasets
 views:
   - type: table
     name: All papers
@@ -14,7 +16,7 @@ views:
       - year
       - venue
       - peer_reviewed
-      - relevance
+      - datasets
       - questions
       - tags
     sort:

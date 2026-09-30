@@ -1,0 +1,51 @@
+TCM_symptom_id,Field_name,Field_context
+1,TCM_symptom_name,嗳气
+1,Symptom_pinYin,Ai Qi
+2,TCM_symptom_name,白带色乳白
+2,Symptom_pinYin,Bai Dai Se Ru Bai
+3,TCM_symptom_name,白带淸稀
+3,Symptom_pinYin,Bai Dai Qing Xi
+4,TCM_symptom_name,白带增多
+4,Symptom_pinYin,Bai Dai Zeng Duo
+5,TCM_symptom_name,白发
+5,Symptom_pinYin,Bai Fa
+6,TCM_symptom_name,白睛红赤
+6,Symptom_pinYin,Bai Jing Hong Chi
+7,TCM_symptom_name,白细胞减少
+7,Symptom_pinYin,Bai Xi Bao Jian Shao
+8,TCM_symptom_name,白浊
+8,Symptom_pinYin,Bai Zhuo
+9,TCM_symptom_name,斑秃
+9,Symptom_pinYin,Ban Tu
+10,TCM_symptom_name,斑疹
+10,Symptom_pinYin,Ban Zhen
+11,TCM_symptom_name,斑疹紫黑
+11,Symptom_pinYin,Ban Zhen Zi Hei
+12,TCM_symptom_name,半身不遂
+12,Symptom_pinYin,Ban Shen Bu Sui
+13,TCM_symptom_name,半身麻木
+13,Symptom_pinYin,Ban Shen Ma Mu
+14,TCM_symptom_name,胞衣不下
+14,Symptom_pinYin,Bao Yi Bu Xia
+15,TCM_symptom_name,饱胀
+15,Symptom_pinYin,Bao Zhang
+16,TCM_symptom_name,暴发火眼
+16,Symptom_pinYin,Bao Fa Huo Yan
+17,TCM_symptom_name,暴厥
+17,Symptom_pinYin,Bao Jue
+18,TCM_symptom_name,暴注下泻
+18,Symptom_pinYin,Bao Zhu Xia Xie
+19,TCM_symptom_name,背冷
+19,Symptom_pinYin,Bei Leng
+20,TCM_symptom_name,背酸痛
+20,Symptom_pinYin,Bei Suan Tong
+21,TCM_symptom_name,背疼痛
+21,Symptom_pinYin,Bei Teng Tong
+22,TCM_symptom_name,背痛
+22,Symptom_pinYin,Bei Tong
+23,TCM_symptom_name,崩漏
+23,Symptom_pinYin,Beng Lou
+24,TCM_symptom_name,鼻干
+24,Symptom_pinYin,Bi Gan
+25,TCM_symptom_name,鼻干燥
+25,Symptom_pinYin,Bi Gan Zao

@@ -1,0 +1,4 @@
+_key,source_url,retrieved,public_id,name,name_scientific,food_group,food_subgroup,itis_id,n_compound_content_rows_on_page,associated_foods,enzymes,flavours,record_update_date,value
+food,https://foodb.ca/foods/FOOD00068,2026-09-30,FOOD00068,Turmeric,Curcuma longa,Herbs and Spices,Spices,42394,4309.0,,,,,
+curcumin_I,https://foodb.ca/compounds/FDB019238,,,,,,,,,"[{'food': 'Turmeric', 'content': 'Expected but not quantified', 'references': '[1],[2],[3],[4]'}]","[{'action': 'MODULATE', 'name': 'T-box transcription factor T', 'gene': 'TBXT', 'uniprot': 'O15178'}, {'action': 'MODULATE', 'name': 'Linoleate 9S-lipoxygenase 1', 'gene': 'LOXA', 'uniprot': 'P27480'}]",Not Available,2026-09-29,
+note,,,,,,,,,,,,,,Transcribed from FooDB web pages viewed in a browser on 2026-09-30; bulk CSV blocked by Cloudflare for scripted download.

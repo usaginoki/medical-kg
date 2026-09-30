@@ -1,0 +1,51 @@
+food_group,food_sub_group,food,experimental_method_group,compound_group,compound_sub_group,compound,units,mean,min,max,sd,n,N,nb_of_publications,publication_ids,pubmed_ids
+Alcoholic beverages,Beers,Beer [Alcohol free],Chromatography,Flavonoids,Chalcones,Xanthohumol,mg/100 ml,0.0003,0.0003,0.0003,,1,1,1,640,10070768
+Alcoholic beverages,Beers,Beer [Alcohol free],Chromatography,Flavonoids,Flavanols,(+)-Catechin,mg/100 ml,0.103,0.0,0.45,0.1475,10,10,2,508; 527,15553142
+Alcoholic beverages,Beers,Beer [Alcohol free],Chromatography,Flavonoids,Flavanols,(-)-Epicatechin,mg/100 ml,0.00556,0.0,0.02,0.00882,9,9,1,527,15553142
+Alcoholic beverages,Beers,Beer [Alcohol free],Chromatography,Flavonoids,Flavanones,6-Geranylnaringenin,mg/100 ml,0.0,0.0,0.0,,1,1,1,640,10070768
+Alcoholic beverages,Beers,Beer [Alcohol free],Chromatography,Flavonoids,Flavanones,6-Prenylnaringenin,mg/100 ml,0.0007,0.0007,0.0007,,1,1,1,640,10070768
+Alcoholic beverages,Beers,Beer [Alcohol free],Chromatography,Flavonoids,Flavanones,8-Prenylnaringenin,mg/100 ml,0.0003,0.0003,0.0003,,1,1,1,640,10070768
+Alcoholic beverages,Beers,Beer [Alcohol free],Chromatography,Flavonoids,Flavanones,Isoxanthohumol,mg/100 ml,0.01,0.01,0.01,,1,1,1,640,10070768
+Alcoholic beverages,Beers,Beer [Alcohol free],Chromatography,Flavonoids,Flavonols,Quercetin,mg/100 ml,0.0,0.0,0.0,0.0,9,9,1,527,15553142
+Alcoholic beverages,Beers,Beer [Alcohol free],Chromatography,Other polyphenols,Hydroxybenzaldehydes,Vanillin,mg/100 ml,0.0048,0.0048,0.0048,,1,1,1,508,
+Alcoholic beverages,Beers,Beer [Alcohol free],Chromatography,Other polyphenols,Hydroxybenzoketones,"2,3-Dihydroxy-1-guaiacylpropanone",mg/100 ml,0.0025,0.0025,0.0025,,1,1,1,508,
+Alcoholic beverages,Beers,Beer [Alcohol free],Chromatography,Other polyphenols,Tyrosols,Tyrosol,mg/100 ml,0.27,0.27,0.27,,1,1,1,508,
+Alcoholic beverages,Beers,Beer [Alcohol free],Chromatography,Phenolic acids,Hydroxybenzoic acids,2-Hydroxybenzoic acid,mg/100 ml,0.00111,0.0,0.01,0.00333,9,9,1,527,15553142
+Alcoholic beverages,Beers,Beer [Alcohol free],Chromatography,Phenolic acids,Hydroxybenzoic acids,4-Hydroxybenzoic acid,mg/100 ml,0.0073,0.0073,0.0073,,1,1,1,508,
+Alcoholic beverages,Beers,Beer [Alcohol free],Chromatography,Phenolic acids,Hydroxybenzoic acids,Gallic acid,mg/100 ml,0.0,0.0,0.0,0.0,9,9,1,527,15553142
+Alcoholic beverages,Beers,Beer [Alcohol free],Chromatography,Phenolic acids,Hydroxybenzoic acids,Gentisic acid,mg/100 ml,0.0,0.0,0.0,0.0,9,9,1,527,15553142
+Alcoholic beverages,Beers,Beer [Alcohol free],Chromatography,Phenolic acids,Hydroxybenzoic acids,Protocatechuic acid,mg/100 ml,0.27333,0.0,0.51,0.18848,9,9,1,527,15553142
+Alcoholic beverages,Beers,Beer [Alcohol free],Chromatography,Phenolic acids,Hydroxybenzoic acids,Vanillic acid,mg/100 ml,0.03,0.03,0.03,,1,1,1,508,
+Alcoholic beverages,Beers,Beer [Alcohol free],Chromatography,Phenolic acids,Hydroxycinnamic acids,Caffeic acid,mg/100 ml,0.01045,0.0,0.04,0.01464,10,10,2,508; 527,15553142
+Alcoholic beverages,Beers,Beer [Alcohol free],Chromatography,Phenolic acids,Hydroxycinnamic acids,Ferulic acid,mg/100 ml,0.121,0.0,0.23,0.07475,10,10,2,508; 527,15553142
+Alcoholic beverages,Beers,Beer [Alcohol free],Chromatography,Phenolic acids,Hydroxycinnamic acids,p-Coumaric acid,mg/100 ml,0.04,0.01,0.07,0.02,10,10,2,508; 527,15553142
+Alcoholic beverages,Beers,Beer [Alcohol free],Chromatography,Phenolic acids,Hydroxycinnamic acids,Sinapic acid,mg/100 ml,0.0073,0.0073,0.0073,,1,1,1,508,
+Alcoholic beverages,Beers,Beer [Alcohol free],Folin assay,"Polyphenols, total","Polyphenols, total","Polyphenols, total",mg/100 ml,12.195,5.42,23.0,5.84851,6,6,2,507; 514,12926909; 15853413
+Alcoholic beverages,Beers,Beer [Ale],Chromatography,Flavonoids,Chalcones,Xanthohumol,mg/100 ml,0.015,0.01,0.02,0.00707,2,2,1,640,10070768
+Alcoholic beverages,Beers,Beer [Ale],Chromatography,Flavonoids,Flavanols,(+)-Catechin,mg/100 ml,0.33286,0.0,1.01,0.41983,7,7,2,525; 506,3425922; 15490130
+Alcoholic beverages,Beers,Beer [Ale],Chromatography,Flavonoids,Flavanols,(-)-Epicatechin,mg/100 ml,0.05429,0.0,0.38,0.14363,7,7,2,525; 506,3425922; 15490130
+Alcoholic beverages,Beers,Beer [Ale],Chromatography,Flavonoids,Flavanones,6-Geranylnaringenin,mg/100 ml,0.0011,0.0006,0.0016,0.00071,2,2,1,640,10070768
+Alcoholic beverages,Beers,Beer [Ale],Chromatography,Flavonoids,Flavanones,6-Prenylnaringenin,mg/100 ml,0.01917,0.01,0.02,0.00577,3,12,2,640; 547,10070768; 15712520
+Alcoholic beverages,Beers,Beer [Ale],Chromatography,Flavonoids,Flavanones,8-Prenylnaringenin,mg/100 ml,0.0044,0.0,0.01,0.00306,10,19,3,513; 640; 547,10070768; 15712520
+Alcoholic beverages,Beers,Beer [Ale],Chromatography,Flavonoids,Flavanones,Isoxanthohumol,mg/100 ml,0.21,0.08,0.34,0.18385,2,2,1,640,10070768
+Alcoholic beverages,Beers,Beer [Ale],Chromatography,Flavonoids,Flavonols,Quercetin 3-O-rutinoside,mg/100 ml,0.0,0.0,0.0,0.0,6,6,1,506,15490130
+Alcoholic beverages,Beers,Beer [Ale],Chromatography,Flavonoids,Isoflavonoids,Biochanin A,mg/100 ml,0.0005,0.0005,0.0005,,1,10,1,547,15712520
+Alcoholic beverages,Beers,Beer [Ale],Chromatography,Flavonoids,Isoflavonoids,Daidzein,mg/100 ml,0.0005,0.0005,0.0005,,1,10,1,547,15712520
+Alcoholic beverages,Beers,Beer [Ale],Chromatography,Flavonoids,Isoflavonoids,Genistein,mg/100 ml,0.001,0.001,0.001,,1,10,1,547,15712520
+Alcoholic beverages,Beers,Beer [Ale],Chromatography,Other polyphenols,Alkylmethoxyphenols,4-Vinylguaiacol,mg/100 ml,0.0105,0.0,0.02,0.00873,8,8,2,534; 543,
+Alcoholic beverages,Beers,Beer [Ale],Chromatography,Phenolic acids,Hydroxybenzoic acids,4-Hydroxybenzoic acid,mg/100 ml,0.11333,0.03,0.18,0.07638,3,3,1,572,25664918
+Alcoholic beverages,Beers,Beer [Ale],Chromatography,Phenolic acids,Hydroxybenzoic acids,Gallic acid,mg/100 ml,0.10667,0.03,0.18,0.07506,3,3,1,572,25664918
+Alcoholic beverages,Beers,Beer [Ale],Chromatography,Phenolic acids,Hydroxybenzoic acids,Protocatechuic acid,mg/100 ml,0.06333,0.02,0.1,0.04041,3,3,1,572,25664918
+Alcoholic beverages,Beers,Beer [Ale],Chromatography,Phenolic acids,Hydroxybenzoic acids,Syringic acid,mg/100 ml,0.1075,0.06,0.18,0.055,4,4,2,525; 572,3425922; 25664918
+Alcoholic beverages,Beers,Beer [Ale],Chromatography,Phenolic acids,Hydroxybenzoic acids,Vanillic acid,mg/100 ml,0.2925,0.14,0.54,0.18892,4,4,2,525; 572,3425922; 25664918
+Alcoholic beverages,Beers,Beer [Ale],Chromatography,Phenolic acids,Hydroxycinnamic acids,Caffeic acid,mg/100 ml,0.0075,0.0,0.01,0.005,4,4,2,525; 572,3425922; 25664918
+Alcoholic beverages,Beers,Beer [Ale],Chromatography,Phenolic acids,Hydroxycinnamic acids,Ferulic acid,mg/100 ml,0.3325,0.05,0.76,0.2258,12,12,4,525; 534; 543; 572,3425922; 25664918
+Alcoholic beverages,Beers,Beer [Ale],Chromatography,Phenolic acids,Hydroxycinnamic acids,p-Coumaric acid,mg/100 ml,0.1225,0.09,0.19,0.04573,4,4,2,525; 572,3425922; 25664918
+Alcoholic beverages,Beers,Beer [Ale],Chromatography,Phenolic acids,Hydroxycinnamic acids,Sinapic acid,mg/100 ml,0.07,0.01,0.14,0.06481,4,4,2,525; 572,3425922; 25664918
+Alcoholic beverages,Beers,Beer [Ale],Folin assay,"Polyphenols, total","Polyphenols, total","Polyphenols, total",mg/100 ml,52.32333,32.88,69.6,13.12619,6,6,1,507,12926909
+Alcoholic beverages,Beers,Beer [Dark],Chromatography,Flavonoids,Chalcones,Xanthohumol,mg/100 ml,0.03017,0.0005,0.06,0.02975,3,3,1,640,10070768
+Alcoholic beverages,Beers,Beer [Dark],Chromatography,Flavonoids,Flavanols,(+)-Catechin,mg/100 ml,0.02,0.02,0.02,,1,1,1,525,3425922
+Alcoholic beverages,Beers,Beer [Dark],Chromatography,Flavonoids,Flavanols,(-)-Epicatechin,mg/100 ml,0.01,0.01,0.01,,1,1,1,525,3425922
+Alcoholic beverages,Beers,Beer [Dark],Chromatography,Flavonoids,Flavanones,6-Geranylnaringenin,mg/100 ml,0.00273,0.0001,0.0074,0.00405,3,3,1,640,10070768
+Alcoholic beverages,Beers,Beer [Dark],Chromatography,Flavonoids,Flavanones,6-Prenylnaringenin,mg/100 ml,0.02037,0.0011,0.05,0.02605,3,3,1,640,10070768
+Alcoholic beverages,Beers,Beer [Dark],Chromatography,Flavonoids,Flavanones,8-Prenylnaringenin,mg/100 ml,0.00923,0.0008,0.02,0.00981,3,3,1,640,10070768

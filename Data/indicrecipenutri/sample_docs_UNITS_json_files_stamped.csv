@@ -1,0 +1,7 @@
+file,columns,stamped,rows
+data\corpus\recipes_structured.parquet,270,103,219384
+data\corpus\quality.parquet,25,7,219384
+data\corpus\nutrition.parquet,36,35,219384
+data\corpus\nutrition_derived.parquet,46,29,219384
+data\kg\kg_nodes.parquet,44,33,222537
+data\enrichment\recipe_ifct_fraction.parquet,8,7,218653

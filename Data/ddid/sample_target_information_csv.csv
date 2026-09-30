@@ -1,0 +1,51 @@
+﻿TTD_ID,Target_ID,Target_Name,Highest_status,MOA(Mechanisms of Action),FHDI_Drug_ID
+D0N0TZ,T46937,P2Y purinoceptor 12 (P2RY12),Approved,Antagonist,D00589
+D0TR5X,T27812,Serotonin transporter (SERT),Approved,Modulator,D00160
+D06OIV,T02777,ATP-binding cassette transporter C9 (ABCC9),Approved,Blocker,D00370
+D06OIV,T91480,ATP-binding cassette transporter C8 (ABCC8),Approved,Blocker,D00370
+D0U2OO,T78709,5-HT 1A receptor (HTR1A),Approved,Agonist,D00065
+D0A1DH,T84316,Voltage-gated calcium channel alpha-2/delta-1 (CACNA2D1),Approved,Blocker,D00265
+D0A2ZX,T49814,Bacterial Deoxyribonucleic acid (Bact DNA),Approved,Modulator,D00241
+D05ULR,T94879,HUMAN phosphodiesterase type 5 (PDE5),Phase 3 Trial,Inhibitor,D01334
+D0WI3T,T56915,Human immunodeficiency virus Protease (HIV PR),Approved,Inhibitor,D00756
+D0E3OF,T11843,Vitamin K epoxide reductase complex 1 (VKORC1),Approved,Inhibitor,D01217
+D0D7LA,T08922,Acetyl-CoA carboxylase 2 (ACACB),Approved,Activator,D00230
+D0D7LA,T39676,Solute carrier family 47 member 1 (SLC47A1),Approved,Modulator,D00230
+D0F8RA,T25663,Adenosine receptor (ADOR),Approved,Antagonist,D00032
+D0U6LM,T75440,Translocator protein (TSPO),Approved,Modulator,D00245
+D0A1PX,T66665,Prostaglandin G/H synthase 2 (COX-2),Approved,Modulator,D00162
+D0H0ND,T53585,HMG-CoA reductase (HMGCR),Approved,Inhibitor,D00572
+D0M9BW,T40800,Sodium pump subunit alpha-1 (ATP1A1),Approved,Binder,D00635
+D01KPV,T77913,Histamine H1 receptor (H1R),Approved,Antagonist,D00149
+D0SH3I,T57361,Kallikrein-related peptidase (KLK),Approved,Inhibitor,D00751
+D0SH3I,T27602,Cationic trypsinogen (PRSS1),Approved,Inhibitor,D00751
+D0SH3I,T69707,Proteasome (PS),Approved,Modulator,D00751
+D0EP0C,T72168,Mineralocorticoid receptor  (MR),Approved,Modulator,D00404
+D0NS6H,T30082,Acetylcholinesterase (AChE),Approved,Modulator,D00128
+D0LG8E,T67162,Dopamine D2 receptor (D2R),Approved,Agonist,D00454
+D0I5HF,T84631,Coagulation factor Xa (F10),Approved,Inhibitor,D01057
+D0NJ5H,T31391,Dipeptidyl peptidase 4 (DPP-4),Approved,Inhibitor,D01082
+D07HGR,T82577,Angiotensin-converting enzyme (ACE),Approved,Inhibitor,D00936
+D09KTS,T25005,Tyrosine-protein kinase BTK (ATK),Approved,Inhibitor,D01138
+D0Z5IU,T26623,Aldose reductase (AKR1B1),Approved,Inhibitor,D00822
+D0JE2E,T53585,HMG-CoA reductase (HMGCR),Approved,Inhibitor,D00774
+D0JE2E,T53585,HMG-CoA reductase (HMGCR),Approved,Inhibitor,D01381
+D07KSG,T89534,Estrogen receptor (ESR),Approved,Antagonist,D00829
+D0B7EB,T96144,DNA topoisomerase II (TOP2),Approved,Modulator,D00543
+D06ABF,T77913,Histamine H1 receptor (H1R),Approved,Antagonist,D00211
+D0DD0K,T74456,Angiotensin II receptor type-1 (AGTR1),Approved,Antagonist,D00213
+D0Q2PE,T22348,Bacterial DNA gyrase (Bact gyrase),Approved,Modulator,D00267
+D0O5WP,T43189,Tubulin (TUB),Approved,Inhibitor,D00700
+D04OSE,T82266,Voltage-gated L-type calcium channel (L-CaC),Approved,Modulator,D00259
+D0K3QS,T75243,Serine/threonine-protein kinase mTOR (mTOR),Approved,Inhibitor,D00972
+D08RBC,T27812,Serotonin transporter (SERT),Approved,Inhibitor,D00699
+D0Y3TM,T49493,Hemoglobin (HB),Approved,Activator,D00507
+D0GY5Z,T03403,Prostaglandin G/H synthase (COX),Approved,Inhibitor,D00043
+D0GY5Z,T53585,HMG-CoA reductase (HMGCR),Approved,Inhibitor,D00043
+D0WN0U,T45993,Calcium channel unspecific (CaC),Approved,Blocker,D00142
+D07MVK,T39610,Calmodulin (CALM),Approved,Modulator,D00544
+D01TSI,T81183,Adrenergic receptor Alpha-1 (ADRA1),Approved,Agonist,D00447
+D08HVR,T67162,Dopamine D2 receptor (D2R),Approved,Modulator,D00420
+D06RGG,T79591,Thyroid hormone receptor alpha (THRA),Approved,Antagonist,D00403
+D0U5QK,T03403,Prostaglandin G/H synthase (COX),Approved,Inhibitor,D00019
+D0U5QK,T21945,Norepinephrine transporter (NET),Approved,Inhibitor,D00019

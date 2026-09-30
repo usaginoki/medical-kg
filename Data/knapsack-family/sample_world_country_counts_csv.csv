@@ -1,0 +1,37 @@
+country_code,country,matched,edible,medicinal,rows_parsed
+ARE,United Arab Emirates,7,6,1,7
+SAU,Kingdom of Saudi Arabia,71,53,18,71
+OMN,Sultanate of Oman,8,4,4,8
+QAT,State of Qatar,11,1,10,11
+KWT,State of Kuwait,11,4,7,11
+BHR,Kingdom of Bahrain,23,4,19,23
+YEM,Republic of Yemen,13,9,4,13
+IRN,Islamic Republic of Iran,150,60,90,150
+IRQ,Republic of Iraq,107,19,88,107
+JOR,Hashemite Kingdom of Jordan,386,22,364,386
+SYR,Syrian Arab Republic,163,137,26,163
+LBN,Republic of Lebanon,532,101,431,532
+ISR,State of Israel,273,150,123,273
+TUR,Republic of Turkey,569,201,368,569
+EGY,Arab Republic of Egypt,487,190,297,487
+MAR,Kingdom of Morocco,263,154,109,263
+KAZ,Republic of Kazakhstan,8,7,1,8
+UZB,Republic of Uzbekistan,20,11,9,20
+KGZ,Kyrgyz Republic,39,39,0,39
+TJK,Republic of Tajikistan,18,8,10,18
+TKM,Turkmenistan,99,6,93,99
+AFG,Islamic Republic of Afghanistan,34,21,13,34
+PAK,Islamic Republic of Pakistan,230,147,83,230
+IND,Republic of India,3685,742,2943,3685
+BGD,People's Republic of Bangladesh,768,147,621,768
+NPL,State of Nepal,1035,328,707,1035
+LKA,Democratic Socialist Republic of Sri Lanka,91,54,37,91
+CHN,People's Republic of China,5090,1643,3447,5090
+KOR,Republic of Korea,442,85,357,442
+JPN,Japan,3492,2835,657,3492
+MNG,Mongol Uls,252,91,161,252
+IDN,Republic of Indonesia,2127,786,1341,2127
+MYS,Malaysia,865,376,489,865
+THA,The Kingdom of Thailand,2554,705,1849,2554
+VNM,Socialist Republic of Viet Nam,440,83,357,440
+PHL,Republic of the Philippines,963,482,481,963

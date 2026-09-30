@@ -1,0 +1,51 @@
+id,name,unit_name,nutrient_nbr,rank
+2047,Energy (Atwater General Factors),KCAL,957.0,280.0
+2048,Energy (Atwater Specific Factors),KCAL,958.0,290.0
+1001,Solids,G,201.0,200.0
+1002,Nitrogen,G,202.0,500.0
+1003,Protein,G,203.0,600.0
+1004,Total lipid (fat),G,204.0,800.0
+1005,"Carbohydrate, by difference",G,205.0,1110.0
+1006,"Fiber, crude (DO NOT USE - Archived)",G,206.0,999999.0
+1007,Ash,G,207.0,1000.0
+1008,Energy,KCAL,208.0,300.0
+1009,Starch,G,209.0,2200.0
+1010,Sucrose,G,210.0,1600.0
+1011,Glucose,G,211.0,1700.0
+1012,Fructose,G,212.0,1800.0
+1013,Lactose,G,213.0,1900.0
+1014,Maltose,G,214.0,2000.0
+1015,Amylose,G,218.0,999999.0
+1016,Amylopectin,G,219.0,999999.0
+1017,Pectin,G,220.0,999999.0
+1018,"Alcohol, ethyl",G,221.0,18200.0
+1019,Pentosan,G,222.0,999999.0
+1020,Pentoses,G,223.0,999999.0
+1021,Hemicellulose,G,224.0,999999.0
+1022,Cellulose,G,225.0,999999.0
+1023,pH,PH,226.0,999999.0
+1024,Specific Gravity,SP_GR,227.0,8955.0
+1025,Organic acids,G,229.0,2850.0
+1026,Acetic acid,MG,230.0,2900.0
+1027,Aconitic acid,MG,231.0,3000.0
+1028,Benzoic acid,MG,232.0,3100.0
+1029,Chelidonic acid,MG,233.0,3200.0
+1030,Chlorogenic acid,MG,234.0,3300.0
+1031,Cinnamic acid,MG,235.0,3400.0
+1032,Citric acid,MG,236.0,3500.0
+1033,Fumaric acid,MG,237.0,3600.0
+1034,Galacturonic acid,MG,238.0,3700.0
+1035,Gallic acid,MG,239.0,3800.0
+1036,Glycolic acid,MG,240.0,3900.0
+1037,Isocitric acid,MG,241.0,4000.0
+1038,Lactic acid,MG,242.0,4100.0
+1039,Malic acid,MG,243.0,4200.0
+1040,Oxaloacetic acid,MG,244.0,4300.0
+1041,Oxalic acid,MG,245.0,4400.0
+1042,Phytic acid,MG,246.0,4500.0
+1043,Pyruvic acid,MG,247.0,4600.0
+1044,Quinic acid,MG,248.0,4700.0
+1045,Salicylic acid,MG,249.0,4800.0
+1046,Succinic acid,MG,250.0,4900.0
+1047,Tartaric acid,MG,251.0,5000.0
+1048,Ursolic acid,MG,252.0,5100.0

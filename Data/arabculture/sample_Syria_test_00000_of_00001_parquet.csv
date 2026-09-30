@@ -1,0 +1,138 @@
+worker_id,sample_id,sub_topic,first_statement,options,answer_key,relevant_to_this_country,relevant_to_other_countries,should_discard,country,region
+Syria-1,1 | Breakfast,الافطار,حضّرنا الفول يوم الجمعة بعد الصلاة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تناولنا الفول مع السكر و الشوكولا',
+       ' هرسنا الفول حتى اصبح في قوام واحد',
+       ' تناولنا الفول مع البندورة و الكثير من الزيت'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Syria,Levant
+Syria-1,2 | Breakfast,الافطار,يريد احمد ان ياكل فطور سريع و خفيف,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['اشترى نابلسية من محل الحلويات', ' اشترى شاورما من المطعم',
+       ' اشترى المعجنات بالجبن و الزعتر من الفرن'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Syria,Levant
+Syria-1,3 | Breakfast,الافطار,تؤكل الفتة على الفطور و فيها العديد من المكونات اللذيذة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['أحد مكوناتها الأساسية هو اللبن و الطحينة',
+       ' يدخل في مكونات أكلة الفتة الشوكولا',
+       ' يدخل في مكونات أكلة الفتة الحليب'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Syria,Levant
+Syria-1,4 | Breakfast,الافطار,الفلافل هي عبارة عن عجينة و تقلى بالزيت,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['أحد مكونات عجينة الفلافل هو الحمص',
+       ' أحد مكونات عجينة الفلافل هو الجوز',
+       ' أحد مكونات عجينة الفلافل هو الفول'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Syria,Levant
+Syria-1,5 | Breakfast,الافطار,الكشكة الجافة فطور مغذي و دافئ في الايام الباردة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['هي مثل الشاكرية تحتوي على اللبن واللحم',
+       ' هي مثل الحساء و توضع في طبق و يفت معها الخبز',
+       ' هي مثل الحساء توضع في طبق و يرش عليها البهارات'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Syria,Levant
+Syria-1,6 | Lunch,الغداء,من مزايا اكلة اليبرق احتواؤها على اللحم و الدهن و نكهتها الحامضة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يوضع معها ايضا الكثير من الدهن', ' يوضع معها ايضا مرق الدجاج',
+       ' يوضع معها ايضا الكثير من العنب'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Syria,Levant
+Syria-1,7 | Lunch,الغداء,شاورما الدجاج تشوى على السيخ و تقطع الى شرائح,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['بعدها تُلف في خبزة مليئة بالدهن و تقدم مع كريم الثوم',
+       ' بعدها تؤكل مع الفول على الافطار',
+       ' بعدها تلف في خبزة مليئة بالدهن و تقدم مع الكتشب'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Syria,Levant
+Syria-1,8 | Lunch,الغداء,احمد قدم لنا شرحات اللحم المقلية في السمن,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['خفف من حرارتها باضافة الحمض و الثوم فوقها',
+       ' خفف حرارتها بالنفخ عليها', ' خفف حرارتها بوضعها في الثلاجة'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Syria,Levant
+Syria-1,9 | Lunch,الغداء,تجفف اوراق الملوخية عن طريق وضعها في الهواء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['بعدها تكون جاهزة لتوضع مع السلطة',
+       ' بعدها تكون جاهزة لتقدم كعصير منعش',
+       ' بعدها تكون جاهزة للطهي بوضع مرق اللحم لها'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Syria,Levant
+Syria-1,10 | Lunch,الغداء,لين تحضر الشاكرية على الغداء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['وضعت اللحم في الطبق و قدمتها مع الرز',
+       ' وضعت اللحم في اللبن و قدمتها مع الارز',
+       ' وضعت اللحم في المرق و قدمتها مع الرز'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Syria,Levant
+Syria-1,11 | Dinner,العشاء,يقدم نخاع الغنم مشويا,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يؤكل نخاع الغنم مشويا مع السلطة',
+       ' يؤكل نخاع الغن مشويا مع الكتشب',
+       ' يؤكل نخاع الغنم مشويا مع الليمون و البصل'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Syria,Levant
+Syria-1,12 | Dinner,العشاء,قدم لنا الشيف مسَبَّحة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تناولنا المسَبَّحة مع الكراميل و الحلويات',
+       ' تناولنا المسَبَّحة مع اللحم المشوح بالدهن',
+       ' تناولنا المسَبَّحة مع الخضار'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Syria,Levant
+Syria-1,13 | Iftar (Ramadan),افطار رمضان,قدمت بتول شوربة العدس مع الطبق الرئيسي,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['أحد مكونات هذه الشوربة هو الحمص',
+       'أحد مكونات هذه الشوربة هو مرق العظام',
+       ' أحد مكونات هذه الشوربة هو الجزر'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Syria,Levant
+Syria-1,14 | Iftar (Ramadan),افطار رمضان,البرك بالجبن تقدم مشوية او مقلية و هي من المقبلات,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تؤكل في رمضان جانب الطبق الرئيسي', ' تؤكل على الفطور صباحا',
+       ' تؤكل في رمضان كطبق الرئيسي'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",No,Yes,No,Syria,Levant
+Syria-1,15 | Iftar (Ramadan),افطار رمضان,عجينة الكبة تستخدم لكثير من الاطباق,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['معظم اطباق الكبة تؤكل كوجبة رئيسية',
+       ' معظم اطباق الكبة تؤكل على الافطار',
+       ' معظم اطباق الكبة تؤكل كوجبة خفيفة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Syria,Levant
+Syria-1,16 | Iftar (Ramadan),افطار رمضان,شراب التمر هندي اشهر مشروب في رمضان,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['طعمه حامض مثل الليمون', ' طعمه حلو مثل السكر',
+       ' يحتوي على توازن رائع ما بين الطعم الحلو و الحامض'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Syria,Levant
+Syria-1,18 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),الجبن و البطيخ اساسيان على السحور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتميزان بمزيج من الطعم الحلو و المالح اللذيذ',
+       ' يتميزان بطعم حلو و السكري', ' يتميزان بطعم مالح و قوي'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",No,Yes,No,Syria,Levant
+Syria-1,19 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),حضرت سيدرة المعكرونة بالجبنة البيضاء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['ميزتها انها غير مناسبة للصيام و نهار رمضان',
+       ' ميزتها انها سريعة التحضير و مناسبة للصيام',
+       ' ميزتها انها معقدة في التحضير كثيرا'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",No,Yes,No,Syria,Levant
+Syria-1,20 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),تحلى احمد على السحور ببعض من مربى الفريز مع الزبدة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يحتاج احمد الى مربى الفريز كي يلعب بالكرة',
+       ' يحتاج احمد الى مربى الفريز لانه يجعله يشبع',
+       ' يحتاج احمد لى مربى الفريز ليعطيه الطاقة في رمضان'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Syria,Levant
+Syria-1,21 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),احمد يحب ان يشرب كأس شاي السحور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['اضاف احمد الليمون الى الشاي من اجل زيادة حموضته',
+       ' اضاف احمد الفانيلا إلى الشاي من اجل تعديل طعمه',
+       ' اضاف احمد السكر إلى الشاي من أجل الاستمداد بالطاقة'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",No,Yes,No,Syria,Levant
+Syria-1,22 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),قدمت سيدرا البيض المقلي مع اللحم على السحور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['اكلت سيدرة البيض باردا',
+       ' اكلت سيدرة البيض بالخبز السوري مع البندورة',
+       ' اكلت سيدرة البيض بالملعقة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Syria,Levant
+Syria-1,23 | Dessert,حلوى,تعد النابلسية من عجينة الكنافة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تفرد العجينة على صينية مع الشوكولا و تشوى',
+       ' تفرد العجينة على صينية مع الجبن و تشوى حتى يذوب الجبن',
+       ' تؤكل العجينة نيئة دون شوي'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",No,Yes,No,Syria,Levant
+Syria-1,24 | Dessert,حلوى,من أجود أنواع الحلويات هي البقلاوة بالفستق,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقدم البقلاوى بالفستق مع الخضار',
+       ' تقدم البقلاوى بالفستق مع الشوكولا',
+       ' تقدم البقلاوى بالفستق مع القطر'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Syria,Levant
+Syria-1,25 | Dessert,حلوى,اشترى أحمد قطعة وربات بالقشطة من السوق,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['لاحظ احمد ان العنصر الرئيسي في الوربات بالقشطة هي الشوكولا',
+       ' لاحظ احمد ان العنصر الرئيسي في الوربات بالقشطة هو الملح',
+       ' لاحظ احمد ان العنصر الرئيسي في الوربات بالقشطة هي القسطة'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Syria,Levant
+Syria-1,26 | Fruits,فاكهة,اشترينا أنا و ياسر الكثير من الحمضيات,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' قمنا بصنع الكثير من انواع العصير و الحلويات',
+       ' قمنا بتحضير الغداء', ' قمنا بتحضير الافطار'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Syria,Levant
+Syria-1,27 | Fruits,فاكهة,ذهبت أنا و صديقي لشراء التين,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['عدنا وصنعنا سلطة التين', ' عدنا و صنعنا مخلل التين',
+       ' عدنا و صنعنا مربى التين'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Syria,Levant
+Syria-1,28 | Fruits,فاكهة,عدت من العمل و اعطتني امي حبة دراق,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قشرتها و أكلتها مع الأرز', ' قشرتها و أكلتها كانت حلوة المذاق',
+       ' قطعتها و وضعتها في السلطة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",No,Yes,No,Syria,Levant
+Syria-1,30 | Snacks,وجبات خفيفة,أحضر لنا أبي المكسرات من اجل السهرة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تناولت صحن من الفول و أنا أشاهد الفلم',
+       ' تناولت الشاكرية و أنا أشاهد الفلم',
+       ' تناولت الكاجو و الفستق و أنا أشاهد فلم'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",No,Yes,No,Syria,Levant
+Syria-1,1 | wedding location,مكان الزواج,حجز سمير الصالة ليقيم فيها حفلة عرسه,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['كانت الصالة كبيرة و فيها منصة في وسطها',
+       ' كانت الصالة مفتوحة في وسط الحديقة',
+       ' حفلة العرس الخاصة بسمير ستقام في الجامع'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",No,Yes,No,Syria,Levant
+Syria-1,2 | wedding food,طعام الزواج,قدم العريس حلوى المحلاية للضيوف في عرسه,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['كانت مزينة باللحم و الدهن',
+       ' كانت مزينة بالمكسرات و الكريمة المخفوقة',
+       ' كانت مزينة بالشوكولا و القشطة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Syria,Levant
+Syria-1,3 | wedding dowry,مهر الزواج,ذهب سمير و اتفق مع والد العروس على مهر الزواج,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['كان المهر عبارة عن كأس عصير وعلبة تمر',
+       ' كان المهر عبارة عن عدد محدد من العملات الذهبية',
+       ' كان المهر عبارة عن رحلة سفر إلى أوروبا'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Syria,Levant
+Syria-1,4 | wedding (other logistics),تجهيزات أخرى للزواج,ذهبنا إلى محل الزهور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['اخترنا الأزهار المناسبة و لونها المناسب',
+       ' اخترنا نوع واحد من الازهار', ' أخذنا زهرة واحدة فقط'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",No,Yes,No,Syria,Levant
+Syria-1,5 | wedding (other logistics),تجهيزات أخرى للزواج,أخذنا السيارة لنزينها,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['نفخنا دولاب السيارة', ' أصلحنا السيارة و غيرنا المحرك',
+       ' وضعنا الأزهار و الألوان المناسبة لحفل الزفاف'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",No,Yes,No,Syria,Levant
+Syria-1,6 | men cermony vs. women cermony,احتفالات الزواج للرجال vs احتفالات الزواج للنساء,اجتمع محمد و أصدقاؤه في الصالة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قاموا بلعب العاب الفيديو',
+       ' قاموا بعمل عراضة و تهنئة العريس و مدحه',
+       ' قاموا بضرب العريس و توبيخه'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Syria,Levant
+Syria-1,8 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,أتت فرقة العراضة الى العرس,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تختص فرقة العراضة بتعزية العريس',
+       ' تختص فرقة العراضة بتوبيخ العريس',
+       ' تختص فرقة العراضة بتهنئة العريس'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Syria,Levant
+Syria-1,9 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,هناك اثنين في فرقة العراض معهم سيف و ترس,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['وظيفتها تقطيع الكيك', ' وظيفتها تقطيع اللحم',
+       ' وظيفتهما المبارزة و الاستعراض اما الحضور'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Syria,Levant
+Syria-1,10 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,كان هناك فرقة إنشاد في العرس,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تختص هذه الفرقة بعزف الجيتار',
+       ' تختص هذه الفرقة بمديح النبي ﷺ و تهنئة العريس',
+       ' تختص هذه الفرقة بتقديم الضيافة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Syria,Levant
+Syria-1,11 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,اشتغلت الأغاني و اجتمع الشباب سوية,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['اصطف الشباب بجانب بعضهم و بدأوا يدبكون',
+       ' اصطف الشباب بجانب بعضهم لشرب القهوة',
+       ' اصطف الشباب بجانب بعضهم لاخذ الاعلم'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Syria,Levant
+Syria-1,12 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,انتهت حفلة العروس,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['عند انتهائها بدؤوا الدبكة',
+       ' عند انتهائها زلغطو النساء و دعو لها',
+       ' عند انتهائها قدمو الطعام'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Syria,Levant
+Syria-1,1 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,تحضر اسراء عجينة المعمول,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['ثم تقوم بحشيها باللحم او الخضار و تشويها بالفرن',
+       ' ثم تثوم بحشيها بالشوكلا و تشويها بالفرن',
+       ' ثم تقوم بحشيها بالعجة او الجوز و تشويها بالفرن'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Syria,Levant
+Syria-1,2 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,تستقيظ سارة صباح يوم عيد المولد النبوي الشريف,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['ثم تقوم بتحضير الافطار على الفور', ' ثم تقوم بتحضير الكبة',
+       ' ثم تقوم بتحضير الرز بالحليب'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Syria,Levant
+Syria-1,3 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,بادرت اسراء في حشي عجينة المعمول بحشوات مختلفة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['فتوضع في البراد لتبرد', ' فتوضع في الفرن مباشرة',
+       ' فتوضع في قالب و تشكل و تحشى بالتمر او الفستق'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Syria,Levant
+Syria-1,4 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,قبل عيد الفطر بايام ذهبت الى السوق,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['اشتريت سيارة جديدة', ' اشتريت منزل جديد',
+       ' اشتريت ملابس العيد الجديدة'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Syria,Levant
+Syria-1,6 | traditions during religous holidays,العادات في الأعياد الدينية,خرجت كل عائلة احمد يوم عيد الفطر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['اجتمعو في منزل جيران احمد', ' اجتمعو في منزل صديق احمد المفضل',
+       ' اجتمعوا في منزل جد احمد كبير عائلتهم'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Syria,Levant
+Syria-1,7 | traditions during religous holidays,العادات في الأعياد الدينية,أتى اسراء ضيوف في عيد الفطر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قدمت اسراء لهم المعمول بالعجوة او المكسرات',
+       ' قدمت اسراء لهم اللحم و السلطة', ' قدمت اسراء لهم الكيك و الشاي'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Syria,Levant
+Syria-1,8 | traditions during religous holidays,العادات في الأعياد الدينية,حضَّر محمد نفسه للخروج من المنزل في عيد الفطر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['لبس احمد ملابسه الجديدة التي اشتراها', ' لبس احمد ملابس العمل',
+       ' لبس احمد ملابسه القديمة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Syria,Levant
+Syria-1,9 | traditions during religous holidays,العادات في الأعياد الدينية,يذبح كمية كبيرة من الخرفان في عيد الاضحى,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['ثم تستخدم في الصناعات الغذائية في المعامل',
+       ' ثم يوزع لحمها على الفقراء و الاقارب',
+       ' ثم تؤخذ للمطاعم و يتم بيعها'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Syria,Levant
+Syria-1,11 | traditions during religous holidays,العادات في الأعياد الدينية,الاولاد الصغار يسطفون عند الكبار في عيد الفطر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['ثم يأخذون الحلوى من الكبار واحد تلوة الاخر',
+       ' ثم يأكلون الطعام سويتا',
+       ' ثم يأخذون المال من الكبار واحد تلو الآخر'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Syria,Levant
+Syria-1,12 | traditions during religous holidays,العادات في الأعياد الدينية,يذهب طلاب العلم إلى الجوامع,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['ليلعبوا ألعاب الفيديو', ' ليسمعوا الأغاني و يحتفلوا',
+       ' لينشؤوا حلقة ذكر و يسبحون الله'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Syria,Levant
+Syria-1,13 | traditions during religous holidays,العادات في الأعياد الدينية,أحضر والدي التمر هندي لأمي,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['عصرته و حضرته لتقدمه للضيوف كشراب بارد',
+       ' عصرته و حضرته لتقدمه للضيوف كوجبة غداء',
+       ' عصرته و حضرته لتقدمه للضيوف كشراب ساخن'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Syria,Levant

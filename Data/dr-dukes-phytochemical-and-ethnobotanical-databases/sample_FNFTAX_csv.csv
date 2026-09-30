@@ -1,0 +1,51 @@
+FNFNUM,TAXON,TAXAUTHOR,GENUS,SPECIES,SUBSPECIES,VARIETY,FORMA,CULTIVAR,SPAUT,SPSAUT,SPVAUT,SPFAUT,CULTAUT,FAMILY,SPCMT,PLCO,TAXNO,VALIDTAXNO,GRINVERIFY,USEAGE,USERID,CREATED,MODIFIED
+1,Abelmoschus esculentus,(L.) MOENCH,Abelmoschus,esculentus,,,,,(L.) MOENCH,,,,,Malvaceae,,,619.0,619.0,,F,DUKE,10-DEC-97,15-JUL-05
+2,Abelmoschus manihot,(L.) MEDIK.,Abelmoschus,manihot,,,,,(L.) MEDIK.,,,,,Malvaceae,,,621.0,621.0,,F,DUKE,10-DEC-97,15-JUL-05
+3,Abelmoschus moschatus,MEDIK.,Abelmoschus,moschatus,,,,,MEDIK.,,,,,Malvaceae,,375035002.0,623.0,623.0,,G,DUKE,10-DEC-97,15-JUL-05
+4,Abies alba,MILLER,Abies,alba,,,,,MILLER,,,,,Pinaceae,,11010002.0,629.0,629.0,,M,DUKE,10-DEC-97,15-JUL-05
+5,Abies balsamea,(L.) MILLER,Abies,balsamea,,,,,(L.) MILLER,,,,,Pinaceae,,11010003.0,635.0,635.0,,M,DUKE,10-DEC-97,15-JUL-05
+6,Abies sachalinensis,MASTERS,Abies,sachalinensis,,,,,MASTERS,,,,,Pinaceae,,,713.0,713.0,,M,DUKE,10-DEC-97,15-JUL-05
+7,Abrus precatorius,L.,Abrus,precatorius,,,,,L.,,,,,Fabaceae,Synonyms: Glycine abrus L.,,739.0,739.0,,M,DUKE,10-DEC-97,15-JUL-05
+8,Acacia catechu,(L. f.) WILLD.,Acacia,catechu,,,,,(L. f.) WILLD.,,,,,Fabaceae,,283012058.0,803.0,803.0,,M,DUKE,10-DEC-97,15-JUL-05
+9,Acacia decurrens,(WENDL.) WILLD.,Acacia,decurrens,,,,,(WENDL.) WILLD.,,,,,Fabaceae,,283012027.0,822.0,822.0,,G,DUKE,10-DEC-97,15-JUL-05
+10,Acacia farnesiana,(L.) WILLD.,Acacia,farnesiana,,,,,(L.) WILLD.,,,,,Fabaceae,,,844.0,844.0,,G,DUKE,10-DEC-97,15-JUL-05
+1439,Acacia lenticularis,,Acacia,lenticularis,,,,,,,,,,Fabaceae,,,903.0,903.0,,M,DUKE,10-DEC-97,15-JUL-05
+11,Acacia leucophloea,(ROXB.) WILLD.,Acacia,leucophloea,,,,,(ROXB.) WILLD.,,,,,Fabaceae,,283012061.0,906.0,906.0,,G,DUKE,10-DEC-97,15-JUL-05
+12,Acacia melanoxylon,R. BR.,Acacia,melanoxylon,,,,,R. BR.,,,,,Fabaceae,,283012010.0,926.0,926.0,,G,DUKE,10-DEC-97,15-JUL-05
+1440,Acacia modesta,,Acacia,modesta,,,,,,,,,,Fabaceae,,,932.0,932.0,,M,DUKE,10-DEC-97,15-JUL-05
+13,Acacia nilotica,(L.) WILLD. ex DELILE,Acacia,nilotica,,,,,(L.) WILLD. ex DELILE,,,,,Fabaceae,,283012003.0,312499.0,312499.0,,G,DUKE,10-DEC-97,15-JUL-05
+14,Acacia senegal,(L.) WILLD.,Acacia,senegal,,,,,(L.) WILLD.,,,,,Fabaceae,"Synonyms: Acacia verek, Mimosa senegal, Senegalia senegal",283012005.0,984.0,984.0,,G,DUKE,10-DEC-97,15-JUL-05
+15,Acacia tortilis,(FORSSK.) HAYNE,Acacia,tortilis,,,,,(FORSSK.) HAYNE,,,,,Fabaceae,,283012014.0,312504.0,312504.0,,G,DUKE,10-DEC-97,15-JUL-05
+16,Acalypha indica,L.,Acalypha,indica,,,,,L.,,,,,Euphorbiaceae,,328122004.0,400002.0,400002.0,,G,DUKE,10-DEC-97,15-JUL-05
+17,Acanthopanax gracilistylis,W.W.SMITH,Acanthopanax,gracilistylis,,,,,W.W.SMITH,,,,,Araliaceae,,,,,,M,DUKE,10-DEC-97,15-JUL-05
+1288,Acanthospermum hispidum,DC,Acanthospermum,hispidum,,,,,DC,,,,,Asteraceae,,,1077.0,1077.0,,,DUKE,10-DEC-97,15-JUL-05
+1443,Acanthus ilicifolius,,Acanthus,ilicifolius,,,,,,,,,,Acanthaceae,,,1079.0,1079.0,,M,DUKE,10-DEC-97,15-JUL-05
+18,Achillea millefolium,L.,Achillea,millefolium,,,,,L.,,,,,Asteraceae,"Syns:ssp borealis, lanulosa,occid.,A.borealis,lanulosa,magna",580603001.0,1270.0,1270.0,,G,DUKE,10-DEC-97,15-JUL-05
+19,Achillea moschata,JACQ.,Achillea,moschata,,,,,JACQ.,,,,,Asteraceae,,,,,,G,DUKE,10-DEC-97,15-JUL-05
+20,Achyranthes aspera,BLUME,Achyranthes,aspera,,,,,BLUME,,,,,Amaranthaceae,,,401486.0,401486.0,,G,DUKE,10-DEC-97,15-JUL-05
+21,Achyranthes bidentata,BLUME,Achyranthes,bidentata,,,,,BLUME,,,,,Amaranthaceae,,153040005.0,1314.0,1314.0,,G,DUKE,10-DEC-97,15-JUL-05
+1414,Acinos alpinus var. meridionalis,(NYMAN) P.W.BALL,Acinos,alpinus,,meridionalis,,,(L.) MOENCH.,,(NYMAN) P.W.BALL,,,Lamiaceae,,,,,,M,DUKE,10-DEC-97,15-JUL-05
+1973,Acinos sp,,Acinos,sp,,,,,,,,,,Lamiaceae,,,,,,M,DUKE,10-DEC-97,15-JUL-05
+1981,Acinos suaveolens,(SIBT. & SMITH) G. DON F.,Acinos,suaveolens,,,,,(SIBT. & SMITH) G. DON F.,,,,,Lamiaceae,,,,,,M,DUKE,10-DEC-97,15-JUL-05
+1441,Acinos thymoides,,Acinos,thymoides,,,,,,,,,,Lamiaceae,,,,,,M,DUKE,10-DEC-97,15-JUL-05
+22,Acokanthera schimperi,(A. DC.) OLIV.,Acokanthera,schimperi,,,,,(A. DC.) OLIV.,,,,,Apocynaceae,Synonyms: Carissa schimperi A. DC.,,411730.0,411730.0,,M,DUKE,10-DEC-97,15-JUL-05
+23,Aconitum carmichaelii,DEBX.,Aconitum,carmichaelii,,,,,DEBX.,,,,,Ranunculaceae,,,400011.0,400011.0,,M,DUKE,10-DEC-97,15-JUL-05
+24,Aconitum napellus,L.,Aconitum,napellus,,,,,L.,,,,,Ranunculaceae,,189020001.0,1347.0,1347.0,,M,DUKE,10-DEC-97,15-JUL-05
+25,Acorus calamus,L.,Acorus,calamus,,,,,L.,,,,,Acoraceae,,44011001.0,1358.0,1358.0,,M,DUKE,10-DEC-97,15-JUL-05
+1269,Acrocomia totai,MART.,Acrocomia,totai,,,,,MART.,,,,,Arecaceae,,,,,,,DUKE,10-DEC-97,15-JUL-05
+1442,Acrotrema arnottianum,,Acrotrema,arnottianum,,,,,,,,,,Dilleniaceae,,,,,,M,DUKE,10-DEC-97,15-JUL-05
+1159,Acrotrema uniflorum,HOOK.,Acrotrema,uniflorum,,,,,HOOK.,,,,,Dilleniaceae,,,,,,M,DUKE,10-DEC-97,15-JUL-05
+26,Actaea pachypoda,ELL.,Actaea,pachypoda,,,,,ELL.,,,,,Ranunculaceae,Synonyms: Actaea alba auct.,,404128.0,404128.0,,M,DUKE,10-DEC-97,15-JUL-05
+27,Actaea rubra,,Actaea,rubra,,,,,,,,,,Ranunculaceae,,,1383.0,1383.0,,M,DUKE,10-DEC-97,15-JUL-05
+28,Actaea spicata,L.,Actaea,spicata,,,,,L.,,,,,Ranunculaceae,,,1385.0,1385.0,,M,DUKE,10-DEC-97,15-JUL-05
+29,Actinidia chinensis,PLANCHON,Actinidia,chinensis,,,,,PLANCHON,,,,,Actinidiaceae,,382010001.0,1405.0,1405.0,,F,DUKE,10-DEC-97,15-JUL-05
+30,Actinidia polygama,(SIEBOLD & ZUCC.) MAXIM.,Actinidia,polygama,,,,,(SIEBOLD & ZUCC.) MAXIM.,,,,,Actinidiaceae,Synonyms: Trochostigma polygama Siebold & Zucc.,,1411.0,1411.0,,F,DUKE,10-DEC-97,15-JUL-05
+1692,Adansonia digitata,,Adansonia,digitata,,,,,,,,,,Bombacaceae,,,1433.0,1433.0,,M,DUKE,10-DEC-97,15-JUL-05
+1826,Adenocarpus complicatus,,Adenocarpus,complicatus,,,,,,,,,,Fabaceae,,,1453.0,1453.0,,M,DUKE,10-DEC-97,15-JUL-05
+1827,Adenocarpus decorticans,,Adenocarpus,decorticans,,,,,,,,,,Fabaceae,,,406159.0,406159.0,,M,DUKE,10-DEC-97,15-JUL-05
+1828,Adenocarpus foliolosus,,Adenocarpus,foliolosus,,,,,,,,,,Fabaceae,,,1454.0,1454.0,,M,DUKE,10-DEC-97,15-JUL-05
+31,Adiantum capillus-veneris,L.,Adiantum,capillus-veneris,,,,,L.,,,,,Pteridaceae,,4004.0,401925.0,401925.0,,M,DUKE,10-DEC-97,15-JUL-05
+32,Adiantum pedatum,L.,Adiantum,pedatum,,,,,L.,,,,,Pteridaceae,,,401921.0,401921.0,,M,DUKE,10-DEC-97,15-JUL-05
+33,Adonis vernalis,L.,Adonis,vernalis,,,,,L.,,,,,Ranunculaceae,,,1505.0,1505.0,,M,DUKE,10-DEC-97,15-JUL-05
+1212,Aegle marmelos,CORREA,Aegle,marmelos,,,,,CORREA,,,,,Rutaceae,,,1560.0,1560.0,,F,DUKE,10-DEC-97,15-JUL-05
+1974,Aeolanthus myriantha,BAKER,Aeolanthus,myriantha,,,,,BAKER,,,,,Lamiaceae,Aeolanthus gamwellae Taylor,,,,,M,DUKE,10-DEC-97,15-JUL-05

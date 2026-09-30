@@ -1,0 +1,51 @@
+subset,culture,ID,en_question,en_answer,en_answer_variants,local_answers,count
+BLEnD-2024,Algeria,Al-en-01,What is a common snack for preschool kids in Algeria?,jam sandwiches,jam sandwiches; jam and butter sandwiches,شطائر الخبز بالمربى; خبز بالمربى والزبدة,2
+BLEnD-2024,Algeria,Al-en-01,What is a common snack for preschool kids in Algeria?,croissant,croissant,هلالية; كرواسان,1
+BLEnD-2024,Algeria,Al-en-01,What is a common snack for preschool kids in Algeria?,milk,milk,حليب; الحليب,1
+BLEnD-2024,Algeria,Al-en-01,What is a common snack for preschool kids in Algeria?,snack,snack,اللمجة; لمجة,1
+BLEnD-2024,Algeria,Al-en-04,What is the most popular fruit in Algeria?,orange,orange,البرتقال,5
+BLEnD-2024,Algeria,Al-en-04,What is the most popular fruit in Algeria?,dates,dates,التمر,2
+BLEnD-2024,Algeria,Al-en-04,What is the most popular fruit in Algeria?,bananas,bananas,الموز,1
+BLEnD-2024,Algeria,Al-en-04,What is the most popular fruit in Algeria?,watermelon,watermelon,البطيخ,1
+BLEnD-2024,Algeria,Al-en-06,What is a common school cafeteria food in Algeria?,lentils,lentils; lentil,العدس,1
+BLEnD-2024,Algeria,Al-en-08,What are the most commonly eaten snacks at shopping malls in Algeria?,pizza,pizza,بيتزا; البيتزا,3
+BLEnD-2024,Algeria,Al-en-08,What are the most commonly eaten snacks at shopping malls in Algeria?,hamburger,hamburger; burger,همبرقر; برغر,2
+BLEnD-2024,Algeria,Al-en-08,What are the most commonly eaten snacks at shopping malls in Algeria?,shawarma,shawarma,شوارمة,1
+BLEnD-2024,Algeria,Al-en-08,What are the most commonly eaten snacks at shopping malls in Algeria?,ice cream,ice cream,الآيس كريم,1
+BLEnD-2024,Algeria,Al-en-08,What are the most commonly eaten snacks at shopping malls in Algeria?,sandwich,sandwich,سندويتش,1
+BLEnD-2024,Algeria,Al-en-09,What is a popular snack at an amusement park in Algeria?,cotton candy,cotton candy,غزل البنات,2
+BLEnD-2024,Algeria,Al-en-09,What is a popular snack at an amusement park in Algeria?,ice cream,ice cream,الآيس كريم,1
+BLEnD-2024,Algeria,Al-en-09,What is a popular snack at an amusement park in Algeria?,donuts,donuts,الكعك المقلي,1
+BLEnD-2024,Algeria,Ca-sp-05,"How many meals per day do people from Algeria usually have? (Provide Arabic numerals (e.g., 5) only.)",3,3,3,4
+BLEnD-2024,Algeria,Ca-sp-05,"How many meals per day do people from Algeria usually have? (Provide Arabic numerals (e.g., 5) only.)",4,4,4,1
+BLEnD-2024,Algeria,Ca-sp-06,Which is the most important meal of the day to people from Algeria?,lunch,lunch,الغداء,3
+BLEnD-2024,Algeria,Ca-sp-06,Which is the most important meal of the day to people from Algeria?,dinner,dinner,العشاء,1
+BLEnD-2024,Algeria,Ca-sp-06,Which is the most important meal of the day to people from Algeria?,morning breakfast,morning breakfast; breakfast,فطور الصباح,1
+BLEnD-2024,Algeria,Ca-sp-08,What is the most common ingredient used in Algeria's diet?,wheat,wheat,قمح; القمح,4
+BLEnD-2024,Algeria,Ca-sp-08,What is the most common ingredient used in Algeria's diet?,potato,potato; potatoes,"البطاطس; البطاطا,بطاطا, بطاطس",1
+BLEnD-2024,Algeria,Ca-sp-08,What is the most common ingredient used in Algeria's diet?,bread,bread,خبز; الخبز,1
+BLEnD-2024,Algeria,Ca-sp-09,What do people from Algeria usually eat for dessert?,fruit,fruit; fruits,الفاكهة; فاكهة; الفواكه,5
+BLEnD-2024,Algeria,Ca-sp-11,Which day of the week do people usually organize a family meal in Algeria?,friday,friday,الجمعة,5
+BLEnD-2024,Algeria,Ca-sp-14,Which is the most popular hot drink in Algeria?,coffee,coffee,القهوة,5
+BLEnD-2024,Algeria,Ca-sp-14,Which is the most popular hot drink in Algeria?,tea,tea,الشاي,3
+BLEnD-2024,Algeria,Jod-ch-01,What eating utensils do people commonly used in Algeria?,spoon,spoon,ملعقة; الملعقة,5
+BLEnD-2024,Algeria,Jod-ch-01,What eating utensils do people commonly used in Algeria?,fork,fork,الشوكة; شوكة,4
+BLEnD-2024,Algeria,Jod-ch-01,What eating utensils do people commonly used in Algeria?,knife,knife,السكين; سكين,1
+BLEnD-2024,Algeria,Jod-ch-04,What soft drink do people in Algeria like to have?,hamoud boualem,hamoud boualem; hammoud boualem,حمود بوعلام,4
+BLEnD-2024,Algeria,Jod-ch-04,What soft drink do people in Algeria like to have?,soda,soda,صودا; الصودا,1
+BLEnD-2024,Algeria,Jod-ch-04,What soft drink do people in Algeria like to have?,selecto,selecto,سيليكتو,1
+BLEnD-2024,Algeria,Jod-ch-07,"How long (in hours) on average does it take for people in Algeria to have dinner at a restaurant? (Provide Arabic numerals up to one decimal point (e.g., 2, 3.5) only.)",1,1,1,3
+BLEnD-2024,Algeria,Jod-ch-07,"How long (in hours) on average does it take for people in Algeria to have dinner at a restaurant? (Provide Arabic numerals up to one decimal point (e.g., 2, 3.5) only.)",2,2,2,2
+BLEnD-2024,Algeria,Jod-ch-07,"How long (in hours) on average does it take for people in Algeria to have dinner at a restaurant? (Provide Arabic numerals up to one decimal point (e.g., 2, 3.5) only.)",1.5,1.5,1.5,1
+BLEnD-2024,Algeria,Jod-ch-09,"What time do people usually have dinner in Algeria? (Provide in HH:MM format (e.g., 18:00, 09:00).)",20:00,20:00,20:00,5
+BLEnD-2024,Algeria,Jod-ch-09,"What time do people usually have dinner in Algeria? (Provide in HH:MM format (e.g., 18:00, 09:00).)",19:00,19:00,19:00,1
+BLEnD-2024,Algeria,Jod-ch-12,What kind of soup do people from Algeria like to have?,shourba frik,shourba frik; chorba soup; shourba soup,شوربة; الشربة; الشوربة; شربة,5
+BLEnD-2024,Algeria,Jod-ch-12,What kind of soup do people from Algeria like to have?,harira,harira,الحريرة,1
+BLEnD-2024,Algeria,Jod-ch-12,What kind of soup do people from Algeria like to have?,jari soup,jari soup; jari bel frik,الجاري,1
+BLEnD-2024,Algeria,Jod-ch-13,What street food do people from Algeria like to eat?,couscous,couscous,الكسكسي; كسكس; الكسكس,4
+BLEnD-2024,Algeria,Jod-ch-13,What street food do people from Algeria like to eat?,chekhechoukha,chekhechoukha; chakhchoukha,الشخشوخة,2
+BLEnD-2024,Algeria,Jod-ch-13,What street food do people from Algeria like to eat?,rishta,rishta; reshta; lentils and pasta soup; libyan-style pasta; rechta,الرشتة,1
+BLEnD-2024,Algeria,Jod-ch-13,What street food do people from Algeria like to eat?,,, كرانتيكا; كالانتيكا، كلنتيكا، كلانتيكا،قرنطيطة، القرنطيطة ، قرنتيتة،غارانتيتا، قرنتيتة,1
+BLEnD-2024,Algeria,Jod-ch-15,What kind of seafood do people from Algeria like to eat?,sardines,sardines,السردين; سردين,4
+BLEnD-2024,Algeria,Jod-ch-15,What kind of seafood do people from Algeria like to eat?,fish,fish,السمك; سمك,2
+BLEnD-2024,Algeria,Jod-ch-15,What kind of seafood do people from Algeria like to eat?,shrimp,shrimp,جمبري; الجمبري,1

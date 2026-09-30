@@ -1,0 +1,51 @@
+id,fdc_id,seq_num,food_attribute_type_id,name,value
+3398229,321358,,,Ontology Name For Source,legume food product
+3398228,321358,,,Ontology ID For Source,http://purl.obolibrary.org/obo/FOODON_00001264
+3398227,321358,,,FoodOn Ontology Name For FDC Item,hummus
+3398226,321358,,,FoodOn Ontology ID For FDC Item,http://purl.obolibrary.org/obo/FOODON_00003049
+3398225,321358,,,NCBI Taxon Parent,http://purl.obolibrary.org/obo/NCBITaxon_35493
+3398224,321358,,,NCBI Taxon,http://purl.obolibrary.org/obo/NCBITaxon_3827
+3365947,321358,,,Ontology Name For Source,legume food product
+3365946,321358,,,Ontology ID For Source,http://purl.obolibrary.org/obo/FOODON_00001264
+3365945,321358,,,FoodOn Ontology Name For FDC Item,hummus
+3365944,321358,,,FoodOn Ontology ID For FDC Item,http://purl.obolibrary.org/obo/FOODON_00003049
+3365943,321358,,,NCBI Taxon Parent,http://purl.obolibrary.org/obo/NCBITaxon_35493
+3365942,321358,,,NCBI Taxon,http://purl.obolibrary.org/obo/NCBITaxon_3827
+3325087,321358,,,Ontology Name For Source,legume food product
+3325086,321358,,,Ontology ID For Source,http://purl.obolibrary.org/obo/FOODON_00001264
+3325085,321358,,,FoodOn Ontology Name For FDC Item,hummus
+3325084,321358,,,FoodOn Ontology ID For FDC Item,http://purl.obolibrary.org/obo/FOODON_00003049
+3325083,321358,,,NCBI Taxon Parent,http://purl.obolibrary.org/obo/NCBITaxon_35493
+3325082,321358,,,NCBI Taxon,http://purl.obolibrary.org/obo/NCBITaxon_3827
+3398673,321360,,,Ontology Name For Source,vegetable food product
+3398672,321360,,,Ontology ID For Source,http://purl.obolibrary.org/obo/FOODON_00001261
+3398671,321360,,,FoodOn Ontology Name For FDC Item,grape tomato (raw)
+3398670,321360,,,FoodOn Ontology ID For FDC Item,http://purl.obolibrary.org/obo/FOODON_00003299
+3398669,321360,,,NCBI Taxon Parent,http://purl.obolibrary.org/obo/NCBITaxon_35493
+3398668,321360,,,NCBI Taxon,http://purl.obolibrary.org/obo/NCBITaxon_4081
+3366391,321360,,,Ontology Name For Source,vegetable food product
+3366390,321360,,,Ontology ID For Source,http://purl.obolibrary.org/obo/FOODON_00001261
+3366389,321360,,,FoodOn Ontology Name For FDC Item,grape tomato (raw)
+3366388,321360,,,FoodOn Ontology ID For FDC Item,http://purl.obolibrary.org/obo/FOODON_00003299
+3366387,321360,,,NCBI Taxon Parent,http://purl.obolibrary.org/obo/NCBITaxon_35493
+3366386,321360,,,NCBI Taxon,http://purl.obolibrary.org/obo/NCBITaxon_4081
+3325531,321360,,,Ontology Name For Source,vegetable food product
+3325530,321360,,,Ontology ID For Source,http://purl.obolibrary.org/obo/FOODON_00001262
+3325529,321360,,,FoodOn Ontology Name For FDC Item,grape tomato (raw)
+3325528,321360,,,FoodOn Ontology ID For FDC Item,http://purl.obolibrary.org/obo/FOODON_00003299
+3325527,321360,,,NCBI Taxon Parent,http://purl.obolibrary.org/obo/NCBITaxon_35493
+3325526,321360,,,NCBI Taxon,http://purl.obolibrary.org/obo/NCBITaxon_4081
+3397779,321611,,,Ontology Name For Source,legume food product
+3397778,321611,,,Ontology ID For Source,http://purl.obolibrary.org/obo/FOODON_00001264
+3397777,321611,,,FoodOn Ontology Name For FDC Item,green bean (canned)
+3397776,321611,,,FoodOn Ontology ID For FDC Item,http://purl.obolibrary.org/obo/FOODON_03307712
+3397775,321611,,,NCBI Taxon Parent,http://purl.obolibrary.org/obo/NCBITaxon_35493
+3397774,321611,,,NCBI Taxon,http://purl.obolibrary.org/obo/NCBITaxon_3885
+3365497,321611,,,Ontology Name For Source,legume food product
+3365496,321611,,,Ontology ID For Source,http://purl.obolibrary.org/obo/FOODON_00001264
+3365495,321611,,,FoodOn Ontology Name For FDC Item,green bean (canned)
+3365494,321611,,,FoodOn Ontology ID For FDC Item,http://purl.obolibrary.org/obo/FOODON_03307712
+3365493,321611,,,NCBI Taxon Parent,http://purl.obolibrary.org/obo/NCBITaxon_35493
+3365492,321611,,,NCBI Taxon,http://purl.obolibrary.org/obo/NCBITaxon_3885
+3324637,321611,,,Ontology Name For Source,legume food product
+3324636,321611,,,Ontology ID For Source,http://purl.obolibrary.org/obo/FOODON_00001264

@@ -1,0 +1,51 @@
+Aliased Ingredient Name,Ingredient Synonyms,Entity ID,Category
+Egg,egg,0,Meat
+Bread,bread; bun,2,Bakery
+Rye Bread,bread-rye,3,Bakery
+Wheaten Bread,bread-wheaten,4,Bakery
+White Bread,bread-white; baguette,5,Bakery
+Wholewheat Bread,bread-whole=wheat,6,Bakery
+Wort,wort,7,Beverage
+Arrack,arrack; arak,8,Beverage Alcoholic
+Beer,beer; lager,9,Beverage Alcoholic
+Bantu Beer,bantu-beer; kaffir-beer,10,Beverage Alcoholic
+Brandy,brandy,11,Beverage Alcoholic
+Anise Brandy,brandy-anise,12,Beverage Alcoholic
+Apple Brandy,brandy-apple,13,Beverage Alcoholic
+Armagnac Brandy,armagnac-brandy,14,Beverage Alcoholic
+Blackberry Brandy,blackberry-brandy,15,Beverage Alcoholic
+Cherry Brandy,brandy-cherry,16,Beverage Alcoholic
+Cognac Brandy,brandy-cognac,17,Beverage Alcoholic
+Papaya Brandy,brandy-papaya,18,Beverage Alcoholic
+Pear Brandy,brandy-pear; palinka; poire williams; rakia,19,Beverage Alcoholic
+Plum Brandy,brandy-plum; slivovitz; tuica; ljivovica; asliwowica; schlivowitz,20,Beverage Alcoholic
+Raspberry Brandy,raspberry-brandy,21,Beverage Alcoholic
+Weinbrand Brandy,weinbrand-brandy,22,Beverage Alcoholic
+Gin,gin,23,Beverage Alcoholic
+Rum,rum,24,Beverage Alcoholic
+Whisky,whisky; whiskey,25,Beverage Alcoholic
+Bourbon Whisky,bourbon-whisky; bourbon-whiskey,26,Beverage Alcoholic
+Canadian Whisky,canadian-whisky; canadian-whiskey,27,Beverage Alcoholic
+Finnish Whisky,finnish-whisky; finnish-whiskey,28,Beverage Alcoholic
+Japanese Whisky,japanese-whisky; japanese-whiskey,29,Beverage Alcoholic
+Malt Whisky,whisky-malt; whiskey-malt,30,Beverage Alcoholic
+Scotch,scotch,31,Beverage Alcoholic
+Wine,wine,32,Beverage Alcoholic
+Bilberry Wine,bilberry-wine,33,Beverage Alcoholic
+Botrytized Wine,botrytized-wine,34,Beverage Alcoholic
+Champagne,champagne,35,Beverage Alcoholic
+Cider,cider,36,Beverage Alcoholic
+Plum Wine,plum-wine,37,Beverage Alcoholic
+Port Wine,port-wine; vinho do porto,38,Beverage Alcoholic
+Red Wine,wine-red,39,Beverage Alcoholic
+Rose Wine,rose-wine; rosada,40,Beverage Alcoholic
+Sake,sake,41,Beverage Alcoholic
+Sherry,sherry,42,Beverage Alcoholic
+Sparkling Wine,sparkling-wine,43,Beverage Alcoholic
+Strawberry Wine,strawberry-wine,44,Beverage Alcoholic
+White Wine,wine-white,45,Beverage Alcoholic
+Coffee,coffee,46,Beverage
+Mate,mate; yerba,47,Beverage
+Black Tea,tea-black,48,Beverage
+Green Tea,tea-green,49,Beverage
+Roibos Tea,tea-rooibos; tea-bush,50,Beverage

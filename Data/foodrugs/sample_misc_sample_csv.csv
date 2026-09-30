@@ -1,0 +1,51 @@
+sample_id,attribute_name,attribute_value
+0,Characteristics,cell culture experiment
+1,Characteristics,cultured cells
+2,Characteristics,cultured cells
+3,Characteristics,cultured cells
+4,Characteristics,cultured cells
+5,Characteristics,cultured cell
+6,Characteristics,cultured cells
+7,Characteristics,cultured cells
+8,Characteristics,cultured cell
+9,Characteristics,cultured cells
+10,Characteristics,cultured cells
+11,Characteristics,cultured cells
+48,condition,Fed
+48,diet,high fat
+49,condition,Fast
+49,diet,high carbohydrate
+50,condition,Fast
+50,diet,high carbohydrate
+51,condition,Fed
+51,diet,high carbohydrate
+52,condition,Fast
+52,diet,high fat
+53,condition,Fast
+53,diet,high fat
+54,condition,Fed
+54,diet,high carbohydrate
+55,condition,Fast
+55,diet,high carbohydrate
+56,condition,Fast
+56,diet,high fat
+57,condition,Fed
+57,diet,high carbohydrate
+58,condition,Fed
+58,diet,high carbohydrate
+59,condition,Fast
+59,diet,high fat
+60,condition,Fed
+60,diet,high carbohydrate
+61,condition,Fed
+61,diet,high fat
+62,condition,Fed
+62,diet,high fat
+63,condition,Fed
+63,diet,high fat
+64,condition,Fed
+64,diet,high carbohydrate
+65,condition,Fast
+65,diet,high fat
+66,condition,Fed
+66,diet,high carbohydrate

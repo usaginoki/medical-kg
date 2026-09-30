@@ -1,0 +1,51 @@
+org_id,org_producer,org_inducer,np_id,np_name,np_type_in_coculture,ref_doc_type,ref_id,ref_id_type
+NPO41582,n.a.,n.a.,NPC490616,dechloro-5'-hydroxygriseofulvin,Novel NP,Publication,PMID: 30837981,PMID
+NPO41365,n.a.,n.a.,NPC490536,notoamide M,Novel NP,Publication,PMID: 29884864,PMID
+NPO41458,n.a.,n.a.,NPC490533,Dendrodolide N,Novel NP,Publication,DOI: 10.3390/md18020073,DOI
+NPO41458,n.a.,n.a.,NPC490533,dendrodolide N,Novel NP,Publication,PMID: 31979232,PMID
+NPO41353,n.a.,n.a.,NPC487808,psychrophilin E,Novel NP,Publication,PMID: 24483240,PMID
+NPO41499,Streptomyces endus S-522,Tsukamurella pulmonis TP-B0596 /Corynebacterium glutamicum ATCC13869,NPC490538,Alchivemycin A,Novel NP,Publication,PMID: 21097597,PMID
+NPO41572,n.a.,n.a.,NPC490538,alchivemycin A,New found in coculture,Publication,PMID: 21097597,PMID
+NPO41425,n.a.,n.a.,NPC490541,subenniatin B,Novel NP,Publication,PMID: 31953204,PMID
+NPO40592,n.a.,n.a.,NPC490911,N-demethylophiosetin,Novel NP,Publication,PMID: 24422636,PMID
+NPO41366,n.a.,n.a.,NPC490549,diorcinol J,Novel NP,Publication,DOI: 10.1007/s10600-016-1601-z,DOI
+NPO41443,n.a.,n.a.,NPC490550,ethyl 5-ethoxy-2-formyl-3-hydroxy-4-methylbenzoate,Novel NP,Publication,DOI: 10.1007/s10600-013-0751-5,DOI
+NPO41450,n.a.,n.a.,NPC490555,penicitrinol L,Novel NP,Publication,PMID: 31953204,PMID
+NPO41464,n.a.,n.a.,NPC490558,pseudoxylallemycin A,Novel NP,Publication,PMID: 27341414,PMID
+NPO41426,n.a.,n.a.,NPC490626,fusatricinones D,Novel NP,Publication,PMID: 35518011,PMID
+NPO41464,n.a.,n.a.,NPC490559,pseudoxylallemycin C,Novel NP,Publication,PMID: 27341414,PMID
+NPO41464,n.a.,n.a.,NPC490581,pseudoxylallemycin E,Novel NP,Publication,PMID: 27341414,PMID
+NPO41451,n.a.,n.a.,NPC484454,berkeleylactone A,Novel NP,Publication,PMID: 28326781,PMID
+NPO41451,n.a.,n.a.,NPC484455,berkeleylactone B,Novel NP,Publication,PMID: 28326781,PMID
+NPO41451,n.a.,n.a.,NPC484456,berkeleylactone C,Novel NP,Publication,PMID: 28326781,PMID
+NPO41451,n.a.,n.a.,NPC490560,berkeleylactone D,Novel NP,Publication,PMID: 28326781,PMID
+NPO41451,n.a.,n.a.,NPC490561,berkeleylactone E,Novel NP,Publication,PMID: 28326781,PMID
+NPO41451,n.a.,n.a.,NPC484459,berkeleylactone F,Novel NP,Publication,PMID: 28326781,PMID
+NPO41451,n.a.,n.a.,NPC490562,berkeleylactone G,Novel NP,Publication,PMID: 28326781,PMID
+NPO41451,n.a.,n.a.,NPC490563,berkeleylactone H,Novel NP,Publication,PMID: 28326781,PMID
+NPO41409,n.a.,n.a.,NPC490627,functionalized sesquiterpenes,New found in coculture,Publication,PMID: 25558867,PMID
+NPO41492,n.a.,n.a.,NPC490971,Prodiginine,Novel NP,Publication,PMID: 23963177,PMID
+NPO41464,n.a.,n.a.,NPC490570,pseudoxylallemycin F,Novel NP,Publication,PMID: 27341414,PMID
+NPO41356,n.a.,n.a.,NPC490571,pseurotin G,Novel NP,Publication,PMID: 28744271,PMID
+NPO41357,n.a.,n.a.,NPC490571,pseurotin G,Novel NP,Publication,PMID: 28744271,PMID
+NPO41454,n.a.,n.a.,NPC490573,(Z)-2-ethylhex-2-enedioic acid,Novel NP,Publication,DOI: 10.1177/1934578X1300800610,DOI
+NPO41454,n.a.,n.a.,NPC490574,(E)-4-oxo-2-propylideneoct-7-enoic acid,Novel NP,Publication,DOI: 10.1177/1934578X1300800610,DOI
+NPO41500,n.a.,n.a.,NPC490667,"(9R, 14S)-epoxy-11-deoxyfunicone",Novel NP,Publication,PMID: 24714124,PMID
+NPO41469,n.a.,n.a.,NPC490579,rhodostreptomycin A,Novel NP,Publication,PMID: 18179219,PMID
+NPO41469,n.a.,n.a.,NPC490580,rhodostreptomycin B,Novel NP,Publication,PMID: 18179219,PMID
+NPO41400,n.a.,n.a.,NPC490582,umezawamide A,Novel NP,Publication,PMID: 17323993,PMID
+NPO41400,n.a.,n.a.,NPC490583,umezawamide B,Novel NP,Publication,PMID: 17323993,PMID
+NPO41580,n.a.,n.a.,NPC490628,Ethyl acetate,Yield-increased in coculture,Publication,PMID: 31175063,PMID
+NPO41365,n.a.,n.a.,NPC490585,10-O-acetylsclerotiamide,Novel NP,Publication,PMID: 29884864,PMID
+NPO41366,n.a.,n.a.,NPC490585,10-O-acetylsclerotiamide,Novel NP,Publication,PMID: 29884864,PMID
+NPO41365,n.a.,n.a.,NPC490586,10-O-ethylsclerotiamide,Novel NP,Publication,PMID: 29884864,PMID
+NPO41366,n.a.,n.a.,NPC490586,10-O-ethylsclerotiamide,Novel NP,Publication,PMID: 29884864,PMID
+NPO41365,n.a.,n.a.,NPC490587,10-O-ethylnotoamide R,Novel NP,Publication,PMID: 29884864,PMID
+NPO41366,n.a.,n.a.,NPC490587,10-O-ethylnotoamide R,Novel NP,Publication,PMID: 29884864,PMID
+NPO41433,n.a.,n.a.,NPC484727,gordonic acid,Novel NP,Publication,PMID: 28845982,PMID
+NPO41549,Streptomyces tendae KMC006,Gordonia sp. KMC005,NPC484727,Gordonic acid,Novel NP,Publication,PMID: 28845982,PMID
+NPO41455,n.a.,n.a.,NPC486914,nafuredin B,Novel NP,Publication,PMID: 29144133,PMID
+NPO41574,n.a.,n.a.,NPC490588,allianthrone A,Novel NP,Publication,PMID: 29517220,PMID
+NPO41375,n.a.,n.a.,NPC481033,catenulobactin A,Novel NP,Publication,PMID: 30130105,PMID
+NPO41375,n.a.,n.a.,NPC481034,catenulobactin B,Novel NP,Publication,PMID: 30130105,PMID
+NPO41569,n.a.,n.a.,NPC490589,microsphaeropsisin B,Novel NP,Publication,PMID: 28208607,PMID

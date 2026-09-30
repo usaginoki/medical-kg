@@ -1,0 +1,51 @@
+ChemicalName,ChemicalID,CasRN,DiseaseName,DiseaseID,DirectEvidence,InferenceGeneSymbol,InferenceScore,OmimIDs,PubMedIDs
+06-Paris-LA-66 protocol,C046983,,Precursor Cell Lymphoblastic Leukemia-Lymphoma,MESH:D054198,therapeutic,,,,4519131
+"10,10-bis(4-pyridinylmethyl)-9(10H)-anthracenone",C112297,,Hyperkinesis,MESH:D006948,marker/mechanism,,,,19098162
+"10,10-bis(4-pyridinylmethyl)-9(10H)-anthracenone",C112297,,Seizures,MESH:D012640,marker/mechanism,,,,26348896
+"10,11-dihydro-10-hydroxycarbamazepine",C039775,,Epilepsy,MESH:D004827,therapeutic,,,,17516704
+"10,11-dihydroxy-N-n-propylnorapomorphine",C425777,,Hyperkinesis,MESH:D006948,marker/mechanism,,,,15765258
+10-hydroxycamptothecin,C028098,67656-30-8,Huntington Disease,MESH:D006816,therapeutic,,,,21909362
+10-hydroxycamptothecin,C028098,67656-30-8,Liver Neoplasms,MESH:D008113,therapeutic,,,,16603448
+10-hydroxynortriptyline,C013567,1156-99-6,Heart Failure,MESH:D006333,marker/mechanism,,,,6703113
+"10-methoxy-2,2-dimethyl-2,6-dihydropyrano(3,2-c)quinolin-5-one",C554291,,Leukemia,MESH:D007938,therapeutic,,,,20833157
+10-nitro-oleic acid,C521487,,Triple Negative Breast Neoplasms,MESH:D064726,therapeutic,,,,29158255
+10-propargyl-10-deazaaminopterin,C418863,,"Lymphoma, Non-Hodgkin",MESH:D008228,therapeutic,,,,16467107
+10-propargyl-10-deazaaminopterin,C418863,,"Lymphoma, T-Cell",MESH:D016399,therapeutic,,,,21301589
+10-propargyl-10-deazaaminopterin,C418863,,Stevens-Johnson Syndrome,MESH:D013262,marker/mechanism,,,,25811541
+"1,10-diaminodecane",C065351,,Seizures,MESH:D012640,therapeutic,,,,9641557
+"1,10-diaminodecane",C065351,,Tremor,MESH:D014202,marker/mechanism,,,,9641557
+"1,10-phenanthroline",C025205,66-71-7,"Abnormalities, Drug-Induced",MESH:D000014,marker/mechanism,,,,17091503
+"1,1,1,2-tetrafluoro-2-chloroethane",C072959,2837-89-0,Liver Diseases,MESH:D008107,marker/mechanism,,,,9284778
+"11,15-dioxo-9-hydroxy-2,3,4,5-tetranorprostan-1,20-dioic acid",C527346,,Inflammation,MESH:D007249,marker/mechanism,,,,17993463
+"1,1,1-trichloro-2-(4-hydroxyphenyl)-2-(4-methoxyphenyl)ethane",C495657,,Ovarian Diseases,MESH:D010049,marker/mechanism,,,,16760418|22306526
+"1,1,1-trichloroethane",C024566,71-55-6,"Arrhythmias, Cardiac",MESH:D001145,marker/mechanism,,,,3105712|6124437
+"1,1,1-trichloroethane",C024566,71-55-6,Chemical and Drug Induced Liver Injury,MESH:D056486,marker/mechanism,,,,2361581|2862719|4356632|6623471
+"1,1,1-trichloroethane",C024566,71-55-6,Heart Failure,MESH:D006333,marker/mechanism,,,,3105712
+"1,1,1-trichloroethane",C024566,71-55-6,"Hepatitis, Chronic",MESH:D006521,marker/mechanism,,,,12594376
+"1,1,2,2-tetrabromoethane",C037530,79-27-6,Lung Neoplasms,MESH:D008175,marker/mechanism,,,,292813
+"1,1,2,2-tetrabromoethane",C037530,79-27-6,Stomach Neoplasms,MESH:D013274,marker/mechanism,,,,292813
+"1,1,2,2-tetrachloroethane",C015530,79-34-5,Chemical and Drug Induced Liver Injury,MESH:D056486,marker/mechanism,,,,2361581|7440962
+"1,1,2,2-tetrachloroethane",C015530,79-34-5,Precancerous Conditions,MESH:D011230,marker/mechanism,,,,3296316
+"1,12-benzoperylene",C006718,191-24-2,Skin Diseases,MESH:D012871,marker/mechanism,,,,37150498
+"1-(1'-(2-methylbenzyl)-1,4'-bipiperidin-4-yl)-1H-benzo(d)imidazol-2-(3H)-one",C532626,,Cocaine-Related Disorders,MESH:D019970,therapeutic,,,,19996296
+"1,1,2-trichloroethane",C024567,79-00-5,Chemical and Drug Induced Liver Injury,MESH:D056486,marker/mechanism,,,,1489524|2361581|2862719|4064947|4356632|6623471|6884620|7120509|7179309
+"1,1,2-trichloroethane",C024567,79-00-5,Precancerous Conditions,MESH:D011230,marker/mechanism,,,,3296316
+"1-(1,3-benzodioxol-5-ylcarbonyl)piperidine",C085415,34023-62-6,Hyperkinesis,MESH:D006948,therapeutic,,,,9286612
+"1-(1,4-benzodioxan-6-ylcarbonyl)piperidine",C443080,,Seizures,MESH:D012640,marker/mechanism,,,,34536444
+1-(1-(4-fluorophenyl)ethyl)-3-((3-methoxy-4-(4-methyl-1H-imidazol-1-yl)phenyl)methylene)-2-piperidinone,C555019,,Cataract,MESH:D002386,marker/mechanism,,,,24085193
+1-(1-acetyl-piperidine-4-yl)-3-adamantan-1-yl-urea,C557705,,Movement Disorders,MESH:D009069,therapeutic,,,,30472438
+1-(1-acetyl-piperidine-4-yl)-3-adamantan-1-yl-urea,C557705,,Poisoning,MESH:D011041,therapeutic,,,,30472438
+"1,1-bis(4-hydroxyphenyl)-2,2-dichloroethylene",C000705689,,Edema,MESH:D004487,marker/mechanism,,,,36805134
+"1,1-bis(4-hydroxyphenyl)-2,2-dichloroethylene",C000705689,,Scoliosis,MESH:D012600,marker/mechanism,,,,36805134
+11-dehydro-thromboxane B2,C049235,67910-12-7,Cardiovascular Diseases,MESH:D002318,marker/mechanism,,,,20174466
+11-dehydro-thromboxane B2,C049235,67910-12-7,Stroke,MESH:D020521,marker/mechanism,,,,11684346
+"1,1-dichloro-1-fluoroethane",C068320,,Hyperplasia,MESH:D006965,marker/mechanism,,,,7797176
+"1,1-dichloroethane",C501196,75-34-3,Chemical and Drug Induced Liver Injury,MESH:D056486,marker/mechanism,,,,2862719
+"1,1-dichloroethane",C501196,75-34-3,Precancerous Conditions,MESH:D011230,marker/mechanism,,,,3296316
+"1,1-dimethylbutyl-1-deoxy-Delta(9)-THC",C432747,,Acute Lung Injury,MESH:D055371,therapeutic,,,,24963491
+"1,1-dimethylbutyl-1-deoxy-Delta(9)-THC",C432747,,Cardiomyopathies,MESH:D009202,therapeutic,,,,31220554
+"1,1-dimethylbutyl-1-deoxy-Delta(9)-THC",C432747,,Colitis,MESH:D003092,therapeutic,,,,22119709
+"1,1-dimethylbutyl-1-deoxy-Delta(9)-THC",C432747,,Extravasation of Diagnostic and Therapeutic Materials,MESH:D005119,therapeutic,,,,22442067
+"1,1-dimethylbutyl-1-deoxy-Delta(9)-THC",C432747,,Fibrosis,MESH:D005355,therapeutic,,,,31220554
+"1,1-dimethylbutyl-1-deoxy-Delta(9)-THC",C432747,,Hyperalgesia,MESH:D006930,therapeutic,,,,29143802
+"1,1-dimethylbutyl-1-deoxy-Delta(9)-THC",C432747,,Hyperglycemia,MESH:D006943,therapeutic,,,,32949586

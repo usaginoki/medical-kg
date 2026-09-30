@@ -1,0 +1,51 @@
+id,food_group,food_subgroup,name,food_source_french,food_source_scientific_name,food_source_botanical_family,created_at,updated_at
+531,Alcoholic beverages,Beers,Beer [Alcohol free],Bière [Sans alcool],,,2007-02-22 00:00:00 UTC,2015-04-13 21:45:46 UTC
+492,Alcoholic beverages,Beers,Beer [Ale],Bière [Ale],,,2006-09-27 11:41:55 UTC,2015-04-13 21:45:46 UTC
+494,Alcoholic beverages,Beers,Beer [Dark],Bière [Brune],,,2006-09-27 11:42:25 UTC,2015-04-13 21:45:46 UTC
+539,Alcoholic beverages,Beers,Beer [Regular],Bière [Régulière],,,2007-03-23 00:00:00 UTC,2015-04-13 21:45:47 UTC
+28,Alcoholic beverages,Ciders,Cider,Cidre,,,2004-06-16 14:32:03 UTC,2015-04-13 21:45:42 UTC
+720,Alcoholic beverages,Liquors - Nut liquors,"Walnut, liquor","Noix, liqueur",Juglans regia L.,Juglandaceae,2007-09-28 00:00:00 UTC,2015-04-13 21:45:48 UTC
+193,Alcoholic beverages,Spirits - Brandy,Cognac,Cognac,,,2005-10-12 09:27:10 UTC,2015-04-13 21:45:44 UTC
+194,Alcoholic beverages,Spirits - Rum,Rum,Rum,,,2005-10-12 09:27:10 UTC,2015-04-13 21:45:44 UTC
+192,Alcoholic beverages,Spirits - Whisky,Scotch whisky,Whisky,,,2005-10-12 09:27:10 UTC,2015-04-13 21:45:44 UTC
+150,Alcoholic beverages,Wines - Berry wines,"Black crowberry, wine","Camarine noire, vin",Empetrum nigrum L.,Ericaceae,2005-09-28 10:49:19 UTC,2015-04-13 21:45:43 UTC
+148,Alcoholic beverages,Wines - Berry wines,"Blackcurrant, wine","Cassis, vin",Ribes nigrum L.,Grossulariaceae,2005-09-28 10:49:19 UTC,2015-04-13 21:45:43 UTC
+233,Alcoholic beverages,Wines - Berry wines,"Fox grape, red wine","Raisin Labrusca, vin rouge",Vitis labrusca L.,Vitaceae,2006-05-15 00:00:00 UTC,2015-04-13 21:45:44 UTC
+234,Alcoholic beverages,Wines - Berry wines,"Fox grape, white wine","Raisin Labrusca, vin blanc",Vitis labrusca L.,Vitaceae,2006-05-15 00:00:00 UTC,2015-04-13 21:45:44 UTC
+145,Alcoholic beverages,Wines - Berry wines,"Muscadine grape, red wine","Raisin muscadine, vin",Vitis rotundifolia,Vitaceae,2005-09-14 00:00:00 UTC,2015-04-13 21:45:43 UTC
+147,Alcoholic beverages,Wines - Fortified Wines,Sherry,Sherry,,,2005-09-14 09:18:17 UTC,2015-04-13 21:45:43 UTC
+135,Alcoholic beverages,Wines - Grape wines,Wine [Red],Vin [Rouge],Vitis vinifera L.,Vitaceae,2005-08-16 00:00:00 UTC,2015-04-13 21:45:43 UTC
+137,Alcoholic beverages,Wines - Grape wines,Wine [Rosé],Vin [Rosé],Vitis vinifera L.,Vitaceae,2005-08-16 00:00:00 UTC,2015-04-13 21:45:43 UTC
+136,Alcoholic beverages,Wines - Grape wines,Wine [White],Vin [Blanc],Vitis vinifera L.,Vitaceae,2005-08-16 00:00:00 UTC,2015-04-13 21:45:43 UTC
+139,Alcoholic beverages,Wines - Sparkling wines,Champagne,Champagne,,Vitaceae,2005-09-07 09:22:26 UTC,2015-04-13 21:45:43 UTC
+229,Cereals and cereal products,Cereal products,"Bread, common wheat, whole grain flour","Pain, farine complète",,,2006-05-12 16:32:33 UTC,2015-04-13 21:45:44 UTC
+226,Cereals and cereal products,Cereal products,"Bread, refined flour","Pain, farine raffinée",,,2006-05-10 11:33:24 UTC,2015-04-13 21:45:44 UTC
+293,Cereals and cereal products,Cereal products,"Bread, rye, whole grain flour","Pain, seigle, farine complète",,,2006-07-24 16:11:19 UTC,2015-04-13 21:45:44 UTC
+219,Cereals and cereal products,Cereal products,"Breakfast cereals, bran","Céréales pour petit déjeuner, son",,,2006-05-03 09:56:12 UTC,2015-04-13 21:45:44 UTC
+976,Cereals and cereal products,Cereal products,"Breakfast cereals, corn","Céréales pour petit déjeuner, maïs",,,2009-12-22 14:33:28 UTC,2015-04-13 21:45:50 UTC
+301,Cereals and cereal products,Cereal products,"Breakfast cereals, muesli","Céreales pour petit déjeuner, muesli",,,2006-07-28 15:18:54 UTC,2015-04-13 21:45:45 UTC
+975,Cereals and cereal products,Cereal products,"Breakfast cereals, oat, whole-meal","Céréales pour petit déjeuner, avoine, complet",,,2009-12-22 14:33:28 UTC,2015-04-13 21:45:50 UTC
+227,Cereals and cereal products,Cereal products,Pasta,Pâtes,,,2006-05-10 11:34:30 UTC,2015-04-13 21:45:44 UTC
+299,Cereals and cereal products,Cereal products,"Pasta, whole grain",Pâtes complètes,,,2006-07-28 10:01:26 UTC,2015-04-13 21:45:45 UTC
+300,Cereals and cereal products,Cereals,"Barley, whole grain flour","Orge, farine complète",Hordeum vulgare L.,Poaceae,2006-07-28 11:15:46 UTC,2015-04-13 21:45:45 UTC
+529,Cereals and cereal products,Cereals,"Buckwheat, groats, thermally treated",Sarrasin,Fagopyrum esculentum,Polygonaceae,2007-01-15 00:00:00 UTC,2015-04-13 21:45:46 UTC
+317,Cereals and cereal products,Cereals,"Buckwheat, refined flour","Sarrasin, farine raffinée",Fagopyrum esculentum,Polygonaceae,2006-08-09 11:44:28 UTC,2015-04-13 21:45:45 UTC
+321,Cereals and cereal products,Cereals,"Buckwheat, whole grain flour","Sarrasin, farine complète",Fagopyrum esculentum,Polygonaceae,2006-08-10 00:00:00 UTC,2015-04-13 21:45:45 UTC
+315,Cereals and cereal products,Cereals,"Common wheat, germ","Blé commun, germe",Triticum aestivum L.,Poaceae,2006-08-09 10:51:39 UTC,2015-04-13 21:45:45 UTC
+225,Cereals and cereal products,Cereals,"Common wheat, refined flour","Blé commun, farine raffinée",Triticum aestivum L.,Poaceae,2006-05-10 10:02:07 UTC,2015-04-13 21:45:44 UTC
+224,Cereals and cereal products,Cereals,"Common wheat, whole grain flour","Blé commun, farine complète",Triticum aestivum L.,Poaceae,2006-05-09 15:34:22 UTC,2015-04-13 21:45:44 UTC
+218,Cereals and cereal products,Cereals,"Hard wheat, refined flour","Blé dur, farine raffinée",Triticum durum L.,Poaceae,2006-05-02 14:30:57 UTC,2015-04-13 21:45:44 UTC
+216,Cereals and cereal products,Cereals,"Hard wheat, semolina","Blé dur, semoule",Triticum durum L.,Poaceae,2006-05-02 13:39:24 UTC,2015-04-13 21:45:44 UTC
+210,Cereals and cereal products,Cereals,"Hard wheat, whole grain flour","Blé dur, farine complète",Triticum durum L.,Poaceae,2006-04-20 13:39:31 UTC,2015-04-13 21:45:44 UTC
+326,Cereals and cereal products,Cereals,"Maize, refined flour","Maïs, farine raffinée",Zea mays L.,Poaceae,2006-08-10 00:00:00 UTC,2015-04-13 21:45:45 UTC
+304,Cereals and cereal products,Cereals,"Maize, whole grain","Maïs, complet",Zea mays L.,Poaceae,2006-08-04 15:45:19 UTC,2015-04-13 21:45:45 UTC
+325,Cereals and cereal products,Cereals,"Oat, refined flour","Avoine, farine raffinée",Avena sativa L.,Poaceae,2006-08-10 00:00:00 UTC,2015-04-13 21:45:45 UTC
+338,Cereals and cereal products,Cereals,"Oat, rolled","Avoine, laminée à chaud",Avena sativa L.,Poaceae,2006-08-16 00:00:00 UTC,2015-04-13 21:45:45 UTC
+305,Cereals and cereal products,Cereals,"Oat, whole grain flour","Avoine, farine complète",Avena sativa L.,Poaceae,2006-08-04 10:22:00 UTC,2015-04-13 21:45:45 UTC
+522,Cereals and cereal products,Cereals,"Rice, parboiled","Riz, étouvé",Oryza sativa L.,Poaceae,2006-11-20 00:00:00 UTC,2015-04-13 21:45:46 UTC
+324,Cereals and cereal products,Cereals,"Rice, refined","Riz, raffiné",Oryza sativa L.,Poaceae,2006-08-10 13:29:17 UTC,2015-04-13 21:45:45 UTC
+354,Cereals and cereal products,Cereals,"Rice, whole grain","Riz, complet",Oryza sativa L.,Poaceae,2006-08-17 00:00:00 UTC,2015-04-13 21:45:45 UTC
+316,Cereals and cereal products,Cereals,"Rye, refined flour","Seigle, farine raffinée",Secale cereale L.,Poaceae,2006-08-09 00:00:00 UTC,2015-04-13 21:45:45 UTC
+292,Cereals and cereal products,Cereals,"Rye, whole grain flour","Seigle, farine complète",Secale cereale L.,Poaceae,2006-07-24 11:26:01 UTC,2015-04-13 21:45:44 UTC
+308,Cereals and cereal products,Cereals,"Sorghum, whole grain","Sorgho, complet",Sorghum bicolor L.,Poaceae,2007-12-11 00:00:00 UTC,2015-04-13 21:45:45 UTC
+439,Coffee and cocoa,Cocoa - Chocolate,"Chocolate, dark","Chocolat, noir",,,2006-09-12 00:00:00 UTC,2015-04-13 21:45:46 UTC

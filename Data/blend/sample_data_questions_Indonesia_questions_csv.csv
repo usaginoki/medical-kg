@@ -1,0 +1,51 @@
+Unnamed: 0,ID,Topic,Source,Question,Translation
+0,Al-en-01,Food,English (US),Apa camilan umum untuk anak-anak TK di Indonesia?,What is a common snack for preschool kids in Indonesia?
+1,Al-en-02,Food,English (US),Apa makanan populer yang cocok disantap bersama bir di Indonesia?,What is a popular food to go with beer in Indonesia?
+2,Al-en-04,Food,English (US),Buah apa yang paling populer di Indonesia?,What is the most popular fruit in Indonesia?
+3,Al-en-06,Food,English (US),Apa makanan kantin sekolah yang umum di Indonesia?,What is a common school cafeteria food in Indonesia?
+4,Al-en-08,Food,English (US),Apa saja camilan yang paling sering dimakan di pusat perbelanjaan di Indonesia?,What are the most commonly eaten snacks at shopping malls in Indonesia?
+5,Al-en-09,Food,English (US),Apa camilan populer di taman hiburan di Indonesia?,What is a popular snack at an amusement park in Indonesia?
+6,Al-en-16,Education,English (US),"Pada usia berapa anak-anak mulai masuk taman kanak-kanak di Indonesia? (Berikan angka Arab (misalnya, 12) saja.)","At what age do kids start preschool in Indonesia? (Provide Arabic numerals (e.g., 12) only.)"
+7,Al-en-17,Education,English (US),Apa olahraga populer setelah sekolah untuk siswa sekolah dasar (SD) di Indonesia?,What is a popular afterschool sport for elementary schools in Indonesia?
+8,Al-en-18,Education,English (US),Untuk mata pelajaran apa siswa sekolah dasar di Indonesia mendapatkan pendidikan privat?,For which subject do elementary students get private education in Indonesia?
+9,Al-en-19,Education,English (US),Apa bahasa kedua yang populer bagi siswa SMA di Indonesia?,What is a popular second language for high school students in Indonesia?
+10,Al-en-21,Education,English (US),Mata pelajaran apa yang paling penting untuk pendidikan bagi siswa berbakat di Indonesia?,Which subject is the most important for gifted education in Indonesia?
+11,Al-en-32,Holidays/Celebration/Leisure,English (US),Apa hidangan utama untuk perayaan Thanksgiving di Indonesia?,What is the main dish for Thanksgiving in Indonesia?
+12,Al-en-33,Holidays/Celebration/Leisure,English (US),Apa yang dilakukan orang-orang untuk merayakan Halloween di Indonesia?,What do people do to celebrate Halloween in Indonesia?
+13,Al-en-34,Holidays/Celebration/Leisure,English (US),Apa yang dilakukan orang-orang untuk merayakan Hari Tahun Baru di Indonesia?,What do people do to celebrate New Year's Day in Indonesia?
+14,Al-en-35,Holidays/Celebration/Leisure,English (US),Apa yang dilakukan orang-orang untuk merayakan Natal di Indonesia?,What do people do to celebrate Christmas in Indonesia?
+15,Al-en-36,Holidays/Celebration/Leisure,English (US),Makanan apa yang dikaitkan dengan Halloween di Indonesia?,What food is associated with Halloween in Indonesia?
+16,Al-en-37,Holidays/Celebration/Leisure,English (US),Makanan apa yang dikaitkan dengan Natal di Indonesia?,What food is associated with Christmas in Indonesia?
+17,Al-en-38,Holidays/Celebration/Leisure,English (US),Makanan apa yang dikaitkan dengan hari Valentine di Indonesia?,What food is associated with Valentine's day in Indonesia?
+18,Al-en-39,Holidays/Celebration/Leisure,English (US),Apa yang biasanya orang makan di hari ulang tahun mereka di Indonesia?,What do people eat on their birthday in Indonesia?
+19,Al-en-40,Holidays/Celebration/Leisure,English (US),Apa tempat luar ruangan yang populer bagi keluarga untuk bersenang-senang bersama anak-anak kecil di Indonesia?,What is a popular outdoor place for families to have fun with little kids in Indonesia?
+20,Al-en-43,Holidays/Celebration/Leisure,English (US),Apa kegiatan dalam ruangan yang populer untuk keluarga di Indonesia?,What is a popular indoor activity for families in Indonesia?
+21,An-ar-02,Education,Arabic (Algeria),Di mana mahasiswa universitas makan siang di Indonesia?,Where do university students have lunch in Indonesia?
+22,An-ar-03,Education,Arabic (Algeria),Bulan berapa biasanya jadwal ujian akhir semester di sekolah menengah atas di Indonesia? (Berikan hanya angka Arab (1~12).),Which month is the final exam term usually scheduled at high schools in Indonesia? (Provide Arabic numerals (1~12) only.)
+23,An-ar-08,Education,Arabic (Algeria),"Berapa jam dalam sehari biasanya siswa di Indonesia menghabiskan waktu di sekolah menengah atas? (Gunakan angka Arab dalam bilangan bulat (0~24), tanpa titik desimal.)","How many hours a day do students in Indonesia usually spend at high school? (Provide Arabic numerals in integers (0~24), without any decimal points.)"
+24,An-ar-09,Education,Arabic (Algeria),"Berapa banyak bahasa yang dipelajari oleh siswa di sekolah menengah atas di Indonesia? (Berikan angka Arab (misalnya, 5) saja.)","How many languages do students study at high school in Indonesia? (Provide Arabic numerals (e.g., 5) only.)"
+25,An-ar-34,Sport,Arabic (Algeria),Apa olahraga tim paling populer yang dimainkan di sekolah-sekolah di Indonesia?,What is the most popular sport played in a team at school in Indonesia?
+26,An-ar-35,Sport,Arabic (Algeria),Siapa komentator olahraga paling populer di Indonesia?,Who is the most popular sport commentator in Indonesia?
+27,An-ar-36,Sport,Arabic (Algeria),Apa tim olahraga paling populer di Indonesia?,What is the most popular sport team in Indonesia?
+28,An-ar-43,Sport,Arabic (Algeria),Apa saja tempat atau lokasi umum di mana orang-orang di Indonesia biasanya berkumpul untuk menonton siaran olahraga?,What are the common places or venues where individuals in Indonesia usually gather to watch sports broadcasts?
+29,Ca-sp-05,Food,Spanish (Spain),"Berapa kali makan dalam sehari yang biasanya dilakukan oleh orang Indonesia? (Berikan angka numerik Arab saja (contoh, 5).)","How many meals per day do people from Indonesia usually have? (Provide Arabic numerals (e.g., 5) only.)"
+30,Ca-sp-06,Food,Spanish (Spain),Manakah waktu makan yang paling penting dalam sehari bagi orang-orang Indonesia?,Which is the most important meal of the day to people from Indonesia?
+31,Ca-sp-08,Food,Spanish (Spain),Apa bahan makanan yang paling sering digunakan dalam diet masyarakat Indonesia?,What is the most common ingredient used in Indonesia's diet?
+32,Ca-sp-09,Food,Spanish (Spain),Apa yang biasanya dimakan orang Indonesia untuk makanan penutup?,What do people from Indonesia usually eat for dessert?
+33,Ca-sp-11,Food,Spanish (Spain),Hari apa dalam seminggu orang biasanya mengadakan makan bersama keluarga di Indonesia?,Which day of the week do people usually organize a family meal in Indonesia?
+34,Ca-sp-14,Food,Spanish (Spain),Minuman panas apa yang paling populer di Indonesia?,Which is the most popular hot drink in Indonesia?
+35,Ca-sp-19,Holidays/Celebration/Leisure,Spanish (Spain),Apa yang biasanya diminum oleh anak muda dari Indonesia di klub malam?,What do young people from Indonesia usually drink at the night club?
+36,Ca-sp-21,Holidays/Celebration/Leisure,Spanish (Spain),Pada bulan apa orang biasanya mengambil liburan di Indonesia? (Berikan angka Arab (1~12) saja.),At which month do people usually take holidays in Indonesia? (Provide Arabic numerals (1~12) only.)
+37,Ca-sp-29,Holidays/Celebration/Leisure,Spanish (Spain),Apa tradisi yang ada di Indonesia untuk Malam Tahun Baru?,What tradition is there in Indonesia for New Year's Eve?
+38,Ca-sp-38,Family,Spanish (Spain),Apa jenis rumah yang biasa untuk sebuah keluarga di Indonesia?,Which is the typical type of house for a family in Indonesia?
+39,Ca-sp-41,Family,Spanish (Spain),Di mana para lansia yang membutuhkan bantuan biasanya tinggal di Indonesia?,Where do the dependent elderly usually live in Indonesia?
+40,Ca-sp-42,Family,Spanish (Spain),"Berapa lama (dalam minggu) cuti hamil di Indonesia untuk ibu? (Hanya berikan angka Arab (misalnya, 20).)","How long (in weeks) is Indonesia's maternity leave for mums? (Provide Arabic numerals (e.g., 20) only.)"
+41,Ca-sp-43,Family,Spanish (Spain),"Berapa lama (dalam minggu) cuti paternitas di Indonesia untuk ayah? (Hanya berikan angka Arab (misalnya, 20).)","How long (in weeks) is Indonesia's paternity leave for dads? (Provide Arabic numerals (e.g., 20) only.)"
+42,Ca-sp-45,Family,Spanish (Spain),Jenis destinasi apa yang biasanya dipilih untuk liburan keluarga di Indonesia?,What type of destination is commonly chosen for a family vacation in Indonesia?
+43,Gu-ch-05,Sport,Chinese (China),Olahraga apa yang paling disukai oleh orang tua di Indonesia?,What sports do seniors like the most in Indonesia?
+44,Gu-ch-06,Sport,Chinese (China),Olahraga apa yang paling disukai untuk dimainkan oleh pria di Indonesia?,What sports do men like to play the most in Indonesia?
+45,Gu-ch-07,Sport,Chinese (China),Siapa pemain bola basket paling terkenal di Indonesia?,Who is the most famous basketball player in Indonesia?
+46,Gu-ch-08,Sport,Chinese (China),Apa olahraga paling populer di kalangan anak-anak di Indonesia?,What is the most popular sports among children in Indonesia?
+47,Gu-ch-09,Sport,Chinese (China),Olahraga apa yang paling disukai untuk dimainkan oleh wanita di Indonesia?,What sports do women like to play the most in Indonesia?
+48,Gu-ch-11,Sport,Chinese (China),Dalam olahraga apa Indonesia memenangkan medali emas terbanyak di Olimpiade?,What sports event has Indonesia won the most gold medals at the Olympics?
+49,Gu-ch-15,Sport,Chinese (China),Olahraga apa yang paling disukai oleh mahasiswa pria di universitas untuk dimainkan di Indonesia?,What sports do male students in university like to play the most in Indonesia?

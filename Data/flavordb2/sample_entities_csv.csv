@@ -1,0 +1,49 @@
+entity_id,category,category_readable,entity_alias,entity_alias_basket,entity_alias_readable,entity_alias_synonyms,entity_alias_url,natural_source_name,natural_source_url,n_molecules
+323,spice,Spice,anise,"anise, anise-oil, anise-seed",Anise,"Aniseed, Saunf",https://en.wikipedia.org/wiki/Anise,Pimpinella,https://en.wikipedia.org/wiki/Pimpinella,145
+324,spice,Spice,anise-hyssop,anise-hyssop,Anise Hyssop,"Blue Giant Hyssop, Fragrant Giant Hyssop",https://en.wikipedia.org/wiki/Agastache_foeniculum,Agastache,https://en.wikipedia.org/wiki/Agastache,9
+325,spice,Spice,anise-staranise,anise-staranise,Star Anise,"Star Anise, Staranise, Star Anise Seed, Chinese Star Anise, Badiam",https://en.wikipedia.org/wiki/Illicium_verum,Illicium,https://en.wikipedia.org/wiki/Illicium,150
+326,spice,Spice,caraway,"caraway, caraway-seed",Caraway,"Meridian Fennel, Persian Cumin ",https://en.wikipedia.org/wiki/Caraway,Carum,https://en.wikipedia.org/wiki/Carum,16
+327,spice,Spice,cardamom,"cardamom, cardamom-ceylon, cardamom-malabar",Cardamom,Cardamom,https://en.wikipedia.org/wiki/Cardamom,Elattaria,https://en.wikipedia.org/wiki/Elettaria,173
+328,spice,Spice,cassia,"cassia, cassia-leaf, cassia-oil",Cassia,"Chinese Cassia, Chinese Cinnamon",https://en.wikipedia.org/wiki/Cinnamomum_cassia,Cinnamomum,https://en.wikipedia.org/wiki/Cinnamomum,145
+329,spice,Spice,celery,"celery, celery-cooked, celery-leaf, celery-root, celery-seed, celery-stalk",Celery,Celery,https://en.wikipedia.org/wiki/Celery,Apium,https://en.wikipedia.org/wiki/Apium,217
+330,spice,Spice,cinnamon,"cinnamon, cinnamon-bark, cinnamon-leaf, cinnamon-oil, cinnamon-root",Cinnamon,Cinnamon,https://en.wikipedia.org/wiki/Cinnamon,Cinnamomum,https://en.wikipedia.org/wiki/Cinnamomum,183
+331,spice,Spice,clove,"clove, clove-bud, clove-leaf, clove-oil, clove-stem",Clove,Clove,https://en.wikipedia.org/wiki/Clove,Syzygium,https://en.wikipedia.org/wiki/Syzygium,177
+332,spice,Spice,cumin,"cumin, cumin-oil",Cumin,Cumin,https://en.wikipedia.org/wiki/Cumin,Cuminum,https://en.wikipedia.org/wiki/Cuminum,149
+333,spice,Spice,ginger,"ginger, ginger-thai",Ginger,Ginger,https://en.wikipedia.org/wiki/Ginger,Zingiber,https://en.wikipedia.org/wiki/Zingiber,251
+334,spice,Spice,mace,mace,Mace,Mace,https://en.wikipedia.org/wiki/Nutmeg,Myristica,https://en.wikipedia.org/wiki/Myristica,21
+335,spice,Spice,marjoram,marjoram,Marjoram,"Oregano, Sweet Marjoram, Knotted Marjoram, Pot Marjoram",https://en.wikipedia.org/wiki/Marjoram,Origanum Majorana,https://en.wikipedia.org/wiki/Origanum,180
+336,spice,Spice,nutmeg,"nutmeg, nutmeg-calabash, nutmeg-oil",Nutmeg,Nutmeg,https://en.wikipedia.org/wiki/Nutmeg,Myristica,https://en.wikipedia.org/wiki/Myristica,170
+337,spice,Spice,oregano,"oregano, origanum",Oregano,Oregano,https://en.wikipedia.org/wiki/Oregano,Origanum Vulgare,https://en.wikipedia.org/wiki/Oregano,193
+338,spice,Spice,parsley,"parsley, parsley-seedoil",Parsley,Parsley,https://en.wikipedia.org/wiki/Parsley,Petroselinum,https://en.wikipedia.org/wiki/Petroselinum,167
+339,spice,Spice,pepper,"pepper-blackpepper, pepper-ashanti",Pepper,Pepper,https://en.wikipedia.org/wiki/Black_pepper,Piper,https://en.wikipedia.org/wiki/Piper_(plant),223
+340,spice,Spice,saffron,saffron,Saffron,Saffron,https://en.wikipedia.org/wiki/Saffron,Crocus Sativus,https://en.wikipedia.org/wiki/Crocus_sativus,127
+341,spice,Spice,turmeric,turmeric,Turmeric,Turmeric,https://en.wikipedia.org/wiki/Turmeric,Curcuma,https://en.wikipedia.org/wiki/Curcuma,130
+375,spice,Spice,allspice,allspice,Allspice,"Allspice, Pimenta, Myrtle Pepper",https://en.wikipedia.org/wiki/Allspice,Pimenta,https://en.wikipedia.org/wiki/Pimenta_(genus),166
+376,spice,Spice,asafoetida,asafoetida,Asafoetida,"Hing, Asant, Asafedity, Kayam, Henjana, Jowani Badian, Ingu, Devil's Dung",https://en.wikipedia.org/wiki/Asafoetida,Ferula,https://en.wikipedia.org/wiki/Ferula,37
+381,spice,Spice,caromseed,caromseed,Carom Seed,"Ajwain, Ajowan, Ajowan Caraway, Bishops Weed",https://en.wikipedia.org/wiki/Ajwain,Ajwain,https://en.wikipedia.org/wiki/AjwainÂ ,155
+389,spice,Spice,jalapeno,jalapeno,Jalapeno,"Huachinango, Cuaresmeno, Xalapa",https://en.wikipedia.org/wiki/Jalape%C3%B1o,Capsicum annuum,https://en.wikipedia.org/wiki/Capsicum_annuum,1
+395,spice,Spice,poppy,poppy-seed,Poppy Seed,Poppy Seed,https://en.wikipedia.org/wiki/Poppy_seed,Papaver,https://en.wikipedia.org/wiki/Papaver,131
+399,spice,Spice,pepper-whitepepper,pepper-whitepepper,White Pepper,White Pepper,https://en.wikipedia.org/wiki/Black_pepper#White_pepper,Piper,https://en.wikipedia.org/wiki/Piper_(plant),18
+49,beverage-caffeinated,Beverage Caffeinated,tea-green,tea-green,Green Tea,Green Tea,https://en.wikipedia.org/wiki/Green_tea,Camellia Sinensis,https://en.wikipedia.org/wiki/Camellia_sinensis,35
+55,cerealcrop-cereal,Cereal,rice,"rice, rice-bran, rice-brown, rice-cooked, rice-scented, rice-scentedcooked, rice-wild",Rice,Rice,https://en.wikipedia.org/wiki/Rice,Oryza Sativa,https://en.wikipedia.org/wiki/Oryza_sativa,199
+88,dairy,Dairy,milk,"milk, milk-products, milk-heated",Milk,Milk,https://en.wikipedia.org/wiki/Milk,Cattle,https://en.wikipedia.org/wiki/Cattle,111
+94,dairy,Dairy,yogurt,yogurt,Yogurt,Curd,https://en.wikipedia.org/wiki/Yogurt,Cattle,https://en.wikipedia.org/wiki/Cattle,31
+164,fruit,Fruit,apricot,apricot,Apricot,"Armenia,  Zardalu",https://en.wikipedia.org/wiki/Apricot,Prunus,https://en.wikipedia.org/wiki/Prunus,207
+172,fruit,Fruit,coconut,"coconut, coconut-coconutmeat, coconut-coconutmilk, coconut-coconutoil, coconut-roasted",Coconut,Coconut,https://en.wikipedia.org/wiki/Coconut,Cocos Nucifera,https://en.wikipedia.org/wiki/Coconut,161
+181,fruit,Fruit,fig,fig-commonfig,Fig,Fig,https://en.wikipedia.org/wiki/Common_fig,Ficus Carica,https://en.wikipedia.org/wiki/Common_fig,168
+218,fruit,Fruit,tamarind,tamarind,Tamarind,Tamarind,https://en.wikipedia.org/wiki/Tamarind,Tamarind,https://en.wikipedia.org/wiki/Tamarind,164
+250,herb,Herb,basil,"basil, basil-oil",Basil,Great Basil,https://en.wikipedia.org/wiki/Basil,Ocimum,https://en.wikipedia.org/wiki/Ocimum,210
+254,herb,Herb,coriander,"coriander, coriander-leaf, coriander-seed",Coriander,Coriander,https://en.wikipedia.org/wiki/Coriander,Coriandrum Sativum,https://en.wikipedia.org/wiki/Coriander,196
+259,herb,Herb,garlic,"garlic, garlic-fried, garlic-oil",Garlic,Garlic,https://en.wikipedia.org/wiki/Garlic,Allium,https://en.wikipedia.org/wiki/Allium,143
+262,herb,Herb,mint,mint,Mint,Mint,https://en.wikipedia.org/wiki/Lamiaceae,Lamiaceae,https://en.wikipedia.org/wiki/Lamiaceae,162
+275,meat,Meat,lamb,"lamb, lamb-cooked, lamb-fat, lamb-liver, lamb-roasted",Lamb,Lamb,https://en.wikipedia.org/wiki/Sheep,Sheep,https://en.wikipedia.org/wiki/Sheep,37
+289,nutseed-legume,Legume,soybean,"soybean, soybean-douchi, soybean-heated, soybean-products",Soybean,Soya bean ,https://en.wikipedia.org/wiki/Soybean,Glycine,https://en.wikipedia.org/wiki/Glycine_(plant),225
+299,nutseed-seed,Seed,sesame,"sesame, sesame-roasted",Sesame,Sesame,https://en.wikipedia.org/wiki/Sesame,Sesamum,https://en.wikipedia.org/wiki/Sesamum,130
+307,plant,Plant,olive,"olive, olive-oil",Olive,Olive,https://en.wikipedia.org/wiki/Olive,Olea,https://en.wikipedia.org/wiki/Olea,155
+310,plant,Plant,tea,"tea, tea-brewed, tea-ceylon, tea-leafoil",Tea,Tea,https://en.wikipedia.org/wiki/Tea,Camellia Sinensis,https://en.wikipedia.org/wiki/Camellia_sinensis,391
+347,vegetable,Vegetable,okra,okra,Okra,"Okro, Lady's fingers, Ngombo",https://en.wikipedia.org/wiki/Okra,Abelmosch,https://en.wikipedia.org/wiki/Abelmoschus,121
+387,vegetable,Vegetable,eggplant,eggplant,Eggplant,"Aubergine, Brinjal",https://en.wikipedia.org/wiki/Eggplant,Solanum,https://en.wikipedia.org/wiki/Solanum,132
+394,fruit,Fruit,pomegranate,pomegranate,Pomegranate,Pomegranate,https://en.wikipedia.org/wiki/Pomegranate,Punica,https://en.wikipedia.org/wiki/Punica,128
+417,nutseed-legume,Legume,,,Chickpea,"Bengal gram, Garbanzo,  Garbanzo bean, Egyptian pea.",https://en.wikipedia.org/wiki/Chickpea,Cicer,https://en.wikipedia.org/wiki/Cicer,103
+439,nutseed-nut,Nut,,,Pistachio,Pistachio,https://en.wikipedia.org/wiki/Pistachio,Pistacia,https://en.wikipedia.org/wiki/Pistacia,103
+452,cerealcrop-cereal,Cereal,,,Wheat,"Common wheat, Bread wheat",https://en.wikipedia.org/wiki/Common_wheat,Triticum,https://en.wikipedia.org/wiki/Wheat,112

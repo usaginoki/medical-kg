@@ -1,0 +1,51 @@
+Plant_ID,Plant_Name,Species_Tax_ID,Species_Name,Genus_Tax_ID,Genus_Name,Family_Tax_ID,Family_Name
+NPO6530,Dolichos Lablab L,,,3839.0,Dolichos,3803,Fabaceae
+NPO12205,Eucalyptus Apodophylla,1711146,Eucalyptus apodophylla,3932.0,Eucalyptus,3931,Myrtaceae
+NPO21587,Hypericum Papuanum,1137007,Hypericum papuanum,55962.0,Hypericum,629714,Hypericaceae
+NPO11637,Psilostrophe Cooperi,128742,Psilostrophe cooperi,41625.0,Psilostrophe,4210,Asteraceae
+NPO9564,Annona Haematantha,,,13336.0,Annona,22140,Annonaceae
+NPO4253,Viguiera Annua,,,73317.0,Viguiera,4210,Asteraceae
+NPO25050,Mycetia Nutans,1712818,Mycetia nutans,58404.0,Mycetia,24966,Rubiaceae
+NPO18636,Hesperocyparis Macrocarpa,76352,Hesperocyparis macrocarpa,634378.0,Hesperocyparis,3367,Cupressaceae
+NPO8524,Pithecellobium Clypearia,714486,Pithecellobium clypearia,58875.0,Pithecellobium,3803,Fabaceae
+NPO5649.1,Coptis Chinensis Var. Brevisepala,261450,Coptis chinensis,3441.0,Coptis,3440,Ranunculaceae
+NPO20610,Mosla Dianthera,1874238,Mosla dianthera,516064.0,Mosla,4136,Lamiaceae
+NPO7317,Citrus Aurantium,43166,Citrus aurantium,2706.0,Citrus,23513,Rutaceae
+NPO15674,Acanthosyris Spinescens,,,136850.0,Acanthosyris,1003248,Cervantesiaceae
+NPO4970,Torricellia Tiliifolia,138902,Torricellia tiliifolia,138901.0,Torricellia,138900,Torricelliaceae
+NPO791,Laburnum Anagyroides,49828,Laburnum anagyroides,3851.0,Laburnum,3803,Fabaceae
+NPO19037,Senecio Praecox,,,18794.0,Senecio,4210,Asteraceae
+NPO12801,Aglaia Meridionalis,306524,Aglaia meridionalis,201006.0,Aglaia,43707,Meliaceae
+NPO8932,Panopsis Rubescens,,,83734.0,Panopsis,4328,Proteaceae
+NPO12972,Scutellaria Epilobifolia,,,4139.0,Scutellaria,4136,Lamiaceae
+NPO1019,Citrus Hybr,,,2706.0,Citrus,23513,Rutaceae
+NPO18252,Cajanus Cajan,3821,Cajanus cajan,3820.0,Cajanus,3803,Fabaceae
+NPO6835,Diospyros Mafiensis,,,13492.0,Diospyros,19955,Ebenaceae
+NPO6645.1,Picea Jezoensis Var. Jezoensis,67778,Picea jezoensis,3328.0,Picea,3318,Pinaceae
+NPO26641,Pteroxygonum Giraldii,374751,Pteroxygonum giraldii,374750.0,Pteroxygonum,3615,Polygonaceae
+NPO3658,Achillea Pseudopectinata,282760,Achillea pseudopectinata,13328.0,Achillea,4210,Asteraceae
+NPO14392,Caesalpinia Minax,857496,Caesalpinia minax,53845.0,Caesalpinia,3803,Fabaceae
+NPO29099,Sinocrassula Indica,91157,Sinocrassula indica,91156.0,Sinocrassula,3781,Crassulaceae
+NPO18524,Scenedesmus Basiliensis,119572,Scenedesmus basiliensis,3087.0,Scenedesmus,3086,Scenedesmaceae
+NPO33085,Nuphar Pumilum,,,4415.0,Nuphar,4410,Nymphaeaceae
+NPO13030,Artemisia Dentata,,,4219.0,Artemisia,4210,Asteraceae
+NPO134,Cassia Artemisioides,,,53851.0,Cassia,3803,Fabaceae
+NPO1329,Esenbeckia Hartmanii,,,372452.0,Esenbeckia,23513,Rutaceae
+NPO22683,Pteris Bella,1508567,Pteris bella,13820.0,Pteris,13819,Pteridaceae
+NPO24184,Argyrochosma Pilifera,1055479,Argyrochosma pilifera,331973.0,Argyrochosma,13819,Pteridaceae
+NPO12181,Albizia Julibrissin,3813,Albizia julibrissin,3812.0,Albizia,3803,Fabaceae
+NPO22964,Teucrium Fruticans,28514,Teucrium fruticans,21896.0,Teucrium,4136,Lamiaceae
+NPO23023,Swertia Pubescens,166623,Swertia pubescens,39241.0,Swertia,21472,Gentianaceae
+NPO3956,Maesa Ramentacea,1526298,Maesa ramentacea,59979.0,Maesa,4335,Primulaceae
+NPO11222,Rubus Alceifolius,124693,Rubus alceifolius,23216.0,Rubus,3745,Rosaceae
+NPO18986,Betula Papyrifera,3507,Betula papyrifera,3504.0,Betula,3514,Betulaceae
+NPO21353,Crotalaria Lachnophora,1237651,Crotalaria lachnophora,3828.0,Crotalaria,3803,Fabaceae
+NPO17130,Hylotelephium Telephium,91097,Hylotelephium telephium,91095.0,Hylotelephium,3781,Crassulaceae
+NPO12255,Jasminum Humile,126430,Jasminum humile,4147.0,Jasminum,4144,Oleaceae
+NPO2607,Ophiorrhiza Blumeana,,,35912.0,Ophiorrhiza,24966,Rubiaceae
+NPO27555,Sedum Acre,23028,Sedum acre,3784.0,Sedum,3781,Crassulaceae
+NPO28988,Euphorbia Maculata,216479,Euphorbia maculata,3990.0,Euphorbia,3977,Euphorbiaceae
+NPO12933,Gymnadenia Conopsea,59324,Gymnadenia conopsea,59323.0,Gymnadenia,4747,Orchidaceae
+NPO21320,Artabotrys Venustus,,,225832.0,Artabotrys,22140,Annonaceae
+NPO1958,Eupatorium Leucolepis,102775,Eupatorium leucolepis,13516.0,Eupatorium,4210,Asteraceae
+NPO22234,Ficus Carica,3494,Ficus carica,3493.0,Ficus,3487,Moraceae

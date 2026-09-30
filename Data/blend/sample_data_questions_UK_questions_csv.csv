@@ -1,0 +1,51 @@
+Unnamed: 0,ID,Topic,Source,Question,Translation
+0,Al-en-01,Food,English (US),What is a common snack for nursery kids in the UK?,What is a common snack for preschool kids in UK?
+1,Al-en-02,Food,English (US),What is a popular food to go with beer in the UK?,What is a popular food to go with beer in UK?
+2,Al-en-04,Food,English (US),What is the most popular fruit in the UK?,What is the most popular fruit in UK?
+3,Al-en-06,Food,English (US),What is a common school cafeteria food in the UK?,What is a common school cafeteria food in UK?
+4,Al-en-08,Food,English (US),What are the most commonly eaten snacks at shopping malls in the UK?,What are the most commonly eaten snacks at shopping malls in UK?
+5,Al-en-09,Food,English (US),What is a popular snack at an amusement park in the UK?,What is a popular snack at an amusement park in UK?
+6,Al-en-16,Education,English (US),"At what age do kids start nursery in the UK? (Provide Arabic numerals (e.g., 12) only.)","At what age do kids start preschool in UK? (Provide Arabic numerals (e.g., 12) only.)"
+7,Al-en-17,Education,English (US),What is a popular afterschool sport for primary schools in the UK?,What is a popular afterschool sport for elementary schools in UK?
+8,Al-en-18,Education,English (US),For which subject do primary school students get private education in the UK?,For which subject do elementary students get private education in UK?
+9,Al-en-19,Education,English (US),What is a popular second language for secondary school students in the UK?,What is a popular second language for high school students in UK?
+10,Al-en-21,Education,English (US),Which subject is the most important for gifted education in the UK?,Which subject is the most important for gifted education in UK?
+11,Al-en-32,Holidays/Celebration/Leisure,English (US),What is the main dish for Thanksgiving in the UK?,What is the main dish for Thanksgiving in UK?
+12,Al-en-33,Holidays/Celebration/Leisure,English (US),What do people do to celebrate Halloween in the UK?,What do people do to celebrate Halloween in UK?
+13,Al-en-34,Holidays/Celebration/Leisure,English (US),What do people do to celebrate New Year's Day in the UK?,What do people do to celebrate New Year's Day in UK?
+14,Al-en-35,Holidays/Celebration/Leisure,English (US),What do people do to celebrate Christmas in the UK?,What do people do to celebrate Christmas in UK?
+15,Al-en-36,Holidays/Celebration/Leisure,English (US),What food is associated with Halloween in the UK?,What food is associated with Halloween in UK?
+16,Al-en-37,Holidays/Celebration/Leisure,English (US),What food is associated with Christmas in the UK?,What food is associated with Christmas in UK?
+17,Al-en-38,Holidays/Celebration/Leisure,English (US),What food is associated with Valentine's day in the UK?,What food is associated with Valentine's day in UK?
+18,Al-en-39,Holidays/Celebration/Leisure,English (US),What do people eat on their birthday in the UK?,What do people eat on their birthday in UK?
+19,Al-en-40,Holidays/Celebration/Leisure,English (US),What is a popular outdoor place for families to have fun with little kids in the UK?,What is a popular outdoor place for families to have fun with little kids in UK?
+20,Al-en-43,Holidays/Celebration/Leisure,English (US),What is a popular indoor activity for families in the UK?,What is a popular indoor activity for families in UK?
+21,An-ar-02,Education,Arabic (Algeria),Where do university students have lunch in the UK?,Where do university students have lunch in UK?
+22,An-ar-03,Education,Arabic (Algeria),Which month is the final exam term usually scheduled at secondary schools in the UK? (Provide Arabic numerals (1~12) only.),Which month is the final exam term usually scheduled at high schools in UK? (Provide Arabic numerals (1~12) only.)
+23,An-ar-08,Education,Arabic (Algeria),"How many hours a day do students in the UK usually spend at secondary school? (Provide Arabic numerals in integers (0~24), without any decimal points.)","How many hours a day do students in UK usually spend at high school? (Provide Arabic numerals in integers (0~24), without any decimal points.)"
+24,An-ar-09,Education,Arabic (Algeria),"How many languages do students study at secondary school in the UK? (Provide Arabic numerals (e.g., 5) only.)","How many languages do students study at high school in UK? (Provide Arabic numerals (e.g., 5) only.)"
+25,An-ar-34,Sport,Arabic (Algeria),What is the most popular sport played in a team at school in the UK?,What is the most popular sport played in a team at school in UK?
+26,An-ar-35,Sport,Arabic (Algeria),Who is the most popular sports commentator in the UK?,Who is the most popular sport commentator in UK?
+27,An-ar-36,Sport,Arabic (Algeria),What is the most popular sports team in the UK?,What is the most popular sport team in UK?
+28,An-ar-43,Sport,Arabic (Algeria),What are the common places or venues where individuals in the UK usually gather to watch sports broadcasts?,What are the common places or venues where individuals in UK usually gather to watch sports broadcasts?
+29,Ca-sp-05,Food,Spanish (Spain),"How many meals per day do people from the UK usually have? (Provide Arabic numerals (e.g., 5) only.)","How many meals per day do people from UK usually have? (Provide Arabic numerals (e.g., 5) only.)"
+30,Ca-sp-06,Food,Spanish (Spain),Which is the most important meal of the day to people from the UK?,Which is the most important meal of the day to people from UK?
+31,Ca-sp-08,Food,Spanish (Spain),What is the most common ingredient used in the UK's diet?,What is the most common ingredient used in UK's diet?
+32,Ca-sp-09,Food,Spanish (Spain),What do people from the UK usually eat for dessert?,What do people from UK usually eat for dessert?
+33,Ca-sp-11,Food,Spanish (Spain),Which day of the week do people usually organize a family meal in the UK?,Which day of the week do people usually organize a family meal in UK?
+34,Ca-sp-14,Food,Spanish (Spain),Which is the most popular hot drink in the UK?,Which is the most popular hot drink in UK?
+35,Ca-sp-19,Holidays/Celebration/Leisure,Spanish (Spain),What do young people from the UK usually drink at the night club?,What do young people from UK usually drink at the night club?
+36,Ca-sp-21,Holidays/Celebration/Leisure,Spanish (Spain),In which month do people usually take holidays in the UK? (Provide Arabic numerals (1~12) only.),At which month do people usually take holidays in UK? (Provide Arabic numerals (1~12) only.)
+37,Ca-sp-29,Holidays/Celebration/Leisure,Spanish (Spain),What tradition is there in the UK for New Year's Eve?,What tradition is there in UK for New Year's Eve?
+38,Ca-sp-38,Family,Spanish (Spain),Which is the typical type of house for a family in the UK?,Which is the typical type of house for a family in UK?
+39,Ca-sp-41,Family,Spanish (Spain),Where do the dependent elderly usually live in the UK?,Where do the dependent elderly usually live in UK?
+40,Ca-sp-42,Family,Spanish (Spain),"How long (in weeks) is the UK's maternity leave for mums? (Provide Arabic numerals (e.g., 20) only.)","How long (in weeks) is UK's maternity leave for mums? (Provide Arabic numerals (e.g., 20) only.)"
+41,Ca-sp-43,Family,Spanish (Spain),"How long (in weeks) is the UK's paternity leave for dads? (Provide Arabic numerals (e.g., 20) only.)","How long (in weeks) is UK's paternity leave for dads? (Provide Arabic numerals (e.g., 20) only.)"
+42,Ca-sp-45,Family,Spanish (Spain),What type of destination is commonly chosen for a family holiday in the UK?,What type of destination is commonly chosen for a family vacation in UK?
+43,Gu-ch-05,Sport,Chinese (China),What sports do seniors like the most in the UK?,What sports do seniors like the most in UK?
+44,Gu-ch-06,Sport,Chinese (China),What sports do men like to play the most in the UK?,What sports do men like to play the most in UK?
+45,Gu-ch-07,Sport,Chinese (China),Who is the most famous basketball player in the UK?,Who is the most famous basketball player in UK?
+46,Gu-ch-08,Sport,Chinese (China),What is the most popular sports among children in the UK?,What is the most popular sports among children in UK?
+47,Gu-ch-09,Sport,Chinese (China),What sports do women like to play the most in the UK?,What sports do women like to play the most in UK?
+48,Gu-ch-11,Sport,Chinese (China),In which sports event at the olympics has the UK won the most gold medals? ,What sports event has UK won the most gold medals at the Olympics?
+49,Gu-ch-15,Sport,Chinese (China),What sports do male students in university like to play the most in the UK?,What sports do male students in university like to play the most in UK?

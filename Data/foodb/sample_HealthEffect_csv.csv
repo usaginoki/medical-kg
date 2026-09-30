@@ -1,0 +1,59 @@
+id,name,description,chebi_name,chebi_id,created_at,updated_at,creator_id,updater_id,chebi_definition
+1,(+)-inotropic,An agent that alters the force or energy of muscular contractions. Positively inotropic agents increase the strength of muscular contraction.,,,2012-04-10 10:05:13 UTC,2015-11-11 02:32:19 UTC,,,
+2,(-)-chronotropic,"An agent that may change the heart rate by affecting the nerves controlling the heart, or by changing the rhythm produced by the sinoatrial node. Negative chronotropes decrease heart rate.",,,2012-04-10 10:05:13 UTC,2015-11-11 02:32:19 UTC,,,
+3,(-)-inotropic,An agent that alters the force or energy of muscular contractions. Negatively inotropic agents weaken the force of muscular contractions.,,,2012-04-10 10:05:13 UTC,2015-11-11 02:32:19 UTC,,,
+4,11beta-hydroxysteroid-dehydrogenase inhibitor,,enzyme inhibitor,23924.0,2012-04-10 10:05:13 UTC,2015-10-27 17:47:35 UTC,,,A compound or agent that combines with an enzyme in such a manner as to prevent the normal substrate-enzyme combination and the catalytic reaction.
+5,12-lipoxygenase inhibitor,,enzyme inhibitor,23924.0,2012-04-10 10:05:13 UTC,2015-10-27 17:47:36 UTC,,,A compound or agent that combines with an enzyme in such a manner as to prevent the normal substrate-enzyme combination and the catalytic reaction.
+6,17beta-hydroxysteroid-dehydrogenase inhibitor,,enzyme inhibitor,23924.0,2012-04-10 10:05:13 UTC,2015-10-27 17:47:37 UTC,,,A compound or agent that combines with an enzyme in such a manner as to prevent the normal substrate-enzyme combination and the catalytic reaction.
+7,5alpha-reductase inhibitor,,5alpha-reductase inhibitor,50781.0,2012-04-10 10:05:13 UTC,2015-10-27 17:47:37 UTC,,,"An EC 1.3.1.* (oxidoreductase acting on CH-CH group of donor, NAD(+) or NADP(+) as acceptor) inhibitor that interferes with the action of of 3-oxo-5alpha-steroid 4-dehydrogenase (NADP(+)), EC 1.3.1.22, the enzyme which converts testosterone (CHEBI:17347) into the more potent androgen 5alpha-dihydrotestosterone."
+8,5-hydroxyeicosatetraenoic-acid inhibitor,,inhibitor,35222.0,2012-04-10 10:05:13 UTC,2015-10-27 17:47:38 UTC,,,A substance that diminishes the rate of a chemical reaction.
+9,5-hydroxytryptamine inhibitor,,serotonergic antagonist,48279.0,2012-04-10 10:05:13 UTC,2015-10-27 17:47:38 UTC,,,"Drugs that bind to but do not activate serotonin receptors, thereby blocking the actions of serotonin or serotonergic agonists."
+10,5-lipoxygenase inhibitor,,enzyme inhibitor,23924.0,2012-04-10 10:05:13 UTC,2015-10-27 17:47:39 UTC,,,A compound or agent that combines with an enzyme in such a manner as to prevent the normal substrate-enzyme combination and the catalytic reaction.
+11,8-hydroxyeicosatetraenoic-acid inhibitor,,inhibitor,35222.0,2012-04-10 10:05:13 UTC,2015-10-27 17:47:40 UTC,,,A substance that diminishes the rate of a chemical reaction.
+12,beta inhibitor,,inhibitor,35222.0,2012-04-10 10:05:13 UTC,2015-10-27 17:47:40 UTC,,,A substance that diminishes the rate of a chemical reaction.
+13,abortifacient,,abortifacient,50691.0,2012-04-10 10:05:14 UTC,2015-10-29 22:40:58 UTC,,,A chemical substance that interrupts pregnancy after implantation.
+14,absorbent,"A substance or item able to soak liquid easily.
+",,,2012-04-10 10:05:14 UTC,2015-11-11 02:32:10 UTC,,,
+15,acantholytic,"Causing loss of intercellular connections, such as desmosomes, resulting in loss of cohesion between keratinocytes.
+",,,2012-04-10 10:05:14 UTC,2015-11-11 02:32:18 UTC,,,
+16,acaricide,,acaricide,22153.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:41 UTC,,,A substance used to destroy pests of the subclass Acari (mites and ticks).
+17,acarifuge,,pesticide,25944.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:41 UTC,,,"Strictly, a substance intended to kill pests. In common usage, any substance used for controlling, preventing, or destroying animal, microbiological or plant pests."
+18,angiotensin converting enzyme inhibitor,,angiotensin-converting enzyme inhibitor,35457.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:42 UTC,,,An EC 3.4.15.* (peptidyl-dipeptidase) inhibitor that interferes with the action of peptidyl-dipeptidase A (EC 3.4.15.1).
+19,acetyl-CoA-carboxylase inhibitor,,enzyme inhibitor,23924.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:42 UTC,,,A compound or agent that combines with an enzyme in such a manner as to prevent the normal substrate-enzyme combination and the catalytic reaction.
+20,acetylcholinergic,,cholinergic drug,38323.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:43 UTC,,,"Any drug used for its actions on cholinergic systems. Included here are agonists and antagonists, drugs that affect the life cycle of acetylcholine, and drugs that affect the survival of cholinergic neurons."
+21,acetylcholinesterase inhibitor,,acetylcholinesterase inhibitor,38462.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:44 UTC,,,"An EC 3.1.1.* (carboxylic ester hydrolase) inhibitor that interferes with the action of enzyme acetylcholinesterase (EC 3.1.1.7), which helps breaking down of acetylcholine into choline and acetic acid."
+22,acidifier,,food additive,64047.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:44 UTC,,,Any substance which is added to food to preserve or enhance its flavour and/or appearance.
+23,acidulant,,food additive,64047.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:45 UTC,,,Any substance which is added to food to preserve or enhance its flavour and/or appearance.
+24,acnegenic,,aetiopathogenetic role,52209.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:45 UTC,,,A role played by the molecular entity or part thereof which causes the development of a pathological process.
+25,adaptogenic,"A substance or compounds that results in stabilization of physiological processes and promotion of homeostasis, an example being by decreased cellular sensitivity to stress.
+",,,2012-04-10 10:05:14 UTC,2015-11-11 02:32:10 UTC,,,
+26,addictive,"A substance causing dependency, in spite of effects.
+",,,2012-04-10 10:05:14 UTC,2015-11-11 02:32:10 UTC,,,
+27,additive,,food additive,64047.0,2012-04-10 10:05:14 UTC,2015-10-29 22:41:00 UTC,,,Any substance which is added to food to preserve or enhance its flavour and/or appearance.
+28,adenosine antagonist,,antagonist,48706.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:46 UTC,,,Substance that attaches to and blocks cell receptors that normally bind naturally occurring substances.
+29,adenylate-cyclase inhibitor,,enzyme inhibitor,23924.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:46 UTC,,,A compound or agent that combines with an enzyme in such a manner as to prevent the normal substrate-enzyme combination and the catalytic reaction.
+30,adjuvant,,adjuvant,60809.0,2012-04-10 10:05:14 UTC,2015-10-29 22:41:00 UTC,,,Any pharmacological or immunological agent that modifies the effect of other agents such as drugs or vaccines while having few if any direct effects when given by itself.
+31,adrenergic,,adrenergic agent,37962.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:47 UTC,,,Any agent that acts on an adrenergic receptor or affects the life cycle of an adrenergic transmitter.
+32,aedifuge,,pesticide,25944.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:47 UTC,,,"Strictly, a substance intended to kill pests. In common usage, any substance used for controlling, preventing, or destroying animal, microbiological or plant pests."
+33,advanced glycation end products inhibitor,,inhibitor,35222.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:48 UTC,,,A substance that diminishes the rate of a chemical reaction.
+34,aggregant,"An agent that promotes conjugation or collection of particulars into a whole.
+",,,2012-04-10 10:05:14 UTC,2015-11-11 02:32:14 UTC,,,
+35,aryl-hydrocarbon-hydroxylase inhibitor,,enzyme inhibitor,23924.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:48 UTC,,,A compound or agent that combines with an enzyme in such a manner as to prevent the normal substrate-enzyme combination and the catalytic reaction.
+36,serine/threonine kinase inhibitor,,serine/threonine kinase inhibitor,50925.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:49 UTC,,,"An EC 2.7.11.* (protein-serine/threonine kinase) inhibitor that interferes with the action of non-specific serine/threonine protein kinase (EC 2.7.11.1), a kinase enzyme involved in phosphorylation of hydroxy group of serine or threonine."
+37,albuminurigenic,,,,2012-04-10 10:05:14 UTC,2012-04-10 10:05:14 UTC,,,
+38,alcohol dehydrogenase inhibitor,,alcohol dehydrogenase inhibitor,50269.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:49 UTC,,,"An EC 1.1.1.* (oxidoreductase acting on donor CH-OH group, NAD(+) or NADP(+) acceptor) inhibitor that interferes with the action of alcohol dehydrogenase (EC 1.1.1.1)."
+39,aldehyde-oxidase inhibitor,,enzyme inhibitor,23924.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:50 UTC,,,A compound or agent that combines with an enzyme in such a manner as to prevent the normal substrate-enzyme combination and the catalytic reaction.
+40,aldose reductase inhibitor,,aldose reductase inhibitor,48550.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:50 UTC,,,"An EC 1.1.1.* (oxidoreductase acting on donor CH-OH group, NAD(+) or NADP(+) acceptor) inhibitor that interferes with the action of aldehyde reductase (EC 1.1.1.21)."
+41,allelochemic,"Chemicals, released from plants, that cause an interaction between plants and other living organisms.
+",,,2012-04-10 10:05:14 UTC,2015-11-11 02:32:18 UTC,,,
+42,allelopathic,"Biochemicals produced by an organism that influence the growth, survival, and reproduction of other organisms.
+",,,2012-04-10 10:05:14 UTC,2015-11-11 02:32:18 UTC,,,
+43,allergenic,,allergenic agent,50904.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:51 UTC,,,A chemical compound which causes the onset of an allergic reaction by interacting with any of the molecular pathways involved in an allergy.
+44,alpha-amylase inhibitor,,alpha-amylase inhibitor,50627.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:52 UTC,,,An EC 3.2.1.* (glycosidase) inhibitor that interferes with the action of alpha-amylase (EC 3.2.1.1).
+45,alpha-glucosidase inhibitor,,alpha-glucoside hydrolase inhibitor,50628.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:52 UTC,,,An EC 3.2.1.* (glycosidase) inhibitor that interferes with the action of alpha-glucosidase (EC 3.2.1.20).
+46,alpha-reductase inhibitor,,enzyme inhibitor,23924.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:53 UTC,,,A compound or agent that combines with an enzyme in such a manner as to prevent the normal substrate-enzyme combination and the catalytic reaction.
+47,amblyopic,"A toxic sunstance causing amblyopia by damaging the optic nerve, such as lead, methanol, antifreeze, or certain drugs.
+",,,2012-04-10 10:05:14 UTC,2015-11-11 02:32:11 UTC,,,
+48,amebicide,,antimicrobial agent,33281.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:53 UTC,,,"A substance that kills or slows the growth of microorganisms, including bacteria, viruses, fungi and protozoans."
+49,amnesigenic,,aetiopathogenetic role,52209.0,2012-04-10 10:05:14 UTC,2015-10-27 17:47:54 UTC,,,A role played by the molecular entity or part thereof which causes the development of a pathological process.
+50,amphetaminagenic,,,,2012-04-10 10:05:14 UTC,2012-04-10 10:05:14 UTC,,,

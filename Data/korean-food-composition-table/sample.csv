@@ -1,0 +1,51 @@
+db_index,food_code,food_name_ko,food_name_en,scientific_name
+1,A001001A010a,"귀리, 겉귀리, 도정, 생것","Oat(Gwiri), Covered, Polished, Raw",Avena sativa L.
+3381,A0490030009a,"귀리, 겉귀리, 도정, 밥","Oat(Gwiri), Covered, Polished, Cooked",Avena sativa L.
+2,A001002A010a,"귀리, 쌀귀리, 도정, 생것","Oat(Gwiri), Naked, Polished, Raw",Avena nuda L.
+3,A001003A010a,"귀리, 쌀귀리, 대양, 도정, 생것","Oat(Gwiri), Naked, Daeyang, Polished, Raw",Avena nuda L.
+4,A001004A010a,"귀리, 쌀귀리, 조양, 도정, 생것","Oat(Gwiri), Naked, Joyang, Polished, Raw",Avena nuda L.
+5,A0490000009a,"귀리, 쌀귀리, 도정, 밥","Oat(Gwiri), Naked, Polished, Cooked",Avena nuda L.
+6,A0490010009a,"귀리, 쌀귀리, 대양, 도정, 밥","Oat(Gwiri), Naked, Daeyang, Polished, Cooked",Avena nuda L.
+7,A0490020009a,"귀리, 쌀귀리, 조양, 도정, 밥","Oat(Gwiri), Naked, Joyang, Polished, Cooked",Avena nuda L.
+8,A0020000009a,"귀리, 오트밀","Oat, Oatmeal",
+9,A003000A010a,"기장, 도정, 생것","Proso millet(Gijang), Polished, Raw",Panicum miliaceum L.
+10,A003001A010a,"기장, 찰기장, 도정, 생것","Proso millet(Gijang), Glutinous, Polished, Raw",Panicum miliaceum L.
+11,A003002A010a,"기장, 찰기장, 이백찰, 도정, 생것","Proso millet(Gijang), Glutinous, Ibaekchal, Polished, Raw",Panicum miliaceum L.
+12,A003003A010a,"기장, 찰기장, 한라찰, 도정, 생것","Proso millet(Gijang), Glutinous, Hallachal, Polished, Raw",Panicum miliaceum L.
+13,A003004A010a,"기장, 찰기장, 황실찰, 도정, 생것","Proso millet(Gijang), Glutinous, Hwangsilchal, Polished, Raw",Panicum miliaceum L.
+3382,A0540010009a,"기장, 찰기장, 도정, 밥","Proso millet(Gijang), Glutinous, Polished, Cooked",Panicum miliaceum L.
+14,A004000A010a,"메밀, 도정, 생것","Buckwheat(Memil), Polished, Raw",Fagopyrum esculentum Moench
+15,A004000A015a,"메밀, 도정, 가루","Buckwheat(Memil), Polished, Powder",Fagopyrum esculentum Moench
+16,A0050000000a,"메밀 국수, 생것","Buckwheat noodle, Memil guksu, Wet noodle",
+17,A0050000000b,"메밀 국수, 생것, 삶은것","Buckwheat noodle, Memil guksu, Wet noodle, Boiled",
+18,A0050000001a,"메밀 국수, 말린것","Buckwheat noodle, Memil guksu, Dry noodle",
+19,A0050000001b,"메밀 국수, 말린것, 삶은것","Buckwheat noodle, Memil guksu, Dry noodle, Boiled",
+20,A0060000001a,"메밀 냉면, 말린것","Buckwheat noodle, Nangmyeon, Dry noodle",
+21,A0060000001b,"메밀 냉면, 말린것, 삶은것","Buckwheat noodle, Nangmyeon, Dry noodle, Boiled",
+22,A0070000000a,메밀묵,"Memilmuk, Buckwheat starch jelly",
+23,A0070000005a,"메밀묵, 가루","Starch, Buckwheat, Powder",
+25,A008000A030a,"멥쌀, 백미, 생것","Rice(Ssal), White, Raw",Oryza sativa L.
+3383,A008062A030a,"멥쌀, 백미, 고시히카리, 생것","Rice(Ssal), White, Koshihikari, Raw",Oryza sativa L.
+26,A008002A030a,"멥쌀, 백미, 고아미2호, 생것","Rice(Ssal), White, Goami2ho, Raw",Oryza sativa L.
+27,A008036A030a,"멥쌀, 백미, 골든퀸3호, 생것","Rice(Ssal), White, Goldenqueen3ho, Raw",Oryza sativa L.
+28,A008038A030a,"멥쌀, 백미, 금강1호, 생것","Rice(Ssal), White, Geumgang1ho, Raw",Oryza sativa L.
+29,A008039A030a,"멥쌀, 백미, 남찬, 생것","Rice(Ssal), White, Namchan, Raw",Oryza sativa L.
+30,A008040A030a,"멥쌀, 백미, 도담쌀, 생것","Rice(Ssal), White, Dodamssal, Raw",Oryza sativa L.
+31,A008041A030a,"멥쌀, 백미, 미품, 생것","Rice(Ssal), White, Mipum, Raw",Oryza sativa L.
+3384,A008063A030a,"멥쌀, 백미, 바로미2, 생것","Rice(Ssal), White, Baromi2, Raw",Oryza sativa L.
+3535,A008065A030a,"멥쌀, 백미, 바로미3, 생것","Rice(Ssal), White, Baromi3, Raw",Oryza sativa L.
+32,A008042A030a,"멥쌀, 백미, 보람찬, 생것","Rice(Ssal), White, Boramchan, Raw",Oryza sativa L.
+33,A008043A030a,"멥쌀, 백미, 삼광, 생것","Rice(Ssal), White, Samkwang, Raw",Oryza sativa L.
+3536,A008066A030a,"멥쌀, 백미, 새미면, 생것","Rice(Ssal), White, Saemimyeon, Raw",Oryza sativa L.
+34,A008044A030a,"멥쌀, 백미, 새일미, 생것","Rice(Ssal), White, Saeilmi, Raw",Oryza sativa L.
+3537,A008067A030a,"멥쌀, 백미, 새청무, 생것","Rice(Ssal), White, Saecheongmoo, Raw",Oryza sativa L.
+36,A008045A030a,"멥쌀, 백미, 설갱, 생것","Rice(Ssal), White, Seolgaeng, Raw",Oryza sativa L.
+3538,A008068A030a,"멥쌀, 백미, 신길, 생것","Rice(Ssal), White, Shingil, Raw",Oryza sativa L.
+38,A008046A030a,"멥쌀, 백미, 신동진, 생것","Rice(Ssal), White, Sindongjin, Raw",Oryza sativa L.
+3539,A008069A030a,"멥쌀, 백미, 아미쌀, 장립종, 생것","Rice(Ssal), White, Amissal, Long-grain, Raw",Oryza sativa L.
+3385,A008064A030a,"멥쌀, 백미, 안남미, 장립종, 생것","Rice(Ssal), White, Long-grain, Raw",Oryza sativa L.
+39,A008047A030a,"멥쌀, 백미, 알찬미, 생것","Rice(Ssal), White, Alchanmi, Raw",Oryza sativa L.
+40,A008048A030a,"멥쌀, 백미, 영호진미, 생것","Rice(Ssal), White, Yeonghojinmi, Raw",Oryza sativa L.
+41,A008049A030a,"멥쌀, 백미, 예찬, 생것","Rice(Ssal), White, Yechan, Raw",Oryza sativa L.
+42,A008050A030a,"멥쌀, 백미, 오대, 생것","Rice(Ssal), White, Ohdae, Raw",Oryza sativa L.
+43,A008051A030a,"멥쌀, 백미, 운광, 생것","Rice(Ssal), White, Ungwang, Raw",Oryza sativa L.

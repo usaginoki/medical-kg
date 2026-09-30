@@ -1,0 +1,51 @@
+Disease_id,Field_name,Field_context
+1,Disease_Name,"Basal Ganglia Calcification, Idiopathic, 1"
+1,Alias,"CEREBRAL CALCIFICATION, NONARTERIOSCLEROTIC, IDIOPATHIC, ADULT-ONSET"
+1,Alias,"IBGC3, FORMERLY"
+1,Alias,IBGC1
+1,Alias,"STRIOPALLIDODENTATE CALCINOSIS, AUTOSOMAL DOMINANT, ADULT-ONSET"
+1,Alias,"FERROCALCINOSIS, CEREBROVASCULAR"
+1,Alias,"STRIOPALLIDODENTATE CALCINOSIS, BILATERAL"
+1,Alias,BSPDC
+1,Alias,"FAHR DISEASE, FAMILIAL, FORMERLY"
+1,Alias,"BASAL GANGLIA CALCIFICATION, IDIOPATHIC, 3, FORMERLY"
+2,Disease_Name,"Generalized Junctional Epidermolysis Bullosa, Non-Herlitz Type"
+2,Alias,JEB-nH Gen
+2,Alias,Junctional Epidermolysis Bullosa Generalisata Mitis
+2,Alias,GABEB
+2,Alias,"Junctional Epidermolysis Bullosa, Disentis Type"
+2,Alias,Generalized Atrophic Benign Epidermolysis Bullosa
+3,Disease_Name,Dominant Beta-Thalassemia
+3,Alias,Inclusion Body Beta-thalassemia
+4,Disease_Name,Cataract 13 With Adult I Phenotype
+4,Alias,CTRCT13
+5,Disease_Name,Fumarase Deficiency
+5,Alias,FMRD
+5,Alias,FUMARIC ACIDURIA
+6,Disease_Name,"Erythroderma, Congenital, With Palmoplantar Keratoderma, Hypotrichosis, And Hyper-Ige"
+6,Alias,EPKHE
+6,Alias,"SEVERE DERMATITIS, MULTIPLE ALLERGIES, AND METABOLIC WASTING SYNDROME"
+6,Alias,SAM SYNDROME
+7,Disease_Name,Alpha-Thalassemia-X-Linked Intellectual Disability Syndrome
+7,Alias,ATR-X Syndrome
+8,Disease_Name,"Neuropathy, Hereditary Motor And Sensory, Okinawa Type"
+8,Alias,"HMSNP, FORMERLY"
+8,Alias,"HEREDITARY MOTOR AND SENSORY NEUROPATHY, PROXIMAL TYPE, FORMERLY"
+8,Alias,HMSNO
+9,Disease_Name,Encephalopathy Due To Prosaposin Deficiency
+9,Alias,Combined Prosaposin Deficiency
+10,Disease_Name,Tn Polyagglutination Syndrome
+10,Alias,TNPS
+10,Alias,GALACTOSYLTRANSFERASE DEFICIENCY
+11,Disease_Name,Apolipoprotein A-I Deficiency
+11,Alias,ApoA-I Deficiency
+11,Alias,Familial ApoA-I Deficiency
+11,Alias,Familial Hypoalphalipoproteinemia
+12,Disease_Name,Geroderma Osteodysplastica
+13,Disease_Name,Joubert Syndrome
+13,Alias,Pure Joubert Syndrome
+13,Alias,Cerebelloparenchymal Disorder IV
+13,Alias,Joubert-Boltshauser Syndrome
+13,Alias,Joubert Syndrome Type A
+13,Alias,Classic Joubert Syndrome
+13,Alias,CPD IV

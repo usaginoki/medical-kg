@@ -1,0 +1,51 @@
+Mol_id,Field_name,Field_context
+1,Molecule_name,Anthocyanidin
+1,CAS_id,84082-34-8
+2,Molecule_name,Luteolin
+2,Alias,luteolin-7-olate anion
+2,Alias,CHEBI:57545
+2,Alias,A827664
+2,Alias,"2-(3,4-dihydroxyphenyl)-5-hydroxy-4-oxo-4H-chromen-7-olate"
+2,Alias,"4-(5,7-dihydroxy-4-oxo-1-benzopyran-2-yl)-2-hydroxyphenolate"
+2,Alias,"2-(3,4-Dihydroxyphenyl)-5-hydroxy-7-oxylato-4H-1-benzopyran-4-one"
+2,Alias,"4-[5,7-bis(oxidanyl)-4-oxidanylidene-chromen-2-yl]-2-oxidanyl-phenolate"
+2,Alias,"2-(3,4-dihydroxyphenyl)-5-hydroxy-4-oxo-4H-chromen-7-olate luteolin-7-olate(1-)"
+2,CAS_id,491-70-3
+3,Molecule_name,Apigenin
+3,Alias,apigenin-7-olate
+3,Alias,CHEBI:58470
+3,Alias,A828903
+3,Alias,5-hydroxy-2-(4-hydroxyphenyl)-4-oxo-4H-chromen-7-olate
+3,Alias,7-hydroxy-2-(4-hydroxyphenyl)-4-oxo-1-benzopyran-5-olate
+3,Alias,2-(4-hydroxyphenyl)-7-oxidanyl-4-oxidanylidene-chromen-5-olate
+3,CAS_id,520-36-5
+4,Molecule_name,Luteolin-7-O-Glucoside
+4,Alias,NSC700145
+4,Alias,Luteolin 7-galactoside
+4,Alias,ST024704
+4,Alias,"2-(3,4-Dihydroxyphenyl)-5-hydroxy-4-oxo-4H-chromen-7-yl hexopyranoside"
+4,Alias,"2-(3,4-dihydroxyphenyl)-5-hydroxy-7-[3,4,5-trihydroxy-6-(hydroxymethyl)(2H-3,4 ,5,6-tetrahydropyran-2-yloxy)]chromen-4-one"
+4,Alias,68321-11-9
+4,Alias,Luteolin-7-glucosid
+4,Alias,AC1NRHCY
+4,Alias,SCHEMBL149119
+4,Alias,MEGxp0_000562
+4,Alias,SCHEMBL19523005
+4,Alias,MolPort-002-708-422
+4,Alias,NSC724451
+4,Alias,STK763169
+4,Alias,AKOS001483348
+4,Alias,AKOS021983229
+4,Alias,Luteolin-7-O-.beta.-D-glucopyranoside
+4,Alias,MCULE-8064140924
+4,Alias,NSC-700145
+4,Alias,NSC-724451
+4,Alias,NCGC00017208-02
+4,Alias,NCGC00142376-01
+4,Alias,NCI60_035927
+4,Alias,A2306/0097227
+4,Alias,"2-(3,4-Dihydroxyphenyl)-5-hydroxy-7-(4,5,6-trihydroxy-3-(hydroxymethyl)(2-oxanyloxy))-4H-chromen-4-one"
+4,Alias,"2-(3,4-dihydroxyphenyl)-5-hydroxy-7-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one"
+4,Alias,"2-(3,4-dihydroxyphenyl)-5-hydroxy-7-[3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl]oxy-chromen-4-one"
+4,Alias,"2-(3,4-DIHYDROXYPHENYL)-5-HYDROXY-7-{[3,4,5-TRIHYDROXY-6-(HYDROXYMETHYL)OXAN-2-YL]OXY}CHROMEN-4-ONE"
+4,CAS_id,26811-41-6

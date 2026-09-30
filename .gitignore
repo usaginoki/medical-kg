@@ -15,3 +15,20 @@ Attachments/**/*.pdf
 
 # secrets (e.g. S2_API_KEY)
 .env
+
+# downloaded datasets: keep only the schema profile and a small sample per dataset
+Data/**
+!Data/*/
+!Data/.gitkeep
+!Data/*/schema.md
+!Data/*/sample*.csv
+
+# browser automation scratch
+.playwright-mcp/
+
+# raw files the user downloaded by hand (see Access requests.md)
+Access-help/
+
+# dataset folders that are full git clones (nested repos bypass the schema/sample rule above)
+Data/central-asian-digital-visual-food-atlas/
+Data/central-asian-food-dataset/

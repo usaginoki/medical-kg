@@ -1,0 +1,51 @@
+﻿TTD_ID,Indication,State,FHDI_Drug_ID
+D0IV3M,Constipation [ICD-11: DD91.1],Approved,D00001
+D0XB8P,Inborn error of metabolism [ICD-11: 5C50-5C59],Approved,D00002
+D0X4ZR,Smoking dependence [ICD-11: 6C4A.2],Approved,D00006
+D0FD0H,Bleeding disorder [ICD-11: GA20-GA21],Approved,D00007
+D0FD0H,Postoperative hemorrhage [ICD-11: NE81.0Z],Approved,D00007
+D0Q5IN,Infestations of lice and scabies [ICD-11: 1G00.Z],Approved,D00008
+D0AN7B,Insomnia [ICD-11: 7A00-7A0Z],Approved,D00010
+D01ZJK,Venous thrombosis [ICD-11: BA43],Approved,D00009
+D01ZJK,Deep vein thrombosis [ICD-11: BD71],Approved,D00009
+D01ZJK,Thrombosis [ICD-11: DB61-GB90],Phase 3,D00009
+D01ZJK,Venous thromboembolism [ICD-11: BD72],Phase 3,D00009
+D01ZJK,Venous thrombosis [ICD-11: BA43],Approved,D01359
+D01ZJK,Deep vein thrombosis [ICD-11: BD71],Approved,D01359
+D01ZJK,Thrombosis [ICD-11: DB61-GB90],Phase 3,D01359
+D01ZJK,Venous thromboembolism [ICD-11: BD72],Phase 3,D01359
+D01ZJK,Venous thrombosis [ICD-11: BA43],Approved,D01360
+D01ZJK,Deep vein thrombosis [ICD-11: BD71],Approved,D01360
+D01ZJK,Thrombosis [ICD-11: DB61-GB90],Phase 3,D01360
+D01ZJK,Venous thromboembolism [ICD-11: BD72],Phase 3,D01360
+D01ZJK,Venous thrombosis [ICD-11: BA43],Approved,D01361
+D01ZJK,Deep vein thrombosis [ICD-11: BD71],Approved,D01361
+D01ZJK,Thrombosis [ICD-11: DB61-GB90],Phase 3,D01361
+D01ZJK,Venous thromboembolism [ICD-11: BD72],Phase 3,D01361
+D01ZJK,Venous thrombosis [ICD-11: BA43],Approved,D01362
+D01ZJK,Deep vein thrombosis [ICD-11: BD71],Approved,D01362
+D01ZJK,Thrombosis [ICD-11: DB61-GB90],Phase 3,D01362
+D01ZJK,Venous thromboembolism [ICD-11: BD72],Phase 3,D01362
+D01ZJK,Venous thrombosis [ICD-11: BA43],Approved,D01363
+D01ZJK,Deep vein thrombosis [ICD-11: BD71],Approved,D01363
+D01ZJK,Thrombosis [ICD-11: DB61-GB90],Phase 3,D01363
+D01ZJK,Venous thromboembolism [ICD-11: BD72],Phase 3,D01363
+D0XF8W,Mycobacterium infection [ICD-11: 1B10-1B21],Approved,D00012
+D0W1US,Virus infection [ICD-11: 1A24-1D9Z],Phase 2,D00014
+D08YIN,Multiple sclerosis [ICD-11: 8A40],Approved,D00015
+D0E4DW,Epilepsy [ICD-11: 8A60-8A68],Approved,D00016
+D0E6YQ,Alzheimer disease [ICD-11: 8A20],Approved,D00017
+D0HD9K,Hypertension [ICD-11: BA00-BA04],Approved,D00018
+D0U5QK,Pain [ICD-11: MG30-MG3Z],Approved,D00019
+D0E1SW,Glaucoma/ocular hypertension [ICD-11: 9C61],Approved,D00020
+D07WFK,Diabetic complication [ICD-11: 5A2Y],Approved,D00021
+D0R9BG,Urinary tract infection [ICD-11: GC08],Approved,D00022
+D00KVO,Worm infection [ICD-11: 1F90.Z],Approved,D00023
+D09MWJ,Benign prostatic hyperplasia [ICD-11: GA90],Approved,D00025
+D06GKN,Irritable bowel syndrome [ICD-11: DD91.0],Approved,D00026
+D0L9GG,Anxiety disorder [ICD-11: 6B00-6B0Z],Approved,D00027
+D0L9GG,Epilepsy [ICD-11: 8A60-8A68],Phase 2,D00027
+D02LPF,Ovarian cancer [ICD-11: 2C73],Approved,D00028
+D02KRS,Influenza A virus infection [ICD-11: 1E30],Approved,D00029
+D06IAQ,Myasthenia gravis [ICD-11: 8C6Y],Approved,D00030
+D0M6DO,Cushing disease [ICD-11: 5A70],Approved,D00031

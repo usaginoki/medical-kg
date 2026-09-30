@@ -1,0 +1,51 @@
+tax_id,spice,mesh_id,disease,n_positive,n_negative
+136217,Turmeric,MESH:D007249,Inflammation,60,1
+136217,Turmeric,MESH:D009369,Neoplasms,50,0
+136217,Turmeric,MESH:D063646,Carcinogenesis,49,0
+136217,Turmeric,MESH:D003920,Diabetes Mellitus,45,0
+136217,Turmeric,MESH:D000544,Alzheimer Disease,25,0
+136217,Turmeric,MESH:D056486,Chemical and Drug Induced Liver Injury,22,1
+136217,Turmeric,MESH:D001523,Mental Disorders,22,0
+136217,Turmeric,MESH:D015179,Colorectal Neoplasms,19,0
+136217,Turmeric,MESH:D001943,Breast Neoplasms,16,0
+136217,Turmeric,MESH:D009765,Obesity,14,0
+298661,Tanner Sumac,MESH:D003920,Diabetes Mellitus,6,0
+298661,Tanner Sumac,MESH:D001943,Breast Neoplasms,4,0
+298661,Tanner Sumac,MESH:D003877,"Dermatitis, Contact",0,4
+298661,Tanner Sumac,MESH:D003925,Diabetic Angiopathies,2,0
+298661,Tanner Sumac,MESH:D006949,Hyperlipidemias,2,0
+298661,Tanner Sumac,MESH:D001523,Mental Disorders,1,0
+298661,Tanner Sumac,MESH:D002318,Cardiovascular Diseases,1,0
+298661,Tanner Sumac,MESH:D003872,Dermatitis,0,1
+298661,Tanner Sumac,MESH:D003967,Diarrhea,1,0
+298661,Tanner Sumac,MESH:D004487,Edema,1,0
+4682,Garlic,MESH:D063646,Carcinogenesis,76,0
+4682,Garlic,MESH:D009369,Neoplasms,74,0
+4682,Garlic,MESH:D003920,Diabetes Mellitus,65,0
+4682,Garlic,MESH:D001791,Blood Platelet Disorders,58,1
+4682,Garlic,MESH:D002318,Cardiovascular Diseases,56,0
+4682,Garlic,MESH:D050197,Atherosclerosis,46,0
+4682,Garlic,MESH:D006973,Hypertension,42,2
+4682,Garlic,MESH:D015179,Colorectal Neoplasms,28,2
+4682,Garlic,MESH:D056486,Chemical and Drug Induced Liver Injury,26,2
+4682,Garlic,MESH:D013274,Stomach Neoplasms,21,0
+52570,Ajowan,MESH:D063646,Carcinogenesis,5,0
+52570,Ajowan,MESH:D004415,Dyspepsia,4,0
+52570,Ajowan,MESH:D003110,Colonic Neoplasms,3,0
+52570,Ajowan,MESH:D003920,Diabetes Mellitus,3,0
+52570,Ajowan,MESH:D005767,Gastrointestinal Diseases,2,0
+52570,Ajowan,MESH:D009765,Obesity,2,0
+52570,Ajowan,MESH:D015179,Colorectal Neoplasms,2,0
+52570,Ajowan,MESH:D001768,Blister,1,0
+52570,Ajowan,MESH:D001791,Blood Platelet Disorders,1,0
+52570,Ajowan,MESH:D003072,Cognition Disorders,1,0
+4182,Sesame,MESH:D056486,Chemical and Drug Induced Liver Injury,12,0
+4182,Sesame,MESH:D000707,Anaphylaxis,0,11
+4182,Sesame,MESH:D006973,Hypertension,10,0
+4182,Sesame,MESH:D003920,Diabetes Mellitus,9,0
+4182,Sesame,MESH:D002318,Cardiovascular Diseases,7,0
+4182,Sesame,MESH:D010003,Osteoarthritis,6,0
+4182,Sesame,MESH:D007674,Kidney Diseases,6,0
+4182,Sesame,MESH:D007249,Inflammation,5,0
+4182,Sesame,MESH:D005355,Fibrosis,4,0
+4182,Sesame,MESH:D050197,Atherosclerosis,4,0

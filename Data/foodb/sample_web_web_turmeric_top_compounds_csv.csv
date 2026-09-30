@@ -1,0 +1,11 @@
+food_public_id,food_name,compound_name,compound_public_id,content_range,average,unit,n_references
+FOOD00068,Turmeric,Starch,FDB001128,42500.000 - 42500.000,42500.0,mg/100 g,1
+FOOD00068,Turmeric,beta-D-Glucopyranose,FDB011824,28000.000 - 28000.000,28000.0,mg/100 g,1
+FOOD00068,Turmeric,Curlone,FDB016052,12.000 - 31700.000,16070.667,mg/100 g,12
+FOOD00068,Turmeric,Zingiberene,FDB015017,937.500 - 32250.000,15579.167,mg/100 g,12
+FOOD00068,Turmeric,Catechin,FDB002571,14894.000 - 14894.000,14894.0,mg/100 g,2
+FOOD00068,Turmeric,alpha-Turmerone,FDB015975,0.37000 - 31000.00000,14316.79,mg/100 g,12
+FOOD00068,Turmeric,beta-Sesquiphellandrene,FDB015016,11550.000 - 11550.000,11550.0,mg/100 g,8
+FOOD00068,Turmeric,alpha-Curcumene,FDB005326,8600.000 - 12170.000,10385.0,mg/100 g,12
+FOOD00068,Turmeric,Gallic acid,FDB000662,150.170 - 22170.000,8970.057,mg/100 g,9
+FOOD00068,Turmeric,Hexadecanoic acid,FDB011679,7500.000 - 7500.000,7500.0,mg/100 g,3

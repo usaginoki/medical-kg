@@ -1,0 +1,51 @@
+Unnamed: 0,ID,Topic,Source,Question,Translation
+0,Al-en-01,Food,English (US),Azərbaycanda məktəbəqədər uşaqlar üçün tipik qəlyanaltı nədir?,What is a common snack for preschool kids in Azerbaijan?
+1,Al-en-02,Food,English (US),Azərbaycanda pivə ilə yaxşı gedən populyar yemək nədir?,What is a popular food to go with beer in Azerbaijan?
+2,Al-en-04,Food,English (US),Azərbaycanda ən populyar meyvə hansıdır?,What is the most popular fruit in Azerbaijan?
+3,Al-en-06,Food,English (US),Azərbaycanda məktəb yeməkxanasında tipik olaraq hansı yemək verilir?,What is a common school cafeteria food in Azerbaijan?
+4,Al-en-08,Food,English (US),Azərbaycanda alış-veriş mərkəzlərində ən çox hansı qəlyanaltılar yeyilir?,What are the most commonly eaten snacks at shopping malls in Azerbaijan?
+5,Al-en-09,Food,English (US),Azərbaycanda əyləncə parkında populyar qəlyanaltı nədir?,What is a popular snack at an amusement park in Azerbaijan?
+6,Al-en-16,Education,English (US),"Azərbaycanda uşaqlar hansı yaşda məktəbəqədər təhsilə başlayırlar? (Yalnız ərəb rəqəmləri (məsələn, 12) göstərin.)","At what age do kids start preschool in Azerbaijan? (Provide Arabic numerals (e.g., 12) only.)"
+7,Al-en-17,Education,English (US),Azərbaycanda ibtidai məktəblər üçün məşhur olan məktəbdənkənar idman növü hansıdır?,What is a popular afterschool sport for elementary schools in Azerbaijan?
+8,Al-en-18,Education,English (US),Azərbaycanda ibtidai sinif şagirdləri hansı fənn üzrə fərdi təhsil alırlar?,For which subject do elementary students get private education in Azerbaijan?
+9,Al-en-19,Education,English (US),Azərbaycanda orta məktəb şagirdləri arasında populyar ikinci dil hansıdır?,What is a popular second language for high school students in Azerbaijan?
+10,Al-en-21,Education,English (US),Azərbaycanda istedadlı təhsil üçün ən vacib fənn hansıdır?,Which subject is the most important for gifted education in Azerbaijan?
+11,Al-en-32,Holidays/Celebration/Leisure,English (US),Azərbaycanda Şükran gününün əsas yeməyi nədir?,What is the main dish for Thanksgiving in Azerbaijan?
+12,Al-en-33,Holidays/Celebration/Leisure,English (US),Azərbaycanda insanlar Halloween'i qeyd etmək üçün nə edirlər?,What do people do to celebrate Halloween in Azerbaijan?
+13,Al-en-34,Holidays/Celebration/Leisure,English (US),Azərbaycanda insanlar Yeni İl gününü qeyd etmək üçün nə edirlər?,What do people do to celebrate New Year's Day in Azerbaijan?
+14,Al-en-35,Holidays/Celebration/Leisure,English (US),Azərbaycanda insanlar Milad bayramını necə qeyd edirlər?,What do people do to celebrate Christmas in Azerbaijan?
+15,Al-en-36,Holidays/Celebration/Leisure,English (US),Azərbaycanda Hellouin bayramı hansı yeməklərlə əlaqələndirilir?,What food is associated with Halloween in Azerbaijan?
+16,Al-en-37,Holidays/Celebration/Leisure,English (US),Azərbaycanda Milad bayramı ilə hansı yeməklər əlaqələndirilir?,What food is associated with Christmas in Azerbaijan?
+17,Al-en-38,Holidays/Celebration/Leisure,English (US),Azərbaycanda Sevgililər günü ilə əlaqələndirilən yemək nədir?,What food is associated with Valentine's day in Azerbaijan?
+18,Al-en-39,Holidays/Celebration/Leisure,English (US),Azərbaycanda insanlar ad günündə nə yeyirlər?,What do people eat on their birthday in Azerbaijan?
+19,Al-en-40,Holidays/Celebration/Leisure,English (US),Azərbaycanda ailələrin kiçik uşaqlarla əylənə biləcəkləri məşhur açıq hava yeri hansıdır?,What is a popular outdoor place for families to have fun with little kids in Azerbaijan?
+20,Al-en-43,Holidays/Celebration/Leisure,English (US),Azərbaycanda ailələr üçün məşhur qapalı fəaliyyət nədir?,What is a popular indoor activity for families in Azerbaijan?
+21,An-ar-02,Education,Arabic (Algeria),Azərbaycanda universitet tələbələri harada nahar edirlər?,Where do university students have lunch in Azerbaijan?
+22,An-ar-03,Education,Arabic (Algeria),Azərbaycanda orta məktəblərdə final imtahanları adətən hansı ayda keçirilir? (Yalnız ərəb rəqəmləri (1~12) göstərin.),Which month is the final exam term usually scheduled at high schools in Azerbaijan? (Provide Arabic numerals (1~12) only.)
+23,An-ar-08,Education,Arabic (Algeria),"Azərbaycanda şagirdlər adətən gündə neçə saat vaxtını liseydə keçirirlər? (Ərəb rəqəmlərini tam ədədlərlə (0~24), ondalıq nöqtəsiz verin.)","How many hours a day do students in Azerbaijan usually spend at high school? (Provide Arabic numerals in integers (0~24), without any decimal points.)"
+24,An-ar-09,Education,Arabic (Algeria),"Azərbaycanda orta məktəb şagirdləri neçə dildə təhsil alır? (Yalnız ərəb rəqəmləri (məsələn, 5) göstərin.)","How many languages do students study at high school in Azerbaijan? (Provide Arabic numerals (e.g., 5) only.)"
+25,An-ar-34,Sport,Arabic (Algeria),Azərbaycanda məktəbdə komanda ilə oynanılan ən populyar idman növü hansıdır?,What is the most popular sport played in a team at school in Azerbaijan?
+26,An-ar-35,Sport,Arabic (Algeria),Azərbaycanda ən məşhur idman şərhçisi kimdir?,Who is the most popular sport commentator in Azerbaijan?
+27,An-ar-36,Sport,Arabic (Algeria),Azərbaycanda ən populyar idman komandası hansıdır?,What is the most popular sport team in Azerbaijan?
+28,An-ar-43,Sport,Arabic (Algeria),Azərbaycanda insanların adətən idman yayımlarını izləmək üçün toplaşdığı ümumi yerlər və ya məkanlar hansılardır?,What are the common places or venues where individuals in Azerbaijan usually gather to watch sports broadcasts?
+29,Ca-sp-05,Food,Spanish (Spain),"Azərbaycanda insanlar adətən gündə neçə dəfə yemək yeyirlər? (Yalnız ərəb rəqəmləri (məsələn, 5) göstərin.)","How many meals per day do people from Azerbaijan usually have? (Provide Arabic numerals (e.g., 5) only.)"
+30,Ca-sp-06,Food,Spanish (Spain),Azərbaycanlılar üçün günün ən vacib yeməyi hansıdır?,Which is the most important meal of the day to people from Azerbaijan?
+31,Ca-sp-08,Food,Spanish (Spain),Azərbaycanın pəhrizində ən çox istifadə olunan inqrediyent hansıdır?,What is the most common ingredient used in Azerbaijan's diet?
+32,Ca-sp-09,Food,Spanish (Spain),Azərbaycanda insanlar adətən desert üçün nə yeyirlər?,What do people from Azerbaijan usually eat for dessert?
+33,Ca-sp-11,Food,Spanish (Spain),Azərbaycanda insanlar adətən həftənin hansı günü ailəvi yemək təşkil edirlər?,Which day of the week do people usually organize a family meal in Azerbaijan?
+34,Ca-sp-14,Food,Spanish (Spain),Azərbaycanda ən populyar isti içki nədir?,Which is the most popular hot drink in Azerbaijan?
+35,Ca-sp-19,Holidays/Celebration/Leisure,Spanish (Spain),Azərbaycandan olan gənclər gecə klubunda adətən nə içirlər?,What do young people from Azerbaijan usually drink at the night club?
+36,Ca-sp-21,Holidays/Celebration/Leisure,Spanish (Spain),Azərbaycanda insanlar adətən hansı ayda tətilə çıxırlar? (Yalnız ərəb rəqəmləri (1~12) verin.),At which month do people usually take holidays in Azerbaijan? (Provide Arabic numerals (1~12) only.)
+37,Ca-sp-29,Holidays/Celebration/Leisure,Spanish (Spain),Azərbaycanda Yeni İl arifəsində hansı ənənələr var?,What tradition is there in Azerbaijan for New Year's Eve?
+38,Ca-sp-38,Family,Spanish (Spain),Azərbaycanda ailə üçün tipik ev tipi hansıdır? ,Which is the typical type of house for a family in Azerbaijan?
+39,Ca-sp-41,Family,Spanish (Spain),Asılı vəziyyətdə olan yaşlılar Azərbaycanda adətən harada yaşayırlar?,Where do the dependent elderly usually live in Azerbaijan?
+40,Ca-sp-42,Family,Spanish (Spain),"Azərbaycanda analıq məzuniyyətinin müddəti (həftələrlə) nə qədərdir? (Yalnız ərəb rəqəmləri (məsələn, 20) göstərin.)","How long (in weeks) is Azerbaijan's maternity leave for mums? (Provide Arabic numerals (e.g., 20) only.)"
+41,Ca-sp-43,Family,Spanish (Spain),"Azərbaycanda atalıq məzuniyyətinin müddəti (həftələrlə) nə qədərdir? (Yalnız ərəb rəqəmləri (məsələn, 20) göstərin.)","How long (in weeks) is Azerbaijan's paternity leave for dads? (Provide Arabic numerals (e.g., 20) only.)"
+42,Ca-sp-45,Family,Spanish (Spain),Azərbaycanda ailə tətili üçün adətən hansı növ təyinat seçilir?,What type of destination is commonly chosen for a family vacation in Azerbaijan?
+43,Gu-ch-05,Sport,Chinese (China),Azərbaycanda yaşlılar ən çox hansı idman növlərini xoşlayırlar?,What sports do seniors like the most in Azerbaijan?
+44,Gu-ch-06,Sport,Chinese (China),Azərbaycanda kişilər ən çox hansı idman növləri ilə məşğul olmağı xoşlayırlar?,What sports do men like to play the most in Azerbaijan?
+45,Gu-ch-07,Sport,Chinese (China),Azərbaycanda ən məşhur basketbolçu kimdir?,Who is the most famous basketball player in Azerbaijan?
+46,Gu-ch-08,Sport,Chinese (China),Azərbaycanda uşaqlar arasında ən populyar idman növü hansıdır?,What is the most popular sports among children in Azerbaijan?
+47,Gu-ch-09,Sport,Chinese (China),Azərbaycanda qadınlar ən çox hansı idman növləri ilə məşğul olmağı xoşlayırlar?,What sports do women like to play the most in Azerbaijan?
+48,Gu-ch-11,Sport,Chinese (China),Azərbaycan Olimpiadada ən çox qızıl medalı hansı idman yarışında qazanıb?,What sports event has Azerbaijan won the most gold medals at the Olympics?
+49,Gu-ch-15,Sport,Chinese (China),Azərbaycanda universitetdə tələbə oğlanlar ən çox hansı idman növlərini oynamağı xoşlayırlar?,What sports do male students in university like to play the most in Azerbaijan?

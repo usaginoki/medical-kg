@@ -1,0 +1,51 @@
+Herb_id,Chinese_name,Pinyin_name,Latin_name,English_name,Properties_Chinese,Properties_English,Meridians_Chinese,Meridians_English,Class_Chinese,Class_English,UsePart,TCMID_id,TCM-ID_id,TCMSP_id,Link_herb_id,Alias,HERBDB_ID,Suppress
+1,矮地茶,Aidicha,"Ardisiae Japonicae Herba,Ardisiae Japonicae",Japanese Ardisia Herb,"辛,微苦,平","Pungent,Slightly Bitter,Calm","肺,肝","Lung,Liver",止咳平喘药,Antitussive Antiasthmetics,,5072.0,2.0,1.0,,,HERB000036,0
+2,艾叶,Aiye,"Folium Artemisiae Argyi,Artemisiae Argyi Folium",leaf of Argy Wormwood,"辛,苦,温,有小毒","Pungent,Bitter,Warm,Slightly Toxic","肝,脾,肾","Liver,Spleen,Kidney",温经止血药,Channel-Warming Hemostatic,leaf,6336.0,3.0,2.0,,,HERB000066,0
+3,安息香,Anxixiang,Benzoinum,Benzoin,"辛,苦,平","Pungent,Bitter,Calm","心,脾","Heart,Spleen",开窍药,Resuscitative Stimulant; Resuscitative Medicinal,balsam,8019.0,6.0,3.0,,,HERB000090,0
+4,八角茴香,Bajiaohuixiang,"Fructus Anisi Stellati,Anisi Stellati Fructus",Chinese Star Anise,"辛,温","Pungent,Warm","肝,肾,脾,胃","Liver,Kidney,Spleen,Stomach",温里药,Warming Interior Drugs,,6861.0,10.0,4.0,,,HERB000137,0
+5,八角莲,Bajiaolian,,Dysosmae Verspiellis Rhixoma Et Radix,"苦,辛,温,有毒","Bitter,Pungent,Warm,Toxic","肺,肝","Lung,Liver",清热解毒药,Antipyretic Detoxicate Drugs,,,,5.0,,,HERB000139,0
+6,巴豆,Badou,"Crotonis Fructus,Fructus Crotonis",Croton Fruit,"辛,热,有大毒","Pungent,Hot,Extremely Poisonous","胃,大肠","Stomach,Large Intestine",攻下药,Offensive Purgative Medicinal,dried seed,6980.0,7.0,6.0,,,HERB000129|HERB000709,0
+7,巴戟天,Bajitian,Morindae Officinalis Radix,Morindae Officilis Radix,"甘,辛,微温","Sweet,Pungent,Slightly Warm","肾,肝","Kidney,Liver",补阳药,Yang Reinforcing Drugs,root,5210.0,,7.0,,,HERB000134,0
+8,菝葜,Baqia,Smilacis Chinae Rhizoma,Smilax Chi,"甘,微苦,涩,平","Sweet,Slightly Bitter,Astringent,Calm","肝,肾","Liver,Kidney",祛风湿散寒药,Wind-Dampnessdispelling And Colddispersing Medicinal,,,,8.0,,,HERB000143,0
+9,白扁豆,Baibiandou,"Semen Lablab Album,Lablab Semen Album",White Hyacinth Bean,"甘,微温","Sweet,Slightly Warm","脾,胃","Spleen,Stomach",补气药,Qi Reinforcing Drugs,,4133.0,13.0,9.0,,,HERB000161,0
+10,白附子,Baifuzi,"Typhonii Rhizoma,Rhizoma Typhonii",rhizome of Giant Typhonium,"辛,温,有毒","Pungent,Warm,Toxic","胃,肝","Stomach,Liver",化痰药,Phlegresolving Medicine,,3152.0,19.0,10.0,,,HERB000182,0
+11,白果,Baiguo,"Ginkgo Semen,Semen Ginkgo",Ginkgo seed,"甘,苦,涩,平,有毒","Sweet,Bitter,Astringent,Calm,Toxic","肺,肾","Lung,Kidney",止咳平喘药,Antitussive Antiasthmetics,nut,6286.0,20.0,11.0,,,HERB000186,0
+12,白花菜子,Baihuacaizi,,Semen Cleomis,"苦,辛,微毒","Bitter,Pungent,Slightly Toxic",,,祛风湿散寒药,Wind-Dampnessdispelling And Colddispersing Medicinal,,,,12.0,,,HERB000197,0
+13,白花蛇舌草,Baihuasheshecao,Herba Hedyotis Diffusae,all - grass of Spreading Hedyotis,"苦,甘,寒","Bitter,Sweet,Cold","心,肺,肝,大肠","Heart,Lung,Liver,Large Intestine",清热解毒药,Antipyretic Detoxicate Drugs,whole herb with root,5104.0,22.0,13.0,,,HERB000208,0
+14,白及,Baiji,Bletillae Rhizoma,Bletilla Striata (Thunb.Ex A.Murray)Rchb.F.,"苦,甘,涩,微寒","Bitter,Sweet,Astringent,Slightly Cold","肺,肝,胃","Lung,Liver,Stomach",收敛止血药,Astringent Hemostatic Medicinal,,,,14.0,,,HERB000216,0
+15,白蔹,Bailian,"Radix Ampelopsis,Ampelopsis Radix",root of Japanese Ampelopsis ,"苦,微寒","Bitter,Slightly Cold","心,胃","Heart,Stomach",清热解毒药,Antipyretic Detoxicate Drugs,tuberoid,2235.0,31.0,15.0,,,HERB000237,0
+16,白毛藤,Baimaoteng,,Herba Solani Lyrati,"甘,苦,寒,小毒","Sweet,Bitter,Cold,Slightly Toxic","肝,胆,肾","Liver,Gallbladder,Kidney",清热解毒药,Antipyretic Detoxicate Drugs,,,,16.0,,,HERB000246,0
+17,白毛夏枯草,Baimaoxiakucao,Herha Ajugae Ciliatae,all - grass of Decumbent Bugle,,,,,清热解毒药,Antipyretic Detoxicate Drugs,whole herb,7836.0,903.0,17.0,426.0,,HERB000247,1
+18,白茅根,Baimaogen,"Rhizoma Imperatae,Imperatae Rhizoma",Lalang Grass Rhizome,"甘,寒","Sweet,Cold","肺,胃,膀胱","Lung,Stomach,Bladder",凉血止血药,Blood-Cooling Hemostatic Medicinal,,5468.0,902.0,18.0,,,HERB000242|HERB000243|HERB000244|HERB000245,0
+19,白前,Baiqian,"Cynanchi Stauntonii Rhizoma Et Radix,Rhizoma Cynchi Stauntonii",Cynchum root,"辛,苦,微温","Pungent,Bitter,Slightly Warm",肺,Lung,化痰药,Phlegresolving Medicine,,5829.0,34.0,19.0,,,HERB000257,0
+20,白屈菜,Baiqucai,Chelidonii Herba,Chelidonii Herba,"苦,凉,有毒","Bitter,Cool,Toxic","肺,胃","Lung,Stomach",止咳平喘药,Antitussive Antiasthmetics,whole herb,3337.0,,20.0,,,HERB000259,0
+21,白芍,Baishao,"Radix Paeoniae Alba,Paeoniae Radix Alba",White peony root,"苦,酸,微寒","Bitter,Sour,Slightly Cold","肝,脾","Liver,Spleen",补血药,Blood-Tonifying Medicinal,root,8148.0,35.0,21.0,,,HERB000267,0
+22,白术,Baizhu,"Atractylodis Macrocephalae Rhizoma,Rhizoma Atractylodis Macrocephalae",rhizome of Largehead Atractylodes,"苦,甘,温","Bitter,Sweet,Warm","脾,胃","Spleen,Stomach",补气药,Qi Reinforcing Drugs,root,5448.0,40.0,22.0,,,HERB000309,0
+23,白头翁,Baitouweng,"Pulsatillae Radix,Radix Pulsatillae",Root of Chinese Pulsatilla,"苦,寒","Bitter,Cold","胃,大肠","Stomach,Large Intestine",清热解毒药,Antipyretic Detoxicate Drugs,root,5986.0,36.0,23.0,,,HERB000281,0
+24,白薇,Baiwei,"Cynanchi Atrati Radix Et Rhizoma,Radix Cynchi Atrati",Blackend Swallowwort Root,"苦,咸,寒","Bitter,Salty,Cold","胃,肝,肾","Stomach,Liver,Kidney",清虚热药,Asthenic Heat Dispelling Drugs,root,2928.0,37.0,24.0,,,HERB000285,0
+25,白鲜皮,Baixianpi,Dictamni Cortex,Dictamni Cortex,"苦,寒","Bitter,Cold","脾,胃,膀胱","Spleen,Stomach,Bladder",清热燥湿药,Heat-Clearing And Dampnessdrying Medicinal,,,,25.0,,,HERB000132|HERB000286,0
+26,白药子,Baiyaozi,,Radix Stephaniae Cepharanthae.,"苦,辛,凉,小毒","Bitter,Pungent,Cool,Slightly Toxic","肺,胃","Lung,Stomach",清热解毒药,Antipyretic Detoxicate Drugs,tuberoid,3067.0,,26.0,,,HERB000293,0
+27,白芷,Baizhi,"Radix Angelicae Dahuricae,Angelicae Dahuricae Radix",Dahurian Angelica Root,"辛,温","Pungent,Warm","胃,大肠,肺","Stomach,Large Intestine,Lung",辛温解表药,Pungent-Warm Exterior-Releasing Medicinal,root,5365.0,39.0,27.0,,,HERB000305,0
+28,百部,Baibu,"Radix Stemoe,Stemonae Radix",Root of Japanese Stemo,"甘,苦,微温","Sweet,Bitter,Slightly Warm",肺,Lung,止咳平喘药,Antitussive Antiasthmetics,root,4286.0,14.0,28.0,,,HERB000162,0
+29,百合,Baihe,"Bulbus Lilii ,Lilii Bulbus",Bulb of Greenish Lily,"甘,寒","Sweet,Cold","心,肺","Heart,Lung",补阴药,Yin-Tonifying Medicinal,bulb,4587.0,21.0,29.0,,,HERB000192,0
+30,柏子仁,Baiziren,"Platycladi Semen,Semen Biotae",seed of Chinese Arborvitae,"甘,平","Sweet,Calm","心,肾,大肠","Heart,Kidney,Large Intestine",安神药,Tranguilizing Medicinal,kernel,1148.0,41.0,30.0,,,HERB000311,0
+31,败酱草,Baijiangcao,Herba Patriniae,All - grass of Dahurian Patrinia,"苦,辛,凉","Bitter,Pungent,Cool","大肠,胃,肝","Large Intestine,Stomach,Liver",清热解毒药,Antipyretic Detoxicate Drugs,,7921.0,25.0,31.0,,,HERB000221,0
+32,斑蝥,Banmao,Mylabris,Mylabris,"辛,热,有大毒","Pungent,Hot,Extremely Poisonous","肝,胃,肾","Liver,Stomach,Kidney",活血祛瘀药,Blood Activating Stasis Removing Drugs,,,,32.0,,,HERB000325,0
+33,板蓝根,Banlangen,"Isatidis Radix,Radix Isatidis Seu Baphicacanthi",Root of Dyers Woad.,"苦,寒","Bitter,Cold","心,胃","Heart,Stomach",清热解毒药,Antipyretic Detoxicate Drugs,root,3849.0,42.0,33.0,,南板蓝根,HERB000323,0
+34,半边莲,Banbianlian,"Lobeliae Chinensis Herba,Herba Lobeliae Chinensis",Chinese Lobelia Herb,"辛,平","Pungent,Calm","心,小肠,肺","Heart,Small Intestine,Lung",清热解毒药,Antipyretic Detoxicate Drugs,whole herb,4956.0,904.0,34.0,,,HERB000312,0
+35,半夏,Banxia,"Rhizoma Pinelliae,Pinelliae Rhizoma",tuber of Pinellia,"辛,温,有毒","Pungent,Warm,Toxic","脾,胃,肺","Spleen,Stomach,Lung",化痰药,Phlegresolving Medicine,tuber,1680.0,43.0,35.0,,"姜半夏,清半夏",HERB000330,0
+36,半枝莲,Banzhilian,"Herba Scutellariae Barbatae,Scutellariae Barbatae Herba",all - grass of Barbed Skullcap,"辛,苦,寒","Pungent,Bitter,Cold","肺,肝,肾","Lung,Liver,Kidney",清热解毒药,Antipyretic Detoxicate Drugs,whole herb,6957.0,45.0,36.0,,,HERB000338,0
+37,薄荷,Bohe,"Menthae Haplocalycis Herba,Herba Menthae","Mentha, Peppermint","辛,凉","Pungent,Cool","肺,肝","Lung,Liver",辛凉解表药,Pungent Cool Diaphoretics,dried aerial parts,6950.0,65.0,37.0,,,HERB000508,0
+38,北豆根,Beidougen,"Rhizoma Menispermi,Menispermi Rhizoma",Chinese Cinquefoil,"苦,寒,有小毒","Bitter,Cold,Slightly Toxic","肺,胃,大肠","Lung,Stomach,Large Intestine",清热解毒药,Antipyretic Detoxicate Drugs,,3169.0,906.0,38.0,,,HERB000373,0
+39,北刘寄奴,Beiliujinu,Siphonostegiae Herba,Siphonostegiae Herba,"苦,寒","Bitter,Cold","脾,胃,肝,胆","Spleen,Stomach,Liver,Gallbladder",活血祛瘀药,Blood Activating Stasis Removing Drugs,,2469.0,,39.0,,,HERB000387,0
+40,北沙参,Beishashen,"Radix Glehniae,Glehniae Radix",root of Coastal Glehnia,"甘,微苦,微寒","Sweet,Slightly Bitter,Slightly Cold","肺,胃","Lung,Stomach",补阴药,Yin-Tonifying Medicinal,root,1243.0,50.0,40.0,,,HERB000403,0
+41,五味子,Wuweizi,Schisandrae Chinensis Fructus,Schisandrae Chinensis Fructus,"酸,甘,温","Sour,Sweet,Warm","肺,心,肾","Lung,Heart,Kidney",收涩药,Astringent Medicinal,,,,41.0,,,HERB005762,0
+42,荜茇,Bibo,Piperis Longi Fructus,Piperis Longi Fructus,"辛,热","Pungent,Hot","胃,大肠","Stomach,Large Intestine",温里药,Warming Interior Drugs,,,,42.0,,,HERB000415,0
+43,荜澄茄,Bichengqie,Litseae Fructus,Litseae Fructus,"辛,温","Pungent,Warm","脾,胃,肾,膀胱","Spleen,Stomach,Kidney,Bladder",温里药,Warming Interior Drugs,,,,43.0,,,HERB000418|HERB000483,0
+44,蓖麻子,Bimazi,"Semen Ricini,Ricini Semen",Castor Seed,"甘,辛,平,有毒","Sweet,Pungent,Calm,Toxic","大肠,肺","Large Intestine,Lung",拔毒化腐生肌药,"External Medicinal (Draw Out Toxin, Resolve Putridity)",ripe seed,1524.0,54.0,44.0,,,HERB000432,0
+45,萹蓄,Bianxu,Polygoni Avicularis Herba,all-grass of common knotgrass,"微寒,苦","Minor cold,Bitter",膀胱,Bladder,利水渗湿药,Diuretic Dampness Excreting Drugs,dried aerial parts,5931.0,60.0,45.0,,,HERB000472,0
+46,扁豆花,Biandouhua,Flos Dolichoris,flower of Hyacinth Dolichos,"甘,平","Sweet,Calm",,,化湿药,Dampness Removing Drugs,,1305.0,58.0,46.0,,,HERB000453,0
+47,槟榔,Binglang,"Arecae Semen,Semen Arecae",areca seed,"苦,辛,温","Bitter,Pungent,Warm","胃,大肠","Stomach,Large Intestine",驱虫药,Antiparasitic Drugs,seed,3803.0,62.0,47.0,,,HERB000497,0
+48,冰片,Bingpian,Borneolum Syntheticum,Borneol,"微寒,辛,苦","Minor cold,Pungent,Bitter","肺,脾,心","Lung,Spleen,Heart",开窍药,Resuscitative Stimulant; Resuscitative Medicinal,resin,3633.0,63.0,48.0,,冰片（合成龙脑）,HERB000498,0
+49,布渣叶,Buzhaye,Microctis Folium,Microctis Folium,"微酸,凉","Slightly Sour,Cool","脾,胃","Spleen,Stomach",拔毒化腐生肌药,"External Medicinal (Draw Out Toxin, Resolve Putridity)",,,,49.0,,,HERB000553,0
+50,蚕沙,Cansha,,Bombyx Mori L.,"甘,辛,温","Sweet,Pungent,Warm","肝,脾,胃","Liver,Spleen,Stomach",祛风湿散寒药,Wind-Dampnessdispelling And Colddispersing Medicinal,,,,50.0,,,HERB000570,0

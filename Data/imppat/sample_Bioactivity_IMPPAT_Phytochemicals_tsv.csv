@@ -1,0 +1,51 @@
+IMPPAT_Phytochemical_identifier,Target_name,Target_organism,UniProt_identifier,EC50,IC50,Kd,Ki,Source
+IMPPAT3_PHYID000002,Brain glycogen phosphorylase,Homo sapiens,P11216,,,,= 7400000.0 nM|= 1700000.0 nM|= 1584893.19 nM|= 7943282.35 nM,NPASS
+IMPPAT3_PHYID000002,"Solute carrier family 2, facilitated glucose transporter member 3",Homo sapiens,P11169,= 900000.0 nM,,,,NPASS
+IMPPAT3_PHYID000002,"Solute carrier family 2, facilitated glucose transporter member 2",Homo sapiens,P11168,= 527000.0 nM,,,,NPASS
+IMPPAT3_PHYID000002,SARS-CoV-2,Severe acute respiratory syndrome coronavirus 2,,,> 20000.0 nM|> 19952.62 nM,,,NPASS
+IMPPAT3_PHYID000002,Radical scavenging activity,,,,> 30000.0 nM,,,NPASS
+IMPPAT3_PHYID000002,"Solute carrier family 2, facilitated glucose transporter member 4",Homo sapiens,P14672,= 860000.0 nM,,,,NPASS
+IMPPAT3_PHYID000002,Lipopolysaccharide heptosyltransferase 1,Escherichia coli (strain K12),P24173,,,,280000 nM|= 280000.0 nM,BindingDB|NPASS
+IMPPAT3_PHYID000002,"Glycogen phosphorylase, muscle form",Homo sapiens,P11217,,,,2770000 nM,BindingDB
+IMPPAT3_PHYID000002,"Glycogen phosphorylase, brain form",Homo sapiens,P11216,,,,1700000 nM|7400000 nM|7940000 nM,BindingDB
+IMPPAT3_PHYID000002,Glucose transporter,Homo sapiens,P11166,= 527000.0 nM,,,,NPASS
+IMPPAT3_PHYID000002,NON-PROTEIN TARGET,,,,> 30000.0 nM,,,NPASS
+IMPPAT3_PHYID000003,BK polyomavirus,BK polyomavirus,,> 100000.0 nM,,,,NPASS
+IMPPAT3_PHYID000005,NON-PROTEIN TARGET,,,,> 10.0 ug.mL-1,,,NPASS
+IMPPAT3_PHYID000005,Tyrosinase,Homo sapiens,P14679,,= 0.762 ug.mL-1,,,NPASS
+IMPPAT3_PHYID000005,Solute carrier organic anion transporter family member 2B1,Homo sapiens,O94956,,= 125892.54 nM|= 125800.0 nM,,,NPASS
+IMPPAT3_PHYID000005,Replicase polyprotein 1ab,Severe acute respiratory syndrome coronavirus 2,P0DTD1,,99500 nM,,,BindingDB
+IMPPAT3_PHYID000005,Replicase polyprotein 1ab,Human SARS coronavirus,P0C6X7,,42700 nM|50500 nM,,,BindingDB
+IMPPAT3_PHYID000005,Radical scavenging activity,,,,= 24.02 ug.mL-1,,,NPASS
+IMPPAT3_PHYID000005,RNase L,Homo sapiens,Q05823,,= 1420.0 nM|= 1630.0 nM|= 1320.0 nM|= 1360.0 nM,,,NPASS
+IMPPAT3_PHYID000005,RAW264.7,Mus musculus,,,= 48800.0 nM|> 50000.0 nM,,,NPASS
+IMPPAT3_PHYID000005,Neuraminidase,InflueA virus (strain A/USSR/90/1977 H1N1),P03469,,= 85500.0 nM|= 62500.0 nM,,,NPASS
+IMPPAT3_PHYID000005,Human immunodeficiency virus type 1 integrase,Human immunodeficiency virus 1,Q7ZJM1,,= 64.6 ug.mL-1,,,NPASS
+IMPPAT3_PHYID000005,Serotonin 1a (5-HT1a) receptor,Homo sapiens,P08908,,,,> 100000.0 nM,NPASS
+IMPPAT3_PHYID000005,Giardia intestinalis,Giardia intestinalis,,,= 85.1 ug.mL-1,,,NPASS
+IMPPAT3_PHYID000005,Epoxide hydratase,Homo sapiens,P34913,,= 21760.0 nM,,,NPASS
+IMPPAT3_PHYID000005,Entamoeba histolytica,Eoeba histolytica,,,= 108.9 ug.mL-1|= 143.61 ug.mL-1,,,NPASS
+IMPPAT3_PHYID000005,Dengue virus,Dengue virus,,,= 1700.0 nM,,,NPASS
+IMPPAT3_PHYID000005,Cytochrome P450 2D6,Homo sapiens,P10635,,= 1200.0 nM,,,NPASS
+IMPPAT3_PHYID000005,Cyclin-dependent kinase 5/CDK5 activator 1,Homo sapiens,Q15078,,= 10280.0 nM,,,NPASS
+IMPPAT3_PHYID000005,C2C12,Mus musculus,,= 60500.0 nM,,,,NPASS
+IMPPAT3_PHYID000005,Aldose reductase,Homo sapiens,P15121,,= 3000.0 nM,,,NPASS
+IMPPAT3_PHYID000005,A549,Homo sapiens,,,> 10.0 ug.mL-1,,,NPASS
+IMPPAT3_PHYID000005,HeLa,Homo sapiens,,,> 10.0 ug.mL-1,,,NPASS
+IMPPAT3_PHYID000007,Multidrug resistance-associated protein 4,Homo sapiens,O15439,,= 20800.0 nM,,,NPASS
+IMPPAT3_PHYID000007,Muscarinic acetylcholine receptor M1,Homo sapiens,P11229,,,,>10000 nM,BindingDB
+IMPPAT3_PHYID000007,Muscarinic acetylcholine receptor M2,Homo sapiens,P08172,,,,>10000 nM,BindingDB
+IMPPAT3_PHYID000007,Muscarinic acetylcholine receptor M3,Homo sapiens,P20309,,,,>10000 nM,BindingDB
+IMPPAT3_PHYID000007,Muscarinic acetylcholine receptor M4,Homo sapiens,P08173,,,,>10000 nM,BindingDB
+IMPPAT3_PHYID000007,NAD-dependent protein deacetylase sirtuin-6,Homo sapiens,Q8N6T7,= 990000.0 nM,= 1900.0 nM,,,NPASS
+IMPPAT3_PHYID000007,Myeloperoxidase,Homo sapiens,P05164,,1150 nM|1270 nM|= 1270.0 nM|= 1150.0 nM|= 3100.0 nM,,,BindingDB|NPASS
+IMPPAT3_PHYID000007,N9,Homo sapiens,,,= 10220.0 nM,,,NPASS
+IMPPAT3_PHYID000007,Multidrug resistance-associated protein 1,Homo sapiens,P33527,,,,2400 nM|8100 nM|= 2400.0 nM|= 8100.0 nM,BindingDB|NPASS
+IMPPAT3_PHYID000007,NAD-dependent protein deacylase sirtuin-6,Homo sapiens,Q8N6T7,990000 nM,1900 nM,,,BindingDB
+IMPPAT3_PHYID000007,NADPH oxidase 4,Homo sapiens,Q9NPH5,,680 nM|= 680.0 nM,,,BindingDB|NPASS
+IMPPAT3_PHYID000007,Muscarinic acetylcholine receptor M5,Homo sapiens,P08912,,,,>10000 nM,BindingDB
+IMPPAT3_PHYID000007,Mu-type opioid receptor,Homo sapiens,P35372,,,,>10000 nM,BindingDB
+IMPPAT3_PHYID000007,Monoamine oxidase A,Homo sapiens,P21397,,= 2800.0 nM|= 2440.0 nM|= 11640.0 nM|= 10890.0 nM|= 1520.0 nM,,,NPASS
+IMPPAT3_PHYID000007,Monocarboxylate transporter 1,Rattus norvegicus,P53987,,14000 nM|= 14000.0 nM,,,BindingDB|NPASS
+IMPPAT3_PHYID000007,Monoamine oxidase B,Homo sapiens,P27338,,= 90000.0 nM|= 38660.0 nM,,,NPASS
+IMPPAT3_PHYID000007,Monoamine oxidase B,Bos taurus,P56560,,= 20000.0 nM,,,NPASS

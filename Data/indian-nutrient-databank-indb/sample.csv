@@ -1,0 +1,51 @@
+recipe_code_org,recipe_code,recipe_name_org,recipe_name,ingredient_name_org,amount_org,unit_org,food_code_org,food_name_org,food_code,food_name,amount,unit
+5.1,ASC001,Hot Tea,Hot tea (Garam Chai),Milk,50,ml (to taste),L002,"Milk, whole, Cow",L002,"Milk, whole, Cow",50.0,ml
+5.1,ASC001,Hot Tea,Hot tea (Garam Chai),Sugar,2,tsp (to taste),UK-17-063,"Sugar, white",I502,"Sugar, white",2.0,tsp
+5.1,ASC001,Hot Tea,Hot tea (Garam Chai),Tea leaves,1.5,tsp,UK-17-165,"Tea, black, infusion, average",V510,"Tea, black, infusion, average",1.5,tsp
+5.1,ASC001,Hot Tea,Hot tea (Garam Chai),Water,1.5,cups,UK-17-377,"Water, distilled",K505,"Water, distilled",1.5,C
+5.2,ASC002,Instant Coffee,Instant coffee,Hot milk,75,ml (to taste),L002,"Milk, whole, Cow",L002,"Milk, whole, Cow",75.0,ml
+5.2,ASC002,Instant Coffee,Instant coffee,Sugar,3,tsp (to taste),UK-17-063,"Sugar, white",I502,"Sugar, white",3.0,tsp
+5.2,ASC002,Instant Coffee,Instant coffee,Instant coffee powder,1.5,tsp,UK-17-158,"Coffee, powder, instant",V502,"Coffee, powder, instant",1.5,tsp
+5.2,ASC002,Instant Coffee,Instant coffee,Water,1.5,cups,UK-17-377,"Water, distilled",K505,"Water, distilled",1.5,C
+5.3,ASC003,Espreso coffee,Espreso coffee,Milk,75,ml,L002,"Milk, whole, Cow",L002,"Milk, whole, Cow",75.0,ml
+5.3,ASC003,Espreso coffee,Espreso coffee,Sugar,1.5,tsp,UK-17-063,"Sugar, white",I502,"Sugar, white",1.5,tsp
+5.3,ASC003,Espreso coffee,Espreso coffee,Instant coffee powder,1,tsp,UK-17-158,"Coffee, powder, instant",V502,"Coffee, powder, instant",1.0,tsp
+5.3,ASC003,Espreso coffee,Espreso coffee,Water,75,ml,UK-17-377,"Water, distilled",K505,"Water, distilled",75.0,ml
+5.3,ASC003,Espreso coffee,Espreso coffee,Drinking chocolate,to sprinkle,,UK-17-498,"Drinking chocolate, powder",V504,"Drinking chocolate, powder",0.25,tsp
+5.4,ASC004,Iced Tea,Iced tea,Lemon,.5,nos,UK-14-130,"Lemons, flesh only, raw, weighed with peel and pips",E520,"Lemons, flesh only, raw, weighed with peel and pips",17.5,g
+5.4,ASC004,Iced Tea,Iced tea,Sugar,2,tsp (to taste),UK-17-063,"Sugar, white",I502,"Sugar, white",2.0,tsp
+5.4,ASC004,Iced Tea,Iced tea,Tea leaves,1,tsp,UK-17-165,"Tea, black, infusion, average",V510,"Tea, black, infusion, average",1.0,tsp
+5.4,ASC004,Iced Tea,Iced tea,Ice cubes,2 to 3,cubes,UK-17-377,"Water, distilled",K505,"Water, distilled",7.5,tbsp
+5.4,ASC004,Iced Tea,Iced tea,Water,.75,cups,UK-17-377,"Water, distilled",K505,"Water, distilled",0.75,C
+5.5,ASC005,Raw Mango Panna ,Raw mango drink (Aam panna),Raw mango,100,g,D057,"Mango, green, raw (Mangifera indica)",D057,"Mango, green, raw (Mangifera indica)",100.0,g
+5.5,ASC005,Raw Mango Panna ,Raw mango drink (Aam panna),Mint leaves,a few,,G016,Mint leaves (Mentha spicata ),G016,Mint leaves (Mentha spicata ),1.0,sprig
+5.5,ASC005,Raw Mango Panna ,Raw mango drink (Aam panna),Roasted jeera powder,.125,tsp,G025,Cumin seeds (Cuminum cyminum),G025,Cumin seeds (Cuminum cyminum),0.125,tsp
+5.5,ASC005,Raw Mango Panna ,Raw mango drink (Aam panna),Black pepper powder,.125,tsp,G031,"Pepper, black (Piper nigrum)",G031,"Pepper, black (Piper nigrum)",0.125,tsp
+5.5,ASC005,Raw Mango Panna ,Raw mango drink (Aam panna),Sugar,3,tbsp,UK-17-063,"Sugar, white",I502,"Sugar, white",3.0,tbsp
+5.5,ASC005,Raw Mango Panna ,Raw mango drink (Aam panna),Salt,.5,tsp,UK-17-367,Salt,G528,Salt,0.5,tsp
+5.5,ASC005,Raw Mango Panna ,Raw mango drink (Aam panna),Ice cubes,3 to 4,cubes,UK-17-377,"Water, distilled",K505,"Water, distilled",10.5,tbsp
+5.5,ASC005,Raw Mango Panna ,Raw mango drink (Aam panna),Water,1,cups,UK-17-377,"Water, distilled",K505,"Water, distilled",1.0,C
+5.6,ASC006,Fruit Punch ( with fresh juices ),Fruit Punch (with fresh juices),Lemon juice,1,tbsp,E033,"Lemon, juice (Citrus limon)",E033,"Lemon, juice (Citrus limon)",1.0,tbsp
+5.6,ASC006,Fruit Punch ( with fresh juices ),Fruit Punch (with fresh juices),Ginger,10,g,G014,"Ginger, fresh (Zingiber officinale)",G014,"Ginger, fresh (Zingiber officinale)",10.0,g
+5.6,ASC006,Fruit Punch ( with fresh juices ),Fruit Punch (with fresh juices),Mint,1,sprig,G016,Mint leaves (Mentha spicata ),G016,Mint leaves (Mentha spicata ),1.0,sprig
+5.6,ASC006,Fruit Punch ( with fresh juices ),Fruit Punch (with fresh juices),Lemon slices,2,circular,UK-14-130,"Lemons, flesh only, raw, weighed with peel and pips",E520,"Lemons, flesh only, raw, weighed with peel and pips",11.67,g
+5.6,ASC006,Fruit Punch ( with fresh juices ),Fruit Punch (with fresh juices),Pineapple juice,.5,cups,UK-14-286,"Pineapple juice, unsweetened",V509,"Pineapple juice, unsweetened",0.5,C
+5.6,ASC006,Fruit Punch ( with fresh juices ),Fruit Punch (with fresh juices),Orange juice,.5,cups,UK-14-369,"Orange juice, freshly squeezed",E518,"Orange juice, freshly squeezed",0.5,C
+5.6,ASC006,Fruit Punch ( with fresh juices ),Fruit Punch (with fresh juices),Sugar,4,tbsp,UK-17-063,"Sugar, white",I502,"Sugar, white",4.0,tbsp
+5.6,ASC006,Fruit Punch ( with fresh juices ),Fruit Punch (with fresh juices),Tea bag,1,nos,UK-17-165,"Tea, black, infusion, average",V510,"Tea, black, infusion, average",2.0,g
+5.6,ASC006,Fruit Punch ( with fresh juices ),Fruit Punch (with fresh juices),Soda,.25,bottle,UK-17-175,Cola,V503,Cola,250.0,ml
+5.6,ASC006,Fruit Punch ( with fresh juices ),Fruit Punch (with fresh juices),Crushed ice,6,cubes,UK-17-377,"Water, distilled",K505,"Water, distilled",18.0,tbsp
+5.6,ASC006,Fruit Punch ( with fresh juices ),Fruit Punch (with fresh juices),Water (for ginger extract),.5,cups,UK-17-377,"Water, distilled",K505,"Water, distilled",0.5,C
+5.6,ASC006,Fruit Punch ( with fresh juices ),Fruit Punch (with fresh juices),Water (for tea),.5,cups,UK-17-377,"Water, distilled",K505,"Water, distilled",0.5,C
+5.7,ASC007,Fruit Punch ( with squashes ),Fruit Punch (with squashes),Pineapple slice,1,slice,E053,Pineapple (Ananas comosus),E053,Pineapple (Ananas comosus),30.0,g
+5.7,ASC007,Fruit Punch ( with squashes ),Fruit Punch (with squashes),Ginger,10,g,G014,"Ginger, fresh (Zingiber officinale)",G014,"Ginger, fresh (Zingiber officinale)",10.0,g
+5.7,ASC007,Fruit Punch ( with squashes ),Fruit Punch (with squashes),Mint,1,sprig,G016,Mint leaves (Mentha spicata ),G016,Mint leaves (Mentha spicata ),1.0,sprig
+5.7,ASC007,Fruit Punch ( with squashes ),Fruit Punch (with squashes),Lemon slices,2,circular,UK-14-130,"Lemons, flesh only, raw, weighed with peel and pips",E520,"Lemons, flesh only, raw, weighed with peel and pips",11.67,g
+5.7,ASC007,Fruit Punch ( with squashes ),Fruit Punch (with squashes),Orange squash,2,tbsp,UK-14-369,"Orange juice, freshly squeezed",E518,"Orange juice, freshly squeezed",2.0,tbsp
+5.7,ASC007,Fruit Punch ( with squashes ),Fruit Punch (with squashes),Sugar,2,tbsp,UK-17-063,"Sugar, white",I502,"Sugar, white",2.0,tbsp
+5.7,ASC007,Fruit Punch ( with squashes ),Fruit Punch (with squashes),Tea bag,1,nos,UK-17-165,"Tea, black, infusion, average",V510,"Tea, black, infusion, average",2.0,g
+5.7,ASC007,Fruit Punch ( with squashes ),Fruit Punch (with squashes),Soda,.25,bottle,UK-17-175,Cola,V503,Cola,250.0,ml
+5.7,ASC007,Fruit Punch ( with squashes ),Fruit Punch (with squashes),Crushed ice,6,cubes,UK-17-377,"Water, distilled",K505,"Water, distilled",18.0,tbsp
+5.7,ASC007,Fruit Punch ( with squashes ),Fruit Punch (with squashes),Water,1,cups,UK-17-377,"Water, distilled",K505,"Water, distilled",1.0,C
+5.7,ASC007,Fruit Punch ( with squashes ),Fruit Punch (with squashes),Water (for tea),.5,cups,UK-17-377,"Water, distilled",K505,"Water, distilled",0.5,C
+5.7,ASC007,Fruit Punch ( with squashes ),Fruit Punch (with squashes),Lemon squash,2,tbsp,UK-17-738,"Fruit juice drink/squash, undiluted",V508,"Fruit juice drink/squash, undiluted",2.0,tbsp

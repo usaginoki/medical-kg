@@ -1,0 +1,5 @@
+metabolite_id,metabolite,source_administered,source_type,dose,dose_duration,n_subjects,biofluid,kinetic_summary,reference
+768,Epicatechin 3'-O-glucuronide,(-)-epicatechin,pure compound,1 g,Single dose,4,urine/plasma (without enzymatic deconjugation),Detected (unquantified); 5246.2 ng/mL after 1 hours,NATSUME 2003
+768,Epicatechin 3'-O-glucuronide,Choladi green tea,food (generic food),500 mL,Single dose,10,urine/plasma (without enzymatic deconjugation),values shown on page: 1.7 · 0.02 · 1.6 · 0.13 (urinary excretion % / Tmax h / Cmax umol/L / half-life h; column alignment inferred),STALMACH 2009_01
+768,Epicatechin 3'-O-glucuronide,polyphenol-rich beverage,food,350 mL,Single dose,10,urine/plasma (without enzymatic deconjugation),kinetics linked (/metabolism/kinetics/3268),BORGES 2010
+768,Epicatechin 3'-O-glucuronide,reconstituted green tea,food,3 g,Single dose,3,urine/plasma (without enzymatic deconjugation),Detected (unquantified),SANG 2008_01

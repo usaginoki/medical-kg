@@ -1,0 +1,51 @@
+source_herb_id,source_herb,Symptom_pinyin,Symptom_property,Symptom_locus,TCM_symptom_id,TCM_symptom_name,Type
+SMHB00367,Shengjiang (fresh ginger),Bi Ming,肺气壅滞,鼻,SMTS00028,鼻鸣,Synonymous terms
+SMHB00367,Shengjiang (fresh ginger),Cao Za,湿热,脾胃,SMTS00068,嘈杂,Synonymous terms
+SMHB00367,Shengjiang (fresh ginger),Cao Za Ou Tu,湿热,脾胃,SMTS00069,嘈杂呕吐,Synonymous terms
+SMHB00367,Shengjiang (fresh ginger),Fan Tu Qing Shui,脾虚湿盛,,SMTS00253,泛吐清水,Synonymous terms
+SMHB00367,Shengjiang (fresh ginger),Gan Mao,风寒犯肺,肺,SMTS00306,感冒,Ontological terms
+SMHB00367,Shengjiang (fresh ginger),Gang Men Xia Zhui,气虚下陷,大肠,SMTS00314,肛门下坠,Synonymous terms
+SMHB00367,Shengjiang (fresh ginger),Ge Zhong Zhong Du Zheng,,,SMTS00339,各种中毒症,Synonymous terms
+SMHB00367,Shengjiang (fresh ginger),Ke Qiang Zhen Zuo,气逆,肺,SMTS00547,咳呛阵作,Synonymous terms
+SMHB00367,Shengjiang (fresh ginger),Ke Sou,气逆,肺,SMTS00549,咳嗽,Ontological terms
+SMHB00367,Shengjiang (fresh ginger),Ke Sou Pin Zuo,伏痰,肺,SMTS00550,咳嗽频作,Synonymous terms
+SMHB00367,Shengjiang (fresh ginger),Ke Sou Ri Jiu,气虚,肺,SMTS00551,咳嗽日久,Synonymous terms
+SMHB00367,Shengjiang (fresh ginger),Ke Sou Zhen Zuo,风痰,肺,SMTS00555,咳嗽阵作,Synonymous terms
+SMHB00367,Shengjiang (fresh ginger),Kou Tu Xian Mo,胃寒,肝脾,SMTS00591,口吐涎沫,Synonymous terms
+SMHB00367,Shengjiang (fresh ginger),Ou Tu,胃气上逆,胃,SMTS00755,呕吐,Ontological terms
+SMHB00367,Shengjiang (fresh ginger),Ou Tu Qing Shui,胃气上逆,胃,SMTS00756,呕吐清水,Synonymous terms
+SMHB00367,Shengjiang (fresh ginger),Ou Tu Ru Shi,胃气上逆,胃,SMTS00757,呕吐乳食,Synonymous terms
+SMHB00367,Shengjiang (fresh ginger),She Dan,脾虚,脾,SMTS00903,舌淡,Synonymous terms
+SMHB00367,Shengjiang (fresh ginger),Sheng Zhong,肺气虚,肾,SMTS00969,声重,Synonymous terms
+SMHB00367,Shengjiang (fresh ginger),Tou Pi Guang Liang,湿热瘀滞,头,SMTS01129,头皮光亮,Synonymous terms
+SMHB00367,Shengjiang (fresh ginger),Wei Han Ou Tu,脾阳虚,肠胃,SMTS01198,胃寒呕吐,Ontological terms
+SMHB00367,Shengjiang (fresh ginger),Wei Guan Cao Za,胃气虚,肠胃,SMTS01210,胃脘嘈杂,Synonymous terms
+SMHB00367,Shengjiang (fresh ginger),Wei Guan Cao Za Bu Shi,胃气虚,肠胃,SMTS01211,胃脘嘈杂不适,Synonymous terms
+SMHB00367,Shengjiang (fresh ginger),Xiao Er Gan Mao,肺气虚,肺,SMTS01288,小儿感冒,Synonymous terms
+SMHB00367,Shengjiang (fresh ginger),You Han,,,SMTS01603,有汗,Synonymous terms
+SMHB00367,Shengjiang (fresh ginger),Yu Xie Zhong Du,,,SMTS01612,鱼蟹中毒,Ontological terms
+SMHB00367,Shengjiang (fresh ginger),Xie Zhong Du,,,SMTS02264,蟹中毒,Ontological terms
+SMHB00367,Shengjiang (fresh ginger),Yu Zhong Du,,,SMTS02349,鱼中毒,Ontological terms
+SMHB00136,Ganjiang (dried ginger),Bei Leng,阳虚,背,SMTS00019,背冷,Synonymous terms
+SMHB00136,Ganjiang (dried ginger),Cao Za,湿热,脾胃,SMTS00068,嘈杂,Synonymous terms
+SMHB00136,Ganjiang (dried ginger),Cao Za Ou Tu,湿热,脾胃,SMTS00069,嘈杂呕吐,Synonymous terms
+SMHB00136,Ganjiang (dried ginger),Chuan Ke,伏痰,肺,SMTS00114,喘咳,Ontological terms
+SMHB00136,Ganjiang (dried ginger),Fan Tu Qing Shui,脾虚湿盛,,SMTS00253,泛吐清水,Synonymous terms
+SMHB00136,Ganjiang (dried ginger),Fu Bu Bu Shi,气滞,胃肠,SMTS00283,腹部不适,Synonymous terms
+SMHB00136,Ganjiang (dried ginger),Fu Bu Yin Tong,气虚,胃肠,SMTS00284,腹部隐痛,Synonymous terms
+SMHB00136,Ganjiang (dried ginger),Fu Tong Mian Mian,气虚,胃,SMTS00289,腹痛绵绵,Synonymous terms
+SMHB00136,Ganjiang (dried ginger),Fu Zhong Leng Tong,阳虚,肠胃,SMTS00294,腹中冷痛,Ontological terms
+SMHB00136,Ganjiang (dried ginger),Gu Zhi Zeng Sheng,肾虚,,SMTS00351,骨质增生,Synonymous terms
+SMHB00136,Ganjiang (dried ginger),Guan Jie Jiang Ying,经络不通,四肢,SMTS00359,关节僵硬,Synonymous terms
+SMHB00136,Ganjiang (dried ginger),Han Xing Fu Xie,脾阳虚,,SMTS00379,寒性腹泻,Synonymous terms
+SMHB00136,Ganjiang (dried ginger),Jing Xiang Teng Tong,经络不通,四肢,SMTS00517,颈项疼痛,Synonymous terms
+SMHB00136,Ganjiang (dried ginger),Jing Zhui Gu Zhi Zeng Sheng,肾虚,四肢,SMTS00519,颈椎骨质增生,Synonymous terms
+SMHB00136,Ganjiang (dried ginger),Ke Chuan Tong Shen,气逆,肺,SMTS00546,咳喘痛甚,Synonymous terms
+SMHB00136,Ganjiang (dried ginger),Leng Tong,阳虚,肾,SMTS00611,冷痛,Ontological terms
+SMHB00136,Ganjiang (dried ginger),Ou Tu,胃气上逆,胃,SMTS00755,呕吐,Ontological terms
+SMHB00136,Ganjiang (dried ginger),Ou Tu Qing Shui,胃气上逆,胃,SMTS00756,呕吐清水,Synonymous terms
+SMHB00136,Ganjiang (dried ginger),Ou Tu Ru Shi,胃气上逆,胃,SMTS00757,呕吐乳食,Synonymous terms
+SMHB00136,Ganjiang (dried ginger),Qi Fu Zhang Tong,肝气郁滞,脾胃,SMTS00800,脐腹胀痛,Synonymous terms
+SMHB00136,Ganjiang (dried ginger),Shao Fu Zhui Zhang,气虚,腹部,SMTS00892,少腹坠胀,Synonymous terms
+SMHB00136,Ganjiang (dried ginger),Shen Jing Bu Zu,肾虚,肾,SMTS00962,肾精不足,Synonymous terms
+SMHB00136,Ganjiang (dried ginger),Shi You Yin Tong,肝经失养,,SMTS00983,时有隐痛,Synonymous terms

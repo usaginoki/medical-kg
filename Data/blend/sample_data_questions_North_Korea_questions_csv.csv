@@ -1,0 +1,51 @@
+Unnamed: 0,ID,Topic,Source,Question,Translation
+0,Al-en-01,Food,English (US),북한의 유치원 어린이들이 많이 먹는 간식은 무엇인가요?,What is a common snack for preschool kids in North Korea?
+1,Al-en-02,Food,English (US),북한에서 맥주와 함께 안주로 먹기 좋아 하는 음식은 무엇인가요?,What is a popular food to go with beer in North Korea?
+2,Al-en-04,Food,English (US),북한에서 가장 좋아 하는 과일은 무엇입니까?,What is the most popular fruit in North Korea?
+3,Al-en-06,Food,English (US),북한 학교 급식에서 흔히 볼 수 있는 음식은 무엇인가요?,What is a common school cafeteria food in North Korea?
+4,Al-en-08,Food,English (US),북한 상업중심에서 사람들이 가장 많이 먹는 간식은 무엇인가요?,What are the most commonly eaten snacks at shopping malls in North Korea?
+5,Al-en-09,Food,English (US),북한의 유희장에서 먹기 좋아 하는 간식은 무엇인가요?,What is a popular snack at an amusement park in North Korea?
+6,Al-en-16,Education,English (US),북한에서 아이들은 보통 몇 살에 유치원에 다니기 시작하나요? (아라비아 숫자(예: 12)만 기재해 주세요.),"At what age do kids start preschool in North Korea? (Provide Arabic numerals (e.g., 12) only.)"
+7,Al-en-17,Education,English (US),북한의 소학교에서 수업 후에 하는 체육 중 아이들이 좋아 하는 체육은 무엇인가요?,What is a popular afterschool sport for elementary schools in North Korea?
+8,Al-en-18,Education,English (US),북한에서 소학교 학생들이 받는 전문 개인지도에는 어떤 과목이 있나요?,For which subject do elementary students get private education in North Korea?
+9,Al-en-19,Education,English (US),북한 고급중학생들이 가장 좋아 하는 외국어는 무엇인가요?,What is a popular second language for high school students in North Korea?
+10,Al-en-21,Education,English (US),북한의 수재 교육에서 가장 중요한 과목은 무엇인가요?,Which subject is the most important for gifted education in North Korea?
+11,Al-en-32,Holidays/Celebration/Leisure,English (US),북한에서는 추석에 주로 어떤 음식을 먹나요?,What is the main dish for Thanksgiving in North Korea?
+12,Al-en-33,Holidays/Celebration/Leisure,English (US),북한 사람들은 할로윈을 기념하기 위해 무엇을 하나요?,What do people do to celebrate Halloween in North Korea?
+13,Al-en-34,Holidays/Celebration/Leisure,English (US),북한 사람들은 새해 첫날을 어떻게 기념하나요?,What do people do to celebrate New Year's Day in North Korea?
+14,Al-en-35,Holidays/Celebration/Leisure,English (US),북한에서 사람들은 크리스마스를 어떻게 기념하나요?,What do people do to celebrate Christmas in North Korea?
+15,Al-en-36,Holidays/Celebration/Leisure,English (US),북한에서 할로윈 관련 음식은 무엇인가요?,What food is associated with Halloween in North Korea?
+16,Al-en-37,Holidays/Celebration/Leisure,English (US),북한에서 크리스마스를 상징하는 음식은 무엇인가요?,What food is associated with Christmas in North Korea?
+17,Al-en-38,Holidays/Celebration/Leisure,English (US),북한에서 발렌타인과 관련된 음식은 무엇인가요?,What food is associated with Valentine's day in North Korea?
+18,Al-en-39,Holidays/Celebration/Leisure,English (US),북한 사람들은 생일에 무엇을 먹나요?,What do people eat on their birthday in North Korea?
+19,Al-en-40,Holidays/Celebration/Leisure,English (US),북한에서 가족이 어린 자식들과 함께 재밌는 시간을 보낼 수 있는 이름 있는 야외 장소는 어디인가요?,What is a popular outdoor place for families to have fun with little kids in North Korea?
+20,Al-en-43,Holidays/Celebration/Leisure,English (US),북한에서 가족들이 집에서 주로 즐기는 활동은 무엇인가요?,What is a popular indoor activity for families in North Korea?
+21,An-ar-02,Education,Arabic (Algeria),북한의 대학생들은 어디에서 점심을 먹나요?,Where do university students have lunch in North Korea?
+22,An-ar-03,Education,Arabic (Algeria),북한의 고급중학교 학생들은 주로 몇 월에 학기말시험을 보나요? (아라비아 숫자(1~12)만 기재해 주세요.),Which month is the final exam term usually scheduled at high schools in North Korea? (Provide Arabic numerals (1~12) only.)
+23,An-ar-08,Education,Arabic (Algeria),"북한 고급중학생들은 보통 하루에 몇 시간을 학교에서 보내나요? (아라비아 숫자 정수(0~24)로, 소수점 없이 제공해주세요.)","How many hours a day do students in North Korea usually spend at high school? (Provide Arabic numerals in integers (0~24), without any decimal points.)"
+24,An-ar-09,Education,Arabic (Algeria),북한의 고급중학교 학생들은 학교에서 몇 가지 외국어를 공부하나요? (아라비아 숫자(예: 5)만 기재해주세요.),"How many languages do students study at high school in North Korea? (Provide Arabic numerals (e.g., 5) only.)"
+25,An-ar-34,Sport,Arabic (Algeria),북한의 학교에서 가장 많이 하는 단체체육종목은 무엇입니까?,What is the most popular sport played in a team at school in North Korea?
+26,An-ar-35,Sport,Arabic (Algeria),북한에서 가장 잘하는 체육경기 해설원은 누구인가요?,Who is the most popular sport commentator in North Korea?
+27,An-ar-36,Sport,Arabic (Algeria),북한에서 가장 유명한 체육단은 어디인가요?,What is the most popular sport team in North Korea?
+28,An-ar-43,Sport,Arabic (Algeria),북한 사람들이 보통 체육경기 방송을 보기 위해 모이는 장소는 어디인가요?,What are the common places or venues where individuals in North Korea usually gather to watch sports broadcasts?
+29,Ca-sp-05,Food,Spanish (Spain),북한 사람들은 보통 하루에 몇 끼를 먹나요? (아라비아 숫자(예: 5)만 기재하세요.),"How many meals per day do people from North Korea usually have? (Provide Arabic numerals (e.g., 5) only.)"
+30,Ca-sp-06,Food,Spanish (Spain),북한 사람들에게 하루 중 가장 중요한 끼니는 무엇인가요?,Which is the most important meal of the day to people from North Korea?
+31,Ca-sp-08,Food,Spanish (Spain),북한 음식에서 가장 흔히 사용되는 음식감은 무엇입니까?,What is the most common ingredient used in North Korea's diet?
+32,Ca-sp-09,Food,Spanish (Spain),북한 사람들은 보통 식사 후 무엇을 먹나요?,What do people from North Korea usually eat for dessert?
+33,Ca-sp-11,Food,Spanish (Spain),북한에서 사람들은 보통 어떤 요일에 가족식사를 하나요?,Which day of the week do people usually organize a family meal in North Korea?
+34,Ca-sp-14,Food,Spanish (Spain),북한 사람들이 가장 좋아 하는 따뜻한 음료는 무엇입니까?,Which is the most popular hot drink in North Korea?
+35,Ca-sp-19,Holidays/Celebration/Leisure,Spanish (Spain),북한의 젊은이들은 구락부에서 보통 무엇을 마시나요?,What do young people from North Korea usually drink at the night club?
+36,Ca-sp-21,Holidays/Celebration/Leisure,Spanish (Spain),북한에서 사람들이 보통 어느 달에 휴가를 가나요? (아라비아 숫자(1~12)만 기재해 주세요.),At which month do people usually take holidays in North Korea? (Provide Arabic numerals (1~12) only.)
+37,Ca-sp-29,Holidays/Celebration/Leisure,Spanish (Spain),북한에는 새해 전날에 무엇을 하나요?,What tradition is there in North Korea for New Year's Eve?
+38,Ca-sp-38,Family,Spanish (Spain),북한에서 가족이 대부분 어떤 집에서 사는가요?,Which is the typical type of house for a family in North Korea?
+39,Ca-sp-41,Family,Spanish (Spain),북한에서 혼자 움직일 수 없는 로인들은 대체로 어느 곳에 사나요?,Where do the dependent elderly usually live in North Korea?
+40,Ca-sp-42,Family,Spanish (Spain),북한에서 여성의 산전산후 휴가는 몇 주인가요? (아라비아 숫자(예: 20)만 제공해 주세요.),"How long (in weeks) is North Korea's maternity leave for mums? (Provide Arabic numerals (e.g., 20) only.)"
+41,Ca-sp-43,Family,Spanish (Spain),북한에서 남자의 산전산후휴가 기간은 몇 주인가요? (아라비아 숫자(예: 20)만 제공해 주세요.),"How long (in weeks) is North Korea's paternity leave for dads? (Provide Arabic numerals (e.g., 20) only.)"
+42,Ca-sp-45,Family,Spanish (Spain),북한에서는 주로 어떤 곳으로 가족이 여행를 가나요?,What type of destination is commonly chosen for a family vacation in North Korea?
+43,Gu-ch-05,Sport,Chinese (China),북한의 로인들이 가장 좋아 하는 체육은 무엇인가요?,What sports do seniors like the most in North Korea?
+44,Gu-ch-06,Sport,Chinese (China),북한 남자들이 가장 좋아 하는 체육종목은 무엇인가요?,What sports do men like to play the most in North Korea?
+45,Gu-ch-07,Sport,Chinese (China),북한에서 가장 이름 있는 농구 선수는 누구인가요?,Who is the most famous basketball player in North Korea?
+46,Gu-ch-08,Sport,Chinese (China),북한의 어린이들이 가장 좋아 하는 체육은 무엇인가요?,What is the most popular sports among children in North Korea?
+47,Gu-ch-09,Sport,Chinese (China),북한 여자들이 가장 좋아 하는 체육종목은 무엇인가요?,What sports do women like to play the most in North Korea?
+48,Gu-ch-11,Sport,Chinese (China),북한이 올림픽에서 가장 많은 금메달을 받은 종목은 무엇인가요?,What sports event has North Korea won the most gold medals at the Olympics?
+49,Gu-ch-15,Sport,Chinese (China),북한의 대학 남학생들이 가장 좋아 하는 체육종목은 무엇인가요?,What sports do male students in university like to play the most in North Korea?

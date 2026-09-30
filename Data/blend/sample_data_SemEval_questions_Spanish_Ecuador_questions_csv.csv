@@ -1,0 +1,51 @@
+Unnamed: 0,ID,Topic,Source,Question,Translation
+0,Al-en-01,Food,English (US),¿Cuál es un snack común para los niños de guardería en Ecuador?,What is a common snack for nursery kids in Ecuador?
+1,Al-en-02,Food,English (US),¿Cuál es una comida popular para acompañar con una cerveza en Ecuador?,What is a popular food to go with beer in Ecuador?
+2,Al-en-04,Food,English (US),¿Cuál es la fruta más popular en Ecuador?,What is a common snack for nursery kids in Ecuador?
+3,Al-en-06,Food,English (US),¿Cuál es una comida común en el bar escolar en Ecuador?,What is a common school cafeteria food in Ecuador?
+4,Al-en-08,Food,English (US),¿Cuáles son los snack más comúnmente consumidos en los centros comerciales en Ecuador?,What are the most commonly eaten snacks at shopping malls in Ecuador?
+5,Al-en-09,Food,English (US),¿Cuál es un snack popular en un parque de atracciones en Ecuador?,What is a popular snack at an amusement park in Ecuador?
+6,Al-en-16,Education,English (US),"¿A qué edad los niños comienzan la guardería en Ecuador? (Proporcione solo números (por ejemplo, 12)).","At what age do kids start nursery in Ecuador? (Provide Arabic numerals (e.g., 12) only.)"
+7,Al-en-17,Education,English (US),¿Cuál es un deporte extracurricular popular para escuelas primarias en Ecuador?,What is a popular afterschool sport for primary schools in Ecuador?
+8,Al-en-18,Education,English (US),¿Para qué materia los estudiantes de primaria reciben educación privada en Ecuador?,For which subject do primary school students get private education in Ecuador?
+9,Al-en-19,Education,English (US),¿Cuál es un segundo idioma popular para estudiantes de colegio en Ecuador?,What is a popular second language for secondary school students in Ecuador?
+10,Al-en-21,Education,English (US),¿Qué materia es la más importante para la educación de niños superdotados en Ecuador?,Which subject is the most important for gifted education in Ecuador?
+11,Al-en-32,Holidays/Celebration/Leisure,English (US),¿Cuál es el plato principal para el Día de Acción de Gracias en Ecuador?,What is the main dish for Thanksgiving in Ecuador?
+12,Al-en-33,Holidays/Celebration/Leisure,English (US),¿Qué hacen las personas para celebrar Halloween en Ecuador?,What do people do to celebrate Halloween in Ecuador?
+13,Al-en-34,Holidays/Celebration/Leisure,English (US),¿Qué hacen las personas para celebrar el Año Nuevo en Ecuador?,What do people do to celebrate New Year's Day in Ecuador?
+14,Al-en-35,Holidays/Celebration/Leisure,English (US),¿Qué hacen las personas para celebrar la Navidad en Ecuador?,What do people do to celebrate Christmas in Ecuador?
+15,Al-en-36,Holidays/Celebration/Leisure,English (US),¿Qué comida está asociada con Halloween en Ecuador?,What food is associated with Halloween in Ecuador?
+16,Al-en-37,Holidays/Celebration/Leisure,English (US),¿Qué comida está asociada con la Navidad en Ecuador?,What food is associated with Christmas in Ecuador?
+17,Al-en-38,Holidays/Celebration/Leisure,English (US),¿Qué comida está asociada con el Día de San Valentín en Ecuador?,What food is associated with Valentine's day in Ecuador?
+18,Al-en-39,Holidays/Celebration/Leisure,English (US),¿Qué comen las personas en su cumpleaños en Ecuador?,What do people eat on their birthday in Ecuador?
+19,Al-en-40,Holidays/Celebration/Leisure,English (US),¿Cuál es un lugar popular al aire libre para que las familias se diviertan con niños pequeños en Ecuador?,What is a popular outdoor place for families to have fun with little kids in Ecuador?
+20,Al-en-43,Holidays/Celebration/Leisure,English (US),¿Cuál es una actividad popular en interiores para familias en Ecuador?,What is a popular indoor activity for families in Ecuador?
+21,An-ar-02,Education,Arabic (Algeria),¿Dónde almuerzan los estudiantes universitarios en Ecuador?,Where do university students have lunch in Ecuador?
+22,An-ar-03,Education,Arabic (Algeria),¿En qué mes generalmente se programan los exámenes finales en las escuelas secundarias en Ecuador? (Proporcione solo números (1~12)).,Which month is the final exam term usually scheduled at secondary schools in Ecuador? (Provide Arabic numerals (1~12) only.)
+23,An-ar-08,Education,Arabic (Algeria),"¿Cuántas horas al día pasan normalmente los estudiantes en la escuela secundaria en Ecuador? (Proporcione números enteros (0~24), sin puntos decimales).","How many hours a day do students in Ecuador usually spend at secondary school? (Provide Arabic numerals in integers (0~24), without any decimal points.)"
+24,An-ar-09,Education,Arabic (Algeria),"¿Cuántos idiomas estudian los alumnos en la escuela secundaria en Ecuador? (Proporcione solo números (por ejemplo, 5)).","How many languages do students study at secondary school in Ecuador? (Provide Arabic numerals (e.g., 5) only.)"
+25,An-ar-34,Sport,Arabic (Algeria),¿Cuál es el deporte en equipo más popular jugado en la escuela en Ecuador?,What is the most popular sport played in a team at school in Ecuador?
+26,An-ar-35,Sport,Arabic (Algeria),¿Quién es el comentarista deportivo más popular en Ecuador?,Who is the most popular sports commentator in Ecuador?
+27,An-ar-36,Sport,Arabic (Algeria),¿Cuál es el equipo deportivo más popular en Ecuador?,What is the most popular sports team in Ecuador?
+28,An-ar-43,Sport,Arabic (Algeria),¿Cuáles son los lugares o recintos comunes donde las personas en Ecuador suelen reunirse para ver transmisiones deportivas?,What are the common places or venues where individuals in Ecuador usually gather to watch sports broadcasts?
+29,Ca-sp-05,Food,Spanish (Spain),"¿Cuántas comidas al día suelen tener las personas de Ecuador? (Proporcione solo números (por ejemplo, 5)).","How many meals per day do people from Ecuador usually have? (Provide Arabic numerals (e.g., 5) only.)"
+30,Ca-sp-06,Food,Spanish (Spain),¿Cuál es la comida más importante del día para las personas de Ecuador?,Which is the most important meal of the day to people from Ecuador?
+31,Ca-sp-08,Food,Spanish (Spain),¿Cuál es el ingrediente más común utilizado en la dieta de Ecuador?,What is the most common ingredient used in Ecuador's diet?
+32,Ca-sp-09,Food,Spanish (Spain),¿Qué suelen comer de postre las personas de Ecuador?,What do people from Ecuador usually eat for dessert?
+33,Ca-sp-11,Food,Spanish (Spain),¿Qué día de la semana suelen organizar una comida familiar las personas en Ecuador?,Which day of the week do people usually organize a family meal in Ecuador?
+34,Ca-sp-14,Food,Spanish (Spain),¿Cuál es la bebida caliente más popular en Ecuador?,Which is the most popular hot drink in Ecuador?
+35,Ca-sp-19,Holidays/Celebration/Leisure,Spanish (Spain),¿Qué suelen beber los jóvenes de Ecuador en la discoteca?,What do young people from Ecuador usually drink at the night club?
+36,Ca-sp-21,Holidays/Celebration/Leisure,Spanish (Spain),¿En qué mes suelen tomar vacaciones las personas en Ecuador? (Proporcione solo números (1~12)).,In which month do people usually take holidays in Ecuador? (Provide Arabic numerals (1~12) only.)
+37,Ca-sp-29,Holidays/Celebration/Leisure,Spanish (Spain),¿Qué tradición hay en Ecuador para la Nochevieja?,What tradition is there in Ecuador for New Year's Eve?
+38,Ca-sp-38,Family,Spanish (Spain),¿Cuál es el tipo de casa típico para una familia en Ecuador?,Which is the typical type of house for a family in Ecuador?
+39,Ca-sp-41,Family,Spanish (Spain),¿Dónde suelen vivir los adultos mayores en Ecuador?,Where do the dependent elderly usually live in Ecuador?
+40,Ca-sp-42,Family,Spanish (Spain),"¿Cuánto tiempo (en semanas) dura la licencia de maternidad para las madres en Ecuador? (Proporcione solo números (por ejemplo, 20)).","How long (in weeks) is Ecuador's maternity leave for mums? (Provide Arabic numerals (e.g., 20) only.)"
+41,Ca-sp-43,Family,Spanish (Spain),"¿Cuánto tiempo (en semanas) dura la licencia de paternidad para los padres en Ecuador? (Proporcione solo números (por ejemplo, 20)).","How long (in weeks) is Ecuador's paternity leave for dads? (Provide Arabic numerals (e.g., 20) only.)"
+42,Ca-sp-45,Family,Spanish (Spain),¿Qué tipo de destino se elige comúnmente para unas vacaciones familiares en Ecuador?,What type of destination is commonly chosen for a family holiday in Ecuador?
+43,Gu-ch-05,Sport,Chinese (China),¿Qué deportes les gustan más a los adultos mayores en Ecuador?,What sports do seniors like the most in Ecuador?
+44,Gu-ch-06,Sport,Chinese (China),¿Qué deportes les gusta jugar más a los hombres en Ecuador?,What sports do men like to play the most in Ecuador?
+45,Gu-ch-07,Sport,Chinese (China),¿Quién es el jugador de baloncesto más famoso en Ecuador?,Who is the most famous basketball player in Ecuador?
+46,Gu-ch-08,Sport,Chinese (China),¿Cuál es el deporte más popular entre los niños en Ecuador?,What is the most popular sports among children in Ecuador?
+47,Gu-ch-09,Sport,Chinese (China),¿Qué deportes les gusta jugar más a las mujeres en Ecuador?,What sports do women like to play the most in Ecuador?
+48,Gu-ch-11,Sport,Chinese (China),¿En qué evento deportivo de los Juegos Olímpicos ha ganado Ecuador más medallas de oro?,In which sports event at the olympics has Ecuador won the most gold medals?
+49,Gu-ch-15,Sport,Chinese (China),¿Qué deportes les gusta jugar más a los estudiantes varones en la universidad en Ecuador?,What sports do male students in university like to play the most in Ecuador?

@@ -1,0 +1,51 @@
+Unnamed: 0,ID,Topic,Source,Question,Translation
+0,Al-en-01,Food,English (US),Naon jajanan umum pikeun barudak TK di Jawa Barat?,What is a common snack for preschool kids in West Java?
+1,Al-en-02,Food,English (US),Naon kadaharan populér nu cocog sareng bir di Jawa Barat?,What is a popular food to go with beer in West Java?
+2,Al-en-04,Food,English (US),Naon buah nu pang populerna di Jawa Barat?,What is the most popular fruit in West Java?
+3,Al-en-06,Food,English (US),Naon kadaharan kantin sakola anu umum di Jawa Barat?,What is a common school cafeteria food in West Java?
+4,Al-en-08,Food,English (US),Naon jajanan anu pang mindengna didahar di mal-mal di Jawa Barat?,What are the most commonly eaten snacks at shopping malls in West Java?
+5,Al-en-09,Food,English (US),Naon jajanan populér di taman hiburan di Jawa Barat?,What is a popular snack at an amusement park in West Java?
+6,Al-en-16,Education,English (US),"Dina umur sabaraha murangkalih mimiti asup ka PAUD di Jawa Barat? (Pasihkeun angka Arab wungkul (contona, 4).)","At what age do kids start preschool in West Java? (Provide Arabic numerals (e.g., 12) only.)"
+7,Al-en-17,Education,English (US),Naon olahraga populer saatos sakola pikeun sakola dasar di Jawa Barat?,What is a popular afterschool sport for elementary schools in West Java?
+8,Al-en-18,Education,English (US),Pelajaran naon nu dicokot lesna ku murid SD di Jawa Barat?,For which subject do elementary students get private education in West Java?
+9,Al-en-19,Education,English (US),Naon basa kadua anu populer pikeun murid SMA di Jawa Barat?,What is a popular second language for high school students in West Java?
+10,Al-en-21,Education,English (US),Mata pelajaran naon nu pang pentingna pikeun atikan budak berbakat di Jawa Barat?,Which subject is the most important for gifted education in West Java?
+11,Al-en-32,Holidays/Celebration/Leisure,English (US),Naon kadaharan utama pikeun Poe Sukur di Jawa Barat?,What is the main dish for Thanksgiving in West Java?
+12,Al-en-33,Holidays/Celebration/Leisure,English (US),Naon nu dilakukeun ku urang Sunda pikeun ngarayakeun poé Halloween di Jawa Barat?,What do people do to celebrate Halloween in West Java?
+13,Al-en-34,Holidays/Celebration/Leisure,English (US),Naon nu dilakukeun ku urang Sunda pikeun ngarayakeun Poé Taun Anyar di Jawa Barat?,What do people do to celebrate New Year's Day in West Java?
+14,Al-en-35,Holidays/Celebration/Leisure,English (US),Naon nu dilakukeun ku urang Sunda pikeun ngarayakeun Natal di Jawa Barat?,What do people do to celebrate Christmas in West Java?
+15,Al-en-36,Holidays/Celebration/Leisure,English (US),Naon kadaharan anu pakait jeung Halloween di Jawa Barat?,What food is associated with Halloween in West Java?
+16,Al-en-37,Holidays/Celebration/Leisure,English (US),Naon kadaharan anu pakait sareng Natal di Jawa Barat?,What food is associated with Christmas in West Java?
+17,Al-en-38,Holidays/Celebration/Leisure,English (US),Naon kadaharan anu pakait sareng poé Valentine di Jawa Barat?,What food is associated with Valentine's day in West Java?
+18,Al-en-39,Holidays/Celebration/Leisure,English (US),Naon nu biasa didahar ku urang Sunda dina poé ulang taun di Jawa Barat?,What do people eat on their birthday in West Java?
+19,Al-en-40,Holidays/Celebration/Leisure,English (US),Naon tempat wisata alam anu populer pikeun kulawarga liburan jeung barudak leutik di Jawa Barat?,What is a popular outdoor place for families to have fun with little kids in West Java?
+20,Al-en-43,Holidays/Celebration/Leisure,English (US),Naon kagiatan di jero rohangan anu populer pikeun kulawarga di Jawa Barat?,What is a popular indoor activity for families in West Java?
+21,An-ar-02,Education,Arabic (Algeria),Di mana mahasiswa universitas tuang siang di Jawa Barat?,Where do university students have lunch in West Java?
+22,An-ar-03,Education,Arabic (Algeria),Dina bulan sabaraha biasana ujian ahir semester di SMA di Jawa Barat diayakeun? (Pasihkeun nomer Arab (1~12) wungkul.),Which month is the final exam term usually scheduled at high schools in West Java? (Provide Arabic numerals (1~12) only.)
+23,An-ar-08,Education,Arabic (Algeria),"Sabaraha jam sapoé biasana murid di Jawa Barat nyeepkeun waktosna di SMA? (Pasihkeun angka Arab dina wangun bilangan bulat (0~24), tanpa titik desimal.)","How many hours a day do students in West Java usually spend at high school? (Provide Arabic numerals in integers (0~24), without any decimal points.)"
+24,An-ar-09,Education,Arabic (Algeria),"Sabaraha basa nu diajarkeun ka murid di SMA di Jawa Barat? (Pasihkeun angka Arab wungkul (contona, 5).)","How many languages do students study at high school in West Java? (Provide Arabic numerals (e.g., 5) only.)"
+25,An-ar-34,Sport,Arabic (Algeria),Naon olahraga tim nu pang populerna dipaénkeun di sakola di Jawa Barat?,What is the most popular sport played in a team at school in West Java?
+26,An-ar-35,Sport,Arabic (Algeria),Saha komentator olahraga nu pang populerna di Jawa Barat?,Who is the most popular sport commentator in West Java?
+27,An-ar-36,Sport,Arabic (Algeria),Naon tim olahraga nu pang populerna di Jawa Barat?,What is the most popular sport team in West Java?
+28,An-ar-43,Sport,Arabic (Algeria),Naon tempat-tempat umum atawa lokasi di mana jalma-jalma di Jawa Barat biasana ngariung pikeun nongton siaran olahraga?,What are the common places or venues where individuals in West Java usually gather to watch sports broadcasts?
+29,Ca-sp-05,Food,Spanish (Spain),"Sabaraha kali tuang sapoé nu biasa dilakukeun ku urang Jawa Barat? (Pasihkeun angka Arab wungkul (contona, 5).)","How many meals per day do people from West Java usually have? (Provide Arabic numerals (e.g., 5) only.)"
+30,Ca-sp-06,Food,Spanish (Spain),Waktos dahar naon nu pang pentingna dina sapoé keur urang Jawa Barat?,Which is the most important meal of the day to people from West Java?
+31,Ca-sp-08,Food,Spanish (Spain),Naon bahan panganan anu pang ilaharna dipake kanggo diet urang Jawa Barat?,What is the most common ingredient used in West Java's diet?
+32,Ca-sp-09,Food,Spanish (Spain),Naon biasana nu didahar ku urang Jawa Barat pikeun hidangan pamungkas?,What do people from West Java usually eat for dessert?
+33,Ca-sp-11,Food,Spanish (Spain),Poé naon dina saminggu biasana urang Sunda ngayakeun acara dahar kulawarga di Jawa Barat?,Which day of the week do people usually organize a family meal in West Java?
+34,Ca-sp-14,Food,Spanish (Spain),Inuman panas naon nu pang populerna di Jawa Barat?,Which is the most popular hot drink in West Java?
+35,Ca-sp-19,Holidays/Celebration/Leisure,Spanish (Spain),Naon nu biasa diinum ku para nonoman ti Jawa Barat di klub peuting?,What do young people from West Java usually drink at the night club?
+36,Ca-sp-21,Holidays/Celebration/Leisure,Spanish (Spain),Dina bulan sabaraha biasana urang Sunda nyandak liburan di Jawa Barat? (Pasihkeun nomer Arab (1~12) hungkul.),At which month do people usually take holidays in West Java? (Provide Arabic numerals (1~12) only.)
+37,Ca-sp-29,Holidays/Celebration/Leisure,Spanish (Spain),Naon tradisi anu aya di Jawa Barat pikeun wengi Taun Anyar?,What tradition is there in West Java for New Year's Eve?
+38,Ca-sp-38,Family,Spanish (Spain),Naon jenis imah anu umum pikeun kulawarga di Jawa Barat?,Which is the typical type of house for a family in West Java?
+39,Ca-sp-41,Family,Spanish (Spain),Di mana biasana para sepuh anu gumantung cicing di Jawa Barat?,Where do the dependent elderly usually live in West Java?
+40,Ca-sp-42,Family,Spanish (Spain),"Sabaraha lami (dina minggu) cuti ngalahirkeun di Jawa Barat pikeun ibu-ibu? (Pasihkeun angka Arab wungkul (contona, 20).)","How long (in weeks) is West Java's maternity leave for mums? (Provide Arabic numerals (e.g., 20) only.)"
+41,Ca-sp-43,Family,Spanish (Spain),"Sabaraha lami (dina minggu) cuti ngalahirkeun pikeun bapa di Jawa Barat? (Pasihkeun angka Arab wungkul (contona, 20).)","How long (in weeks) is West Java's paternity leave for dads? (Provide Arabic numerals (e.g., 20) only.)"
+42,Ca-sp-45,Family,Spanish (Spain),Naon jinis tujuan anu ilahar dipilih pikeun liburan kulawarga di Jawa Barat?,What type of destination is commonly chosen for a family vacation in West Java?
+43,Gu-ch-05,Sport,Chinese (China),Olahraga naon nu pang dipikaresep ku para sepuh di Jawa Barat?,What sports do seniors like the most in West Java?
+44,Gu-ch-06,Sport,Chinese (China),Olahraga naon nu pang dipikaresep dipaénkeun ku lalaki di Jawa Barat?,What sports do men like to play the most in West Java?
+45,Gu-ch-07,Sport,Chinese (China),Saha atlit basket nu pang kasohorna di Jawa Barat?,Who is the most famous basketball player in West Java?
+46,Gu-ch-08,Sport,Chinese (China),Naon olahraga nu pang populerna di kalangan barudak di Jawa Barat?,What is the most popular sports among children in West Java?
+47,Gu-ch-09,Sport,Chinese (China),Olahraga naon nu pang dipikaresep dipaénkeun ku awéwé di Jawa Barat?,What sports do women like to play the most in West Java?
+48,Gu-ch-11,Sport,Chinese (China),Cabang olahraga naon nu pang lobana ngameunangan medali emas ku Jawa Barat di Olimpiade?,What sports event has West Java won the most gold medals at the Olympics?
+49,Gu-ch-15,Sport,Chinese (China),Olahraga naon nu pang dipikaresep ku mahasiswa lalaki di universitas pikeun dipaénkeun di Jawa Barat?,What sports do male students in university like to play the most in West Java?

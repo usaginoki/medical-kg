@@ -1,0 +1,51 @@
+tag,level,maps_to,n_recipes
+north-american,region/other,North America,48479
+american,country,United States,31179
+european,region/other,Europe,24912
+asian,region/other,Asia (unspecified),13485
+italian,country,Italy,7410
+southern-united-states,country,United States,7114
+mexican,country,Mexico,6694
+canadian,country,Canada,4572
+south-west-pacific,region/other,Oceania,3934
+southwestern-united-states,country,United States,3536
+midwestern,country,United States,2884
+african,region/other,Africa (unspecified),2851
+australian,country,Australia,2845
+indian,country,India,2708
+northeastern-united-states,country,United States,2566
+greek,country,Greece,2391
+french,country,France,2268
+middle-eastern,region/other,Middle East,2067
+chinese,country,China,2008
+central-american,region/other,Latin America,1818
+english,country,United Kingdom,1744
+caribbean,region/other,Latin America,1709
+tex-mex,country,United States,1476
+german,country,Germany,1377
+scandinavian,region/other,Europe,1294
+south-american,region/other,Latin America,1255
+thai,country,Thailand,1208
+cajun,country,United States,1206
+spanish,country,Spain,1072
+moroccan,country,Morocco,897
+pacific-northwest,country,United States,887
+creole,country,United States,855
+japanese,country,Japan,851
+californian,country,United States,819
+ontario,country,Canada,731
+scottish,country,United Kingdom,715
+irish,country,Ireland,658
+new-zealand,country,New Zealand,645
+british-columbian,country,Canada,635
+jewish-ashkenazi,region/other,(cultural: Jewish),612
+hawaiian,country,United States,444
+polish,country,Poland,407
+russian,country,Russia,381
+swiss,country,Switzerland,375
+swedish,country,Sweden,373
+portuguese,country,Portugal,358
+vietnamese,country,Vietnam,351
+south-african,country,South Africa,324
+hungarian,country,Hungary,317
+lebanese,country,Lebanon,308

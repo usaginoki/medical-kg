@@ -1,0 +1,51 @@
+org_id,org_name,np_id,np_name,effect,ref_doc_type,ref_id
+NPO64842,Halichondria japonica + Bacillus cereus QNO3323 symbiont,NPC598940,Thiopeptide YM-266183,Antibacterial,Publication,PMID: 12715871
+NPO64795,Spheciospongia vagabunda + Micrococcus sp. EG45 symbiont,NPC569083,Microluside A,Antibacterial,Publication,PMID: 25283555
+NPO64830,Isodictya setifera + Pseudomonas aeruginosa symbiont,NPC219848,Phenazine-1-carboxylic acid,Antibacterial,Publication,PMID: 8882433
+NPO64785,"Haliclona sp.  + Pseudomonas fluorescens H40, H41 and Pseudomonas aeruginosa H51 symbiont",NPC598843,Diketopipe-razine,Antibacterial,Publication,PMID: 25355062
+NPO64917,Aplysina aerophoba + Bacillus subtilis A190 symbiont,NPC227051,Surfactin,Antibacterial,Publication,PMID: 14730425
+NPO64785,"Haliclona sp.  + Pseudomonas fluorescens H40, H41 and Pseudomonas aeruginosa H51 symbiont",NPC598876,Diketopiperazine cyclo-(l-Leu-l-Pro),Antibacterial,Publication,PMID: 25355062
+NPO64830,Isodictya setifera + Pseudomonas aeruginosa symbiont,NPC598731,Phenazine-1-carboxylic acid and phenazine-1-carboxamide,Antibacterial,Publication,PMID: 8882433
+NPO64739,Hyatella sp. + Vibrio sp. symbiont,NPC598885,Polyketide-peptide ,Antibacterial,Publication,PMID: 8022309
+NPO64824,Haliclonaocculata  + Bacillus licheniformis T6-1 symbiont,NPC598809,Fluorophore,Antibacterial,Publication,PMID: 24138171
+NPO64704,Homophymia sp. + Pseudomonas sp. 1531-E7 symbiont,NPC503005,2-undecyl-4-quinolone,Antiviral,Publication,PMID: 10489417
+NPO64919,Ircinia fasciculata + Penicillium chrysogenum symbiont,NPC509441,Sorbicillactone A,Antiviral,Publication,PMID: 15825646
+NPO64911,Callyspongia sp. + Epicoccum sp. JJY40 symbiont,NPC598750,Pyronepolyene C-glucoside iso-D8646-2-6,Antiviral,Publication,PMID: 22487178
+NPO64789,Xestospongia testudinaria + Stachybotrys chartarum MXH-X73 symbiont,NPC251175,Stachybotrin D,Antiviral,Publication,PMID: 24308675
+NPO64660,Aplysina fistularis + Streptomyces sp. Hedaya48 symbiont,NPC598798,Saadamycin,Antifungal,Publication,PMID: 20458610
+NPO64660,Aplysina fistularis + Streptomyces sp. Hedaya48 symbiont,NPC598662,"5,7-Dimethoxy-4-pmethoxylphenylcoumarin",Antifungal,Publication,PMID: 20458610
+NPO64936,Halichondria japonica + Phoma sp. Q60596 symbiont,NPC497584,YM-202204,Antifungal,Publication,PMID: 12617512
+NPO64783,Halichondria sp. + Bacillus sp. SAB1 symbiont,NPC127343,3-Phenylpropionic acid,Antifungal,Publication,PMID: 20479975
+NPO64862,Myxilla incrustans + Microsphaeropsis sp. symbiont,NPC221985,Microsphaeropsisin,Antifungal,Publication,PMID: 9917295
+NPO64672,Ectyoplasia ferox + Coniothyrium sp. symbiont,NPC145442,(3R)-6-Methoxymellein,Antifungal,Publication,PMID: 9917295
+NPO64672,Ectyoplasia ferox + Coniothyrium sp. symbiont,NPC108218,Phenylethanol,Antifungal,Publication,PMID: 9917295
+NPO64702,Acanthostrongylophora ingens + Micromonospora sp. M42 symbiont,NPC166492,Manzamine A,Antiprotozoal,Publication,PMID: 10817722
+NPO64704,Homophymia sp. + Pseudomonas sp. 1531-E7 symbiont,NPC503005,2-Undecyl-4-quinolone,Antiprotozoal,Publication,PMID: 10489417
+NPO64623,Aplysina aerophoba + Micromonospora sp. RV115 symbiont,NPC559866,Diazepinomicin,Antiprotozoal,Publication,PMID: 10489417
+NPO64734,Spheciospongia vagabunda + Actinokinespora sp. EG49 symbiont,NPC487511,Actinosporin A,Antiprotozoal,Publication,PMID: 20390111
+NPO64839,Aplysina polypoides + Streptomyces sp. 34 symbiont,NPC193280,Valinomycin,Antiprotozoal,Publication,PMID: 7535888
+NPO64724,Aconitum spp.  + Cladosporium cladosporioides symbiont,NPC163578,Aconitine,"Anticancer, anti-inflammatory, anti-neuralgic, cardiotoxic ",Publication,PMID: 23269506
+NPO64908, Phellodendron amurense + Alternaria sp. symbiont,NPC53069,Berberine,CNS stimulant,Publication,DOI: https://doi.org/10.11733/j.issn.1007-0435.2013.05.026
+NPO64878,Hydrastis canadensis + Fusarium solani symbiont,NPC53069,Berberine,CNS stimulant,Publication,PMID: 29616225
+NPO64841,Coscinium fenestratum + Fusarium solani symbiont,NPC53069,Berberine,CNS stimulant,Publication,PMID: 33477910
+NPO64817,Berberis spp. + Fusarium solani symbiont,NPC53069,Berberine,CNS stimulant,Publication,PMID: 33477910
+NPO64630,Nothapodytes foetida + Entrophospora infrequens symbiont,NPC129909,Camptothecin,Antitumor,Publication,PMID: 33477910
+NPO64709,Nothapodytes foetida + Neurospora sp. symbiont,NPC129909,Camptothecin,Antitumor,Publication,PMID: 18669267
+NPO64965,Camptotheca acuminata + Valsa mali symbiont,NPC129909,Camptothecin,Antitumor,Publication,PMID: 33477910
+NPO64882,Nothapodytes foetida + Nodulisporium sp. symbiont,NPC129909,Camptothecin,Antitumor,Publication,PMID: 19521920
+NPO64713,Camptotheca acuminata + Fusarium solani symbiont,NPC129909,Camptothecin,Antitumor,Publication,PMID: 19119919
+NPO64955,Nothapodytes nimmoniana + Botryosphaeria parva symbiont,NPC129909,Camptothecin,Antitumor,Publication,PMID: 33477910
+NPO64848,Nothapodytes nimmoniana + Diaporthe conorum symbiont,NPC129909,Camptothecin,Antitumor,Publication,PMID: 33477910
+NPO64843,Nothapodytes nimmoniana + Fusarium oxysporum symbiont,NPC129909,Camptothecin,Antitumor,Publication,PMID: 33477910
+NPO64726,Nothapodytes nimmoniana + Fusarium sacchari symbiont,NPC129909,Camptothecin,Antitumor,Publication,PMID: 33477910
+NPO64648,Nothapodytes nimmoniana + Fusarium solani symbiont,NPC129909,Camptothecin,Antitumor,Publication,PMID: 33477910
+NPO64974,Nothapodytes nimmoniana + Fusarium subglutinans symbiont,NPC129909,Camptothecin,Antitumor,Publication,PMID: 33477910
+NPO64959,Nothapodytes nimmoniana + Fusarium verticillioides symbiont,NPC129909,Camptothecin,Antitumor,Publication,PMID: 33477910
+NPO64763,Nothapodytes nimmoniana + Galactomyces sp. symbiont,NPC129909,Camptothecin,Antitumor,Publication,PMID: 33477910
+NPO64636,Nothapodytes nimmoniana + Irpex lacteus symbiont,NPC129909,Camptothecin,Antitumor,Publication,PMID: 33477910
+NPO64725,Nothapodytes nimmoniana + Phomopsis sp. symbiont,NPC129909,Camptothecin,Antitumor,Publication,PMID: 33477910
+NPO64975,Nothapodytes nimmoniana + Fusarium sp. symbiont,NPC129909,Camptothecin,Antitumor,Publication,PMID: 33477910
+NPO64626,Camptotheca acuminata + Xylaria sp. symbiont,NPC129909,Camptothecin,Antitumor,Publication,PMID: 20112128
+NPO64788,Apodytes dimidiata + Fusarium solani symbiont,NPC129909,Camptothecin,Antitumor,Publication,PMID: 19863979
+NPO64624,Camptotheca acuminata + Botryosphaeria dothidea symbiont,NPC129909,Camptothecin,Antitumor,Publication,PMID: 23579767
+NPO64635,Miquelia dentata + Alternaria alternata symbiont,NPC129909,Camptothecin,Antitumor,Publication,PMID: 23273751

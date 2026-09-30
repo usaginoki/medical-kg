@@ -1,0 +1,51 @@
+question_code,category,subcategory,question_text,answer_text,response_time_ms,quality_score,country,answered_at,dialect_group,difficulty,quality_grade,is_synthetic,data_source,speaker_hash
+FC-0030,food_culture,restaurant,كيف تطلب من المطعم أن يبدل الطبق بلهجتك؟,من بعدد ازنك بدل طبق,19225,100,SY,2026-02-20 11:06:51.099000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0029,food_culture,restaurant,"كيف تقول ""الأكل ما كان نظيف"" بلهجتك؟",الاكل مو نظيف,7400,100,SY,2026-02-20 11:11:31.041000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0039,food_culture,restaurant,"كيف تطلب ""وجبة سفري"" من المطعم بلهجتك؟",اتصل واطلب,8540,100,SY,2026-02-20 11:11:59.410000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0002,food_culture,traditional_food,كيف تطلب فلافل من عربة الشارع بلهجتك؟,اريد فلالفل,7258,100,SY,2026-02-20 11:13:58.904000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0026,food_culture,restaurant,كيف تطلب ساندويش شاورما بلهجتك؟,اريد شاورما,6999,100,SY,2026-02-20 11:16:50.425000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0051,food_culture,cooking,"كيف تقول ""الدجاج لسّا ما استوى"" بلهجتك؟",الدجاج لسل,10873,100,SY,2026-02-20 11:18:28.631000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0042,food_culture,cooking,شو المكونات اللي لازم تكون دائماً بالمطبخ عندكم؟ بلهجتك,سكر شاي,6832,100,SY,2026-02-20 11:20:03.316000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0053,food_culture,cooking,"كيف تقول ""سخّن الأكل"" بلهجتك؟",سخن أو حار,7837,100,SY,2026-02-20 11:20:28.509000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0010,food_culture,traditional_food,كيف تصف طعم الأكل الحار بلهجتك؟,طعم الأكل,7293,100,SY,2026-02-20 11:21:19.852000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0053,food_culture,cooking,"كيف تقول ""سخّن الأكل"" بلهجتك؟",الاكل صار سخن,7642,100,SY,2026-02-20 14:16:20.507000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0022,food_culture,restaurant,"كيف تسأل ""في طاولة فاضية؟"" بلهجتك",في طاولة فاضية,20306,100,SY,2026-02-20 14:35:12.564000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0033,food_culture,restaurant,كيف تسأل إذا عندهم أكل نباتي بلهجتك؟,عندكم اكل نباتي,15933,100,SY,2026-02-20 14:39:26.273000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0060,food_culture,cooking,شو الفرق بين أكل ماما وأكل المطعم عندك؟ بلهجتك,في فرق كبير,9458,100,SY,2026-02-20 14:39:42.553000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0041,food_culture,cooking,اشرح كيف أمك تعمل المحشي بلهجتك,كيف تعمل لمحشي,13997,100,SY,2026-02-20 14:41:32.261000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0034,food_culture,restaurant,"كيف تقول ""أريد أكل للأولاد"" في المطعم بلهجتك؟",اريد طعام للاولاد,18020,100,SY,2026-02-20 16:09:50.493000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0015,food_culture,traditional_food,شو أحسن مطعم شعبي عندكم؟ وقفه بلهجتك,احسن مطعم شعبي عندكم,14808,100,SY,2026-02-20 16:10:54.420000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0037,food_culture,restaurant,كيف تطلب أكل بدون بصل بلهجتك؟,كيف تطلب اكل بدون بصب,12855,100,SY,2026-02-20 16:11:18.789000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0031,food_culture,restaurant,"كيف تقول ""هذا الطبق موسيزون (مبهّر) زيادة"" بلهجتك؟",مو سيزون مبهر,10868,100,SY,2026-02-20 16:11:37.283000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0058,food_culture,cooking,شو الأكل اللي تحبه بالشتاء؟ بلهجتك,رز وفاصولساء,9919,100,SY,2026-02-20 16:12:15.887000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0003,food_culture,traditional_food,شو الفطور التقليدي عندكم؟ اوصفه بلهجتك,ماهو الفطور,7741,100,SY,2026-02-20 16:13:30.454000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0009,food_culture,traditional_food,شو الأكلة اللي ما بتحبها أبداً؟ وليش؟ بلهجتك,شو الأكلة التي تحبها,13988,100,SY,2026-02-20 16:14:35.424000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0044,food_culture,cooking,"كيف تقول ""الأكل احترق"" بلهجتك؟",الاكل احترق,8929,100,SY,2026-02-20 16:14:44.513000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0004,food_culture,traditional_food,"كيف تسأل أمك ""شو طابخة اليوم؟"" بلهجتك؟",شو طابخة,21071,100,SY,2026-02-20 16:15:05.745000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0028,food_culture,restaurant,"كيف تسأل ""شو عندكم اليوم؟"" في المطعم بلهجتك",اشو عندك اليوم انت فاضي,16083,100,SY,2026-02-20 16:24:48.644000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0032,food_culture,restaurant,كيف تطلب بقشيش (إكرامية) للجرسون بلهجتك؟,بقشيش كرامية,10134,100,SY,2026-02-20 16:40:33.285000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0035,food_culture,restaurant,كيف تسأل عن الأسعار في المطعم بلهجتك؟,شو الاسعار اليوم,10682,100,SY,2026-02-20 16:42:02.252000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0059,food_culture,cooking,"كيف تقول ""اغلي الماء"" بلهجتك؟",ربي يسر,27577,88,SY,2026-02-20 16:55:37.469000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0021,food_culture,restaurant,كيف تطلب الحساب في المطعم بلهجتك؟,لو سمحت الحساب,13224,100,SY,2026-02-20 17:21:44.797000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0043,food_culture,cooking,كيف تعمل شاي عربي بلهجتك؟ اشرح الخطوات,مي وسكر وشاي,6515,100,SY,2026-02-20 17:38:15.076000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0028,food_culture,restaurant,"كيف تسأل ""شو عندكم اليوم؟"" في المطعم بلهجتك",ابو محمد,3570,90,SY,2026-02-20 17:41:08.140000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0052,food_culture,cooking,كيف تشرح طريقة عمل القهوة العربية بلهجتك؟,بلال جركس,5148,100,SY,2026-02-20 17:41:29.386000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0018,food_culture,traditional_food,اوصف السفرة (المائدة) عندكم في رمضان بلهجتك,ابو احمد,5139,85,SY,2026-02-20 17:41:50.465000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0019,food_culture,traditional_food,"كيف تقول ""جوعان موت"" بلهجتك؟",محمد احمد,3565,90,SY,2026-02-20 17:42:11.816000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0042,food_culture,cooking,شو المكونات اللي لازم تكون دائماً بالمطبخ عندكم؟ بلهجتك,الملح السكر الطحين السمسم زيت,30103,100,SY,2026-02-20 17:43:47.318000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0008,food_culture,traditional_food,كيف تطلب من المطعم أن يزيد الملح أو يقلله بلهجتك؟,اريد ملح,12242,100,SY,2026-02-20 17:46:16.814000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0053,food_culture,cooking,"كيف تقول ""سخّن الأكل"" بلهجتك؟",سخنلي الاكل بارد,9635,100,SY,2026-02-20 18:06:17.934000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0009,food_culture,traditional_food,شو الأكلة اللي ما بتحبها أبداً؟ وليش؟ بلهجتك,برغل ببندورة بحسا حلوة ومو طيبة,68113,100,SY,2026-02-20 18:31:29.697000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0003,food_culture,traditional_food,شو الفطور التقليدي عندكم؟ اوصفه بلهجتك,بيض وحمصة وفلافل ولبنة وزيتون وزعتر واهم شي الشاي,29190,100,SY,2026-02-20 18:34:50.914000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0046,food_culture,cooking,اشرح كيف تعمل حمص بلهجتك,بسلق حمص وبطحنو وبخلطو مع طحينية وحامض وملح,25381,100,SY,2026-02-20 18:37:14.276000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0027,food_culture,restaurant,"كيف تقول ""بدي أطلب دليفري"" بلهجتك؟",بدي وصي ع اكل,12670,100,SY,2026-02-20 18:37:48.994000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0038,food_culture,restaurant,"كيف تسأل ""هل الخبز طازج؟"" بلهجتك",خبز اليوم,6884,100,SY,2026-02-20 18:38:51.299000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0043,food_culture,cooking,كيف تعمل شاي عربي بلهجتك؟ اشرح الخطوات,بحط مي بابريق بحطلا سكر وشاي,23166,100,SY,2026-02-20 18:40:03.741000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0059,food_culture,cooking,"كيف تقول ""اغلي الماء"" بلهجتك؟",اغلي مي,5235,100,SY,2026-02-20 18:49:10.456000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0047,food_culture,cooking,شو أسهل أكلة يقدر يعملها شخص ما يعرف يطبخ؟ بلهجتك,محمد سامي,3827,90,SY,2026-02-20 18:50:42.710000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0020,food_culture,traditional_food,شو المشروبات الشعبية عندكم في الصيف؟ بلهجتك,غزوة بدر,4739,100,SY,2026-02-20 18:51:12.940000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0024,food_culture,restaurant,كيف تطلب ماء بارد من الجرسون بلهجتك؟,حزب الله,4263,100,SY,2026-02-20 18:52:00.256000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0023,food_culture,restaurant,كيف تشتكي إن الأكل بارد بلهجتك؟,اسامة تشتوش,8498,100,SY,2026-02-20 18:53:20.374000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0017,food_culture,traditional_food,شو الزيوت اللي تطبخوا فيها عندكم؟ بلهجتك,منيوك انت,5836,100,SY,2026-02-20 18:57:03.635000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0056,food_culture,cooking,اشرح كيف تعمل ورق عنب بلهجتك,كيف تعمل شوربا,10639,100,SY,2026-02-20 18:57:40.797000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3
+FC-0049,food_culture,cooking,"كيف تقول ""الزبدة ذابت"" بلهجتك؟",بليل سهران,5106,100,SY,2026-02-20 18:59:19.391000+00:00,levantine,beginner,A,False,native_speaker,anon-d2ViLTE3

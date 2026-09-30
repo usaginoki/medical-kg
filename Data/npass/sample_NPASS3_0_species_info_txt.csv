@@ -1,0 +1,51 @@
+org_id,org_name,org_tax_level,org_tax_id,subspecies_tax_id,subspecies_name,species_tax_id,species_name,genus_tax_id,genus_name,family_tax_id,family_name,kingdom_tax_id,kingdom_name,superkingdom_tax_id,superkingdom_name,org_name_initial,num_of_np_act,num_of_np_no_act,num_of_np_quantity,if_org_coculture,if_org_engineered,if_org_symbiont
+NPO1,Astragalus flexuosus,Species,1234496,n.a.,n.a.,1234496,Astragalus flexuosus,20400,Astragalus,3803,Fabaceae,33090,Viridiplantae,2759,Eukaryota,A,2,8,1,0,0,0
+NPO10,Alexandrium ostenfeldii,Species,40986,n.a.,n.a.,40986,Alexandrium ostenfeldii,2924,Alexandrium,1573500,Pyrocystaceae,n.a.,n.a.,2759,Eukaryota,A,10,43,0,0,0,0
+NPO100,Zanthoxylum microcarpum,Species,n.a.,n.a.,n.a.,n.a.,n.a.,67937,Zanthoxylum,23513,Rutaceae,33090,Viridiplantae,2759,Eukaryota,Z,1,9,1,0,0,0
+NPO1000,Thymus transcaucasicus,Species,n.a.,n.a.,n.a.,n.a.,n.a.,49990,Thymus,4136,Lamiaceae,33090,Viridiplantae,2759,Eukaryota,T,19,29,6,0,0,0
+NPO10001,Gnidia subcordata,Species,n.a.,n.a.,n.a.,n.a.,n.a.,142743,Gnidia,39987,Thymelaeaceae,33090,Viridiplantae,2759,Eukaryota,G,6,29,8,0,0,0
+NPO10003,Veronica cymbalaria,Species,165331,n.a.,n.a.,165331,Veronica cymbalaria,4173,Veronica,156152,Plantaginaceae,33090,Viridiplantae,2759,Eukaryota,V,14,12,16,0,0,0
+NPO10004,Callitropsis nootkatensis,Species,85954,n.a.,n.a.,85954,Callitropsis nootkatensis,329095,Callitropsis,3367,Cupressaceae,33090,Viridiplantae,2759,Eukaryota,C,4,4,3,0,0,0
+NPO10006,Paraburkholderia caryophylli,Species,28094,n.a.,n.a.,28094,Paraburkholderia caryophylli,1822464,Paraburkholderia,119060,Burkholderiaceae,n.a.,n.a.,2,Bacteria,P,11,10,8,0,0,0
+NPO10007,Desmostachya bipinnata,Species,1245295,n.a.,n.a.,1245295,Desmostachya bipinnata,1245294,Desmostachya,4479,Poaceae,33090,Viridiplantae,2759,Eukaryota,D,5,15,4,0,0,0
+NPO10008,Tinospora capillipes,Species,150903,n.a.,n.a.,150903,Tinospora capillipes,41789,Tinospora,3455,Menispermaceae,33090,Viridiplantae,2759,Eukaryota,T,20,27,1,0,0,0
+NPO10009,Oxylobus arbutifolius,n.a.,n.a.,n.a.,n.a.,n.a.,n.a.,n.a.,n.a.,n.a.,n.a.,n.a.,n.a.,n.a.,n.a.,O,6,0,4,0,0,0
+NPO1001,Diplogelasinospora grovesii,Species,303347,n.a.,n.a.,303347,Diplogelasinospora grovesii,303324,Diplogelasinospora,5148,Sordariaceae,4751,Fungi,2759,Eukaryota,D,1,5,0,0,0,0
+NPO10010,Evernia vulpina,Species,n.a.,n.a.,n.a.,n.a.,n.a.,87256,Evernia,78060,Parmeliaceae,4751,Fungi,2759,Eukaryota,E,31,62,13,0,0,0
+NPO10011,Myrsine capitellata,Species,n.a.,n.a.,n.a.,n.a.,n.a.,59981,Myrsine,4335,Primulaceae,33090,Viridiplantae,2759,Eukaryota,M,14,15,9,0,0,0
+NPO10012,Triaenophora rupestris,Species,441503,n.a.,n.a.,441503,Triaenophora rupestris,441502,Triaenophora,91896,Orobanchaceae,33090,Viridiplantae,2759,Eukaryota,T,41,123,19,0,0,0
+NPO10014,Rubia tinctorum,Species,29802,n.a.,n.a.,29802,Rubia tinctorum,25473,Rubia,24966,Rubiaceae,33090,Viridiplantae,2759,Eukaryota,R,8,14,6,0,0,0
+NPO10016,Rollinia laurifolia,Species,n.a.,n.a.,n.a.,n.a.,n.a.,301698,Rollinia,22140,Annonaceae,33090,Viridiplantae,2759,Eukaryota,R,2,5,2,0,0,0
+NPO10017,Echium pininana,Species,113444,n.a.,n.a.,113444,Echium pininana,21610,Echium,21571,Boraginaceae,33090,Viridiplantae,2759,Eukaryota,E,7,6,10,0,0,0
+NPO10019,Ilex oblonga,Species,n.a.,n.a.,n.a.,n.a.,n.a.,4295,Ilex,4294,Aquifoliaceae,33090,Viridiplantae,2759,Eukaryota,I,7,4,0,0,0,0
+NPO1002,Haplophyllum perforatum,Species,n.a.,n.a.,n.a.,n.a.,n.a.,266078,Haplophyllum,23513,Rutaceae,33090,Viridiplantae,2759,Eukaryota,H,2,20,0,0,0,0
+NPO10021,Nerium oleander,Species,63479,n.a.,n.a.,63479,Nerium oleander,63461,Nerium,4056,Apocynaceae,33090,Viridiplantae,2759,Eukaryota,N,86,189,51,0,0,0
+NPO10023,Francoeuria undulata,Species,119186,n.a.,n.a.,119186,Francoeuria undulata,1548540,Francoeuria,4210,Asteraceae,33090,Viridiplantae,2759,Eukaryota,F,10,28,1,0,0,0
+NPO10024,Tylecodon wallichii,Species,91165,n.a.,n.a.,91165,Tylecodon wallichii,91163,Tylecodon,3781,Crassulaceae,33090,Viridiplantae,2759,Eukaryota,T,4,3,0,0,0,0
+NPO10026,Mitracarpus scaber,Species,n.a.,n.a.,n.a.,n.a.,n.a.,60380,Mitracarpus,24966,Rubiaceae,33090,Viridiplantae,2759,Eukaryota,M,133,174,29,0,0,0
+NPO10027,Cannabis indica,Species,n.a.,n.a.,n.a.,n.a.,n.a.,3482,Cannabis,3481,Cannabaceae,33090,Viridiplantae,2759,Eukaryota,C,4,7,1,0,0,0
+NPO10029,Prunus dulcis,Species,3755,n.a.,n.a.,3755,Prunus dulcis,3754,Prunus,3745,Rosaceae,33090,Viridiplantae,2759,Eukaryota,P,107,35,123,0,0,0
+NPO10029.1,Prunus dulcis var. amara,Varieties,3756,3756,prunus dulcis var. amara,3755,Prunus dulcis,3754,Prunus,3745,Rosaceae,33090,Viridiplantae,2759,Eukaryota,P,1,0,0,0,0,0
+NPO10031,Euphorbia antiquorum,Species,334664,n.a.,n.a.,334664,Euphorbia antiquorum,3990,Euphorbia,3977,Euphorbiaceae,33090,Viridiplantae,2759,Eukaryota,E,69,51,15,0,0,0
+NPO10032,Backhousia citriodora,Species,39976,n.a.,n.a.,39976,Backhousia citriodora,39975,Backhousia,3931,Myrtaceae,33090,Viridiplantae,2759,Eukaryota,B,10,26,1,0,0,0
+NPO10033,Turraea pubescens,Species,1382023,n.a.,n.a.,1382023,Turraea pubescens,201020,Turraea,43707,Meliaceae,33090,Viridiplantae,2759,Eukaryota,T,26,6,0,0,0,0
+NPO10034,Penstemon mucronatus,Species,1811924,n.a.,n.a.,1811924,Penstemon mucronatus,69923,Penstemon,156152,Plantaginaceae,33090,Viridiplantae,2759,Eukaryota,P,6,31,5,0,0,0
+NPO10035,Ficus pantoniana,Species,479811,n.a.,n.a.,479811,Ficus pantoniana,3493,Ficus,3487,Moraceae,33090,Viridiplantae,2759,Eukaryota,F,5,10,0,0,0,0
+NPO10036,Bruguiera cylindrica,Species,106616,n.a.,n.a.,106616,Bruguiera cylindrica,39983,Bruguiera,40029,Rhizophoraceae,33090,Viridiplantae,2759,Eukaryota,B,21,39,7,0,0,0
+NPO10038.1,Abies pinsapo var. marocana,Varieties,928731,928731,abies pinsapo var. marocana,56046,Abies pinsapo,3319,Abies,3318,Pinaceae,33090,Viridiplantae,2759,Eukaryota,A,46,35,15,0,0,0
+NPO10038.2,Abies pinsapo var. tazaotana,Varieties,928733,928733,abies pinsapo var. tazaotana,56046,Abies pinsapo,3319,Abies,3318,Pinaceae,33090,Viridiplantae,2759,Eukaryota,A,1,111,2,0,0,0
+NPO10039,Podosphaera fuliginea,Species,92473,n.a.,n.a.,92473,Podosphaera fuliginea,62701,Podosphaera,34371,Erysiphaceae,4751,Fungi,2759,Eukaryota,P,6,15,2,0,0,0
+NPO1004,Consolida scleroclada,Species,n.a.,n.a.,n.a.,n.a.,n.a.,37493,Consolida,3440,Ranunculaceae,33090,Viridiplantae,2759,Eukaryota,C,2,9,0,0,0,0
+NPO10040,Ardisia sieboldii,Species,1265926,n.a.,n.a.,1265926,Ardisia sieboldii,13344,Ardisia,4335,Primulaceae,33090,Viridiplantae,2759,Eukaryota,A,2,12,0,0,0,0
+NPO10043,Phebalium ozothamnoides,Species,n.a.,n.a.,n.a.,n.a.,n.a.,77003,Phebalium,23513,Rutaceae,33090,Viridiplantae,2759,Eukaryota,P,43,97,8,0,0,0
+NPO10044,Bombina maxima,Species,161274,n.a.,n.a.,161274,Bombina maxima,8344,Bombina,30312,Bombinatoridae,33208,Metazoa,2759,Eukaryota,B,7,12,9,0,0,0
+NPO10046,Hopea malibato,Species,n.a.,n.a.,n.a.,n.a.,n.a.,n.a.,Hopea,n.a.,n.a.,n.a.,n.a.,n.a.,n.a.,H,4,3,0,0,0,0
+NPO10047,Psychotria correae,Species,1129518,n.a.,n.a.,1129518,Psychotria correae,25443,Psychotria,24966,Rubiaceae,33090,Viridiplantae,2759,Eukaryota,P,4,2,2,0,0,0
+NPO10048,Pyrus bourgaeana,Species,n.a.,n.a.,n.a.,n.a.,n.a.,3766,Pyrus,3745,Rosaceae,33090,Viridiplantae,2759,Eukaryota,P,31,51,16,0,0,0
+NPO10049,Coleophoma empetri,Species,582885,n.a.,n.a.,582885,Coleophoma empetri,453209,Coleophoma,n.a.,n.a.,4751,Fungi,2759,Eukaryota,C,4,28,2,0,0,0
+NPO1005,Pycnarrhena novoguineensis,Species,461620,n.a.,n.a.,461620,Pycnarrhena novoguineensis,432635,Pycnarrhena,3455,Menispermaceae,33090,Viridiplantae,2759,Eukaryota,P,4,2,1,0,0,0
+NPO10051,Phyla nodiflora,Species,222877,n.a.,n.a.,222877,Phyla nodiflora,86858,Phyla,21910,Verbenaceae,33090,Viridiplantae,2759,Eukaryota,P,5,33,4,0,0,0
+NPO10052,Penicillium aethiopicum,Species,36650,n.a.,n.a.,36650,Penicillium aethiopicum,5073,Penicillium,1131492,Aspergillaceae,4751,Fungi,2759,Eukaryota,P,2,11,0,0,0,0
+NPO10053,Peperomia blanda,Species,352167,n.a.,n.a.,352167,Peperomia blanda,13196,Peperomia,16739,Piperaceae,33090,Viridiplantae,2759,Eukaryota,P,3,10,3,0,0,0
+NPO10054,Panus conchatus,Species,60114,n.a.,n.a.,60114,Panus conchatus,38807,Panus,83234,Lentinaceae,4751,Fungi,2759,Eukaryota,P,1,4,0,0,0,0
+NPO10055,Stichoneuron caudatum,Species,50540,n.a.,n.a.,50540,Stichoneuron caudatum,50539,Stichoneuron,49662,Stemonaceae,33090,Viridiplantae,2759,Eukaryota,S,12,4,0,0,0,0

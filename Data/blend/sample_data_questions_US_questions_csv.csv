@@ -1,0 +1,51 @@
+Unnamed: 0,ID,Topic,Source,Question,Translation
+0,Al-en-01,Food,English (US),What is a common snack for preschool kids in the US?,What is a common snack for preschool kids in US?
+1,Al-en-02,Food,English (US),What is a popular food to go with beer in the US?,What is a popular food to go with beer in US?
+2,Al-en-04,Food,English (US),What is the most popular fruit in the US?,What is the most popular fruit in US?
+3,Al-en-06,Food,English (US),What is a common school cafeteria food in the US?,What is a common school cafeteria food in US?
+4,Al-en-08,Food,English (US),What are the most commonly eaten snacks at shopping malls in the US?,What are the most commonly eaten snacks at shopping malls in US?
+5,Al-en-09,Food,English (US),What is a popular snack at an amusement park in the US?,What is a popular snack at an amusement park in US?
+6,Al-en-16,Education,English (US),"At what age do kids start preschool in the US? (Provide Arabic numerals (e.g., 12) only.)","At what age do kids start preschool in US? (Provide Arabic numerals (e.g., 12) only.)"
+7,Al-en-17,Education,English (US),What is a popular afterschool sport for elementary schools in the US?,What is a popular afterschool sport for elementary schools in US?
+8,Al-en-18,Education,English (US),For which subject do elementary students get private education in the US?,For which subject do elementary students get private education in US?
+9,Al-en-19,Education,English (US),What is a popular second language for high school students in the US?,What is a popular second language for high school students in US?
+10,Al-en-21,Education,English (US),Which subject is the most important for gifted education in the US?,Which subject is the most important for gifted education in US?
+11,Al-en-32,Holidays/Celebration/Leisure,English (US),What is the main dish for Thanksgiving in the US?,What is the main dish for Thanksgiving in US?
+12,Al-en-33,Holidays/Celebration/Leisure,English (US),What do people do to celebrate Halloween in the US?,What do people do to celebrate Halloween in US?
+13,Al-en-34,Holidays/Celebration/Leisure,English (US),What do people do to celebrate New Year's Day in the US?,What do people do to celebrate New Year's Day in US?
+14,Al-en-35,Holidays/Celebration/Leisure,English (US),What do people do to celebrate Christmas in the US?,What do people do to celebrate Christmas in US?
+15,Al-en-36,Holidays/Celebration/Leisure,English (US),What food is associated with Halloween in the US?,What food is associated with Halloween in US?
+16,Al-en-37,Holidays/Celebration/Leisure,English (US),What food is associated with Christmas in the US?,What food is associated with Christmas in US?
+17,Al-en-38,Holidays/Celebration/Leisure,English (US),What food is associated with Valentine's day in the US?,What food is associated with Valentine's day in US?
+18,Al-en-39,Holidays/Celebration/Leisure,English (US),What do people eat on their birthday in the US?,What do people eat on their birthday in US?
+19,Al-en-40,Holidays/Celebration/Leisure,English (US),What is a popular outdoor place for families to have fun with little kids in the US?,What is a popular outdoor place for families to have fun with little kids in US?
+20,Al-en-43,Holidays/Celebration/Leisure,English (US),What is a popular indoor activity for families in the US?,What is a popular indoor activity for families in US?
+21,An-ar-02,Education,Arabic (Algeria),Where do university students have lunch in the US?,Where do university students have lunch in US?
+22,An-ar-03,Education,Arabic (Algeria),Which month is the final exam term usually scheduled at high schools in the US? (Provide Arabic numerals (1~12) only.),Which month is the final exam term usually scheduled at high schools in US? (Provide Arabic numerals (1~12) only.)
+23,An-ar-08,Education,Arabic (Algeria),"How many hours a day do students in the US usually spend at high school? (Provide Arabic numerals in integers (0~24), without any decimal points.)","How many hours a day do students in US usually spend at high school? (Provide Arabic numerals in integers (0~24), without any decimal points.)"
+24,An-ar-09,Education,Arabic (Algeria),"How many languages do students study at high school in the US? (Provide Arabic numerals (e.g., 5) only.)","How many languages do students study at high school in US? (Provide Arabic numerals (e.g., 5) only.)"
+25,An-ar-34,Sport,Arabic (Algeria),What is the most popular sport played in a team at school in the US?,What is the most popular sport played in a team at school in US?
+26,An-ar-35,Sport,Arabic (Algeria),Who is the most popular sport commentator in the US?,Who is the most popular sport commentator in US?
+27,An-ar-36,Sport,Arabic (Algeria),What is the most popular sport team in the US?,What is the most popular sport team in US?
+28,An-ar-43,Sport,Arabic (Algeria),What are the common places or venues where individuals in the US usually gather to watch sports broadcasts?,What are the common places or venues where individuals in US usually gather to watch sports broadcasts?
+29,Ca-sp-05,Food,Spanish (Spain),"How many meals per day do people from the US usually have? (Provide Arabic numerals (e.g., 5) only.)","How many meals per day do people from US usually have? (Provide Arabic numerals (e.g., 5) only.)"
+30,Ca-sp-06,Food,Spanish (Spain),Which is the most important meal of the day to people from the US?,Which is the most important meal of the day to people from US?
+31,Ca-sp-08,Food,Spanish (Spain),What is the most common ingredient used in the US's diet?,What is the most common ingredient used in US's diet?
+32,Ca-sp-09,Food,Spanish (Spain),What do people from the US usually eat for dessert?,What do people from US usually eat for dessert?
+33,Ca-sp-11,Food,Spanish (Spain),Which day of the week do people usually organize a family meal in the US?,Which day of the week do people usually organize a family meal in US?
+34,Ca-sp-14,Food,Spanish (Spain),Which is the most popular hot drink in the US?,Which is the most popular hot drink in US?
+35,Ca-sp-19,Holidays/Celebration/Leisure,Spanish (Spain),What do young people from the US usually drink at the night club?,What do young people from US usually drink at the night club?
+36,Ca-sp-21,Holidays/Celebration/Leisure,Spanish (Spain),At which month do people usually take holidays in the US? (Provide Arabic numerals (1~12) only.),At which month do people usually take holidays in US? (Provide Arabic numerals (1~12) only.)
+37,Ca-sp-29,Holidays/Celebration/Leisure,Spanish (Spain),What tradition is there in the US for New Year's Eve?,What tradition is there in US for New Year's Eve?
+38,Ca-sp-38,Family,Spanish (Spain),Which is the typical type of house for a family in the US?,Which is the typical type of house for a family in US?
+39,Ca-sp-41,Family,Spanish (Spain),Where do the dependent elderly usually live in the US?,Where do the dependent elderly usually live in US?
+40,Ca-sp-42,Family,Spanish (Spain),"How long (in weeks) is the US's maternity leave for mums? (Provide Arabic numerals (e.g., 20) only.)","How long (in weeks) is US's maternity leave for mums? (Provide Arabic numerals (e.g., 20) only.)"
+41,Ca-sp-43,Family,Spanish (Spain),"How long (in weeks) is the US's paternity leave for dads? (Provide Arabic numerals (e.g., 20) only.)","How long (in weeks) is US's paternity leave for dads? (Provide Arabic numerals (e.g., 20) only.)"
+42,Ca-sp-45,Family,Spanish (Spain),What type of destination is commonly chosen for a family vacation in the US?,What type of destination is commonly chosen for a family vacation in US?
+43,Gu-ch-05,Sport,Chinese (China),What sports do seniors like the most in the US?,What sports do seniors like the most in US?
+44,Gu-ch-06,Sport,Chinese (China),What sports do men like to play the most in the US?,What sports do men like to play the most in US?
+45,Gu-ch-07,Sport,Chinese (China),Who is the most famous basketball player in the US?,Who is the most famous basketball player in US?
+46,Gu-ch-08,Sport,Chinese (China),What is the most popular sports among children in the US?,What is the most popular sports among children in US?
+47,Gu-ch-09,Sport,Chinese (China),What sports do women like to play the most in the US?,What sports do women like to play the most in US?
+48,Gu-ch-11,Sport,Chinese (China),What sports event has the US won the most gold medals at the Olympics?,What sports event has US won the most gold medals at the Olympics?
+49,Gu-ch-15,Sport,Chinese (China),What sports do male students in university like to play the most in the US?,What sports do male students in university like to play the most in US?

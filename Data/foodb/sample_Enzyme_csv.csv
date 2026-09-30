@@ -1,0 +1,51 @@
+id,name,gene_name,description,go_classification,general_function,specific_function,pathway,reaction,cellular_location,signals,transmembrane_regions,molecular_weight,theoretical_pi,locus,chromosome,uniprot_name,uniprot_id,pdb_id,genbank_protein_id,genbank_gene_id,genecard_id,genatlas_id,hgnc_id,hprd_id,organism,general_citations,comments,creator_id,updater_id,created_at,updated_at
+1,UDP-glucuronosyltransferase 2B28,UGT2B28,,,,,,,,,,,,,,,Q9BY64,,,,,,,,,,,,,2015-02-23 22:40:56 UTC,2015-02-23 22:40:56 UTC
+2,Estrogen receptor beta,ESR2,,,,,,,,,,,,,,,Q92731,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+3,UDP-glucuronosyltransferase 2B4,UGT2B4,,,,,,,,,,,,,,,P06133,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+4,UDP-glucuronosyltransferase 1-4,UGT1A4,,,,,,,,,,,,,,,P22310,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+5,UDP-glucuronosyltransferase 2B10,UGT2B10,,,,,,,,,,,,,,,P36537,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+6,UDP-glucuronosyltransferase 2B7,UGT2B7,,,,,,,,,,,,,,,P16662,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+7,UDP-glucuronosyltransferase 2B15,UGT2B15,,,,,,,,,,,,,,,P54855,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+8,UDP-glucuronosyltransferase 2A1,UGT2A1,,,,,,,,,,,,,,,Q9Y4X1,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+9,UDP-glucuronosyltransferase 1-1,UGT1A1,,,,,,,,,,,,,,,P22309,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+10,UDP-glucuronosyltransferase 1-9,UGT1A9,,,,,,,,,,,,,,,O60656,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+11,UDP-glucuronosyltransferase 1-8,UGT1A8,,,,,,,,,,,,,,,Q9HAW9,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+12,UDP-glucuronosyltransferase 1-3,UGT1A3,,,,,,,,,,,,,,,P35503,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+13,UDP-glucuronosyltransferase 1-10,UGT1A10,,,,,,,,,,,,,,,Q9HAW8,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+14,UDP-glucuronosyltransferase 2B17,UGT2B17,,,,,,,,,,,,,,,O75795,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+15,UDP-glucuronosyltransferase 1-6,UGT1A6,,,,,,,,,,,,,,,P19224,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+16,UDP-glucuronosyltransferase 1-5,UGT1A5,,,,,,,,,,,,,,,P35504,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+17,UDP-glucuronosyltransferase 2B11,UGT2B11,,,,,,,,,,,,,,,O75310,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+18,UDP-glucuronosyltransferase 1-7,UGT1A7,,,,,,,,,,,,,,,Q9HAW7,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+19,Sex hormone-binding globulin,SHBG,,,,,,,,,,,,,,,P04278,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+20,Nuclear receptor subfamily 1 group I member 2,NR1I2,,,,,,,,,,,,,,,O75469,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+21,Estrogen receptor,ESR1,,,,,,,,,,,,,,,P03372,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+22,UDP-glucuronosyltransferase 2A3,UGT2A3,,,,,,,,,,,,,,,Q6UWM9,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+23,"Cytochrome P450, family 1, subfamily A, polypeptide 1",CYP1A1,,,,,,,,,,,,,,,A0N0X8,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+24,Cytochrome P450 2D6,CYP2D6,,,,,,,,,,,,,,,Q6NWU0,,,,,,,,,,,,,2015-02-23 22:40:57 UTC,2015-02-23 22:40:57 UTC
+25,Sedoheptulokinase,SHPK,,,,,,,,,,,,,,,Q9UHJ6,,,,,,,,,,,,,2015-02-23 22:41:13 UTC,2015-02-23 22:41:13 UTC
+26,Multiple inositol polyphosphate phosphatase 1,MINPP1,,,,,,,,,,,,,,,Q9UNW1,,,,,,,,,,,,,2015-02-23 22:41:13 UTC,2015-02-23 22:41:13 UTC
+27,Inositol-pentakisphosphate 2-kinase,IPPK,,,,,,,,,,,,,,,Q9H8X2,,,,,,,,,,,,,2015-02-23 22:41:13 UTC,2015-02-23 22:41:13 UTC
+28,Inositol hexakisphosphate kinase 3,IHPK3,,,,,,,,,,,,,,,Q5TAQ4,,,,,,,,,,,,,2015-02-23 22:41:13 UTC,2015-02-23 22:41:13 UTC
+29,Putative uncharacterized protein IP6K1,IP6K1,,,,,,,,,,,,,,,Q92551,,,,,,,,,,,,,2015-02-23 22:41:13 UTC,2015-02-23 22:41:13 UTC
+30,Aromatic-L-amino-acid decarboxylase,DDC,,,,,,,,,,,,,,,P20711,,,,,,,,,,,,,2015-02-23 22:42:20 UTC,2015-02-23 22:42:20 UTC
+31,Alpha-2A adrenergic receptor,ADRA2A,,,,,,,,,,,,,,,P08913,,,,,,,,,,,,,2015-02-23 22:42:20 UTC,2015-02-23 22:42:20 UTC
+32,Alpha-2B adrenergic receptor,ADRA2B,,,,,,,,,,,,,,,P18089,,,,,,,,,,,,,2015-02-23 22:42:20 UTC,2015-02-23 22:42:20 UTC
+33,Tyrosine 3-monooxygenase,TH,,,,,,,,,,,,,,,P07101,,,,,,,,,,,,,2015-02-23 22:42:37 UTC,2015-02-23 22:42:37 UTC
+34,Tyrosine aminotransferase,TAT,,,,,,,,,,,,,,,P17735,,,,,,,,,,,,,2015-02-23 22:42:37 UTC,2015-02-23 22:42:37 UTC
+35,Phenylalanine-4-hydroxylase,PAH,,,,,,,,,,,,,,,P00439,,,,,,,,,,,,,2015-02-23 22:42:38 UTC,2015-02-23 22:42:38 UTC
+36,"Aspartate aminotransferase, cytoplasmic",GOT1,,,,,,,,,,,,,,,P17174,,,,,,,,,,,,,2015-02-23 22:42:38 UTC,2015-02-23 22:42:38 UTC
+37,"Aspartate aminotransferase, mitochondrial",GOT2,,,,,,,,,,,,,,,P00505,,,,,,,,,,,,,2015-02-23 22:42:38 UTC,2015-02-23 22:42:38 UTC
+38,"Tyrosine--tRNA ligase, cytoplasmic",YARS,,,,,,,,,,,,,,,P54577,,,,,,,,,,,,,2015-02-23 22:42:38 UTC,2015-02-23 22:42:38 UTC
+39,"Tyrosine--tRNA ligase, mitochondrial",YARS2,,,,,,,,,,,,,,,Q9Y2Z4,,,,,,,,,,,,,2015-02-23 22:42:38 UTC,2015-02-23 22:42:38 UTC
+40,Basic fibroblast growth factor receptor 1,FGFR1,,,,,,,,,,,,,,,P11362,,,,,,,,,,,,,2015-02-23 22:42:38 UTC,2015-02-23 22:42:38 UTC
+41,Epidermal growth factor receptor,EGFR,,,,,,,,,,,,,,,P00533,,,,,,,,,,,,,2015-02-23 22:42:38 UTC,2015-02-23 22:42:38 UTC
+42,Adenosine deaminase,ADA,,,,,,,,,,,,,,,P00813,,,,,,,,,,,,,2015-02-23 22:42:48 UTC,2015-02-23 22:42:48 UTC
+43,Adenosine receptor A1,ADORA1,,,,,,,,,,,,,,,P30542,,,,,,,,,,,,,2015-02-23 22:42:48 UTC,2015-02-23 22:42:48 UTC
+44,Adenosine receptor A2a,ADORA2A,,,,,,,,,,,,,,,P29274,,,,,,,,,,,,,2015-02-23 22:42:48 UTC,2015-02-23 22:42:48 UTC
+45,Adenosine receptor A2b,ADORA2B,,,,,,,,,,,,,,,P29275,,,,,,,,,,,,,2015-02-23 22:42:48 UTC,2015-02-23 22:42:48 UTC
+46,Aminoadipate-semialdehyde synthase,AASS,,,,,,,,,,,,,,,A4D0W4,,,,,,,,,,,,,2015-02-23 22:42:58 UTC,2015-02-23 22:42:58 UTC
+47,"Propionyl-CoA carboxylase beta chain, mitochondrial",PCCB,,,,,,,,,,,,,,,P05166,,,,,,,,,,,,,2015-02-23 22:43:04 UTC,2015-02-23 22:43:04 UTC
+48,"Branched-chain-amino-acid aminotransferase, cytosolic",BCAT1,,,,,,,,,,,,,,,P54687,,,,,,,,,,,,,2015-02-23 22:43:04 UTC,2015-02-23 22:43:04 UTC
+49,"Branched-chain-amino-acid aminotransferase, mitochondrial",BCAT2,,,,,,,,,,,,,,,O15382,,,,,,,,,,,,,2015-02-23 22:43:04 UTC,2015-02-23 22:43:04 UTC
+50,Valine--tRNA ligase,VARS,,,,,,,,,,,,,,,P26640,,,,,,,,,,,,,2015-02-23 22:43:04 UTC,2015-02-23 22:43:04 UTC

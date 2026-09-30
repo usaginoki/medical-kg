@@ -1,0 +1,51 @@
+org_id,org_name,np_id,np_name,elicitor,pharm_action,np_type,ref_doc_type,ref_id
+NPO26787,Chloranthus anhuiensis,NPC598946,Anhuienol ,CuCl2,n.a.,Novel NP,Publication,DOI: https://doi.org/10.1021/np100063q
+NPO2010,Viburnum ichangense,NPC598973,Ichangoside ,CuCl2,Anti-oxidant,Novel NP,Publication,DOI: https://doi.org/10.1002/hlca.201100177
+NPO4640,Portulaca oleracea,NPC598890,"9-(6-O-[(2E,6S)-2,6-dimethyl-6-hydroxy-2,7-octadienoyl]-b-d-glucopyranosyloxy)-guaiacylglycerol",CuCl2,Anti-oxidant,Novel NP,Publication,DOI: https://doi.org/10.1016/j.carres.2012.01.012
+NPO4640,Portulaca oleracea,NPC599078,"9-(6-O-[(2E,6S)-2,6-dimethyl-6-hydroxy-2,7-octadienoyl]-b-d-glucopyranosyloxy)- syringoylglycerol",CuCl2,Anti-oxidant,Novel NP,Publication,DOI: https://doi.org/10.1016/j.carres.2012.01.012
+NPO43132,Hypoxis hemerocallidea,NPC583866,Hypoxoside,Mix metals (Cd2++Al2+),"Anti-oxidant, antibacterial, Immuno-stimulant.",Enhancing therapeutic action,Publication,DOI: https://doi.org/10.1016/j.plaphy.2015.09.015
+NPO56544,Brugmansia candida,NPC246693,Shikonin,"Cu2+, CdCl2","Anti-HIV, Anti-inflammatory, Anti-spasmodic.",Enhancing production,Publication,DOI: https://doi.org/10.1080/13102818.2006.10817345
+NPO56544,Brugmansia candida,NPC116631,Scopolamine ,"Cu2+, CdCl2","Anti-HIV, Anti-inflammatory, Anti-spasmodic.",Enhancing production,Publication,DOI: https://doi.org/10.1080/13102818.2006.10817345
+NPO56544,Brugmansia candida,NPC213126,Hyoscyamine,"Cu2+, CdCl2","Anti-HIV, Anti-inflammatory, Anti-spasmodic.",Enhancing production,Publication,DOI: https://doi.org/10.1080/13102818.2006.10817345
+NPO15453,Sarcophyton ehrenbergi,NPC598772,Sarcophytonolide I ,ZnCl2,n.a.,Enhancing production ,Publication,DOI: https://doi.org/10.1038/s41598-017-00527-8
+NPO33175,Pestalotiopsis sp.,NPC573675,"1β,5α,6α,14-tetraacetoxy-9α-benzoyloxy-7β H-eudesman-2β,11-diol",CuCl2,Tyrosinase inhibitors,Novel NP,Publication,DOI: https://doi.org/10.3390/md11082713
+NPO33175,Pestalotiopsis sp.,NPC495238,"4α,5α-diacetoxy-9α-benzoyloxy-7βH-eudesman-1β,2β,11, 14-tetraol ",CuCl2,Tyrosinase inhibitors,Novel NP,Publication,DOI: https://doi.org/10.3390/md11082713
+NPO22473,Aspergillus clavatus,NPC553504,Clavatustide B,ZnSO4,Anti-cancer,Novel NP,Publication,DOI: https://doi.org/10.3390/md12063203
+NPO22473,Aspergillus clavatus,NPC508141,Clavatustide C ,ZnSO4,Anti-cancer,Novel NP,Publication,DOI: https://doi.org/10.3390/md12063203
+NPO7803,Aspergillus sclerotiorum,NPC512557,Aspochracin ,"Cu, Cd","Insecticidal, Cytotoxic",Enhancing production ,Publication,DOI: http://dx.doi.org/10.2174/138527281807140515155705
+NPO7803,Aspergillus sclerotiorum,NPC29084,Clavatol ,"Cu, Cd",n.a.,Enhancing production ,Publication,DOI: http://dx.doi.org/10.2174/138527281807140515155705
+NPO43445,Aspergillus sp,NPC514214,Aspergstressin ,Co,n.a.,Novel NP,Publication,DOI: https://doi.org/10.3390/molecules21010105
+NPO43445,Aspergillus sp,NPC598621,Cyclo-(L-tryptophyl-l-phenylalanyl) ,Co,n.a.,Novel NP,Publication,DOI: https://doi.org/10.3390/molecules21010105
+NPO43445,Aspergillus sp,NPC145780,Cordyol C ,Co,Anti-Viral,Novel NP,Publication,DOI: https://doi.org/10.3390/molecules21010105
+NPO43445,Aspergillus sp,NPC490896,Sydonic acid ,Co,n.a.,Novel NP,Publication,DOI: https://doi.org/10.3390/molecules21010105
+NPO32477,Streptomyces sp.,NPC598837,Cyclizidine analog ,NiCl2,Anti-biotic,Novel NP,Publication,DOI: https://doi.org/10.1007/s00253-016-7823-y
+NPO32477,Streptomyces sp.,NPC496623,Enterocin ,Co,Anti-biotic,Enhancing production ,Publication,PMID:28625960
+NPO55625,Penicillium sp,NPC539979,Neocitreoviridin ,Co,Anti-biotic,Novel NP,Publication,PMID: 28824581
+NPO55625,Penicillium sp,NPC493000,10Z-isocitreoviridinol ,Co,Anti-biotic,Novel NP,Publication,PMID: 28824581
+NPO55625,Penicillium sp,NPC494020,Penicillstressol ,Co,Anti-biotic,Novel NP,Publication,PMID: 28824581
+NPO55625,Penicillium sp,NPC542556,Isopenicillstressol,Co,Anti-biotic,Novel NP,Publication,PMID: 28824581
+NPO55625,Penicillium sp,NPC538863,Citreoviridin ,Co,Anti-biotic,Enhancing production ,Publication,PMID: 28824581
+NPO55625,Penicillium sp,NPC530500,Epicitreoviridinol ,Co,Anti-biotic,Enhancing production ,Publication,PMID: 28824581
+NPO55625,Penicillium sp,NPC496578,Citreoviridinol ,Co,Anti-biotic,Enhancing production ,Publication,PMID: 28824581
+NPO55625,Penicillium sp,NPC598652,Epiisocitreoviridinol,Co,Anti-biotic,Enhancing production ,Publication,PMID: 28824581
+NPO56411,Streptomyces pratensis,NPC536357,Stremycin A  ,Ni,Anti-biotic,Novel NP,Publication,PMID: 30213076
+NPO56411,Streptomyces pratensis,NPC592721,Stremycin B ,Ni,Anti-biotic,Novel NP,Publication,PMID: 30213076
+NPO7635,Glycine max,NPC234560,daidzein,Cold stress,Antiproliferative,Enhancing production ,Publication,DOI:  https://doi.org/10.1016/S0168-9452(02)00136-X
+NPO7635,Glycine max,NPC490656,genistein,Cold stress,Antiproliferative,Enhancing production ,Publication,DOI: https://doi.org/10.1016/S0168-9452(02)00136-X
+NPO52193,Solanum lycopersicon,NPC75204,(E)-2-hexenal,Cold stress,Antibacterial,Enhancing production ,Publication,PMID: 19377454
+NPO52193,Solanum lycopersicon,NPC212695,δ-elemene,Cold stress,Antiproliferative,Enhancing production ,Publication,PMID: 19377454
+NPO52193,Solanum lycopersicon,NPC66577,α-humulene,Cold stress,Anticancer,Enhancing production ,Publication,PMID: 19377454
+NPO52193,Solanum lycopersicon,NPC109813,β-caryophyllene,Cold stress,Anticancer,Enhancing production ,Publication,PMID: 19377454
+NPO15810,Zea mays,NPC97432,pelargonidin,Cold stress,Antithrombotic,Enhancing production ,Publication,DOI: https://doi.org/10.1007/BF00714468
+NPO63165,Fagopyrum tartaricum,NPC598939,anthocyanin,Cold stress,Antioxidant,Enhancing production ,Publication,DOI: https://doi.org/10.1016/j.envexpbot.2018.07.027
+NPO15698,Withania somnifera,NPC170538,withanolide A,Cold stress,Neuroprotective,Enhancing production ,Publication,DOI: https://doi.org/10.1016/j.indcrop.2015.06.012
+NPO15698,Withania somnifera,NPC598781,withferin A,Cold stress,Anticancer,Enhancing production ,Publication,DOI: https://doi.org/10.1016/j.indcrop.2015.06.012
+NPO8258,Camellia sinensis,NPC126029,epicatechin,Drought,Antioxidant,Enhancing production ,Publication,PMID: 16712885
+NPO12582,Camptotheca acuminata,NPC129909,camptothecin,Drought,Antitumour ,Enhancing production ,Publication,DOI: https://doi.org/10.1111/j.1399-3054.2000.1100409.x
+NPO5881,Catharanthus roseus,NPC195788,vinblastine,Drought,Anticancer,Enhancing production ,Publication,DOI: https://doi.org/10.1080/17429145.2017.1293852
+NPO44327,Cistus clusii,NPC250436,epigallocatechin gallate,Drought,Anticancer,Enhancing production ,Publication,PMID: 15339740
+NPO7532,Crataegus laevigata,NPC302857,chlorogenic acid,Drought,Antioxidant,Enhancing production ,Publication,DOI: https://doi.org/10.1111/j.1399-3054.2004.00332.x
+NPO7532,Crataegus laevigata,NPC126029,(−)-epicatechin,Drought,Antioxidant,Enhancing production ,Publication,DOI: https://doi.org/10.1111/j.1399-3054.2004.00332.x
+NPO7635,Glycine max,NPC230085,trigonelline,Drought,Antidiabetic ,Enhancing production ,Publication,DOI: https://doi.org/10.1023/A:1024390522259
+NPO59548,Hypericum brasiliense,NPC598673, isouliginosin B,Drought,Antinociceptive,Enhancing production ,Publication,PMID: 15854832
+NPO59548,Hypericum brasiliense,NPC176740,rutin,Drought,Anticancer,Enhancing production ,Publication,PMID: 15854832

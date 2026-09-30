@@ -1,0 +1,156 @@
+worker_id,sample_id,sub_topic,first_statement,options,answer_key,relevant_to_this_country,relevant_to_other_countries,should_discard,country,region
+Palestine-1,1 | Breakfast,الافطار,تحضر مريم الفطور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم مريم بتحضير الجبنة على الفطور',
+       ' تقدم مريم الشيبس على الفطور',
+       ' تقدم مريم الشوكلاته  على  الفطور'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,2 | Breakfast,الافطار,تحضر سلوى الحمص,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوةم سلوى بتحضير الحمص على الفطور',
+       ' تقدم سلوى الفواكه مع الحمص', ' تقدم سلوى   العسل مع الحمص'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,3 | Breakfast,الافطار,تجهز ولاء المعجنات ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقدم  ولاء المكسرات مع المعجنات', ' تقدم ولاء القهوة مع المعجنات',
+       ' تقوم ولاء بتجهيز المعجنات  لتقدمه على الفطور'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,5 | Breakfast,الافطار,يشتري احمد التمرية,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يشتري احمد التمرية لتناوله  على  الفطور في يوم الجمعة',
+       ' يشتري احمد التمرية لتناوله على الغذاء في يوم الجمعة',
+       ' يشتري احمد التمرية لتناوله على العشاء في يوم الجمعة'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",No,No,No,Palestine,Levant
+Palestine-1,6 | Lunch,الغداء,تحضر ريما المقلوبة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تضيف ريما بازيلا مع المقلوبة', ' تضيف ريما الخيار مع المقلوبة',
+       ' تحضر ريما الزهرة من اجل اضافتها الى المقلوبة'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,7 | Lunch,الغداء,تحضر خلود المنسف,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم خلود بتحضير الزهرة ل المنسف',
+       ' تقوم خلود بتحضير المنسف مع الجميد',
+       ' تقوم خلود باضافة الشاي ل المنسف'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,8 | Lunch,الغداء,تحضر ساهرة المسخن,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تحضر ساهرة حبة الحمص من اجل المسخن',
+       ' تحضر ساهرة البصل من اجل المسخن',
+       ' تحضر ساهرة الذرة من اجل المسخن'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,9 | Lunch,الغداء,تتجهز حبة الحشوة من أجل رقاب الخاروف,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تجهز هبة المكسرات من اجل حشي الرقاب الخاروف',
+       ' تجهز هبة الارز واللحمة المفرومة من اجل حشي الرقاب الخاروف',
+       ' يتجهز هبة الجبنة من اجل حشي الرقاب'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Palestine,Levant
+Palestine-1,10 | Lunch,الغداء,تطبخ الاء المفتول,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تجهز الاء الجزر من اجل اعداد المفتول',
+       ' تجهز الاء البندورة و البصل من اجل اعداد المفتول',
+       ' تجهز الاء الباذنجان من اجل اعداد المفتول'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,11 | Dinner,العشاء,تحضر علا  الشاورما,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم علا  بتحضير اللبن من اجل اعداد الشاورما',
+       ' تقوم علا ب اعداد الشطة من اجل اعداد الشاورما',
+       ' تقوم  علا بتحضير الدجاج من اجل اعداد الشاورما'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,12 | Dinner,العشاء,تقوم آلاء بقلي البيض,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم الاء بتحضير زيت الزيتوت من اجل قلي البيض',
+       ' تقوم الاء بتحضير العسل من اجل قلي البيض',
+       ' تقوم الاء بتحضير الحلاوة من اجل قلي البيض'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,13 | Iftar (Ramadan),افطار رمضان,تحضر اية شوربة الخضار,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم اية بتقطيع الجزر و البطاطا من اجل اعداد الشوربة',
+       ' تقوم اية بتقطيع الحمص  من اجل اعداد الشوربة',
+       ' تقوم اية بتقطيع الخبز من اجل اعداد الشوربة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,14 | Iftar (Ramadan),افطار رمضان,تحضر فاطمة صوص البندورة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم فاطمة بتحضير المعكرونة  من اجل اضافتها لصوص البندورة و عمل صينية',
+       ' تقوم فاطمة بتحضير التفاح من اجل اضافته لصوص البندورة',
+       ' تقوم فاطمة بتحضير الموز من اجل اضافته لصوص البندورة'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,15 | Iftar (Ramadan),افطار رمضان,تحضر اية الملوخية,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تشوي اية البرغر لتحضيره لافطار في اول يوم من رمضان',
+       ' تفرم اية الملوخية لتحضيرها لافطار في اول يوم من رمضان',
+       ' تقلي اية الزهرة لتحضيرها لافطار في اول يوم من رمضان'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Palestine,Levant
+Palestine-1,16 | Iftar (Ramadan),افطار رمضان,تستخدم علا الجبنة النابلسية في الحشوة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تجهز علا عجينة السمبوسك وحشوها بالجبنة النابلسية ومن ثم قليها',
+       ' تجهز علا عجينة الكيكة وحشوها بالجبنة النابلسية ومن ثم قليها',
+       ' تقوم علا بتجهيز عجينة المعمول وحشوها بالجنبة النابلسية ومن ثم قليها'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,17 | Iftar (Ramadan),افطار رمضان,يشتري امير الحمص و الفلافل,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يضع امير اللبنة كطبق جانبي على الافطار كل يوم',
+       ' يضع امير الحلاوة كطبق جانبي على الافطار كل يوم',
+       ' يضع امير الحمص و الفلافل كطبق جانبي على الافطار كل يوم'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,18 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),تستيقظ مرام لتحضير السحور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تستيقظ مرام قبل اذان الفجر بساعة من اجل تحضير السحور',
+       ' تستيقظ مرام بعد اذان الفجر من اجل تحضير السحور',
+       ' تستيقط مرام اثناء اذان الفجر من اجل تحضير السحور'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,19 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),شرب خالد قبل اذان الفجر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يشرب خالد الكولا قبل اذان الفجر',
+       ' يشرب خالد العسل قبل اذان الفجر',
+       ' يشرب خالد المياه قبل اذان الفجر'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,20 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),يتناول خالد الجبنة على السحور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتناول خالد البطيخ مع الجبنة للحفاظ على ترطيب جسمه',
+       ' يتناول خالد الشاي مع الجبنة للحفاظ على ترطيب جسمه',
+       ' يتناول خالد الموز مع الجبنة للحفاظ على ترطيب جسمه'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,22 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),تتناول سميرة التمر ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تشرب سميرة الكولا مع التمر كوجبة للسحور',
+       ' تشرب سميرة الحليب مع التمر كوجبة للسحور',
+       ' تتناول سميرة الصودا مع التمر كوجبة للسحور'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",No,No,No,Palestine,Levant
+Palestine-1,23 | Dessert,حلوى,تنقع هبة الجبنة العكاوية بالماء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم هبة بتحضير الجبنة من اجل اعداد المقلوبة',
+       ' تحضر هبة الجبنة من اجل اعداد الكنافة',
+       ' تقوم هبة بتحضير الجبنة من اجل اعداد البسبوسة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Palestine,Levant
+Palestine-1,24 | Dessert,حلوى,تحشي  علا القطايف,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تحضر علا الزهرة من اجل حشوها في القطايف',
+       ' تحضر علا الحلاوة من اجل حشوها في القطايف',
+       ' تحضر علا الجوز من اجل حشوها  في القطايف'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,25 | Dessert,حلوى,تحضر اية العوامة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تحضر اية الزهرة من اجل اعداد العوامة',
+       ' تحضر اية السميد من اجل اعداد العوامة',
+       ' تحضر اية الطحين والمياه  والقطر من اجل اعداد العوامة'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,26 | Fruits,فاكهة,تمسك فادية التفاحة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقطع فادية التفاحة بالسكين', ' تقطع فادية التفاحة بالمعلقة',
+       ' تقطع فادية التفاحة بالشوكة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,27 | Fruits,فاكهة,تقشر فادية الموز,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقشر فادية الموز ب راسها', ' تقشر فادية الموز بيدها',
+       ' تقشر فادية الموز ب اسنانها'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,28 | Fruits,فاكهة,يستخدم احمد العصارة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يستخدم احمد العصارة للدجاج', ' يستخدم احمد العصارة لعصر التفاح',
+       ' يستخدم احمد العصارة للملوخية'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",No,Yes,No,Palestine,Levant
+Palestine-1,29 | Snacks,وجبات خفيفة,تحضر هنادي   البقدونس والبرغل,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تفرم هنادي الفجل من اجل اعداد التبولة',
+       ' تفرم هنادي الفليفلة من اجل اعداد التبولة',
+       ' تفرم هنادي البقدونس وتضيف البرغل من اجل اعداد التبولة'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,30 | Snacks,وجبات خفيفة,تجهز سمية سلطة الخيار,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تشتري سمية الحليب من اجل اعداد سلطة الخيار مع الحليب',
+       ' تشتري سمية اللبن من اجل اعداد سلطة الخيار مع اللبن',
+       ' تشتري سمية الكولا من اجل اعداد سلطة الكولا مع الخيار'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,1 | wedding location,مكان الزواج,يتحضر احمد للزفاف,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يختار احمد فندق الجاردنز لاقامة زفافه فيه',
+       ' يختار احمد شكل المعلقة من اجل الزفاف',
+       ' يختار احمد الكراسي لاقامة زفافه فيها'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Palestine,Levant
+Palestine-1,2 | wedding food,طعام الزواج,يقدم محمود غذاء الزفاف,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يقدم محمود المسخن لغذاء الزفاف',
+       ' يقدم محمود المنسف مع الجمبد لغذاء الزفاف',
+       ' يقدم محمود المقلوبة لغذاء الزفاف'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,3 | wedding dowry,مهر الزواج,يدفع احمد المهر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يدفع احمد ل والدة العروس المهر', ' يدفع احمد ل والد العروس المهر',
+       '  يدفع احمد ل عم العروس'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,4 | wedding (other logistics),تجهيزات أخرى للزواج,تحجز اميرة الصالون,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تذهب اميرة الى الكوافيرة من اجل تناول الطعام',
+       '  تذهب اميرة الى الكوافيرة من اجل اعدادها لزفاف',
+       ' تذهب اميرة الى الكوافيرة من اجل الدراسة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,5 | wedding (other logistics),تجهيزات أخرى للزواج,يجهز خالد السيارة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يقوم خالد اخو العروس بتزيين الكراسي',
+       ' يقوم خالد اخو العروس بتزيين القاعة',
+       ' يقوم خالد اخو العروس بتزيين السيارة'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,6 | men cermony vs. women cermony,احتفالات الزواج للرجال vs احتفالات الزواج للنساء,يحضر سمير  الحمام vs تحضر اميرة الحمام,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يقوم صديق سمير باخده في رحلة vs تقوم اميرة بالذهاب الى صديقتها من اجل النوم عندها',
+       ' يقوم صديق سمير بدعوته من اجل الغذاءvs تقوم اميرة بدعوة صديقاتها من اجل الحديث بخصوص الدراسة',
+       ' يقوم صديق سمير بدعوته الى منزله من اجل استحمامه عندهم vsتقوم اميرة بحجز الحمام العربي كحمام الشفاء ودعوة اصدقاءها المقربين لحفلة الحمام'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Palestine,Levant
+Palestine-1,7 | men cermony vs. women cermony,احتفالات الزواج للرجال vs احتفالات الزواج للنساء,ينظف سمير ساحة البيتvs تنظف اميرة بيت اهلها,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يجهز سمير ساحة البيت من اجل استقبال المعازيم لحفلة سهرة الشبابvsتجهز اميرة البيت من اجل استقبال اهلها المقربين لحفلتها',
+       ' يجهز سمير ساحة البيت من اجل اصطفاف سيارتهvs تجهز اميرة البيت من اجل الدراسة',
+       ' يجهز سمير ساحة البيت من اجل النوم vsتجهز اميرة البيت من اجل الرقص'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,9 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,يدخل اصدقاء العريس  الى قاعة العرس,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يدخل اصدقاء العريس قبل نهاية العرس لحضور المباراة',
+       ' يدخل اصدقاء العريس قبل نهاية العرس بربع ساعه لمشاركة العريس بفرحه',
+       ' يدخل اصدقاء العريس في بداية العرس'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Palestine,Levant
+Palestine-1,11 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,يرقص احمد رقصة خاصة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يرقص احمد رقته الخاصه مع صديقه', ' يرقص احمد مع زوجته رقصة السلو',
+       ' يرقص احمد رقصته الخاصة مع امه'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,12 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,حجز احمد مغني شعبي,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يحجز احمد مغني الشعبي لمشاركته في الغذاء',
+       ' يجحز احمد المغني الشعبي لمشاكته في حفلة السهرة',
+       ' يحجز احمد  مغني الشعبي لمشاركته في الركض'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,1 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,تشتري الام ملابس جديدة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تذهب الام الى الجبل لشراء ملابس جديدة تحضيرا لعيد الفطر',
+       ' تذهب الام الى الطائرة لشراء ملابس جديدة تحضيرا ل العيد',
+       ' تذهب الام الى السوق لشراء ملابس جديد تحضيرا لعيد الفطر'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,2 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,تصوم مي شهر رمضان,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تصوم مي 30 يوم في شهر رمضان', ' تصوم مي يومين في شهر رمضان',
+       ' تصوم مي 4ايام في شهر رمضان'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,3 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,تستعد مها للعيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم مها بالسفر استعداد لعيد',
+       ' تقوم مها بالتسلق في البيت استعداد ل العيد',
+       ' تقوم مها بتعزيل و تنظيف البيت وتغيير الديكور استعداد لعيد'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,4 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,تشتري مها السميد والعجوة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تشتري مها السميد والعجوة من اجل اعداد المعمول',
+       ' تشتري مها السميد والعجوة من اجل الكنافة',
+       ' تشتري مها السميد والعجوة من اجل القهوة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,5 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,يصوم خالد يوم عرفة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يصوم خالد في يوم السبت قبل عيد الاضحى',
+       ' يصوم خالد يوم عرفة قبل عيد الاضحى بيوم',
+       ' يصوم خالد في يوم الخميس قبل عيد الاضحي'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,6 | traditions during religous holidays,العادات في الأعياد الدينية,يصلي خالد صلاة العيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يذهب خالد مع عائلته بعد شروق الشمس لصلاة العيد',
+       ' يذهب خالد مع عائلته اثناء الظهر لصلاة العيد',
+       ' يذهب خالد مع عائلته بعد غروب الشمس لصلاة العيد'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,8 | traditions during religous holidays,العادات في الأعياد الدينية,يشتري اسامة خاروف,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يدبح اسامه الخاروف في قبل عيد الاضحى',
+       ' يدبح  اسامه الخاروف بعد عيد الاضحى',
+       ' يدبح اسامه الخاروف في اول يوم عيد الاضحى و يتم توزيع اللحمة على الفقراء'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,9 | traditions during religous holidays,العادات في الأعياد الدينية,تكثر زيارات الاهل ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يزور الاهل  المدارس',
+       ' تكثر زيارات الاهل ل اقرباءهم في الاعياد  الدينية',
+       ' يزور الاهل اصدقاءهم بالعمل'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,10 | traditions during religous holidays,العادات في الأعياد الدينية,يعطي خالد العيدية لاخته,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يعطي خالد اخته معمول كعيدية', ' يعطي خالد لاخته شوكلاته  كعيدية',
+       ' يعطي خالد اخته مبلغ معين من النقود كعيدية'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,11 | traditions during religous holidays,العادات في الأعياد الدينية,تحضر الام الضيافه,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تحضر الام المعجنات كنوع من الضيافة',
+       ' تحضر الام العرايس كنوع من الضيافة',
+       ' تحضر الام المكسرات و الفواكه كنوع من الضيافة'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Palestine,Levant
+Palestine-1,12 | traditions during religous holidays,العادات في الأعياد الدينية,تحضر الام الغذاء في أول ايام عيد الاضحى,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تطبخ الام المقالي في اول ايام عيد الاضحى',
+       ' تطبخ الام الملوخية في اول ايام عيد الاضحى',
+       ' تطبخ الام صواني اللحمة لالغذاء في اول ايام عيد الاضحى'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",No,Yes,No,Palestine,Levant
+Palestine-1,13 | traditions during religous holidays,العادات في الأعياد الدينية,تشتري سماهر الفسيخ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تحضر سماهر الفسيخ لالغذاء في اول ايام عيد الفطر',
+       ' تحضر سماهر الفسيخ للافطار في اول ايام رمضان',
+       ' تحضر سماهر الفسيخ لتخزنه لما بعد العيد'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Palestine,Levant

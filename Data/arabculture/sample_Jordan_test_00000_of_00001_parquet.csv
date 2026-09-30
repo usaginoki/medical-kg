@@ -1,0 +1,162 @@
+worker_id,sample_id,sub_topic,first_statement,options,answer_key,relevant_to_this_country,relevant_to_other_countries,should_discard,country,region
+Jordan-1,1 | Breakfast,الافطار,تحضر أم ماجد الفلافل لتقديمها في الإفطار,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تُقدم الفلافل مع الشوكولاتة.',
+       ' تُقدم الفلافل مع الطحينة والمخللات.',
+       ' تُقدم الفلافل مع القشطة.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,2 | Breakfast,الافطار,يحضر أبو يزن البيض المقلي لتناوله في وجبة الإفطار,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يُقدم البيض المقلي مع الخبز والزيتون.',
+       ' يُقدم البيض المقلي مع الفواكه.', ' يُقدم البيض المقلي مع الأرز.'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,3 | Breakfast,الافطار,تحضر العائلة الزيت والزعتر لتناولهما في الإفطار,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يُقدم الزيت والزعتر مع الخبز.', ' يُقدم الزيت والزعتر مع الأرز',
+       ' يُقدم الزيت والزعتر مع الدجاج'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,4 | Breakfast,الافطار,يحضر أبو محمود المنقوشة لتناولها في الإفطار,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تُقدم المنقوشة مع الزعتر والجبن.', ' تُقدم المنقوشة مع المربى.',
+       ' تُقدم المنقوشة مع اللحمة.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,5 | Breakfast,الافطار,تحضر الجدة الزعتر واللبنة لتقديمهما في الإفطار,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يُقدم الزعتر مع البطاطس.', ' يُقدم الزعتر مع الزيت واللبنة.',
+       ' يُقدم الزعتر مع العسل.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,6 | Lunch,الغداء,يُعدّ الأردنيون المسخّن كطبق رئيسي في المناسبات الخاصة.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يُعدّ المسخّن باستخدام الدجاج والبصل وزيت الزيتون.',
+       ' يُعدّ المسخّن باستخدام الأسماك والأعشاب البحرية.',
+       ' يُعدّ المسخّن باستخدام اللحم المفروم والجبن.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,7 | Lunch,الغداء,.يقوم الأردنيون بتحضير وجبة المقلوبة لتقديمها في التجمعات العائلية.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تُقدم المقلوبة مع الكريمة الحلوة.',
+       ' تُقدم المقلوبة مع الحلاوة الطحينية.',
+       ' تُقدم المقلوبة مع السلطة واللبن.'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,8 | Lunch,الغداء,يُشتهر المنسف في الأردن كأحد الأطباق الأساسية في وجبات الغداء.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يُطبخ المنسف مع الجبن والخضار.',
+       ' يُطبخ المنسف مع اللحم والجميد.',
+       ' يُطبخ المنسف مع الأسماك والأعشاب البحرية.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,10 | Lunch,الغداء,يُعد الأردنيون الأوزي في الحفلات والمناسبات ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يُحشى الأوزي بالجبن والطماطم.',
+       ' يُحشى الأوزي بالشوكولاتة والمكسرات.',
+       ' يُحشى الأوزي بالأرز واللحم والمكسرات.'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,11 | Dinner,العشاء,يتناول الأردنيون اللبنة كوجبة عشاء خفيفة إلى جانب الخبز.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تُقدّم اللبنة مع زيت الزيتون والزيتون الأسود.',
+       ' تُقدّم اللبنة مع الصلصة الحلوة والشوكولاتة.',
+       ' تُقدّم اللبنة مع الفواكه المقطعة والحلوى.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,12 | Dinner,العشاء,تعد سلمى لعائلتها البيض لطعام العشاء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تحب العائلة تناول البيض مع القهوة والحلوى',
+       ' تحب العائلة تناول البيض مع الخبز الساخن والشاي',
+       ' تحب العائلة تناول البيض مع الأرز والحساء'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,13 | Iftar (Ramadan),افطار رمضان,تُعتبر الشوربة طبقًا رئيسيًا على مائدة الإفطار في الأردن.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تُقدَّم الشوربة فقط في السحور وليس في الإفطار.',
+       ' تُقدَّم الشوربة الباردة فقط على مائدة الإفطار.',
+       ' تُقدَّم الشوربة مثل شوربة العدس كأحد الأطباق الرئيسية.'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,14 | Iftar (Ramadan),افطار رمضان,يُفطر أبو خالد في رمضان على كأس من الماء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتناول أبو خالد مع الماء ٣ تمرات',
+       ' يتناول أبو خالد مع الماء ٣ تفاحات',
+       ' يتناول أبو خالد مع الماء ٣ حبات من الحلوى'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,15 | Iftar (Ramadan),افطار رمضان,يشرب الأردنيون العصائر الطازجة لتروي عطشهم عن الإفطاء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يشرب الأردنيون حليب الشوكلاتة الساخن',
+       ' يشرب الاردنيون عصير التمر الهندي وقمر الدين',
+       ' يشرب الأردنيون القهوة المثلجة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,16 | Iftar (Ramadan),افطار رمضان,تتميز موائد الإفطار في رمضان بأصناف من الحلويات التقليدية.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقدم الحلويات مثل القطايف والكنافة بعد الإفطار.',
+       ' تقدم الحلويات مثل البسبوسة والجاتوه فقط بعد الإفطار.',
+       ' تقدم الحلويات مثل الشوكولاتة فقط، دون أي أصناف تقليدية.'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,17 | Iftar (Ramadan),افطار رمضان,تجتمع العائلات الأردنية حول مائدة الإفطار في رمضان.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تجتمع العائلات في رمضان للإفطار معًا، مما يعزز الروابط الأسرية.',
+       ' تجتمع العائلات في رمضان للسحور فقط وليس للإفطار.',
+       ' تجتمع العائلات فقط في عطلات نهاية الأسبوع للإفطار.'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,18 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),خلال شهر رمضان، يجتمع أفراد العائلة لتناول وجبة السحور قبل صلاة الفجر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يفضل الأردنيون تناول المعكرونة مع الصلصة في وجبة السحور.',
+       ' يفضل الأردنيون تناول الكعك والمعمول في وجبة السحور.',
+       ' يفضل الأردنيون تناول الفول واللبنة والخبز في وجبة السحور.'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,19 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),يتناول الأردنيون أطعمة غنية بالطاقة في السحور.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتناولون أطعمة خفيفة مثل الشوكولاتة والعصائر فقط.',
+       ' يتناولون أطعمة مثل الحمص والفول لإمدادهم بالطاقة طوال اليوم.',
+       ' يتناولون الحلويات فقط على وجبة السحور.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,20 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),يشرب الأردنيون الماء بكثرة خلال السحور.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يشربون العصائر فقط، دون الاعتماد على الماء.',
+       ' يشربون كميات كبيرة من الماء للترطيب خلال النهار.',
+       ' يشربون كميات قليلة من الماء لتجنب الشعور بالشبع.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,21 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),يتناول الأردنيون الزبادي كجزء من وجبة السحور.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يُعتبر الزبادي خيارًا شائعًا في السحور لاحتوائه على البروتين.',
+       ' يُعتبر الزبادي خيارًا غير شائع على مائدة السحور.',
+       ' يُعتبر الزبادي خيارًا خاصًا بوجبة الإفطار فقط.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,22 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),تتجنب العائلات الأردنية تناول الأطعمة المالحة في السحور.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' فالأطعمة المالحة في السحور تزيد الشعور بالشبع خلال النهار.',
+       ' فالأطعمة المالحة في السحور تزيد الشعور بالعطش خلال النهار.',
+       ' فالأطعمة المالحة تزيد الشعور بالطاقة خلال النهار .'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,23 | Dessert,حلوى,تُعد الحلويات جزءًا أساسيًا من ثقافة الضيافة في الأردن.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تُقدم الحلويات فقط في حفلات التخرج.',
+       ' تُقدم الحلويات كجزء من الضيافة للزوار في المناسبات المختلفة.',
+       ' تُقدم الحلويات فقط في حفلات الزفاف.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,24 | Dessert,حلوى,يستخدم الأردنيون المكسرات بأنواعها.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم استخدام المكسرات فقط في الطبخ.',
+       ' يتم استخدام المكسرات مثل الفستق والجوز في تحضير الحلويات مثل المعمول.',
+       ' يتم استخدام المكسرات فقط في الحلويات الغربية.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,25 | Dessert,حلوى,تُعتبر البسبوسة من الحلويات المحبوبة في الأردن.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['البسبوسة حلوى تقليدية تُقدم في المناسبات والأعياد.',
+       ' البسبوسة حلوى تُقدم فقط في الأعراس.',
+       ' البسبوسة حلوى تقدم في العزاء فقط.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,26 | Fruits,فاكهة,يُعتبر الرمان من الفواكه المحبوبة في الأردن.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يُستخدم الأردنيون الرمان للزينة فقط',
+       ' يُستخدم الأردنيون الرمان فقط في الأطباق المطبوخة.',
+       ' يُستخدم الأردنيون الرمان في السلطات والمشروبات.'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,27 | Fruits,فاكهة,يُعد المشمش من الفواكه الموسمية في الأردن.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يُعتبر المشمش فاكهة غير شائعة في الأطعمة الأردنية.',
+       ' يُعتبر المشمش فاكهة تُزرع وتستهلك طوال العام.',
+       ' يُعتبر المشمش فاكهة موسمية تُجفف أحيانًا لصنع قمر الدين.'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,28 | Fruits,فاكهة,يُعتبر العنب من الفواكه الشائعة في الأردن.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يُعتبر العنب فاكهة صيفية شائعة، ويُستخدم أيضًا في صنع الدبس.',
+       ' يُعتبر العنب فاكهة تُزرع فقط في المنازل وليس تجاريًا.',
+       ' يُعتبر العنب فاكهة مستوردة من الخارج فقط.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,29 | Snacks,وجبات خفيفة,تُعتبر رقائق البطاطس من الوجبات الخفيفة المفضلة.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تُعد رقائق البطاطس وجبة رئيسية تُقدم في العزائم.',
+       ' تُعد رقائق البطاطس وجبة تقدم أثناء الحمية فقط',
+       ' تُعد رقائق البطاطس خيارًا شائعًا بين الشباب في التجمعات والمناسبات.'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,30 | Snacks,وجبات خفيفة,تُعتبر المكسرات وجبة خفيفة صحية ومحبوبة.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تُعتبر المكسرات مثل اللوز والفستق وجبة خفيفة ومحبوبة تُتناول مع الشاي فقط.',
+       'تُعتبر المكسرات مثل اللوز والفستق وجبة خفيفة ومحبوبة تُتناول مع العصائر المختلفه فقط.',
+       'تُعتبر المكسرات مثل اللوز والفستق وجبة خفيفة ومحبوبة تُتناول مع الشاي أو العصائر المختلفة.'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,1 | wedding location,مكان الزواج,تقام حفلة الحناء للعروس قبل حفل الزفاف,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تختفل العروس في حفلة الحناء في منزل خال العروس',
+       ' تختفل العروس في حفلة الحناء في منزل والد العريس',
+       ' تختفل العروس في حفلة الحناء في منزل والدها'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,2 | wedding food,طعام الزواج,تُقدم الحلويات الشعبية في الأعراس الأردنية.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يحتفل الأردنيون بتناول الفواكه في الأعراس',
+       ' يحتفل الأردنيون بتناول التمر في الأعراس',
+       ' يحتفل الأردنيون بتناول الكنافة في الأعراس'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,3 | wedding dowry,مهر الزواج,يتم إحضار المهر كجزء من تقاليد الزواج في الأردن.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم دفع المهر من العريس لأخت العروس.',
+       ' يتم دفع المهر من العريس لعائلة العروس.',
+       ' يتم دفع المهر من العريس لعم العروس.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,4 | wedding (other logistics),تجهيزات أخرى للزواج,تخطط ايمان لحفلة قبل العرس,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تحتفل العروس مع صديقاتها بحفلة الحنة',
+       ' يقوم أحمد بكتابة أسماء المدعوين لحفل الزفاف وتوزيعها',
+       ' تحتفل العروس مع اهلها بحفلة الحنة'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,5 | wedding (other logistics),تجهيزات أخرى للزواج,تشارك النساء في إعداد الأطعمة التقليدية للأعراس.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تعد النساء في الأعراس المنسف بالجميد',
+       ' تعد النساء في الأعراس المقلوبة',
+       ' تعد النساء في الأعراس المكمورة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,6 | men cermony vs. women cermony,احتفالات الزواج للرجال vs احتفالات الزواج للنساء,يستعد العريس والعروس لارتداء زي العرس,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['ترتدي لمى حفل زفافها فستان باللون الأبيض، ويرتدي أحمد بدلة باللون الأسود',
+       ' ترتدي لمى حفل زفافها فستان باللون الأسود, ويرتدي أحمد بدلة باللون الأخضر',
+       ' ترتدي لمى حفل زفافها فستان باللون الأحمر ، ويرتدي أحمد بدلة باللون الأبيض'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,7 | men cermony vs. women cermony,احتفالات الزواج للرجال vs احتفالات الزواج للنساء,تُعتبر سهرة العريس فرصة للاحتفال مع الأصدقاء المقربين.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يجتمع الأصدقاء المقربون للاحتفال بالعريس ومشاركته الفرحة.',
+       ' يجتمع الأصدقاء المقربون للاحتفال بهدوء.',
+       ' يجتمع الأصدقاء المقربون لتقديم النصائح للعريس فقط.'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,8 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,يُعبر الأردنيون عن الفرح بالرقصات الشعبية,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تشتهر الحفلات عادة برقصة الدبكة', ' تشتهر الحفلات عادة باليولة',
+       ' تشتهر الحفلات عادة بالرقص الشرقي'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,9 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,الزفة تُعتبر أحد أبرز الطقوس في الأعراس الأردنية.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تُفام الزفة بدون أي موسيقى',
+       ' تُفام الزفة مع موسيقى خاصة وأغانٍ تقليدية.',
+       ' تُفام الزفة مع موسيقى هادئة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,10 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,"يشارك المدعوون في رقصة ""الدحية"" خلال الأعراس الأردنية.","{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تُؤدى ""الدحية"" بشكل جماعي في الأعراس,',
+       ' تُؤدى ""الدحية"" للعريس والعروس فقط في الأعراس,',
+       ' تُؤدى ""الدحية"" بشكل فردي في الأعراس,'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Jordan,Levant
+Jordan-1,11 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,يحرص الأردنيون على تضمين الأغاني التراثية في حفلات الزواج.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تُدرج الأغاني التراثية في الحفل للاحتفاء بالثقافة الأردنية.',
+       ' تُدرج الأغاني التراثية في الحفل فقط لمناسبة دينية.',
+       ' تُدرج الأغاني التراثية في الحفل لتجنب الأغاني الحديثة.'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,12 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,يشارك الضيوف في فعاليات الدبكة كجزء من التراث الثقافي.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يشارك الضيوف في فعاليات الدبكة لجعل الحفل أكثر هدوءًا.',
+       '  يشارك الضيوف في فعاليات الدبكة لتجنب الأجواء التقليدية.',
+       ' تُعتبر حفلات الزواج مناسبة للاحتفال والتواصل الاجتماعي.'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,1 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,يقوم الناس في الأردن بتحضيرات عيد الميلاد المجيد.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يقوم الناس بتزيين المنازل بالأضواء وأشجار الميلاد.',
+       ' يقوم الناس بتوزيع الملابس الجديدة.',
+       ' يقوم الناس بتحضير الوجبات السريعة فقط.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,2 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,يقوم الناس في الأردن بالتحضيرات لشهر رمضان المبارك.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يقوم الناس بشراء المواد الغذائية وتخزينها للإفطار والسحور.',
+       ' يقوم الناس بشراء الملابس من أجل ارتدائها خلال شهر رمضان.',
+       ' يقوم الناس بتزيين المنزل فقط.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,3 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,يقوم الناس في الأردن بتجهيزات عيد الأضحى المبارك.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يجهز الناس لشراء الزينة فقط للمنازل.',
+       ' يجهز الناس لرحلات خارجية للشواء فقط.',
+       ' يجهز الناس الأضاحي ويقومون بشراء مستلزمات الذبح والطهي ودعوة الأقارب.'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,4 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,يقوم الناس في الأردن بتجهيزات عيد الفطر المبارك.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يذهب الناس لشراء الملابس الجديدة والحلويات والهدايا للأطفال.',
+       ' يذهب الناس لشراء كعك وحلوى العيد فقط.',
+       ' يذهب الناس لشراء الهدايا فقط.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,5 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,يقوم الناس في الأردن بتحضيرات عيد الفصح.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يقوم الناس بشراء أدوات الرسم فقط.',
+       ' يقوم الناس بتلوين البيض وتحضير الحلويات التقليدية.',
+       ' يقوم الناس بترتيب الحدائق فقط.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,6 | traditions during religous holidays,العادات في الأعياد الدينية,يقدم التمر في المناسبات الأردنية التقليدية,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يقدم التمر عادةً مع القهوة العربية في المناسبات.',
+       ' يقدم التمر عادةً مع الشاي الأخضر في المناسبات.',
+       ' يقدم التمر عادةً مع العصير في المناسبات.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,7 | traditions during religous holidays,العادات في الأعياد الدينية,في عيد الفطر، تحرص العائلات الأردنية على تقديم الضيافة التقليدية للزوار,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقدم العائلات الأردنية الفلافل والشاورما للزوار في عيد الفطر.',
+       ' تقدم العائلات الأردنية الكعك والمعمول المحشو بالتمر للزوار في عيد الفطر.',
+       ' تقدم العائلات الأردنية التبولة والكبة للزوار في عيد الفطر.'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,8 | traditions during religous holidays,العادات في الأعياد الدينية,في عيد الأضحى، تقوم العائلات الأردنية بتوزيع اللحوم على الأهل والجيران,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['توزع العائلات الأردنية لحم الضأن فقط بعد ذبح الأضاحي في عيد الأضحى.',
+       ' توزع العائلات الأردنية لحم الجمال فقط بعد ذبح الأضاحي في عيد الأضحى.',
+       ' توزع العائلات الأردنية لحم الضأن أو الجمال بحسب ما يتم ذبحه.'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Jordan,Levant
+Jordan-1,9 | traditions during religous holidays,العادات في الأعياد الدينية,يتم تحضير المنسف الأردني في عيد الأضحى كوجبة رئيسية للاحتفال.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يُعد المنسف الأردني باستخدام لحم الخروف وجميد الكرك.',
+       ' يُعد المنسف الأردني باستخدام لحم الدجاج والحليب.',
+       ' يُعد المنسف الأردني باستخدام لحم العجل واللبنة.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Jordan,Levant

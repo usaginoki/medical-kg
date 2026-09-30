@@ -1,0 +1,51 @@
+Plant_identifier,Indian_Medicinal_plant,Synonymous names,Kingdom,Family,Group,Common_name,IUCN_Red_List_Category,System_of_Medicine
+IMPPAT3_PLTID000001,Abelmoschus esculentus,Hibiscus esculentus|Abelmoschus esculentus,Plantae,Malvaceae,Angiosperms,Ladies Finger,,"Ayurveda,Siddha,Unani"
+IMPPAT3_PLTID000002,Abelmoschus ficulneus,Hibiscus ficulneus|Abelmoschus ficulneus,Plantae,Malvaceae,Angiosperms,White Wild Musk Mallow,Least Concern,"Ayurveda,Siddha"
+IMPPAT3_PLTID000003,Abelmoschus manihot,Hibiscus manihot|Abelmoschus manihot,Plantae,Malvaceae,Angiosperms,Sweet Hibiscus,,
+IMPPAT3_PLTID000004,Abelmoschus moschatus,Hibiscus abelmoschus|Abelmoschus moschatus|Abelmoschus moschatu,Plantae,Malvaceae,Angiosperms,Pink Swamp Mallow,,"Ayurveda,Siddha,Unani"
+IMPPAT3_PLTID000005,Abies pindrow,Abies pindrow,Plantae,Pinaceae,Gymnosperms,West-Himalayan Silver Fir,Least Concern,"Ayurveda,Unani"
+IMPPAT3_PLTID000006,Abies spectabilis,Abies webbiana|Abies spectabilis,Plantae,Pinaceae,Gymnosperms,Himalayan Silver Fir,Near Threatened,"Ayurveda,Siddha,Sowa Rigpa,Unani"
+IMPPAT3_PLTID000007,Abroma augusta,Abroma augusta,Plantae,Malvaceae,Angiosperms,Devil's Cotton,,"Ayurveda,Siddha,Unani"
+IMPPAT3_PLTID000008,Abrus precatorius,Abrus precatorius|Abrus precatorious|Abies precatorius,Plantae,Leguminosae,Angiosperms,Rosary Pea,,"Ayurveda,Homeopathy,Siddha,Sowa Rigpa,Unani"
+IMPPAT3_PLTID000009,Abutilon hirtum,Abutilon graveolens|Abutilon hirtum,Plantae,Malvaceae,Angiosperms,Hairy Indian Mallow,,Ayurveda
+IMPPAT3_PLTID000010,Abutilon indicum,Abutilon indicum|Abutilon asiaticum|Abutilion indicum,Plantae,Malvaceae,Angiosperms,Indian Mallow,,"Ayurveda,Siddha,Unani"
+IMPPAT3_PLTID000011,Abutilon pannosum,Abutilon glaucum|Abutilon muticum|Abutilon pannosum,Plantae,Malvaceae,Angiosperms,Ragged Mallow,,
+IMPPAT3_PLTID000012,Abutilon ramosum,Abutilon ramosum,Plantae,Malvaceae,Angiosperms,Sticky Indian Mallow,,
+IMPPAT3_PLTID000013,Abutilon theophrasti,Abutilon theophrastii|Abutilon theophrasti,Plantae,Malvaceae,Angiosperms,Buttonweed,,"Ayurveda,Siddha"
+IMPPAT3_PLTID000014,Acacia auriculiformis,Acacia auriculiformis|Acacia auriculaeformis,Plantae,Leguminosae,Angiosperms,Earleaf Acacia,Least Concern,
+IMPPAT3_PLTID000015,Acacia caesia,Acacia intsia|Acacia cuesia|Acacia caesia,Plantae,Leguminosae,Angiosperms,,,Ayurveda
+IMPPAT3_PLTID000016,Acacia catechu,Acacia catechu|Acacia catehcu,Plantae,Leguminosae,Angiosperms,,,"Ayurveda,Siddha,Unani"
+IMPPAT3_PLTID000017,Acacia chundra,Acacia sundra|Acacia chundra,Plantae,Leguminosae,Angiosperms,,,"Ayurveda,Siddha"
+IMPPAT3_PLTID000018,Acacia concinna,Acacia rugata|Acacia concinna,Plantae,Leguminosae,Angiosperms,,,"Ayurveda,Siddha,Sowa Rigpa,Unani"
+IMPPAT3_PLTID000019,Acacia dealbata,Acacia dealbata,Plantae,Leguminosae,Angiosperms,,,
+IMPPAT3_PLTID000020,Acacia decurrens,Acacia decurrens,Plantae,Leguminosae,Angiosperms,,,Siddha
+IMPPAT3_PLTID000021,Acacia farnesiana,Acacia farnesiana|Acacia furnesiana,Plantae,Leguminosae,Angiosperms,,,"Ayurveda,Siddha,Unani"
+IMPPAT3_PLTID000022,Acacia ferruginea,Acacia ferruginea,Plantae,Leguminosae,Angiosperms,,,"Ayurveda,Siddha"
+IMPPAT3_PLTID000023,Acacia jacquemontii,Acacia jacquemontii,Plantae,Leguminosae,Angiosperms,,,Siddha
+IMPPAT3_PLTID000024,Acacia lenticularis,Acacia lenticularis|Acacia lentricularis,Plantae,Leguminosae,Angiosperms,,,
+IMPPAT3_PLTID000025,Acacia leucophloea,Acacia leucophloea|Acacia alba|Acacia leucophioca|Acacia leucophioea|Acacia leucophloeu,Plantae,Leguminosae,Angiosperms,,,"Ayurveda,Siddha,Unani"
+IMPPAT3_PLTID000026,Acacia melanoxylon,Acacia melanoxylon,Plantae,Leguminosae,Angiosperms,Australian Blackwood,,
+IMPPAT3_PLTID000027,Acacia modesta,Acacia modesta,Plantae,Leguminosae,Angiosperms,,,
+IMPPAT3_PLTID000028,Acacia nilotica,Acacia arabica|Acacia nilotica|Acacia benthami|Acaia nilotica|Acacia nilotiva|Acacia arabica/nillotica|vachellia nilotica,Plantae,Leguminosae,Angiosperms,,,"Ayurveda,Siddha,Unani"
+IMPPAT3_PLTID000029,Acacia pennata,Acacia pennata,Plantae,Leguminosae,Angiosperms,,,"Ayurveda,Siddha"
+IMPPAT3_PLTID000030,Acacia planifrons,Acacia planifrons|Acacia planiforms,Plantae,Leguminosae,Angiosperms,,,
+IMPPAT3_PLTID000031,Acacia polyacantha,Acacia suma|Acacia polycantha|Acacia polyacantha,Plantae,Leguminosae,Angiosperms,,,"Ayurveda,Siddha,Sowa Rigpa,Unani"
+IMPPAT3_PLTID000032,Acacia pubescens,Acacia mollissima|Acacia pubescens,Plantae,Leguminosae,Angiosperms,,,
+IMPPAT3_PLTID000033,Acacia schweinfurthii,Acacia schweinfurthii,Plantae,Leguminosae,Angiosperms,,,
+IMPPAT3_PLTID000034,Acacia senegal,Acacia senegal,Plantae,Leguminosae,Angiosperms,,,Ayurveda
+IMPPAT3_PLTID000035,Acacia torta,Acacia torta,Plantae,Leguminosae,Angiosperms,,,"Ayurveda,Siddha"
+IMPPAT3_PLTID000036,Acacia tortilis,Acacia raddiana|Acacia tortilis|Acacia spirocarpa|Acacia tortulis,Plantae,Leguminosae,Angiosperms,,,
+IMPPAT3_PLTID000037,Acalypha australis,Acalypha australis,Plantae,Euphorbiaceae,Angiosperms,Asian Copperleaf,,
+IMPPAT3_PLTID000038,Acalypha fruticosa,Acalypha fruticosa|Acalypha fruitcosa,Plantae,Euphorbiaceae,Angiosperms,Birch-Leaved Cat Tail,Least Concern,"Ayurveda,Siddha"
+IMPPAT3_PLTID000039,Acalypha hispida,Acalypha sanderi|Acalypha hispida,Plantae,Euphorbiaceae,Angiosperms,Cat's Tail,,Siddha
+IMPPAT3_PLTID000040,Acalypha indica,Acalypha indica|Acalyphia indica,Plantae,Euphorbiaceae,Angiosperms,Indian Copperleaf,,"Ayurveda,Homeopathy,Siddha"
+IMPPAT3_PLTID000041,Acampe praemorsa,Saccolabium papillosum|Acampe praemorsa|Acampe papillosa|Acampe pramorsa|Acampe pragmorsa,Plantae,Orchidaceae,Angiosperms,Wight's Acampe,,Ayurveda
+IMPPAT3_PLTID000042,Acanthospermum hispidum,Acanthospermum hispidum,Plantae,Compositae,Angiosperms,Bristly Starbur,,Ayurveda
+IMPPAT3_PLTID000043,Acanthus ilicifolius,Acanthus ilicifolius|Acanthus ilictifolius|Acanthus licifolius,Plantae,Acanthaceae,Angiosperms,Sea Holly,Least Concern,"Ayurveda,Siddha"
+IMPPAT3_PLTID000044,Acca sellowiana,Feijoa sellowiana|Acca sellowiana,Plantae,Myrtaceae,Angiosperms,Pineapple Guava,Least Concern,
+IMPPAT3_PLTID000045,Acer caesium,Acer caesium,Plantae,Sapindaceae,Angiosperms,Bluish Grey Maple,Least Concern,
+IMPPAT3_PLTID000046,Acer oblongum,Acer oblongum,Plantae,Sapindaceae,Angiosperms,Himalayan Maple,Least Concern,
+IMPPAT3_PLTID000047,Acer pictum,Acer mono|Acer pictum,Plantae,Sapindaceae,Angiosperms,,Least Concern,
+IMPPAT3_PLTID000048,Achillea millefolium,Achillea lanulosa|Achillea millefolium|Achillea milefolium,Plantae,Compositae,Angiosperms,Common Yarrow,Least Concern,"Homeopathy,Siddha,Unani"
+IMPPAT3_PLTID000049,Achyranthes aspera,Achyranthes aspera|Achyrathes aspara|Achyranthes asperd|Achyranthus aspera,Plantae,Amaranthaceae,Angiosperms,Prickly Chaff Flower,,"Ayurveda,Homeopathy,Siddha,Sowa Rigpa,Unani"
+IMPPAT3_PLTID000050,Achyranthes bidentata,Achyranthes bidentata|Achyranthes hidentata|Achyanthus bidentata|Achyranthus bidentata,Plantae,Amaranthaceae,Angiosperms,Ox Knee,,"Ayurveda,Siddha"

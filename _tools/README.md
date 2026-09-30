@@ -3,12 +3,15 @@
 ## Folders
 | folder / file | contents |
 |---|---|
-| `Papers/` | one note per processed paper (`Templates/Paper.md`) |
+| `Datasets/` | one note per dataset, latest version only (`Templates/Dataset.md`), the main unit of this vault |
+| `Countries/`, `Regions/` | one note per country / region summarising the data available for it (`Templates/Country.md`, `Region.md`) |
+| `Data/<slug>/` | downloaded dataset files (git-ignored) + committed `schema.md` and `sample*.csv` from `profile_dataset.py` |
+| `Papers/` | one note per processed paper (`Templates/Paper.md`), linked to the dataset(s) it introduces |
 | `Questions/` | one note per research question, the living answer (`Templates/Question.md`) |
 | `Sessions/` | one summary per research session, a dated snapshot (`Templates/Session.md`) |
 | `Backlog/` + `Backlog.md` | one properties-only note per candidate paper (`Templates/Candidate.md`) + hub with views |
 | `Attachments/<citekey>/` | PDFs (git-ignored) and the figures embedded in paper notes |
-| `Papers.base`, `Backlog.base` | Obsidian Bases: live tables of papers / candidates, embedded in other notes |
+| `Datasets.base`, `Papers.base`, `Backlog.base` | Obsidian Bases: live tables of datasets / papers / candidates, embedded in other notes |
 | `.cache/docling/<citekey>/` | full docling extraction (hidden from Obsidian, git-ignored) |
 | `_tools/` | extraction and checking scripts (excluded from Obsidian) |
 
@@ -46,7 +49,7 @@ from `Templates/Question.md`.
 
 | topic slug | questions | `core` means |
 |---|---|---|
-| *(add your first topic)* | Q1–… | *(e.g. "X is manipulated **and** Y is measured")* |
+| `cultural-food-health` | Q1–Q3 | the dataset carries explicit culture / cuisine / country labels **and** is food, ingredient or food-compound data (global resources without culture labels, e.g. FooDB, are `adjacent` unless they are the only link to health effects) |
 
 ## Tags (nested; add new leaves freely, keep the prefixes)
 Generic (every topic):
@@ -57,6 +60,43 @@ Generic (every topic):
 
 Topic-specific facets: add a prefix per topic when useful (e.g. `method/`, `dataset/`, `stressor/`)
 and list its values here so later notes reuse them.
+
+`cultural-food-health` facets:
+- `kind/` food · ingredient · compound
+- `access/` open · api · registration · request · contact · commercial · unavailable · accessed · blocked
+- `region/` middle-east · central-asia · south-asia · east-asia · southeast-asia · europe · africa · americas · oceania · global
+- `tradmed/` ayurveda · tcm · kampo · korean · unani · persian · jamu (traditional-medicine systems)
+
+## Dataset notes
+`Datasets/<Name>.md` from `Templates/Dataset.md`. One note per dataset, **latest version only**: older
+versions and what the new one adds go in `previous_versions` and the *Versions* section. Datasets
+without a paper are welcome; datasets with papers link them in `papers: ["[[<paper note>]]"]`, and the paper
+note links back in `datasets:`.
+
+| property | values |
+|---|---|
+| `slug` | lowercase-hyphenated; also the folder name in `Data/` |
+| `kind` | list of `food` / `ingredient` / `compound` |
+| `availability` | what the authors/owners offer: `open-download` · `open-api` · `open-web` (browse/search pages only, no bulk file) · `registration` (free account) · `on-request` (form/email documented) · `contact-authors` (no link or dead link) · `commercial` · `unavailable` |
+| `accessed` | whether **we** got the data: `true` · `partial` (subset, web pages only, sample) · `false` |
+| `access_method` | how we got it: `github` · `kaggle` · `huggingface` · `zenodo` · `figshare` · `website-download` · `api` · `scrape` |
+| `access_date`, `access_link`, `access_notes` | when, the link used, what blocked or limited access |
+| `countries`, `regions` | wikilinks to `Countries/` and `Regions/` notes; use the country's common English name (`[[United Arab Emirates]]`, `[[China]]`) |
+| `has_ingredients` (bool), `has_amounts` (`yes`/`partial`/`no`), `has_cooking_method` (`steps`/`tags`/`no`), `has_nutrition` (bool) | food datasets |
+| `body_effect` (`direct`/`linkable`/`no`), `body_effect_how` | ingredient/compound datasets: `direct` = the dataset itself has health/disease/indication/target fields; `linkable` = its ids join to a resource that has them |
+| `join_keys` | ids usable for joins: `PubChem CID`, `InChIKey`, `FooDB id`, `USDA FDC id`, `NCBI taxon`, `scientific name`, … |
+
+Accessed datasets: download to `Data/<slug>/` (≤ ~500 MB; otherwise a subset), then
+`uv run _tools/profile_dataset.py <slug>` writes `schema.md` + `sample.csv`. The note's *Tables & columns*
+explains what each column means. Kaggle downloads work without credentials via `kagglehub`
+(`uv run python -c "import kagglehub; print(kagglehub.dataset_download('owner/name'))"`), and
+Hugging Face via `hf download --repo-type dataset`.
+
+## Country & region notes
+`Countries/<Country>.md` (`Templates/Country.md`), `Regions/<Region>.md` (`Templates/Region.md`). A dataset
+lists every country it has data for; region-only labels (e.g. "Middle Eastern cuisine") go in `regions`.
+Sub-national cuisines (Punjabi, Sichuan) are described inside the country note. Each country note embeds
+`![[Datasets.base#This country]]`.
 
 ## Question notes
 `Questions/Qx <short name>.md` from `Templates/Question.md`, properties `id: Qx`, `topics`, tags
@@ -76,7 +116,7 @@ views in `Backlog.base` (embedded in `Backlog.md`, in session notes and in every
 
 | property | values |
 |---|---|
-| `status` | `candidate` → `processing` → *(promoted to `Papers/`)* · `rejected` (+ `reason`) |
+| `status` | `candidate` → `processing` → *(promoted to `Papers/`)* or, for datasets, `processed` (+ `dataset: "[[<dataset note>]]"`) · `rejected` (+ `reason`) |
 | `priority` | 1 = process next · 2 = relevant · 3 = peripheral / background |
 | `topics`, `relevance` | as for papers; `relevance` is the first guess (core / adjacent) |
 | `manipulation`, `outcome`, `why` | what the paper varies, what it measures, one-line reason |

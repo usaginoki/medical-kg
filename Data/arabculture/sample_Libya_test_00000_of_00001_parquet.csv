@@ -1,0 +1,155 @@
+worker_id,sample_id,sub_topic,first_statement,options,answer_key,relevant_to_this_country,relevant_to_other_countries,should_discard,country,region
+Libya-1,1 | Breakfast,الافطار,تناولت الافطار الصباحي اليوم مع العائلة ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تناولت الافطار مع جاري', ' تناولت الافطار الصباحي مع امي',
+       ' تناولت الافطارمع صديقي'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Libya,North Africa
+Libya-1,2 | Breakfast,الافطار,ذهب احمد صباحا يشتري اغراض الفطور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['اشترى احمد من المخبز الخبز', ' اشترى احمد عرض ملابس من الانترنت',
+       ' اشترى احمد من السوق المنضفات'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",No,Yes,No,Libya,North Africa
+Libya-1,3 | Breakfast,الافطار,قمت صباحا بالاعداد للفطور لتحضير عجة البيض  ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['حرقت القدر ولم أستطع اعداد عجة البيض مع الدقيق',
+       ' أعددت عجة البيض مع الشوكلاته قبل ذهابي للمحاضرة',
+       ' أعددت عجبة البيض مع الدقيق قبل ذهابي للمحاضرة'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",No,No,No,Libya,North Africa
+Libya-1,4 | Breakfast,الافطار,يعد البعض الافطار اهم وجبة لليوم كله فيكون لديهم الفطورالحصة الدسمة من الاكل,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يفضل أن يفطر المرء على خبزة فقط',
+       ' لا يتحصل البعض على افطار جيد فلا يستطيع اكمال يومه',
+       ' اهم وجبة لتبدأ اليوم هيا الافطار بتناول الكبدة واللحم مع البصل'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Libya,North Africa
+Libya-1,5 | Breakfast,الافطار,تعد ام علي الافطار كل يوم الى جانب بعض الوصفات التقليدية مثل البسيسة ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تعد ام علي الافطار كل يوم الى جانب البسيسة بالتمر',
+       ' تعد ام علي الافطار كل يوم الي جانب البريوش',
+       ' تعد ام علي الافطار الى جانب الوفصات التقليدية مره في الاسبوع'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Libya,North Africa
+Libya-1,6 | Lunch,الغداء,اجلس كل يوم للغداء مع العائلة ونقوم بتقاسم الطعام سويا ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['اجلس وحدي اثناء تناول الغداء العائلي',
+       ' اساعد امي في تحضير سفرة الغداء كل يوم لتناول الطعام مع العائلة',
+       ' اجلس دون المساعدة للتحضير الى صفرة الغداء'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Libya,North Africa
+Libya-1,7 | Lunch,الغداء,اليوم اعدت ام علي الغداء للضيوف ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' اعدت ام علي البرجر للضيوف', ' اعدت ام علي بالأمس الكسكسي للضيوف',
+       ' اعدت ام علي البطاطس المقلية للضيوف'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",No,No,No,Libya,North Africa
+Libya-1,8 | Lunch,الغداء,تكون وجبة الغداء في ليبيا عادة من بعد وقت الظهيرة الى قبيل العصر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يكون التجهيز للعزائم على وجبة الغداء في وقت الظهر',
+       ' اتت المعازيم للغداء في اثناء صلاة الظهر',
+       ' اتت المعازيم الغداء في وقت المغرب'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Libya,North Africa
+Libya-1,9 | Lunch,الغداء,تقوم امي بتحضير البازين للغداء كل يوم جمعة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['البازين اكلة ليبية من الدقيق الابيض',
+       ' البازين اكلة ليبية تآكل بالملعقة',
+       ' من مكونات البازين الدقيق الشعير'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Libya,North Africa
+Libya-1,11 | Dinner,العشاء,عادة ما يكون العشاء وجبة خفيفة ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يكون العشاء وجبة خفيفة تتضمن الفاكهة والأكلات الصحية',
+       ' يتم تحضير الوجبات الدسمة كل يوم للعشاء',
+       ' تحتوي وجبة العشاء على الكثير من السكريات'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Libya,North Africa
+Libya-1,12 | Dinner,العشاء,يذهب احمد احيانا لتناول العشاء مع الاصدقاء في وقت متآخر من الليل ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتناول احمد العشاء في وقت متقدم من النهار',
+       ' يحضى احمد بالعشاء احيانا خارج المنزل لكسر الروتين اليومي',
+       ' لايتناول احمد العشاء الا في المنزل'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",No,Yes,No,Libya,North Africa
+Libya-1,13 | Iftar (Ramadan),افطار رمضان,يبدا افطار رمضان في اول يوم من شهر رمضان ويعتبر الشهر التاسع في التقويم الهجري ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يبدا افطار رمضان في شهر رجب', ' يبدا افطار رمضان في منتصف النهار',
+       ' يبدا افطار رمضان من مغيب الشمس الى طلوع الشمس من اليوم التاني لي رمضان'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",No,Yes,No,Libya,North Africa
+Libya-1,14 | Iftar (Ramadan),افطار رمضان,قام مجموعة من الشباب بإعداد مائدة رمضان للحصول على اجر هذا العمل في هذا الشهر المبارك,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['لا فائدة من اطعام المساكين وذوي السبيل',
+       ' الاجرة يعني التحصل على مبلغ مالي',
+       ' هذا العمل تطوعي يآجرون عليه من الله عز وجل'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Libya,North Africa
+Libya-1,15 | Iftar (Ramadan),افطار رمضان,تعد اصناف عديدة من الاكل في رمضان من قبل الامهات والعائلة ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يشترط الاعداد العديد من اصناف الطعام',
+       ' عدم تشارك شيئ من مائدة رمضان وان كان باليسير ""القليل""',
+       ' يتشارك الجميع الاصناف فيما بينهم ليحضو ببركة هذا الشهر المعطاء'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Libya,North Africa
+Libya-1,16 | Iftar (Ramadan),افطار رمضان,يبدء حل الصيام بالرطب او التمر فالماء هذا في ترتيب مائدة رمضان ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['دائما ما يبدء الاكل في افطار رمضان بالتمر',
+       ' بدء الافطار الرمضاني بي شرب الماء البارد ان وجد الرطب "" التمر""',
+       ' بدء الافطار الرمضاني بي اصناف الطعام المطبوخ'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Libya,North Africa
+Libya-1,17 | Iftar (Ramadan),افطار رمضان,يبقى افطار رمضان المفضل لدى المسلمين لاجتماع الاهل على مائدة الطعام,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['لا يحتوي افطار رمضان على اكل لذيذ',
+       ' يبقى ايضا المفضل لما يحتويه على اصناف عديدة من الطعام',
+       ' لا يحب المسلمون افطار رمضان'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Libya,North Africa
+Libya-1,18 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),يحضى الصائم على روتين مهم احدها وجبة السحور لي استكمال يومه الطويل ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['السحور ليس مهم في رمضان',
+       ' يتناول فيها وجبة جيدة بعيدا عن الموالح لانها تشعرك بالعطش في اليوم التالي',
+       ' اكل وجبة دسمة والاكثار من الموالح'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Libya,North Africa
+Libya-1,19 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),وقت السحور يكون ما قبل اذان الفجر الصادق ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['وقت السحور تكون العائلة مجتمعه لاهمية السحور',
+       ' وقت السحور يكون الصباح بعد طلوع الشمس',
+       ' وقت السحور لا تجتمع العائلة لانه ليس مهم'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Libya,North Africa
+Libya-1,20 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),تقوم امي باعداد المهلابية لنتناولها في السحور ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['المهلابية هيا احدى الاكلات المهمة في السحور وهيا من النشأ مع الحليب والزبيب تقدم باردة او ساخنة',
+       ' المهلابية لا تقدم باردة', ' تقدم المهلابية في السحور فقط'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Libya,North Africa
+Libya-1,21 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),دائما ما اقوم بتاخير السحور للإبقاء على سد جوعي ما يكفيني بقية يومي,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تأخير السحور يؤدي لعدم شرب كمية من الماء كافية',
+       ' ايضا أؤخر السحور ليبقى جسمي من اكتفاءه بالماء',
+       ' تأخير السحور ليس جيد'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Libya,North Africa
+Libya-1,22 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ), فائض مائدة الافطار يبقى الى وجبة السحور ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['فائض مائدة الافطار يرمى وقت السحور في الخارج',
+       '  فائض السحور  يؤكل أو يتصدق به للمحتاجين اليه',
+       ' فائض السحور يتم الاستبقاء عليه لليوم التالي'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Libya,North Africa
+Libya-1,23 | Dessert,حلوى,تعد امي الحلوي التقليدية كالمقروض المحشو بالتمر ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['حلوى المقروض من الحلوى المشهورة في ليبيا تقدم محشوة بالجبن',
+       ' المقروض من الحلوى المشهورة في ليبيا تقدم مع الشاهي والقهوة',
+       ' حلوة المقروض من الحلوى المشهورة في لبنان'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Libya,North Africa
+Libya-1,24 | Dessert,حلوى,يقبل الناس لشراء الحلوى في عيد الفطر مثل الغريبة والمقروض و البكلاوة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يقبل الناس لشراء الحلوى لأنهم لا يريدون تناولها',
+       ' يقبل الناس لشراء الحلوى رغم أن تحضير الحلوى يعتبر سهل جدا',
+       ' يقبل الناس لشرائها لصعوبة تحضيرها وكسب الوقت'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Libya,North Africa
+Libya-1,25 | Dessert,حلوى,مرضى السكري لايمكنهم تناول الحلوى بكثرة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتناول مريض السكري الحلوى بكثرة بالاعياد',
+       ' لا وجود لي عنصر السكر في الحلوى',
+       ' يحتاج مريض السكري على الحفاظ مستوي السكري في الدم'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Libya,North Africa
+Libya-1,26 | Fruits,فاكهة,يتم جني الفاكهة في حال نضوجها ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تمييز نضوج الفاكهة عبر الصوت', ' نميز نضوج الفاكهة عبر الشم',
+       ' يتم تمييز نضوج الفاكهة عبر اللون او الملمس'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Libya,North Africa
+Libya-1,28 | Fruits,فاكهة,تنبت بعض انواع الفواكه على الاشجار دون الاخرى لي عوامل ارضية وجوية,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم انتاج المانجو في منطقة درنة جنوب ليبيا',
+       ' يتم انتاج المانجو في منطقة الكفرة جنوب ليبيا',
+       ' يتم انتاج المانجو في منطقة الدلاع جنوب ليبيا'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",No,No,No,Libya,North Africa
+Libya-1,1 | wedding location,مكان الزواج,يقام الزفاف في صالة الافراح لإستعاب عدد كبير من الحضور ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يقام الزفاف ايضا في البيوت لإشهار الزواج بين العدد المحصور من الحضور',
+       ' يقام الزواج في الشارع', ' يقام الزواج فقط في صالة الافراح'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Libya,North Africa
+Libya-1,2 | wedding food,طعام الزواج,يقدم الطعام في الزواج لمدة سبع ايام يكون هنالك الولائم والذبائح من الابل والغنم ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قدم الطعام في حفل زفاف ابن عمي وكان البرجر والبطاطس المقلية أهم صنف',
+       ' الوجبة التي تقدم في حفل الزفاف المندي',
+       ' قدم الطعام في حفل زفاف ابن عمي و كان الكسكسي بلحم الغنم'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Libya,North Africa
+Libya-1,3 | wedding dowry,مهر الزواج,اعطي مهر الزواج للعروس ومن اكرام الزوج اعطاء مهر جيد واكرم الازواج اقلهم بركة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['اعطي مهر الزواج للعروس وكان شيئا من الذهب و الفضة والقراءن الكريم',
+       ' اعطي مهر الزواج للعروس وهو القرآن الكريم فقط',
+       ' اعطي مهر الزواج للعروس وكان شيئا من النحاس'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Libya,North Africa
+Libya-1,4 | wedding (other logistics),تجهيزات أخرى للزواج,"اشترى احمد بدلة العرس الرسمية لارتدائها في ليلة العرس ""الدخلة""","{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يرتدي العريس كذلك لباس عادي يوم الفاتحة',
+       ' كما هنالك اللبسة التقليدية الزبون العربي يرتديها العريس يوم الفاتحة ""الاشهار""',
+       ' يرتدي العريس كذلك البدلة الرسمية يوم الفاتحة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Libya,North Africa
+Libya-1,5 | wedding (other logistics),تجهيزات أخرى للزواج,من التجهيزات الاخري يقوم العريس بي اشتراء الهدايا المتنوعة للعروس و وضعها في قفه,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يسمي هذا اليوم بالفضانية حيث تهدى الى العروس في بيت ابيها',
+       ' تشترى الهدايا وتهدى الى افراد بيت العروسة',
+       ' يسمى هذا اليوم بالعرس حيث تهدى الهدايا للعروس'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Libya,North Africa
+Libya-1,6 | men cermony vs. women cermony,احتفالات الزواج للرجال vs احتفالات الزواج للنساء,تقام احتفلات الرجال في الباحة خارج المنازل ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['اختلاط النساء والرجال اثناء الاحتفال',
+       ' احتفال الرجال مع النساء في الباحة خارج المنازل',
+       ' تحتفل النساء بمعزل عن الرجال في المنازل او الصالات المغلقة'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Libya,North Africa
+Libya-1,7 | men cermony vs. women cermony,احتفالات الزواج للرجال vs احتفالات الزواج للنساء,في ليلة الزفاف يجهز العريس من قبل اصدقائه للاستعداد الي اليوم الحافل,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' العروس لا تحتاج أن تتجهز لحفل الزفاف',
+       ' بينما تستعد العروس و تجهز من قبل امها و تتهيئ الى استقبال الزوار وهيا في ابهى حلة',
+       ' تجهز العروس لحفل الزفاف عن طريق صديقاتها'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Libya,North Africa
+Libya-1,8 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,"احدى الفعاليات يوم الدخلة حيث يقوم الاصدقاء بزف العريس بال""الزكرة""","{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تضرب الدفوف والطبل مع بعض الانغام وانواع اخرى من الالات الموسيقية',
+       ' يستخدم القيتار والبيانو كألة موسيقية في ال""الزكرة""',
+       ' يزف العريس يوم الدخلة بال"" الدبكة؛'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Libya,North Africa
+Libya-1,9 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,في يوم الفاتحة تقوم فرقة موسيقية ترتدي الزي التقليدي بالغناء الموشحات الدينية,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' ترتدي الفرقة الموسيقية لباس رسمي خاص بها',
+       ' كما تضرب الدفوف وذكر النبي محمد عليه الصلاة والسلام والغناء له',
+       ' الغناء بصوت مزعج وغريب'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Libya,North Africa
+Libya-1,10 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,تظل الاحتفلات طيلة ايام الاسبوع بالاغاني الشعبية ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['احضار مغنيين من خارج البلد', ' يقتصر الاحتفال على يوم واحد',
+       ' يجهز اصدقاء العريس مكان لاقامة الحفل بإحضار مغنيين شعبيين'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Libya,North Africa
+Libya-1,11 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,"تشارك الخيول في احتفالات تسمى بال""العقد"" ويقوم مجموعة من الفرسان بالركض معا في خط مستقيم","{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['سباق الخيول يسمى الهجن', ' يتحرك العقد بشكل عشوائي',
+       ' يتحرك مجموع الفرسان عن طريق قائد العقد بي اشارة تسمى "" الندهة""يكون لها نغم مميز'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Libya,North Africa
+Libya-1,12 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,تحتفل كل عائلة بطريقتها المتوارثة كالجلوس بالخيام الثراتية والقاء الشعر والتصفيق او ما يسمى الكشك والأمر المشترك لديهم هو المجرودة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' المجرودة عبارة عن رقصة شعبية',
+       ' المجرودة هو الأمر الرئيسي هو عبارة عن غناء نسق متكامل من الجمل والعبارات الجميلة',
+       ' المجرودة اكلة شعبية'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",No,No,No,Libya,North Africa
+Libya-1,1 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,تهيئ الاطفال الى عيد الفطر بشراء الملابس والالعاب  ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يظل الاطفال في حالة ترقب مستمر الى عيد الفطر لما يتحصلون عليه من نقود من العائلة',
+       ' يظل الاطفال في حالة ترقب مستمر إلى عيد الفطر لأخذ الحلوة',
+       ' يظل الاطفال في حالة ترقب مستمر لعيد الفطر للدراسة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Libya,North Africa
+Libya-1,2 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,تقوم الامهات بالتجهيز لحلويات العيد قبل اوانه وذلك بتحضير الخبز وطهيه استعدادا للعيد ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['بعض ما يتم تجهيزه لي البانكيك والكريب ومكونات هذه الوصفات كلها تقليدية ومن طعام اهل البلد',
+       ' تشتري الامهات الحلويات في الغالب بدل أن تحضرها وتجهزها',
+       '  بعض ما يتم تجهيزه لي عيد الفطر الكعك والمقروض والغريبة ومكونات هذه الوصفات كلها تقليدية ومن طعام اهل البلد'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Libya,North Africa
+Libya-1,3 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,ما قبل يوم العيد يتجهز الشباب لي الذهاب الى الحلاق و كي ملابس العيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' هنالك ""زردة"" وهي لم الشباب مع بعض والذهاب للقضاء وقت ممتع قبل يوم العيد',
+       ' لا يلتقي الشباب قبل يوم العيد بل يكون التنسيق للقاء يوم العيد',
+       ' ينام الشباب في الغالب بدل الاستعداد ليوم العيد'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Libya,North Africa
+Libya-1,4 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,من المعتاد ان في عيد الاضحى يكون هنالك تجهيز مسبق حيث يقوم رب الاسرة بجمع الابناء وتقسيم الادوار عليهم,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['من الفعاليات المهمة قبل اوان عيد الاضحى النوم مبكرا',
+       ' من الفعاليات المهمة قبل اوان عيد الاضحى سن السكاكين  وجلب الحبال',
+       ' من الفعاليات المهمة قبل اوان عيد الاضحى احضار الطعام'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Libya,North Africa
+Libya-1,5 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,تذهب الأسرة لشراء اضحية العيد والكل يبدي رأيه بالاضحية ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['رأي الفرد هو المهم',
+       ' يشترك الجميع في ابداء الرأي حول الاضحية سواء كانت جيدة المنظر والهيئة مثلا ..الخ',
+       ' لا تهتم العائلة بابداء أي رأي بخصوص الأضحية'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Libya,North Africa
+Libya-1,6 | traditions during religous holidays,العادات في الأعياد الدينية,عيد الفطر وما يحتويه على قيم من صلة الرحم الى تقوية العلاقات الاجتماعية,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' من عادات عيد الفطر زيارة الأقارب والجيران للمعايدة',
+       ' من عادات عيد الفطر المعايدة على العائلة فقط',
+       ' من عادات عيد الفطر قطع صلة الرحم'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Libya,North Africa
+Libya-1,7 | traditions during religous holidays,العادات في الأعياد الدينية,الاغتسال صباح العيد اورتداء الملابس الجديدة ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['الذهاب الى صلاة العيد لأداء صلاة العيد من ثم المعايدة على الاهل والجيران وباقي شرائح المجتمع',
+       ' عدم الاهتمام بالنظافة الشخصية', ' ارتداء ملابس غير نظيفة'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Libya,North Africa
+Libya-1,8 | traditions during religous holidays,العادات في الأعياد الدينية,تفضيل صلاة عيد الاضحي في ساحات المساجد ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['اقتسام اللحم مع الفقراء والمساكين واعطائهم من افضل ما تطعم به اهل بيتك',
+       ' الصلاة في باحات المسجد شرط لصحة الصلاة',
+       ' اقتسام اللحم مع الفقراء والمساكين واعطائهم من أسوء ما تطعم به اهل بيتك'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Libya,North Africa
+Libya-1,9 | traditions during religous holidays,العادات في الأعياد الدينية,تقام في بعض الباحات العامة الولائم ويشترك فيها جميع الجيران ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['الباحة هو مكان خاص لكل عائلة معينة',
+       ' كل عائلة تقوم بدور ما في تحضير هذه الولائم',
+       ' تحضر الولائم من الدولة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Libya,North Africa
+Libya-1,10 | traditions during religous holidays,العادات في الأعياد الدينية,"تختلف العادات على اختلاف المدن ولكن تشترك في العيد الفطر حيث يتم اعداد الافطار الصباحي بال""عصيدة""","{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['العصيدة اكلة مصنوعة من الرز', ' العصيدة اكلة مصنوعة من اللحم',
+       ' العصيدة اكلة مصنوعة من الدقيق الماء والعسل'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Libya,North Africa
+Libya-1,11 | traditions during religous holidays,العادات في الأعياد الدينية,بعد الانتهاء من الذبائح في عيد الاضحى تقوم النساء  باعداد الوجبات من لحم الاضحية نفسها حيث يتم اعداد القلابة مع العصبان,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['الرجال فقط من يكون لهم دور في عيد الاضحى',
+       ' القلاية هي عبارة عن اللحم والكبد ويتم طهيها بشكل جيد الى جانب اعداد العصبان وهو معد من عظم الخروف',
+       ' القلاية هي عبارة عن اللحم والكبد ويتم طهيها بشكل جيد الى جانب اعداد العصبان وهو معد من احشاء الخروف تقوم النساء بحشيه باللحم والارز والكبدة'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Libya,North Africa
+Libya-1,12 | traditions during religous holidays,العادات في الأعياد الدينية,جهزت امي المنزل صباح عيد الفطر وقامت بوضع الحلويات والشاهي والقهوة انتظارا  للجيران والزوار ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['الزيارة قبل صلاة العيد',
+       ' يتهافت الجيران بعد صلاة العيد لي الزيارات المتبادرة',
+       ' عدم وضع كبار السن في الاولوية'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Libya,North Africa

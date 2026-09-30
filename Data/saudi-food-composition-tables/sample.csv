@@ -1,0 +1,51 @@
+dish_id,dish_name,analyte,per_100g,full_recipe,unit
+1,Qursan,Energy (kJ),554,13800,kJ
+1,Qursan,Magnesium,25,627,mg
+1,Qursan,Energy (kcal),132,3290,kcal
+1,Qursan,Phosphorus,73,1810,mg
+1,Qursan,Moisture Content,72.5,1800,g
+1,Qursan,Potassium,232,5780,mg
+1,Qursan,Total Protein,3.7,93,g
+1,Qursan,Sodium,422,10500,mg
+1,Qursan,Total Nitrogen,0.6,15,g
+1,Qursan,Chloride,7,171,mg
+1,Qursan,Total Fat,7.5,188,g
+1,Qursan,Zinc,0.77,19,mg
+1,Qursan,Available Carbohydrates,10.3,257,g
+1,Qursan,Copper,0.100,2,mg
+1,Qursan,Total Carbohydrates,14.3,356,g
+1,Qursan,Manganese,0.457,11,mg
+1,Qursan,Total sugars,1.03,26,g
+1,Qursan,Selenium,-,-,µg
+1,Qursan,Added Sugar,0.0,0.0,g
+1,Qursan,Iodine,25,622,µg
+1,Qursan,Total Dietary Fibre,4.1,103,g
+1,Qursan,Vitamin A (as Retinol),40,1003,µg
+1,Qursan,Soluble Fibre,0.6,16,g
+1,Qursan,Beta-carotene,-,-,µg
+1,Qursan,Insoluble Fibre,3.5,87,g
+1,Qursan,Vitamin D,-,-,µg
+1,Qursan,Ash Content,1.6,40,g
+1,Qursan,Vitamin E (as a-Tocopherol),1.8,45,mg
+1,Qursan,Cholesterol,15.7,389,mg
+1,Qursan,Vitamin K,6.2,154,µg
+1,Qursan,Saturated Fatty Acids,2.22,55,g
+1,Qursan,Vitamin C (as Ascorbic Acid),-,-,mg
+1,Qursan,Monounsaturated Fatty Acids,2.42,60,g
+1,Qursan,Vitamin B1,-,-,mg
+1,Qursan,Polyunsaturated Fatty Acids,2.73,68,g
+1,Qursan,Vitamin B2,-,-,mg
+1,Qursan,Total Unsaturated Fat,5.15,128,g
+1,Qursan,Vitamin B3 (Total),1.9,46,mg
+1,Qursan,Trans-Fat (TFA),-,-,g
+1,Qursan,Vitamin B5,-,-,mg
+1,Qursan,Sum of Omega-3 (n-3),-,-,g
+1,Qursan,Vitamin B6,-,-,mg
+1,Qursan,Sum of Omega-6 (n-6),2.68,67,g
+1,Qursan,Vitamin B7 (Biotin),5.3,133,µg
+1,Qursan,Sum of Omega-9 (n-9),2.35,59,g
+1,Qursan,Vitamin B9 (Folic Acid),71,1757,µg
+1,Qursan,Calcium,23,564,mg
+1,Qursan,Vitamin B12 (Cyanocobalamin),1.0,25,µg
+1,Qursan,Iron,1.10,27,mg
+2,Al-Jareesh,Energy (kJ),680,16500,kJ

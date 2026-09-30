@@ -1,0 +1,8 @@
+Query Name,What it retrieves,Notes
+q_fndds_<FnddsTableName>,FNDDS data in the format origininally used to distribute FNDDS 2013-2014,
+q_foundation_agricultural_acquisition_sources ,Source agricultural acquisitions of foundation foods,
+q_foundation_agricultural_acquisition_nutrients ,Source agricultural acquisition nutrients of foundation foods,
+q_foundation_market_acquisition_sources ,Source market acquisitions of foundation foods,
+q_foundation_market_acquisition_nutrients ,Source market acquisition nutrients of foundation foods,
+q_foundation_market_acquisition_portions,Source market acquisition portions of foundation foods,
+q_foundation_market_acquisition_components,Source market acquisition components of foundation foods,

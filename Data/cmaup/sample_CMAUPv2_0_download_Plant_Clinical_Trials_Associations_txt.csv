@@ -1,0 +1,51 @@
+Plant_ID,NCT_ID,Title,Disease/Condition,Form_in_Clinical_Use,Phase,Associated_by plant_or_compound
+NPO18732,NCT00004010,"Combination Chemotherapy and Radiation Therapy in Treating Children With Previously Untreated Stage II, Stage III, or Stage IV Hodgkin's Disease",lymphoma,Etoposide (NPC185498),Phase 3,compound
+NPO3777,NCT04535427,Role of L-Arginine Supplementation in the Treatment of Rheumatoid Arthritis,rheumatoid arthritis,Arginine (NPC226453),Phase 2,compound
+NPO14260,NCT02311439,"Induction Chemotherapy, FOLFIRINOX Followed With Concurrent Capecitabine and Radiation Therapy in Inoperable Locally Advanced Cancer of the Pancreas",pancreatic carcinoma,Fluorouracil (NPC75844),Phase 3,compound
+NPO7487,NCT00930566,Extracorporal Photopheresis Pilot Study,lymphoid neoplasm,Methoxsalen (NPC33320),Phase 1,compound
+NPO11471,NCT00070278,"Neoadjuvant Epirubicin, Cyclophosphamide, and Paclitaxel With or Without Gemcitabine in Treating Women Who Are Undergoing Surgery for Early Breast Cancer",breast cancer,Paclitaxel (NPC208553),Phase 4,compound
+NPO19472,NCT03751592,Phase Ib/IIa Studies of Chlorogenic Acid for Injection for Safety and Efficacy of Advanced Lung Cancer,lung cancer,Chlorogenic Acid (NPC302857),Phase 1,compound
+NPO17551,NCT00002905,Combination Chemotherapy in Treating Patients With HIV-Related Non-Hodgkin's Lymphoma,lymphoma,Etoposide (NPC185498),Phase 3,compound
+NPO13450,NCT02589145,Lenalidomide Combined With Vorinostat/Gemcitabine/Busulfan/Melphalan With Autologous Stem-Cell Transplantation in Diffuse Large B-Cell Lymphoma of the ABC Subtype,lymphoma,Pyridoxine (NPC269919),Phase 2,compound
+NPO5290,NCT00203476,"A Prospective, Open Label Comparison of Ezetimibe, Niacin, and Colestipol as Adjunct Therapy in Lipid Reduction",Hypercholesterolemia;hyperlipidemia,Niacin (NPC167400),Phase 4,compound
+NPO9498,NCT00344916,Phase 1 Study of L-NMMA in Patients With Liver Cirrhosis,cirrhosis of liver,Arginine (NPC226453),Phase 1,compound
+NPO21349,NCT00300885,A Randomized Controlled Trial Comparing Safety and Efficacy of Carboplatin and Paclitaxel Plus or Minus Sorafenib (BAY 43-9006) in Chemonaive Patients With Stage IIIB-IV Non-Small Cell Lung Cancer (NSCLC),non-small cell lung carcinoma,Paclitaxel (NPC208553),Phase 4,compound
+NPO18866,NCT05456022,Therapeutic Efficacy of Quercetin Versus Its Encapsulated Nanoparticle on Tongue Squamous Cell Carcinoma Cell Line,mouth neoplasm,Quercetin (NPC20791),Phase 2,compound
+NPO11237,NCT02848131,Senescence in Chronic Kidney Disease,chronic kidney disease,Quercetin (NPC20791),Phase 2,compound
+NPO11196,NCT00151255,All-Trans Retinoic Acid in Combination With Standard Induction and Consolidation Therapy in Older Patients With Newly Diagnosed Acute Myeloid Leukemia,acute myeloid leukemia,Etoposide (NPC185498),Phase 3,compound
+NPO912,NCT00006276,Micellar Paclitaxel to Treat Severe Psoriasis,psoriasis,Paclitaxel (NPC208553),Phase 2,compound
+NPO8312,NCT01705652,Study to Assess the Activity of Nexrutine® in Prostate Cancer Patients,prostate cancer,Rutin (NPC176740),Phase 2,compound
+NPO17024,NCT04046094,Intravenous (IV) Vitamin C With Chemotherapy for Cisplatin Ineligible Bladder Cancer Patients,urinary bladder cancer,Ascorbate (NPC187770),Phase 1,compound
+NPO7513,NCT05283161,CBD (Cannabidiol)/THC (Tetrahydrocannabinol) Solution as a Pharmacological Strategy for Patients With Fibromyalgia (FibroCann),fibromyalgia,Cannabidiol (NPC299568),Phase 3,compound
+NPO14354,NCT01436266,Effect of Preoperative Buccal Misoprostol on Blood Loss in Second-trimester Dilation and Evacuation Abortion,hemorrhage,Folic Acid (NPC147983),Phase 3,compound
+NPO17752,NCT03334409,Pazopanib Hydrochloride With or Without Ascorbic Acid in Treating Patients With Kidney Cancer That Is Metastatic or Cannot Be Removed by Surgery,clear cell renal carcinoma,Ascorbate (NPC187770),Phase 2,compound
+NPO22233,NCT00396500,Deworming and Vitamin A (DEVTA) Prepilot Study,malnutrition;parasitic infection,Retinol (NPC55412),Phase 3,compound
+NPO21891,NCT02467673,Nanoparticulate Versus Micronized Steroids Delivery for Transdermal Hormone Replacement Therapy,menopause,Estradiol (NPC48342),Phase 3,compound
+NPO10780,NCT02213575,Study 3: Minocycline Decreases Microglia Activation,hypertension,Minocycline (NPC317727),Phase 3,compound
+NPO15960,NCT01622361,"Premenopausal Patient With Hormone Responsive, HER2 Negative, Lymph Node Positive Breast Cancer",breast cancer,Doxorubicin (NPC261012),Phase 3,compound
+NPO2776,NCT00673894,Effects of Glutamine on GLP-1 and Insulin Secretion in Man,type 2 diabetes mellitus,Glutamine (NPC197087),Phase 1,compound
+NPO28053,NCT00934050,ELND005 Long-Term Follow-up Study in Subjects With Alzheimer's Disease,Alzheimer disease,Inositol (NPC88278),Phase 2,compound
+NPO17491,NCT00006118,"Cisplatin, Paclitaxel, and Gemcitabine in Treating Patients With Progressive Unresectable Regional or Metastatic Bladder Cancer",urinary bladder cancer,Paclitaxel (NPC208553),Phase 3,compound
+NPO5253,NCT00218946,Nasogastric Tube in Premature Babies - Pain and Treatment,premature birth,Sucrose (NPC130683),Phase 2,compound
+NPO29338,NCT02226484,Can Quercetin Increase Claudin-4 and Improve Esophageal Barrier Function in GERD?,gastroesophageal reflux disease,Quercetin (NPC20791),Phase 1,compound
+NPO18732,NCT00017251,Combination Chemotherapy Plus Oblimersen in Treating Patients With Previously Untreated Extensive-Stage Small Cell Lung Cancer,small cell lung carcinoma,Etoposide (NPC185498),Phase 3,compound
+NPO10688,NCT02314208,Therapeutic Metabolic Intervention in Patients With Spastic Paraplegia SPG5,Spastic paraplegia,Resveratrol (NPC161571),Phase 2,compound
+NPO21757,NCT03083470,Study of SOR007 Ointment for Actinic Keratosis,actinic keratosis,Paclitaxel (NPC208553),Phase 2,compound
+NPO8076,NCT00862784,A Study of IMC-1121B (Ramucirumab) in Colorectal Cancer,colorectal carcinoma,Fluorouracil (NPC75844),Phase 3,compound
+NPO10029,NCT03685773,The Role of Hepatic Denervation in the Dysregulation of Glucose Metabolism in Liver Transplant Recipients,type 2 diabetes mellitus,Niacin (NPC167400),Phase 3,compound
+NPO15653,NCT04385940,Vitamin D and COVID-19 Management,COVID-19,Cholecalciferol (NPC269877),Phase 3,compound
+NPO15243,NCT04999137,Evaluation of Safety and Dosing of a Vitamin C Bundle for Sepsis Treatment in Africa,Sepsis;septic shock,Ascorbate (NPC187770),Phase 3,compound
+NPO16333,NCT03606967,"Testing the Addition of an Individualized Vaccine to Nab-Paclitaxel, Durvalumab and Tremelimumab and Chemotherapy in Patients With Metastatic Triple Negative Breast Cancer",breast carcinoma,Lysine (NPC112890),Phase 2,compound
+NPO20686,NCT04999137,Evaluation of Safety and Dosing of a Vitamin C Bundle for Sepsis Treatment in Africa,Sepsis;septic shock,Ascorbate (NPC187770),Phase 3,compound
+NPO19602,NCT02618824,Role of Terminal Warm Blood Cardioplegia as Myocardial Protection in the Use of Histidine-Tryptophan-Ketoglutarate Cardioplegia in Complex Congenital Heart Surgery,congenital heart disease,Histidine (NPC237812),Phase 2,compound
+NPO19436,NCT02670317,"Phase II Study About Combination CHOP-21, Obinutuzumab and Ibrutinib in Untreated Young High Risk DLBCL Patients.",lymphoma,Doxorubicin (NPC261012),Phase 3,compound
+NPO28805,NCT01708278,Beneficial Effects of Quercetin in Chronic Obstructive Pulmonary Disease (COPD),chronic obstructive pulmonary disease,Quercetin (NPC20791),Phase 1,compound
+NPO7576,NCT02388178,To Determine the Ability of a New Product Formulation to Remineralize an Early Caries Lesion by an In-situ Study,dental caries,Arginine (NPC226453),Phase 2,compound
+NPO28265,NCT04783792,The Effect of Phenolic Compounds in Osteoarthritis; a Nutritional Intervention,osteoarthritis,Ascorbate (NPC187770),Phase 1,compound
+NPO2211,NCT02008721,Progression Rate of MSA Under EGCG Supplementation as Anti-Aggregation-Approach,multiple system atrophy,Epigalocatechin Gallate (NPC250436),Phase 3,compound
+NPO18321,NCT00606502,Study of Pralatrexate vs. Erlotinib for Non-Small Cell Lung Cancer After at Least 1 Prior Platinum-based Treatment,non-small cell lung carcinoma,Folic Acid (NPC147983),Phase 3,compound
+NPO24689,NCT01375101,Therapeutic Effect of Quercetin and the Current Treatment of Erosive and Atrophic Oral Lichen Planus,oral lichen planus,Quercetin (NPC20791),Phase 1,compound
+NPO31374,NCT02564978,Evaluation of Oral Minocycline in the Treatment of Geographic Atrophy Associated With Age-Related Macular Degeneration,age-related macular degeneration,Minocycline (NPC317727),Phase 2,compound
+NPO9965,NCT00005791,Combination Chemotherapy in Treating Patients With Locally Advanced or Metastatic Solid Tumors,neoplasm,Fluorouracil (NPC75844),Phase 4,compound
+NPO28734,NCT01455532,A Dose Escalation Study of Iniparib as a Single Agent and in Combination in Solid Tumors,neoplasm,Doxorubicin (NPC261012),Phase 4,compound
+NPO29515,NCT00364156,Comparison of Standard Versus Extended Nicotine Patch Therapy for Smoking Cessation,nicotine dependence,Nicotine (NPC182570),Phase 4,compound

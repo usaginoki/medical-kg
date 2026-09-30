@@ -1,0 +1,51 @@
+accession,metabolite_name,biospecimen,concentration_value,concentration_units,patient_age,patient_sex,patient_information,pubmed_ids
+HMDB0000001,1-Methylhistidine,Blood,51.2 +/- 17.6,uM,Adult (>18 years old),Female,Pregnancy with fetuses with trisomy 18,23535240
+HMDB0000001,1-Methylhistidine,Blood,43.4 +/- 22.3,uM,Adult (>18 years old),Female,Pregnancy,23535240
+HMDB0000001,1-Methylhistidine,Blood,50.7 (12.9),uM,Adult (>18 years old),Female,Early preeclampsia,22494326
+HMDB0000001,1-Methylhistidine,Blood,50.0 (14.6),uM,Adult (>18 years old),Female,Pregnancy,22494326
+HMDB0000001,1-Methylhistidine,Blood,28.8 +/- 18.2,uM,Adult (>18 years old),Both,Kidney disease,10838467
+HMDB0000001,1-Methylhistidine,Blood,83.1 +/- 21.7,uM,Adult (>18 years old),Both,Kidney disease,10838467
+HMDB0000001,1-Methylhistidine,Blood,70.3 (40.0),uM,Adult (>18 years old),Female,Late-onset preeclampsia,23159745
+HMDB0000001,1-Methylhistidine,Blood,38.9 (20.3),uM,Adult (>18 years old),Female,Pregnancy,23159745
+HMDB0000001,1-Methylhistidine,Blood,10.66 +/- 2.68,uM,Elderly (>65 years old),Both,Alzheimer's disease,17031479
+HMDB0000001,1-Methylhistidine,Blood,40.4 (12.3),uM,Adult (>18 years old),Female,Down syndrome pregnancy,23313728
+HMDB0000001,1-Methylhistidine,Blood,32.7 (13.7),uM,Adult (>18 years old),Female,Pregnancy,23313728
+HMDB0000001,1-Methylhistidine,Cerebrospinal Fluid (CSF),2.6 +/- 1.13,uM,Adult (>18 years old),Both,Alzheimer's disease,17031479
+HMDB0000001,1-Methylhistidine,Urine,10.9 +/- 10.1,umol/mmol creatinine,Adult (>18 years old),Both,Obesity,15899597
+HMDB0000001,1-Methylhistidine,Urine,17.5 +/- 25.7,umol/mmol creatinine,Adult (>18 years old),Both,Diabetes,15899597
+HMDB0000001,1-Methylhistidine,Urine,15.7 +/- 4.04,umol/mmol creatinine,Adult (>18 years old),Both,Alzheimer's disease,17031479
+HMDB0000001,1-Methylhistidine,Urine,18.299 +/- 16.521,umol/mmol creatinine,Children (1 - 13 years old),Not Specified,Eosinophilic esophagitis,
+HMDB0000001,1-Methylhistidine,Urine,40 +/- 2.6,umol/mmol creatinine,Adult (>18 years old),Both,Propionic acidemia,19551947
+HMDB0000001,1-Methylhistidine,Urine,31 +/- 11,umol/mmol creatinine,Adult (>18 years old),Both,Maple syrup urine disease,19551947
+HMDB0000001,1-Methylhistidine,Urine,50.3 +/- 9.9,umol/mmol creatinine,Adult (>18 years old),Both,Aminoaciduria,19551947
+HMDB0000002,"1,3-Diaminopropane",Blood,0.13 +/- 0.13,uM,Adult (>18 years old),Female,Breast cancer,17668437
+HMDB0000002,"1,3-Diaminopropane",Feces,,,Adult (>18 years old),Both,Colorectal Cancer,27275383
+HMDB0000002,"1,3-Diaminopropane",Urine,0.96 (0.12-2.11),umol/mmol creatinine,Adult (>18 years old),Both,Leukemia,9464484
+HMDB0000005,2-Ketobutyric acid,Urine,6.564 +/- 7.802,umol/mmol creatinine,Children (1 - 13 years old),Not Specified,Eosinophilic esophagitis,
+HMDB0000008,2-Hydroxybutyric acid,Blood,26.96 +/- 13.11,uM,Adult (>18 years old),Female,Pregnancy with fetuses with trisomy 18,23535240
+HMDB0000008,2-Hydroxybutyric acid,Blood,16.93 +/- 8.17,uM,Adult (>18 years old),Female,Pregnancy,23535240
+HMDB0000008,2-Hydroxybutyric acid,Blood,21.4 (5.6),uM,Adult (>18 years old),Female,Early preeclampsia,22494326
+HMDB0000008,2-Hydroxybutyric acid,Blood,19.5 (7.4),uM,Adult (>18 years old),Female,Pregnancy,22494326
+HMDB0000008,2-Hydroxybutyric acid,Blood,,,Adult (>18 years old),Both,Colorectal cancer,25105552
+HMDB0000008,2-Hydroxybutyric acid,Blood,17.13 (7.48),uM,Adult (>18 years old),Female,Pregnancy with fetus having congenital heart defect,24704061
+HMDB0000008,2-Hydroxybutyric acid,Blood,16.69 (6.25),uM,Adult (>18 years old),Female,Pregnancy,24704061
+HMDB0000008,2-Hydroxybutyric acid,Blood,28.0 (14.4),uM,Adult (>18 years old),Female,Late-onset preeclampsia,23159745
+HMDB0000008,2-Hydroxybutyric acid,Blood,4.14(10.18),uM,Adult (>18 years old),Both,Heart failure with reduced ejection fraction,26010610
+HMDB0000008,2-Hydroxybutyric acid,Blood,21.2 (7.5),uM,Adult (>18 years old),Female,Pregnancy,23159745
+HMDB0000008,2-Hydroxybutyric acid,Blood,,,Adult (>18 years old),Both,Schizophrenia,22024767
+HMDB0000008,2-Hydroxybutyric acid,Blood,23.1 (14.1),uM,Adult (>18 years old),Female,Down syndrome pregnancy,23313728
+HMDB0000008,2-Hydroxybutyric acid,Blood,15.0 (7.4),uM,Adult (>18 years old),Female,Pregnancy,23313728
+HMDB0000008,2-Hydroxybutyric acid,Feces,,,Adult (>18 years old),Both,Colorectal cancer,25037050
+HMDB0000008,2-Hydroxybutyric acid,Feces,,,Adult (>18 years old),Both,Colorectal Cancer,27275383
+HMDB0000008,2-Hydroxybutyric acid,Feces,,,Adult (>18 years old),Both,Colorectal cancer,27015276
+HMDB0000008,2-Hydroxybutyric acid,Saliva,7.26 +/- 4.47,uM,Adult (>18 years old),Male,Alzheimer's disease,23857558
+HMDB0000008,2-Hydroxybutyric acid,Saliva,7.30 +/- 1.32,uM,Adult (>18 years old),Male,Frontotemporal lobe dementia,23857558
+HMDB0000008,2-Hydroxybutyric acid,Saliva,8.12 +/- 5.32,uM,Adult (>18 years old),Both,Lewy body disease,23857558
+HMDB0000008,2-Hydroxybutyric acid,Urine,>25.0,umol/mmol creatinine,Adult (>18 years old),Both,Pyruvate dehydrogenase deficiency,
+HMDB0000008,2-Hydroxybutyric acid,Urine,8.699 +/- 10.366,umol/mmol creatinine,Children (1 - 13 years old),Not Specified,Eosinophilic esophagitis,
+HMDB0000008,2-Hydroxybutyric acid,Urine,,,Adult (>18 years old),Both,Schizophrenia,22024767
+HMDB0000008,2-Hydroxybutyric acid,Urine,248.732,umol/mmol creatinine,Infant (0-1 year old),Male,Dihydrolipoamide Dehydrogenase Deficiency,6688766
+HMDB0000008,2-Hydroxybutyric acid,Urine,,,Adult (>18 years old),Both,Colorectal adenoma,27510537
+HMDB0000010,2-Methoxyestrone,Urine,0.025 (0.02-0.03),umol/mmol creatinine,Adult (>18 years old),Both,Prolactinoma,9812172
+HMDB0000011,3-Hydroxybutyric acid,Blood,235.0 +/- 17.0,uM,Adult (>18 years old),Female,Obesity,16253646
+HMDB0000011,3-Hydroxybutyric acid,Blood,35.1 +/- 33.9,uM,Adult (>18 years old),Both,Heart Transplant,21359215

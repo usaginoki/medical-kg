@@ -1,0 +1,51 @@
+head,rel,tail
+recipe::0,in_cuisine,cuisine::Indian
+recipe::0,is_course,course::Main Course
+recipe::0,from_region,region::North India
+recipe::0,has_diet,diet::Non-Vegetarian
+recipe::0,contains_allergen,allergen::ghee
+recipe::0,contains_allergen,allergen::gluten
+recipe::0,contains_allergen,allergen::milk
+recipe::0,suitable_for,condition::weight_loss
+recipe::0,suitable_for,condition::keto_friendly
+recipe::0,suitable_for,condition::low_cholesterol
+recipe::0,cooked_by,method::fried
+recipe::0,for_occasion,occasion::eid
+recipe::0,has_ingredient,ingredient::mutton
+recipe::0,has_ingredient,ingredient::ghee
+recipe::0,has_ingredient,ingredient::onion
+recipe::0,has_ingredient,ingredient::ginger
+recipe::0,has_ingredient,ingredient::garlic
+recipe::0,has_ingredient,ingredient::salt
+recipe::0,has_ingredient,ingredient::coriander
+recipe::0,has_ingredient,ingredient::turmeric
+recipe::0,has_ingredient,ingredient::flour
+recipe::0,has_ingredient,ingredient::garam masala
+recipe::0,has_ingredient,ingredient::lime
+recipe::0,has_health_tag,healthtag::low_calorie
+recipe::0,has_health_tag,healthtag::high_sodium
+recipe::0,has_health_tag,healthtag::low_sugar
+cuisine::Indian,typical_region,region::Pan-Indian
+region::North India,in_zone,zone::North India
+ingredient::mutton,is_a,category::meat
+ingredient::mutton,rich_in,nutrient::protein
+ingredient::mutton,rich_in,nutrient::zinc
+ingredient::mutton,rich_in,nutrient::niacin
+ingredient::mutton,pairs_with,ingredient::star anise
+ingredient::mutton,pairs_with,ingredient::peppercorn
+ingredient::mutton,pairs_with,ingredient::poppy
+ingredient::mutton,pairs_with,ingredient::shallot
+ingredient::mutton,pairs_with,ingredient::yogurt
+ingredient::mutton,pairs_with,ingredient::onion
+ingredient::mutton,has_compound,compound::247
+ingredient::mutton,has_compound,compound::379
+ingredient::mutton,has_compound,compound::650
+ingredient::mutton,has_compound,compound::999
+ingredient::mutton,has_compound,compound::1031
+ingredient::mutton,has_compound,compound::1032
+ingredient::mutton,has_compound,compound::1068
+ingredient::mutton,has_compound,compound::1130
+ingredient::mutton,has_compound,compound::1146
+ingredient::mutton,has_compound,compound::2969
+ingredient::mutton,has_compound,compound::3776
+ingredient::mutton,has_compound,compound::3893

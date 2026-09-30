@@ -15,6 +15,10 @@ properties:
     displayName: Found by
   cited_by:
     displayName: Cited by
+  kind:
+    displayName: Kind
+  availability:
+    displayName: Availability
 views:
   - type: table
     name: Process next
@@ -27,8 +31,8 @@ views:
       - published
       - venue
       - relevance
-      - manipulation
-      - outcome
+      - kind
+      - availability
       - why
       - url
     sort:
@@ -61,8 +65,8 @@ views:
     order:
       - file.name
       - published
-      - relevance
-      - topics
+      - kind
+      - availability
       - why
       - found_by
       - cited_by
@@ -90,8 +94,9 @@ views:
       direction: ASC
     order:
       - file.name
-      - published
-      - relevance
+      - kind
+      - availability
+      - countries
       - why
   - type: table
     name: Cited by this paper

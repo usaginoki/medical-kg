@@ -1,0 +1,156 @@
+worker_id,sample_id,sub_topic,first_statement,options,answer_key,relevant_to_this_country,relevant_to_other_countries,should_discard,country,region
+Egypt-1,1 | Breakfast,الافطار,يقوم أحمد بتحضير الفول للإفطار,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تناول الفول مع الأرز', ' يتم تناول الفول بالخبز',
+       ' يتم تناول الفول مع الفواكه'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,2 | Breakfast,الافطار,تقوم شمس بقلي الفلافل في الزيت للإفطار,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تقديم الفلافل إلي جانب الفواكه',
+       ' يتم تقديم الفلافل إلي جانب الفول والسلطة والخبز',
+       ' يتم تقديم الفلافل مغطاة بالشيكولاته'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,3 | Breakfast,الافطار,يتناول أحمد الجبن والفطير,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يأكل احمد الفطير باستخدام الشوكة والسكين',
+       ' يأكل أحمد الفطير مع الدجاج', ' ياكل احمد الفطير مع الشاي'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,4 | Breakfast,الافطار,أحضرت شمس مربي الفراولة للفطور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تتناول شمس المربي مع الفول',
+       ' تتناول شمس المربي مع السمسم والطحين',
+       ' تتناول شمس المربي مع الزبدة'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Egypt,Nile Valley
+Egypt-1,5 | Breakfast,الافطار,أحضر أحمد الفول والفلافل للإفطار,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم وضع الفول والفلافل مع الخضروات في الخبز',
+       ' يتم وضع الفول والفلافل مع الفواكه علي الخبز',
+       ' يتم وضع الفول والفلافل علي الأرز'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,6 | Lunch,الغداء,تطهو الأم البازلاء والأرز واللحم للغداء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تناول البازلاء مع الارز واللحم والسلطة أحيانا',
+       ' يتم طهو البازلاء بمعجون الفلفل الحار وليس الطماطم وتقدم مع الخبز',
+       ' يتم تناول البازلاء مع المعكرونة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,7 | Lunch,الغداء,تعد أسماء الكشري للغذاء ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تضاف الشطة والصلصة إلي الكشري', ' يتم إضافة القلقاس إلي الكشري',
+       ' يتم إضافة البازلاء إلي الكشري'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,8 | Lunch,الغداء,يقوم أحمد بشواء الكفتة والكباب للغذاء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقدم الكفتة مع العدس الأصفر', ' يضاف العسل إلي الكفتة',
+       ' تقدم الكفتة علي صحن مغطي بالخضروات الورقية'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Egypt,Nile Valley
+Egypt-1,9 | Lunch,الغداء,تعد شمس السمك المشوي للغذاء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تضاف الصلصة إلي السمك المشوي',
+       ' يتم تناول السمك مع الارز والسلطة',
+       ' يتم شواء السمك بالدقيق الابيض'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,10 | Lunch,الغداء,تحضر الأم الأرز المعمر باللحم البقري علي الغذاء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يقدم الأرز المعمر مع الفاكهة',
+       ' يضاف السمن والقشدة واللبن إلي الأرز المعمر',
+       ' يضاف المربي والعسل إلي الأرز المعمر'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,11 | Dinner,العشاء,تحضر الأم البطاطس المقلية علي العشاء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تؤكل البطاطس مع المربي في الخبز',
+       ' تؤكل البطاطس مع الأرز في العشاء',
+       ' تضع الأم البطاطس داخل الخبز مع معجون الطماطم والجبن'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,12 | Dinner,العشاء,أحضر الأب السمك المدخن والسمك المملح علي العشاء ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يؤكل السمك المملح والمدخن مع البصل والخبز',
+       ' يؤكل السمك المملح والمدخن مع حساء الخضروات',
+       ' يؤكل السمك المملح والمدخن مع الأرز'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Egypt,Nile Valley
+Egypt-1,13 | Iftar (Ramadan),افطار رمضان,تحضر هناء البط والدجاج والخضروات للإفطار,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تناول الإفطار بعد صلاة المغرب مباشرة',
+       ' يتم تناول الإفطار بعد صلاة العشاء',
+       ' عادة ما يتم تناول الإفطار مع الحلوي والشاي'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Egypt,Nile Valley
+Egypt-1,14 | Iftar (Ramadan),افطار رمضان,تحضر الأم البطاطس في الفرن مع الدجاج والحساء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تناول الإفطار مع الحليب', ' يتم تناول الإفطار مع القهوة',
+       ' يتم تناول الإفطار عادة مع العصائر'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Egypt,Nile Valley
+Egypt-1,15 | Iftar (Ramadan),افطار رمضان,تعد أمي حساء الخضروات مع الأرز ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يضاف عصير البرتقال إلي حساء الخضروات',
+       ' يؤكل حساء الخضروات بالخبز لا بالأرز',
+       ' يضاف عصير الليمون إلي حساء الخضروات'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Egypt,Nile Valley
+Egypt-1,16 | Iftar (Ramadan),افطار رمضان,تعد أمي حساء العدس مع الخبز ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يؤكل حساء العدس باردا مع الأرز',
+       ' يؤكل حساء العدس ساخنا مع البصل الأخضر',
+       ' يؤكل حساء العدس مع السمك المشوي'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,17 | Iftar (Ramadan),افطار رمضان,نتناول الديك المشوي المحشو بالبصل علي الإفطار ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم حشو الديك الرومي بالمعكرونة', ' يتم حشو الديك الرومي بالعدس',
+       ' يتم حشو الديك الرومي اما بالأرز وإما بالبصل'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,18 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),تحضر أمي الزبادي والفول علي السحور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تناول الدجاج المشوي واللحم المشوي مع الفاصوليا البيضاء',
+       ' يتم تقديم الدجاح واللحم المشوي م',
+       ' يتم تناول السحور قبل آذان الفجر'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,20 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),يتم تناول الخبز والفول للسحور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تناول الخبز مع الفول والدجاج المشوي علي السحور',
+       ' يتم تناول الخبز مع الفول والفلافل',
+       ' يتم تناول الخبز مع الطعام المطهو في السحور'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,21 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),عادة ما يتناول الناس السحور مع  الحليب,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقدم الطواجن مع الشاي علي السحور',
+       ' تقدم الحلوي مع الشاي علي السحور',
+       ' تقدم العصائر او الشاي مع السحور'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,22 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),تفضل امي تقديم الزبادي والخيار والكثير من الماء علي السحور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يفضل تناول الطعام المالح وعدم شرب الماء اثناء السحور',
+       ' شرب الماء الكثير عادة في وقت السحور',
+       ' لا يتم شرب الماء في وقت السحور وانما تناول الطعام فقط'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Egypt,Nile Valley
+Egypt-1,23 | Dessert,حلوى,يتم تناول الكنافة بعد تحميصها في السمن أولا,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقدم الكنافة في وقت الغداء',
+       ' يتم إضافة السكر لا العسل إلي الكنافة',
+       ' يتم تناول الكنافة مع بعض الإضافات احيانا كالمكسرات والمانجو'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Egypt,Nile Valley
+Egypt-1,24 | Dessert,حلوى,تحب اسماء الزلابيا,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم طهو الزلابيا علي البخار', ' يتم تحضير الزلابيا في الفرن',
+       ' يتم قلي الزلابيا في الزيت المغلي واضافة عسل الجلوكوز إليها'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,25 | Dessert,حلوى,تحب عائلتي تناول القطائف مع الشاي,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم إضافة الخضروات في حشو القطائف ويتم طهوها في الفرن',
+       ' يتم حشو القطائف بالمانجو ويتم إضافة الحليب إليها',
+       ' يتم حشو القطائف بالمكسرات ويتم قليها فالزيت المغلي ويضاف إليها عسل الجلوكوز'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,26 | Fruits,فاكهة,أحب تناول المانجو وأضيفها إلي العصائر  أحيانا ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['المانجو فاكهة يكثر حصادها وأكلها في شهر ديسمبر',
+       'المانجو فاكهة يكثر حصادها وأكلها في الصيف',
+       ' المانجو فاكهة متواجدة طوال العام وتطهي مع إضافة معجون الطماطم إليها'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,27 | Fruits,فاكهة,أحضر أبي بطيخة من السوق لنتناولها,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['أحيانا يتم تناول البطيخ علي الغداء مع الخبز والجبن',
+       ' يتم إضافة العسل إلي البطيخ قبل تناوله',
+       ' يتم طهو البطيخ قبل تناوله'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,28 | Fruits,فاكهة,أحضرت أمي الجوافة من السوق,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم إضافة العسل الأسود إلي عصير الجوافة',
+       ' نتناول الجوافة كعصير وإما سليمة',
+       ' يتم إضافة معجون الطماطم إلي عصير الجوافة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,29 | Snacks,وجبات خفيفة,يتم تناول المسليات عند مشاهدة الأفلام,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تحميص لب المانجو وتناوله عند مشاهدة الأفلام',
+       ' يتم إضافة العسل او السكر أو الحليب إلي لب دوار الشمس والفول السوداني عند التحميص',
+       ' يتم تحميص اللب والفول واحيانا تناول مقرمشات الذرة ايضا'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Egypt,Nile Valley
+Egypt-1,30 | Snacks,وجبات خفيفة,يحضر أحمد طبق كبير من الفشار لتناولها اثناء اللعب,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تناول الفشار إما مملح وإما بإضافة الكراميل عليه أو المنكهات الصناعية كطعم الجبن مثلا',
+       ' يتم طهو الفشار علي البخار',
+       ' يتم إضافة العسل الأبيض أو الاسود علي الفشار'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Egypt,Nile Valley
+Egypt-1,1 | wedding location,مكان الزواج,يتم إقامة حفلات الزفاف عادة في اماكن مخصصة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم إقامة حفلات الزفاف  في الحارات المزدحمة',
+       ' يتم إقامة حفلات الزفاف في مراكب نيلية',
+       ' يتم إقامة حفلات الزفاف في المنازل'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,2 | wedding food,طعام الزواج,في حفلات الزفاف يكون هناك طعام,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['في حفلات الزفاف يحضر الناس كعك الزفاف و الحلوي والعصائر لتوزيعها علي الضيوف',
+       ' في حفلات الزفاف يتم توزيع الوجبات الجاهزة من مطاعم الوجبات السريعة',
+       ' في حفلات الزفاف يجب علي الضيوف إحضار الطعام معهم'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Egypt,Nile Valley
+Egypt-1,3 | wedding dowry,مهر الزواج,يعطي العريس أهل العروسة المهر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم إعطاء المهر في شكل ذهب أحيانا', ' يؤخذ المهر في حفلة الخطوبة',
+       ' يؤخذ المهر بعد الطلاق'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Egypt,Nile Valley
+Egypt-1,4 | wedding (other logistics),تجهيزات أخرى للزواج,كتابة الكتاب احد خطوات الزواج ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['لايتم كتابة الكتاب إلا بعد حفل الزفاف',
+       ' يتم كتابة الكتاب قبل حفل الزفاف بمدة وجيزة لاتزيد عن ثلاثة أشهر غالبا',
+       ' يتم كتب الكتاب بدون إشهار'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Egypt,Nile Valley
+Egypt-1,5 | wedding (other logistics),تجهيزات أخرى للزواج,عادة ما يتم حجز سيارة مخصصة لحفل الزفاف,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['عادة ما تقود والدة الزوج سيارة الزفاف',
+       ' عادة ما يتم تأجير دراجة بخارية من أجل حفل الزفاف ويقودها الزوج',
+       ' يتم تزيين سيارا حفل الزفاف ويقودها شخص من أقاربه'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,6 | men cermony vs. women cermony,احتفالات الزواج للرجال vs احتفالات الزواج للنساء, يتم إقامة حفلة كبيرة في منزل العروس وتأتي الفتيات للرقص ورسم نقوش الحناء مع العروس,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['في المدن الكبيرة عادة يكون هناك احتفال بليلة الحناء للعريس وتتم إقامتها بعد حفل الزفاف في وجود العروس',
+       ' في المدن الكبيرة والعاصمة  يتم الاحتفال بالرجل قبيل الزفاف في قاعة كبيرة مخصصة لذلك',
+       ' عادة ما يقتصر الاحتفال بالنسبة إلي الرجال علي حفل الزفاف فقط بينما الفتيات دائما ما يكون قبيل حفل الزفاف بيوم او يومين'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,7 | men cermony vs. women cermony,احتفالات الزواج للرجال vs احتفالات الزواج للنساء,يتم الاحتفال بالعريس والعروس علي حد سواء ويتم طهو الطعام وتوزيعه علي الضيوف ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['في القاهرة  عادة ما يتم توزيع الطعام علي الجيران والاقارب في ليلة الحناء ويحضر طاه خاص لهذه المناسبة',
+       ' في بورسعيد يتم نقش الحناء علي يد العريس و العروس',
+       ' في بلاد النوبة وبعض قري الصعيد يتم الاحتفال بالعريس والعروس علي حد سواء ويتم طهو الطعام وتوزيعه علي الضيوف'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,8 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,تقدم الحلوي والمشروبات الغازية أثناء حفل الزفاف في المدن والعاصمة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقدم بعض المعجنات والمخبوزات بجانب الحلوي في حفلة الزواج',
+       ' عادة ما يقدم المياه فقط للضيوف في حفلات الزفاف',
+       ' توزع الحلوي في آخر حفل الزفاف ليأخذها الضيوف إلي بيتهم'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,9 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,يرقص الزوجان وحدهما في منتصف المنصة المخصصة لذلك وعادة ما تكون مرتين مرة في أول الحفل ورقصة ختامية ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['ترقص العروس مع والدها في الرقصه الإفتتاحية',
+       ' تكون الرقصة الافتتاحيه  من نصيب العريس مع والدته',
+       ' ترقص العروس مع العريس علي احدي الاغان الهادئة وغالبا ما تكون ""أتحدي العالم"" للفنان صابر الرباعي'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,10 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,يبدأ منظم الحفل في فصل الرجال في مجموعة  و النساء في مجموعه,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تبدأ كل مجموعة بتكوين دائرة يتنصفها العريس أو العروس علي حد سواء للرقص سويا',
+       ' تكون الفتيات دائرة حول العريس للرقص معه',
+       ' يكون الرجال دائرة حول العروس للرقص معها'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,11 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,احيانا يتم الرقص في الأفراح,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم الرقص علي الاغاني الاجنبية',
+       '  يتم الرقص في على موسيقى الراب',
+       ' احيانا يتم الرقص علي صوت المزمار او الطبل اذا احضر العريس فرقة مخصصة لذلك'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,12 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,يجب أن يسقي العريس والعروس بعضهما م الشربات ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يجب أن يطعم العريس والعروس بعضهما م كعك الزفاف',
+       ' تقطع العروس ووالدها كعك الزفاف',
+       ' يقطع العريس ووالدته كعك الزفاف'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,1 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,عادة ما يتم شراء خروف للتضحية به قبيل ذلك بعدة أيام ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم إحضار الاضحية رابع يوم عيد الأضحى',
+       ' يتم إطعام الخروف العلف والأرز قبيل ذبحه  بفتره كافية',
+       ' يتم ذبح الأضحية قبل العيد بيومين'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,2 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,عادة ما يتم طهو الفتة المصرية صبيحة يوم عيد الأضحى ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تقديم الفتة مع الحمص والعدس', ' تقدم الفتة مع الحليب',
+       ' تقدم الفتة مع حساء اللحم والعيش المحمص'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,3 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,عادة مايشتري الحلوي والشوكولاتة قبيل عيد الفطر لتقديمها للزوار,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['عادة ما يشتري الناس الكعك والبسكويت و البيتيفور قبل العيد',
+       ' يكون الكعك محشو بالفواكه', ' يتم تحمير الكعك في الزيت الغزير'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,5 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية, يتم تنظيف المنازل  وباحات المنازل قبيل العيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم الأمهات بتنظيف المنزل بشكل مكثف اثناء العيد',
+       ' تحضر  بعض الأمهات سيدات لمساعدتهن فالتنظيف قبيل العيد',
+       ' يقوم الزوج بتنظيف المنزل قبيل العيد'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,6 | traditions during religous holidays,العادات في الأعياد الدينية,تؤدي صلاة العيد بعد صلاه الفجر بفترة وجيزة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تتم صلاة العيد في داخل قاعات مخصصة لذلك',
+       ' تؤدي صلاة العيد في ساحات المساجد والخلاء',
+       ' تؤدي صلاة العيد في ساحات المطاغم و المقاهي'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,7 | traditions during religous holidays,العادات في الأعياد الدينية,يكبر الأطفال مع الإمام في مكبر صوت المسجد  ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يكبر الناس تكبيرات العيد الاضحي في الخلاء',
+       ' تبدأ تكبيرات عيد الأضحى بعد صلاة الظهر',
+       ' يكبر الأطفال مع الإمام في مكبر صوت المسجد بعد صلاة المغرب'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Egypt,Nile Valley
+Egypt-1,8 | traditions during religous holidays,العادات في الأعياد الدينية,يتم توزيع اللحم في خلال ايام العيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم ذبح الأضحية بعد العيد بشهر',
+       ' يتم ذبح الأضحية قبل صلاة العيد مباشرة',
+       ' يتم توزيع اللحم علي الاسرة والفقراء'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Egypt,Nile Valley
+Egypt-1,9 | traditions during religous holidays,العادات في الأعياد الدينية,يعطي الناس الأطفال المال لشراء الالعاب بعد صلاه العيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم توزيع الوجبات علي المصلين بعد صلاة العيد',
+       ' يعطي الناس الأطفال المال لشراء الحلوي بعد الصلاة',
+       ' يوزع الناس اللحم علي الأطفال بعد الصلاة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Egypt,Nile Valley
+Egypt-1,10 | traditions during religous holidays,العادات في الأعياد الدينية,يشتري الأب الحلوي احتفالا بمولد النبي محمد عليه الصلاه والسلام ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تتكون حلوي المولد من الكعك والبسكويت',
+       ' تقدم حلوي المولد مع الشاي والشوكولاتة',
+       ' تتكون الحلوي من السمسمية والفولية والملبن'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Egypt,Nile Valley

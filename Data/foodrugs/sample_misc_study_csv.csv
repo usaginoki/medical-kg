@@ -1,0 +1,51 @@
+study_id,attribute_name,attribute_value
+2,gener,Female
+2,bmi,Lean
+2,Source name,Milk Fat Globule
+3,cell line,CCD-18Co
+3,cell type,Normal human colon fibroblasts cells
+3,confluency,~90% confluent monolayer
+3,treatment time,24h
+4,cell line,LNCaP
+4,cell type,prostate cancer cell line
+5,cell line,SK-MEL-3
+6,tissue,blood
+6,disease,hypertriglyceridemia
+7,source,cells derived from 39yo parous Japanese female diagnosed with endometrial adenocarcinoma stage 2
+7,Source name,Ishikawa Cell Line
+8,tissue,Peripheral blood mononuclear cells (PBMCs)
+8,Source name,blood
+9,ethnic background,Caucasian
+9,gender,male
+9,age,45-65 years
+9,tissue,vastus lateralis muscle
+10,Source name,cell line ATCC
+12,tissue,breast cancer
+16,tissue,Prostate
+16,cell line,LNCaP
+17,tissue,Blood
+18,cell line,CHUB-S7
+18,cell type,adipocyte cells
+19,gender,female
+19,cell type,B-cell
+20,tissue,Periferal blood mononuclear cells
+20,time,4 hours after olive oil intake
+21,cell line,MCF-7
+22,tissue,meibomian gland epithelial cells
+23,cell line,Huh7.5.1
+23,cell type,hepatoma cells
+24,cell line,MIA PaCa-2 (CRL-1420)
+24,cell type,human pancreatic cancer cells
+25,Source name,"CD14+ monocytes, by positive selection"
+26,age,25-40 yrs
+26,cell type,peripheral blood mononuclear cells
+27,cell line,Caco-2
+27,cell type,human colorectal adenocarcinoma
+29,cell line,HT29
+29,cell line origin,colon cancer
+30,cell line,A-498 (ATCC HTB-44)
+30,tumor type,renal cell carcinoma
+30,gender,female
+31,disease state,Alzheimers disease
+31,cell type,mononuclear leukocytes
+32,primary cells,Keratinocytes

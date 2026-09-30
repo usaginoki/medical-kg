@@ -1,0 +1,51 @@
+Unnamed: 0,ID,Topic,Source,Question,Translation
+0,Al-en-01,Food,English (US),Vad är ett vanligt mellanmål för förskolebarn i Sverige?,What is a common snack for nursery kids in Sweden?
+1,Al-en-02,Food,English (US),Vilken mat är populär att äta i Sverige om måltidsdrycken är öl?,What is a popular food to go with beer in Sweden?
+2,Al-en-04,Food,English (US),Vilken frukt är mest populär i Sverige?,What is the most popular fruit in Sweden?
+3,Al-en-06,Food,English (US),Vilken maträtt är vanligast i skolmatsalar i Sverige?,What is a common school cafeteria food in Sweden?
+4,Al-en-08,Food,English (US),Vilket snacks äts oftast i köpcentrum i Sverige?,What are the most commonly eaten snacks at shopping malls in Sweden?
+5,Al-en-09,Food,English (US),"Vilket mellanmål är populärt på nöjesfält i Sverige? (T.ex., Gröna Lund eller Liseberg)",What is a popular snack at an amusement park in Sweden?
+6,Al-en-16,Education,English (US),"Vid vilken ålder börjar barn i förskolan i Sverige? (Ange endast arabiska siffror, t.ex. 12;05 betyder 12 år och fem månader)","At what age do kids start nursery in Sweden? (Provide Arabic numerals (e.g., 12) only.)"
+7,Al-en-17,Education,English (US),Vilken sport är populär efter skolan för barn som går i lågstadiet i Sverige?,What is a popular afterschool sport for primary schools in Sweden?
+8,Al-en-18,Education,English (US),I vilket ämne får lågstadieelever privatundervisning i Sverige?,For which subject do primary school students get private education in Sweden?
+9,Al-en-19,Education,English (US),Vilket andraspråk är populärast bland högstadieelever i Sverige?,What is a popular second language for secondary school students in Sweden?
+10,Al-en-21,Education,English (US),Vilket ämne är viktigast inom utbildning för särskilt begåvade elever i Sverige?,Which subject is the most important for gifted education in Sweden?
+11,Al-en-32,Holidays/Celebration/Leisure,English (US),Vilken är huvudrätten vid firandet av Thanksgiving i Sverige?,What is the main dish for Thanksgiving in Sweden?
+12,Al-en-33,Holidays/Celebration/Leisure,English (US),Hur firar man Halloween i Sverige?,What do people do to celebrate Halloween in Sweden?
+13,Al-en-34,Holidays/Celebration/Leisure,English (US),Hur firar man nyårsdagen i Sverige?,What do people do to celebrate New Year's Day in Sweden?
+14,Al-en-35,Holidays/Celebration/Leisure,English (US),Hur firar man jul i Sverige?,What do people do to celebrate Christmas in Sweden?
+15,Al-en-36,Holidays/Celebration/Leisure,English (US),Vilken mat förknippas med Halloween i Sverige?,What food is associated with Halloween in Sweden?
+16,Al-en-37,Holidays/Celebration/Leisure,English (US),Vilken mat förknippas med jul i Sverige?,What food is associated with Christmas in Sweden?
+17,Al-en-38,Holidays/Celebration/Leisure,English (US),Vilken mat förknippas med Alla hjärtans dag i Sverige?,What food is associated with Valentine's day in Sweden?
+18,Al-en-39,Holidays/Celebration/Leisure,English (US),Vad äter man vanligtvis på sin födelsedag i Sverige?,What do people eat on their birthday in Sweden?
+19,Al-en-40,Holidays/Celebration/Leisure,English (US),Vilken utomhusplats är populär för familjer med små barn att roa sig på i Sverige?,What is a popular outdoor place for families to have fun with little kids in Sweden?
+20,Al-en-43,Holidays/Celebration/Leisure,English (US),Vilken inomhusaktivitet är populär bland familjer i Sverige?,What is a popular indoor activity for families in Sweden?
+21,An-ar-02,Education,Arabic (Algeria),Var äter universitetsstudenter vanligtvis lunch i Sverige?,Where do university students have lunch in Sweden?
+22,An-ar-03,Education,Arabic (Algeria),Vilken månad infaller vanligtvis slutproven på gymnasiet i Sverige? (Ange arabiska siffror mellan 1–12),Which month is the final exam term usually scheduled at secondary schools in Sweden? (Provide Arabic numerals (1~12) only.)
+23,An-ar-08,Education,Arabic (Algeria),"Hur många timmar per dag tillbringar elever vanligtvis i gymnasiet i Sverige? (Ange heltal mellan 0–24, utan decimaler)","How many hours a day do students in Sweden usually spend at secondary school? (Provide Arabic numerals in integers (0~24), without any decimal points.)"
+24,An-ar-09,Education,Arabic (Algeria),"Hur många språk studerar högstadieelever i Sverige (svenska exkluderat)? (Ange arabiska siffror, t.ex. 5)","How many languages do students study at secondary school in Sweden? (Provide Arabic numerals (e.g., 5) only.)"
+25,An-ar-34,Sport,Arabic (Algeria),Vilken är den populäraste lagsporten i skolan i Sverige?,What is the most popular sport played in a team at school in Sweden?
+26,An-ar-35,Sport,Arabic (Algeria),Vem är den populäraste sportkommentatorn i Sverige?,Who is the most popular sports commentator in Sweden?
+27,An-ar-36,Sport,Arabic (Algeria),"Inom sport, vilket är det populäraste laget i Sverige?",What is the most popular sports team in Sweden?
+28,An-ar-43,Sport,Arabic (Algeria),Vilka är de vanligaste platserna där folk i Sverige brukar samlas för att titta på sport?,What are the common places or venues where individuals in Sweden usually gather to watch sports broadcasts?
+29,Ca-sp-05,Food,Spanish (Spain),"Hur många måltider per dag äter man vanligtvis i Sverige? (Ange arabiska siffror, t.ex. 12) ","How many meals per day do people from Sweden usually have? (Provide Arabic numerals (e.g., 5) only.)"
+30,Ca-sp-06,Food,Spanish (Spain),Vilken måltid under dagen anses vara viktigast i Sverige?,Which is the most important meal of the day to people from Sweden?
+31,Ca-sp-08,Food,Spanish (Spain),Vilken är den vanligaste ingrediensen i kosten i Sverige?,What is the most common ingredient used in Sweden's diet?
+32,Ca-sp-09,Food,Spanish (Spain),Vad äter man vanligtvis till efterrätt i Sverige?,What do people from Sweden usually eat for dessert?
+33,Ca-sp-11,Food,Spanish (Spain),Vilken veckodag brukar man oftast samla familjen för en gemensam måltid i Sverige?,Which day of the week do people usually organize a family meal in Sweden?
+34,Ca-sp-14,Food,Spanish (Spain),Vilken är den populäraste varma drycken i Sverige?,Which is the most popular hot drink in Sweden?
+35,Ca-sp-19,Holidays/Celebration/Leisure,Spanish (Spain),Vad dricker unga människor vanligtvis på nattklubb i Sverige?,What do young people from Sweden usually drink at the night club?
+36,Ca-sp-21,Holidays/Celebration/Leisure,Spanish (Spain),Vilken månad tar folk vanligtvis semester i Sverige? (Ange arabiska siffror mellan 1–12),In which month do people usually take holidays in Sweden? (Provide Arabic numerals (1~12) only.)
+37,Ca-sp-29,Holidays/Celebration/Leisure,Spanish (Spain),Vad är tradition på nyårsafton i Sverige?,What tradition is there in Sweden for New Year's Eve?
+38,Ca-sp-38,Family,Spanish (Spain),Vilken typ av bostad är vanligast för familjer i Sverige?,Which is the typical type of house for a family in Sweden?
+39,Ca-sp-41,Family,Spanish (Spain),Var bor äldre personer som är beroende av vård vanligtvis i Sverige?,Where do the dependent elderly usually live in Sweden?
+40,Ca-sp-42,Family,Spanish (Spain),"Hur lång är mammaledigheten i Sverige (i veckor)? (Ange endast arabiska siffror, t.ex. 4)","How long (in weeks) is Sweden's maternity leave for mums? (Provide Arabic numerals (e.g., 20) only.)"
+41,Ca-sp-43,Family,Spanish (Spain),"Hur lång är pappaledigheten i Sverige (i veckor)? (Ange endast arabiska siffror, t.ex. 4)","How long (in weeks) is Sweden's paternity leave for dads? (Provide Arabic numerals (e.g., 20) only.)"
+42,Ca-sp-45,Family,Spanish (Spain),Vilken typ av resmål väljer familjer oftast för semester i Sverige? ,What type of destination is commonly chosen for a family holiday in Sweden?
+43,Gu-ch-05,Sport,Chinese (China),Vilka sporter tycker äldre personer bäst om i Sverige? # Participation or watching/following?,What sports do seniors like the most in Sweden?
+44,Gu-ch-06,Sport,Chinese (China),Vilka sporter utövar män helst i Sverige?,What sports do men like to play the most in Sweden?
+45,Gu-ch-07,Sport,Chinese (China),Vem är den kändaste basketspelaren i Sverige?,Who is the most famous basketball player in Sweden?
+46,Gu-ch-08,Sport,Chinese (China),Vilken sport är mest populär bland barn att utöva i Sverige?,What is the most popular sports among children in Sweden?
+47,Gu-ch-09,Sport,Chinese (China),Vilka sporter utövar kvinnor helst i Sverige?,What sports do women like to play the most in Sweden?
+48,Gu-ch-11,Sport,Chinese (China),I vilken olympisk gren har Sverige vunnit flest guldmedaljer? ,In which sports event at the olympics has Sweden won the most gold medals?
+49,Gu-ch-15,Sport,Chinese (China),Vilka sporter utövar manliga universitetsstudenter helst i Sverige?,What sports do male students in university like to play the most in Sweden?

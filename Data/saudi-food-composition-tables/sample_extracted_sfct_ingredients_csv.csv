@@ -1,0 +1,51 @@
+dish_id,dish_name,component,ingredient,quantity
+1,Qursan,Mixture) Ingredients,"Lamb meat, medium pieces",300 g
+1,Qursan,Mixture) Ingredients,Ghee,60 g
+1,Qursan,Mixture) Ingredients,Dried Qursan bread,200 g
+1,Qursan,Mixture) Ingredients,"Onion, diced",100 g
+1,Qursan,Mixture) Ingredients,Vegetable oil,100 ml
+1,Qursan,Mixture) Ingredients,Mixed spices,5g
+1,Qursan,Mixture) Ingredients,Tomato paste,30 g
+1,Qursan,Mixture) Ingredients,Salt,2g
+1,Qursan,Mixture) Ingredients,Green beans,100 g
+1,Qursan,Mixture) Ingredients,Water,1.7 L
+1,Qursan,Mixture) Ingredients,Mixed spices,15 g
+1,Qursan,Mixture) Ingredients,"Tomato, diced",150 g
+1,Qursan,Mixture) Ingredients,"Onion, diced",300 g
+1,Qursan,Mixture) Ingredients,"Pumpkin, medium cubes",200 g
+1,Qursan,Mixture) Ingredients,"Eggplant, medium cubes",150 g
+1,Qursan,Mixture) Ingredients,"Zucchini, medium cubes",200 g
+1,Qursan,Mixture) Ingredients,Salt,15 g
+2,Al-Jareesh,Ingredients,Cracked wheat (washed and soaked for an hour),500 g
+2,Al-Jareesh,Ingredients,Ghee,60 g
+2,Al-Jareesh,Ingredients,Ground cumin,8g
+2,Al-Jareesh,Ingredients,Salt,15 g
+2,Al-Jareesh,Ingredients,Water,500 ml
+2,Al-Jareesh,Ingredients,"Onion, finely chopped",100 g
+2,Al-Jareesh,Ingredients,Vegetable oil,100 ml
+2,Al-Jareesh,Ingredients,Laban,1.5 L
+3,Margaouq,Ingredients,Whole wheat flour,300 g
+3,Margaouq,Ingredients,"Onion, finely chopped",100 g
+3,Margaouq,Ingredients,Water,210 ml
+3,Margaouq,Ingredients,"Pumpkin, diced",100 g
+3,Margaouq,Ingredients,Salt,2g
+3,Margaouq,Ingredients,"Small zucchini, whole",100 g
+3,Margaouq,Ingredients,"Eggplant, diced",100 g
+3,Margaouq,Ingredients,"Green beans, chopped",50 g
+3,Margaouq,Ingredients,Ground turmeric,2g
+3,Margaouq,Ingredients,Tomato paste,20 g
+3,Margaouq,Ingredients,"Tomato, blended",250 g
+3,Margaouq,Ingredients,"Lamb with bone, small pieces",400 g
+3,Margaouq,Ingredients,Ghee,30 g
+3,Margaouq,Ingredients,Water,2L
+3,Margaouq,Ingredients,Medium hot chili peppers,2 pieces
+3,Margaouq,Ingredients,Dried black lime,2 pieces
+3,Margaouq,Ingredients,Mixed spices,5g
+3,Margaouq,Ingredients,Salt,3g
+3,Margaouq,Ingredients,Ground black pepper,2g
+4,Khameer Qurs / Omar Qurs,Ingredients,Whole wheat flour,400 g
+4,Khameer Qurs / Omar Qurs,Ingredients,Fresh cow’s milk,330 ml
+4,Khameer Qurs / Omar Qurs,Ingredients,Ground ginger,2g
+4,Khameer Qurs / Omar Qurs,Ingredients,Ground turmeric,6g
+4,Khameer Qurs / Omar Qurs,Ingredients,Nigella seeds,6g
+4,Khameer Qurs / Omar Qurs,Ingredients,Ground safflower,2g

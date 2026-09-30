@@ -1,0 +1,143 @@
+filters:
+  and:
+    - file.hasTag("type/dataset")
+properties:
+  file.name:
+    displayName: Dataset
+  availability:
+    displayName: Availability
+  accessed:
+    displayName: Accessed
+  access_method:
+    displayName: How accessed
+  has_ingredients:
+    displayName: Ingredients
+  has_amounts:
+    displayName: Amounts
+  has_cooking_method:
+    displayName: Cooking
+  has_nutrition:
+    displayName: Nutrition
+  body_effect:
+    displayName: Body effect
+  body_effect_how:
+    displayName: How effect inferred
+  join_keys:
+    displayName: Join keys
+views:
+  - type: table
+    name: All datasets
+    order:
+      - file.name
+      - kind
+      - availability
+      - accessed
+      - access_method
+      - n_records
+      - countries
+      - license
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Food
+    filters:
+      and:
+        - kind.contains("food")
+    order:
+      - file.name
+      - availability
+      - accessed
+      - n_records
+      - has_ingredients
+      - has_amounts
+      - has_cooking_method
+      - has_nutrition
+      - countries
+  - type: table
+    name: Ingredients & compounds
+    filters:
+      or:
+        - kind.contains("ingredient")
+        - kind.contains("compound")
+    order:
+      - file.name
+      - kind
+      - availability
+      - accessed
+      - body_effect
+      - body_effect_how
+      - join_keys
+      - countries
+  - type: table
+    name: Access status
+    groupBy:
+      property: availability
+      direction: ASC
+    order:
+      - file.name
+      - kind
+      - accessed
+      - access_method
+      - access_link
+      - access_notes
+  - type: table
+    name: Needs contact
+    filters:
+      or:
+        - availability == "contact-authors"
+        - availability == "on-request"
+        - availability == "registration"
+        - accessed == false
+    order:
+      - file.name
+      - kind
+      - availability
+      - accessed
+      - access_notes
+      - papers
+  - type: table
+    name: This question
+    filters:
+      and:
+        - questions.contains(this.id)
+    order:
+      - file.name
+      - availability
+      - accessed
+      - n_records
+      - countries
+  - type: table
+    name: This country
+    filters:
+      and:
+        - countries.contains(this.file.asLink())
+    order:
+      - file.name
+      - kind
+      - availability
+      - accessed
+      - has_ingredients
+      - body_effect
+      - n_records
+  - type: table
+    name: This region
+    filters:
+      and:
+        - regions.contains(this.file.asLink())
+    order:
+      - file.name
+      - kind
+      - availability
+      - accessed
+      - countries
+  - type: table
+    name: This paper
+    filters:
+      and:
+        - papers.contains(this.file.asLink())
+    order:
+      - file.name
+      - kind
+      - availability
+      - accessed

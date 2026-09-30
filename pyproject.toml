@@ -4,8 +4,13 @@ version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
     "docling>=2.130.0",
+    "kagglehub>=1.0.2",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.6",
+    "pyarrow>=25.0.1",
     "torch",
     "torchvision",
+    "xlrd>=2.0.2",
 ]
 
 [[tool.uv.index]]

@@ -1,0 +1,51 @@
+nutrient_code,name_ko,name_en,tagname,unit
+A10100,에너지,Energy,ENERC,kcal
+A10200,수분,Water,WATER,g
+A10300,단백질,Protein,PROT,g
+A10400,지방,Fat,FATCE,g
+A10500,회분,Ash,ASH,g
+A10600,탄수화물,Carbohydrate,CHOCDF,g
+A10700,당류,Total sugars,SUGAR,g
+A10701,자당,Sucrose,SUCS,g
+A10702,포도당,Glucose,GLUS,g
+A10703,과당,Fructose,FRUS,g
+A10704,유당,Lactose,LACS,g
+A10705,맥아당,Maltose,MALS,g
+A10706,갈락토오스,Galactose,GALS,g
+A10800,총 식이섬유,Total dietary fiber,FIBTG,g
+A10801,수용성 식이섬유,Water soluble dietary fiber,FIBSOL,g
+A10802,불용성 식이섬유,Water insoluble dietary fiber,FIBINS,g
+B10100,칼슘,Calcium,CA,mg
+B10200,철,Iron,FE,mg
+B10300,마그네슘,Magnesium,MG,mg
+B10400,인,Phosphorus,P,mg
+B10500,칼륨,Potassium,K,mg
+B10600,나트륨,Sodium,,mg
+B10700,아연,Zinc,ZN,mg
+B10800,구리,Copper,CU,mg
+B10900,망간,Manganese,MN,mg
+B11000,셀레늄,Selenium,SE,μg
+B11100,몰리브덴,Molybdenum,MO,μg
+B11200,요오드,Iodine,ID,μg
+C10100,비타민 A,Vitamin A,VITA_RAE,μg
+C10102,레티놀,Retinol,RETOL,μg
+C10103,베타카로틴,β-Carotene,CARTB,μg
+C20100,티아민,Thiamin,THIA,mg
+C20200,리보플라빈,Riboflavin,,mg
+C20300,니아신,Niacin,NIA,mg
+C20301,니아신당량(NE),Total niacin equivalents,NIAEQ,mg
+C20302,니코틴산,Nicotinic acid,,mg
+C20303,니코틴아미드,Nicotinamide,,mg
+C20500,판토텐산,Pantothenic acid,PANTAC,mg
+C20600,비타민 B6,Vitamin B6,VITB6C,mg
+C20601,피리독신,Pyridoxine,PYRXN,mg
+C20700,비오틴,Biotin,BIOT,μg
+C20900,엽산_엽산당량,Folate,FOLDFE,μg
+C20901,엽산_식품 엽산,Food folate,FOLFD,μg
+C20902,엽산_합성 엽산,Folic acid,FOLAC,μg
+C21200,비타민 B12,Vitamin B12,VITB12,μg
+C21300,비타민 C,Vitamin C,VITC,mg
+C10200,비타민 D,Vitamin D,VITD,μg
+C10201,비타민 D2,Ergocalciferol,ERGCAL,μg
+C10202,비타민 D3,Cholecalciferol,CHOCAL,μg
+C10300,비타민 E,Vitamin E,VITE,mg

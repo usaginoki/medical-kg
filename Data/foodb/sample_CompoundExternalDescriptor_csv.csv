@@ -1,0 +1,124 @@
+id,external_id,annotations,compound_id,creator_id,updater_id,created_at,updated_at
+1,CHEBI:6584,"anthocyanidin cation
+",78,,,2015-02-23 22:40:02 UTC,2015-02-23 22:40:02 UTC
+2,C08652,"Anthocyanidins and anthocyanins
+",78,,,2015-02-23 22:40:02 UTC,2015-02-23 22:40:02 UTC
+3,CPD-11945,"a small molecule
+",78,,,2015-02-23 22:40:02 UTC,2015-02-23 22:40:02 UTC
+4,LMPK12120534,"Chalcones and dihydrochalcones
+",87,,,2015-02-23 22:40:07 UTC,2015-02-23 22:40:07 UTC
+5,CHEBI:76132,"polyphenol
+gallate ester
+catechin
+",97,,,2015-02-23 22:40:09 UTC,2015-02-23 22:40:09 UTC
+6,LMPK12020089,"Flavans, Flavanols and Leucoanthocyanidins
+",97,,,2015-02-23 22:40:09 UTC,2015-02-23 22:40:09 UTC
+7,CHEBI:18010,"trihydroxyflavone
+dimethoxyflavone
+",176,,,2015-02-23 22:40:15 UTC,2015-02-23 22:40:15 UTC
+8,C01265,"flavonols
+",176,,,2015-02-23 22:40:15 UTC,2015-02-23 22:40:15 UTC
+9,LMPK12112731,"Flavones and Flavonols
+",176,,,2015-02-23 22:40:15 UTC,2015-02-23 22:40:15 UTC
+10,345-TRIHYDROXY-37-DIMETHOXYFLAVONE,"a flavonol derivative
+",176,,,2015-02-23 22:40:15 UTC,2015-02-23 22:40:15 UTC
+11,LMPK12113021,"Flavones and Flavonols
+",218,,,2015-02-23 22:40:24 UTC,2015-02-23 22:40:24 UTC
+12,CHEBI:75489,"cinnamate ester
+cyclitol carboxylic acid
+",275,,,2015-02-23 22:40:28 UTC,2015-02-23 22:40:28 UTC
+13,CHEBI:41941,"catechols
+dihydroxyphenylacetic acid
+",316,,,2015-02-23 22:40:47 UTC,2015-02-23 22:40:47 UTC
+14,CHEBI:49584,"phenols
+",358,,,2015-02-23 22:40:52 UTC,2015-02-23 22:40:52 UTC
+15,CPD-10596,"an aromatic compound
+",358,,,2015-02-23 22:40:52 UTC,2015-02-23 22:40:52 UTC
+16,CHEBI:16469,"17beta-hydroxy steroid
+estradiol
+",362,,,2015-02-23 22:40:55 UTC,2015-02-23 22:40:55 UTC
+17,C00951,"C18 steroids (estrogens) and derivatives
+Estrane and derivatives
+Estrogens
+",362,,,2015-02-23 22:40:55 UTC,2015-02-23 22:40:55 UTC
+18,LMST02010001,"C18 steroids (estrogens) and derivatives
+",362,,,2015-02-23 22:40:55 UTC,2015-02-23 22:40:55 UTC
+19,LMPK12113018,"Flavones and Flavonols
+",364,,,2015-02-23 22:41:02 UTC,2015-02-23 22:41:02 UTC
+20,CHEBI:17113,"butane-1,2,3,4-tetrol
+",371,,,2015-02-23 22:41:08 UTC,2015-02-23 22:41:08 UTC
+21,LMFA07010627,"Wax monoesters
+",412,,,2015-02-23 22:41:53 UTC,2015-02-23 22:41:53 UTC
+22,LMFA07010625,"Wax monoesters
+",416,,,2015-02-23 22:42:00 UTC,2015-02-23 22:42:00 UTC
+23,LMPK12050003,"Isoflavonoids
+",431,,,2015-02-23 22:42:16 UTC,2015-02-23 22:42:16 UTC
+24,CHEBI:17818,"tyramines
+",432,,,2015-02-23 22:42:18 UTC,2015-02-23 22:42:18 UTC
+25,CHEBI:15760,"monoamine molecular messenger
+primary amino compound
+tyramines
+",433,,,2015-02-23 22:42:20 UTC,2015-02-23 22:42:20 UTC
+26,C00483,"Biogenic amines
+Tyramine derivatives
+",433,,,2015-02-23 22:42:20 UTC,2015-02-23 22:42:20 UTC
+27,CHEBI:17458,"tyramines
+",435,,,2015-02-23 22:42:25 UTC,2015-02-23 22:42:25 UTC
+28,C02442,"Tyramine derivatives
+",435,,,2015-02-23 22:42:25 UTC,2015-02-23 22:42:25 UTC
+29,CHEBI:17183,"benzophenanthridine alkaloid
+",436,,,2015-02-23 22:42:26 UTC,2015-02-23 22:42:26 UTC
+30,C06162,"Isoquinoline alkaloids
+",436,,,2015-02-23 22:42:26 UTC,2015-02-23 22:42:26 UTC
+31,SANGUINARINE,"a small molecule
+",436,,,2015-02-23 22:42:26 UTC,2015-02-23 22:42:26 UTC
+32,CHEBI:34970,"carbamate ester
+organic heterotricyclic compound
+guanidines
+alkaloid
+",437,,,2015-02-23 22:42:28 UTC,2015-02-23 22:42:28 UTC
+33,C13757,"Alkaloids
+Carbamate derivatives
+",437,,,2015-02-23 22:42:28 UTC,2015-02-23 22:42:28 UTC
+34,CHEBI:27479,"hydroxyisoflavone
+",442,,,2015-02-23 22:42:32 UTC,2015-02-23 22:42:32 UTC
+35,C02495,"Isoflavonoids
+isoflavones
+",442,,,2015-02-23 22:42:32 UTC,2015-02-23 22:42:32 UTC
+36,LMPK12050083,"Isoflavonoids
+",442,,,2015-02-23 22:42:32 UTC,2015-02-23 22:42:32 UTC
+37,2-HYDROXYDAIDZEIN,"a small molecule
+",442,,,2015-02-23 22:42:32 UTC,2015-02-23 22:42:32 UTC
+38,CHEBI:17895,"L-alpha-amino acid
+erythrose 4-phosphate/phosphoenolpyruvate family amino acid
+tyrosine
+",446,,,2015-02-23 22:42:37 UTC,2015-02-23 22:42:37 UTC
+39,C00082,"Common amino acids
+",446,,,2015-02-23 22:42:37 UTC,2015-02-23 22:42:37 UTC
+40,CHEBI:28241,"benzylisoquinoline alkaloid
+dimethoxybenzene
+isoquinolines
+",447,,,2015-02-23 22:42:42 UTC,2015-02-23 22:42:42 UTC
+41,C06533,"Isoquinoline alkaloids
+",447,,,2015-02-23 22:42:42 UTC,2015-02-23 22:42:42 UTC
+42,CHEBI:28821,"benzodioxoles
+piperidine alkaloid
+carboxamide
+N-acylpiperidine
+",452,,,2015-02-23 22:42:45 UTC,2015-02-23 22:42:45 UTC
+43,C03882,"Piperidine alkaloids
+",452,,,2015-02-23 22:42:45 UTC,2015-02-23 22:42:45 UTC
+44,CHEBI:28177,"dimethylxanthine
+",453,,,2015-02-23 22:42:47 UTC,2015-02-23 22:42:47 UTC
+45,C07130,"Purine alkaloids
+",453,,,2015-02-23 22:42:47 UTC,2015-02-23 22:42:47 UTC
+46,CPD-12479,"a small molecule
+",453,,,2015-02-23 22:42:47 UTC,2015-02-23 22:42:47 UTC
+47,CHEBI:28946,"dimethylxanthine
+",455,,,2015-02-23 22:42:52 UTC,2015-02-23 22:42:52 UTC
+48,C07480,"Purine alkaloids
+",455,,,2015-02-23 22:42:52 UTC,2015-02-23 22:42:52 UTC
+49,3-7-DIMETHYLXANTHINE,"a small molecule
+",455,,,2015-02-23 22:42:52 UTC,2015-02-23 22:42:52 UTC
+50,CHEBI:16927,"L-lysine derivative
+",461,,,2015-02-23 22:42:58 UTC,2015-02-23 22:42:58 UTC

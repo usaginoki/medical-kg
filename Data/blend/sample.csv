@@ -1,0 +1,901 @@
+MCQID,ID,country,prompt,choices,choice_countries,answer_idx
+Al-en-01_0,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. candy
+B. cookie
+C. egg
+D. fruit
+
+Answer:","{
+    ""A"": ""candy"",
+    ""B"": ""cookie"",
+    ""C"": ""egg"",
+    ""D"": ""fruit""
+}","{
+    ""A"": ""North_Korea"",
+    ""B"": ""South_Korea"",
+    ""C"": ""Mexico"",
+    ""D"": ""UK""
+}",D
+Al-en-01_1,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. cookie
+B. egg
+C. fruit
+D. jelly
+
+Answer:","{
+    ""A"": ""cookie"",
+    ""B"": ""egg"",
+    ""C"": ""fruit"",
+    ""D"": ""jelly""
+}","{
+    ""A"": ""South_Korea"",
+    ""B"": ""Mexico"",
+    ""C"": ""UK"",
+    ""D"": ""West_Java""
+}",C
+Al-en-01_2,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. cookie
+B. egg
+C. fruit
+D. jam sandwiches
+
+Answer:","{
+    ""A"": ""cookie"",
+    ""B"": ""egg"",
+    ""C"": ""fruit"",
+    ""D"": ""jam sandwiches""
+}","{
+    ""A"": ""South_Korea"",
+    ""B"": ""Mexico"",
+    ""C"": ""UK"",
+    ""D"": ""Algeria""
+}",C
+Al-en-01_3,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. chocolate paste
+B. cookie
+C. egg
+D. fruit
+
+Answer:","{
+    ""A"": ""chocolate paste"",
+    ""B"": ""cookie"",
+    ""C"": ""egg"",
+    ""D"": ""fruit""
+}","{
+    ""A"": ""Indonesia"",
+    ""B"": ""South_Korea"",
+    ""C"": ""Mexico"",
+    ""D"": ""UK""
+}",D
+Al-en-01_4,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. cookie
+B. egg
+C. fruit
+D. semolina
+
+Answer:","{
+    ""A"": ""cookie"",
+    ""B"": ""egg"",
+    ""C"": ""fruit"",
+    ""D"": ""semolina""
+}","{
+    ""A"": ""South_Korea"",
+    ""B"": ""Mexico"",
+    ""C"": ""UK"",
+    ""D"": ""Assam""
+}",C
+Al-en-01_5,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. cookie
+B. egg
+C. fruit
+D. potato fries
+
+Answer:","{
+    ""A"": ""cookie"",
+    ""B"": ""egg"",
+    ""C"": ""fruit"",
+    ""D"": ""potato fries""
+}","{
+    ""A"": ""South_Korea"",
+    ""B"": ""Mexico"",
+    ""C"": ""UK"",
+    ""D"": ""Ethiopia""
+}",C
+Al-en-01_6,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. cookie
+B. egg
+C. fruit
+D. noodles
+
+Answer:","{
+    ""A"": ""cookie"",
+    ""B"": ""egg"",
+    ""C"": ""fruit"",
+    ""D"": ""noodles""
+}","{
+    ""A"": ""South_Korea"",
+    ""B"": ""Mexico"",
+    ""C"": ""UK"",
+    ""D"": ""Northern_Nigeria""
+}",C
+Al-en-01_7,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. candy
+B. cookie
+C. fruit
+D. jelly
+
+Answer:","{
+    ""A"": ""candy"",
+    ""B"": ""cookie"",
+    ""C"": ""fruit"",
+    ""D"": ""jelly""
+}","{
+    ""A"": ""North_Korea"",
+    ""B"": ""South_Korea"",
+    ""C"": ""UK"",
+    ""D"": ""West_Java""
+}",C
+Al-en-01_8,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. candy
+B. cookie
+C. fruit
+D. jam sandwiches
+
+Answer:","{
+    ""A"": ""candy"",
+    ""B"": ""cookie"",
+    ""C"": ""fruit"",
+    ""D"": ""jam sandwiches""
+}","{
+    ""A"": ""North_Korea"",
+    ""B"": ""South_Korea"",
+    ""C"": ""UK"",
+    ""D"": ""Algeria""
+}",C
+Al-en-01_9,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. candy
+B. chocolate paste
+C. cookie
+D. fruit
+
+Answer:","{
+    ""A"": ""candy"",
+    ""B"": ""chocolate paste"",
+    ""C"": ""cookie"",
+    ""D"": ""fruit""
+}","{
+    ""A"": ""North_Korea"",
+    ""B"": ""Indonesia"",
+    ""C"": ""South_Korea"",
+    ""D"": ""UK""
+}",D
+Al-en-01_10,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. candy
+B. cookie
+C. fruit
+D. semolina
+
+Answer:","{
+    ""A"": ""candy"",
+    ""B"": ""cookie"",
+    ""C"": ""fruit"",
+    ""D"": ""semolina""
+}","{
+    ""A"": ""North_Korea"",
+    ""B"": ""South_Korea"",
+    ""C"": ""UK"",
+    ""D"": ""Assam""
+}",C
+Al-en-01_11,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. candy
+B. cookie
+C. fruit
+D. potato fries
+
+Answer:","{
+    ""A"": ""candy"",
+    ""B"": ""cookie"",
+    ""C"": ""fruit"",
+    ""D"": ""potato fries""
+}","{
+    ""A"": ""North_Korea"",
+    ""B"": ""South_Korea"",
+    ""C"": ""UK"",
+    ""D"": ""Ethiopia""
+}",C
+Al-en-01_12,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. candy
+B. cookie
+C. fruit
+D. noodles
+
+Answer:","{
+    ""A"": ""candy"",
+    ""B"": ""cookie"",
+    ""C"": ""fruit"",
+    ""D"": ""noodles""
+}","{
+    ""A"": ""North_Korea"",
+    ""B"": ""South_Korea"",
+    ""C"": ""UK"",
+    ""D"": ""Northern_Nigeria""
+}",C
+Al-en-01_13,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. cookie
+B. fruit
+C. jam sandwiches
+D. jelly
+
+Answer:","{
+    ""A"": ""cookie"",
+    ""B"": ""fruit"",
+    ""C"": ""jam sandwiches"",
+    ""D"": ""jelly""
+}","{
+    ""A"": ""South_Korea"",
+    ""B"": ""UK"",
+    ""C"": ""Algeria"",
+    ""D"": ""West_Java""
+}",B
+Al-en-01_14,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. chocolate paste
+B. cookie
+C. fruit
+D. jelly
+
+Answer:","{
+    ""A"": ""chocolate paste"",
+    ""B"": ""cookie"",
+    ""C"": ""fruit"",
+    ""D"": ""jelly""
+}","{
+    ""A"": ""Indonesia"",
+    ""B"": ""South_Korea"",
+    ""C"": ""UK"",
+    ""D"": ""West_Java""
+}",C
+Al-en-01_15,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. cookie
+B. fruit
+C. jelly
+D. semolina
+
+Answer:","{
+    ""A"": ""cookie"",
+    ""B"": ""fruit"",
+    ""C"": ""jelly"",
+    ""D"": ""semolina""
+}","{
+    ""A"": ""South_Korea"",
+    ""B"": ""UK"",
+    ""C"": ""West_Java"",
+    ""D"": ""Assam""
+}",B
+Al-en-01_16,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. cookie
+B. fruit
+C. jelly
+D. potato fries
+
+Answer:","{
+    ""A"": ""cookie"",
+    ""B"": ""fruit"",
+    ""C"": ""jelly"",
+    ""D"": ""potato fries""
+}","{
+    ""A"": ""South_Korea"",
+    ""B"": ""UK"",
+    ""C"": ""West_Java"",
+    ""D"": ""Ethiopia""
+}",B
+Al-en-01_17,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. cookie
+B. fruit
+C. jelly
+D. noodles
+
+Answer:","{
+    ""A"": ""cookie"",
+    ""B"": ""fruit"",
+    ""C"": ""jelly"",
+    ""D"": ""noodles""
+}","{
+    ""A"": ""South_Korea"",
+    ""B"": ""UK"",
+    ""C"": ""West_Java"",
+    ""D"": ""Northern_Nigeria""
+}",B
+Al-en-01_18,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. chocolate paste
+B. cookie
+C. fruit
+D. jam sandwiches
+
+Answer:","{
+    ""A"": ""chocolate paste"",
+    ""B"": ""cookie"",
+    ""C"": ""fruit"",
+    ""D"": ""jam sandwiches""
+}","{
+    ""A"": ""Indonesia"",
+    ""B"": ""South_Korea"",
+    ""C"": ""UK"",
+    ""D"": ""Algeria""
+}",C
+Al-en-01_19,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. cookie
+B. fruit
+C. jam sandwiches
+D. semolina
+
+Answer:","{
+    ""A"": ""cookie"",
+    ""B"": ""fruit"",
+    ""C"": ""jam sandwiches"",
+    ""D"": ""semolina""
+}","{
+    ""A"": ""South_Korea"",
+    ""B"": ""UK"",
+    ""C"": ""Algeria"",
+    ""D"": ""Assam""
+}",B
+Al-en-01_20,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. cookie
+B. fruit
+C. jam sandwiches
+D. potato fries
+
+Answer:","{
+    ""A"": ""cookie"",
+    ""B"": ""fruit"",
+    ""C"": ""jam sandwiches"",
+    ""D"": ""potato fries""
+}","{
+    ""A"": ""South_Korea"",
+    ""B"": ""UK"",
+    ""C"": ""Algeria"",
+    ""D"": ""Ethiopia""
+}",B
+Al-en-01_21,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. cookie
+B. fruit
+C. jam sandwiches
+D. noodles
+
+Answer:","{
+    ""A"": ""cookie"",
+    ""B"": ""fruit"",
+    ""C"": ""jam sandwiches"",
+    ""D"": ""noodles""
+}","{
+    ""A"": ""South_Korea"",
+    ""B"": ""UK"",
+    ""C"": ""Algeria"",
+    ""D"": ""Northern_Nigeria""
+}",B
+Al-en-01_22,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. chocolate paste
+B. cookie
+C. fruit
+D. semolina
+
+Answer:","{
+    ""A"": ""chocolate paste"",
+    ""B"": ""cookie"",
+    ""C"": ""fruit"",
+    ""D"": ""semolina""
+}","{
+    ""A"": ""Indonesia"",
+    ""B"": ""South_Korea"",
+    ""C"": ""UK"",
+    ""D"": ""Assam""
+}",C
+Al-en-01_23,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. chocolate paste
+B. cookie
+C. fruit
+D. potato fries
+
+Answer:","{
+    ""A"": ""chocolate paste"",
+    ""B"": ""cookie"",
+    ""C"": ""fruit"",
+    ""D"": ""potato fries""
+}","{
+    ""A"": ""Indonesia"",
+    ""B"": ""South_Korea"",
+    ""C"": ""UK"",
+    ""D"": ""Ethiopia""
+}",C
+Al-en-01_24,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. chocolate paste
+B. cookie
+C. fruit
+D. noodles
+
+Answer:","{
+    ""A"": ""chocolate paste"",
+    ""B"": ""cookie"",
+    ""C"": ""fruit"",
+    ""D"": ""noodles""
+}","{
+    ""A"": ""Indonesia"",
+    ""B"": ""South_Korea"",
+    ""C"": ""UK"",
+    ""D"": ""Northern_Nigeria""
+}",C
+Al-en-01_25,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. cookie
+B. fruit
+C. potato fries
+D. semolina
+
+Answer:","{
+    ""A"": ""cookie"",
+    ""B"": ""fruit"",
+    ""C"": ""potato fries"",
+    ""D"": ""semolina""
+}","{
+    ""A"": ""South_Korea"",
+    ""B"": ""UK"",
+    ""C"": ""Ethiopia"",
+    ""D"": ""Assam""
+}",B
+Al-en-01_26,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. cookie
+B. fruit
+C. noodles
+D. semolina
+
+Answer:","{
+    ""A"": ""cookie"",
+    ""B"": ""fruit"",
+    ""C"": ""noodles"",
+    ""D"": ""semolina""
+}","{
+    ""A"": ""South_Korea"",
+    ""B"": ""UK"",
+    ""C"": ""Northern_Nigeria"",
+    ""D"": ""Assam""
+}",B
+Al-en-01_27,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. cookie
+B. fruit
+C. noodles
+D. potato fries
+
+Answer:","{
+    ""A"": ""cookie"",
+    ""B"": ""fruit"",
+    ""C"": ""noodles"",
+    ""D"": ""potato fries""
+}","{
+    ""A"": ""South_Korea"",
+    ""B"": ""UK"",
+    ""C"": ""Northern_Nigeria"",
+    ""D"": ""Ethiopia""
+}",B
+Al-en-01_28,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. candy
+B. egg
+C. fruit
+D. jelly
+
+Answer:","{
+    ""A"": ""candy"",
+    ""B"": ""egg"",
+    ""C"": ""fruit"",
+    ""D"": ""jelly""
+}","{
+    ""A"": ""North_Korea"",
+    ""B"": ""Mexico"",
+    ""C"": ""UK"",
+    ""D"": ""West_Java""
+}",C
+Al-en-01_29,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. candy
+B. egg
+C. fruit
+D. jam sandwiches
+
+Answer:","{
+    ""A"": ""candy"",
+    ""B"": ""egg"",
+    ""C"": ""fruit"",
+    ""D"": ""jam sandwiches""
+}","{
+    ""A"": ""North_Korea"",
+    ""B"": ""Mexico"",
+    ""C"": ""UK"",
+    ""D"": ""Algeria""
+}",C
+Al-en-01_30,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. candy
+B. chocolate paste
+C. egg
+D. fruit
+
+Answer:","{
+    ""A"": ""candy"",
+    ""B"": ""chocolate paste"",
+    ""C"": ""egg"",
+    ""D"": ""fruit""
+}","{
+    ""A"": ""North_Korea"",
+    ""B"": ""Indonesia"",
+    ""C"": ""Mexico"",
+    ""D"": ""UK""
+}",D
+Al-en-01_31,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. candy
+B. egg
+C. fruit
+D. semolina
+
+Answer:","{
+    ""A"": ""candy"",
+    ""B"": ""egg"",
+    ""C"": ""fruit"",
+    ""D"": ""semolina""
+}","{
+    ""A"": ""North_Korea"",
+    ""B"": ""Mexico"",
+    ""C"": ""UK"",
+    ""D"": ""Assam""
+}",C
+Al-en-01_32,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. candy
+B. egg
+C. fruit
+D. potato fries
+
+Answer:","{
+    ""A"": ""candy"",
+    ""B"": ""egg"",
+    ""C"": ""fruit"",
+    ""D"": ""potato fries""
+}","{
+    ""A"": ""North_Korea"",
+    ""B"": ""Mexico"",
+    ""C"": ""UK"",
+    ""D"": ""Ethiopia""
+}",C
+Al-en-01_33,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. candy
+B. egg
+C. fruit
+D. noodles
+
+Answer:","{
+    ""A"": ""candy"",
+    ""B"": ""egg"",
+    ""C"": ""fruit"",
+    ""D"": ""noodles""
+}","{
+    ""A"": ""North_Korea"",
+    ""B"": ""Mexico"",
+    ""C"": ""UK"",
+    ""D"": ""Northern_Nigeria""
+}",C
+Al-en-01_34,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. egg
+B. fruit
+C. jam sandwiches
+D. jelly
+
+Answer:","{
+    ""A"": ""egg"",
+    ""B"": ""fruit"",
+    ""C"": ""jam sandwiches"",
+    ""D"": ""jelly""
+}","{
+    ""A"": ""Mexico"",
+    ""B"": ""UK"",
+    ""C"": ""Algeria"",
+    ""D"": ""West_Java""
+}",B
+Al-en-01_35,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. chocolate paste
+B. egg
+C. fruit
+D. jelly
+
+Answer:","{
+    ""A"": ""chocolate paste"",
+    ""B"": ""egg"",
+    ""C"": ""fruit"",
+    ""D"": ""jelly""
+}","{
+    ""A"": ""Indonesia"",
+    ""B"": ""Mexico"",
+    ""C"": ""UK"",
+    ""D"": ""West_Java""
+}",C
+Al-en-01_36,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. egg
+B. fruit
+C. jelly
+D. semolina
+
+Answer:","{
+    ""A"": ""egg"",
+    ""B"": ""fruit"",
+    ""C"": ""jelly"",
+    ""D"": ""semolina""
+}","{
+    ""A"": ""Mexico"",
+    ""B"": ""UK"",
+    ""C"": ""West_Java"",
+    ""D"": ""Assam""
+}",B
+Al-en-01_37,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. egg
+B. fruit
+C. jelly
+D. potato fries
+
+Answer:","{
+    ""A"": ""egg"",
+    ""B"": ""fruit"",
+    ""C"": ""jelly"",
+    ""D"": ""potato fries""
+}","{
+    ""A"": ""Mexico"",
+    ""B"": ""UK"",
+    ""C"": ""West_Java"",
+    ""D"": ""Ethiopia""
+}",B
+Al-en-01_38,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. egg
+B. fruit
+C. jelly
+D. noodles
+
+Answer:","{
+    ""A"": ""egg"",
+    ""B"": ""fruit"",
+    ""C"": ""jelly"",
+    ""D"": ""noodles""
+}","{
+    ""A"": ""Mexico"",
+    ""B"": ""UK"",
+    ""C"": ""West_Java"",
+    ""D"": ""Northern_Nigeria""
+}",B
+Al-en-01_39,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. chocolate paste
+B. egg
+C. fruit
+D. jam sandwiches
+
+Answer:","{
+    ""A"": ""chocolate paste"",
+    ""B"": ""egg"",
+    ""C"": ""fruit"",
+    ""D"": ""jam sandwiches""
+}","{
+    ""A"": ""Indonesia"",
+    ""B"": ""Mexico"",
+    ""C"": ""UK"",
+    ""D"": ""Algeria""
+}",C
+Al-en-01_40,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. egg
+B. fruit
+C. jam sandwiches
+D. semolina
+
+Answer:","{
+    ""A"": ""egg"",
+    ""B"": ""fruit"",
+    ""C"": ""jam sandwiches"",
+    ""D"": ""semolina""
+}","{
+    ""A"": ""Mexico"",
+    ""B"": ""UK"",
+    ""C"": ""Algeria"",
+    ""D"": ""Assam""
+}",B
+Al-en-01_41,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. egg
+B. fruit
+C. jam sandwiches
+D. potato fries
+
+Answer:","{
+    ""A"": ""egg"",
+    ""B"": ""fruit"",
+    ""C"": ""jam sandwiches"",
+    ""D"": ""potato fries""
+}","{
+    ""A"": ""Mexico"",
+    ""B"": ""UK"",
+    ""C"": ""Algeria"",
+    ""D"": ""Ethiopia""
+}",B
+Al-en-01_42,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. egg
+B. fruit
+C. jam sandwiches
+D. noodles
+
+Answer:","{
+    ""A"": ""egg"",
+    ""B"": ""fruit"",
+    ""C"": ""jam sandwiches"",
+    ""D"": ""noodles""
+}","{
+    ""A"": ""Mexico"",
+    ""B"": ""UK"",
+    ""C"": ""Algeria"",
+    ""D"": ""Northern_Nigeria""
+}",B
+Al-en-01_43,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. chocolate paste
+B. egg
+C. fruit
+D. semolina
+
+Answer:","{
+    ""A"": ""chocolate paste"",
+    ""B"": ""egg"",
+    ""C"": ""fruit"",
+    ""D"": ""semolina""
+}","{
+    ""A"": ""Indonesia"",
+    ""B"": ""Mexico"",
+    ""C"": ""UK"",
+    ""D"": ""Assam""
+}",C
+Al-en-01_44,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. chocolate paste
+B. egg
+C. fruit
+D. potato fries
+
+Answer:","{
+    ""A"": ""chocolate paste"",
+    ""B"": ""egg"",
+    ""C"": ""fruit"",
+    ""D"": ""potato fries""
+}","{
+    ""A"": ""Indonesia"",
+    ""B"": ""Mexico"",
+    ""C"": ""UK"",
+    ""D"": ""Ethiopia""
+}",C
+Al-en-01_45,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. chocolate paste
+B. egg
+C. fruit
+D. noodles
+
+Answer:","{
+    ""A"": ""chocolate paste"",
+    ""B"": ""egg"",
+    ""C"": ""fruit"",
+    ""D"": ""noodles""
+}","{
+    ""A"": ""Indonesia"",
+    ""B"": ""Mexico"",
+    ""C"": ""UK"",
+    ""D"": ""Northern_Nigeria""
+}",C
+Al-en-01_46,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. egg
+B. fruit
+C. potato fries
+D. semolina
+
+Answer:","{
+    ""A"": ""egg"",
+    ""B"": ""fruit"",
+    ""C"": ""potato fries"",
+    ""D"": ""semolina""
+}","{
+    ""A"": ""Mexico"",
+    ""B"": ""UK"",
+    ""C"": ""Ethiopia"",
+    ""D"": ""Assam""
+}",B
+Al-en-01_47,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. egg
+B. fruit
+C. noodles
+D. semolina
+
+Answer:","{
+    ""A"": ""egg"",
+    ""B"": ""fruit"",
+    ""C"": ""noodles"",
+    ""D"": ""semolina""
+}","{
+    ""A"": ""Mexico"",
+    ""B"": ""UK"",
+    ""C"": ""Northern_Nigeria"",
+    ""D"": ""Assam""
+}",B
+Al-en-01_48,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. egg
+B. fruit
+C. noodles
+D. potato fries
+
+Answer:","{
+    ""A"": ""egg"",
+    ""B"": ""fruit"",
+    ""C"": ""noodles"",
+    ""D"": ""potato fries""
+}","{
+    ""A"": ""Mexico"",
+    ""B"": ""UK"",
+    ""C"": ""Northern_Nigeria"",
+    ""D"": ""Ethiopia""
+}",B
+Al-en-01_49,Al-en-01,UK,"What is a common snack for preschool kids in the UK? Without any explanation, choose only one from the given alphabet choices(e.g., A, B, C). Provide as JSON format: {""answer_choice"":""""}
+
+A. candy
+B. fruit
+C. jam sandwiches
+D. jelly
+
+Answer:","{
+    ""A"": ""candy"",
+    ""B"": ""fruit"",
+    ""C"": ""jam sandwiches"",
+    ""D"": ""jelly""
+}","{
+    ""A"": ""North_Korea"",
+    ""B"": ""UK"",
+    ""C"": ""Algeria"",
+    ""D"": ""West_Java""
+}",B

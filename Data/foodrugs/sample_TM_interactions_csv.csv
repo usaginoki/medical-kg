@@ -1,0 +1,51 @@
+TM_interactions_ID,texts_ID,start_index,end_index,food,drug
+0,0,0,116,Grapefruit,abemaciclib
+1,0,1943,2220,carbohydrate,abemaciclib
+2,0,2289,2392,grapefruit,abemaciclib
+3,2,385,641,grapefruit,fentanyl
+4,2,643,846,grapefruit,fentanyl
+5,2,1953,2155,grapefruit,fentanyl
+6,7,0,203,grapefruit,paclitaxel
+7,7,987,1146,grapefruit,docetaxel
+8,7,1536,1652,grapefruit,paclitaxel
+9,11,0,141,Ethanol,opioid analgesics
+10,11,260,449,ethanol,opioid analgesics
+11,13,0,139,ethanol,dextromethorphan
+12,13,274,380,ethanol,dextromethorphan
+13,14,155,237,calcium,tetracycline
+14,15,0,166,iron,tetracyclines
+15,15,0,166,salts,tetracyclines
+16,15,201,359,iron,tetracyclines
+17,15,662,783,tetracycline,ferrous sulfate
+18,15,785,1000,tetracycline,ferrous sulfate
+19,15,1002,1176,iron,tetracycline
+20,15,1002,1176,iron,doxycycline
+21,15,1178,1293,iron,doxycycline
+22,15,1295,1565,iron,doxycycline
+23,15,1295,1565,tetracycline,iron-containing
+24,18,626,717,iron,ascorbic acid
+25,19,0,115,Grapefruit,acalabrutinib
+26,19,1545,1897,carbohydrate,acalabrutinib
+27,19,2007,2112,grapefruit,acalabrutinib
+28,20,0,191,potassium,angiotensin converting enzyme (
+29,20,272,381,aldosterone,ACE inhibitors
+30,20,384,528,potassium,ACE inhibitors
+31,21,393,601,salt,ACE inhibitor
+32,21,603,743,sodium,ACE inhibitors
+33,21,872,1140,salt,ACE inhibitor
+34,23,0,237,phosphate,citrates
+35,23,0,237,aluminum,citrates
+36,23,378,534,aluminum,Citrates
+37,23,536,648,aluminum,citrate
+38,23,792,964,soft drinks,citrates
+39,23,792,964,soft drinks,citric acid
+40,24,386,473,Grapefruit,oxycodone
+41,24,475,811,grapefruit,oxycodone
+42,24,813,1232,grapefruit,oxycodone hydrochloride
+43,24,2043,2254,grapefruit,oxycodone
+44,28,1162,1251,Grapefruit,hydrocodone
+45,29,0,95,alcohol,doxycycline
+46,30,0,212,caffeine,aspirin
+47,30,426,556,caffeine,aspirin
+48,31,161,361,ethanol,methamphetamine
+49,33,118,246,spinach,calcium

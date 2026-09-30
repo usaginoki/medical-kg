@@ -1,0 +1,51 @@
+id,source_id,source_type,food_id,orig_food_id,orig_food_common_name,orig_food_scientific_name,orig_food_part,orig_source_id,orig_source_name,orig_content,orig_min,orig_max,orig_unit,orig_citation,citation,citation_type,creator_id,updater_id,created_at,updated_at,orig_method,orig_unit_expression,standard_content,preparation_type,export
+1,1,Nutrient,4,29,Kiwi,Actinidia chinensis PLANCHON [Actinidiaceae],Fruit,FAT,FAT,1955.0,70.0,3840.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,1955.0,raw,0
+2,1,Nutrient,6,53,Onion,Allium cepa L. [Liliaceae],Bulb,FAT,FAT,1853.95,100.0,3607.9,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,1853.95,raw,0
+3,1,Nutrient,6,53,Onion,Allium cepa L. [Liliaceae],Leaf,FAT,FAT,4150.0,600.0,7700.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,4150.0,raw,0
+4,1,Nutrient,9,55,Chives,Allium schoenoprasum L. [Liliaceae],Leaf,FAT,FAT,3900.0,300.0,7500.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,3900.0,raw,0
+5,1,Nutrient,11,70,Cashew,Anacardium occidentale L. [Anacardiaceae],Fruit,FAT,FAT,2500.0,100.0,4900.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,2500.0,other,0
+6,1,Nutrient,11,70,Cashew,Anacardium occidentale L. [Anacardiaceae],Leaf,FAT,FAT,1300.0,600.0,2000.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,1300.0,other,0
+7,1,Nutrient,11,70,Cashew,Anacardium occidentale L. [Anacardiaceae],Seed,FAT,FAT,42600.0,37000.0,48200.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,42600.0,other,0
+8,1,Nutrient,12,74,Pineapple,Ananas comosus (L.) MERR. [Bromeliaceae],Fruit,FAT,FAT,2188.6,100.0,4277.2,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,2188.6,raw,0
+9,1,Nutrient,13,83,Dill,Anethum graveolens L. [Apiaceae],Plant,FAT,FAT,4500.0,4300.0,4700.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,4500.0,raw,0
+10,1,Nutrient,13,83,Dill,Anethum graveolens L. [Apiaceae],Seed,FAT,FAT,12410.0,6800.0,18020.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,12410.0,raw,0
+11,1,Nutrient,14,92,Custard Apple,Annona reticulata L. [Annonaceae],Fruit,FAT,FAT,1150.0,200.0,2100.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,1150.0,raw,0
+12,1,Nutrient,14,92,Custard Apple,Annona reticulata L. [Annonaceae],Seed,FAT,FAT,40000.0,40000.0,40000.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,40000.0,raw,0
+13,1,Nutrient,15,96,Celery,Apium graveolens L. [Apiaceae],Fruit,FAT,FAT,,,,,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,,raw,0
+14,1,Nutrient,15,96,Celery,Apium graveolens L. [Apiaceae],Leaf,FAT,FAT,2165.0,130.0,4200.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,2165.0,raw,0
+15,1,Nutrient,15,96,Celery,Apium graveolens L. [Apiaceae],Seed,FAT,FAT,26110.65,24273.0,27948.3,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,26110.65,raw,0
+16,1,Nutrient,16,101,Groundnut,Arachis hypogaea L. [Fabaceae],Leaf,FAT,FAT,1700.0,600.0,2800.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,1700.0,other,0
+17,1,Nutrient,16,101,Groundnut,Arachis hypogaea L. [Fabaceae],Plant,FAT,FAT,5850.0,2200.0,9500.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,5850.0,other,0
+18,1,Nutrient,16,101,Groundnut,Arachis hypogaea L. [Fabaceae],Seed,FAT,FAT,36081.7,19480.0,52683.4,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,36081.7,other,0
+19,1,Nutrient,17,104,Burdock,Arctium lappa L. [Asteraceae],Fruit,FAT,FAT,16500.0,15000.0,18000.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,16500.0,other (raw),0
+20,1,Nutrient,17,104,Burdock,Arctium lappa L. [Asteraceae],Leaf,FAT,FAT,481.75,130.0,833.5,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,481.75,other (raw),0
+21,1,Nutrient,17,104,Burdock,Arctium lappa L. [Asteraceae],Root,FAT,FAT,450.0,100.0,800.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,450.0,other (raw),0
+22,1,Nutrient,18,115,Horseradish,Armoracia rusticana GAERTN. ET AL. [Brassicaceae],Root,FAT,FAT,700.0,200.0,1200.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,700.0,other,0
+23,1,Nutrient,19,123,Tarragon,Artemisia dracunculus L. [Asteraceae],Seed,FAT,FAT,38100.0,38100.0,38100.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,38100.0,other,0
+24,1,Nutrient,19,123,Tarragon,Artemisia dracunculus L. [Asteraceae],Shoot,FAT,FAT,7500.0,7200.0,7800.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,7500.0,other,0
+25,1,Nutrient,20,127,Mugwort,Artemisia vulgaris L. [Asteraceae],Leaf,FAT,FAT,3550.0,800.0,6300.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,3550.0,other,0
+26,1,Nutrient,21,137,Asparagus,Asparagus officinalis L. [Liliaceae],Root,FAT,FAT,,,,,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,,raw,0
+27,1,Nutrient,21,137,Asparagus,Asparagus officinalis L. [Liliaceae],Shoot,FAT,FAT,2150.0,200.0,4100.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,2150.0,raw,0
+28,1,Nutrient,22,144,Oats,Avena sativa L. [Poaceae],Plant,FAT,FAT,2900.0,1900.0,3900.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,2900.0,other,0
+29,1,Nutrient,22,144,Oats,Avena sativa L. [Poaceae],Seed,FAT,FAT,5400.0,1100.0,9700.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,5400.0,other,0
+30,1,Nutrient,23,1207,Carambola,Averrhoa carambola L. [Oxalidaceae],Fruit,FAT,FAT,2640.0,80.0,5200.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,2640.0,other (raw),0
+31,1,Nutrient,24,156,Brazilnut,Bertholletia excelsa BONPL. [Lecythidaceae],Seed,FAT,FAT,67459.5,64919.0,70000.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,67459.5,other,0
+32,1,Nutrient,26,166,Beebread,Borago officinalis L. [Boraginaceae],Leaf,FAT,FAT,5350.0,700.0,10000.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,5350.0,other,0
+33,1,Nutrient,26,166,Beebread,Borago officinalis L. [Boraginaceae],Seed,FAT,FAT,38300.0,38300.0,38300.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,38300.0,other,0
+34,1,Nutrient,27,171,Mustard Greens,Brassica juncea (L.) CZERNJ. & COSSON [Brassicaceae],Leaf,FAT,FAT,7535.0,1270.0,13800.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,7535.0,other,0
+35,1,Nutrient,27,171,Mustard Greens,Brassica juncea (L.) CZERNJ. & COSSON [Brassicaceae],Seed,FAT,FAT,34000.0,30000.0,38000.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,34000.0,other,0
+36,1,Nutrient,32,175,Brussel-Sprout,Brassica oleracea var. gemmifera var. gemmifera DC [Brassicaceae],Leaf,FAT,FAT,1528.0,200.0,2856.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,1528.0,other (raw),0
+37,1,Nutrient,33,180,Kohlrabi,Brassica oleracea var. gongylodes L. [Brassicaceae],Stem,FAT,FAT,605.5,100.0,1111.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,605.5,other,0
+38,1,Nutrient,34,2255,Asparagus Broccoli,"Brassica oleracea var. italica L., PLENCK [Brassicaceae]",Leaf,FAT,FAT,,,,,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,,raw,0
+39,1,Nutrient,37,193,Pigeonpea,Cajanus cajan (L.) HUTH [Fabaceae],Fruit,FAT,FAT,1300.0,600.0,2000.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,1300.0,raw,0
+40,1,Nutrient,37,193,Pigeonpea,Cajanus cajan (L.) HUTH [Fabaceae],Leaf,FAT,FAT,6900.0,6900.0,6900.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,6900.0,raw,0
+41,1,Nutrient,37,193,Pigeonpea,Cajanus cajan (L.) HUTH [Fabaceae],Plant,FAT,FAT,6000.0,6000.0,6000.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,6000.0,raw,0
+42,1,Nutrient,37,193,Pigeonpea,Cajanus cajan (L.) HUTH [Fabaceae],Seed,FAT,FAT,3067.7,600.0,5535.4,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,3067.7,raw,0
+43,1,Nutrient,38,198,Tea,Camellia sinensis (L.) KUNTZE [Theaceae],Leaf,FAT,FAT,9250.0,2000.0,16500.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 19:32:07 UTC,,,9250.0,tea or coffee,0
+44,1,Nutrient,39,205,Caper,Capparis spinosa L. [Capparaceae],Flower,FAT,FAT,470.0,470.0,470.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,470.0,other (raw),0
+45,1,Nutrient,39,205,Caper,Capparis spinosa L. [Capparaceae],Fruit,FAT,FAT,3750.0,3750.0,3750.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,3750.0,other (raw),0
+46,1,Nutrient,39,205,Caper,Capparis spinosa L. [Capparaceae],Leaf,FAT,FAT,1100.0,700.0,1500.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,1100.0,other (raw),0
+47,1,Nutrient,39,205,Caper,Capparis spinosa L. [Capparaceae],Seed,FAT,FAT,33100.0,31600.0,34600.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,33100.0,other (raw),0
+48,1,Nutrient,40,207,Bell Pepper,Capsicum annuum L. [Solanaceae],Fruit,FAT,FAT,7300.0,200.0,14400.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,7300.0,raw,0
+49,1,Nutrient,40,207,Bell Pepper,Capsicum annuum L. [Solanaceae],Seed,FAT,FAT,12500.0,10000.0,15000.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,12500.0,raw,0
+50,1,Nutrient,41,209,Papaya,Carica papaya L. [Caricaceae],Fruit,FAT,FAT,1149.0,98.0,2200.0,mg/100g,,DUKE,DATABASE,,,2014-11-05 13:42:11 UTC,2019-12-11 20:23:57 UTC,,,1149.0,raw,0

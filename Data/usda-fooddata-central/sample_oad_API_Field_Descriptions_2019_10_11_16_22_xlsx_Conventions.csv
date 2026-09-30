@@ -1,0 +1,14 @@
+Database Data Element Naming Convention,Rationale
+Lower case,Not all combinations of DBMS/OS are case sensitive. See https://stackoverflow.com/questions/16288586/any-reason-to-still-use-snake-case-for-database-tables-and-columns?rq=1
+Words separated by underscores,"Spaces are slightly more readable in some contexts, but much less readable in others (e.g. in SQL queries), camel case requires case sensitivity"
+,
+,
+Data type naming conventions,
+Boolean fields are valued as Y/N,
+,
+,
+Food relationship definitions,
+Relationship type,Example definition
+property of a food,ID of the food this food attribute pertains to
+subtype of a food,ID of the food in the food table
+uses a food,ID of the sample food that uses the acquisitioned food

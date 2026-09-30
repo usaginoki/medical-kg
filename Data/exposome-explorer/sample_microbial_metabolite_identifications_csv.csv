@@ -1,0 +1,51 @@
+ID,Biomarker,Experimental evidence,Organism,Biospecimen,Antibiotic,Bacterial source,Substrate,Publication
+1,Chenodeoxycholic acid,4. Produced by human faecal bacteria,Bacteroides,,,,Cholic acid,Edenharder 1984
+2,3-Hydroxyhippuric acid,2. Reduced by antibiotics,Humans,"Urine, unspecified",Neomycin,,Caffeic acid,Dayman 1969
+3,2-Hydroxyphenylacetic acid,3. Reduced in germ-free animals,Colonized germ-free rats,"Urine, unspecified",,Specific-pathogen-free rat faeces,,Goodwin 1994
+4,Phenylacetic acid,2. Reduced by antibiotics,Conventional rats,"Urine, unspecified","Neomycin, Phthalylsulfathiazole",,,Goodwin 1994
+6,Hippuric acid,3. Reduced in germ-free animals,Conventional mice,"Plasma, unspecified",,,,Wikoff 2009
+7,Cinnamoylglycine,3. Reduced in germ-free animals,Conventional mice,"Plasma, unspecified",,,,Wikoff 2009
+8,Phenylpropionylglycine,3. Reduced in germ-free animals,Conventional mice,"Plasma, unspecified",,,,Wikoff 2009
+9,Phenylacetylglycine,3. Reduced in germ-free animals,Conventional mice,"Plasma, unspecified",,,,Wikoff 2009
+10,p-Cresol sulfate,3. Reduced in germ-free animals,Conventional mice,"Plasma, unspecified",,,,Wikoff 2009
+11,Phenylsulfate,3. Reduced in germ-free animals,Conventional mice,"Plasma, unspecified",,,,Wikoff 2009
+12,Indoxyl sulfate,3. Reduced in germ-free animals,Conventional mice,"Plasma, unspecified",,,,Wikoff 2009
+13,Serotonin,3. Reduced in germ-free animals,Conventional mice,"Plasma, unspecified",,,,Wikoff 2009
+14,Indolepropionic acid,3. Reduced in germ-free animals,Conventional mice,"Plasma, unspecified",,,,Wikoff 2009
+15,Equol 4'-sulfate,3. Reduced in germ-free animals,Conventional mice,"Plasma, unspecified",,,,Wikoff 2009
+16,Indolepropionic acid,4. Produced by human faecal bacteria,Clostridium sporogenes,,,,,Wikoff 2009
+17,Trimethylamine,3. Reduced in germ-free animals,Conventional rats,"Urine, unspecified",,,,Zeisel 1985
+18,Piperidine,3. Reduced in germ-free animals,Conventional rats,"Urine, unspecified",,,,Zeisel 1985
+19,Methylamine,3. Reduced in germ-free animals,Conventional rats,"Urine, unspecified",,,,Zeisel 1985
+20,Hippuric acid,2. Reduced by antibiotics,Rhesus monkeys,"Urine, unspecified",Neomycin,,Quinic acid,Adamson 1970
+21,Trimethylamine,2. Reduced by antibiotics,Conventional mice,"Urine, unspecified",Neomycin,,,Al-Waiz 1992
+22,Trimethylamine N-oxide,2. Reduced by antibiotics,Conventional mice,"Urine, unspecified",Neomycin,,,Al-Waiz 1992
+23,Trimethylamine,3. Reduced in germ-free animals,Conventional mice,"Urine, unspecified",,,,Al-Waiz 1992
+24,Trimethylamine N-oxide,3. Reduced in germ-free animals,Conventional mice,"Urine, unspecified",,,,Al-Waiz 1992
+25,Isoursodeoxycholic acid,2. Reduced by antibiotics,Humans,"Serum, unspecified",Doxycycline,,Ursodeoxycholic acid,Beuers 1991
+26,Trimethylamines,2. Reduced by antibiotics,Humans,"Urine, unspecified","Chlortetracycline, Sulfathalidine",,Choline,de la Huerga 1951
+27,3-Hydroxyphenylacetic acid,3. Reduced in germ-free animals,Colonized germ-free rats,"Urine, unspecified",,Specific-pathogen-free rat faeces,,Goodwin 1994
+28,4-Hydroxyphenylacetic acid,3. Reduced in germ-free animals,Colonized germ-free rats,"Urine, unspecified",,Specific-pathogen-free rat faeces,,Goodwin 1994
+29,p-Hydroxymandelic acid,3. Reduced in germ-free animals,Colonized germ-free rats,"Urine, unspecified",,Specific-pathogen-free rat faeces,,Goodwin 1994
+30,3-Hydroxyphenylpropionic acid,3. Reduced in germ-free animals,Colonized germ-free rats,"Urine, unspecified",,Specific-pathogen-free rat faeces,,Goodwin 1994
+31,4-Hydroxyphenylpropionic acid,3. Reduced in germ-free animals,Colonized germ-free rats,"Urine, unspecified",,Specific-pathogen-free rat faeces,,Goodwin 1994
+32,Benzoic acid,3. Reduced in germ-free animals,Colonized germ-free rats,"Urine, unspecified",,Specific-pathogen-free rat faeces,,Goodwin 1994
+33,Phenylacetic acid,3. Reduced in germ-free animals,Colonized germ-free rats,"Urine, unspecified",,Specific-pathogen-free rat faeces,,Goodwin 1994
+34,p-Hydroxyphenylglycol,3. Reduced in germ-free animals,Colonized germ-free rats,"Urine, unspecified",,Specific-pathogen-free rat faeces,,Goodwin 1994
+35,3-Hydroxyhippuric acid,2. Reduced by antibiotics,Conventional rats,"Urine, unspecified","Chlortetracycline, Phthalylsulfathiazole",,(+)-Catechin,Griffiths 1964
+36,3-Hydroxyphenylpropionic acid,2. Reduced by antibiotics,Conventional rats,"Urine, unspecified","Chlortetracycline, Phthalylsulfathiazole",,(+)-Catechin,Griffiths 1964
+37,3-Hydroxyhippuric acid,2. Reduced by antibiotics,Conventional rats,"Urine, unspecified","Chlortetracycline, Phthalylsulfathiazole",,,Griffiths 1964
+38,3-Hydroxyphenylpropionic acid,2. Reduced by antibiotics,Conventional rats,"Urine, unspecified","Chlortetracycline, Phthalylsulfathiazole",,,Griffiths 1964
+39,Trimethylamine N-oxide,2. Reduced by antibiotics,Humans,"Urine, unspecified","Ciprofloxacin, Metronidazole",,L-Carnitine,Koeth 2013
+40,Trimethylamine N-oxide,2. Reduced by antibiotics,Humans,"Plasma, unspecified","Ciprofloxacin, Metronidazole",,L-Carnitine,Koeth 2013
+41,Trimethylamine N-oxide,2. Reduced by antibiotics,Conventional mice,"Plasma, unspecified","Ampicillin, Metronidazole, Neomycin, Vancomycin",,L-Carnitine,Koeth 2013
+42,Trimethylamine,2. Reduced by antibiotics,Conventional mice,"Plasma, unspecified","Ampicillin, Metronidazole, Neomycin, Vancomycin",,L-Carnitine,Koeth 2013
+43,Trimethylamine N-oxide,3. Reduced in germ-free animals,Colonized germ-free mice,"Plasma, unspecified",,Conventional mouse faeces,L-Carnitine,Koeth 2013
+44,Trimethylamine,3. Reduced in germ-free animals,Colonized germ-free mice,"Plasma, unspecified",,Conventional mouse faeces,L-Carnitine,Koeth 2013
+45,Trimethylamine N-oxide,2. Reduced by antibiotics,Conventional mice,"Plasma, unspecified","Ampicillin, Metronidazole, Neomycin, Vancomycin",,d9(Trimethyl)-dipalmitoylphosphatidylcholine,Wang 2011
+46,Trimethylamine N-oxide,3. Reduced in germ-free animals,Colonized germ-free mice,"Plasma, unspecified",,Conventional mouse faeces,d9-Choline,Wang 2011
+51,Guaiacol,2. Reduced by antibiotics,Specific-pathogen-free rats,"Urine, unspecified","Cilastatin, Imipenem",,,Zheng 2011
+57,4-Hydroxybenzaldehyde,2. Reduced by antibiotics,Specific-pathogen-free rats,"Urine, unspecified","Cilastatin, Imipenem",,,Zheng 2011
+60,Acetylcarnitine,2. Reduced by antibiotics,Specific-pathogen-free rats,"Urine, unspecified","Cilastatin, Imipenem",,,Zheng 2011
+62,Butyric acid (4:0),2. Reduced by antibiotics,Specific-pathogen-free rats,"Urine, unspecified","Cilastatin, Imipenem",,,Zheng 2011
+66,Glucose,2. Reduced by antibiotics,Specific-pathogen-free rats,"Urine, unspecified","Cilastatin, Imipenem",,,Zheng 2011

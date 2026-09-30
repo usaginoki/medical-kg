@@ -1,0 +1,3 @@
+evidence_id,source_type,reference
+ev001,fdc,"{""fdc_id"": 12345, ""url"": ""https://fdc.example.com/12345""}"
+ev002,pubmed,"{""pmcid"": ""PMC12345"", ""pmid"": ""99999"", ""text"": ""Study shows vitamin C prevents scurvy.""}"

@@ -1,0 +1,149 @@
+worker_id,sample_id,sub_topic,first_statement,options,answer_key,relevant_to_this_country,relevant_to_other_countries,should_discard,country,region
+Yemen-1,2 | Breakfast,الافطار,يتناول عبدالله شيئا حارا مع وجبة الصبوح ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتناول عبدالله السحاوق مع وجبة الصبوح',
+       ' يتناول عبدالله العشار مع وجبة الصبوح',
+       ' يتناول عبدالله الكاتشب مع وجبة الصبوح'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Yemen,Gulf
+Yemen-1,3 | Breakfast,الافطار,أعدت أمنة فتة التمر لوجبة الصبوح,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['أعدت أمنة فتة التمر بالحليب',
+       ' أعدت أمنة فتة التمر بالسمن البلدي',
+       ' أعدت أمنة فتة التمر بالزبدة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Yemen,Gulf
+Yemen-1,4 | Breakfast,الافطار,يتناول هشام البيض المسلوق في وجبة الصبوح ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يحب هشام تناول البيض المسلوق مع خبز الطاوة',
+       ' يحب هشام تناول البيض المسلوق مع الكدم',
+       ' يحب هشام تناول البيض المسلوق مع البان'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Yemen,Gulf
+Yemen-1,5 | Breakfast,الافطار,حضرت سعاد المقصقص لتقدمة في وجبة الصبوح,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قدمت سعاد المقصقص مع الشاي بالحليب',
+       ' فدمت سعاد المقصقص مع العصير', ' قدمت سعاد المقصقص مع الحليب'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Yemen,Gulf
+Yemen-1,6 | Lunch,الغداء,طلب محمود من زوجته أن تحضر له السلتة في وجبة الغداء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يحب محمود إضافة كمية أكثر من السمك للسلتة في وجبة الغداء',
+       ' يحب محمود إضافة كمية أكثر من اللحم للسلتة في وجبة الغداء',
+       ' يحب محمود إضافة كمية أكثر من الدقيق للسلتة في وجبة الغداء'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Yemen,Gulf
+Yemen-1,8 | Lunch,الغداء,قامت اسماء بتحضير بنت الصحن كطبق للتحلية بعد وجبة الغداء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قدمت اسماء بنت الصحن بالسمن والعسل',
+       ' قدمت اسماء بنت الصحن بالخضار', ' قدمت اسماء بنت الصحن بالفواكه'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Yemen,Gulf
+Yemen-1,9 | Lunch,الغداء,تناول احمد الفحسة في وجبة الغداء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يحب احمد تناول الفحسة مع الروتي في وجبة الغداء',
+       ' يحب احمد تناول الفحسة مع خبز الرشوش في وجبة الغداء',
+       ' يحب احمد تناول الفحسة مع الرغيف في وجبة الغداء'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Yemen,Gulf
+Yemen-1,10 | Lunch,الغداء,تناول سعد السمك المقلي في وجبة الغداء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يحب سعد تناول السمك المقلي مع سلطة الخضار',
+       ' : يحب سعد تناول السمك المقلي مع الزبادي',
+       ' يحب سعد تناول السمك المقلي مع السمن'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Yemen,Gulf
+Yemen-1,11 | Dinner,العشاء,تناول أكرم الفطائر في وجبة العشاء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يحب اكرم تناول الفطائر مع الزبادي في وجبة العشاء',
+       ' يحب أكرم تناول الفطائر مع الزعتر في وجبة العشاء',
+       ' يحب أكرم تناول الفطائر مع الشاي بالحليب في وجبة العشاء'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Yemen,Gulf
+Yemen-1,12 | Dinner,العشاء,حضرت سميحة البيض المسلوق لوجبة العشاء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قدمت سميحه بيض مسلوق مع الكوسا في وجبة العشاء',
+       ' قدمت سميحه بيض مسلوق مع الباذنجان في وجبة العشاء',
+       ' قدمت سميحة بيض مسلوق مع البطاط في وجبة العشاء'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Yemen,Gulf
+Yemen-1,13 | Iftar (Ramadan),افطار رمضان,قامت سعاد بتحضير الشفوت لتقدمه مع وجبة الافطار,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['حضرت سعاد الشفوت بالزبادي مع وجبة الافطار',
+       ' حضرت سعاد الشفوت بالحليب مع وجبة الافطار',
+       '  حضرت سعاد الشفوت بالجبن مع وجبة الافطار'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Yemen,Gulf
+Yemen-1,14 | Iftar (Ramadan),افطار رمضان,قامت ريم بإعداد السمبوسة لتقدمها مع وجبة الافطار,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['حضرت ريم السمبوسة بالفواكه مع وجبة الافطار',
+       ' حضرت ريم السمبوسة باللحم مع وجبة الافطار',
+       ' حضرت ريم السمبوسة بالطماطم مع وجبة الافطار'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Yemen,Gulf
+Yemen-1,15 | Iftar (Ramadan),افطار رمضان,أعدت سماح الشربة لوجبة الفطور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قدمت سماح الشربة بالخضار في وجبة الافطار',
+       '  قدمت سماح الشربة بالسمك في وجبة الافطار',
+       ' قدمت سماح الشربة بالسمن البلدي في وجبة الافطار'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Yemen,Gulf
+Yemen-1,16 | Iftar (Ramadan),افطار رمضان,تناول يوسف مشروبا باردا في وجبة الفطور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يحب يوسف تناول الحليب مع وجبة الافطار',
+       ' يحب يوسف تناول عصير الليمون مع وجبة الافطار',
+       ' يحب يوسف تناول شراب البيبسي مع وجبة الافطار'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Yemen,Gulf
+Yemen-1,17 | Iftar (Ramadan),افطار رمضان,حضرت نور الشفوت لوجبة الفطور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قدمت نور الشفوت مع البرتقال', ' قدمت نور الشفوت مع الرمان',
+       ' قدمت نور الشفوت مع التفاح'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Yemen,Gulf
+Yemen-1,18 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),اعدت ليلى الشربة لوجبة السحور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قدمت ليلى شربة الدجاج في وجبة السحور',
+       ' قدمت ليلى شربة السمك في وجبة السحور',
+       ' قدمت ليلى شربة البيض في وجبة السحور'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Yemen,Gulf
+Yemen-1,19 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),تناولت أمل السلتة في وجبة السحور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تحب أمل تناول السلتة والبردقوش', ' تحب أمل تناول السلتة والكاتشب',
+       ' تحب أمل تناول السلتة والحلبة'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Yemen,Gulf
+Yemen-1,20 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),تناول بدر المعصوب في وجبة السحور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يحب بدر تناول المعصوب بالسمن البلدي',
+       ' يحب بدر تناول المعصوب بالعسل', ' يحب بدر تناول المعصوب بالشطة'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Yemen,Gulf
+Yemen-1,21 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),حضرت ليلى العريكة لوجبة السحور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قدمت ليلى العريكة بالزبادي', ' قدمت ليلى العريكة بالقشطة',
+       ' قدمت ليلى العريكة بالكاتشب'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Yemen,Gulf
+Yemen-1,23 | Dessert,حلوى,قام عبد الرحمن بشراء حلوى لعائلته,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['أشترى عبد الرحمن حلوى الكريم بروليه لعائلته',
+       ' أشترى عبد الرحمن حلوى القطائف لعائلته',
+       ' أشترى عبد الرحمن حلوى المشبك لعائلته'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Yemen,Gulf
+Yemen-1,24 | Dessert,حلوى,قامت شروق بتحضير بنت الصحن للعائلة ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قدمت شروق بنت الصحن بالشيرة',
+       ' قدمت شروق بنت الصحن بالسمن البلدي',
+       ' قدمت شروق بنت الصحن بالعسل'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Yemen,Gulf
+Yemen-1,25 | Dessert,حلوى,اعدت سمية حلوى الهريسة للعائلة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قدمت سمية حلوى الهريسة مع الشاي',
+       ' قدمت سمية حلوى الهريسة مع القهوة',
+       ' قدمت سمية حلوى الهريسة مع العصير'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Yemen,Gulf
+Yemen-1,26 | Fruits,فاكهة,قام أشرف بشراء الحبحب,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['أشترى أشرف الحبحب من البقالة', ' أشترى أشرف الحبحب من المزرعة',
+       ' أشترى أشرف الحبحب من السوق المركزي'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Yemen,Gulf
+Yemen-1,27 | Fruits,فاكهة,طلبت عائلة سلمى منها شراء الرمان,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تحب عائلة سلمى رمان تعز', ' تحب عائلة سلمى رمان صعدة',
+       ' تحب عائلة سلمى منه حضرموت'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Yemen,Gulf
+Yemen-1,28 | Fruits,فاكهة,قام محمود بشراء فاكهة الخرمش ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['الخرمش فاكهة خضراء ذات لب كريمي وبذور حمراء',
+       ' الخرمش فاكهة خضراء ذات لب كريمي وبذور سوداء',
+       ' الخرمش فاكهة صفراء ذات لب كريمي وبذور سوداء'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Yemen,Gulf
+Yemen-1,29 | Snacks,وجبات خفيفة,تناول إسماعيل ساندويتش قبل وجبة الغداء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تناول إسماعيل ساندويتش بالدجاج قبل وجبة الغداء',
+       ' تناول إسماعيل ساندويتش باللحم قبل وجبة الغداء',
+       ' تناول إسماعيل ساندويتش بالجبن والمربى قبل وجبة الغداء'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Yemen,Gulf
+Yemen-1,30 | Snacks,وجبات خفيفة,أشترى محمد الخيار من الباعة المتجولين كوجبة خفيفة قبل الغداء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تناول محمد الخيار بالليمون', ' تناول محمد الخيار بالزبادي',
+       ' تناول محمد الخيار بالملح'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Yemen,Gulf
+Yemen-1,1 | wedding location,مكان الزواج,قام عبدالله بعمل عرس لإبنه سامي في بيته في جبل صير,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['أقيمت حفلة العرس بحضور فرقة تغني أغاني وطنية',
+       ' أقيمت حفلة العرس بحضور فرقة تغني الأغاني العدنية',
+       ' أقيمت حفلة العرس بحضور فرقة تغني أغاني رومانسية'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Yemen,Gulf
+Yemen-1,2 | wedding food,طعام الزواج,قامت عائلة العريس بتحضير وليمة غداء للضيوف ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قدمت عائلة العريس الشيش طاووق للضيوف من الرجال في وجبة الغداء',
+       ' قدمت عائلة العريس كبسة الأرز باللحم للضيوف في وجبة العشاء',
+       ' قدمت عائلة العريس كبسة الأرز باللحم للضيوف من الرجال في وجبة الغداء'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Yemen,Gulf
+Yemen-1,3 | wedding dowry,مهر الزواج,قام العريس بدفع مهر الزواج الى والد العروس في وقت العقد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قدم العريس مبلغ مليون جنيه في وقت العقد',
+       ' قدم العريس مبلغ مليون دينار في وقت العقد',
+       ' قدم العريس مبلغ ثلاثة مليون ريال في وقت العقد'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Yemen,Gulf
+Yemen-1,4 | wedding (other logistics),تجهيزات أخرى للزواج,قامت سعاد بعمل الحفلة العدنية قبل حفلة العرس,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قامت سعاد بلبس الدرع العدني في الحفلة',
+       ' قامت سعاد بلبس الدرع الخليجي في الحفلة',
+       ' قامت سعاد بلبس الدرع المهري في الحفلة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Yemen,Gulf
+Yemen-1,5 | wedding (other logistics),تجهيزات أخرى للزواج,قام مروان بلبس الثوب والجنبية في حفلة العرس,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قام مروان بالتزين بعقد من الذهب مع اللبس',
+       ' قام مروان بالتزين بعقد من الورود مع اللبس',
+       ' قام مروان بالتزين بعقد من الفل مع اللبس'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Yemen,Gulf
+Yemen-1,6 | men cermony vs. women cermony,احتفالات الزواج للرجال vs احتفالات الزواج للنساء,تقام حفلة خاصة بالنساء في يوم العرس,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقام حفلة النساء في حديقة عامة',
+       ' تقام حفلة النساء في مخيم في الشارع',
+       ' تقام حفلة النساء في صالة خاصة مغلقة'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Yemen,Gulf
+Yemen-1,7 | men cermony vs. women cermony,احتفالات الزواج للرجال vs احتفالات الزواج للنساء,احضر سعيد معه خمسين الف في يوم حفلة الرجال,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['قام سعيد بتسليم  الخمسين الف دينار كمجابرة  للعريس',
+       ' قام سعيد بتسليم  الخمسين الف بيسة كمجابرة  للعريس',
+       ' قام سعيد بتسليم  الخمسين الف ريال كمجابرة  للعريس'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Yemen,Gulf
+Yemen-1,8 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,تقوم أسرة العريس بتشغيل أغاني أعراس باستخدام مكبرات الصوت,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم أسرة العريس بتشغيل أغاني أم كلثوم',
+       ' تقوم أسرة العريس بتشغيل أغاني سعد المجرد',
+       ' تقوم أسرة العريس بتشغيل أغاني منى علي وأيوب طارش'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Yemen,Gulf
+Yemen-1,9 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,يقوم الرجال باطلاق الرصاص في حفلة الزواج,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يقوم الرجال باطلاق الرصاص وقت حضور العريس',
+       ' يقوم الرجال بالتصفيق وقت حضور العريس',
+       ' يقوم الرجال بالتصفيروقت حضور العريس'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Yemen,Gulf
+Yemen-1,10 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,يقوم الشباب بالرقص على الأغاني اللحجية في ليلة حفلة العرس,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يقوم الشباب بالرقص على أعاني فيروز',
+       ' يقوم الشباب بالرقص على أعاني أصالة',
+       ' يقوم الشباب بالرقص على أعاني الفنان فيصل علوي'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Yemen,Gulf
+Yemen-1,11 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,تقام حفلة السمر للشباب في مخيم للاحتفال بالعريس,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم توزيع الشاي في حفلة السمر', ' يتم توزيع القهوه في حفلة السمر',
+       ' يتم توزيع القات في حفلة السمر'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Yemen,Gulf
+Yemen-1,12 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,تقام حفلة السمر بحضور فنان يغني أغاني صنعانية,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقام حقلة السمر بحضور الفنان شعبان عبدالرحيم',
+       ' تقام حفلة السمر بحضور الفنان السمه',
+       ' تقام حفلة السمر بحضور الفنان ماجد المهندس'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Yemen,Gulf
+Yemen-1,2 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,يذهب هاشم الى سوق الباب الكبير لشراء بعض مستلزمات العيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يذهب هاشم الى سوق الباب الكبير لشراء اللحمة',
+       ' يذهب هاشم الى سوق الباب الكبير لشراء القات',
+       ' يذهب هاشم الى سوق الباب الكبير لشراء الزبيب واللوز والفستق'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Yemen,Gulf
+Yemen-1,3 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,ذهب أمين الى سوق الملح لشراء بعض مستلزمات العيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['ذهب أمين الى سوق الملح لشراء بهارات العيد',
+       ' ذهب أمين الى سوق الملح لشراء هدايا العيد',
+       ' ذهب أمين الى سوق الملح لشراء كسوة العيد'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Yemen,Gulf
+Yemen-1,4 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,ذهب حسام الى شارع هائل لتفصيل ملابس العيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['ذهب حسام لتفصيل ثوب جديد', ' ذهب حسام لتفصيل شال جديد',
+       ' ذهب حسام لتفصيل معوز جديد'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Yemen,Gulf
+Yemen-1,5 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,ذهب قاسم الى سوق الضباب قبل عيد الأضحى,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['ذهب قاسم الى سوق الضباب لشراء هدايا العيد',
+       ' ذهب قاسم الى سوق الضباب لشراء أضحية العيد',
+       ' ذهب قاسم الى سوق الضباب لشراء ملابس العيد'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Yemen,Gulf
+Yemen-1,6 | traditions during religous holidays,العادات في الأعياد الدينية,يرتدي عبدالقادر الثوب والشال في يوم العيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتزين عبدالقادر بالجنبية  في يوم العيد',
+       ' يتزين عبدالقادر بالسيف في يوم العيد',
+       ' يتزين عبدالقادر بالفل في يوم العيد'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Yemen,Gulf
+Yemen-1,7 | traditions during religous holidays,العادات في الأعياد الدينية,يخطط علي للمقيل في بيت ابيه يوم العيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يقوم علي بشراء المكسرات للمقيل في يوم العيد',
+       ' يقوم علي بشراء القات للمقيل في يوم العيد',
+       ' يقوم علي بشراء الجيرو للمقيل في يوم العيد'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Yemen,Gulf
+Yemen-1,8 | traditions during religous holidays,العادات في الأعياد الدينية,يفكر أكرم بالذهاب الى خور المكلا يوم العيد مع أصدقائه,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['اتفق أكرم مع أصدقائه على تناول البرجر معا',
+       ' اتفق أكرم مع أصدقائه على تناول القات معا',
+       ' اتفق أكرم مع أصدقائه على تناول التمبل معا'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Yemen,Gulf
+Yemen-1,9 | traditions during religous holidays,العادات في الأعياد الدينية,يذهب يوسف مع عائلته  الى مدينة عدن لقضاء إجازة العيد ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يقضي يوسف وعائلتة إجازة العيد في جبل النهدين',
+       ' يقضي يوسف وعائلته إجازة العيد في بيت بوس',
+       ' يقضي يوسف وعائلته إجازة العيد في منتجع العروسة'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Yemen,Gulf
+Yemen-1,10 | traditions during religous holidays,العادات في الأعياد الدينية,يصطحب مراد عائلته الى مدينة إب الخضراء في يوم العيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يصطحب مراد عائلته الى جبل شمسان يوم العيد',
+       ' يصطحب مراد عائلته الى جبل مشورة  يوم العيد',
+       ' يصطحب مراد عائلته الى جبل النبي شعيب يوم العيد'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Yemen,Gulf
+Yemen-1,12 | traditions during religous holidays,العادات في الأعياد الدينية,يأخذ اسماعيل أسرته لزيارة ابيه في يوم العيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يقضي اسماعيل الوقت مع إخوانه في مضغ القات',
+       ' يقضي اسماعيل الوقت مع إخوانه في مضغ اللبان',
+       ' يقضي اسماعيل الوقت مع إخوانه في مضغ العسل'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Yemen,Gulf
+Yemen-1,13 | traditions during religous holidays,العادات في الأعياد الدينية,يقوم سعد بتشغيل أغاني العيد في يوم العيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يقوم سعد بتشغيل أغنية يامن رحلت إلى بعيد وهو في سيارته',
+       ' يقوم سعد بتشغيل أغنية آنستنا ياعيد وهو في سيارته',
+       ' يقوم سعد بتشغيل أغنية اقبلت تمشي رويدا وهو في سيارته'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Yemen,Gulf

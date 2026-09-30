@@ -1,0 +1,141 @@
+worker_id,sample_id,sub_topic,first_statement,options,answer_key,relevant_to_this_country,relevant_to_other_countries,should_discard,country,region
+Tunisia-1,1 | Breakfast,الافطار,تعدّ عائلة حسام الإفطار التقليدي في الصباح.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يأكلون الدرع مع الفواكه', ' يأكلون الدرع مع الزيت',
+       ' يأكلون الدرع مع الحليب'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,2 | Breakfast,الافطار,يحب كريم أن يبدأ يومه بهدوء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['كريم يبدأ يومه بالصلاة والاستماع للقرآن',
+       ' كريم يبدأ يومه بسماع الموسيقى الصاخبة',
+       ' كريم يبدأ يومه بمشاهدة الأخبار.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes, No,No,Tunisia,North Africa
+Tunisia-1,3 | Breakfast,الافطار,تحضر ليلى الإفطار لعائلتها,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقدم ليلى الخبز مع الزيت', ' تقدم الخبز مع الحلوى',
+       ' تقدم الخبز مع الزبادي'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,5 | Breakfast,الافطار,يفضل سعيد تناول عصيدة طحين في الصباح.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يأكل سعيد عصيدة طحين مع الجبنة  في الصباح',
+       ' يأكل سعيد عصيدة طحين مع العسل  في الصباح',
+       ' يأكل سعيد عصيدة طحين مع اللبن في الصباح'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,7 | Lunch,الغداء,تحضر سارة البريك لعائلتها في الغداء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تصنع سارة البريك باللحم.', ' تصنع سارة البريك بالبطاطا والبيض',
+       ' تصنع سارة البريك بالجبنة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,8 | Lunch,الغداء,يفضل كريم إضافة الهريسة إلى غداءه,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يفضل كريم إضافة البيض إلى غداءه',
+       ' يفضل كريم إضافة العدس إلى غداءه',
+       ' يفضل كريم إضافة التونة إلى غداءه'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,9 | Lunch,الغداء,تحضر ليلى العجة لعائلتها في الغداء.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['ليلى تحضر عجة بالمرقاز', ' ليلى تحضر عجة بالكبدة',
+       ' ليلى تحضر عجة بالتونة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,10 | Lunch,الغداء,يفضل عادل شرب شيء منعش بعد الغداء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['عادل يفضل شرب الشاي بالنعناع', ' عادل يفضل شرب القهوة',
+       'عادل يفضل شرب الكاكاو الساخن.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes, No,No,Tunisia,North Africa
+Tunisia-1,11 | Dinner,العشاء,يحب عادل تناول شيء خفيف في العشاء.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يأكل عادل سلطة المشويّة مع طاجين',
+       ' يأكل عادل سلطة المشويّة مع المعكرونة',
+       ' يأكل عادل سلطة المشويّة مع الخبز'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,12 | Dinner,العشاء,يحب سامي تناول الطاجين في العشاء.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يأكل سامي الطاجين بالدجاج والخضار',
+       ' يأكل سامي الطاجين باللحم الضأن', ' يأكل سامي الطاجين بالسمك'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,13 | Iftar (Ramadan),افطار رمضان,يبدأ سامي الإفطار في رمضان بتناول الشوربة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يبدأ سامي الإفطار بالسلطة', ' يبدأ سامي الإفطار بشوربة العدس',
+       '  يبدأ سامي الإفطار بشوربة الشعير'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,14 | Iftar (Ramadan),افطار رمضان,ياسمين تتناول الإفطار مع عائلتها,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' تقدم الأم الإفطار بدون تقديم المقبلات',
+       '  تُقدم الأم الزلابية كمقبلات',
+       ' اتُقدم الأم  ثلاثة تمور والشوربة كمقبلات.'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes, No,No,Tunisia,North Africa
+Tunisia-1,17 | Iftar (Ramadan),افطار رمضان,المعقودة هي نوع من البطاطس المهروسة المقلية والتي تُعتبر من الوجبات التقليدية في رمضان,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتم تحضير المعقودة فقط في المناسبات الخاصة',
+       ' تُعتبر المعقودة وجبة رئيسية تُقدم في الغداء',
+       ' تُقدم المعقودة كوجبة خفيفة مع السلطة خلال الإفطار'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,19 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),يحب سمير تناول المهلبية في رمضان,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يأكل سمير المهلبية في السحور',
+       ' تشتهر الزلابية في رمضان كوجبة خفيفة على السحور',
+       ' يأكل سمير المهلبية كتحلية بعد الإفطار'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,20 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),تشتهر الزلابية في رمضان كوجبة خفيفة على السحور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تأكل الزلابية في وجبة الفطور',
+       ' تُقدم الزلابية عادة كوجبة خفيفة قبل الفجر في السحور',
+       ' تُقدم الزلابية كتحلية قبل الإفطار'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,21 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),تُعد المخارق من الحلويات الشهيرة في رمضان,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تأكل المخارق على الفطور',
+       ' تُؤكل المخارق عادة كتحلية بعد الإفطار في رمضان',
+       ' تُؤكل المخارق في السحور كوجبة أساسية'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,22 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),يُعتبر البريك الدنوني وجبة مالحة تقليدية تُقدم على السحور,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يُحضر البريك الدنوني بحشوة من اللحم المفروم أو البطاطس أو التونة',
+       ' يُقدم البريك الدنوني كتحلية على السحور',
+       ' يُحضر البريك الدنوني بحشوة الفواكه'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,23 | Dessert,حلوى,يُعد قرن غزال من الحلويات التونسية الشهيرة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يُصنع قرن غزال عادة من اللوز والعجين الرقيق ويُقدم في المناسبات الخاصة',
+       ' يحتوي قرن غزال على اللحم ويُقدم في رمضان',
+       ' يُصنع قرن غزال بالتمر ويُقدم كوجبة سحور'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,24 | Dessert,حلوى,المقروض هو حلوى شهيرة في تونس تُحضر في المناسبات,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يُحشى المقروض باللحم ويُقدم كوجبة فطور',
+       ' يتم تحضير المقروض من العجين فقط ويُحلى بالسكر المطحون',
+       ' يُحشى المقروض بالتمر أو اللوز ويُقلى ثم يُغطس في العسل'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,25 | Dessert,حلوى,الغريبة من الحلويات الخفيفة التي تُقدم مع الشاي,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['الغريبة عبارة عن حلوى محشوة بالجبن وتُقدم ساخنة',
+       ' تُحشى الغريبة باللحم وتُقلى في الزيت',
+       ' تُصنع الغريبة من السميد أو الحمص المطحون وتُخبز حتى تصبح ذهبية'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,26 | Fruits,فاكهة,يساعد ياسين جده الذي يعيش في توزر في جمع الفواكه.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['ياسين وجده يجمعان المانجو', ' ياسين وجده يجمعان التمور',
+       'ياسين وجده يجمعان فاكهة التنين'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,27 | Fruits,فاكهة,تونس معروفة بفواكهها الصيفية,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يتونس معروفة بالبطيخ', ' تونس معروفة بالتوت الأزرق',
+       ' اتونس معروفة بالمانجو'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,28 | Fruits,فاكهة,تصنع جدّة آدم التي تعيش في صفاقس  الزيت في المنزل,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['جدّة آدم تصنع زيت الزيتون', 'جدّة آدم تصنع زيت جوز الهند.',
+       'جدّة آدم تصنع زيت الجوجوبا'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes, No,No,Tunisia,North Africa
+Tunisia-1,29 | Snacks,وجبات خفيفة,البمبلوني هو نوع من المعجنات المقلية المشهورة في تونس,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يُقدم البمبلوني كطبق رئيسي في الغداء',
+       ' يُستخدم البمبلوني كوجبة فطور تقليدية مع الشاي',
+       ' يُفضل سمير تناول البمبلوني مع العسل أو السكر كوجبة خفيفة'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,30 | Snacks,وجبات خفيفة,كيكة برنس هي نوع من الحلويات المحشوة بالشوكولاتة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يحب الأطفال تناول كيكة برنس مع الحليب كوجبة خفيفة',
+       ' تُعتبر كيكة برنس وجبة رئيسية تُقدم في العشاء',
+       ' يتم تحضير كيكة برنس باستخدام الأرز كعنصر رئيسي'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,1 | wedding location,مكان الزواج,أمين وسلمى اختارا مكان زفافهما معًا,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['أمين وسلمى اختارا أن يتزوجا في مكان ولادة العروس',
+       ' مين وسلمى اختارا أن يتزوجا في مكان ولادة الزوج',
+       'أمين وسلمى اختارا أن يتزوجا في مكان ولادة والد العروس'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes, No,No,Tunisia,North Africa
+Tunisia-1,3 | wedding dowry,مهر الزواج,أيمن قدّم مهرًا رمزيًا لزوجته المستقبلية,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['أيمن قدّم لزوجته المستقبلية دينارًا فضيًا',
+       'أيمن قدّم لزوجته المستقبلية الكثير من المال',
+       'أيمن قدّم لزوجته المستقبلية سيارة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes, No,No,Tunisia,North Africa
+Tunisia-1,4 | wedding (other logistics),تجهيزات أخرى للزواج,ساعدت عائلة جهاد في أهم التحضيرات قبل الزواج,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['عائلة إيمان ساعدت فقط في اختيار الملابس',
+       ' عائلة إيمان ساعدت في نقل الزهّاز إلى منزلها الجديد',
+       ' عائلة إيمان ساعدت في اختيار الموسيقى.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes, No,No,Tunisia,North Africa
+Tunisia-1,5 | wedding (other logistics),تجهيزات أخرى للزواج,إيمان وعائلتها كانوا مرحبين بالضيوف المدعوين إلى الحمام,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['إيمان وعائلتها قدموا لهم الحلويات والشاي',
+       ' إيمان وعائلتها قدموا لهم السندويشات',
+       ' إيمان وعائلتها قدموا لهم الكسكس'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes, No,No,Tunisia,North Africa
+Tunisia-1,8 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,كان عند رانية زفة رائعة جدًا,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['لبست رانية قفطان  ودخلت مع السولامية',
+       '  لبست رانية فستان أبيض ودخلت مع المزود',
+       'لبست رانية فستان قصير ودخلت مع الدي جي'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes, No,No,Tunisia,North Africa
+Tunisia-1,9 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,اختارت العروس أغاني الزفاف بنفسها,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['العروس اختارت أغاني المزوّد.', ' العروس اختارت موسيقى غربية',
+       'العروس اختارت أغاني الحضرة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes, No,No,Tunisia,North Africa
+Tunisia-1,10 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,تُعتبر الماجور إحدى الفعاليات التقليدية في حفلات الزواج,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تضمن الماجور عادةً الرقص الجماعي والأغاني الشعبية',
+       ' الماجور يُعتبر تقليدًا حديثًا وليس له جذور ثقافية',
+       ' الماجور يُقام  في حفلات العزاء'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,11 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,ياسمين اختارت أفضل الطهاة لعشاء زفافها,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' قدمت ياسمين  لضيوفها المأكولات البحرية',
+       '  قدمت ياسمين  لضيوفها الكسكس، سلطة مشوية، ولحم',
+       'قدمت ياسمين  لضيوفها البيتزا والسندويشات'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes, No,No,Tunisia,North Africa
+Tunisia-1,12 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,تحضيرات زفاف ياسمين استغرقت وقتًا طويلًا,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['أصدقاء وعائلة ياسمين بقوا في منزلها',
+       'أصدقاء وعائلة ياسمين بقوا في فندق',
+       ' أصدقاء وعائلة ياسمين بقوا في منزل مستأجر'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Tunisia,North Africa
+Tunisia-1,1 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,تقوم سامية بتحضير الحلويات التقليدية في المنزل قبل العيد.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تصنع البقلاوة باللوز والعسل', ' تصنع البقلاوة بالسكر فقط',
+       ' تصنع البقلاوة بدون حشو'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,2 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,تقوم شيرين بتحضير حلوى الزوزة في المنزل قبل العيد.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تصنع الزوزة مع الفواكه فقط', ' تصنع الزوزة بدون إضافة أي نكهات',
+       ' تصنع الزوزة مع الكراميل'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,3 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,تقوم هند بتحضير غريبة الحمص في المنزل قبل العيد الصغير.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تصنع غريبة الحمص بالشوكولاتة فقط',
+       ' تصنع غريبة الحمص بالزبدة والسكر', ' تصنع غريبة الحمص بدون سكر'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes, No, No,Tunisia,North Africa
+Tunisia-1,4 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,أميرة تشتري لابنتها أشياء جديدة بمناسبة عيد الكبير.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['أميرة تشتري لابنتها ملابس جديدة وأحذية.',
+       ' أميرة تشتري لابنتها كتب جديدة.',
+       ' أميرة تشتري لابنتها ألعابًا جديدة.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Tunisia,North Africa
+Tunisia-1,5 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,أحمد يعتني بنفسه بمناسبة عيد الكبير,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['أحمد يذهب إلى الحلاق للحصول على تسريحة جديدة للاعتناء بنفسه',
+       ' أحمد يذهب إلى المطعم للاعتناء بنفسه.',
+       ' أحمد يذهب للخارج ويلعب للاعتناء بنفسه.'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Tunisia,North Africa
+Tunisia-1,6 | traditions during religous holidays,العادات في الأعياد الدينية,جهاد يرافق والده في يوم العيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' يرافق جهاد والده للنزهة في يوم العيد.',
+       ' يرافق جهاد  والده للصلاة ثم إلى الجزار في يوم العيد.',
+       ' يرافق جهاد  والده للعمل في يوم العيد.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Tunisia,North Africa
+Tunisia-1,7 | traditions during religous holidays,العادات في الأعياد الدينية,جدّة مريم تحضّر الحلويات قبل عيد الفطر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تحضّر جدّة مريم  البقلاوة وكعك الورقة',
+       ' تحضّر جدّة مريم  الكعك.', ' تحضّرجدّة مريم الفطائر.'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes, No,No,Tunisia,North Africa
+Tunisia-1,8 | traditions during religous holidays,العادات في الأعياد الدينية,يلعب الأطفال في الخارج بعد ذبح الخروف,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يلعب الأطفال بالكرة.', ' يلعب الأطفال بقرون الخروف.',
+       ' يلعب الأطفال بحبل القفز.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes, No,No,Tunisia,North Africa
+Tunisia-1,9 | traditions during religous holidays,العادات في الأعياد الدينية,تقوم عائلة أمين بذبح الأضاحي في منزلهم,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تحتفظ عائلة أمين بكل أجزاء الخروف لأنفسهم',
+       'تعطي عائلة أمين جزءًا الخروف كصدقة.',
+       ' تعطي عائلة أمين الخروف بالكامل كصدقة'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Tunisia,North Africa
+Tunisia-1,12 | traditions during religous holidays,العادات في الأعياد الدينية,يقدم هشام زكاة العيد لجاره,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يحصل صديق هشام على الزكاة لأنه طلبها.',
+       'يحصل جار هشام على الزكاة لأنه في حاجة.',
+       'يحصل جار هشام على الزكاة لأنهم أصدقائ'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Tunisia,North Africa
+Tunisia-1,13 | traditions during religous holidays,العادات في الأعياد الدينية,يذهب أحمد إلى جامع الزيتونة لأداء صلاة العيد مع والده.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يذهب أحمد مع والده بعد ذبح الأضحية.',
+       'يذهب أحمد مع والده لأداء الصلاة في الصباح الباكر.',
+       ' يذهب أحمد مع والده بعد تناول المشوي.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Tunisia,North Africa
+Tunisia-1,14 | traditions during religous holidays,العادات في الأعياد الدينية,أمل هي المسؤولة بعد ذبح الأضحية,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم أمل بتقسيم الخروف إلى أجزاء', ' تقوم أمل بشواء رأس الخروف',
+       'تقوم أمل بتنظيف الدوارة وتحضير الأوسبان'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Tunisia,North Africa
+Tunisia-1,15 | traditions during religous holidays,العادات في الأعياد الدينية,تحب مريم أن تأخذ حمامًا طويلًا قبل العيد ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تحب الجلوس ومراقبة الناس', 'تحب البقاء في الغرفة المدفئة',
+       ' تحب استخدام الطفل والسواك وأخذ مساج'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Tunisia,North Africa
+Tunisia-1,16 | activities for non-religous holidays,العادات في الأعياد الغير دينية,يحتفل التونسيون بعيد المرأة يوم 13 أغسطس,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يحتفل التونسيون بعيد المرأة بعمل حفلات تكريم',
+       ' يحتفل التونسيون بعيد المرأة بعمل كرنفالً',
+       'يحتفل التونسيون بعيد المرأة بعمل مسيرة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Tunisia,North Africa
+Tunisia-1,17 | activities for non-religous holidays,العادات في الأعياد الغير دينية,يحتفل التونسيون بعيد الاستقلال بمسيرات جماهيرية.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يحتفل التونسيون بعيد الاستقلال في 10 مارس.',
+       'يحتفل التونسيون بعيد الاستقلال في 20 مارس .',
+       ' يحتفل التونسيون بعيد الاستقلال في 25 يوليو.'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes, No,No,Tunisia,North Africa
+Tunisia-1,18 | activities for non-religous holidays,العادات في الأعياد الغير دينية,تجمع التونسيون في ساحة القصبة للاحتفال بعيد الشهداء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تجمع التونسيون في ساحة القصبة للاحتفال بعيد الشهداء في 9 أبريل',
+       'تجمع التونسيون في ساحة القصبة للاحتفال بعيد الشهداء في 19 أبريل',
+       ' تجمع التونسيون في ساحة القصبة للاحتفال بعيد الشهداء في  20 مارس'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes, No,No,Tunisia,North Africa

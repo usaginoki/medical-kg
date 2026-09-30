@@ -1,0 +1,51 @@
+tax_id,spice,pubchem_id,chemical,ctd_chemical_id
+136217,Turmeric,5469424,Demethoxycurcumin,MESH:C050229
+136217,Turmeric,160512,Ar-Turmerone,MESH:C078098
+136217,Turmeric,14191392,Dehydrocurdione,MESH:C117943
+136217,Turmeric,189061,Procurcumenol,MESH:C438916
+136217,Turmeric,10466651,Curdione,MESH:C504126
+136217,Turmeric,24834047,Zedoarondiol,MESH:C546347
+136217,Turmeric,167812,Curcumenol,MESH:C552245
+136217,Turmeric,153845,Curcumenone,MESH:C582256
+136217,Turmeric,969516,Curcumin,MESH:D003474
+298661,Tanner Sumac,13250,Ethyl Gallate,MESH:C048734
+298661,Tanner Sumac,370,Gallic Acid,MESH:D005707
+4682,Garlic,441667,Kuromanin,MESH:C000596494
+4682,Garlic,147004,Methylselenocysteine,MESH:C002979
+4682,Garlic,65036,Allicin,MESH:C006452
+4682,Garlic,9576089,Alliin,MESH:C006453
+4682,Garlic,643779,Neral,MESH:C007076
+4682,Garlic,643820,Nerol,MESH:C007836
+4682,Garlic,182092,6853-87-8,MESH:C008389
+4682,Garlic,3080775,S-Methylthiocysteine,MESH:C017115
+4682,Garlic,16590,Diallyl Disulfide,MESH:C028009
+4682,Garlic,11617,Diallyl Sulfide,MESH:C038491
+4682,Garlic,12377,Dipropyl Disulfide,MESH:C041288
+4682,Garlic,16315,Diallyl Trisulfide,MESH:C042577
+4682,Garlic,19310,Dimethyl Trisulfide,MESH:C054170
+4682,Garlic,62434,Allyl Methyl Disulfide,MESH:C054528
+4682,Garlic,332427,Lariciresinol,MESH:C060282
+4682,Garlic,119205,Matairesinol,MESH:C068935
+4682,Garlic,66282,Allyl Methyl Sulfide,MESH:C077207
+4682,Garlic,73399,(+)-Pinoresinol,MESH:C103298
+4682,Garlic,197081,Kuromanin Chloride,MESH:C114438
+52570,Ajowan,6989,Thymol,MESH:D013943
+4182,Sesame,3469,"2,5-Dihydroxybenzoic Acid",MESH:C010925
+4182,Sesame,332,2-Methoxy-4-Vinylphenol,MESH:C014245
+4182,Sesame,394846,Nortrachelogenin,MESH:C020436
+4182,Sesame,68289,Sesamol,MESH:C025583
+4182,Sesame,443023,(+)-Syringaresinol,MESH:C042192
+4182,Sesame,101746,Sesamolin,MESH:C054124
+4182,Sesame,72307,Sesamin,MESH:C054125
+4182,Sesame,332427,Lariciresinol,MESH:C060282
+4182,Sesame,94672,Sesaminol,MESH:C066016
+4182,Sesame,119205,Matairesinol,MESH:C068935
+4182,Sesame,64981,Arctigenin,MESH:C071942
+4182,Sesame,73399,(+)-Pinoresinol,MESH:C103298
+4182,Sesame,72506,Conidendrin,MESH:C421915
+4182,Sesame,384877,Dimethylmatairesinol,MESH:C508933
+4182,Sesame,31161,Pedalitin,MESH:C510777
+4182,Sesame,181681,Medioresinol,MESH:C576388
+4182,Sesame,199,Agmatine,MESH:D000376
+4182,Sesame,9750,L-Citrulline,MESH:D002956
+4182,Sesame,460,Guaiacol,MESH:D006139

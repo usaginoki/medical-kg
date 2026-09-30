@@ -1,0 +1,141 @@
+worker_id,sample_id,sub_topic,first_statement,options,answer_key,relevant_to_this_country,relevant_to_other_countries,should_discard,country,region
+Morocco-1,1 | Breakfast,الافطار,تحضّر نادية الملوي المحشو بالجبن والزيتون لإفطار العائلة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقدم نادية الشاي بالنعناع بجانب الملوي',
+       ' تقدم نادية البسطيلة مع العصير بجانب الملوي',
+       ' تقدم نادية الطاجين باللحم والزيتون بجانب الملوي'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Morocco,North Africa
+Morocco-1,2 | Breakfast,الافطار,عمر يعد وجبة الإفطار في الصباح,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يحضر عمر الكسكس بالدجاج للإفطار',
+       ' يشرب عمر كأسًا من الشاي بالنعناع مع البغرير',
+       ' يتناول عمر الحريرة مع الخبز في الصباح'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Morocco,North Africa
+Morocco-1,3 | Breakfast,الافطار,تشتري فاطمة السفنج الطازج من المخبز المحلي لتقدمه مع الشاي بالنعناع,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' تضيف فاطمة قليلًا من الملح فوق السفنج',
+       ' تضيف فاطمة قليلًا من السكر فوق السفنج',
+       ' تضيف فاطمة قليلًا من الزبدة فوق السفنج'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Morocco,North Africa
+Morocco-1,4 | Breakfast,الافطار,تعدّ فاطمة المسمن مع العسل والزبدة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تحضر فاطمة الطاجين بالخضار لتناوله مع المسمن',
+       ' تطبخ فاطمة الحريرة في الصباح وتقدمها مع المسمن',
+       ' تقوم بتسخين المسمن في المقلاة قبل التقديم'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Morocco,North Africa
+Morocco-1,5 | Breakfast,الافطار,يستمتع خالد بالبيصارة كوجبة إفطار دسمة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يضيف زيت الزيتون والكمون للبيصارة', ' يضيف المربى للبيصارة',
+       ' يضيف البيض للبيصارة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Morocco,North Africa
+Morocco-1,6 | Lunch,الغداء,يُقدَّم الكسكس التقليدي مع الخضار واللحم,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['  تضاف الهريسة فوق الكسكس', ' يُضاف الحمص فوق الكسكس',
+       ' يُضاف الكمون فوق الكسكس'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Morocco,North Africa
+Morocco-1,7 | Lunch,الغداء,يُعتبر الطاجين باللحم والخضار من الأطباق المفضلة في الغداء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يُتناول الطاجين مع شاي البابونج',
+       ' يُضاف القليل من الزعفران لإعطاء الطاجين نكهة خاصة',
+       ' يُقدَّم الطاجين مع الحلويات المغربية'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Morocco,North Africa
+Morocco-1,8 | Lunch,الغداء,خلال فصل الشتاء، اللوبيا غداء شهي.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تُقدَّم اللوبيا عادةً مع الشاي بالنعناع',
+       ' يضاف الحليب للوبيا قبل تقديمها',
+       ' تُطهى اللوبيا مع الطماطم والثوم'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Morocco,North Africa
+Morocco-1,9 | Lunch,الغداء,تحضر مريم سلطة الطماطم والبصل لإضافتها إلى الغداء.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تحضر مريم تتبيلة السلطة باستخدام النبيذ',
+       ' تضيف مريم اللبن إلى السلطة', ' تضيف مريم زيت الزيتون والليمون'],
+      dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Morocco,North Africa
+Morocco-1,11 | Dinner,العشاء,تتناول مريم الحريرة في العشاء.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تُقدم الحريرة باردة', ' تُصنع الحريرة من الباذنجان',
+       ' تُحب مريم إضافة الليمون والكمون إلى الحريرة'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Morocco,North Africa
+Morocco-1,13 | Iftar (Ramadan),افطار رمضان,تعد والدتي البريوات للافطار في رمضان.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['البريوات محشوة باللحم والتوابل', ' البريوات محشوة بالأرز والعدس',
+       ' البريوات محشوة بالمكرونة والطماطم'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Morocco,North Africa
+Morocco-1,14 | Iftar (Ramadan),افطار رمضان,على مائدة الإفطار، ستجد عادةً التمر والشباكية.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تُقدم الشبكية والتمر عند نهاية الإفطار',
+       ' تضاف الشبكية والتمر إلى الحريرة',
+       ' تُساعد الشبكية والتمر على كسر الصيام بشكل لطيف'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Morocco,North Africa
+Morocco-1,15 | Iftar (Ramadan),افطار رمضان,تحضر مريم ثلاثة أنواع مختلفة من العصائر لتقديمها للإفطار.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' تحضر مريم العصائر من الخضروات الخضراء',
+       ' تحضر مريم العصائر فقط من الفواكه المجففة',
+       ' تُفضل مريم إعداد عصير البرتقال والتفاح والليمون'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Morocco,North Africa
+Morocco-1,18 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),أحب تناول الفلان للسحور.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يُصنع الفلان باستخدام الزبدة فقط',
+       ' الفلان من الأطباق الغنية بالبروتين',
+       ' يشرب الفلان بعد إضافته إلى الحليب'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Morocco,North Africa
+Morocco-1,19 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),خلال السحور، تحب سارة أن تبدأ بشاي النعناع ,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تشرب سارة القهوة في السحور',
+       ' تُفضل سارة إنهاء السحور بكوب كبير من عصير البرتقال',
+       ' تضيف سارة الحليب إلى شاي النعناع'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Morocco,North Africa
+Morocco-1,20 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),الخبز المنزلي مع زيت الزيتون والجبن هو السحور المفضل لمريم.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تضيف مريم التوابل على الخبز المنزلي',
+       ' تشرب مريم شاي النعناع مع الخبز',
+       ' يُعد الخبز المنزلي على الموقد'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Morocco,North Africa
+Morocco-1,21 | Sahoor (Ramadan),السحور ( تصبيرة رمضان ),تُقدَّم الحسوة مع زيت الزيتون للسحور.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تُقدَّم الحسوة باردة مع الثلج',
+       ' يمكن إضافة الزبدة المذابة إلى الحسوة', ' الحسوة مُصنعة من العسل'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Morocco,North Africa
+Morocco-1,23 | Dessert,حلوى,الحلوى المفضلة لسارة هي كعب الغزال.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يُحضر كعب الغزال بالفستق', ' يُحضر كعب الغزال بالفول السوداني',
+       ' يُحضر كعب الغزال باللوز'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Morocco,North Africa
+Morocco-1,24 | Dessert,حلوى,الغريبة تُصنع بالزنجلان المحمر.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['لا تحتوي الغريبة على أي مكونات حلوة',
+       ' تُحلَّى الغريبة بالسكر البودرة',
+       ' تُحضر الغريبة باستخدام الطماطم'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Morocco,North Africa
+Morocco-1,25 | Dessert,حلوى,الشباكية هي أشهر حلوى مغربية.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['الشباكية تُصنع فقط بالجبن',
+       ' الشباكية تُقدَّم فقط في المناسبات الحزينة',
+       ' تُقدَّم الشباكية عادةً في رمضان مع الحريرة'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Morocco,North Africa
+Morocco-1,26 | Fruits,فاكهة,يمكن استخدام السفرجل في الطاجين.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['السفرجل يُستخدم أيضا في العصير',
+       ' ىطهى السفرجل في الفرن قبل إضافته للطاجين',
+       ' يُضاف السفرجل عادةً مع اللحم والخضار'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Morocco,North Africa
+Morocco-1,27 | Fruits,فاكهة,مريم تحب تناول التين كوجبة خفيفة.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' تأكل مريم التين بيديها', ' تأكل مريم التين بملعقة',
+       ' تأكل مريم التين بشوكة'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Morocco,North Africa
+Morocco-1,28 | Fruits,فاكهة,خلال موسمها، يحب المغاربة تناول الهندية.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['المغاربة لا يأكلون الهندية إلا في الشتاء',
+       ' الهندية تؤكل فقط في المناسبات',
+       ' موسم الهندية يبدأ في بداية الصيف'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Morocco,North Africa
+Morocco-1,29 | Snacks,وجبات خفيفة,الزعلوك يُصنع من الباذنجان المشوي.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يُضاف الثوم والطماطم لتحضير الزعلوك',
+       ' يُضاف اللحم لتحضير الزعلوك', ' الزعلوك يُقدم بارداً'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Morocco,North Africa
+Morocco-1,30 | Snacks,وجبات خفيفة,تُعتبر الزيتون المخللة وجبة خفيفة شائعة، وغالبًا ما تُقدم كمقبلات,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['الزيتون المخللة تُؤكل ساخنة',
+       ' تُحضر الزيتون المخللة بتتبيلها بالبهارات والزيت',
+       ' تُحضر الزيتون المخللة بتتبيلها في الكحول'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Morocco,North Africa
+Morocco-1,1 | wedding location,مكان الزواج,يوسف وخطيبته يستعدان لإقامة حفل زفافهما.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['استأجرا قاعة صغيرة لا تتسع لأكثر من عشرة أشخاص',
+       ' قررا إقامة حفل الزفاف في حديقة منزل الجيران',
+       ' اختارا قاعة واسعة تتسع للعديد من الضيوف'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Morocco,North Africa
+Morocco-1,2 | wedding food,طعام الزواج,في زفاف صديقي، قدموا البسطيلة بالدجاج,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['البسطيلة محشوة بالمكسرات و العطرية',
+       ' البسطيلة محشوة بالخضار فقط', ' قدموا البسطيلة مع صلصة الطماطم'],
+      dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Morocco,North Africa
+Morocco-1,3 | wedding dowry,مهر الزواج,من المعتاد أن يقدم العريس صداق إلى خطيبته.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['الصداق علامة على الاحترام والتقدير',
+       ' يُطلب من العروس تقديم هدية للعريس',
+       ' الصداق يُعتبر شيئًا غير مهم في الزواج'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Morocco,North Africa
+Morocco-1,4 | wedding (other logistics),تجهيزات أخرى للزواج,عائشة استأجرت نقافة للإشراف على فساتين زفافها.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['النقافة تساعد في تنسيق الفساتين',
+       ' النقافة تشرف على جميع الأحداث والمناسبات العائلية',
+       ' النقافة تتعامل مع ضيوف الزفاف'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Morocco,North Africa
+Morocco-1,5 | wedding (other logistics),تجهيزات أخرى للزواج,ارتدت العروس أربع تكشيطات خلال حفل الزفاف، وفستانًا أبيض في النهاية.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['العروس اختارت كل تكشيطة لتناسب تقاليد وثقافة عائلتها',
+       ' العروس اختارت كل تكشيطة لتناسب تقاليد وثقافة عائلة زوجها',
+       ' التكشيطات التي ارتدت العروس كلها بلون واحد'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Morocco,North Africa
+Morocco-1,6 | men cermony vs. women cermony,احتفالات الزواج للرجال vs احتفالات الزواج للنساء,تستمع النساء إلى الشَعبي وترقصن,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يستمع الرجال عادةً إلى القرآن',
+       ' الرجال يشاركون في الرقص والغناء الشَعبي مع النساء',
+       ' النساء ترقصن جالسات في أماكنهن'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Morocco,North Africa
+Morocco-1,7 | men cermony vs. women cermony,احتفالات الزواج للرجال vs احتفالات الزواج للنساء,يتم إعداد الطاولات لعشاء الزفاف.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' عادة ما يجلس الرجال والنساء معًا على نفس الطاولة',
+       ' عادة ما يجلس الرجال والنساء في أماكن منفصلة',
+       ' عادة ما يجلس الأطفال في مكان بمفردهم'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Morocco,North Africa
+Morocco-1,8 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,يُقام حفل الحناء قبل الزفاف حيث يتم تزيين يدي وقدمي العروس ونقشها بالحناء,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' يُقام حفل الحناء قبل شهر من الزفاف',
+       ' يُقام حفل الحناء بعد شهر من الزفاف',
+       ' تُغنى أغاني الشَعبي خلال حفل الحناء'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Morocco,North Africa
+Morocco-1,9 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,موسيقى الشعبي تُعتبر جزءًا أساسيًا من حفلات الزفاف المغربية,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' يجلس الحاضرون للتمعن في الموسيقى',
+       ' يتجمع الأصدقاء والعائلة للغناء والرقص',
+       ' تُعزف موسيقى الشعبي باستخدام البيانو'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Morocco,North Africa
+Morocco-1,11 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,ركوب العمارية هو تقليد مغربي حيث تجلس العروس في عرش مزين يُرفع بها وسط الاحتفال كملكة الليلة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يُستخدم ركوب العمارية فقط في حفلات الخطوبة',
+       ' تُزين العمارية بالورود البلاستيكية فقط',
+       ' يُرافق ركوب العمارية عادةً بالموسيقى والرقص'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Morocco,North Africa
+Morocco-1,12 | songs and activities during the wedding,الفعاليات والأغاني في حفلات الزواج,يقدم العريس للعروس تمرة لتأكلها.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' يُقدم العريس للعروس التمر مع ماء الورد',
+       ' يُقدم العريس للعروس التمر مع الحليب',
+       '  يُقدم العريس للعروس التمر مع وعصير التفاح'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Morocco,North Africa
+Morocco-1,1 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,مريم تشتري ملابس جديدة لابنتها قبل العيد.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['مريم تشتري ألعابًا لأطفال الجيران',
+       ' مريم تشتري ملابس جديدة لنفسها أيضًا',
+       ' مريم تقضي العيد في تنظيف المنزل طوال اليوم'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Morocco,North Africa
+Morocco-1,2 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,مع اقتراب رمضان، كل أسرة تحضر الشباكية والسلو.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقوم النساء بإعداد الحلويات وتخزينها',
+       ' يُفضل تحضير الشباكية والسلو قبل العيد',
+       ' الشباكية تُعد فقط بعد بدء رمضان'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,No,No,Morocco,North Africa
+Morocco-1,3 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,يوسف يزور قبر جده قبل عيد المولد النبوي.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يقوم يوسف بقراءة الفاتحة والدعاء', ' يوسف يرش ماء الورد على القب',
+       ' يوسف يذهب إلى المقبرة لإشعال الشموع عند القبر'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Morocco,North Africa
+Morocco-1,4 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,قبل كل عيد، تقوم أميمة بتنظيف المنزل للضيوف الذين سيزورونها.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تُرتب أميمة الأثاث وتزين المنزل',
+       ' أميمة تطهو الطعام في الصباح الباكر',
+       ' أميمة تشتري أثاثًا جديدًا'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Morocco,North Africa
+Morocco-1,5 | traditions before religous holidays,العادات والفعاليات والتجهيزات قبل الأعياد الدينية,سارة تضع الحناء على يديها للاحتفال بعيد الفطر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['سارة تضع الحناء على يد أخيها الأصغر.',
+       ' سارة تجتمع مع أفراد العائلة', ' سارة تقضي العيد مع صديقاتها'],
+      dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,No,No,Morocco,North Africa
+Morocco-1,7 | traditions during religous holidays,العادات في الأعياد الدينية,تُقام صلاة العيد في المساجد والساحات العامة في عيد الأضحى,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['صلاة العيد تُقام في المساء',
+       ' يُطلب من الناس عدم حضور صلاة العيد في المساجد',
+       ' يجتمع الناس بعد الصلاة لتبادل التهاني والأمنيات'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Morocco,North Africa
+Morocco-1,8 | traditions during religous holidays,العادات في الأعياد الدينية,خلال عيد الفطر، يقدم المغاربة الإفطار في الصباح الباكر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array([' الإفطار يشمل الشاي والحلويات', ' الإفطار يشمل الحريرة',
+       ' الإفطار يشمل الطاجين بالبرقوق'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Morocco,North Africa
+Morocco-1,9 | traditions during religous holidays,العادات في الأعياد الدينية,في عيد الفطر، يرتدي الأطفال ملابس جديدة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['الأطفال لا يحضرون الاحتفالات',
+       ' يتلقون أيضًا العيدية من الأهل والأقارب',
+       ' تسافر العائلات خلال عيد الفطر'], dtype=object)}","{'arabic_answer_key': 'ب', 'english_answer_key': 'B'}",Yes,Yes,No,Morocco,North Africa
+Morocco-1,10 | traditions during religous holidays,العادات في الأعياد الدينية,بعد ذبح الخروف، تقوم والدتي بتحضير البُولفاف,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['يُصنع البُولفاف من الأسماك', ' تُقدم والدتي البُولفاف كطبق حلو',
+       ' تُعد والدتي البُولفاف باستخدام اللحم والتوابل'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Morocco,North Africa
+Morocco-1,11 | traditions during religous holidays,العادات في الأعياد الدينية,في عيد الأضحى، تتجمع الأسر وتقوم بذبح الأغنام في الصباح الباكر.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تُقدّم الأسر الأسماك بجانب الأغنام', ' يتم ذبح الأغنام في الليل',
+       ' يتشارك أفراد العائلة في توزيع لحم الأضحية'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Morocco,North Africa
+Morocco-1,12 | traditions during religous holidays,العادات في الأعياد الدينية,مريم تُشعل البخور في أرجاء المنزل ليلة القدر,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تستخدم مريم الشموع فقط لتزيين المنزل',
+       ' تفضل مريم استخدام المعطرات الصناعية',
+       ' تُشعل البخور لتطهير الجو'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,Yes,No,Morocco,North Africa
+Morocco-1,13 | traditions during religous holidays,العادات في الأعياد الدينية,في عاشوراء، تحضر سارة التفريقة,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تفضل سارة تقديم التفريقة مع الحليب',
+       ' سارة تُعد التفريقة باستخدام الخضروات الطازجة',
+       ' التفريقة هي مزيج من الفواكه المجففة والحلويات'], dtype=object)}","{'arabic_answer_key': 'ج', 'english_answer_key': 'C'}",Yes,No,No,Morocco,North Africa
+Morocco-1,14 | traditions during religous holidays,العادات في الأعياد الدينية,فاطمة تعطي الصدقة للفقراء خلال العيد,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['فاطمة تُحضّر وجبات للفقراء',
+       ' فاطمة تُصرف الصدقة على شراء الهدايا',
+       ' فاطمة تُعطي الشاي بالنعناع للفقراء'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Morocco,North Africa
+Morocco-1,15 | traditions during religous holidays,العادات في الأعياد الدينية,خلال عيد المولد النبوي، تشعل عائشة البخور في أرجاء المنزل.,"{'arabic_keys': array(['أ', 'ب', 'ج'], dtype=object), 'english_keys': array(['A', 'B', 'C'], dtype=object), 'text': array(['تقدم عائشة الشاي مع الحلويات',
+       ' تشتري عائشة أثاثًا جديدًا للاحتفال بالعيد',
+       ' عائشة لا تقدم أي شيء للضيوف'], dtype=object)}","{'arabic_answer_key': 'أ', 'english_answer_key': 'A'}",Yes,Yes,No,Morocco,North Africa

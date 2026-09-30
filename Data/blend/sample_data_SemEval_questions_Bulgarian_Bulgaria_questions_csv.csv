@@ -1,0 +1,51 @@
+Unnamed: 0,ID,Topic,Source,Question,Translation
+0,Al-en-01,Food,English (US),Каква е често срещана закуска за деца в детска градина в България?,What is a common snack for nursery kids in Bulgaria?
+1,Al-en-02,Food,English (US),Каква е популярна храна за консумация с бира в България?,What is a popular food to go with beer in Bulgaria?
+2,Al-en-04,Food,English (US),Кой е най-популярният плод в България?,What is the most popular fruit in Bulgaria?
+3,Al-en-06,Food,English (US),Каква е обичайна храна в училищната столова в България?,What is a common school cafeteria food in Bulgaria?
+4,Al-en-08,Food,English (US),Кои са най-често консумираните закуски в търговските центрове в България?,What are the most commonly eaten snacks at shopping malls in Bulgaria?
+5,Al-en-09,Food,English (US),Коя е популярна закуска в увеселителните паркове в България?,What is a popular snack at an amusement park in Bulgaria?
+6,Al-en-16,Education,English (US),На каква възраст децата започват детска градина в България?,"At what age do kids start nursery in Bulgaria? (Provide Arabic numerals (e.g., 12) only.)"
+7,Al-en-17,Education,English (US),Кой е популярен следучилищен спорт за ученици в началните училища в България?,What is a popular afterschool sport for primary schools in Bulgaria?
+8,Al-en-18,Education,English (US),По кой предмет учениците в началното училище получават частно обучение в България?,For which subject do primary school students get private education in Bulgaria?
+9,Al-en-19,Education,English (US),Кой е популярен втори език за ученици в средните училища в България?,What is a popular second language for secondary school students in Bulgaria?
+10,Al-en-21,Education,English (US),Кой предмет е най-важен за образованието на надарените ученици в България?,Which subject is the most important for gifted education in Bulgaria?
+11,Al-en-32,Holidays/Celebration/Leisure,English (US),Какво е основното ястие за Деня на благодарността в България?,What is the main dish for Thanksgiving in Bulgaria?
+12,Al-en-33,Holidays/Celebration/Leisure,English (US),"Какво правят хората, за да празнуват Хелоуин в България?",What do people do to celebrate Halloween in Bulgaria?
+13,Al-en-34,Holidays/Celebration/Leisure,English (US),"Какво правят хората, за да празнуват Нова година в България?",What do people do to celebrate New Year's Day in Bulgaria?
+14,Al-en-35,Holidays/Celebration/Leisure,English (US),"Какво правят хората, за да празнуват Коледа в България?",What do people do to celebrate Christmas in Bulgaria?
+15,Al-en-36,Holidays/Celebration/Leisure,English (US),С каква храна се свързва Хелоуин в България?,What food is associated with Halloween in Bulgaria?
+16,Al-en-37,Holidays/Celebration/Leisure,English (US),С каква храна се свързва Коледа в България?,What food is associated with Christmas in Bulgaria?
+17,Al-en-38,Holidays/Celebration/Leisure,English (US),С каква храна се свързва Денят на влюбените в България?,What food is associated with Valentine's day in Bulgaria?
+18,Al-en-39,Holidays/Celebration/Leisure,English (US),Какво ядат хората на рождения си ден в България?,What do people eat on their birthday in Bulgaria?
+19,Al-en-40,Holidays/Celebration/Leisure,English (US),"Кое е популярно място на открито, където семействата с малки деца могат да се забавляват в България?",What is a popular outdoor place for families to have fun with little kids in Bulgaria?
+20,Al-en-43,Holidays/Celebration/Leisure,English (US),Кое е популярно занимание на закрито за семействата в България?,What is a popular indoor activity for families in Bulgaria?
+21,An-ar-02,Education,Arabic (Algeria),Къде обядват студентите в университет в България?,Where do university students have lunch in Bulgaria?
+22,An-ar-03,Education,Arabic (Algeria),През кой месец обикновено се провежда изпитната сесия в средните училища в България? (Посочете само арабски цифри (1~12).),Which month is the final exam term usually scheduled at secondary schools in Bulgaria? (Provide Arabic numerals (1~12) only.)
+23,An-ar-08,Education,Arabic (Algeria),"Колко часа на ден обикновено прекарват учениците в средното училище в България? (Посочете само цели арабски числа (0~24), без десетични знаци.)","How many hours a day do students in Bulgaria usually spend at secondary school? (Provide Arabic numerals in integers (0~24), without any decimal points.)"
+24,An-ar-09,Education,Arabic (Algeria),"Колко езика учат учениците в средното училище в България? (Посочете само арабски цифри, напр. 5.)","How many languages do students study at secondary school in Bulgaria? (Provide Arabic numerals (e.g., 5) only.)"
+25,An-ar-34,Sport,Arabic (Algeria),Кой е най-популярният отборен спорт в училище в България?,What is the most popular sport played in a team at school in Bulgaria?
+26,An-ar-35,Sport,Arabic (Algeria),Кой е най-популярният спортен коментатор в България?,Who is the most popular sports commentator in Bulgaria?
+27,An-ar-36,Sport,Arabic (Algeria),Кой е най-популярният спортен отбор в България?,What is the most popular sports team in Bulgaria?
+28,An-ar-43,Sport,Arabic (Algeria),"Кои са обичайните места или локации, където хората в България се събират, за да гледат спортни предавания?",What are the common places or venues where individuals in Bulgaria usually gather to watch sports broadcasts?
+29,Ca-sp-05,Food,Spanish (Spain),"Колко хранения на ден обикновено имат хората в България? (Посочете само арабски цифри, напр. 5.)","How many meals per day do people from Bulgaria usually have? (Provide Arabic numerals (e.g., 5) only.)"
+30,Ca-sp-06,Food,Spanish (Spain),Кое е най-важното хранене за хората в България?,Which is the most important meal of the day to people from Bulgaria?
+31,Ca-sp-08,Food,Spanish (Spain),Коя е най-често използваната съставка в българската кухня?,What is the most common ingredient used in Bulgaria's diet?
+32,Ca-sp-09,Food,Spanish (Spain),Какво обикновено ядат хората в България за десерт?,What do people from Bulgaria usually eat for dessert?
+33,Ca-sp-11,Food,Spanish (Spain),Кой ден от седмицата обикновено се организира семейна вечеря в България?,Which day of the week do people usually organize a family meal in Bulgaria?
+34,Ca-sp-14,Food,Spanish (Spain),Коя е най-популярната топла напитка в България?,Which is the most popular hot drink in Bulgaria?
+35,Ca-sp-19,Holidays/Celebration/Leisure,Spanish (Spain),Какво обикновено пият младите хора в България в нощните клубове?,What do young people from Bulgaria usually drink at the night club?
+36,Ca-sp-21,Holidays/Celebration/Leisure,Spanish (Spain),През кой месец обикновено хората излизат в отпуск в България? (Посочете само арабски цифри (1~12).),In which month do people usually take holidays in Bulgaria? (Provide Arabic numerals (1~12) only.)
+37,Ca-sp-29,Holidays/Celebration/Leisure,Spanish (Spain),Каква е традицията в България за Нова година?,What tradition is there in Bulgaria for New Year's Eve?
+38,Ca-sp-38,Family,Spanish (Spain),Какъв тип жилище е типичен за едно семейство в България?,Which is the typical type of house for a family in Bulgaria?
+39,Ca-sp-41,Family,Spanish (Spain),"Къде обикновено живеят възрастните хора, които се нуждаят от грижи, в България?",Where do the dependent elderly usually live in Bulgaria?
+40,Ca-sp-42,Family,Spanish (Spain),"Колко дълъг е отпускът по майчинство в България (в седмици)? (Посочете само арабски цифри, напр. 20.)","How long (in weeks) is Bulgaria's maternity leave for mums? (Provide Arabic numerals (e.g., 20) only.)"
+41,Ca-sp-43,Family,Spanish (Spain),"Колко дълъг е отпускът по бащинство в България (в седмици)? (Посочете само арабски цифри, напр. 20.)","How long (in weeks) is Bulgaria's paternity leave for dads? (Provide Arabic numerals (e.g., 20) only.)"
+42,Ca-sp-45,Family,Spanish (Spain),Какъв тип дестинация обикновено се избира за семейна почивка в България?,What type of destination is commonly chosen for a family holiday in Bulgaria?
+43,Gu-ch-05,Sport,Chinese (China),Кои спортове най-много харесват възрастните хора в България?,What sports do seniors like the most in Bulgaria?
+44,Gu-ch-06,Sport,Chinese (China),Кои спортове най-много обичат да играят мъжете в България?,What sports do men like to play the most in Bulgaria?
+45,Gu-ch-07,Sport,Chinese (China),Кой е най-известният баскетболист в България?,Who is the most famous basketball player in Bulgaria?
+46,Gu-ch-08,Sport,Chinese (China),Кой е най-популярният спорт сред децата в България?,What is the most popular sports among children in Bulgaria?
+47,Gu-ch-09,Sport,Chinese (China),Кои спортове най-много обичат да играят жените в България?,What sports do women like to play the most in Bulgaria?
+48,Gu-ch-11,Sport,Chinese (China),В кое спортно събитие на Олимпиадата България е спечелила най-много златни медали?,In which sports event at the olympics has Bulgaria won the most gold medals?
+49,Gu-ch-15,Sport,Chinese (China),Кой спорт най-често играят студентите (мъже) в университетите в България?,What sports do male students in university like to play the most in Bulgaria?

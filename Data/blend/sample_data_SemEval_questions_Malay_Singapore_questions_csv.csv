@@ -1,0 +1,51 @@
+Unnamed: 0,ID,Topic,Source,Question,Translation
+0,Al-en-01,Food,English (US),Apakah snek yang biasa dimakan oleh budak-budak tadika di Singapura?,What is a common snack for nursery kids in Singapore?
+1,Al-en-02,Food,English (US),"Di Singapura, apakah makanan yang popular dengan bir?",What is a popular food to go with beer in Singapore?
+2,Al-en-04,Food,English (US),Apakah buah yang paling popular di Singapura?,What is the most popular fruit in Singapore?
+3,Al-en-06,Food,English (US),Apakah makanan yang biasanya sedia di kantin sekolah Singapura?,What is a common school cafeteria food in Singapore?
+4,Al-en-08,Food,English (US),Apakah snek yang biasa dimakan di shopping mall Singapura?,What are the most commonly eaten snacks at shopping malls in Singapore?
+5,Al-en-09,Food,English (US),"""Apakah snek yang popular di taman hiburan di Singapura?""",What is a popular snack at an amusement park in Singapore?
+6,Al-en-16,Education,English (US),"Kanak-kanak di Singapura biasanya mula menghadiri tadika pada umur berapa? (Sila gunakan nombor Arab sahaja, contohnya 12 atau 4)","At what age do kids start nursery in Singapore? (Provide Arabic numerals (e.g., 12) only.)"
+7,Al-en-17,Education,English (US),Apakah sukan popular selepas sekolah untuk sekolah rendah di Singapura?,What is a popular afterschool sport for primary schools in Singapore?
+8,Al-en-18,Education,English (US),Bagi apa subjek yang murid sekolah rendah biasanya mengambil tuisyen di Singapura?,For which subject do primary school students get private education in Singapore?
+9,Al-en-19,Education,English (US),Apakah bahasa kedua yang popular untuk pelajar sekolah menengah di Singapura?,What is a popular second language for secondary school students in Singapore?
+10,Al-en-21,Education,English (US),Apakah subjek yang paling penting untuk program pendidikan pintar cerdas di Singapura?,Which subject is the most important for gifted education in Singapore?
+11,Al-en-32,Holidays/Celebration/Leisure,English (US),Apakah hidangan utama untuk sambutan Thanksgiving di Singapura?,What is the main dish for Thanksgiving in Singapore?
+12,Al-en-33,Holidays/Celebration/Leisure,English (US),Apakah yang biasanya dilakukan orang ramai untuk meraikan Halloween di Singapura?,What do people do to celebrate Halloween in Singapore?
+13,Al-en-34,Holidays/Celebration/Leisure,English (US),Apakah yang biasanya dilakukan orang ramai untuk meraikan Hari Tahun Baru di Singapura?,What do people do to celebrate New Year's Day in Singapore?
+14,Al-en-35,Holidays/Celebration/Leisure,English (US),Apakah yang biasanya dilakukan orang ramai untuk meraikan Hari Krismas di Singapura?,What do people do to celebrate Christmas in Singapore?
+15,Al-en-36,Holidays/Celebration/Leisure,English (US),Makanan apa yang biasanya dikairkan dengan Halloween di Singapura?,What food is associated with Halloween in Singapore?
+16,Al-en-37,Holidays/Celebration/Leisure,English (US),Makanan apa yang biasanya dikairkan dengan Hari Krismas di Singapura?,What food is associated with Christmas in Singapore?
+17,Al-en-38,Holidays/Celebration/Leisure,English (US),Makanan apa yang biasanya dikairkan dengan Hari Valentine di Singapura?,What food is associated with Valentine's day in Singapore?
+18,Al-en-39,Holidays/Celebration/Leisure,English (US),Apakah makanan yang biasanya dimakan orang pada hari lahir mereka di Singapura?,What do people eat on their birthday in Singapore?
+19,Al-en-40,Holidays/Celebration/Leisure,English (US),Apakah tempat rekreasi luar yang popular dengan keluarga Singapura untuk membawa anak kecil beseronok?,What is a popular outdoor place for families to have fun with little kids in Singapore?
+20,Al-en-43,Holidays/Celebration/Leisure,English (US),Apakah aktiviti rekreasi dalaman yang popular dengan keluarga di Singapura?,What is a popular indoor activity for families in Singapore?
+21,An-ar-02,Education,Arabic (Algeria),Di manakah pelajar universiti makan tengah hari di Singapura?,Where do university students have lunch in Singapore?
+22,An-ar-03,Education,Arabic (Algeria),"Dalam bulan berapa peperiksaan akhir tahun biasanya dijadualkan untuk sekolah menegah di Singapura? (Sila gunakan nombor Arab shaja, dari 1 hingga 12)",Which month is the final exam term usually scheduled at secondary schools in Singapore? (Provide Arabic numerals (1~12) only.)
+23,An-ar-08,Education,Arabic (Algeria),"Berapa jam sehari biasanya pelajar sekolah menengah di Singpura menghabiskan masa di Sekolah? (Sila gunakan nombor bulat Arab, dari 0 hingga 24, tanpa titik perpuluhan)","How many hours a day do students in Singapore usually spend at secondary school? (Provide Arabic numerals in integers (0~24), without any decimal points.)"
+24,An-ar-09,Education,Arabic (Algeria),"Berapa bahasa yang dipelajari oleh pelajar sekolah menengah di Singapura? (Sila gunakan nombor Arab sahaja, seperti 2)","How many languages do students study at secondary school in Singapore? (Provide Arabic numerals (e.g., 5) only.)"
+25,An-ar-34,Sport,Arabic (Algeria),Apakah sukan berpasukan yang paling dimainkan di sekolah-sekolah Singapura?,What is the most popular sport played in a team at school in Singapore?
+26,An-ar-35,Sport,Arabic (Algeria),Siapakah pengulas sukan paling popular di Singapura?,Who is the most popular sports commentator in Singapore?
+27,An-ar-36,Sport,Arabic (Algeria),Apakah pasukan sukan yang paling popular di Singapura?,What is the most popular sports team in Singapore?
+28,An-ar-43,Sport,Arabic (Algeria),Di manakah individu Singapura biasa berkumpul untuk menonton siaran sukan?,What are the common places or venues where individuals in Singapore usually gather to watch sports broadcasts?
+29,Ca-sp-05,Food,Spanish (Spain),"Berapa kali sehari biasanya orang Singapura makan? (Sila gunakan nombor Arab sahaja, seperti 5)","How many meals per day do people from Singapore usually have? (Provide Arabic numerals (e.g., 5) only.)"
+30,Ca-sp-06,Food,Spanish (Spain),Apakah waktu makan yang paling penting bagi orang Singapura?,Which is the most important meal of the day to people from Singapore?
+31,Ca-sp-08,Food,Spanish (Spain),Apakah bahan utama yang paling biasa digunakan dalam pemakanan di Singapura?,What is the most common ingredient used in Singapore's diet?
+32,Ca-sp-09,Food,Spanish (Spain),Apakah pencuci mulut yang biasa dimakan oleh orang Singapura?,What do people from Singapore usually eat for dessert?
+33,Ca-sp-11,Food,Spanish (Spain),Hari apa dalam seminggu orang Singapura biasanya adakan jamuan keluarga?,Which day of the week do people usually organize a family meal in Singapore?
+34,Ca-sp-14,Food,Spanish (Spain),"""Apakah minuman panas yang paling popular di Singapura?""",Which is the most popular hot drink in Singapore?
+35,Ca-sp-19,Holidays/Celebration/Leisure,Spanish (Spain),Apakah minuman yang biasa diminum oleh anak muda Singapura di kelab malam?,What do young people from Singapore usually drink at the night club?
+36,Ca-sp-21,Holidays/Celebration/Leisure,Spanish (Spain),"Dalam bulan berapa orang Singapura biasanya bercuti? (Sila gunakan no,bor arab sehaja, dari 1 hingga 12)",In which month do people usually take holidays in Singapore? (Provide Arabic numerals (1~12) only.)
+37,Ca-sp-29,Holidays/Celebration/Leisure,Spanish (Spain),Apakah tradisi yang diamalkan di Singapura untuk sambutan malam Tahun Baru?,What tradition is there in Singapore for New Year's Eve?
+38,Ca-sp-38,Family,Spanish (Spain),Apakah jenis rumah yang biasa didiami oleh keluarga di Singapura?,Which is the typical type of house for a family in Singapore?
+39,Ca-sp-41,Family,Spanish (Spain),"""Di manakah warga tua yang bergantung biasanya tinggal di Singapura?""",Where do the dependent elderly usually live in Singapore?
+40,Ca-sp-42,Family,Spanish (Spain),"Berapa minggu tempoh cuti bersalin untuk ibu-ibu di Singapura? (Sila gunakan nombor Arab sahaja, seperti 20)","How long (in weeks) is Singapore's maternity leave for mums? (Provide Arabic numerals (e.g., 20) only.)"
+41,Ca-sp-43,Family,Spanish (Spain),"Berapa minggu tempoh cuti paterniti untuk bapa-bapa di Singapura? (Sila gunakan nombor Arab sahaja, seperti 20)","How long (in weeks) is Singapore's paternity leave for dads? (Provide Arabic numerals (e.g., 20) only.)"
+42,Ca-sp-45,Family,Spanish (Spain),Apakah jenis destinasi yang biasa dipilih untuk percutian keluarga di Singapura?,What type of destination is commonly chosen for a family holiday in Singapore?
+43,Gu-ch-05,Sport,Chinese (China),"""Sukan apa yang paling digemari oleh warga emas di Singapura?""",What sports do seniors like the most in Singapore?
+44,Gu-ch-06,Sport,Chinese (China),Sukan apakah yang paling digemari oleh lelaki di Singapura?,What sports do men like to play the most in Singapore?
+45,Gu-ch-07,Sport,Chinese (China),Siapakah pemain bola keranjang paling terkenal di Singapura?,Who is the most famous basketball player in Singapore?
+46,Gu-ch-08,Sport,Chinese (China),Apakag sukan yang paling popular dalam kalangan kanak-kanak di Singapura?,What is the most popular sports among children in Singapore?
+47,Gu-ch-09,Sport,Chinese (China),Sukan apa yang paling digemari oleh wanita di Singapura?,What sports do women like to play the most in Singapore?
+48,Gu-ch-11,Sport,Chinese (China),Dalam acara sukan Olimpik yang manakah Singapura telah memenangi paling banyak pingat emas?,In which sports event at the olympics has Singapore won the most gold medals?
+49,Gu-ch-15,Sport,Chinese (China),Apakah jenis sukan yang paling digemari oleh pelajar lelaki universiti di Singapura?,What sports do male students in university like to play the most in Singapore?

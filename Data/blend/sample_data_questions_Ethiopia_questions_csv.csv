@@ -1,0 +1,51 @@
+Unnamed: 0,ID,Topic,Source,Question,Translation
+0,Al-en-01,Food,English (US),በኢትዮጵያ ቅድመ መደበኛ ልጆች የተለመደ መክሰስ ምንድን ነው?,What is a common snack for preschool kids in Ethiopia?
+1,Al-en-02,Food,English (US),በኢትዮጵያ ቢራ ጋር ምን ዓይነት ምግብ የተወደደ ነው?,What is a popular food to go with beer in Ethiopia?
+2,Al-en-04,Food,English (US),በኢትዮጵያ ምን ዓይነት ፍሬ እጅግ ታዋቂ ነው?,What is the most popular fruit in Ethiopia?
+3,Al-en-06,Food,English (US),በኢትዮጵያ በትምህርት ቤት መኖሪያ የተለመደ ምግብ ምንድነው?,What is a common school cafeteria food in Ethiopia?
+4,Al-en-08,Food,English (US),በኢትዮጵያ በገባያ አዳራሽ ውስጥ በተለይ የሚበሉ ምግቦች ምንናቸው ናቸው?,What are the most commonly eaten snacks at shopping malls in Ethiopia?
+5,Al-en-09,Food,English (US),በኢትዮጵያ የመዝናኛ ፓርክ ውስጥ ታዋቂ አሰራር ምግብ ምንድነው?,What is a popular snack at an amusement park in Ethiopia?
+6,Al-en-16,Education,English (US),በኢትዮጵያ ልጆች ቅድመ መደበኛ ትምህርት የሚጀምሩበት እድሜ ስንት ነው? (በአረብኛ ቁጥሮች (ምሳሌ 12) ብቻ ይምረጡ።),"At what age do kids start preschool in Ethiopia? (Provide Arabic numerals (e.g., 12) only.)"
+7,Al-en-17,Education,English (US),በኢትዮጵያ በመጀመሪያ ደረጃ ትምህርት ቤቶች ከትምህርት በኋላ የሚካሄድ ዝነኛ ስፖርት ዓይነት ምንድነው?,What is a popular afterschool sport for elementary schools in Ethiopia?
+8,Al-en-18,Education,English (US),በኢትዮጵያ በመጀመሪያ ደረጃ ትምህርት ተማሪዎቸ የግል አስጠኚ የሚቀጠርላቸው በተለየ ለየትኛው የትምህርት አይነት ነው?,For which subject do elementary students get private education in Ethiopia?
+9,Al-en-19,Education,English (US),በኢትዮጵያ በሁለተኛ ደረጃ ትምህርት ተማሪዎች ተመራጭ ሁለተኛ ቋንቋ ምንድን ነው?,What is a popular second language for high school students in Ethiopia?
+10,Al-en-21,Education,English (US),በኢትዮጵያ ለብልህ ተማሪ ጠቃሚ ትምህርት ነው ሚባለው የትምህርት አይነት የቱ ነው?,Which subject is the most important for gifted education in Ethiopia?
+11,Al-en-32,Holidays/Celebration/Leisure,English (US),በኢትዮጵያ ለምስጋና በዓል ዋነኛው ምግብ ምንድን ነው?,What is the main dish for Thanksgiving in Ethiopia?
+12,Al-en-33,Holidays/Celebration/Leisure,English (US),ሰዎች በኢትዮጵያ ሃሎዊንን ለመውደም ምን ያደርጋሉ?,What do people do to celebrate Halloween in Ethiopia?
+13,Al-en-34,Holidays/Celebration/Leisure,English (US),ሰዎች በኢትዮጵያ አዲስ አመት ቀን ሊያከብሩት ምን ያደርጋሉ?,What do people do to celebrate New Year's Day in Ethiopia?
+14,Al-en-35,Holidays/Celebration/Leisure,English (US),በኢትዮጵያ ሰዎች ገና በአል ለማክበር ምን ያደርጋሉ?,What do people do to celebrate Christmas in Ethiopia?
+15,Al-en-36,Holidays/Celebration/Leisure,English (US),በኢትዮጵያ ምን ዓይነት ምግብ ከሃሎዊን ጋር ተያይዞ ይገኛል?,What food is associated with Halloween in Ethiopia?
+16,Al-en-37,Holidays/Celebration/Leisure,English (US),በኢትዮጵያ በገና በዓል ላይ የተያያዘ ምግብ ምንድነው?,What food is associated with Christmas in Ethiopia?
+17,Al-en-38,Holidays/Celebration/Leisure,English (US),በኢትዮጵያ በቪልንቴይን ቀን ምን ዓይነት ምግብ ይታያል?,What food is associated with Valentine's day in Ethiopia?
+18,Al-en-39,Holidays/Celebration/Leisure,English (US),በኢትዮጵያ ሰዎች በልደታቸው ቀን ምን ይበላሉ?,What do people eat on their birthday in Ethiopia?
+19,Al-en-40,Holidays/Celebration/Leisure,English (US),በኢትዮጵያ ቤተሰቦች ከታናሽ ልጆች ጋር ለመዝናናት የተመረጡ የውጭ ቦታዎች ምንድን ናቸው?,What is a popular outdoor place for families to have fun with little kids in Ethiopia?
+20,Al-en-43,Holidays/Celebration/Leisure,English (US),በኢትዮጵያ ለቤተሰቦች የታወቀ ውስጥ ቤት እንክብካቤ ምንድን ነው?,What is a popular indoor activity for families in Ethiopia?
+21,An-ar-02,Education,Arabic (Algeria),በኢትዮጵያ ዩኒቨርስቲ ተማሪዎች ምሳቸውን የሚበሉበት ቦታ የት ነው?,Where do university students have lunch in Ethiopia?
+22,An-ar-03,Education,Arabic (Algeria),በኢትዮጵያ በከፍተኛ ትምህርት ቤቶች የማጠቃለያ ፈተና ባብዛኛው በየትኛው ወር ይሆን? (በአረቢኛ ቁጥሮች (1~12) ብቻ ምላሽ ይስጡ።),Which month is the final exam term usually scheduled at high schools in Ethiopia? (Provide Arabic numerals (1~12) only.)
+23,An-ar-08,Education,Arabic (Algeria),በኢትዮጵያ ተማሪዎች ቀን ትምህርት ቤት ውስጥ ስንት ሰዓት ያሳልፋሉ? (በሙሉ ቁጥር  (0~24) ያቅርቡ፣ ያለ ነጥብ),"How many hours a day do students in Ethiopia usually spend at high school? (Provide Arabic numerals in integers (0~24), without any decimal points.)"
+24,An-ar-09,Education,Arabic (Algeria),በኢትዮጵያ በከፍተኛ ትምህርት ቤት ተማሪዎች ባብዛኛው ስንተ ቋንቋዎችን ይማሩ? (በአረቢኛ ቁጥር (ምሳሌ 5) ብቻ ይምልኩ።),"How many languages do students study at high school in Ethiopia? (Provide Arabic numerals (e.g., 5) only.)"
+25,An-ar-34,Sport,Arabic (Algeria),በኢትዮጵያ በትምህርት ቤት በቡድን የሚጫወቱ እጅግ ታዋቂ ስፖርት ምንድን ነው?,What is the most popular sport played in a team at school in Ethiopia?
+26,An-ar-35,Sport,Arabic (Algeria),በኢትዮጵያ ታዋቂ የስፖርት አስተያየት ሰጪ ማን ነው?,Who is the most popular sport commentator in Ethiopia?
+27,An-ar-36,Sport,Arabic (Algeria),በኢትዮጵያ ምን ዓይነት ስፖርት ቡድን እጅግ ታዋቂ ነው?,What is the most popular sport team in Ethiopia?
+28,An-ar-43,Sport,Arabic (Algeria),በኢትዮጵያ ሰዎች በተለይ  ስፖርት ዝግጅቶችን ተሰባስበው ለመመልከት የሚያዘወትሩት ቦታ የት ነው?,What are the common places or venues where individuals in Ethiopia usually gather to watch sports broadcasts?
+29,Ca-sp-05,Food,Spanish (Spain),በኢትዮጵያ ሰዎች በተለይነት በአንድ ቀን ስንት ጊዜ ይመገባሉ? (በአረቢኛ ቁጥሮች (ምሳሌ 5) ብቻ ይምረጡ።),"How many meals per day do people from Ethiopia usually have? (Provide Arabic numerals (e.g., 5) only.)"
+30,Ca-sp-06,Food,Spanish (Spain),በኢትዮጵያ ሰዎች በቀን ውስጥ እጅግ አስፈላጊ የሆነው ምግብ ምንድን ነው?,Which is the most important meal of the day to people from Ethiopia?
+31,Ca-sp-08,Food,Spanish (Spain),በኢትዮጵያ የምግብ አሰራር ላይ በተለይ የተለመደ ንጥረ ነግር ምንድን ናቸው?,What is the most common ingredient used in Ethiopia's diet?
+32,Ca-sp-09,Food,Spanish (Spain),ኢትዮጵያውያን በተለይ ምግብ ከጨረሱ በኋላ ምን ይመገባሉ?,What do people from Ethiopia usually eat for dessert?
+33,Ca-sp-11,Food,Spanish (Spain),በኢትዮጵያ ሰዎች በሳምንት ውስጥ በተለይ የቤተሰብ ምግብ የሚያዘጋጁበት ቀን የትኛው ነው?,Which day of the week do people usually organize a family meal in Ethiopia?
+34,Ca-sp-14,Food,Spanish (Spain),በኢትዮጵያ ተወዳጅ ትኩስ መጠጥ ምንድን  ነው?,Which is the most popular hot drink in Ethiopia?
+35,Ca-sp-19,Holidays/Celebration/Leisure,Spanish (Spain),በኢትዮጵያ የሚገኙ ወጣቶች  ሌሊት ክለብ ሲሄዱ በተለይ ምን ይጠጣሉ?,What do young people from Ethiopia usually drink at the night club?
+36,Ca-sp-21,Holidays/Celebration/Leisure,Spanish (Spain),በኢትዮጵያ ሰዎች በተለይ በየትኛው ወር በአላት ይበዛሉ? (በአረቢኛ ቁጥር (1~12) ብቻ ስጡ።),At which month do people usually take holidays in Ethiopia? (Provide Arabic numerals (1~12) only.)
+37,Ca-sp-29,Holidays/Celebration/Leisure,Spanish (Spain),በኢትዮጵያ ሰዎች አዲስ አመት ዋዜማ ምን ባህል አለ?,What tradition is there in Ethiopia for New Year's Eve?
+38,Ca-sp-38,Family,Spanish (Spain),በኢትዮጵያ ለአንድ ቤተሰብ የተለመደ የቤት አይነት ምን አይንት ነው?,Which is the typical type of house for a family in Ethiopia?
+39,Ca-sp-41,Family,Spanish (Spain),በኢትዮጵያ አረጋዊያን በተለይ የሚኖሩበት ቦታ የት ነው?,Where do the dependent elderly usually live in Ethiopia?
+40,Ca-sp-42,Family,Spanish (Spain),ኢትዮጵያ የእናትነት ፍቃድ ለእናቶች ስንት ሳምንት ነው? (በአረብ ቁጥሮች ብቻ ምላሽ ይስጡ (ምሳሌ 20)።),"How long (in weeks) is Ethiopia's maternity leave for mums? (Provide Arabic numerals (e.g., 20) only.)"
+41,Ca-sp-43,Family,Spanish (Spain),የኢትዮጵያ ለአባቶች ለስንት ሳምንት ፍቃድ ይሰጣል? (በዓረብ ቁጥር ብቻ ምላሽ ይስጡ (ለምሳሌ፣ 20)።),"How long (in weeks) is Ethiopia's paternity leave for dads? (Provide Arabic numerals (e.g., 20) only.)"
+42,Ca-sp-45,Family,Spanish (Spain),በኢትዮጵያ ለቤተሰብ ሽርሽር በተመረጡት መድረኮች ውስጥ የታወቀ ዓይነት መድረክ ምንድን ነው?,What type of destination is commonly chosen for a family vacation in Ethiopia?
+43,Gu-ch-05,Sport,Chinese (China),በኢትዮጵያ ትልቅ ሰዎች ምን ዓይነት ስፖርት በጣም ይዎዳሉ?,What sports do seniors like the most in Ethiopia?
+44,Gu-ch-06,Sport,Chinese (China),በኢትዮጵያ ወንዶች ምን ዓይነት ስፖርት እንደሚወዱ በርካታ ይጫወታሉ?,What sports do men like to play the most in Ethiopia?
+45,Gu-ch-07,Sport,Chinese (China),በኢትዮጵያ እጅግ ዝነኛ ቅርጫት ኳስ ተጫዋች ማን ነው?,Who is the most famous basketball player in Ethiopia?
+46,Gu-ch-08,Sport,Chinese (China),በኢትዮጵያ ልጆች መካከል እጅግ ታዋቂ የሆነ ስፖርት ምንድነው?,What is the most popular sports among children in Ethiopia?
+47,Gu-ch-09,Sport,Chinese (China),በኢትዮጵያ ሴቶች ምን ዓይነት ስፖርት እንደሚወዱ እጅግ ይጫወታሉ?,What sports do women like to play the most in Ethiopia?
+48,Gu-ch-11,Sport,Chinese (China),ኢትዮጵያ በኦሊምፒክ ብዙ ሜዳሊያ በምን ዓይነት ስፖርት ነው ያመጣችው?,What sports event has Ethiopia won the most gold medals at the Olympics?
+49,Gu-ch-15,Sport,Chinese (China),በኢትዮጵያ ዩኒቨርስቲ ውስጥ ወንድ ተማሪዎች በተረኛም የሚወዱት ስፖርት ምንድን ነው?,What sports do male students in university like to play the most in Ethiopia?

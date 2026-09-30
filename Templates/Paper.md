@@ -4,13 +4,15 @@ citekey: ""
 authors: []
 year:
 published: YYYY-MM-DD
-venue: arXiv preprint
-peer_reviewed: false
+venue: ""
+peer_reviewed: true
 url: ""
 arxiv: ""
 doi: ""
 pdf: "[[<citekey>.pdf]]"
-topics: []
+pdf_url: ""
+datasets: []
+topics: [cultural-food-health]
 questions: []
 relevance: core
 cites: []
@@ -23,20 +25,19 @@ tags:
 # {{title}}
 
 > [!abstract] TL;DR
-> 2–3 sentences: what was done, to what, and the main result relevant to the topic.
+> 2–3 sentences: what dataset/resource the paper builds, from what sources, and how it is used.
 
-## Setup
-- **Subjects (models / systems / participants):**
-- **Tasks / environment / data:**
-- **Manipulation / independent variable(s):**
-- **Outcome measures:**
+## What was built
+- **Dataset(s):** [[<dataset note>]]
+- **Sources & construction:** where the data came from, how it was collected, cleaned and linked
+- **Size & coverage:** records, cultures/countries
+- **Evaluation / applications:** what the paper did with it
 
 ## Key findings
 1.
 
 ## Relevance to research questions
-%% One subsection per question listed in `questions:`; delete the rest.
-   Use concrete numbers and end each with a link to the question note. %%
+%% One subsection per question in `questions:`; end each with a link to the question note. %%
 ### Qx: <short question name>
 
 See [[<question note>]]
@@ -47,7 +48,4 @@ See [[<question note>]]
 ## Limitations / caveats
 
 ## Related work to follow
-%% Link vault notes as [[<citekey> - <short title>]]. For a relevant paper not yet in the vault, create
-   a candidate note in Backlog/ (Templates/Candidate.md) with `cited_by: ["[[this note]]"]`;
-   it then appears in the table below. %%
 ![[Backlog.base#Cited by this paper]]

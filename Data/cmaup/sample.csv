@@ -1,0 +1,51 @@
+Plant_ID,ICD-11 Code,Disease_Category,Disease,Association_by_Therapeutic_Target,Association_by_Disease_Transcriptiome_Reversion,Association_by_Clinical_Trials_of_Plant,Association_by_Clinical_Trials_of_Plant_Ingredients
+NPO14763,DA09.0,13.Diseases of the digestive system,Pulpitis,n.a.,n.a.,NCT04719247,NCT04669392
+NPO14763,2C77,02.Neoplasms,Cervical cancer,"SRC,TP53",n.a.,n.a.,NCT00284427
+NPO14763,8A01,08.Diseases of the nervous system,Choreiform disorder,NFKB1,n.a.,n.a.,n.a.
+NPO14763,2C30,02.Neoplasms,Melanoma,"MAPK1,EGFR,KDR,MET,TYR",n.a.,n.a.,n.a.
+NPO14763,2D10,02.Neoplasms,Thyroid cancer,"KDR,MET,TSHR",n.a.,n.a.,n.a.
+NPO14763,2A82,02.Neoplasms,Mature B-cell leukaemia,"EGFR,SRC,TP53,AXL",n.a.,n.a.,n.a.
+NPO14763,4A40,04.Diseases of the immune system,Lupus erythematosus,NFKB1,n.a.,n.a.,n.a.
+NPO14763,8B20,08.Diseases of the nervous system,Ischaemic/haemorrhagic stroke,"MMP9,THPO,F2",n.a.,n.a.,NCT04858139
+NPO14763,2A00,02.Neoplasms,Brain cancer,"MMP1,MMP2,EGFR,MMP9,SRC,TP53,KDR,MET",n.a.,n.a.,n.a.
+NPO14763,2A00-2F9Z,02.Neoplasms,Solid tumour/cancer,"TP53,PIM1,CA14,NFKB1,CDK1,AURKB,ALOX5,MAPK1,FLT3,MKNK2,POLB,YES1,GABBR2,AXL,AHR,SRC,MTOR,EGFR,PPARA,CA2,MET,XDH,IGF1R,CSNK2A1,CA12,KDR,MMP9",n.a.,n.a.,n.a.
+NPO14763,9C61,09.Diseases of the visual system,Glaucoma,"AKR1B1,MET,ACHE,CA2",n.a.,n.a.,n.a.
+NPO14763,8A00,08.Diseases of the nervous system,Parkinsonism,"SNCA,ACHE,SRC,DRD1",n.a.,n.a.,"NCT02424708,NCT02324426,NCT01177319,NCT01398748"
+NPO14763,BD10-BD1Z,11.Diseases of the circulatory system,Heart failure,"CA2,XDH",n.a.,n.a.,"NCT02596477,NCT02467387,NCT00529490,NCT01005303,NCT00529711"
+NPO14763,LD2A,20.Developmental anomalies,Sex development malformative disorder,GABRA5,n.a.,n.a.,n.a.
+NPO14763,2A21,02.Neoplasms,Mastocytosis,FLT3,n.a.,n.a.,n.a.
+NPO14763,8A40,08.Diseases of the nervous system,Multiple sclerosis,"NFKB1,SRC,GABBR2,F2",n.a.,n.a.,"NCT00062972,NCT00638196"
+NPO14763,2C10,02.Neoplasms,Pancreatic cancer,"MTOR,EGFR,SRC,MAPK1,MMP2,IGF1R,MMP1,TP53",n.a.,n.a.,n.a.
+NPO14763,6A20-6A25,"06.Mental, behavioural or neurodevelopmental disorders",Psychotic disorder,DRD1,n.a.,n.a.,n.a.
+NPO14763,3B64,03.Diseases of the blood or blood-forming organs,Thrombocytopenia,"F2,AHR,ALOX5,KDR",n.a.,n.a.,NCT01014546
+NPO14763,PC91,23.External causes of morbidity or mortality,Intentional self-harm,"GABRA5,GABRA3,GABRA2",n.a.,n.a.,n.a.
+NPO14763,5A14,"05.Endocrine, nutritional or metabolic diseases","Diabetes mellitus, type unspecified","NFKB1,DPP4,PPARA",n.a.,n.a.,"NCT02107976,NCT02297399,NCT01307904"
+NPO14763,2D42,02.Neoplasms,Head and neck cancer,"MTOR,EGFR,TP53,MET,KDR",n.a.,n.a.,"NCT00855881,NCT00336947"
+NPO14763,5A00,"05.Endocrine, nutritional or metabolic diseases",Hypo-thyroidism,TSHR,n.a.,n.a.,n.a.
+NPO14763,2B72,02.Neoplasms,Stomach cancer,"KDR,TP53,EGFR,MET,MMP9",n.a.,n.a.,n.a.
+NPO14763,5C80,"05.Endocrine, nutritional or metabolic diseases",Hyperlipidemia,PPARA,n.a.,n.a.,NCT03860688
+NPO14763,2B33,02.Neoplasms,Malignant haematopoietic neoplasm,"MTOR,FLT3,DPP4,SRC,CDK1,AURKB,TP53",n.a.,n.a.,n.a.
+NPO14763,6C40,"06.Mental, behavioural or neurodevelopmental disorders",Substance abuse,"ALDH1A1,ACHE,ADRA2B,GABBR2",n.a.,n.a.,"NCT00887367,NCT03165942"
+NPO14763,2C73,02.Neoplasms,Ovarian cancer,"FLT3,KDR,TP53,SRC,MET,TNKS",n.a.,n.a.,NCT00284427
+NPO14763,2A83,02.Neoplasms,Multiple myeloma,"IGF1R,AHR,KDR,AXL,SRC,MTOR,FLT3",n.a.,n.a.,"NCT00112879,NCT00661544,NCT03964688,NCT00085345,NCT00317811,NCT02206425,NCT00006021,NCT00469209,NCT00227682,NCT03602235,NCT00258245"
+NPO14763,2A37,02.Neoplasms,Myelodysplastic syndrome,"KDR,AHR,AXL,TP53,EGFR",n.a.,n.a.,"NCT00803530,NCT00329498"
+NPO14763,5A11,"05.Endocrine, nutritional or metabolic diseases",Type 2 diabetes mellitus,"FFAR1,DPP4,NFKB1,F2,PPARA",n.a.,n.a.,"NCT01300260,NCT00295334,NCT03437902,NCT00437606,NCT01319734,NCT00607945,NCT01839344"
+NPO14763,FA20,15.Diseases of the musculoskeletal system or connective tissue,Rheumatoid arthritis,"ALOX5,CA2,MMP9,ABCG2,NFKB1,AKR1B1,MMP1",n.a.,n.a.,n.a.
+NPO14763,8B60,08.Diseases of the nervous system,Motor neuron disease,"SRC,IGF1R",n.a.,n.a.,n.a.
+NPO14763,4A01,04.Diseases of the immune system,Adaptive immunity immunodeficiency,GABRA5,n.a.,n.a.,n.a.
+NPO14763,2C51,02.Neoplasms,Peritoneal cancer,"TP53,KDR,FLT3,SRC",n.a.,n.a.,n.a.
+NPO14763,BD52,11.Diseases of the circulatory system,Arteries/arterioles disorder,"MTOR,MAPK1",n.a.,n.a.,n.a.
+NPO14763,2C25,02.Neoplasms,Lung cancer,"KDR,AXL,MET,MMP9,MMP2,FLT3,EGFR,IGF1R,CDK1,MMP1,MTOR,ALOX5",n.a.,n.a.,NCT03751592
+NPO14763,2C82,02.Neoplasms,Prostate cancer,"ESR2,MTOR,AKR1C3,AURKB",n.a.,n.a.,"NCT05501548,NCT01705652,NCT00425334"
+NPO14763,BA40-BA6Z,11.Diseases of the circulatory system,Ischemic heart disease,MET,n.a.,n.a.,NCT00000600
+NPO14763,2A40,02.Neoplasms,Chronic myelomonocytic leukaemia,"MTOR,FLT3",n.a.,n.a.,n.a.
+NPO14763,1F28-1G0Z,01.Certain infectious or parasitic diseases,Skin and skin-structure infection,NFKB1,n.a.,n.a.,NCT03131843
+NPO14763,NE6Z,"22.Injury, poisoning or certain other consequences of external causes",Unspecific substance harmful effect,ACHE,n.a.,n.a.,n.a.
+NPO14763,,,,"MET,NOX4",n.a.,n.a.,"NCT02213419,NCT02158039,NCT04553666"
+NPO14763,6D71,"06.Mental, behavioural or neurodevelopmental disorders",Mild neurocognitive disorder,"ACHE,GABRA5",n.a.,n.a.,n.a.
+NPO14763,2C60-2C6Y,02.Neoplasms,Breast cancer,"AXL,CYP19A1,ESR2,MKNK2,KDR,CA2,CDK1,MET,CA14,IGF1R,SRC,CA12,MTOR,EGFR",n.a.,n.a.,"NCT03121989,NCT00152178,NCT00005608,NCT00266331,NCT03175341,NCT00908791,NCT00152191"
+NPO14763,DB93,13.Diseases of the digestive system,Hepatic fibrosis/cirrhosis,MMP2,n.a.,n.a.,NCT01205074
+NPO14763,2A60,02.Neoplasms,Acute myeloid leukaemia,"AURKB,PIM1,AXL,SRC,NFKB1,FLT3,TP53",n.a.,n.a.,"NCT00184054,NCT00329498"
+NPO14763,2B54,02.Neoplasms,Pleomorphic sarcoma,"KDR,SRC,MTOR,MET",n.a.,n.a.,NCT00003667
+NPO14763,DB61-GB90,13.Diseases of the digestive system,Thrombosis,"AKR1B1,F2",n.a.,n.a.,n.a.
+NPO14763,2B70,02.Neoplasms,Esophageal cancer,TP53,n.a.,n.a.,NCT04648917

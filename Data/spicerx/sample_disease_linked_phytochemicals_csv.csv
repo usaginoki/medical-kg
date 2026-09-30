@@ -1,0 +1,51 @@
+tax_id,spice,mesh_id,disease,pubchem_id,chemical
+136217,Turmeric,MESH:D007249,Inflammation,969516,Curcumin
+136217,Turmeric,MESH:D056486,Chemical and Drug Induced Liver Injury,969516,Curcumin
+136217,Turmeric,MESH:D001943,Breast Neoplasms,969516,Curcumin
+4682,Garlic,MESH:D063646,Carcinogenesis,441667,Kuromanin
+4682,Garlic,MESH:D063646,Carcinogenesis,16315,Diallyl Trisulfide
+4682,Garlic,MESH:D056486,Chemical and Drug Induced Liver Injury,11617,Diallyl Sulfide
+4682,Garlic,MESH:D056486,Chemical and Drug Induced Liver Injury,62434,Allyl Methyl Disulfide
+4682,Garlic,MESH:D056486,Chemical and Drug Induced Liver Injury,16590,Diallyl Disulfide
+4682,Garlic,MESH:D056486,Chemical and Drug Induced Liver Injury,16315,Diallyl Trisulfide
+4182,Sesame,MESH:D056486,Chemical and Drug Induced Liver Injury,68289,Sesamol
+4182,Sesame,MESH:D056486,Chemical and Drug Induced Liver Injury,72307,Sesamin
+4182,Sesame,MESH:D007249,Inflammation,68289,Sesamol
+4182,Sesame,MESH:D007249,Inflammation,72307,Sesamin
+39350,Basil,MESH:D007249,Inflammation,5280343,Quercetin
+39350,Basil,MESH:D007249,Inflammation,5280443,Apigenin
+39350,Basil,MESH:D007249,Inflammation,5280445,Luteolin
+39350,Basil,MESH:D007249,Inflammation,3314,Eugenol
+39350,Basil,MESH:D007249,Inflammation,5281792,Rosmarinic Acid
+39350,Basil,MESH:D007249,Inflammation,5281654,Isorhamnetin
+39350,Basil,MESH:D007249,Inflammation,689043,Caffeic Acid
+39350,Basil,MESH:D007249,Inflammation,10494,Oleanolic Acid
+39350,Basil,MESH:D063646,Carcinogenesis,5280343,Quercetin
+39350,Basil,MESH:D063646,Carcinogenesis,441667,Kuromanin
+39350,Basil,MESH:D063646,Carcinogenesis,5280804,Isoquercitrin
+39350,Basil,MESH:D063646,Carcinogenesis,5280445,Luteolin
+39350,Basil,MESH:D063646,Carcinogenesis,5280863,Kaempferol
+39350,Basil,MESH:D006973,Hypertension,5280343,Quercetin
+119260,Chinese Cinnamon,MESH:D056486,Chemical and Drug Induced Liver Injury,323,Coumarin
+52462,Cumin,MESH:D002386,Cataract,5280445,Luteolin
+128608,Ceylon Cinnmaon,MESH:D007249,Inflammation,5280343,Quercetin
+128608,Ceylon Cinnmaon,MESH:D007249,Inflammation,3314,Eugenol
+128608,Ceylon Cinnmaon,MESH:D007249,Inflammation,5281792,Rosmarinic Acid
+128608,Ceylon Cinnmaon,MESH:D007249,Inflammation,637563,Trans-Anethole
+128608,Ceylon Cinnmaon,MESH:D007249,Inflammation,10364,Carvacrol
+128608,Ceylon Cinnmaon,MESH:D007249,Inflammation,689043,Caffeic Acid
+94328,Ginger,MESH:D007249,Inflammation,5280343,Quercetin
+94328,Ginger,MESH:D007249,Inflammation,3314,Eugenol
+94328,Ginger,MESH:D007249,Inflammation,637563,Trans-Anethole
+94328,Ginger,MESH:D007249,Inflammation,5281792,Rosmarinic Acid
+94328,Ginger,MESH:D007249,Inflammation,10364,Carvacrol
+94328,Ginger,MESH:D007249,Inflammation,689043,Caffeic Acid
+94328,Ginger,MESH:D056486,Chemical and Drug Induced Liver Injury,5280343,Quercetin
+94328,Ginger,MESH:D056486,Chemical and Drug Induced Liver Injury,101977,D-Citronellol
+94328,Ginger,MESH:D056486,Chemical and Drug Induced Liver Injury,3314,Eugenol
+94328,Ginger,MESH:D056486,Chemical and Drug Induced Liver Injury,72276,(-)-Epicatechin
+94328,Ginger,MESH:D056486,Chemical and Drug Induced Liver Injury,222284,Beta-Sitosterol
+94328,Ginger,MESH:D056486,Chemical and Drug Induced Liver Injury,689043,Caffeic Acid
+94328,Ginger,MESH:D063646,Carcinogenesis,5280343,Quercetin
+94328,Ginger,MESH:D063646,Carcinogenesis,5280863,Kaempferol
+94328,Ginger,MESH:D063646,Carcinogenesis,72276,(-)-Epicatechin

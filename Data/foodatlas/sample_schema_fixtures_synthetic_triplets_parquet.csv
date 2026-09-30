@@ -1,0 +1,3 @@
+head_id,relationship_id,tail_id,source,attestation_ids
+f001,r1,c001,fdc,"[""att001"", ""att002""]"
+c001,r3,d001,lit2kg,"[""att003""]"
