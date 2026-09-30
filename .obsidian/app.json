@@ -6,7 +6,6 @@
     "_tools/",
     ".venv/",
     "Templates/",
-    "Data/",
-    "Access-help/"
+    "Data/"
   ]
 }

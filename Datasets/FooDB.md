@@ -12,7 +12,7 @@ access_link: "https://foodb.ca/downloads"
 accessed: true
 access_method: [website-download]
 access_date: 2026-09-30
-access_notes: "foodb.ca sits behind a Cloudflare bot check: curl/scripts get HTTP 403 even with a browser User-Agent. The user downloaded the bulk files manually in a browser into Access-help/FooDB/ (CSV, JSON, MySQL and XML dumps). We extracted all 31 CSV tables of foodb_2020_4_7_csv.tar.gz (in fact an uncompressed tar) into Data/foodb/ (953 MB). The 2020 dump may lag the live website."
+access_notes: "foodb.ca sits behind a Cloudflare bot check: curl/scripts get HTTP 403 even with a browser User-Agent. The user downloaded the bulk files manually in a browser into Data/foodb/raw/ (CSV, JSON, MySQL and XML dumps). We extracted all 31 CSV tables of foodb_2020_4_7_csv.tar.gz (in fact an uncompressed tar) into Data/foodb/ (953 MB). The 2020 dump may lag the live website."
 countries: []
 regions: ["[[Global]]"]
 n_records: "992 foods, 70,477 compounds (Compound.csv), 39 nutrients, 5,145,532 content rows, 1,435 health effects, 11,062 compound–health-effect links, 883 flavours, 1,744 enzymes/targets, 31,778 references"
@@ -54,7 +54,7 @@ tags:
 | Availability | open-download (CSV / JSON / XML / MySQL, plus spectra files), CC BY-NC 4.0 |
 | Link | https://foodb.ca/downloads → `foodb_2020_4_7_csv.tar.gz` |
 | Accessed? | **yes**: the full CSV dump |
-| How | Scripts (curl) get a Cloudflare 403. **The user downloaded the files by hand in a browser** into `Access-help/FooDB/` (git-ignored): the CSV tar, JSON zip, MySQL and XML dumps. `foodb_2020_4_7_csv.tar.gz` is really an *uncompressed* POSIX tar (`tar -xf`). |
+| How | Scripts (curl) get a Cloudflare 403. **The user downloaded the files by hand in a browser** into `Data/foodb/raw/` (git-ignored): the CSV tar, JSON zip, MySQL and XML dumps. `foodb_2020_4_7_csv.tar.gz` is really an *uncompressed* POSIX tar (`tar -xf`). |
 | Downloaded | `Data/foodb/*.csv`: all 31 tables (953 MB, including the 780 MB `Content.csv`). The earlier web transcriptions (turmeric and curcumin pages) are kept in `Data/foodb/web/`. |
 
 ## Tables & columns

@@ -12,7 +12,7 @@ access_link: "https://hmdb.ca/downloads"
 accessed: true
 access_method: [website-download]
 access_date: 2026-09-30
-access_notes: "hmdb.ca/downloads and every /system/downloads file sit behind a Cloudflare managed challenge: curl and automated Chrome both got 403, and the challenge was not bypassed. The user downloaded the official All Metabolites XML (hmdb_metabolites.zip, 954 MB → hmdb_metabolites.xml, 6.5 GB, dated 2021-10-23) in a browser into Access-help/HMDB/ (git-ignored). We streamed it with `unzip -p | iterparse` without extracting it and wrote 4 flat CSVs to Data/hmdb/ (261 MB): all 217,920 metabolites (ids, class, cross-refs, food/source ontology, food sentences from the description), their disease links, abnormal concentrations, and the ChemFOnt 'Source' and 'Physiological effect' subtrees. Not kept: spectra, pathways, protein associations, normal concentrations (count only), full descriptions (first 400 chars), synonyms, and the other ontology branches. Alternative source: Zenodo record 20747030 has a third-party frozen copy of the same 5.0 XML (CC BY-NC 4.0) that streams without a browser."
+access_notes: "hmdb.ca/downloads and every /system/downloads file sit behind a Cloudflare managed challenge: curl and automated Chrome both got 403, and the challenge was not bypassed. The user downloaded the official All Metabolites XML (hmdb_metabolites.zip, 954 MB → hmdb_metabolites.xml, 6.5 GB, dated 2021-10-23) in a browser into Data/hmdb/raw/ (git-ignored). We streamed it with `unzip -p | iterparse` without extracting it and wrote 4 flat CSVs to Data/hmdb/ (261 MB): all 217,920 metabolites (ids, class, cross-refs, food/source ontology, food sentences from the description), their disease links, abnormal concentrations, and the ChemFOnt 'Source' and 'Physiological effect' subtrees. Not kept: spectra, pathways, protein associations, normal concentrations (count only), full descriptions (first 400 chars), synonyms, and the other ontology branches. Alternative source: Zenodo record 20747030 has a third-party frozen copy of the same 5.0 XML (CC BY-NC 4.0) that streams without a browser."
 countries: []
 regions: ["[[Global]]"]
 n_records: "217,920 metabolites (3,385 quantified, 20,924 detected, 98,256 expected, 95,355 predicted) · 27,670 metabolite–disease links (657 diseases, 22,600 metabolites) · 40,635 abnormal-concentration records · 1,150,792 ontology rows"
@@ -55,7 +55,7 @@ tags:
 | Link | https://hmdb.ca/downloads → `hmdb_metabolites.zip` (All Metabolites, XML) |
 | Accessed? | yes: the full metabolite XML, reduced to 4 CSVs |
 | How | the user downloaded it in a browser (Cloudflare); then `unzip -p hmdb_metabolites.zip hmdb_metabolites.xml \| python3 hmdb_stream.py Data/hmdb` (ElementTree iterparse) |
-| Downloaded | `Data/hmdb/hmdb_metabolites.csv`, `hmdb_metabolite_diseases.csv`, `hmdb_abnormal_concentrations.csv`, `hmdb_ontology_terms.csv` (261 MB); the source zip stays in `Access-help/HMDB/` |
+| Downloaded | `Data/hmdb/hmdb_metabolites.csv`, `hmdb_metabolite_diseases.csv`, `hmdb_abnormal_concentrations.csv`, `hmdb_ontology_terms.csv` (261 MB); the source zip stays in `Data/hmdb/raw/` |
 
 ## Tables & columns
 Field meanings come from the HMDB XML element names and the HMDB 5.0 paper. The CSVs were derived by us.

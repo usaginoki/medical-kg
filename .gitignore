@@ -26,8 +26,10 @@ Data/**
 # browser automation scratch
 .playwright-mcp/
 
-# raw files the user downloaded by hand (see Access requests.md)
-Access-help/
+# Access-help/: only the request drafts (.md) are tracked; downloads go to Data/<slug>/raw/
+Access-help/**
+!Access-help/*/
+!Access-help/**/*.md
 
 # dataset folders that are full git clones (nested repos bypass the schema/sample rule above)
 Data/central-asian-digital-visual-food-atlas/
