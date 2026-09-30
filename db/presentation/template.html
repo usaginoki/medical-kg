@@ -1,0 +1,687 @@
+<title>Dish–Condition Evidence Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one pannable "world" (the trace as linked table cards on a lab-notebook grid) under a fixed header;
+   focus view, arrow panel and caveats open as overlays. Turmeric yellow marks the path of the trace. */
+:root {
+  --paper: #eef1ee;        /* cool mineral paper */
+  --grid: #dfe5e0;
+  --card: #fbfcfb;
+  --ink: #16212c;          /* ink navy */
+  --muted: #56646f;
+  --line: #c3ccc6;
+  --path: #c98300;         /* turmeric: the trace */
+  --path-soft: #f6e3b3;
+  --path-ink: #6b4500;
+  --good: #2c7a4f; --warn: #b4531a; --info: #2f6da3;
+  --ev-clinical: #1d6e5b; --ev-curated: #2f6da3; --ev-epi: #6a55a8;
+  --ev-trad: #9c5c22; --ev-text: #7c8231; --ev-pred: #87919a;
+  --shadow: 0 1px 2px rgba(22,33,44,.08), 0 6px 18px rgba(22,33,44,.07);
+  --f-display: "Spectral", Georgia, "Times New Roman", serif;
+  --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #0f151b; --grid: #19222b; --card: #16202a; --ink: #e3e8ec; --muted: #97a4ae; --line: #2c3945;
+  --path: #f0b429; --path-soft: #3a2d0e; --path-ink: #f6d58a;
+  --good: #5cc28b; --warn: #f08a4b; --info: #6aa9e0;
+  --ev-clinical: #4fbfa3; --ev-curated: #6aa9e0; --ev-epi: #a894e6; --ev-trad: #d99a5e; --ev-text: #bcc35f; --ev-pred: #8e99a3;
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 22px rgba(0,0,0,.35); color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --paper: #0f151b; --grid: #19222b; --card: #16202a; --ink: #e3e8ec; --muted: #97a4ae; --line: #2c3945;
+  --path: #f0b429; --path-soft: #3a2d0e; --path-ink: #f6d58a;
+  --good: #5cc28b; --warn: #f08a4b; --info: #6aa9e0;
+  --ev-clinical: #4fbfa3; --ev-curated: #6aa9e0; --ev-epi: #a894e6; --ev-trad: #d99a5e; --ev-text: #bcc35f; --ev-pred: #8e99a3;
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 22px rgba(0,0,0,.35); color-scheme: dark; }
+
+[hidden] { display: none !important; }
+html, body { height: 100%; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 15px/1.45 var(--f-body); overflow: hidden; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--path); outline-offset: 2px; }
+.mono { font-family: var(--f-mono); }
+
+/* ---- header ---- */
+header { position: fixed; inset: 0 0 auto 0; z-index: 20; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px;
+  padding: calc(10px + env(safe-area-inset-top, 0px)) 16px 10px; background: color-mix(in srgb, var(--paper) 88%, transparent);
+  backdrop-filter: blur(6px); border-bottom: 1px solid var(--line); }
+header h1 { margin: 0; font: 600 21px/1.1 var(--f-display); letter-spacing: .005em; text-wrap: balance; }
+.poc { font: 500 11px/1 var(--f-mono); text-transform: uppercase; letter-spacing: .08em; padding: 5px 8px; border-radius: 3px;
+  border: 1px dashed var(--path); color: var(--path-ink); background: var(--path-soft); }
+.totals { display: flex; flex-wrap: wrap; gap: 4px 14px; font: 12px/1.3 var(--f-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.totals b { color: var(--ink); font-weight: 500; }
+.tools { margin-left: auto; display: flex; flex-wrap: wrap; gap: 6px; }
+.btn { border: 1px solid var(--line); background: var(--card); border-radius: 6px; padding: 6px 11px; cursor: pointer; font-size: 13px; }
+.btn:hover { border-color: var(--muted); }
+.btn.primary { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.btn.caveat { border-color: var(--warn); color: var(--warn); }
+
+/* ---- canvas ---- */
+#stage { position: fixed; inset: 0; cursor: grab; touch-action: none;
+  background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 28px 28px; }
+#stage.dragging { cursor: grabbing; }
+#world { position: absolute; left: 0; top: 0; transform-origin: 0 0; will-change: transform; }
+#world.anim { transition: transform .55s cubic-bezier(.3,.1,.2,1); }
+#wires { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; z-index: 2; }
+.wire { fill: none; stroke: var(--path); stroke-width: 2.5; }
+.wire.isa { stroke-dasharray: 7 5; }
+.wire.side { stroke: var(--muted); stroke-width: 2; stroke-dasharray: 3 5; }
+.wire-hit { fill: none; stroke: transparent; stroke-width: 18; pointer-events: stroke; cursor: pointer; }
+.wire-label { pointer-events: auto; cursor: pointer; }
+.wire-label rect { fill: var(--card); stroke: var(--path); }
+.wire-label text { font: 500 12px var(--f-mono); fill: var(--path-ink); }
+.wire-label:hover rect, .wire-label.on rect { fill: var(--path-soft); }
+.arrowhead { fill: var(--path); }
+
+.node { position: absolute; width: 318px; background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+  box-shadow: var(--shadow); cursor: pointer; text-align: left; padding: 0; transition: box-shadow .2s, border-color .2s; }
+.node:hover { border-color: var(--path); }
+.node.on { border-color: var(--path); box-shadow: 0 0 0 3px var(--path-soft), var(--shadow); }
+.node-h { display: flex; align-items: baseline; gap: 8px; padding: 9px 12px 7px; border-bottom: 1px solid var(--line); }
+.node-h .t { font: 500 14px var(--f-mono); }
+.node-h .n { margin-left: auto; font: 12px var(--f-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.node-c { padding: 6px 12px 4px; font-size: 12.5px; color: var(--muted); }
+.kv { display: grid; grid-template-columns: 112px minmax(0, 1fr); font: 12px/1.35 var(--f-mono); padding: 2px 6px 8px; }
+.kv + .kv { border-top: 1px dashed var(--line); padding-top: 6px; }
+.kv dt, .kv dd { margin: 0; padding: 2px 6px; min-width: 0; }
+.kv dt { color: var(--muted); }
+.kv dd { overflow-wrap: anywhere; }
+.kv .key { background: var(--path-soft); color: var(--path-ink); font-weight: 500; border-radius: 3px; }
+.kv .in { box-shadow: inset 2px 0 0 var(--path); }
+.node .more { padding: 0 12px 9px; font-size: 12px; color: var(--path-ink); }
+
+.gray { position: absolute; width: 200px; padding: 9px 11px; border: 1px dashed var(--line); border-radius: 8px;
+  background: color-mix(in srgb, var(--card) 55%, transparent); opacity: .62; cursor: pointer; text-align: left; }
+.gray:hover { opacity: 1; }
+.gray .t { font: 500 13px var(--f-mono); }
+.gray .n { font: 12px var(--f-mono); color: var(--muted); }
+.gray .r { font-size: 12px; color: var(--muted); margin-top: 3px; }
+
+.card-free { position: absolute; background: var(--card); border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow); }
+.patient { width: 318px; padding: 14px 16px; }
+.patient h2, .outcome h2 { margin: 0 0 2px; font: 600 20px/1.2 var(--f-display); }
+.eyebrow { font: 500 11px/1.2 var(--f-mono); letter-spacing: .09em; text-transform: uppercase; color: var(--muted); }
+.patient ul, .outcome ul, .panel ul, .focus ul, .modal ul { margin: 6px 0 0; padding-left: 18px; }
+.patient li { margin: 2px 0; }
+.patient q { display: block; margin-top: 10px; font: italic 500 15px/1.4 var(--f-display); quotes: "“" "”"; }
+.outcome { width: 380px; padding: 14px 16px; }
+.outcome li { list-style: none; margin: 7px 0 0 -18px; padding-left: 22px; position: relative; font-size: 13.5px; }
+.outcome li::before { content: ""; position: absolute; left: 4px; top: .45em; width: 9px; height: 9px; border-radius: 50%; }
+.outcome li.good::before { background: var(--good); } .outcome li.warn::before { background: var(--warn); }
+.outcome li.info::before { background: var(--info); }
+.grade { display: block; font: 11px var(--f-mono); color: var(--muted); }
+.legend { width: 318px; padding: 11px 14px; font-size: 12px; }
+.legend .row { display: flex; flex-wrap: wrap; gap: 4px 12px; margin-top: 5px; }
+.dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 5px; vertical-align: 0; }
+
+/* ---- zoom controls ---- */
+.zoom { position: fixed; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom, 0px)); z-index: 15; display: flex; flex-direction: column; gap: 4px; }
+.zoom .btn { width: 36px; padding: 6px 0; text-align: center; }
+
+/* ---- walk-through caption ---- */
+#caption { position: fixed; left: 50%; bottom: calc(16px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); z-index: 16;
+  width: min(760px, calc(100vw - 32px)); background: var(--ink); color: var(--paper); border-radius: 10px; padding: 12px 14px;
+  display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 12px; align-items: center; box-shadow: var(--shadow); }
+#caption .step { font: 500 12px var(--f-mono); color: var(--path); white-space: nowrap; }
+#caption .what { font: 500 13px var(--f-mono); overflow-wrap: anywhere; }
+#caption .why { font-size: 13.5px; opacity: .88; }
+#caption .nav { display: flex; gap: 6px; }
+#caption .btn { background: transparent; color: var(--paper); border-color: color-mix(in srgb, var(--paper) 35%, transparent); }
+
+/* ---- side panel (arrows) ---- */
+.panel { position: fixed; top: 0; right: 0; bottom: 0; width: min(440px, 100vw); z-index: 30; background: var(--card);
+  border-left: 1px solid var(--line); box-shadow: var(--shadow); padding: calc(20px + env(safe-area-inset-top, 0px)) 20px 20px;
+  overflow-y: auto; }
+.panel h3, .focus h3, .modal h3 { margin: 0; font: 600 22px/1.2 var(--f-display); text-wrap: balance; }
+.panel .join { font: 13px var(--f-mono); margin: 10px 0; padding: 8px 10px; background: var(--path-soft); color: var(--path-ink); border-radius: 6px; overflow-wrap: anywhere; }
+pre.code { font: 12px/1.5 var(--f-mono); background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px;
+  overflow-x: auto; white-space: pre; margin: 12px 0 0; }
+.x { position: absolute; top: calc(12px + env(safe-area-inset-top, 0px)); right: 12px; }
+
+/* ---- focus view (zoomed table) ---- */
+.focus-wrap { position: fixed; inset: 0; z-index: 25; background: color-mix(in srgb, var(--paper) 72%, transparent); backdrop-filter: blur(3px);
+  overflow: auto; padding: calc(70px + env(safe-area-inset-top, 0px)) 16px 24px; }
+.focus-grid { position: relative; display: grid; grid-template-columns: 180px minmax(0, 1fr) 180px; gap: 28px 72px; max-width: 1340px; margin: 0 auto; align-items: start; }
+.focus { position: relative; z-index: 1; background: var(--card); border: 1px solid var(--path); border-radius: 12px; box-shadow: var(--shadow); padding: 18px 20px; min-width: 0;
+  transform-origin: var(--ox, 50%) var(--oy, 50%); animation: grow .35s cubic-bezier(.3,.1,.2,1); }
+@keyframes grow { from { transform: scale(.55); opacity: .2; } to { transform: none; opacity: 1; } }
+.focus .role { color: var(--muted); margin-top: 3px; }
+.focus .why { margin-top: 6px; font-size: 13.5px; }
+.bars { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px 24px; margin: 14px 0 6px; }
+.bar-title { font: 500 11px var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+.bar { display: grid; grid-template-columns: 110px minmax(0, 1fr) 64px; gap: 8px; align-items: center; font: 12px var(--f-mono); margin: 2px 0; }
+.bar .k { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bar .track { display: block; height: 8px; background: var(--grid); border-radius: 4px; overflow: hidden; }
+.bar .fill { display: block; height: 100%; background: var(--muted); border-radius: 4px; }
+.bar .v { text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); }
+.sec { margin-top: 16px; }
+.sec-title { font: 500 11px var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+.tbl-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 6px; }
+table.rows { border-collapse: collapse; font: 12px/1.35 var(--f-mono); width: 100%; }
+table.rows th, table.rows td { padding: 6px 9px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; max-width: 260px; overflow-wrap: anywhere; }
+table.rows th { color: var(--muted); font-weight: 500; background: var(--paper); white-space: nowrap; }
+table.rows tr:last-child td { border-bottom: 0; }
+table.rows tr.trace td { background: var(--path-soft); color: var(--path-ink); }
+table.rows tr.hl td { outline: 2px solid var(--path); outline-offset: -2px; }
+table.rows td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.extra { font-size: 13px; margin-top: 8px; }
+.extra .mono { font-size: 12px; }
+.badges { position: relative; z-index: 1; display: flex; flex-direction: column; gap: 8px; }
+.badge { display: block; width: 100%; text-align: left; border: 1px solid var(--line); border-radius: 8px; background: var(--card); padding: 7px 10px; cursor: default; }
+.badge .nm { font-weight: 600; font-size: 13px; }
+.badge .ct { font: 11.5px var(--f-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.badge.feeds { border-color: var(--path); }
+.badge:hover, .badge:focus-visible { border-color: var(--ink); }
+#fwires { position: absolute; inset: 0; pointer-events: none; overflow: visible; z-index: 0; }
+#fwires path { fill: none; stroke: var(--path); stroke-width: 1.6; opacity: .75; }
+#fwires circle { fill: var(--path); }
+.tip { position: fixed; z-index: 40; width: min(420px, calc(100vw - 24px)); background: var(--card); border: 1px solid var(--ink); border-radius: 10px;
+  box-shadow: var(--shadow); padding: 12px 14px; font-size: 13px; pointer-events: none; }
+.tip h4 { margin: 0; font: 600 17px/1.2 var(--f-display); }
+.tip .meta { font: 11.5px var(--f-mono); color: var(--muted); margin-top: 2px; }
+.tip ul { margin: 6px 0 0; padding-left: 18px; }
+.tip .rr { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); gap: 8px; margin-top: 8px; align-items: start; }
+.tip .rr div { font: 11px/1.35 var(--f-mono); background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 6px 7px; overflow-wrap: anywhere; min-width: 0; }
+.tip .rr .arrow { background: none; border: 0; padding: 0; align-self: center; color: var(--path); font-size: 16px; }
+.tip .rr b { color: var(--muted); font-weight: 500; }
+
+/* ---- modal ---- */
+.modal-wrap { position: fixed; inset: 0; z-index: 35; background: color-mix(in srgb, var(--ink) 38%, transparent); display: grid; place-items: center; padding: 16px; }
+.modal { position: relative; background: var(--card); border-radius: 12px; box-shadow: var(--shadow); padding: 20px 22px; width: min(860px, 100%); max-height: calc(100% - 32px); overflow: auto; }
+.cav { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px 24px; margin-top: 14px; }
+.cav h4 { margin: 0; font: 500 12px var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--warn); }
+.cav li { margin: 4px 0; font-size: 13.5px; }
+
+@media (min-width: 900px) {
+  body.panel-open #caption { left: calc((100vw - 440px) / 2); width: min(760px, calc(100vw - 472px)); }
+}
+@media (max-width: 760px) {
+  header h1 { font-size: 18px; }
+  .totals { display: none; }
+  .focus-grid { grid-template-columns: minmax(0, 1fr); }
+  .badges { flex-direction: row; flex-wrap: wrap; }
+  .badge { width: auto; }
+  #fwires { display: none; }
+  #caption { grid-template-columns: minmax(0, 1fr); }
+}
+@media (prefers-reduced-motion: reduce) { #world.anim { transition: none; } .focus { animation: none; } }
+</style>
+
+<header>
+  <h1>Dish–Condition Evidence Map</h1>
+  <span class="poc" id="poc">Proof of concept</span>
+  <div class="totals" id="totals"></div>
+  <div class="tools">
+    <button class="btn primary" id="walk" type="button">▶ Walk through</button>
+    <button class="btn" id="fit" type="button">Reset view</button>
+    <button class="btn caveat" id="cav" type="button">Caveats &amp; limitations</button>
+  </div>
+</header>
+
+<div id="stage" aria-label="Trace canvas: drag to pan, scroll to zoom">
+  <div id="world">
+    <svg id="wires"></svg>
+  </div>
+</div>
+<div class="zoom">
+  <button class="btn" id="zin" type="button" aria-label="Zoom in">+</button>
+  <button class="btn" id="zout" type="button" aria-label="Zoom out">−</button>
+</div>
+<div id="caption" hidden></div>
+<aside class="panel" id="panel" hidden></aside>
+<div class="focus-wrap" id="focus" hidden></div>
+<div class="modal-wrap" id="modal" hidden></div>
+<div class="tip" id="tip" hidden></div>
+
+<script>
+const D = /*__DATA__*/null;
+const $ = (s, el = document) => el.querySelector(s);
+const esc = v => String(v ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+const fmtN = n => typeof n === "number" ? n.toLocaleString("en-US") : n;
+const EV = {clinical: "--ev-clinical", curated_literature: "--ev-curated", epidemiological: "--ev-epi",
+            traditional: "--ev-trad", text_mined: "--ev-text", predicted: "--ev-pred"};
+const EVL = {clinical: "clinical", curated_literature: "curated", epidemiological: "epidemiological",
+             traditional: "traditional", text_mined: "text-mined", predicted: "predicted"};
+const DIR = {beneficial: "↑ beneficial", harmful: "↓ harmful", marker: "~ marker", association: "· association"};
+const world = $("#world"), stage = $("#stage"), wires = $("#wires");
+
+function fmtCell(col, v) {
+  if (v === null || v === undefined || v === "") return "—";
+  if (col === "evidence_type" && EV[v]) return `<span class="dot" style="background:var(${EV[v]})"></span>${esc(EVL[v])}`;
+  if (col === "direction" && DIR[v]) return esc(DIR[v]);
+  if (typeof v === "number") return esc(fmtN(v));
+  let s = String(v);
+  if (col === "pmids" || col === "pmid") s = s.split("|").slice(0, 3).join(", ") + (s.split("|").length > 3 ? " …" : "");
+  if (col === "mesh_tree") s = s.split("|").slice(0, 2).join(" | ") + (s.split("|").length > 2 ? " …" : "");
+  if (s.length > 90) s = s.slice(0, 88) + "…";
+  return esc(s);
+}
+const tableOf = id => D.nodes.find(n => n.id === id);
+const srcName = sid => (D.datasets[sid] && D.datasets[sid].name) || sid;
+
+/* ---------- header ---------- */
+$("#poc").title = D.poc.note;
+const T = D.totals;
+$("#totals").innerHTML = `<span><b>${fmtN(T.dishes)}</b> dishes</span><span><b>${fmtN(T.ingredients)}</b> ingredients</span>
+  <span><b>${fmtN(T.compounds)}</b> compounds</span><span><b>${fmtN(T.conditions)}</b> conditions</span>
+  <span><b>${fmtN(T.drugs)}</b> drugs</span><span>from <b>${T.datasets}</b> datasets</span>`;
+
+/* ---------- world: nodes ---------- */
+const NODE_EL = {};
+for (const n of D.nodes) {
+  const t = D.tables[n.table];
+  const el = document.createElement("button");
+  el.type = "button"; el.className = "node"; el.dataset.id = n.id;
+  el.style.left = n.x + "px"; el.style.top = n.y + "px";
+  const trows = t.trace || [];
+  const blocks = trows.map((r, i) => `<dl class="kv" data-row="${i}">` + n.show.map(c =>
+      `<dt>${esc(c)}</dt><dd data-col="${esc(c)}" class="${(n.key || []).includes(c) ? "key" : ""} ${(n.in || []).includes(c) ? "in" : ""}">${fmtCell(c, r[c])}</dd>`).join("") + `</dl>`).join("");
+  el.innerHTML = `<div class="node-h"><span class="t">${esc(n.table)}</span><span class="n">${fmtN(t.count)} rows</span></div>
+    <div class="node-c">${esc(n.caption)}</div>${blocks}<div class="more">Open table ↗</div>`;
+  el.addEventListener("click", () => openFocus(n.table, n.id));
+  world.appendChild(el);
+  NODE_EL[n.id] = el;
+}
+
+/* measured layout: in each column, a node never starts above the previous node's bottom + gap */
+function layoutColumns() {
+  const cols = {};
+  for (const n of D.nodes) (cols[n.x] = cols[n.x] || []).push(n);
+  for (const list of Object.values(cols)) {
+    list.sort((a, b) => a.y - b.y);
+    let bottom = -Infinity;
+    for (const n of list) {
+      const el = NODE_EL[n.id], y = Math.max(n.y, bottom + 70);
+      el.style.top = y + "px"; bottom = y + el.offsetHeight;
+    }
+  }
+}
+layoutColumns();
+NODE_EL.drug.style.top = NODE_EL.ingredient_drug.style.top;   // keep the drug branch on one row
+
+/* grayed tables (not on the trace) */
+function below(id, dy = 60) { const el = NODE_EL[id]; return el.offsetTop + el.offsetHeight + dy; }
+const GRAY_POS = {ingredient_alias: [920, NODE_EL.ingredient.offsetTop - 170],
+  ingredient_xref: [920, below("ingredient")], ingredient_property: [920, below("ingredient") + 130],
+  compound_xref: [1840, below("compound")], condition_alias: [2760, NODE_EL.condition.offsetTop - 170],
+  condition_relation: [2990, NODE_EL.condition.offsetTop - 170], drug_condition: [2300, NODE_EL.drug.offsetTop],
+  source: [0, below("dish_nutrient", 80)], evidence_type: [230, below("dish_nutrient", 80)]};
+const ROLE_FALLBACK = {source: "Registered sources → vault dataset notes", evidence_type: "The 6 evidence grades",
+  ingredient_alias: "Names of ingredients in many languages", ingredient_xref: "Ingredient ids in ~20 databases",
+  ingredient_property: "Cultural framing: Mizaj, TCM nature, use per country", compound_xref: "Compound ids and synonyms per database",
+  condition_alias: "Condition names and ids (UMLS, ICD, HPO…)", condition_relation: "is_a hierarchy, same_as, action targets",
+  drug_condition: "Drug indications"};
+for (const g of D.gray) {
+  const t = D.tables[g], p = GRAY_POS[g];
+  if (!t || !p) continue;
+  const el = document.createElement("button");
+  el.type = "button"; el.className = "gray"; el.style.left = p[0] + "px"; el.style.top = p[1] + "px";
+  el.innerHTML = `<div class="t">${esc(g)}</div><div class="n">${fmtN(t.count)} rows · not on this trace</div>
+    <div class="r">${esc(t.role || ROLE_FALLBACK[g] || "")}</div>`;
+  el.addEventListener("mouseenter", e => showGrayTip(g, e));
+  el.addEventListener("mouseleave", hideTip);
+  el.addEventListener("click", () => openFocus(g, null));
+  world.appendChild(el);
+}
+
+/* patient, outcome, legend */
+function freeCard(cls, x, y, html) {
+  const el = document.createElement("div");
+  el.className = "card-free " + cls; el.style.left = x + "px"; el.style.top = y + "px"; el.innerHTML = html;
+  world.appendChild(el); return el;
+}
+const P = D.patient;
+freeCard("patient", 0, 20, `<div class="eyebrow">Patient case · illustrative</div><h2>${esc(P.name)}</h2>
+  <div class="mono" style="font-size:12px;color:var(--muted)">${esc(P.place)}</div>
+  <ul>${P.facts.map(f => `<li>${esc(f)}</li>`).join("")}</ul><q>${esc(P.question)}</q>`);
+freeCard("outcome", 2760, below("condition", 70), `<div class="eyebrow">What the trace lets an agent say</div><h2>Answer, with evidence</h2>
+  <ul>${D.outcome.map(o => `<li class="${o.tone}">${esc(o.text)}<span class="grade">${esc(o.grade)}</span></li>`).join("")}</ul>
+  <div class="grade" style="margin-top:10px">${esc(D.poc.note)}</div>`);
+freeCard("legend", 0, below("dish", 60), `<div class="eyebrow">How to read</div>
+  <div class="row"><span><span class="dot" style="background:var(--path)"></span>trace path</span>
+  <span><span class="dot" style="background:var(--path-soft);outline:1px solid var(--path)"></span>key column → next table</span></div>
+  <div class="row">${Object.keys(EV).map(k => `<span><span class="dot" style="background:var(${EV[k]})"></span>${EVL[k]}</span>`).join("")}</div>
+  <div class="row" style="color:var(--muted)">Click a table to open it · click an arrow label for the join · drag to pan</div>`);
+
+/* ---------- wires ---------- */
+const NS = "http://www.w3.org/2000/svg";
+function cellRect(nodeId, col, rowIdx) {
+  const el = NODE_EL[nodeId];
+  const dd = el.querySelector(`dl[data-row="${rowIdx}"] dd[data-col="${col}"]`) || el.querySelector(`dd[data-col="${col}"]`);
+  const x = el.offsetLeft, y = el.offsetTop;
+  if (!dd) return {x, y, w: el.offsetWidth, h: 30};
+  let ox = 0, oy = 0, e = dd;
+  while (e && e !== el) { ox += e.offsetLeft; oy += e.offsetTop; e = e.offsetParent; }
+  return {x: x + ox, y: y + oy, w: dd.offsetWidth, h: dd.offsetHeight};
+}
+function matchRow(toNode, col, value) {
+  const rows = D.tables[tableOf(toNode).table].trace || [];
+  const i = rows.findIndex(r => r[col] === value);
+  return i < 0 ? 0 : i;
+}
+const EDGE_EL = [];
+function drawWires() {
+  wires.innerHTML = `<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path class="arrowhead" d="M0,0 L10,5 L0,10 z"/></marker></defs>`;
+  EDGE_EL.length = 0;
+  D.edges.forEach((e, i) => {
+    const fromRows = D.tables[tableOf(e.from).table].trace || [];
+    const isIsa = e.label === "is_a";
+    const fi = 0;   // the first trace row of the source carries the path
+    const val = (fromRows[fi] || {})[e.col];
+    const ti = matchRow(e.to, e.col, val);
+    const a = cellRect(e.from, e.col, fi), b = cellRect(e.to, e.col, ti);
+    const side = e.to === "dish_nutrient";
+    // leave the source card at its right edge (level with the key cell), enter the target card at its left edge
+    const A = NODE_EL[e.from], B = NODE_EL[e.to];
+    let x1 = A.offsetLeft + A.offsetWidth + 2, y1 = a.y + a.h / 2, x2 = B.offsetLeft - 4, y2 = b.y + b.h / 2;
+    let d;
+    if (side) {  // straight down from the dish card
+      const el = NODE_EL[e.from]; x1 = el.offsetLeft + 150; y1 = el.offsetTop + el.offsetHeight + 4;
+      const t = NODE_EL[e.to]; x2 = t.offsetLeft + 150; y2 = t.offsetTop - 6;
+      d = `M${x1},${y1} C${x1 + 120},${y1 + 60} ${x2 - 60},${y2 - 90} ${x2},${y2}`;
+    } else {
+      const dx = Math.max(60, (x2 - x1) * .5);
+      d = `M${x1},${y1} C${x1 + dx},${y1} ${x2 - dx},${y2} ${x2},${y2}`;
+    }
+    const g = document.createElementNS(NS, "g");
+    const p = document.createElementNS(NS, "path");
+    p.setAttribute("d", d); p.setAttribute("class", "wire" + (isIsa ? " isa" : "") + (side ? " side" : ""));
+    p.setAttribute("marker-end", "url(#ah)");
+    const hit = document.createElementNS(NS, "path");
+    hit.setAttribute("d", d); hit.setAttribute("class", "wire-hit");
+    g.append(p, hit);
+    wires.appendChild(g);
+    const L = p.getTotalLength(), m = p.getPointAtLength(L / 2);
+    const lab = document.createElementNS(NS, "g");
+    lab.setAttribute("class", "wire-label"); lab.setAttribute("tabindex", "0"); lab.setAttribute("role", "button");
+    lab.setAttribute("aria-label", `Join ${e.from} to ${e.to} on ${e.label}`);
+    const text = isIsa ? "is_a ↑ parent" : e.label;
+    const w = text.length * 7.3 + 16;
+    lab.innerHTML = `<rect x="${m.x - w / 2}" y="${m.y - 12}" width="${w}" height="24" rx="12"/>
+      <text x="${m.x}" y="${m.y + 4}" text-anchor="middle">${esc(text)}</text>`;
+    g.appendChild(lab);
+    const open = () => openEdge(i);
+    lab.addEventListener("click", ev => { ev.stopPropagation(); open(); });
+    lab.addEventListener("keydown", ev => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); open(); } });
+    hit.addEventListener("click", ev => { ev.stopPropagation(); open(); });
+    EDGE_EL.push({g, lab, p, bbox: {x: Math.min(x1, x2), y: Math.min(y1, y2), w: Math.abs(x2 - x1), h: Math.abs(y2 - y1)}});
+  });
+}
+
+/* ---------- pan / zoom ---------- */
+let view = {x: 0, y: 0, s: 1};
+function apply(anim) {
+  world.classList.toggle("anim", !!anim);
+  world.style.transform = `translate(${view.x}px, ${view.y}px) scale(${view.s})`;
+}
+function worldBounds() {
+  let x0 = 1e9, y0 = 1e9, x1 = -1e9, y1 = -1e9;
+  for (const el of world.children) {
+    if (el === wires) continue;
+    x0 = Math.min(x0, el.offsetLeft); y0 = Math.min(y0, el.offsetTop);
+    x1 = Math.max(x1, el.offsetLeft + el.offsetWidth); y1 = Math.max(y1, el.offsetTop + el.offsetHeight);
+  }
+  return {x: x0, y: y0, w: x1 - x0, h: y1 - y0};
+}
+function headerH() { return $("header").offsetHeight; }
+function focusBox(b, anim = true, maxS = 1.6) {
+  const W = innerWidth, H = innerHeight - headerH() - 90, pad = 40;
+  const s = Math.min(maxS, (W - pad * 2) / b.w, (H - pad * 2) / b.h);
+  view = {s, x: (W - b.w * s) / 2 - b.x * s, y: headerH() + 20 + (H - b.h * s) / 2 - b.y * s};
+  apply(anim);
+}
+const fit = anim => focusBox(worldBounds(), anim, 1);
+function zoomAt(f, cx = innerWidth / 2, cy = innerHeight / 2) {
+  const s = Math.min(2.5, Math.max(.15, view.s * f));
+  view.x = cx - (cx - view.x) * (s / view.s); view.y = cy - (cy - view.y) * (s / view.s); view.s = s; apply(false);
+}
+let drag = null;
+stage.addEventListener("pointerdown", e => {
+  if (e.target.closest(".node, .gray, .wire-label, .wire-hit, .card-free")) return;
+  drag = {x: e.clientX, y: e.clientY, vx: view.x, vy: view.y}; stage.classList.add("dragging"); stage.setPointerCapture(e.pointerId);
+});
+stage.addEventListener("pointermove", e => { if (!drag) return; view.x = drag.vx + e.clientX - drag.x; view.y = drag.vy + e.clientY - drag.y; apply(false); });
+stage.addEventListener("pointerup", () => { drag = null; stage.classList.remove("dragging"); });
+stage.addEventListener("wheel", e => { e.preventDefault(); zoomAt(e.deltaY < 0 ? 1.12 : 1 / 1.12, e.clientX, e.clientY); }, {passive: false});
+$("#zin").onclick = () => zoomAt(1.25); $("#zout").onclick = () => zoomAt(1 / 1.25);
+$("#fit").onclick = () => { stopWalk(); closeAll(); fit(true); };
+
+/* ---------- tooltip ---------- */
+const tip = $("#tip");
+function placeTip(e) {
+  const r = tip.getBoundingClientRect();
+  let x = e.clientX + 16, y = e.clientY + 12;
+  if (x + r.width > innerWidth - 8) x = e.clientX - r.width - 16;
+  if (x < 8) x = 8;
+  if (y + r.height > innerHeight - 8) y = innerHeight - r.height - 8;
+  tip.style.left = x + "px"; tip.style.top = Math.max(8, y) + "px";
+}
+function hideTip() { tip.hidden = true; }
+function barsHTML(t, top = 6) {
+  return `<div class="bars">${t.breakdowns.map(b => {
+    const max = Math.max(...b.items.map(i => i.v), 1);
+    return `<div><div class="bar-title">${esc(b.label)}</div>${b.items.slice(0, top).map(i => `<div class="bar">
+      <span class="k" title="${esc(i.k)}">${esc(i.k)}</span><span class="track"><span class="fill" style="width:${Math.max(2, 100 * i.v / max)}%"></span></span>
+      <span class="v">${fmtN(i.v)}</span></div>`).join("")}</div>`;
+  }).join("")}</div>`;
+}
+function showGrayTip(g, e) {
+  const t = D.tables[g];
+  tip.innerHTML = `<h4 class="mono" style="font-family:var(--f-mono);font-size:15px">${esc(g)}</h4>
+    <div class="meta">${fmtN(t.count)} rows · supporting table, not on this trace</div>
+    <div style="margin-top:6px">${esc(t.role || ROLE_FALLBACK[g] || "")}</div>${barsHTML(t, 5)}`;
+  tip.hidden = false; placeTip(e);
+}
+function kvBox(obj) {
+  if (!obj) return "—";
+  return Object.entries(obj).map(([k, v]) => `<b>${esc(k)}</b> ${esc(String(v).slice(0, 80))}`).join("<br>");
+}
+function showDatasetTip(sid, table, e) {
+  const d = D.datasets[sid] || {name: sid};
+  const tt = (d.tables || {})[table] || {};
+  const n = (D.tables[table].sources || {})[sid];
+  tip.innerHTML = `<h4>${esc(d.name)}</h4>
+    <div class="meta">${esc(d.origin || "")}${d.access ? " · " + esc(d.access) : ""}${d.license ? " · " + esc(d.license) : ""}</div>
+    ${d.what ? `<div style="margin-top:6px">${esc(d.what)}</div>` : ""}
+    <div class="sec-title" style="margin-top:9px">Into <span class="mono">${esc(table)}</span>${n ? ` · ${fmtN(n)} rows` : ""}</div>
+    ${tt.how ? `<ul>${tt.how.map(h => `<li>${esc(h)}</li>`).join("")}</ul>` : ""}
+    ${tt.raw ? `<div class="rr"><div><b>${esc((tt.raw.file || "").split("/").slice(-2).join("/"))}</b><br>${kvBox(tt.raw.row)}</div>
+      <span class="arrow">→</span><div><b>${esc(table)}</b><br>${kvBox(tt.result)}</div></div>` : ""}`;
+  tip.hidden = false; placeTip(e);
+}
+
+/* ---------- focus view (zoom into a table) ---------- */
+const focusEl = $("#focus");
+function rowsTable(rows, cls, table) {
+  if (!rows || !rows.length) return "";
+  const cols = [...new Set(rows.flatMap(r => Object.keys(r)))].filter(c => c !== "rk");
+  return `<div class="tbl-wrap"><table class="rows"><thead><tr>${cols.map(c => `<th>${esc(c)}</th>`).join("")}</tr></thead><tbody>
+    ${rows.map(r => `<tr class="${cls}" data-src="${esc(r.source_id || "")}">${cols.map(c =>
+      `<td class="${typeof r[c] === "number" ? "num" : ""}">${fmtCell(c, r[c])}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+}
+function extrasFor(table) {
+  const X = D.trace_extra;
+  if (table === "ingredient") return `<div class="extra"><div class="sec-title">Used by this trace: names &amp; ids</div>
+      ${X.aliases.map(a => `<div><span class="mono">${esc(a.lang)}</span> ${esc(a.aliases)}</div>`).join("")}
+      <div style="margin-top:4px">Cross-referenced in <b>${X.xref_dbs}</b> databases (<span class="mono">ingredient_xref</span>)</div></div>`;
+  if (table === "compound") return `<div class="extra"><div class="sec-title">Curcumin is merged from</div>
+      ${X.compound_xrefs.map(c => `<span class="mono">${esc(c.db)}×${c.n}</span>`).join(" · ")}
+      <div style="margin-top:4px">Linked to <b>${fmtN(X.curcumin_conditions)}</b> conditions in <span class="mono">compound_condition</span></div></div>`;
+  if (table === "condition") return `<div class="extra"><div class="sec-title">Hierarchy used (<span class="mono">condition_relation</span>)</div>
+      ${X.is_a.map(r => `<div class="mono">${esc(r.from_id)} —${esc(r.rel)}→ ${esc(r.to_id)}</div>`).join("")}
+      <div style="margin-top:4px">${fmtN(X.turmeric_paths_t2d)} turmeric paths reach T2D or its parent</div></div>`;
+  return "";
+}
+function openFocus(table, nodeId) {
+  stopWalk(false); closePanel(); hideTip();
+  const t = D.tables[table];
+  if (nodeId) {  // zoom the canvas toward the node, then grow the table out of it
+    const el = NODE_EL[nodeId];
+    focusBox({x: el.offsetLeft - 40, y: el.offsetTop - 40, w: el.offsetWidth + 80, h: el.offsetHeight + 80}, true, 1.3);
+    document.querySelectorAll(".node.on").forEach(n => n.classList.remove("on")); el.classList.add("on");
+  }
+  const srcs = Object.entries(t.sources || {});
+  const traceSrc = new Set((t.trace || []).map(r => r.source_id).filter(Boolean));
+  if (table === "ingredient") ["indicrecipenutri", "culinarydb", "flavordb", "foodb", "symmap", "herb", "tmmc", "imppat", "cmaup",
+    "npass", "ddid", "spicerx", "unaprod", "duke", "knapsack"].forEach(s => traceSrc.add(s));
+  if (table === "compound") D.trace_extra.compound_xrefs.forEach(c => traceSrc.add({phenol_explorer: "phenol"}[c.db] || c.db));
+  if (table === "condition") traceSrc.add("medic");
+  if (table === "drug") traceSrc.add("ddid");
+  const half = Math.ceil(srcs.length / 2);
+  const badge = ([sid, n]) => `<button type="button" class="badge ${traceSrc.has(sid) ? "feeds" : ""}" data-sid="${esc(sid)}">
+      <div class="nm">${esc(srcName(sid))}</div><div class="ct">${fmtN(n)} ${table === "ingredient" || table === "compound" ? "linked" : "rows"}</div></button>`;
+  const node = tableOf(nodeId || "") || {};
+  focusEl.innerHTML = `<button class="btn x" type="button" id="fx">Close ✕</button>
+    <div class="focus-grid" id="fgrid"><svg id="fwires"></svg>
+      <div class="badges" id="bl">${srcs.slice(0, half).map(badge).join("")}</div>
+      <section class="focus">
+        <div class="eyebrow">${nodeId ? "On the trace" : "Supporting table · not on this trace"}</div>
+        <h3 class="mono" style="font-family:var(--f-mono);font-size:22px">${esc(table)}</h3>
+        <div class="role">${esc(t.role || ROLE_FALLBACK[table] || node.caption || "")} · <b>${fmtN(t.count)}</b> rows</div>
+        ${t.why ? `<ul class="why">${t.why.map(w => `<li>${esc(w)}</li>`).join("")}</ul>` : ""}
+        ${barsHTML(t)}
+        ${t.trace && t.trace.length ? `<div class="sec"><div class="sec-title">Row(s) used for Fatimah's trace</div>${rowsTable(t.trace, "trace", table)}</div>` : ""}
+        ${t.examples && t.examples.length ? `<div class="sec"><div class="sec-title">Other examples</div>${rowsTable(t.examples, "", table)}</div>` : ""}
+        ${extrasFor(table)}
+        <div class="sec"><div class="sec-title">Columns</div><div class="mono" style="font-size:12px;color:var(--muted)">${t.columns.map(esc).join(" · ")}</div></div>
+      </section>
+      <div class="badges" id="br">${srcs.slice(half).map(badge).join("")}</div>
+    </div>`;
+  focusEl.hidden = false;
+  $("#fx").onclick = closeFocus;
+  focusEl.onclick = e => { if (e.target === focusEl) closeFocus(); };
+  focusEl.querySelectorAll(".badge").forEach(b => {
+    b.addEventListener("mouseenter", e => { showDatasetTip(b.dataset.sid, table, e); hlRows(b.dataset.sid, true); });
+    b.addEventListener("mousemove", placeTip);
+    b.addEventListener("mouseleave", () => { hideTip(); hlRows(b.dataset.sid, false); });
+    b.addEventListener("focus", () => { const r = b.getBoundingClientRect(); showDatasetTip(b.dataset.sid, table, {clientX: r.right, clientY: r.top}); });
+    b.addEventListener("blur", hideTip);
+  });
+  requestAnimationFrame(drawFocusWires);
+}
+function hlRows(sid, on) { focusEl.querySelectorAll(`tr[data-src="${CSS.escape(sid)}"]`).forEach(r => r.classList.toggle("hl", on)); }
+function drawFocusWires() {
+  const svg = $("#fwires"), grid = $("#fgrid");
+  if (!svg || getComputedStyle(svg).display === "none") return;
+  const G = grid.getBoundingClientRect();
+  let out = "";
+  const traceRow = focusEl.querySelector("tr.trace");
+  focusEl.querySelectorAll(".badge").forEach(b => {
+    const sid = b.dataset.sid;
+    let targets = [...focusEl.querySelectorAll(`tr[data-src="${CSS.escape(sid)}"]`)];
+    if (!targets.length && b.classList.contains("feeds") && traceRow) targets = [traceRow];
+    const B = b.getBoundingClientRect(), left = b.closest("#bl") !== null;
+    const C = focusEl.querySelector(".focus").getBoundingClientRect();
+    for (const tr of targets.slice(0, 3)) {
+      const R = tr.getBoundingClientRect();
+      // badge edge → the card's edge, level with the row (the card sits above the wires)
+      const x1 = (left ? B.right : B.left) - G.left, y1 = B.top + B.height / 2 - G.top;
+      const x2 = (left ? C.left + 1 : C.right - 1) - G.left, y2 = R.top + R.height / 2 - G.top;
+      const dx = (x2 - x1) * .5;
+      out += `<path d="M${x1},${y1} C${x1 + dx},${y1} ${x2 - dx},${y2} ${x2},${y2}"/><circle cx="${x2}" cy="${y2}" r="3.5"/>`;
+    }
+  });
+  svg.innerHTML = out;
+}
+function closeFocus() { focusEl.hidden = true; hideTip(); document.querySelectorAll(".node.on").forEach(n => n.classList.remove("on")); }
+
+/* ---------- arrow panel ---------- */
+const panel = $("#panel");
+function openEdge(i, fromWalk) {
+  if (!fromWalk) stopWalk(false);
+  closeFocus();
+  const e = D.edges[i];
+  EDGE_EL.forEach((x, j) => x.lab.classList.toggle("on", j === i));
+  const toCol = e.label === "is_a" ? "condition_id (parent)" : e.col;
+  panel.innerHTML = `<button class="btn x" type="button" id="px">Close ✕</button>
+    <div class="eyebrow">How this link was made</div>
+    <h3>${esc(e.from)} → ${esc(e.to)}</h3>
+    <div class="join">${esc(e.from)}.<b>${esc(e.col)}</b> = ${esc(e.to)}.<b>${esc(toCol)}</b></div>
+    <ul>${e.bullets.map(b => `<li>${esc(b)}</li>`).join("")}</ul>
+    <pre class="code">${esc(e.code)}</pre>`;
+  panel.hidden = false; document.body.classList.add("panel-open");
+  $("#px").onclick = closePanel;
+  const b = EDGE_EL[i].bbox;
+  if (!fromWalk) focusBox({x: b.x - 60, y: b.y - 120, w: b.w + 120, h: b.h + 240}, true, 1.2);
+}
+function closePanel() { panel.hidden = true; document.body.classList.remove("panel-open"); EDGE_EL.forEach(x => x.lab.classList.remove("on")); }
+
+/* ---------- caveats ---------- */
+const modal = $("#modal");
+$("#cav").onclick = () => {
+  modal.innerHTML = `<div class="modal" role="dialog" aria-modal="true" aria-labelledby="cavh"><button class="btn x" type="button" id="mx">Close ✕</button>
+    <div class="eyebrow">${esc(D.poc.label)}</div><h3 id="cavh">Caveats &amp; limitations</h3>
+    <div class="cav">${D.caveats.map(c => `<div><h4>${esc(c.title)}</h4><ul>${c.items.map(i => `<li>${esc(i)}</li>`).join("")}</ul></div>`).join("")}</div></div>`;
+  modal.hidden = false; $("#mx").onclick = () => modal.hidden = true; $("#mx").focus();
+};
+modal.onclick = e => { if (e.target === modal) modal.hidden = true; };
+
+/* ---------- walk-through ---------- */
+const ORDER = ["dish", 0, "dish_ingredient", 1, "ingredient", 2, "ingredient_compound", 3, "compound", 4, "compound_condition", 5,
+               "condition", 6, "ingredient_condition", 7, 8, "ingredient_drug", 9, "drug", 10, "dish_nutrient", "outcome"];
+let step = -1;
+const cap = $("#caption");
+function stepInfo(s) {
+  if (s === "outcome") return {what: "Outcome", why: "The agent answers with every claim graded and sourced."};
+  if (typeof s === "number") {
+    const e = D.edges[s], toCol = e.label === "is_a" ? "condition_id (parent, via is_a)" : e.col;
+    return {what: `${e.from}.${e.col} → ${e.to}.${toCol}`, why: e.bullets[0]};
+  }
+  const n = tableOf(s), t = D.tables[n.table];
+  return {what: `${n.table} · ${fmtN(t.count)} rows`, why: n.caption + (n.key.length ? ` · next via ${n.key.join(", ")}` : "")};
+}
+function goStep(i) {
+  step = Math.max(0, Math.min(ORDER.length - 1, i));
+  const s = ORDER[step], info = stepInfo(s);
+  closeFocus();
+  document.querySelectorAll(".node.on").forEach(n => n.classList.remove("on"));
+  if (s === "outcome") {
+    closePanel();
+    const el = document.querySelector(".outcome");
+    focusBox({x: el.offsetLeft - 30, y: el.offsetTop - 30, w: el.offsetWidth + 60, h: el.offsetHeight + 60}, true, 1.3);
+  } else if (typeof s === "number") {
+    openEdge(s, true);
+    const b = EDGE_EL[s].bbox, e = D.edges[s], A = NODE_EL[e.from], B = NODE_EL[e.to];
+    const x0 = Math.min(A.offsetLeft, B.offsetLeft), y0 = Math.min(A.offsetTop, B.offsetTop);
+    const x1 = Math.max(A.offsetLeft + A.offsetWidth, B.offsetLeft + B.offsetWidth), y1 = Math.max(A.offsetTop + A.offsetHeight, B.offsetTop + B.offsetHeight);
+    const W = innerWidth > 900 ? innerWidth - 460 : innerWidth;
+    const s2 = Math.min(1.1, (W - 60) / (x1 - x0), (innerHeight - headerH() - 170) / (y1 - y0));
+    view = {s: s2, x: (W - (x1 - x0) * s2) / 2 - x0 * s2, y: headerH() + 20 - y0 * s2}; apply(true);
+  } else {
+    closePanel();
+    const el = NODE_EL[s]; el.classList.add("on");
+    focusBox({x: el.offsetLeft - 40, y: el.offsetTop - 40, w: el.offsetWidth + 80, h: el.offsetHeight + 80}, true, 1.3);
+  }
+  cap.innerHTML = `<span class="step">Step ${step + 1}/${ORDER.length}</span>
+    <div><div class="what">${esc(info.what)}</div><div class="why">${esc(info.why)}</div></div>
+    <div class="nav"><button class="btn" type="button" id="cp" aria-label="Previous step">←</button>
+    <button class="btn" type="button" id="cn" aria-label="Next step">→</button><button class="btn" type="button" id="cx" aria-label="End walk-through">✕</button></div>`;
+  cap.hidden = false;
+  $("#cp").onclick = () => goStep(step - 1); $("#cn").onclick = () => goStep(step + 1); $("#cx").onclick = () => stopWalk(true);
+}
+function stopWalk(refit) {
+  if (step < 0) return;
+  step = -1; cap.hidden = true; closePanel();
+  document.querySelectorAll(".node.on").forEach(n => n.classList.remove("on"));
+  if (refit) fit(true);
+}
+$("#walk").onclick = () => goStep(0);
+function closeAll() { closeFocus(); closePanel(); modal.hidden = true; hideTip(); }
+addEventListener("keydown", e => {
+  if (e.key === "Escape") { if (!modal.hidden) modal.hidden = true; else if (!focusEl.hidden) closeFocus(); else if (step >= 0) stopWalk(true); else { closePanel(); fit(true); } }
+  if (step >= 0 && focusEl.hidden && modal.hidden) {
+    if (e.key === "ArrowRight") goStep(step + 1);
+    if (e.key === "ArrowLeft") goStep(step - 1);
+  }
+});
+
+/* ---------- boot ---------- */
+function boot() { drawWires(); fit(false); }
+let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { if (step < 0 && focusEl.hidden) fit(false); if (!focusEl.hidden) drawFocusWires(); }, 150); });  // drawFocusWires reads rows from the DOM
+(document.fonts && document.fonts.ready ? document.fonts.ready : Promise.resolve()).then(boot);
+setTimeout(() => { if (!wires.querySelector("path")) boot(); }, 1200);
+</script>

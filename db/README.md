@@ -22,6 +22,7 @@ uv run db/trace.py condition "nausea" --country IN --drug warfarin
 | `views.sql` | analysis views (`v_ingredient_condition_all`, `v_dish_condition`, `v_condition_dish`) |
 | `trace.py` | CLI that prints dish → condition and condition → dish traces |
 | `build_report.md` | generated: row counts, match rates, orphan checks |
+| `presentation/` | interactive presentation: `uv run db/presentation/export.py` (after a build) writes `Database/presentation/index.html` from the DB, `content.py` (curated dataset text) and `template.html` |
 
 ## Contract between stages
 - **Ownership.** Each stage owns the tables it fills. It first deletes its own rows (`DELETE FROM t WHERE source_id IN (...)`,

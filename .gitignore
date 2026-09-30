@@ -38,3 +38,6 @@ Data/central-asian-food-dataset/
 # unified database build output
 db/*.duckdb
 db/*.duckdb.wal
+
+# presentation: artifact fragment is a build output (same content as Database/presentation/index.html)
+db/presentation/artifact.html
