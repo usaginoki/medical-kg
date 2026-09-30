@@ -115,6 +115,15 @@ for p in sorted(scan):
         if not ok:
             problems.append(f"{p}: unresolved {'embed' if emb else 'link'} [[{tgt}]]")
 
+# Obsidian resolves [[Name]] by file name, so the same name in two folders makes links ambiguous
+by_name = collections.defaultdict(list)
+for p in glob.glob("**/*.md", recursive=True):
+    if not p.startswith((".", "_tools", "Templates", "Access-help", "Data/")):
+        by_name[os.path.basename(p)].append(p)
+for n, ps in by_name.items():
+    if len(ps) > 1:
+        problems.append(f"duplicate note name {n!r} (links are ambiguous): " + " | ".join(sorted(ps)))
+
 for a, ps in arxiv_ids.items():
     if len(ps) > 1:
         problems.append(f"duplicate arXiv {a}: " + " | ".join(ps))

@@ -116,7 +116,7 @@ views in `Backlog.base` (embedded in `Backlog.md`, in session notes and in every
 
 | property | values |
 |---|---|
-| `status` | `candidate` → `processing` → *(promoted to `Papers/`)* or, for datasets, `processed` (+ `dataset: "[[<dataset note>]]"`) · `rejected` (+ `reason`) |
+| `status` | `candidate` → `processing` → *(promoted to `Papers/`)* or, for datasets, `processed` (+ `dataset: "[[<dataset note>]]"`; rename the note to `<Name> (candidate).md` so `[[<Name>]]` resolves to the dataset note) · `rejected` (+ `reason`) |
 | `priority` | 1 = process next · 2 = relevant · 3 = peripheral / background |
 | `topics`, `relevance` | as for papers; `relevance` is the first guess (core / adjacent) |
 | `manipulation`, `outcome`, `why` | what the paper varies, what it measures, one-line reason |

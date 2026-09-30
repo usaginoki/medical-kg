@@ -55,6 +55,8 @@ The unit is the **dataset**, not the paper (`_tools/README.md` → *Dataset note
 3. Write `Datasets/<Name>.md`: every table with its columns *and what they mean* (from docs/paper),
    countries, food fields or body-effect fields. Latest version only; older versions go in *Versions*.
 4. If there is a paper, write a light `Papers/` note (linked both ways via `papers` / `datasets`).
+   Set the candidate to `status: processed`, add `dataset: "[[<Name>]]"` and rename it to
+   `Backlog/<Name> (candidate).md` (note names must be unique vault-wide; `check_vault.py` flags duplicates).
 5. After all datasets: build `Countries/` + `Regions/` notes from the `countries` / `regions` properties.
 
 ## Git
