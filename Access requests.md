@@ -25,11 +25,11 @@ dataset note (`accessed: true`).
 ## Drafts ready to send
 Everything is in `Access-help/<name>/` (tracked in git; each also has a GitHub issue). Personal details are filled in (Artur Pak, NLP, artur.pak@mbzuai.ac.ae); cc Dr. Fajri Koto.
 
-| Request | Draft | Channel |
-|---|---|---|
-| RecipeDB2 (+ FlavorDB2, SpiceRx, DietRx: same lab) | `Access-help/RecipeDB2/email.md` | email bagler@iiitd.ac.in |
-| GRAYU | `Access-help/GRAYU/email.md` | email mini@ncbs.res.in (says we use it for offline research only: the ToS forbid medical advice) |
-| FoodAtlas | `Access-help/FoodAtlas/api-request.md` | web form https://www.foodatlas.ai/contact?api-access |
-| NII Cookpad | `Access-help/NII-Cookpad/email.md` | email idr@nii.ac.jp: pre-application inquiry (eligibility of a non-Japanese university, LLM-use terms), JA + EN |
-| Central Asian Visual Food Atlas | `Access-help/Central-Asian-Visual-Food-Atlas/email.md` | email yen.chan@nu.edu.kz |
-| DrugBank | `Access-help/DrugBank/README.md` | sign up for an account, then contact support if downloads are still disabled |
+| Request | Draft | Channel | Issue |
+|---|---|---|---|
+| RecipeDB2 (+ FlavorDB2, SpiceRx, DietRx: same lab) | `Access-help/RecipeDB2/email.md` | email bagler@iiitd.ac.in | [#2](https://github.com/usaginoki/medical-kg/issues/2) |
+| GRAYU | `Access-help/GRAYU/email.md` | email mini@ncbs.res.in (says we use it for offline research only: the ToS forbid medical advice) | [#3](https://github.com/usaginoki/medical-kg/issues/3) |
+| FoodAtlas | `Access-help/FoodAtlas/api-request.md` | web form https://www.foodatlas.ai/contact?api-access | [#4](https://github.com/usaginoki/medical-kg/issues/4) |
+| NII Cookpad | `Access-help/NII-Cookpad/email.md` | email idr@nii.ac.jp: pre-application inquiry (eligibility of a non-Japanese university, LLM-use terms), JA + EN | [#5](https://github.com/usaginoki/medical-kg/issues/5) |
+| Central Asian Visual Food Atlas | `Access-help/Central-Asian-Visual-Food-Atlas/email.md` | email yen.chan@nu.edu.kz | [#6](https://github.com/usaginoki/medical-kg/issues/6) |
+| DrugBank | `Access-help/DrugBank/README.md` | sign up for an account, then contact support if downloads are still disabled | [#7](https://github.com/usaginoki/medical-kg/issues/7) |
