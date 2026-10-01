@@ -14,7 +14,7 @@
 
 Dear Prof. Sowdhamini,
 
-My name is Artur Pak. I am a student at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) in Abu Dhabi,
+My name is [Your Name]. I am a student at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) in Abu Dhabi,
 working with Dr. Fajri Koto. Our team studies how knowledge of food cultures and traditional medicine systems can make AI
 assistants for health questions more accurate and more culturally appropriate, for example by recognising the Ayurvedic
 formulations and plants that users in South Asia refer to.
@@ -33,7 +33,7 @@ sign a data-use agreement and to follow any conditions you set.
 Thank you very much for your time and for making this resource available.
 
 Best regards,
-Artur Pak
+[Your Name]
 Department of Natural Language Processing, MBZUAI
 Supervisor: Dr. Fajri Koto
-artur.pak@mbzuai.ac.ae
+[your MBZUAI email]

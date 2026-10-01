@@ -10,8 +10,8 @@
 
 ---
 
-**Name:** Artur Pak
-**Email:** artur.pak@mbzuai.ac.ae
+**Name:** [Your Name]
+**Email:** [your MBZUAI email]
 **Organization:** Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Abu Dhabi, UAE
 **Intended use:** Academic, non-commercial research
 
@@ -30,4 +30,4 @@ to download the KG bundles for academic research. We would use them only within 
 in any publication.
 
 Thank you!
-Artur Pak
+[Your Name]

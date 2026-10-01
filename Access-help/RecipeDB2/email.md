@@ -12,7 +12,7 @@
 
 Dear Dr. Bagler,
 
-My name is Artur Pak. I am a student at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) in Abu Dhabi,
+My name is [Your Name]. I am a student at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) in Abu Dhabi,
 working under the supervision of Dr. Fajri Koto. Our team is building an agentic system for medical advice and analysis
 that is aware of users' food cultures: what people in different countries actually eat, which ingredients those dishes
 use, and what the compounds in them may do to the body.
@@ -34,7 +34,7 @@ our findings with you. We would particularly value your view on the Middle Easte
 Thank you very much for considering this request.
 
 Best regards,
-Artur Pak
+[Your Name]
 Department of Natural Language Processing, MBZUAI
 Supervisor: Dr. Fajri Koto
-artur.pak@mbzuai.ac.ae
+[your MBZUAI email]

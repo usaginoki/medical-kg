@@ -23,7 +23,7 @@ dataset note (`accessed: true`).
 | 9 | [[Central Asian Digital Visual Food Atlas]] | **Ask permission.** The owners deleted `Atlas.pdf` from the repo; we recovered it from the git history. Ask whether we may use it and whether an official version exists | yen.chan@nu.edu.kz (verify the corresponding author in Omarova et al. 2025) | none needed. Data already parsed in `Data/central-asian-digital-visual-food-atlas/`; delete it if they say no | open |
 
 ## Drafts ready to send
-Everything is in `Access-help/<name>/` (tracked in git; each also has a GitHub issue). Personal details are filled in (Artur Pak, NLP, artur.pak@mbzuai.ac.ae); cc Dr. Fajri Koto.
+Everything is in `Access-help/<name>/` (tracked in git; each also has a GitHub issue). Replace `[Your Name]` and `[your MBZUAI email]` with the sender's details; cc Dr. Fajri Koto.
 
 | Request | Draft | Channel | Issue |
 |---|---|---|---|

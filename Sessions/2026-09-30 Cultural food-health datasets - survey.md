@@ -18,8 +18,8 @@ tags:
 > - [[Q3 Food compound & health-effect datasets|Q3]]: Which datasets link foods and ingredients to compounds, and compounds to effects on the body?
 
 **Research question:** what data can augment an agent for culturally tuned medical advice and analysis with knowledge of
-what different cultures eat, which ingredients they use, and what those do to the body. The project is by Artur Pak
-(MBZUAI NLP, supervised by Fajri Koto). Priority regions: Middle East/GCC, Central Asia, South & East Asia.
+what different cultures eat, which ingredients they use, and what those do to the body. It is a team project at
+MBZUAI (NLP department, supervised by Fajri Koto). Priority regions: Middle East/GCC, Central Asia, South & East Asia.
 
 **Corpus / scope:**
 - **Search:** 4 parallel search strands (food, ingredients, compounds, priority regions), run on 2026-09-30, produced

@@ -22,7 +22,7 @@
 
 国立情報学研究所 情報学研究データリポジトリ ご担当者様
 
-Mohamed bin Zayed University of Artificial Intelligence（MBZUAI、アラブ首長国連邦）の Artur Pak と申します。
+Mohamed bin Zayed University of Artificial Intelligence（MBZUAI、アラブ首長国連邦）の [Your Name] と申します。
 Fajri Koto 先生の指導のもと、食文化を考慮した健康アドバイス AI の学術研究を行っております。
 クックパッドデータセットの利用申請を検討しており、申請前に以下の点をご確認させていただきたく、ご連絡いたしました。
 （以下、英語で失礼いたします。）
@@ -47,7 +47,7 @@ including advance notice of publications and annual reports.
 Thank you very much for your help.
 
 Best regards,
-Artur Pak
+[Your Name]
 Department of Natural Language Processing, Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Abu Dhabi, UAE
 Supervisor: Dr. Fajri Koto
-artur.pak@mbzuai.ac.ae
+[your MBZUAI email]

@@ -16,7 +16,7 @@
 
 Dear Dr. Chan,
 
-My name is Artur Pak. I am a student at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) in Abu Dhabi,
+My name is [Your Name]. I am a student at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) in Abu Dhabi,
 working under the supervision of Dr. Fajri Koto. Our team does research on AI assistants for health questions that
 account for users' food cultures, and Central Asian cuisines are one of our priority regions. Your Visual Food Atlas
 (Omarova et al., Nutrients 2025), with standardised portion sizes for Kazakh and other Central Asian foods, is one of the
@@ -34,7 +34,7 @@ If you would prefer that we not use the historical copy, we will delete it. Than
 Central Asian nutrition data.
 
 Best regards,
-Artur Pak
+[Your Name]
 Department of Natural Language Processing, MBZUAI
 Supervisor: Dr. Fajri Koto
-artur.pak@mbzuai.ac.ae
+[your MBZUAI email]

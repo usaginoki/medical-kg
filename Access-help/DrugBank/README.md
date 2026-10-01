@@ -22,11 +22,11 @@ I am a student at Mohamed bin Zayed University of Artificial Intelligence (MBZUA
 Dr. Fajri Koto on non-commercial academic research: an AI assistant for health questions that takes food cultures into
 account, where DrugBank's food–drug interaction data would help us flag unsafe combinations.
 
-My academic account is artur.pak@mbzuai.ac.ae. Downloads of release 5.1.22, including the full database XML and even the
+My academic account is [your MBZUAI email]. Downloads of release 5.1.22, including the full database XML and even the
 open DrugBank Vocabulary, return "Forbidden. Academic downloads are currently disabled." Could you let me know whether
 academic downloads will be re-enabled, or whether there is another way to obtain the full database for academic use?
 
 Thank you,
-Artur Pak
+[Your Name]
 Department of Natural Language Processing, MBZUAI
-artur.pak@mbzuai.ac.ae
+[your MBZUAI email]
