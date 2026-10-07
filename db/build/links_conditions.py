@@ -4,7 +4,7 @@ Sources: CTD curated chemical–disease (attached to the CTD-owning compound, fa
 occur in ingredient_compound), HMDB metabolite diseases, Exposome-Explorer cancer associations, FooDB
 CompoundsHealthEffect and Dr. Duke's AGGREGAC (chemical activities).
 """
-import pandas as pd
+import os, pandas as pd
 
 from common import data
 from build.links_common import log, lookup_table, df_to_temp, xref_alias_map, s, CondText
@@ -58,31 +58,34 @@ def build_compound_condition(con, cr, kr, ct):
     con.execute("DROP TABLE ctd")
 
     # ---- HMDB metabolite diseases (biomarker associations) ------------------------------------------------
-    hm = pd.read_csv(data("hmdb", "hmdb_metabolite_diseases.csv"), dtype=str, keep_default_na=False)
-    # 20k templated cardiolipin -> Barth syndrome (3-methylglutaconic aciduria type II, OMIM 302060) rows
-    barth = (hm.omim_id == "302060") & hm.metabolite_name.str.startswith("CL(")
-    hm = hm[~barth]
-    rows, n_unres = [], 0
-    dcache = {}
-    for r in hm.itertuples(index=False):
-        c = cr.by_xref("hmdb", r.accession)
-        if not c:
-            continue
-        key = (r.omim_id, r.disease_name)
-        if key not in dcache:
-            dcache[key] = omim.get(r.omim_id) if s(r.omim_id) else None
-            dcache[key] = dcache[key] or kr.by_text(r.disease_name)
-        d = dcache[key]
-        if not d:
-            n_unres += 1
-            continue
-        if d.startswith("ACT:"):
-            continue
-        rows.append((c, d, "marker", "epidemiological", "hmdb", s(r.pubmed_ids), None))
-    df_to_temp(con, "hm", pd.DataFrame(rows, columns=list("abcdefg")))
-    con.execute("INSERT INTO stg_cc SELECT * FROM hm")
-    log(f"HMDB: {len(hm):,} rows after dropping {int(barth.sum()):,} templated cardiolipin/Barth rows -> "
-        f"{len(rows):,} staged ({n_unres:,} rows with unresolved disease)")
+    if not os.path.exists(data("hmdb", "hmdb_metabolite_diseases.csv")):
+        log("HMDB: files missing (Data/hmdb/), skipped")
+    else:
+        hm = pd.read_csv(data("hmdb", "hmdb_metabolite_diseases.csv"), dtype=str, keep_default_na=False)
+        # 20k templated cardiolipin -> Barth syndrome (3-methylglutaconic aciduria type II, OMIM 302060) rows
+        barth = (hm.omim_id == "302060") & hm.metabolite_name.str.startswith("CL(")
+        hm = hm[~barth]
+        rows, n_unres = [], 0
+        dcache = {}
+        for r in hm.itertuples(index=False):
+            c = cr.by_xref("hmdb", r.accession)
+            if not c:
+                continue
+            key = (r.omim_id, r.disease_name)
+            if key not in dcache:
+                dcache[key] = omim.get(r.omim_id) if s(r.omim_id) else None
+                dcache[key] = dcache[key] or kr.by_text(r.disease_name)
+            d = dcache[key]
+            if not d:
+                n_unres += 1
+                continue
+            if d.startswith("ACT:"):
+                continue
+            rows.append((c, d, "marker", "epidemiological", "hmdb", s(r.pubmed_ids), None))
+        df_to_temp(con, "hm", pd.DataFrame(rows, columns=list("abcdefg")))
+        con.execute("INSERT INTO stg_cc SELECT * FROM hm")
+        log(f"HMDB: {len(hm):,} rows after dropping {int(barth.sum()):,} templated cardiolipin/Barth rows -> "
+            f"{len(rows):,} staged ({n_unres:,} rows with unresolved disease)")
 
     # ---- Exposome-Explorer cancer associations ------------------------------------------------------------
     bm = pd.read_csv(data("exposome-explorer", "biomarkers.csv"), dtype=str, keep_default_na=False)

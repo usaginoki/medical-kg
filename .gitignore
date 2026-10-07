@@ -38,6 +38,13 @@ Data/central-asian-food-dataset/
 # unified database build output
 db/*.duckdb
 db/*.duckdb.wal
+db/export/
 
 # presentation: artifact fragment is a build output (same content as Database/presentation/index.html)
 db/presentation/artifact.html
+
+# MedArabiQ: custom NYU licence forbids redistribution, so no samples in this public repo
+Data/medarabiq/sample*.csv
+
+# macOS Finder files
+.DS_Store

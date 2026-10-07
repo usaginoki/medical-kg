@@ -166,6 +166,9 @@ def load_foodb(con, C):
 
 
 def load_hmdb(con, C):
+    if not os.path.exists(data("hmdb", "hmdb_metabolites.csv")):
+        _log("HMDB: files missing (Data/hmdb/), skipped")
+        return
     df = con.execute("""SELECT accession, name, cas_registry_number, inchikey, pubchem_compound_id, chebi_id, foodb_id,
                                phenol_explorer_compound_id
                         FROM read_csv(?, all_varchar=true)

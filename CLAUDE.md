@@ -62,7 +62,8 @@ The unit is the **dataset**, not the paper (`_tools/README.md` → *Dataset note
 ## Unified database
 `db/` builds a DuckDB database linking dishes ↔ ingredients ↔ compounds ↔ conditions (see `db/README.md`,
 `Database/Unified database.md`). Answer "what does this dish do / which dishes for this symptom" questions with
-`uv run db/trace.py`, and quote the evidence grade and source of every hop.
+`uv run db/trace.py`, and quote the evidence grade and source of every hop. `uv run db/cases.py` writes the separate
+patient-case table (`case_id, source, case, conclusion`) used to test whether the graph helps an LLM (Q4–Q5).
 
 ## Git
 PDFs and `.cache/` are git-ignored. Commit or push only when the user asks.

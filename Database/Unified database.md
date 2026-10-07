@@ -34,6 +34,7 @@ uv run db/trace.py sql "SELECT * FROM v_condition_dish WHERE condition_name = 'C
 ```
 - Build details and the contract between stages: `db/README.md`.
 - Row counts, match rates and integrity checks, regenerated on every build: `db/build_report.md`.
+- The same data as three flat tables (dishes, ingredients, effects), with per-dataset stats: [[Export tables]].
 
 ## Coverage (build of 2026-09-30)
 | | Count |

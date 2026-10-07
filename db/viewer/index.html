@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unified DB Viewer</title>
+<style>
+:root {
+  --bg: #fbfbfa; --panel: #ffffff; --ink: #1d1f23; --muted: #6b7079; --line: #e3e4e8; --accent: #2f5bd3;
+  --accent-soft: #e8eefc; --good: #1f7a4a; --bad: #b3261e; --warn: #9a6400; --chip: #f1f2f4; --row-hover: #f6f7f9;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #15171b; --panel: #1c1f24; --ink: #e7e8ea; --muted: #9ba0a8; --line: #2d3138; --accent: #8aa8ff;
+    --accent-soft: #24304d; --good: #6fcf97; --bad: #ff8a80; --warn: #f2c14e; --chip: #262a31; --row-hover: #22262c;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI",
+       "Noto Sans", "Noto Sans CJK JP", "Noto Sans Arabic", sans-serif; }
+header { padding: 18px 20px 10px; border-bottom: 1px solid var(--line); background: var(--panel); }
+h1 { margin: 0 0 4px; font-size: 18px; }
+.sub { color: var(--muted); font-size: 13px; }
+nav { display: flex; gap: 4px; margin-top: 12px; flex-wrap: wrap; }
+nav button { border: 1px solid var(--line); background: var(--panel); color: var(--ink); padding: 6px 14px; border-radius: 6px;
+             cursor: pointer; font: inherit; }
+nav button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+main { padding: 16px 20px 40px; max-width: 1500px; }
+.filters { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: end; padding: 12px; background: var(--panel);
+           border: 1px solid var(--line); border-radius: 8px; }
+.filters label { display: flex; flex-direction: column; gap: 3px; font-size: 12px; color: var(--muted); }
+.filters input[type=text], .filters select { font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line);
+           border-radius: 5px; padding: 5px 7px; min-width: 150px; max-width: 260px; }
+.filters .check { flex-direction: row; align-items: center; gap: 6px; color: var(--ink); font-size: 13px; padding-bottom: 6px; }
+.btn { font: inherit; border: 1px solid var(--line); background: var(--panel); color: var(--ink); padding: 6px 12px; border-radius: 6px;
+       cursor: pointer; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn:disabled { opacity: .45; cursor: default; }
+.bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 12px 0 8px; }
+.count { color: var(--muted); margin-right: auto; }
+.tablewrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
+table { border-collapse: collapse; width: 100%; }
+th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 12px; color: var(--muted); font-weight: 600; background: var(--panel); position: sticky; top: 0; white-space: nowrap; }
+tbody tr.main { cursor: pointer; }
+tbody tr.main:hover { background: var(--row-hover); }
+tbody tr.open { background: var(--accent-soft); }
+td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.clip { display: inline-block; max-width: 300px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+        vertical-align: bottom; }
+td { white-space: nowrap; }
+.has { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: center; width: 100%; padding-top: 6px;
+       border-top: 1px dashed var(--line); font-size: 13px; }
+.has > span { color: var(--muted); font-size: 12px; }
+.mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; }
+.chip { display: inline-block; background: var(--chip); border-radius: 4px; padding: 0 6px; font-size: 12px; margin: 1px 2px 1px 0; }
+.dir-beneficial, .eff-Positive { color: var(--good); font-weight: 600; }
+.dir-harmful, .eff-Harmful, .eff-Negative { color: var(--bad); font-weight: 600; }
+.dir-marker, .dir-association, .eff-Possible { color: var(--warn); font-weight: 600; }
+.detail td { background: var(--bg); padding: 12px 14px 16px; }
+.detail h3 { margin: 12px 0 6px; font-size: 13px; }
+.detail h3:first-child { margin-top: 0; }
+.detail table { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; }
+.detail table th { position: static; }
+.kv { display: grid; grid-template-columns: max-content 1fr; gap: 3px 12px; font-size: 13px; }
+.kv b { color: var(--muted); font-weight: 500; }
+.recipe { white-space: pre-wrap; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 10px;
+          max-height: 320px; overflow: auto; }
+a, .link { color: var(--accent); cursor: pointer; text-decoration: none; }
+a:hover, .link:hover { text-decoration: underline; }
+.status { padding: 40px 20px; color: var(--muted); }
+.err { color: var(--bad); white-space: pre-wrap; }
+.stats { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.note { color: var(--muted); font-size: 12px; margin-top: 6px; }
+@media (max-width: 640px) { header, main { padding-left: 16px; padding-right: 16px; } .filters input[type=text], .filters select { min-width: 120px; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Unified dish ↔ condition database</h1>
+  <div class="sub" id="sub">Loading…</div>
+  <nav id="tabs">
+    <button data-tab="dishes" class="on">Dishes</button>
+    <button data-tab="ingredients">Ingredients</button>
+    <button data-tab="effects">Effects</button>
+    <button data-tab="cases">Cases</button>
+  </nav>
+</header>
+<main id="main"><div class="status" id="status">Loading DuckDB and the Parquet files from <span class="mono">db/export/</span>…</div></main>
+
+<script type="module">
+import * as duckdb from "https://cdn.jsdelivr.net/npm/@duckdb/duckdb-wasm@1.32.0/+esm";
+
+const PAGE = 25;
+const FILES = ["dishes", "ingredients", "effects"];
+const OPTIONAL = ["cases"];  // built separately by db/cases.py; its tab is hidden when the file is missing
+const $ = (s, el = document) => el.querySelector(s);
+const esc = (v) => v == null ? "" : String(v).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const sq = (v) => "'" + String(v).replace(/'/g, "''") + "'";
+const num = (v) => v == null ? "" : (typeof v === "bigint" ? Number(v) : v);
+const fmt = (v, d = 2) => {
+  if (v == null) return "";
+  const x = Number(v);
+  if (x !== 0 && Math.abs(x) < 0.01) return x.toPrecision(2);  // tiny amounts: keep 2 significant digits
+  return x.toLocaleString(undefined, { maximumFractionDigits: d });
+};
+
+let conn;
+async function q(sql) {
+  const t = await conn.query(sql);
+  return t.toArray().map((r) => {
+    const o = r.toJSON();
+    for (const k in o) if (typeof o[k] === "bigint") o[k] = Number(o[k]);
+    return o;
+  });
+}
+
+const REGION = new Intl.DisplayNames(["en"], { type: "region" });
+const countryName = (c) => { try { return c ? REGION.of(c) : ""; } catch { return c; } };
+const USED_IN = (c) => `ingredient_id IN (SELECT DISTINCT i.ingredient_id FROM (SELECT unnest(ingredients) AS i FROM dishes
+                         WHERE country_iso2 = ${sq(c)}) WHERE i.ingredient_id IS NOT NULL)`;
+const COUNTRY_SQL = "SELECT country_iso2 v, count(*) n FROM dishes WHERE country_iso2 IS NOT NULL GROUP BY 1 ORDER BY 2 DESC";
+// ---------------------------------------------------------------- tab definitions
+const TABS = {
+  dishes: {
+    key: "dish_id",
+    filters: [
+      { id: "source", label: "Dataset", type: "select", sql: "SELECT source v, count(*) n FROM dishes GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "country_iso2", label: "Country", type: "select", country: true, sql: COUNTRY_SQL },
+      { id: "subregion", label: "Subregion", type: "select", sql: "SELECT subregion v, count(*) n FROM dishes WHERE subregion IS NOT NULL GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "lang", label: "Language", type: "select", sql: "SELECT lang v, count(*) n FROM dishes GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "name", label: "Name contains (any language)", type: "text" },
+      { id: "ingredient_id", label: "Contains ingredient id", type: "text", placeholder: "ING:turmeric" },
+      { id: "ingredient_text", label: "Ingredient line contains", type: "text", placeholder: "saffron" },
+      { id: "h_recipe", label: "recipe text", type: "check", group: "has" },
+      { id: "h_lines", label: "ingredient lines", type: "check", group: "has" },
+      { id: "h_grams", label: "grams", type: "check", group: "has" },
+      { id: "has_amounts", label: "amounts (source flag)", type: "check", group: "has" },
+      { id: "h_nut", label: "lab nutrients", type: "check", group: "has" },
+      { id: "h_local", label: "local name", type: "check", group: "has" },
+      { id: "h_country", label: "country", type: "check", group: "has" },
+      { id: "h_servings", label: "servings", type: "check", group: "has" },
+    ],
+    where(f) {
+      const w = [];
+      if (f.source) w.push(`source = ${sq(f.source)}`);
+      if (f.country_iso2) w.push(`country_iso2 = ${sq(f.country_iso2)}`);
+      if (f.subregion) w.push(`subregion = ${sq(f.subregion)}`);
+      if (f.name) w.push(`(name ILIKE ${sq("%" + f.name + "%")} OR name_local ILIKE ${sq("%" + f.name + "%")})`);
+      if (f.ingredient_id) w.push(`len(list_filter(ingredients, x -> x.ingredient_id = ${sq(f.ingredient_id)})) > 0`);
+      if (f.lang) w.push(`lang = ${sq(f.lang)}`);
+      if (f.ingredient_text) w.push(`len(list_filter(ingredients, x -> x.raw_text ILIKE ${sq("%" + f.ingredient_text + "%")}
+                                      OR x.ingredient ILIKE ${sq("%" + f.ingredient_text + "%")})) > 0`);
+      if (f.h_recipe) w.push("coalesce(recipe_text, '') <> ''");
+      if (f.h_lines) w.push("len(ingredients) > 0");
+      if (f.h_grams) w.push("len(list_filter(ingredients, x -> x.grams IS NOT NULL)) > 0");
+      if (f.has_amounts) w.push("has_amounts");
+      if (f.h_nut) w.push("len(nutrients_per_100g) > 0");
+      if (f.h_local) w.push("coalesce(name_local, '') <> ''");
+      if (f.h_country) w.push("country_iso2 IS NOT NULL");
+      if (f.h_servings) w.push("coalesce(servings, '') <> ''");
+      return w;
+    },
+    select: `dish_id, source, name, name_local, lang, country_iso2, subregion, cuisine_label, servings, recipe_text, has_amounts,
+             len(ingredients) AS n_lines,
+             array_to_string(list_transform(ingredients, x -> coalesce(x.ingredient, '(' || x.raw_text || ')')
+                 || CASE WHEN x.grams IS NOT NULL THEN ' ' || round(x.grams, 1)::VARCHAR || ' g' ELSE '' END), '; ') AS ing_summary,
+             len(nutrients_per_100g) AS n_nutrients,
+             array_to_string(list_transform(nutrients_per_100g, x -> x.nutrient || ' ' || round(x.amount_per_100g, 3)::VARCHAR
+                 || ' ' || coalesce(x.unit, '')), '; ') AS nut_summary,
+             license`,
+    order: "dish_id",
+    cols: [
+      ["dish_id", "dish_id", (r) => `<span class="mono">${esc(r.dish_id)}</span>`],
+      ["source", "source", (r) => clip(r.source)],
+      ["name", "name", (r) => clip(r.name)],
+      ["name_local", "name_local", (r) => clip(r.name_local)],
+      ["lang", "lang", (r) => esc(r.lang)],
+      ["country_iso2", "country", (r) => r.country_iso2 ? `<span title="${esc(countryName(r.country_iso2))}">${esc(r.country_iso2)}</span>` : ""],
+      ["country_name", "country name", (r) => clip(countryName(r.country_iso2))],
+      ["subregion", "subregion", (r) => clip(r.subregion)],
+      ["cuisine_label", "cuisine_label", (r) => clip(r.cuisine_label)],
+      ["servings", "servings", (r) => clip(r.servings)],
+      ["recipe_text", "recipe_text", (r) => clip(r.recipe_text)],
+      ["has_amounts", "has_amounts", (r) => yes(r.has_amounts)],
+      ["n_lines", "# lines", (r) => num(r.n_lines) || "", "num"],
+      ["ing_summary", "ingredients", (r) => clip(r.ing_summary)],
+      ["n_nutrients", "# nutrients", (r) => num(r.n_nutrients) || "", "num"],
+      ["nut_summary", "nutrients_per_100g", (r) => clip(r.nut_summary)],
+      ["license", "license", (r) => clip(r.license)],
+    ],
+    async detail(r) {
+      const [d] = await q(`SELECT cuisine_label, servings, recipe_text, has_amounts, license, lang,
+                                  to_json(ingredients) AS ing, to_json(nutrients_per_100g) AS nut
+                           FROM dishes WHERE dish_id = ${sq(r.dish_id)}`);
+      const ing = JSON.parse(d.ing || "[]"), nut = JSON.parse(d.nut || "[]");
+      let h = `<div class="kv"><b>cuisine</b><span>${esc(d.cuisine_label)}</span><b>servings</b><span>${esc(d.servings)}</span>
+               <b>language</b><span>${esc(d.lang)}</span><b>has amounts</b><span>${d.has_amounts}</span>
+               <b>license</b><span>${esc(d.license)}</span></div>`;
+      h += `<h3>Ingredient lines (${ing.length})</h3>`;
+      h += ing.length ? table(["line as written", "ingredient", "quantity", "unit", "grams", "match", "score"], ing.map((x) => [
+        esc(x.raw_text),
+        x.ingredient_id ? `<span class="link" data-go="ingredients" data-f="ingredient_id" data-v="${esc(x.ingredient_id)}">${esc(x.ingredient)}</span>` : `<span class="sub">unmatched</span>`,
+        fmt(x.quantity), esc(x.unit), fmt(x.grams), esc(x.match_method), fmt(x.match_score)])) : `<div class="sub">none</div>`;
+      if (nut.length) {
+        h += `<h3>Lab-measured nutrients per 100 g (${nut.length})</h3>`;
+        h += table(["nutrient", "amount", "unit"], nut.map((x) => [esc(x.nutrient), fmt(x.amount_per_100g, 3), esc(x.unit)]));
+      }
+      h += `<h3>Recipe text</h3>` + (d.recipe_text ? `<div class="recipe">${esc(d.recipe_text)}</div>` : `<div class="sub">none in the source</div>`);
+      return h;
+    },
+  },
+
+  ingredients: {
+    key: "ingredient_id",
+    filters: [
+      { id: "category", label: "Category", type: "select", sql: "SELECT coalesce(category, '(none)') v, count(*) n FROM ingredients GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "used_in", label: "Used in dishes of country", type: "select", country: true, sql: COUNTRY_SQL, noCount: true },
+      { id: "system", label: "Has cultural property", type: "select",
+        sql: "SELECT p.system v, count(DISTINCT ingredient_id) n FROM (SELECT ingredient_id, unnest(cultural_properties) p FROM ingredients) GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "name", label: "Name contains (any language)", type: "text" },
+      { id: "ingredient_id", label: "Ingredient id", type: "text", placeholder: "ING:ginger" },
+      { id: "is_herb", label: "medicinal herb flag", type: "check", group: "has" },
+      { id: "h_sci", label: "scientific name", type: "check", group: "has" },
+      { id: "h_taxon", label: "NCBI taxon", type: "check", group: "has" },
+      { id: "h_props", label: "cultural properties", type: "check", group: "has" },
+      { id: "h_comp", label: "compounds", type: "check", group: "has" },
+      { id: "h_foreign", label: "non-English names", type: "check", group: "has" },
+    ],
+    where(f) {
+      const w = [];
+      if (f.category) w.push(f.category === "(none)" ? "category IS NULL" : `category = ${sq(f.category)}`);
+      if (f.used_in) w.push(USED_IN(f.used_in));
+      if (f.system) w.push(`len(list_filter(cultural_properties, x -> x.system = ${sq(f.system)})) > 0`);
+      if (f.name) w.push(`(canonical_name ILIKE ${sq("%" + f.name + "%")} OR scientific_name ILIKE ${sq("%" + f.name + "%")}
+                           OR len(list_filter(names, x -> x.name ILIKE ${sq("%" + f.name + "%")})) > 0)`);
+      if (f.ingredient_id) w.push(`ingredient_id = ${sq(f.ingredient_id)}`);
+      if (f.is_herb) w.push("is_herb");
+      if (f.h_sci) w.push("coalesce(scientific_name, '') <> ''");
+      if (f.h_taxon) w.push("ncbi_taxon_id IS NOT NULL");
+      if (f.h_props) w.push("len(cultural_properties) > 0");
+      if (f.h_comp) w.push("len(compounds) > 0");
+      if (f.h_foreign) w.push("len(list_filter(names, x -> x.lang NOT IN ('en', 'la'))) > 0");
+      return w;
+    },
+    select: `ingredient_id, canonical_name, category, scientific_name, ncbi_taxon_id, foodon_id, is_herb,
+             len(names) AS n_names, array_to_string(list_transform(names, x -> x.name || ' [' || coalesce(x.lang, '') || ']'), ', ') AS names_s,
+             len(xrefs) AS n_xrefs, array_to_string(list_transform(xrefs, x -> x.db || ':' || x.id), ', ') AS xrefs_s,
+             len(cultural_properties) AS n_props,
+             array_to_string(list_transform(cultural_properties, x -> x.system || ' ' || x.property || '=' || x.value), '; ') AS props_s,
+             len(compounds) AS n_compounds,
+             array_to_string(list_transform(compounds[1:5], x -> x.compound
+                 || coalesce(' ' || round(x.mg_per_100g, 1)::VARCHAR || ' mg/100g', '')), '; ') AS comps_s`,
+    order: "ingredient_id",
+    cols: [
+      ["ingredient_id", "ingredient_id", (r) => `<span class="mono">${esc(r.ingredient_id)}</span>`],
+      ["canonical_name", "canonical_name", (r) => clip(r.canonical_name)],
+      ["category", "category", (r) => esc(r.category)],
+      ["scientific_name", "scientific_name", (r) => clip(r.scientific_name)],
+      ["ncbi_taxon_id", "ncbi_taxon_id", (r) => esc(r.ncbi_taxon_id)],
+      ["foodon_id", "foodon_id", (r) => clip(r.foodon_id, "mono")],
+      ["is_herb", "is_herb", (r) => yes(r.is_herb)],
+      ["n_names", "# names", (r) => num(r.n_names) || "", "num"],
+      ["names_s", "names", (r) => clip(r.names_s)],
+      ["n_xrefs", "# xrefs", (r) => num(r.n_xrefs) || "", "num"],
+      ["xrefs_s", "xrefs", (r) => clip(r.xrefs_s, "mono")],
+      ["n_props", "# props", (r) => num(r.n_props) || "", "num"],
+      ["props_s", "cultural_properties", (r) => clip(r.props_s)],
+      ["n_compounds", "# compounds", (r) => num(r.n_compounds) || "", "num"],
+      ["comps_s", "compounds (richest 5)", (r) => clip(r.comps_s)],
+    ],
+    async detail(r) {
+      const [d] = await q(`SELECT ncbi_taxon_id, foodon_id, is_herb, to_json(names) AS names, to_json(xrefs) AS xrefs,
+                                  to_json(cultural_properties) AS props, to_json(compounds) AS comps
+                           FROM ingredients WHERE ingredient_id = ${sq(r.ingredient_id)}`);
+      const names = JSON.parse(d.names || "[]"), xrefs = JSON.parse(d.xrefs || "[]"),
+            props = JSON.parse(d.props || "[]"), comps = JSON.parse(d.comps || "[]");
+      const id = esc(r.ingredient_id);
+      let h = `<div class="kv"><b>NCBI taxon</b><span>${esc(d.ncbi_taxon_id)}</span><b>FoodOn</b><span>${esc(d.foodon_id)}</span>
+               <b>medicinal herb</b><span>${d.is_herb}</span>
+               <b>jump to</b><span><span class="link" data-go="dishes" data-f="ingredient_id" data-v="${id}">dishes containing it</span> ·
+               <span class="link" data-go="effects" data-f="ingredient_id" data-v="${id}">its effects</span></span></div>`;
+      h += `<h3>Names (${names.length})</h3><div>${names.map((x) => `<span class="chip" title="${esc(x.type)} · ${esc(x.source)}">${esc(x.name)} <span class="sub">${esc(x.lang)}</span></span>`).join("")}</div>`;
+      if (props.length) h += `<h3>Cultural properties (${props.length})</h3>` +
+        table(["system", "property", "value", "source"], props.map((x) => [esc(x.system), esc(x.property), esc(x.value), esc(x.source)]));
+      if (xrefs.length) h += `<h3>IDs in other databases (${xrefs.length})</h3><div>${xrefs.map((x) => `<span class="chip">${esc(x.db)}: <span class="mono">${esc(x.id)}</span></span>`).join("")}</div>`;
+      if (comps.length) {
+        h += `<h3>Compounds (${comps.length}, richest first)</h3>`;
+        const rows = (list) => table(["compound", "mg / 100 g", "amount", "unit", "plant part", "evidence", "source", "citation"],
+          list.map((x) => [esc(x.compound), fmt(x.mg_per_100g, 3), fmt(x.amount, 3), esc(x.unit), esc(x.plant_part), esc(x.evidence_type), esc(x.source), esc(x.citation)]));
+        h += `<div class="cwrap">${rows(comps.slice(0, 50))}</div>`;
+        if (comps.length > 50) {
+          h += `<button class="btn more">Show all ${comps.length}</button>`;
+          setTimeout(() => {
+            const b = document.querySelector(`tr.detail[data-id="${CSS.escape(r.ingredient_id)}"] .more`);
+            if (b) b.onclick = () => { b.previousElementSibling.innerHTML = rows(comps); b.remove(); };
+          });
+        }
+      }
+      return h;
+    },
+  },
+
+  effects: {
+    key: null,
+    filters: [
+      { id: "used_in", label: "Ingredient used in dishes of country", type: "select", country: true, sql: COUNTRY_SQL, noCount: true },
+      { id: "target_type", label: "Target", type: "select", sql: "SELECT target_type v, count(*) n FROM effects GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "effect", label: "Direction / drug effect", type: "select",
+        sql: "SELECT coalesce(direction, drug_effect) v, count(*) n FROM effects GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "source", label: "Link source (dataset)", type: "select", sql: "SELECT source v, count(*) n FROM effects GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "evidence_type", label: "Evidence", type: "select", sql: "SELECT evidence_type v, count(*) n FROM effects GROUP BY 1 ORDER BY min(evidence_rank)" },
+      { id: "path", label: "Path", type: "select", sql: "SELECT path v, count(*) n FROM effects GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "target_kind", label: "Target kind", type: "select", sql: "SELECT target_kind v, count(*) n FROM effects GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "ingredient", label: "Ingredient contains", type: "text", placeholder: "ginger" },
+      { id: "ingredient_id", label: "Ingredient id", type: "text", placeholder: "ING:ginger" },
+      { id: "target", label: "Condition / drug contains", type: "text", placeholder: "nausea" },
+      { id: "tradition", label: "Tradition", type: "select", sql: "SELECT tradition v, count(*) n FROM effects WHERE tradition IS NOT NULL GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "characteristic", label: "characteristic path", type: "check", default: true, group: "has" },
+      { id: "h_pmids", label: "PMIDs", type: "check", group: "has" },
+      { id: "h_amount", label: "compound amount", type: "check", group: "has" },
+      { id: "h_mech", label: "mechanism", type: "check", group: "has" },
+      { id: "h_note", label: "note", type: "check", group: "has" },
+    ],
+    where(f) {
+      const w = [];
+      for (const k of ["target_type", "source", "evidence_type", "path", "target_kind", "ingredient_id"]) if (f[k]) w.push(`${k} = ${sq(f[k])}`);
+      if (f.effect) w.push(`coalesce(direction, drug_effect) = ${sq(f.effect)}`);
+      if (f.used_in) w.push(USED_IN(f.used_in));
+      if (f.ingredient) w.push(`ingredient ILIKE ${sq("%" + f.ingredient + "%")}`);
+      if (f.target) w.push(`target ILIKE ${sq("%" + f.target + "%")}`);
+      if (f.tradition) w.push(`tradition = ${sq(f.tradition)}`);
+      if (f.characteristic) w.push("characteristic");
+      if (f.h_pmids) w.push("coalesce(pmids, '') <> ''");
+      if (f.h_amount) w.push("compound_mg_per_100g IS NOT NULL");
+      if (f.h_mech) w.push("coalesce(mechanism, '') <> ''");
+      if (f.h_note) w.push("coalesce(note, '') <> ''");
+      return w;
+    },
+    select: "*",
+    order: "ingredient, target, evidence_rank",
+    cols: [
+      ["ingredient_id", "ingredient_id", (r) => `<span class="mono">${esc(r.ingredient_id)}</span>`],
+      ["ingredient", "ingredient", (r) => `<span class="link" data-go="ingredients" data-f="ingredient_id" data-v="${esc(r.ingredient_id)}">${esc(r.ingredient)}</span>`],
+      ["target_type", "target_type", (r) => esc(r.target_type)],
+      ["target_id", "target_id", (r) => clip(r.target_id, "mono")],
+      ["target", "target", (r) => clip(r.target)],
+      ["target_kind", "target_kind", (r) => esc(r.target_kind)],
+      ["direction", "direction", (r) => r.direction ? `<span class="dir-${esc(r.direction)}">${esc(r.direction)}</span>` : ""],
+      ["drug_effect", "drug_effect", (r) => r.drug_effect ? `<span class="eff-${esc(r.drug_effect.replace(/ /g, ""))}">${esc(r.drug_effect)}</span>` : ""],
+      ["evidence_type", "evidence_type", (r) => esc(r.evidence_type)],
+      ["evidence_rank", "rank", (r) => esc(r.evidence_rank), "num"],
+      ["path", "path", (r) => esc(r.path)],
+      ["via_compound_id", "via_compound_id", (r) => clip(r.via_compound_id, "mono")],
+      ["via_compound", "via_compound", (r) => clip(r.via_compound)],
+      ["compound_mg_per_100g", "mg/100 g", (r) => fmt(r.compound_mg_per_100g, 3), "num"],
+      ["source", "source", (r) => esc(r.source)],
+      ["compound_amount_source", "amount_source", (r) => esc(r.compound_amount_source)],
+      ["tradition", "tradition", (r) => esc(r.tradition)],
+      ["mechanism", "mechanism", (r) => clip(r.mechanism)],
+      ["pmids", "pmids", (r) => clip(r.pmids, "mono")],
+      ["note", "note", (r) => clip(r.note)],
+      ["characteristic", "characteristic", (r) => yes(r.characteristic)],
+    ],
+    async detail(r) {
+      const pm = (r.pmids || "").split(/[|,;\s]+/).filter((x) => /^\d+$/.test(x));
+      return `<div class="kv">
+        <b>ingredient</b><span>${esc(r.ingredient)} <span class="mono sub">${esc(r.ingredient_id)}</span></span>
+        <b>target</b><span>${esc(r.target)} <span class="mono sub">${esc(r.target_id)}</span> (${esc(r.target_type)}, ${esc(r.target_kind)})</span>
+        <b>path</b><span>${esc(r.path)}</span>
+        <b>via compound</b><span>${esc(r.via_compound)} <span class="mono sub">${esc(r.via_compound_id)}</span></span>
+        <b>amount</b><span>${r.compound_mg_per_100g != null ? fmt(r.compound_mg_per_100g, 3) + " mg / 100 g (from " + esc(r.compound_amount_source) + ")" : ""}</span>
+        <b>evidence</b><span>${esc(r.evidence_type)} (rank ${esc(r.evidence_rank)}; 1 = clinical … 6 = predicted)</span>
+        <b>link source</b><span>${esc(r.source)}</span>
+        <b>tradition</b><span>${esc(r.tradition)}</span>
+        <b>mechanism</b><span>${esc(r.mechanism)}</span>
+        <b>characteristic</b><span>${r.characteristic}</span>
+        <b>PMIDs (${pm.length})</b><span>${pm.map((p) => `<a href="https://pubmed.ncbi.nlm.nih.gov/${p}/" target="_blank" rel="noopener">${p}</a>`).join(" ")}</span>
+        <b>note</b><span>${esc(r.note)}</span></div>`;
+    },
+  },
+
+  cases: {
+    key: "case_id",
+    filters: [
+      { id: "source", label: "Dataset", type: "select", sql: "SELECT source v, count(*) n FROM cases GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "case_id", label: "Case id contains", type: "text", placeholder: "mtcmb:msdd" },
+      { id: "case", label: "Case contains", type: "text", placeholder: "diabetes" },
+      { id: "conclusion", label: "Conclusion contains", type: "text", placeholder: "ICD-10: K29" },
+    ],
+    where(f) {
+      const w = [];
+      if (f.source) w.push(`source = ${sq(f.source)}`);
+      for (const k of ["case_id", "case", "conclusion"]) if (f[k]) w.push(`"${k}" ILIKE ${sq("%" + f[k] + "%")}`);
+      return w;
+    },
+    select: "*",
+    order: "source, case_id",
+    cols: [
+      ["case_id", "case_id", (r) => clip(r.case_id, "mono")],
+      ["source", "source", (r) => esc(r.source)],
+      ["case", "case", (r) => clip(r.case)],
+      ["conclusion", "conclusion", (r) => clip(r.conclusion)],
+    ],
+    async detail(r) {
+      return `<div class="kv">
+        <b>case_id</b><span class="mono">${esc(r.case_id)}</span>
+        <b>source</b><span>${esc(r.source)} (Datasets/${esc(r.source)}.md)</span>
+        <b>case</b><div class="recipe">${esc(r.case)}</div>
+        <b>conclusion</b><div class="recipe">${esc(r.conclusion)}</div></div>`;
+    },
+  },
+};
+
+const clip = (v, cls = "") => v == null || v === "" ? "" : `<span class="clip ${cls}" title="${esc(v)}">${esc(v)}</span>`;
+const yes = (v) => v === true ? "✓" : v === false ? "" : esc(v);
+
+function table(head, rows) {
+  return `<table><thead><tr>${head.map((h) => `<th>${h}</th>`).join("")}</tr></thead><tbody>${rows.map((r) => `<tr>${r.map((c) => `<td>${c ?? ""}</td>`).join("")}</tr>`).join("")}</tbody></table>`;
+}
+
+// ---------------------------------------------------------------- state + rendering
+const state = {};
+for (const t in TABS) state[t] = { f: {}, offset: 0, random: false, built: false };
+for (const t in TABS) for (const f of TABS[t].filters) if (f.default) state[t].f[f.id] = f.default;
+let current = "dishes";
+const panels = {};
+
+async function buildPanel(t) {
+  const T = TABS[t], S = state[t];
+  const el = document.createElement("section");
+  let h = `<div class="filters">`;
+  for (const f of T.filters.filter((f) => f.group !== "has")) {
+    if (f.type === "select") h += `<label>${f.label}<select data-f="${f.id}"><option value="">all</option></select></label>`;
+    else if (f.type === "text") h += `<label>${f.label}<input type="text" data-f="${f.id}" placeholder="${esc(f.placeholder || "")}"></label>`;
+    else h += `<label class="check"><input type="checkbox" data-f="${f.id}" ${S.f[f.id] ? "checked" : ""}>${f.label}</label>`;
+  }
+  h += `<button class="btn" data-a="clear">Clear</button>`;
+  const has = T.filters.filter((f) => f.group === "has");
+  if (has.length) h += `<div class="has"><span>Only rows that have:</span>${has.map((f) =>
+    `<label class="check"><input type="checkbox" data-f="${f.id}" ${S.f[f.id] ? "checked" : ""}>${f.label}</label>`).join("")}</div>`;
+  h += `</div>
+        <div class="bar"><span class="count"></span>
+          <button class="btn primary" data-a="random">🎲 Random ${PAGE}</button>
+          <button class="btn" data-a="first">First page</button>
+          <button class="btn" data-a="prev">‹ Prev</button><button class="btn" data-a="next">Next ›</button></div>
+        <div class="tablewrap"><table><thead><tr>${T.cols.map((c) => `<th>${c[1]}</th>`).join("")}</tr></thead><tbody></tbody></table></div>
+        <div class="note">Click a row to expand it. Blue names jump to the related tab.</div>`;
+  el.innerHTML = h;
+  panels[t] = el;
+  // fill dropdowns
+  for (const f of T.filters.filter((f) => f.type === "select")) {
+    const sel = el.querySelector(`select[data-f="${f.id}"]`);
+    const opts = (await q(f.sql)).filter((o) => o.v != null);
+    if (f.country) opts.sort((a, b) => countryName(a.v).localeCompare(countryName(b.v)));
+    for (const o of opts) {
+      const label = f.country ? `${countryName(o.v)} (${o.v})` : o.v;
+      const n = f.noCount ? `${fmt(o.n, 0)} dishes` : fmt(o.n, 0);
+      sel.insertAdjacentHTML("beforeend", `<option value="${esc(o.v)}">${esc(label)} · ${n}</option>`);
+    }
+  }
+  let timer;
+  el.addEventListener("input", (e) => {
+    const k = e.target.dataset.f;
+    if (!k) return;
+    S.f[k] = e.target.type === "checkbox" ? e.target.checked : e.target.value.trim();
+    S.offset = 0;
+    clearTimeout(timer);
+    timer = setTimeout(() => load(t), e.target.type === "text" ? 350 : 0);
+  });
+  el.addEventListener("click", (e) => {
+    const a = e.target.dataset.a;
+    if (a === "random") { S.random = true; load(t); }
+    if (a === "first") { S.random = false; S.offset = 0; load(t); }
+    if (a === "next") { S.random = false; S.offset += PAGE; load(t); }
+    if (a === "prev") { S.random = false; S.offset = Math.max(0, S.offset - PAGE); load(t); }
+    if (a === "clear") { S.f = {}; for (const f of T.filters) if (f.default) S.f[f.id] = f.default; S.offset = 0; syncInputs(t); load(t); }
+  });
+  S.built = true;
+}
+
+function syncInputs(t) {
+  const S = state[t];
+  panels[t].querySelectorAll("[data-f]").forEach((i) => {
+    if (i.closest("tbody")) return;
+    if (i.type === "checkbox") i.checked = !!S.f[i.dataset.f]; else i.value = S.f[i.dataset.f] || "";
+  });
+}
+
+async function load(t) {
+  const T = TABS[t], S = state[t], el = panels[t];
+  const w = T.where(S.f), where = w.length ? "WHERE " + w.join(" AND ") : "";
+  const tbody = el.querySelector("tbody"), cnt = el.querySelector(".count");
+  tbody.innerHTML = `<tr><td colspan="${T.cols.length}" class="sub">Loading…</td></tr>`;
+  try {
+    const [{ n }] = await q(`SELECT count(*) AS n FROM ${t} ${where}`);
+    const order = S.random ? "random()" : T.order;
+    const rows = await q(`SELECT ${T.select} FROM ${t} ${where} ORDER BY ${order} LIMIT ${PAGE} OFFSET ${S.random ? 0 : S.offset}`);
+    cnt.textContent = `${fmt(n, 0)} matching rows` + (S.random ? ` · random sample of ${rows.length}` : ` · showing ${n ? S.offset + 1 : 0}–${S.offset + rows.length}`);
+    el.querySelector('[data-a="prev"]').disabled = S.random || S.offset === 0;
+    el.querySelector('[data-a="next"]').disabled = S.random || S.offset + PAGE >= n;
+    tbody.innerHTML = rows.length ? "" : `<tr><td colspan="${T.cols.length}" class="sub">No rows match these filters.</td></tr>`;
+    rows.forEach((r, i) => {
+      const tr = document.createElement("tr");
+      tr.className = "main";
+      tr.innerHTML = T.cols.map((c) => `<td class="${c[3] || ""}">${c[2](r)}</td>`).join("");
+      tr.addEventListener("click", async (e) => {
+        if (e.target.closest("[data-go]")) return;
+        const next = tr.nextElementSibling;
+        if (next && next.classList.contains("detail")) { next.remove(); tr.classList.remove("open"); return; }
+        tr.classList.add("open");
+        const d = document.createElement("tr");
+        d.className = "detail";
+        d.dataset.id = T.key ? r[T.key] : i;
+        d.innerHTML = `<td colspan="${T.cols.length}"><span class="sub">Loading…</span></td>`;
+        tr.after(d);
+        try { d.firstChild.innerHTML = await T.detail(r); } catch (err) { d.firstChild.innerHTML = `<span class="err">${esc(err.message)}</span>`; }
+      });
+      tbody.appendChild(tr);
+    });
+  } catch (err) {
+    tbody.innerHTML = `<tr><td colspan="${T.cols.length}" class="err">${esc(err.message)}</td></tr>`;
+  }
+}
+
+async function show(t) {
+  current = t;
+  document.querySelectorAll("#tabs button").forEach((b) => b.classList.toggle("on", b.dataset.tab === t));
+  const main = $("#main");
+  if (!state[t].built) {
+    main.innerHTML = `<div class="status">Preparing ${t}…</div>`;
+    await buildPanel(t);
+    main.replaceChildren(panels[t]);
+    await load(t);
+  } else main.replaceChildren(panels[t]);
+}
+
+document.addEventListener("click", async (e) => {
+  const go = e.target.closest("[data-go]");
+  if (go) {
+    const t = go.dataset.go;
+    if (!state[t].built) { await show(t); }
+    state[t].f = {};  // keep the tab's default filters (e.g. characteristic paths only)
+    for (const f of TABS[t].filters) if (f.default) state[t].f[f.id] = f.default;
+    state[t].f[go.dataset.f] = go.dataset.v;
+    state[t].offset = 0; state[t].random = false;
+    await show(t); syncInputs(t); await load(t);
+    return;
+  }
+  const tab = e.target.closest("#tabs button");
+  if (tab) show(tab.dataset.tab);
+});
+
+// ---------------------------------------------------------------- boot
+try {
+  const bundle = await duckdb.selectBundle(duckdb.getJsDelivrBundles());
+  const workerUrl = URL.createObjectURL(new Blob([`importScripts("${bundle.mainWorker}");`], { type: "text/javascript" }));
+  const db = new duckdb.AsyncDuckDB(new duckdb.VoidLogger(), new Worker(workerUrl));
+  await db.instantiate(bundle.mainModule, bundle.pthreadWorker);
+  conn = await db.connect();
+  let mb = 0;
+  for (const f of FILES) {
+    $("#status").textContent = `Loading ${f}.parquet…`;
+    const res = await fetch(new URL(`../export/${f}.parquet`, location.href));
+    if (!res.ok) throw new Error(`Could not load db/export/${f}.parquet (HTTP ${res.status}). Run: uv run db/export.py`);
+    const buf = new Uint8Array(await res.arrayBuffer());
+    mb += buf.length / 1e6;
+    await db.registerFileBuffer(`${f}.parquet`, buf);
+    await conn.query(`CREATE VIEW ${f} AS SELECT * FROM read_parquet('${f}.parquet')`);
+  }
+  const loaded = [...FILES];
+  for (const f of OPTIONAL) {
+    const res = await fetch(new URL(`../export/${f}.parquet`, location.href));
+    if (!res.ok) { $(`#tabs [data-tab="${f}"]`).remove(); continue; }
+    const buf = new Uint8Array(await res.arrayBuffer());
+    mb += buf.length / 1e6;
+    await db.registerFileBuffer(`${f}.parquet`, buf);
+    await conn.query(`CREATE VIEW ${f} AS SELECT * FROM read_parquet('${f}.parquet')`);
+    loaded.push(f);
+  }
+  const counts = {};
+  for (const f of loaded) counts[f] = (await q(`SELECT count(*) AS n FROM ${f}`))[0].n;
+  $("#sub").innerHTML = `${fmt(counts.dishes, 0)} dishes · ${fmt(counts.ingredients, 0)} ingredients · ${fmt(counts.effects, 0)} effects`
+    + (counts.cases != null ? ` · ${fmt(counts.cases, 0)} cases` : "") + `
+    <span class="sub">(${mb.toFixed(0)} MB Parquet from db/export/, queried in your browser)</span>`;
+  await show("dishes");
+} catch (err) {
+  $("#main").innerHTML = `<div class="status err">${esc(err.message)}\n\nServe the db/ folder and open the viewer through it:\n  uv run python -m http.server 8765 -d db\n  → http://localhost:8765/viewer/</div>`;
+}
+</script>
+</body>
+</html>
