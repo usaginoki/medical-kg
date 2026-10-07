@@ -17,10 +17,12 @@ questions: [Q4]
 relevance: core
 found_by: [search/regional-cases, search/global-cases]
 cites:
+  - "[[Alonso2024 - MedExpQA]]"
   - "[[JAMA Clinical Challenge + Medbullets]]"
   - "[[MMedBench]]"
   - "[[MedMCQA]]"
   - "[[MedQA]]"
+  - "[[Schmidgall2024a - BiasMedQA cognitive bias in medical LLMs]]"
 cited_by_count: 0
 tags:
   - type/paper

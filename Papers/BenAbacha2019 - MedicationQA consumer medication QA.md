@@ -16,7 +16,9 @@ topics: [kg-medical-eval]
 questions: [Q4]
 relevance: core
 found_by: [search/global-cases]
-cited_by_count: 0
+cited_by:
+  - "[[Pfohl2024 - EquityMedQA health equity toolbox]]"
+cited_by_count: 1
 tags:
   - type/paper
   - relevance/core

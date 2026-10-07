@@ -14,11 +14,11 @@ status: candidate
 priority: 1
 relevance: core
 kind: []
-questions: [Q5, Q6]
+questions: [Q5, Q6, Q8]
 manipulation: "KB grounding vs search grounding vs none"
 outcome: "cultural MCQ, human evaluation"
 why: "Cultural knowledge-base grounding vs web search: coverage and retriever dominate; MCQ gains ≠ cultural fluency"
-found_by: [search/supply]
+found_by: [search/supply, search/adaptation-methods]
 cited_by: []
 added: 2026-10-07
 cited_by_count: 0

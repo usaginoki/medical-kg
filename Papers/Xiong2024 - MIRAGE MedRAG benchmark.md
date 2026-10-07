@@ -18,7 +18,6 @@ relevance: core
 found_by: [search/evaluation, search/supply]
 added: 2026-10-07
 cites:
-  - "[[Jeong2024 - Improving Medical Reasoning through Retrieval and Self-Reflection with Retrieval]]"
   - "[[Jin2023a - MedCPT]]"
   - "[[Lievin2022 - Can large language models reason about medical questions]]"
   - "[[Liu2023a - Lost in the Middle]]"
@@ -29,8 +28,7 @@ cites:
   - "[[Zakka2023 - Almanac]]"
 cited_by:
   - "[[Mao2026 - FAM-Bench food-as-medicine benchmark]]"
-  - "[[Ngo2024 - MedRGB medical RAG robustness benchmark]]"
-cited_by_count: 2
+cited_by_count: 1
 tags:
   - type/paper
   - relevance/core

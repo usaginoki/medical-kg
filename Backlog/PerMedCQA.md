@@ -14,13 +14,13 @@ status: candidate
 priority: 2
 relevance: core
 kind: [case]
-questions: [Q4]
+questions: [Q4, Q7]
 availability: open-download
 access_link: "https://huggingface.co/datasets/NaghmehAI/PerMedCQA"
 countries: "Iran"
 case_type: [real]
 why: "68,138 real Iranian patient questions with age/sex → physician answer + ICD-11 tag"
-found_by: [search/regional-cases]
+found_by: [search/regional-cases, search/culture-cued-cases]
 cited_by: []
 added: 2026-10-07
 cited_by_count: 0

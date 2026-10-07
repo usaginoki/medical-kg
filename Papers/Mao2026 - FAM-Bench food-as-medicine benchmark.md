@@ -22,6 +22,7 @@ cites:
   - "[[RecipeNLG]]"
   - "[[Singhal2022 - Large Language Models Encode Clinical Knowledge]]"
   - "[[Xiong2024 - MIRAGE MedRAG benchmark]]"
+  - "[[Yang2024a - ChatDiet]]"
 cited_by_count: 0
 tags:
   - type/paper

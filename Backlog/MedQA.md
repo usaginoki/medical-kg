@@ -26,8 +26,11 @@ cited_by:
   - "[[AbuDaoud2025 - MedArabiQ Arabic medical benchmark]]"
   - "[[Kong2025 - MTCMB multi-task TCM benchmark]]"
   - "[[Ngo2024 - MedRGB medical RAG robustness benchmark]]"
+  - "[[Rezaei2026 - Counterfactual Cultural Cues in Medical QA]]"
+  - "[[Wu2025 - MedCaseReasoning diagnostic reasoning from case reports]]"
+  - "[[Xiao2025 - FairMedQA]]"
   - "[[Xiong2024 - MIRAGE MedRAG benchmark]]"
-cited_by_count: 4
+cited_by_count: 7
 tags:
   - type/candidate
   - kind/case

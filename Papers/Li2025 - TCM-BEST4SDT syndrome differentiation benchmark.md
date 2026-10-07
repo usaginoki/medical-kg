@@ -16,6 +16,12 @@ topics: [kg-medical-eval]
 questions: [Q4]
 relevance: core
 found_by: [search/regional-cases]
+cites:
+  - "[[CMB (CMB-Clin)]]"
+  - "[[CMExam]]"
+  - "[[TCM-BEST4SDT (candidate)]]"
+  - "[[TCM-SD]]"
+cited_by_count: 0
 tags:
   - type/paper
   - relevance/core

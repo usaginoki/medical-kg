@@ -23,7 +23,8 @@ found_by: [search/food, search/compounds]
 added: 2026-09-30
 cited_by:
   - "[[Goel2026 - RecipeDB2 recipe data structure framework]]"
-cited_by_count: 1
+  - "[[Zhang2024 - NGQA nutritional graph QA benchmark]]"
+cited_by_count: 2
 tags:
   - type/candidate
   - kind/food

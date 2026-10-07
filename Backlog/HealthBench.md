@@ -14,16 +14,17 @@ status: candidate
 priority: 1
 relevance: core
 kind: [case]
-questions: [Q4, Q5]
+questions: [Q4, Q5, Q7]
 availability: open-download
 access_link: "https://github.com/openai/simple-evals"
 countries: "Global (physicians from 60 countries)"
 case_type: [synthetic]
 why: "5,000 conversations graded by 48,562 physician rubric criteria; ~8% touch diet/herbs; standard open-ended advice grader"
-found_by: [search/regional-cases, search/global-cases, search/evaluation]
-cited_by: []
+found_by: [search/regional-cases, search/global-cases, search/evaluation, search/culture-cued-cases]
 added: 2026-10-07
-cited_by_count: 0
+cited_by:
+  - "[[Bui2026 - Cross-lingual consistency for medical questions]]"
+cited_by_count: 1
 tags:
   - type/candidate
   - kind/case

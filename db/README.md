@@ -10,6 +10,7 @@ uv run db/trace.py dish "Kabsa" --country SA
 uv run db/trace.py condition "nausea" --country IN --drug warfarin
 uv run db/export.py                 # → db/export/{dishes,ingredients,effects}.parquet + .csv
 uv run db/cases.py                  # → db/export/cases.parquet + .csv (patient cases, separate from the graph)
+uv run db/cues.py [--examples N]    # count cultural cues per case dataset (Q7); the flags are columns of cases.parquet
 ```
 
 ## Getting the data
@@ -45,6 +46,7 @@ uv run db/build/links_symmap_scrape.py   # appends 6 more herbs to the SymMap sc
 | `views.sql` | analysis views (`v_ingredient_condition_all`, `v_dish_condition`, `v_condition_dish`) |
 | `export.py` | writes the 3 flat tables `dishes`, `ingredients`, `effects` to `export/` (Parquet + CSV) |
 | `cases.py` | writes the patient-case table `cases` to `export/` (Parquet + CSV), see *Patient cases* below |
+| `cues.py` | keyword patterns (EN / RU / KK / ZH / AR / FA) for cultural cues (place, ethnicity, religion, habit, food, traditional medicine) and diet content; `cases.py` calls `cues.tag`; run alone it counts them per dataset; a lower bound, check with `--examples` |
 | `prep_issai.py` | ISSAI dietary-profile parser, run by `prep.py issai` |
 | `viewer/index.html` | browser viewer for the exported tables (the Cases tab appears when `cases.parquet` exists): `uv run python -m http.server 8765 -d db` → http://localhost:8765/viewer/ |
 | `trace.py` | CLI that prints dish → condition and condition → dish traces |
@@ -61,9 +63,13 @@ not linked to the graph tables yet; matching cases to graph ids is the next step
 | `case_id` | `<dataset>:[<part>:]<id in the source file>`, unique, e.g. `rumedbench:top3-dev:q43dfecc`, `mtcmb:msdd:12`, `ngqa:4151` |
 | `source` | dataset note name, `Datasets/<source>.md` |
 | `case` | what is put to the model (patient text, case record, profile or dish + question), in the dataset's own language |
-| `conclusion` | the dataset's gold answer (diagnosis, ICD-10 code, TCM syndrome and formula, doctor's answer, yes/no + reason) |
+| `conclusion` | the dataset's answer (diagnosis, ICD-10 code, TCM syndrome and formula, doctor's answer, yes/no + reason); not always gold, see `gold` |
+| `part`, `lang`, `origin` | dataset part (key of `PARTS` in `cases.py`), language, and where the case comes from |
+| `case_ai`, `conclusion_ai`, `gold` | whether a model wrote the case text or the conclusion, and the summary `gold` / `weak gold` / `ai-generated` |
+| `cue_*`, `culture_by_construction`, `diet` | flags from `cues.py` and from the part |
+| `relevance`, `relevance_why` | high / medium / low for a culturally aware evaluation, and the reason (`relevance()` in `cases.py`) |
 
-37,631 rows from 8 datasets; per-source rules are in the docstring of each reader in `cases.py`, counts and examples in
+38,301 rows from 11 datasets; per-source rules are in the docstring of each reader in `cases.py`, counts and examples in
 `Database/Export tables.md`.
 - **Texts are copied as they are.** When a source stores the case or the answer as fields, `cases.py` writes them one
   per line as `field: value`, with the source's own field names.

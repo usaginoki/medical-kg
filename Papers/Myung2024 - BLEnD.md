@@ -15,6 +15,9 @@ datasets: ["[[BLEnD]]"]
 topics: [cultural-food-health]
 questions: [Q1, Q2]
 relevance: core
+cites:
+  - "[[Hershcovich2022 - Challenges in cross-cultural NLP]]"
+  - "[[Naous2023 - CAMeL cultural bias in LLMs]]"
 cited_by_count: 0
 tags:
   - type/paper

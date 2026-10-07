@@ -21,9 +21,10 @@ countries: "China"
 case_type: [real]
 why: "Largest real TCM case→syndrome set (54,152 records, 148 syndromes); Tianchi login"
 found_by: [search/regional-cases, search/global-cases]
-cited_by: []
 added: 2026-10-07
-cited_by_count: 0
+cited_by:
+  - "[[Li2025 - TCM-BEST4SDT syndrome differentiation benchmark]]"
+cited_by_count: 1
 tags:
   - type/candidate
   - kind/case

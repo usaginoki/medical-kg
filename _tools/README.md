@@ -50,7 +50,7 @@ from `Templates/Question.md`.
 | topic slug | questions | `core` means |
 |---|---|---|
 | `cultural-food-health` | Q1–Q3 | the dataset carries explicit culture / cuisine / country labels **and** is food, ingredient or food-compound data (global resources without culture labels, e.g. FooDB, are `adjacent` unless they are the only link to health effects) |
-| `kg-medical-eval` | Q4–Q6 | **Q4:** the dataset pairs a patient case (real case/EHR note, exam vignette, synthetic patient or diet/nutrition scenario) with a reference medical conclusion (diagnosis, treatment, advice, safety warning); non-English, regional and traditional-medicine sets are preferred, global English sets are core too. **Q5/Q6:** the paper augments an LLM with external structured knowledge (KG, database, retrieval, tools) for a medical or cultural task and compares against a baseline, or proposes a protocol for doing so; general-domain methods are `adjacent` |
+| `kg-medical-eval` | Q4–Q8 | **Q4:** the dataset pairs a patient case (real case/EHR note, exam vignette, synthetic patient or diet/nutrition scenario) with a reference medical conclusion (diagnosis, treatment, advice, safety warning); non-English, regional and traditional-medicine sets are preferred, global English sets are core too. **Q5/Q6:** the paper augments an LLM with external structured knowledge (KG, database, retrieval, tools) for a medical or cultural task and compares against a baseline, or proposes a protocol for doing so; general-domain methods are `adjacent`. **Q7:** a medical case / QA / advice dataset with a gold answer whose items contain a cultural cue (country or place, race or ethnicity, culture-specific food, habit or religious practice, traditional medicine); a set that is regional only by its language is `adjacent`. **Q8:** a medical-domain work that adds, swaps or localises such cues in existing items (or generates cases conditioned on them) and checks the result; general-domain adaptation methods and the resources cues can be drawn from are `adjacent` |
 
 ## Tags (nested; add new leaves freely, keep the prefixes)
 Generic (every topic):
@@ -66,6 +66,9 @@ and list its values here so later notes reuse them.
 - `case/` real · vignette · synthetic · diet (kind of patient case in a dataset)
 - `inject/` context · vector-rag · graph-rag · tool · finetune · soft-prompt (how knowledge reaches the LLM)
 - `eval/` mcqa · open-ended · llm-judge · human · safety · retrieval
+- `cue/` country · ethnicity · food-habit · religion · tradmed (cultural cue present in, or injected into, a case)
+- `adapt/` template-swap · llm-rewrite · human-rewrite · counterfactual · localisation · generation (how cues are injected)
+- `validity/` clinician · human-audit (reviewers who are not clinicians) · native-rater · automatic · none (how the injected item was checked)
 
 `cultural-food-health` facets:
 - `kind/` food · ingredient · compound

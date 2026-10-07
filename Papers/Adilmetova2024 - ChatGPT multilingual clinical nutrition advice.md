@@ -16,6 +16,8 @@ topics: [kg-medical-eval]
 questions: [Q4]
 relevance: core
 found_by: [search/regional-cases]
+cites:
+  - "[[Yang2024a - ChatDiet]]"
 cited_by_count: 0
 tags:
   - type/paper

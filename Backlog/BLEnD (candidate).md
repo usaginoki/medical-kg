@@ -21,9 +21,10 @@ access_link: "https://huggingface.co/datasets/nayeon212/BLEnD"
 countries: "16 cultures incl. Iran, Azerbaijan, China, Korea, Indonesia, Assam, Algeria"
 why: "Human-annotated everyday food knowledge per culture"
 found_by: [search/food, search/regions]
-cited_by: []
 added: 2026-09-30
-cited_by_count: 0
+cited_by:
+  - "[[Varadarajan2026 - CCBench]]"
+cited_by_count: 1
 tags:
   - type/candidate
   - kind/food

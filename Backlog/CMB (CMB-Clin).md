@@ -23,8 +23,10 @@ why: "Classic Chinese real case→diagnosis/treatment (74 complex cases) + 11,20
 found_by: [search/regional-cases]
 added: 2026-10-07
 cited_by:
+  - "[[Bui2026 - Cross-lingual consistency for medical questions]]"
   - "[[Kong2025 - MTCMB multi-task TCM benchmark]]"
-cited_by_count: 1
+  - "[[Li2025 - TCM-BEST4SDT syndrome differentiation benchmark]]"
+cited_by_count: 3
 tags:
   - type/candidate
   - kind/case

@@ -120,6 +120,7 @@ const countryName = (c) => { try { return c ? REGION.of(c) : ""; } catch { retur
 const USED_IN = (c) => `ingredient_id IN (SELECT DISTINCT i.ingredient_id FROM (SELECT unnest(ingredients) AS i FROM dishes
                          WHERE country_iso2 = ${sq(c)}) WHERE i.ingredient_id IS NOT NULL)`;
 const COUNTRY_SQL = "SELECT country_iso2 v, count(*) n FROM dishes WHERE country_iso2 IS NOT NULL GROUP BY 1 ORDER BY 2 DESC";
+const CUE_COLS = ["cue_place", "cue_ethnicity", "cue_religion", "cue_habit", "cue_food", "cue_tradmed"];
 // ---------------------------------------------------------------- tab definitions
 const TABS = {
   dishes: {
@@ -384,14 +385,30 @@ const TABS = {
     key: "case_id",
     filters: [
       { id: "source", label: "Dataset", type: "select", sql: "SELECT source v, count(*) n FROM cases GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "part", label: "Part", type: "select", sql: "SELECT part v, count(*) n FROM cases GROUP BY 1 ORDER BY 1" },
+      { id: "relevance", label: "Relevance", type: "select", sql: "SELECT relevance v, count(*) n FROM cases GROUP BY 1 ORDER BY CASE relevance WHEN 'high' THEN 0 WHEN 'medium' THEN 1 ELSE 2 END" },
+      { id: "gold", label: "Conclusion is", type: "select", sql: "SELECT gold v, count(*) n FROM cases GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "conclusion_ai", label: "Conclusion made by AI", type: "select", sql: "SELECT conclusion_ai v, count(*) n FROM cases GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "case_ai", label: "Case text written by AI", type: "select", sql: "SELECT case_ai v, count(*) n FROM cases GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "lang", label: "Language", type: "select", sql: "SELECT lang v, count(*) n FROM cases GROUP BY 1 ORDER BY 2 DESC" },
       { id: "case_id", label: "Case id contains", type: "text", placeholder: "mtcmb:msdd" },
       { id: "case", label: "Case contains", type: "text", placeholder: "diabetes" },
       { id: "conclusion", label: "Conclusion contains", type: "text", placeholder: "ICD-10: K29" },
+      { id: "relevance_why", label: "Reason contains", type: "text", placeholder: "Ramadan" },
+      { id: "cue_place", label: "place / nationality", type: "check", group: "has" },
+      { id: "cue_ethnicity", label: "race / ethnicity", type: "check", group: "has" },
+      { id: "cue_religion", label: "religion", type: "check", group: "has" },
+      { id: "cue_habit", label: "culture-linked habit", type: "check", group: "has" },
+      { id: "cue_food", label: "cuisine-linked food", type: "check", group: "has" },
+      { id: "cue_tradmed", label: "traditional medicine", type: "check", group: "has" },
+      { id: "culture_by_construction", label: "culture by construction", type: "check", group: "has" },
+      { id: "diet", label: "food / diet content", type: "check", group: "has" },
     ],
     where(f) {
       const w = [];
-      if (f.source) w.push(`source = ${sq(f.source)}`);
-      for (const k of ["case_id", "case", "conclusion"]) if (f[k]) w.push(`"${k}" ILIKE ${sq("%" + f[k] + "%")}`);
+      for (const k of ["source", "part", "relevance", "gold", "conclusion_ai", "case_ai", "lang"]) if (f[k]) w.push(`"${k}" = ${sq(f[k])}`);
+      for (const k of ["case_id", "case", "conclusion", "relevance_why"]) if (f[k]) w.push(`"${k}" ILIKE ${sq("%" + f[k] + "%")}`);
+      for (const k of [...CUE_COLS, "culture_by_construction", "diet"]) if (f[k]) w.push(`"${k}"`);
       return w;
     },
     select: "*",
@@ -399,13 +416,22 @@ const TABS = {
     cols: [
       ["case_id", "case_id", (r) => clip(r.case_id, "mono")],
       ["source", "source", (r) => esc(r.source)],
+      ["relevance", "relevance", (r) => esc(r.relevance)],
+      ["gold", "conclusion is", (r) => esc(r.gold)],
+      ["case_ai", "case by AI", (r) => esc(r.case_ai)],
       ["case", "case", (r) => clip(r.case)],
       ["conclusion", "conclusion", (r) => clip(r.conclusion)],
     ],
     async detail(r) {
+      const cues = CUE_COLS.filter((k) => r[k]).map((k) => k.slice(4)).join(", ") || "none";
       return `<div class="kv">
         <b>case_id</b><span class="mono">${esc(r.case_id)}</span>
-        <b>source</b><span>${esc(r.source)} (Datasets/${esc(r.source)}.md)</span>
+        <b>source</b><span>${esc(r.source)} · part <span class="mono">${esc(r.part)}</span> · ${esc(r.lang)}</span>
+        <b>origin</b><span>${esc(r.origin)}</span>
+        <b>case written by AI</b><span>${esc(r.case_ai)}</span>
+        <b>conclusion</b><span>${esc(r.gold)} (made by AI: ${esc(r.conclusion_ai)})</span>
+        <b>relevance</b><span><b>${esc(r.relevance)}</b>: ${esc(r.relevance_why)}</span>
+        <b>cues in the text</b><span>${esc(cues)}${r.culture_by_construction ? " · culture by construction" : ""}${r.diet ? " · food / diet content" : ""}</span>
         <b>case</b><div class="recipe">${esc(r.case)}</div>
         <b>conclusion</b><div class="recipe">${esc(r.conclusion)}</div></div>`;
     },

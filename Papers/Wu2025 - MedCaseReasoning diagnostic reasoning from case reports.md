@@ -16,6 +16,11 @@ topics: [kg-medical-eval]
 questions: [Q4]
 relevance: core
 found_by: [search/global-cases]
+cites:
+  - "[[MedQA]]"
+  - "[[MedXpertQA]]"
+  - "[[Singhal2022 - Large Language Models Encode Clinical Knowledge]]"
+cited_by_count: 0
 tags:
   - type/paper
   - relevance/core

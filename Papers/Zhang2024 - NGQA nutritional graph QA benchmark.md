@@ -16,6 +16,10 @@ topics: [kg-medical-eval]
 questions: [Q4]
 relevance: core
 found_by: [search/global-cases, search/evaluation]
+cites:
+  - "[[FoodKG]]"
+  - "[[Sun2023 - Think-on-Graph]]"
+  - "[[Yasunaga2021 - QA-GNN]]"
 cited_by_count: 0
 tags:
   - type/paper

@@ -19,9 +19,10 @@ manipulation: ""
 outcome: ""
 why: "LLM explores the KG step by step (best method in NGQA)"
 found_by: [search/supply]
-cited_by: []
 added: 2026-10-07
-cited_by_count: 0
+cited_by:
+  - "[[Zhang2024 - NGQA nutritional graph QA benchmark]]"
+cited_by_count: 1
 tags:
   - type/candidate
 ---

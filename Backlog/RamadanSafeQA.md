@@ -1,10 +1,10 @@
 ---
 title: "RamadanSafeQA"
 citekey: "RamadanSafeQA2026"
-authors: "(unverified) et al."
+authors: "Muhra AlMahri"
 year: 2026
 published:
-venue: "ICML 2026"
+venue: "MusIML workshop at ICML 2026"
 url: "https://openreview.net/forum?id=4utVDbChOK"
 arxiv: ""
 doi: ""
@@ -14,13 +14,13 @@ status: candidate
 priority: 2
 relevance: core
 kind: [case]
-questions: [Q4, Q5]
+questions: [Q4, Q5, Q7, Q8]
 availability: contact-authors
 access_link: "https://icml.cc/virtual/2026/80197"
 countries: "Muslim / Ramadan context"
 case_type: [synthetic, diet]
-why: "ICML 2026 paper Culturally Respectful Is Not Enough: Auditing LLM Safety in Diabetes Advice During Ramadan (title confirmed on icml.cc; OpenReview forum 4utVDbChOK). 68 Ramadan-fasting × diabetes safety vignettes with a 4-item safety rubric; authors and data link unverified"
-found_by: [search/global-cases]
+why: "MusIML workshop poster at ICML 2026 (not main track; author per icml.cc) Culturally Respectful Is Not Enough: Auditing LLM Safety in Diabetes Advice During Ramadan (title confirmed on icml.cc; OpenReview forum 4utVDbChOK). 68 Ramadan-fasting × diabetes safety vignettes with a 4-item safety rubric; data link not located"
+found_by: [search/global-cases, search/culture-cued-cases, search/cue-injection]
 cited_by: []
 added: 2026-10-07
 cited_by_count: 0

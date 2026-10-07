@@ -14,13 +14,13 @@ status: candidate
 priority: 2
 relevance: adjacent
 kind: [case]
-questions: [Q4]
+questions: [Q4, Q7]
 availability: registration
 access_link: "https://huggingface.co/datasets/bharatgenai/BhashaBench-Ayur"
 countries: "India"
 case_type: [vignette]
 why: "Largest Ayurveda exam MCQ set (14,963 EN/HI), incl. diet and dravyaguna; HF-gated"
-found_by: [search/regional-cases]
+found_by: [search/regional-cases, search/culture-cued-cases]
 cited_by: []
 added: 2026-10-07
 cited_by_count: 0

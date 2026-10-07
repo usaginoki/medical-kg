@@ -16,6 +16,7 @@ topics: [cultural-food-health]
 questions: [Q1]
 relevance: core
 cites:
+  - "[[Adilazuarda2024 - Survey on measuring culture in LLMs]]"
   - "[[FoodieQA]]"
 cited_by_count: 0
 tags:

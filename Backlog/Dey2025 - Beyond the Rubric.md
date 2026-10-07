@@ -14,14 +14,15 @@ status: candidate
 priority: 1
 relevance: adjacent
 kind: []
-questions: [Q5]
+questions: [Q5, Q7, Q8]
 manipulation: "HealthBench grader vs expert review"
 outcome: "misalignment cases"
 why: "Warning: off-the-shelf rubric graders penalise culturally appropriate (Indian) answers, incl. diet advice"
-found_by: [search/evaluation]
-cited_by: []
+found_by: [search/evaluation, search/culture-cued-cases, search/cue-injection]
 added: 2026-10-07
-cited_by_count: 0
+cited_by:
+  - "[[Bui2026 - Cross-lingual consistency for medical questions]]"
+cited_by_count: 1
 tags:
   - type/candidate
 ---

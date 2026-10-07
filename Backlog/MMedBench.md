@@ -24,7 +24,8 @@ found_by: [search/regional-cases]
 added: 2026-10-07
 cited_by:
   - "[[AbuDaoud2025 - MedArabiQ Arabic medical benchmark]]"
-cited_by_count: 1
+  - "[[Bui2026 - Cross-lingual consistency for medical questions]]"
+cited_by_count: 2
 tags:
   - type/candidate
   - kind/case

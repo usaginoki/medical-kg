@@ -565,6 +565,25 @@ def issai_diet():
     snapshot_download("issai/LLM_for_Dietary_Recommendation_System", repo_type="dataset", local_dir=base)
 
 
+@source
+def permedcqa():
+    """Real Iranian patient questions with physician answers (CC BY-NC-SA 4.0); db/cases.py takes a small sample."""
+    from huggingface_hub import snapshot_download
+    base = d("permedcqa")
+    if os.path.exists(os.path.join(base, "Data", "train.json")):
+        print("  skip")
+        return
+    snapshot_download("NaghmehAI/PerMedCQA", repo_type="dataset", local_dir=base)
+
+
+@source
+def rezaei2026():
+    """MedQA items with LLM-injected cultural cues (Rezaei & Shakeri 2026). The repository has no licence: local use
+    only."""
+    curl("https://raw.githubusercontent.com/HIVE-UofT/Evaluating-Cultural-Cues-Medical-LLMs/main/Data/"
+         "final_augment_test_questions.json", f"{d('rezaei2026')}/final_augment_test_questions.json")
+
+
 # ---- PDFs (extraction to CSV is a separate step) ------------------------------------------------------------------
 
 @source

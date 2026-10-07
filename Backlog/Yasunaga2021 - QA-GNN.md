@@ -20,7 +20,8 @@ found_by: [citations/papers]
 added: 2026-10-07
 cited_by:
   - "[[Soman2024 - KG-RAG on the SPOKE biomedical KG]]"
-cited_by_count: 1
+  - "[[Zhang2024 - NGQA nutritional graph QA benchmark]]"
+cited_by_count: 2
 tags:
   - type/candidate
 ---

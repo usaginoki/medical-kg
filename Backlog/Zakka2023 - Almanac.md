@@ -20,8 +20,9 @@ found_by: [citations/papers]
 added: 2026-10-07
 cited_by:
   - "[[Hou2025 - iDISK2.0 supplement RAG]]"
+  - "[[Pfohl2024 - EquityMedQA health equity toolbox]]"
   - "[[Xiong2024 - MIRAGE MedRAG benchmark]]"
-cited_by_count: 2
+cited_by_count: 3
 tags:
   - type/candidate
 ---

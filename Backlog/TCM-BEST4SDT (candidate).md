@@ -22,9 +22,10 @@ countries: "China (Xiyuan Hospital)"
 case_type: [real]
 why: "300 expert-annotated cases: syndrome→cause→pathogenesis→principle→prescription, CC BY 4.0"
 found_by: [search/regional-cases]
-cited_by: []
 added: 2026-10-07
-cited_by_count: 0
+cited_by:
+  - "[[Li2025 - TCM-BEST4SDT syndrome differentiation benchmark]]"
+cited_by_count: 1
 tags:
   - type/candidate
   - kind/case

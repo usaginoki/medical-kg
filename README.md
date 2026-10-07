@@ -17,9 +17,12 @@ paper-centric literature review to a **dataset-centric survey**.
 | Q4 | Which datasets pair a patient case with a reference medical conclusion, and which are culture- or region-specific? | [Q4](Questions/Q4%20Patient%20case-conclusion%20datasets.md) |
 | Q5 | How can we measure whether giving an LLM our cultural food–health knowledge graph makes it better at medicine? | [Q5](Questions/Q5%20Evaluating%20KG-augmented%20medical%20LLMs.md) |
 | Q6 | How should the knowledge graph be supplied to an LLM: in context, vector retrieval, graph retrieval, tools/MCP, or fine-tuning? | [Q6](Questions/Q6%20Supplying%20the%20KG%20to%20an%20LLM.md) |
+| Q7 | Which evaluation-relevant medical datasets contain cultural cues (country, race or ethnicity, culture-specific foods, habits, religion, traditional medicine)? | [Q7](Questions/Q7%20Cultural%20cues%20in%20evaluation%20datasets.md) |
+| Q8 | Have any works faithfully injected cultural cues into medical datasets, and if not, which methods and source datasets could we use? | [Q8](Questions/Q8%20Injecting%20cultural%20cues%20into%20datasets.md) |
 
-Q1–Q3 belong to the topic `cultural-food-health` (survey of 2026-09-30). Q4–Q6 belong to `kg-medical-eval` (survey of
-2026-10-07): how to supply the [unified database](Database/Unified%20database.md) to an LLM and test whether it helps.
+Q1–Q3 belong to the topic `cultural-food-health` (survey of 2026-09-30). Q4–Q8 belong to `kg-medical-eval` (surveys of
+2026-10-07): how to supply the [unified database](Database/Unified%20database.md) to an LLM and test whether it helps
+(Q4–Q6), and which test cases carry cultural cues or could be given them (Q7–Q8).
 
 **Priority regions:** Middle East / GCC, Central Asia, South Asia, East Asia and Southeast Asia.
 
@@ -36,9 +39,12 @@ Q1–Q3 belong to the topic `cultural-food-health` (survey of 2026-09-30). Q4–
    compounds → symptoms/diseases and back (`db/`), with worked traces in `Database/`.
 6. **[Session 2026-10-07](Sessions/2026-10-07%20KG%20medical%20evaluation%20-%20survey.md)** and the Q4–Q6 notes:
    patient case datasets for testing, an evaluation design, and how to give the graph to an LLM. The case datasets
-   are combined into one table, `cases` (37,631 cases → gold conclusions), see
+   are combined into one table, `cases` (38,301 cases → conclusions, each labelled with its origin, AI involvement and relevance), see
    [Export tables](Database/Export%20tables.md).
-7. **[Access requests](Access%20requests.md)**: datasets that need a person to act (an email, a form, an account).
+7. **[Session 2026-10-07 on cultural cues](Sessions/2026-10-07%20Cultural%20cues%20in%20medical%20evaluation%20-%20survey.md)**
+   and the Q7–Q8 notes: which case datasets contain cultural cues (`uv run db/cues.py` counts them in `cases`), and
+   how cues could be injected faithfully.
+8. **[Access requests](Access%20requests.md)**: datasets that need a person to act (an email, a form, an account).
    Drafts are in `Access-help/`, each tracked by a GitHub issue labelled `access-request`.
 
 ## What's in it (survey of 2026-09-30)
@@ -64,7 +70,7 @@ Datasets/     one note per dataset (main unit)    Templates/   Dataset, Country,
 Countries/    one note per country                 _tools/      scripts + README.md (conventions)
 Regions/      one note per region (+ Global)       Data/<slug>/ downloaded data (ignored); schema.md + sample*.csv committed
 Papers/       papers (datasets, methods)           Access-help/ drafts of access requests (emails, forms)
-Questions/    Q1–Q6 living answers                 Datasets.base, Papers.base, Backlog.base   live tables
+Questions/    Q1–Q8 living answers                 Datasets.base, Papers.base, Backlog.base   live tables
 Sessions/     dated session summaries              Access requests.md, Backlog.md             hubs
 Backlog/      candidate datasets
 ```

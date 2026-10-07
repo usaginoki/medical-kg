@@ -14,13 +14,13 @@ status: candidate
 priority: 2
 relevance: adjacent
 kind: [case]
-questions: [Q4, Q5]
+questions: [Q4, Q5, Q7]
 availability: registration
 access_link: "https://huggingface.co/datasets/intronhealth/afrimedqa_v2"
 countries: "16 African countries"
 case_type: [vignette, real]
 why: "Model for a regional medical benchmark with consumer/clinician human ratings; used by KGARevion to test transfer"
-found_by: [search/regional-cases, search/evaluation]
+found_by: [search/regional-cases, search/evaluation, search/culture-cued-cases]
 cited_by: []
 added: 2026-10-07
 cited_by_count: 0

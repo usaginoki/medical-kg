@@ -14,13 +14,13 @@ status: candidate
 priority: 1
 relevance: core
 kind: [case]
-questions: [Q4]
+questions: [Q4, Q8]
 availability: open-download
 access_link: "https://huggingface.co/datasets/zhengyun21/PMC-Patients"
 countries: "Global (PubMed Central case reports)"
 case_type: [real]
 why: "250k patient summaries; mine case reports on grapefruit/herb/food–drug interactions to build a gold set"
-found_by: [search/global-cases]
+found_by: [search/global-cases, search/adaptation-methods]
 cited_by: []
 added: 2026-10-07
 cited_by_count: 0

@@ -27,6 +27,10 @@ tags:
 > **Combined table (2026-10-07):** the 8 downloaded sets with a gold conclusion (all above except ISSAI, plus
 > [[TCM-BEST4SDT]] and [[MedicationQA]]) are merged into one table `case_id, source, case, conclusion` of 37,631 cases:
 > `uv run db/cases.py` → `db/export/cases.parquet`. Counts and rules: [[Export tables]].
+>
+> **Extended (2026-10-07, later):** the table now has 38,301 rows. It adds the AI-flagged parts (ISSAI, MTCMB
+> dialogues, MedArabiQ rewrites) and small PerMedCQA and Rezaei samples, and every case has origin, AI and
+> relevance columns.
 
 ## Detailed answer
 
@@ -104,12 +108,14 @@ the graph's contribution ([[Q5 Evaluating KG-augmented medical LLMs|Q5]]). Each 
 
 ### 3. Other datasets by region (candidates in [[Backlog]], verified 2026-10-07)
 - **Middle East / Gulf:**
-  - [[PersianMedQA]]: 20,785 Iranian board vignettes; 3–10% need Persian-specific cues; gated on HF.
+  - [[PersianMedQA]]: 20,785 Iranian board vignettes; 3–10% are answered correctly only in Persian, which the
+    authors attribute to Iranian protocols, disease prevalence and translation drift, not to food or religion
+    ([[Q7 Cultural cues in evaluation datasets|Q7]]); gated on HF.
   - [[PerMedCQA]]: 68k real Iranian questions with demographics → physician answers.
   - [[MedAraBench]]: 24,883 Arabic MCQs, knowledge items rather than vignettes.
   - [[Arabic Healthcare Dataset (AHD)]]: ~808k Altibbi Q&A, uncleaned.
   - [[AraMed]]: Saudi authors; on request.
-  - [[RamadanSafeQA]]: 68 Ramadan-fasting × diabetes safety vignettes; data not located.
+  - [[RamadanSafeQA]]: 68 Ramadan-fasting × diabetes safety vignettes (workshop poster); data not located.
 - **Central Asia:** no Kazakh, Kyrgyz or Uzbek clinical case set exists. [[KazMMLU]] has only ~300 Russian medicine
   MCQs. Use RuMedBench and the ISSAI profiles.
 - **South Asia:**
@@ -127,7 +133,7 @@ the graph's contribution ([[Q5 Evaluating KG-augmented medical LLMs|Q5]]). Each 
 - **Multilingual / global:**
   - [[MMedBench]]: 6 languages incl. Russian and Japanese.
   - [[HealthBench]]: 5,000 rubric-graded conversations; ~8% touch diet or herbs.
-  - [[CCBench]]: cultural norms in health advice; not released.
+  - [[Varadarajan2026 - CCBench|CCBench]]: cultural norms in health advice; not released.
   - [[AfriMed-QA]]: a template for a regional benchmark.
   - [[TreeProbe]]: Tibetan medicine with drift-typed distractors.
 - **Food–drug and real global cases:**

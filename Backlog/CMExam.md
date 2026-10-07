@@ -24,7 +24,8 @@ found_by: [search/regional-cases]
 added: 2026-10-07
 cited_by:
   - "[[Kong2025 - MTCMB multi-task TCM benchmark]]"
-cited_by_count: 1
+  - "[[Li2025 - TCM-BEST4SDT syndrome differentiation benchmark]]"
+cited_by_count: 2
 tags:
   - type/candidate
   - kind/case

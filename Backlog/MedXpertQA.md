@@ -21,9 +21,10 @@ countries: "Mostly US exams"
 case_type: [vignette]
 why: "Hard unsaturated vignettes (4,460); regression check"
 found_by: [search/global-cases]
-cited_by: []
 added: 2026-10-07
-cited_by_count: 0
+cited_by:
+  - "[[Wu2025 - MedCaseReasoning diagnostic reasoning from case reports]]"
+cited_by_count: 1
 tags:
   - type/candidate
   - kind/case

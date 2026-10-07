@@ -14,13 +14,13 @@ status: candidate
 priority: 2
 relevance: adjacent
 kind: [case]
-questions: [Q4, Q5]
+questions: [Q4, Q5, Q7, Q8]
 availability: open-download
 access_link: "https://github.com/SamuelSchmidgall/AgentClinic"
 countries: "7 languages"
 case_type: [synthetic]
 why: "Interactive simulated-patient harness; could host 'patient asks what to eat' cases"
-found_by: [search/global-cases]
+found_by: [search/global-cases, search/culture-cued-cases]
 cited_by: []
 added: 2026-10-07
 cited_by_count: 0

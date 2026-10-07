@@ -67,7 +67,7 @@ MIRAGE and MedRGB use MedQA/MedMCQA/PubMedQA. Three conditions make it measure *
 | **Our KG**, in variants: assertions vs paths, English vs native language, with vs without grade tiers, k sweep | which form of the graph works | Tonga 2026; [[Q6 Supplying the KG to an LLM\|Q6]] |
 | Irrelevant KG (paths for other dishes, conditions or drugs), with an "insufficient information" option | "the KG helped" vs "any context changed the answer" | [[Ngo2024 - MedRGB medical RAG robustness benchmark\|Ngo 2024]]; [[Sui2024 - Can Knowledge Graphs Make Large Language Models More Trustworthy (OKGQA)\|Sui 2024]] |
 | Counterfactual KG (flip one food–drug interaction or effect direction; downgrade a grade) at 10–50% corruption | harm: does wrong KG content override correct knowledge? | Ngo 2024; [[Wu2024b - ClashEval\|Wu 2024b]]; Sui 2024 |
-| Oracle (the gold facts given directly) | upper bound; share of the gap the retriever closes | [[CCBench]]-style explicit-norm condition |
+| Oracle (the gold facts given directly) | upper bound; share of the gap the retriever closes | [[Varadarajan2026 - CCBench\|CCBench]]-style explicit-norm condition |
 
 **Models and languages.**
 - Run several sizes. Gains are largest for small models: Llama-2-13b 0.31 → 0.53 with KG-RAG vs GPT-4 0.68 → 0.74

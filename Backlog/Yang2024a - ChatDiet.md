@@ -17,9 +17,11 @@ kind: []
 questions: [Q5, Q6]
 why: "LLM-augmented nutrition recommender chatbot combining personal and population knowledge models; cited by 2 processed papers (citations.py backward snowball)"
 found_by: [citations/backward]
-cited_by: []
-cited_by_count: 0
 added: 2026-10-07
+cited_by:
+  - "[[Adilmetova2024 - ChatGPT multilingual clinical nutrition advice]]"
+  - "[[Mao2026 - FAM-Bench food-as-medicine benchmark]]"
+cited_by_count: 2
 tags:
   - type/candidate
 ---

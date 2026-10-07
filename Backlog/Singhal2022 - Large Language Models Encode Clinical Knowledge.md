@@ -21,9 +21,12 @@ added: 2026-10-07
 cited_by:
   - "[[Kong2025 - MTCMB multi-task TCM benchmark]]"
   - "[[Mao2026 - FAM-Bench food-as-medicine benchmark]]"
+  - "[[Pfohl2024 - EquityMedQA health equity toolbox]]"
   - "[[Soman2024 - KG-RAG on the SPOKE biomedical KG]]"
+  - "[[Wu2025 - MedCaseReasoning diagnostic reasoning from case reports]]"
+  - "[[Xiao2025 - FairMedQA]]"
   - "[[Xiong2024 - MIRAGE MedRAG benchmark]]"
-cited_by_count: 4
+cited_by_count: 7
 tags:
   - type/candidate
 ---

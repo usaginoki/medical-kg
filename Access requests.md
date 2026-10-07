@@ -35,7 +35,7 @@ the five processed sets ([[MTCMB]], [[FAM-Bench]], [[RuMedBench]], [[MedArabiQ]]
 | 14 | [[TCM-SD]] | **Alibaba Tianchi account** (free) to download the full 54,152 records | https://tianchi.aliyun.com/dataset/139034 | open |
 | 15 | [[TCM-TBOSD]] | **Email a signed data-use pledge** + Tianchi sign-up; only train (800) and unlabelled val (200) are released | https://github.com/QLU-NLP/TCM-Syndrome-and-Disease-Differentiation-and-Prescription-Recommendation | optional |
 | 16 | [[AraMed]] | **Email the authors** (270k Arabic patient–doctor pairs "available upon request") | https://aclanthology.org/2024.osact-1.6/ | open |
-| 17 | [[CCBench]] / [[RamadanSafeQA]] | **Email the authors**: neither paper links its data (cultural health-advice norms; Ramadan-fasting × diabetes safety vignettes) | arXiv 2607.05405 · https://openreview.net/forum?id=4utVDbChOK | open |
+| 17 | [[Varadarajan2026 - CCBench\|CCBench]] / [[RamadanSafeQA]] | **Email the authors**: neither paper links its data (cultural health-advice norms; Ramadan-fasting × diabetes safety vignettes) | arXiv 2607.05405 · https://openreview.net/forum?id=4utVDbChOK | open |
 | 18 | [[LingLanMiDian]] | **Wait or email**: gold labels are withheld "until paper accepted" | https://github.com/TCMAI-BJTU/LingLan | open |
 
 ## Drafts ready to send
