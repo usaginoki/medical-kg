@@ -21,8 +21,8 @@ countries: "Japan"
 why: "~440k Japanese recipes with images (NII IDR application)"
 found_by: [processing/east-asia]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/food

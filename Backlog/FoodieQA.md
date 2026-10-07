@@ -20,9 +20,10 @@ access_link: "https://huggingface.co/datasets/lyan62/FoodieQA"
 countries: "China (14 regional cuisines)"
 why: "Regional Chinese food culture QA"
 found_by: [search/food, search/regions]
-cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by:
+  - "[[Winata2024 - WorldCuisines]]"
+cited_by_count: 1
 tags:
   - type/candidate
   - kind/food

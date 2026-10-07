@@ -23,8 +23,10 @@ DATASET_ENUMS = {
     "has_amounts": {"yes", "partial", "no", ""},
     "has_cooking_method": {"steps", "tags", "no", ""},
     "body_effect": {"direct", "linkable", "no", ""},
+    "diet_relevance": {"none", "subset", "central", ""},
 }
-KINDS = {"food", "ingredient", "compound"}
+KINDS = {"food", "ingredient", "compound", "case"}
+CASE_TYPES = {"real", "vignette", "synthetic", "diet"}
 problems = []
 arxiv_ids = collections.defaultdict(list)
 
@@ -93,6 +95,12 @@ for p in sorted(scan):
             problems.append(f"{p}: kind {sorted(kinds)} must be a non-empty subset of {sorted(KINDS)}")
         if "food" in kinds and prop(fm, "has_ingredients") in (None, ""):
             problems.append(f"{p}: food dataset needs has_ingredients / has_amounts / has_cooking_method")
+        if "case" in kinds:
+            ct = set(prop_list(fm, "case_type"))
+            if not ct or ct - CASE_TYPES:
+                problems.append(f"{p}: case dataset needs case_type ⊆ {sorted(CASE_TYPES)} (got {sorted(ct)})")
+            if not prop_list(fm, "conclusion_type"):
+                problems.append(f"{p}: case dataset needs conclusion_type")
         if kinds & {"ingredient", "compound"} and prop(fm, "body_effect") in (None, ""):
             problems.append(f"{p}: ingredient/compound dataset needs body_effect + body_effect_how")
         for c in prop_list(fm, "countries"):

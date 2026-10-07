@@ -21,8 +21,8 @@ countries: "China"
 why: "Official 药食同源 list (~100 items): authoritative food flag for TCM herb DBs"
 found_by: [processing/eastasia-herbs]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/ingredient

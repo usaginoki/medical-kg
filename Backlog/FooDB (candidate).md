@@ -21,9 +21,10 @@ access_link: "https://foodb.ca/downloads"
 countries: "global"
 why: "Standard food→compound backbone with health-effect table"
 found_by: [search/compounds, search/ingredients]
-cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by:
+  - "[[Hong2024 - DDID diet-drug interactions]]"
+cited_by_count: 1
 tags:
   - type/candidate
   - kind/compound

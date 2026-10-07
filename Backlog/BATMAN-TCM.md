@@ -20,9 +20,11 @@ access_link: "http://bionet.ncpsb.org.cn/batman-tcm/"
 countries: "China (TCM)"
 why: "TCM ingredient–target predictions (2.0)"
 found_by: [search/ingredients, search/compounds]
-cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by:
+  - "[[Joshi2026 - GRAYU Ayurveda graph database]]"
+  - "[[Lin2026 - NPASS database update 2026]]"
+cited_by_count: 2
 tags:
   - type/candidate
   - kind/ingredient

@@ -15,9 +15,9 @@ datasets: ["[[Food.com Recipes and Interactions]]"]
 topics: [cultural-food-health]
 questions: [Q1]
 relevance: core
-cites: []
-cited_by: []
-cited_by_count: 0
+cited_by:
+  - "[[Liu2022 - Counterfactual recipe generation]]"
+cited_by_count: 1
 tags:
   - type/paper
   - relevance/core

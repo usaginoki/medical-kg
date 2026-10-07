@@ -31,6 +31,9 @@ tags:
 - [[Dr. Duke's Phytochemical and Ethnobotanical Databases]] · open-download · accessed · body effect: direct
 - [[Exposome-Explorer]] · open-download · accessed · body effect: direct
 - [[KNApSAcK Family]] · open-web · partly accessed · body effect: direct
+
+## Patient case datasets (1)
+- [[RuMedBench]] · open-download · accessed · cases: real → diagnosis, diet: subset
 Global resources (no country labels, usable for any country): [[Global]]
 %% auto:end %%
 

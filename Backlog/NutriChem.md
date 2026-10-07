@@ -20,9 +20,10 @@ access_link: "http://sbb.hku.hk/services/NutriChem-2.0/"
 countries: "global plant foods"
 why: "Food–disease/drug links; site down"
 found_by: [search/compounds, search/ingredients]
-cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by:
+  - "[[Li2026 - FoodAtlas unified food-chemical-disease KG]]"
+cited_by_count: 1
 tags:
   - type/candidate
   - kind/compound

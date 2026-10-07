@@ -15,8 +15,12 @@ datasets: ["[[RecipeDB2]]"]
 topics: [cultural-food-health]
 questions: [Q1]
 relevance: core
-cites: []
-cited_by: []
+cites:
+  - "[[FlavorDB2 (candidate)]]"
+  - "[[FooDis]]"
+  - "[[FoodKG]]"
+  - "[[Recipe1M+]]"
+  - "[[RecipeNLG]]"
 cited_by_count: 0
 tags:
   - type/paper

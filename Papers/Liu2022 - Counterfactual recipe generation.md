@@ -15,8 +15,8 @@ datasets: ["[[XiaChuFang Recipe Corpus]]"]
 topics: [cultural-food-health]
 questions: [Q1]
 relevance: core
-cites: []
-cited_by: []
+cites:
+  - "[[Majumder2019 - Personalized recipe generation]]"
 cited_by_count: 0
 tags:
   - type/paper

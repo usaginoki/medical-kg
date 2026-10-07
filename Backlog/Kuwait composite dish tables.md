@@ -21,8 +21,8 @@ countries: "Kuwait"
 why: "Dashti et al. 2001–2004; main source Bahrain borrows"
 found_by: [processing/centralasia-gulf]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/ingredient

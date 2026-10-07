@@ -21,9 +21,10 @@ access_link: "http://www.knapsackfamily.com/KNApSAcK_Family/"
 countries: "global (229 countries); Indonesia (Jamu), Japan (Kampo)"
 why: "Plant×country usage map + Jamu formula efficacy"
 found_by: [search/ingredients, search/regions, search/compounds]
-cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by:
+  - "[[Rakhi2018 - SpiceRx health impacts of culinary spices and herbs]]"
+cited_by_count: 1
 tags:
   - type/candidate
   - kind/ingredient

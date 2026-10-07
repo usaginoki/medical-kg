@@ -22,8 +22,8 @@ countries: "South Korea"
 why: "v10.4 national FCT (Excel)"
 found_by: [search/ingredients, search/regions]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/ingredient

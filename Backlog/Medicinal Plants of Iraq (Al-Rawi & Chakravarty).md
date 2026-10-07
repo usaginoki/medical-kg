@@ -21,8 +21,8 @@ countries: "Iraq"
 why: "Source of Duke's 1,038 Iraq ethnobotany records (book)"
 found_by: [processing/ethnobotany]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/ingredient

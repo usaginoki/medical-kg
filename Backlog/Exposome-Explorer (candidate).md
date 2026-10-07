@@ -22,8 +22,8 @@ countries: "global cohorts"
 why: "Dietary biomarkers ↔ food intake ↔ cancer risk (human evidence)"
 found_by: [search/compounds]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/compound

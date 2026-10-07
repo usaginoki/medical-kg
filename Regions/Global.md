@@ -40,6 +40,9 @@ tags:
 - [[NPASS]] · open-download · accessed · body effect: direct
 - [[Phenol-Explorer]] · open-download · accessed · body effect: linkable
 - [[SpiceRx]] · open-web · partly accessed · body effect: direct
+
+### Patient case datasets (1)
+- [[MedCaseReasoning]] · open-download · accessed · cases: real → diagnosis, differential, diet: subset
 %% auto:end %%
 
 ## How to use them

@@ -22,8 +22,8 @@ countries: "India"
 why: "1,014 Indian standard recipes with gram amounts + nutrient panels"
 found_by: [search/food, search/regions]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/food

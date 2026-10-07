@@ -21,8 +21,8 @@ countries: "India (Ayurveda)"
 why: "Ayurveda case reports as clinical evidence"
 found_by: [processing/indian]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/ingredient

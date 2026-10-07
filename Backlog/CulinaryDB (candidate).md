@@ -22,8 +22,8 @@ countries: "22 world regions incl. Middle East, Indian Subcontinent, China, Japa
 why: "Downloadable region × recipe × ingredient matrix linked to FlavorDB"
 found_by: [search/food, search/ingredients]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/food

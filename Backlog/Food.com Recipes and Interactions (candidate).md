@@ -22,8 +22,8 @@ countries: "tag-based cuisines (global)"
 why: "230k recipes with steps + nutrition, cuisine via tags"
 found_by: [search/food]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/food

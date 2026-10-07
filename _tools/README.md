@@ -50,6 +50,7 @@ from `Templates/Question.md`.
 | topic slug | questions | `core` means |
 |---|---|---|
 | `cultural-food-health` | Q1–Q3 | the dataset carries explicit culture / cuisine / country labels **and** is food, ingredient or food-compound data (global resources without culture labels, e.g. FooDB, are `adjacent` unless they are the only link to health effects) |
+| `kg-medical-eval` | Q4–Q6 | **Q4:** the dataset pairs a patient case (real case/EHR note, exam vignette, synthetic patient or diet/nutrition scenario) with a reference medical conclusion (diagnosis, treatment, advice, safety warning); non-English, regional and traditional-medicine sets are preferred, global English sets are core too. **Q5/Q6:** the paper augments an LLM with external structured knowledge (KG, database, retrieval, tools) for a medical or cultural task and compares against a baseline, or proposes a protocol for doing so; general-domain methods are `adjacent` |
 
 ## Tags (nested; add new leaves freely, keep the prefixes)
 Generic (every topic):
@@ -60,6 +61,11 @@ Generic (every topic):
 
 Topic-specific facets: add a prefix per topic when useful (e.g. `method/`, `dataset/`, `stressor/`)
 and list its values here so later notes reuse them.
+
+`kg-medical-eval` facets (`region/` and `tradmed/` as below):
+- `case/` real · vignette · synthetic · diet (kind of patient case in a dataset)
+- `inject/` context · vector-rag · graph-rag · tool · finetune · soft-prompt (how knowledge reaches the LLM)
+- `eval/` mcqa · open-ended · llm-judge · human · safety · retrieval
 
 `cultural-food-health` facets:
 - `kind/` food · ingredient · compound
@@ -85,6 +91,7 @@ note links back in `datasets:`.
 | `has_ingredients` (bool), `has_amounts` (`yes`/`partial`/`no`), `has_cooking_method` (`steps`/`tags`/`no`), `has_nutrition` (bool) | food datasets |
 | `body_effect` (`direct`/`linkable`/`no`), `body_effect_how` | ingredient/compound datasets: `direct` = the dataset itself has health/disease/indication/target fields; `linkable` = its ids join to a resource that has them |
 | `join_keys` | ids usable for joins: `PubChem CID`, `InChIKey`, `FooDB id`, `USDA FDC id`, `NCBI taxon`, `scientific name`, … |
+| `case_type`, `conclusion_type`, `languages`, `n_cases`, `diet_relevance` | case datasets (`kind: [case]`, topic `kg-medical-eval`): `case_type` ⊆ real · vignette · synthetic · diet; `conclusion_type` e.g. diagnosis · differential · treatment · advice · mcq-answer · triage; `diet_relevance` none · subset · central (how much of it involves food, diet, herbs or food–drug interactions) |
 
 Accessed datasets: download to `Data/<slug>/` (≤ ~500 MB; otherwise a subset), then
 `uv run _tools/profile_dataset.py <slug>` writes `schema.md` + `sample.csv`. The note's *Tables & columns*
@@ -153,5 +160,8 @@ manually to `Attachments/<key>/<key>.pdf` first; the script then reuses them.
 entity (conditions, compounds, ingredients, dishes, links), plus curated maps in `db/maps/`. The stage contract and
 the id conventions are in `db/README.md`. `uv run db/trace.py dish|condition|sql …` prints traces as Markdown.
 Human documentation and worked traces are in `Database/`. After adding or re-downloading a dataset, re-run the build
-and check `db/build_report.md`: it must show no orphan references.
+and check `db/build_report.md`: it must show no orphan references. The raw inputs come from `uv run db/fetch.py` and
+`uv run db/prep.py`; `uv run db/export.py` flattens the database into `dishes`, `ingredients`, `effects`, and
+`uv run db/cases.py` writes the patient-case table `cases` (topic `kg-medical-eval`) to `db/export/` (git-ignored;
+see `Database/Export tables.md`).
 

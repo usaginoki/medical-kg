@@ -12,7 +12,7 @@ import collections, glob, os, re, sys
 
 VAULT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(VAULT)
-TODAY = "2026-09-30"
+TODAY = "2026-10-07"
 PRIORITY = {"Middle East", "Central Asia", "South Asia", "East Asia", "Southeast Asia"}
 REGIONS = {
     "Middle East": "Bahrain, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Palestine, Qatar, Saudi Arabia, "
@@ -82,6 +82,9 @@ def flags(d):
         if d["has_nutrition"] == "true":
             f.append("nutrition")
         return ", ".join(f)
+    if "case" in d["kind"]:
+        return (f"cases: {', '.join(d['case_type']) or '?'} → {', '.join(d['conclusion_type']) or '?'}, "
+                f"diet: {d['diet_relevance'] or '?'}")
     return f"body effect: {d['body_effect']}"  # the how is in the dataset note / Datasets.base
 
 
@@ -93,7 +96,7 @@ def line(d):
 def auto_block(ds, heading_level="##"):
     out = [START]
     for kind, title in [("food", "Food & dish datasets"), ("ingredient", "Ingredient datasets"),
-                        ("compound", "Compound datasets")]:
+                        ("compound", "Compound datasets"), ("case", "Patient case datasets")]:
         sel = [d for d in ds if kind in d["kind"]]
         out += [f"{heading_level} {title} ({len(sel)})"] + ([line(d) for d in sel] or ["- none"]) + [""]
     return "\n".join(out).rstrip() + "\n" + END
@@ -123,7 +126,8 @@ def main():
                              countries=prop_list(fm, "countries"), regions=prop_list(fm, "regions"),
                              **{k: prop(fm, k) or "" for k in ("availability", "accessed", "has_ingredients",
                                 "has_amounts", "has_cooking_method", "has_nutrition", "body_effect",
-                                "body_effect_how")}))
+                                "body_effect_how", "diet_relevance")},
+                             case_type=prop_list(fm, "case_type"), conclusion_type=prop_list(fm, "conclusion_type")))
     by_country, by_region = collections.defaultdict(list), collections.defaultdict(list)
     for d in datasets:
         for c in d["countries"]:

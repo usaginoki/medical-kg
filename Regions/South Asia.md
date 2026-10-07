@@ -52,6 +52,9 @@ tags:
 - [[GRAYU]] · open-web · partly accessed · body effect: direct
 - [[IMPPAT]] · open-download · accessed · body effect: direct
 - [[KNApSAcK Family]] · open-web · partly accessed · body effect: direct
+
+### Patient case datasets (0)
+- none
 %% auto:end %%
 
 ## Countries

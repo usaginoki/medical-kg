@@ -22,8 +22,8 @@ countries: "Japan (by prefecture)"
 why: "Authoritative regional dish pages with recipes and cultural context"
 found_by: [search/food]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/food

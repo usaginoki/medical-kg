@@ -14,6 +14,12 @@ paper-centric literature review to a **dataset-centric survey**.
 | Q1 | Which datasets describe the foods and dishes of different cultures, and do they give ingredients, amounts and cooking methods? | [Q1](Questions/Q1%20Cultural%20food%20datasets.md) |
 | Q2 | Which datasets describe the ingredients (foods, spices, herbs, medicinal plants) of different cultures, and can their effect on the body be inferred? | [Q2](Questions/Q2%20Cultural%20ingredient%20datasets.md) |
 | Q3 | Which datasets link foods and ingredients to chemical compounds, and those compounds to effects on the body? | [Q3](Questions/Q3%20Food%20compound%20%26%20health-effect%20datasets.md) |
+| Q4 | Which datasets pair a patient case with a reference medical conclusion, and which are culture- or region-specific? | [Q4](Questions/Q4%20Patient%20case-conclusion%20datasets.md) |
+| Q5 | How can we measure whether giving an LLM our cultural food–health knowledge graph makes it better at medicine? | [Q5](Questions/Q5%20Evaluating%20KG-augmented%20medical%20LLMs.md) |
+| Q6 | How should the knowledge graph be supplied to an LLM: in context, vector retrieval, graph retrieval, tools/MCP, or fine-tuning? | [Q6](Questions/Q6%20Supplying%20the%20KG%20to%20an%20LLM.md) |
+
+Q1–Q3 belong to the topic `cultural-food-health` (survey of 2026-09-30). Q4–Q6 belong to `kg-medical-eval` (survey of
+2026-10-07): how to supply the [unified database](Database/Unified%20database.md) to an LLM and test whether it helps.
 
 **Priority regions:** Middle East / GCC, Central Asia, South Asia, East Asia and Southeast Asia.
 
@@ -28,7 +34,11 @@ paper-centric literature review to a **dataset-centric survey**.
    `Regions/Central Asia.md`. `Regions/Global.md` covers the resources with no country labels.
 5. **[Unified database](Database/Unified%20database.md)**: a DuckDB database linking dishes → ingredients →
    compounds → symptoms/diseases and back (`db/`), with worked traces in `Database/`.
-6. **[Access requests](Access%20requests.md)**: datasets that need a person to act (an email, a form, an account).
+6. **[Session 2026-10-07](Sessions/2026-10-07%20KG%20medical%20evaluation%20-%20survey.md)** and the Q4–Q6 notes:
+   patient case datasets for testing, an evaluation design, and how to give the graph to an LLM. The case datasets
+   are combined into one table, `cases` (37,631 cases → gold conclusions), see
+   [Export tables](Database/Export%20tables.md).
+7. **[Access requests](Access%20requests.md)**: datasets that need a person to act (an email, a form, an account).
    Drafts are in `Access-help/`, each tracked by a GitHub issue labelled `access-request`.
 
 ## What's in it (survey of 2026-09-30)
@@ -53,8 +63,8 @@ Only the latest version of each dataset gets a note; earlier versions are descri
 Datasets/     one note per dataset (main unit)    Templates/   Dataset, Country, Region, Paper, Candidate, Question, Session
 Countries/    one note per country                 _tools/      scripts + README.md (conventions)
 Regions/      one note per region (+ Global)       Data/<slug>/ downloaded data (ignored); schema.md + sample*.csv committed
-Papers/       papers behind the datasets           Access-help/ drafts of access requests (emails, forms)
-Questions/    Q1–Q3 living answers                 Datasets.base, Papers.base, Backlog.base   live tables
+Papers/       papers (datasets, methods)           Access-help/ drafts of access requests (emails, forms)
+Questions/    Q1–Q6 living answers                 Datasets.base, Papers.base, Backlog.base   live tables
 Sessions/     dated session summaries              Access requests.md, Backlog.md             hubs
 Backlog/      candidate datasets
 ```
@@ -72,7 +82,10 @@ follows [`CLAUDE.md`](CLAUDE.md), whose section *Dataset-centric topics* covers 
 | Command | What it does |
 |---|---|
 | `uv run _tools/profile_dataset.py <slug>` | Profiles every table in `Data/<slug>/` (csv/tsv/json/jsonl/parquet/xlsx/sqlite) and writes `schema.md` (rows, columns, dtypes, non-null share, examples) and `sample.csv` |
+| `uv run db/fetch.py [source …]` / `uv run db/prep.py [step …]` | Downloads the raw datasets into `Data/` / turns PDFs, Markdown and scrapes into the CSVs the build reads (`--list` shows the names) |
 | `uv run db/build.py --fresh` | Builds the unified dish ↔ condition DuckDB (`db/unified.duckdb`, ~2 min); writes `db/build_report.md` |
+| `uv run db/export.py` / `uv run db/cases.py` | Writes the flat tables `dishes`, `ingredients`, `effects` / the patient-case table `cases` to `db/export/` (Parquet + CSV) |
+| `uv run python -m http.server 8765 -d db` | Serves the browser viewer of the exported tables at http://localhost:8765/viewer/ |
 | `uv run db/trace.py dish\|condition\|sql …` | Prints dish → condition or condition → dish traces with sources and evidence grades |
 | `python3 _tools/build_geo.py [--check]` | Creates or refreshes `Countries/` and `Regions/` notes from the datasets' `countries` / `regions`. Only the generated block is rewritten; hand-written text is kept |
 | `python3 _tools/check_vault.py` | Checks required properties, allowed values in dataset notes, country/region links, `schema.md` for accessed datasets, duplicate note names, and that links and embeds resolve |

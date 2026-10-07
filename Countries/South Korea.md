@@ -39,6 +39,9 @@ tags:
 - [[KNApSAcK Family]] · open-web · partly accessed · body effect: direct
 - [[NPASS]] · open-download · accessed · body effect: direct
 - [[TM-MC]] · open-download · accessed · body effect: linkable
+
+## Patient case datasets (0)
+- none
 Global resources (no country labels, usable for any country): [[Global]]
 %% auto:end %%
 

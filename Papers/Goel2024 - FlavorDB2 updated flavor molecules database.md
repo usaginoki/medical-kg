@@ -15,9 +15,9 @@ datasets: ["[[FlavorDB2]]"]
 topics: [cultural-food-health]
 questions: [Q2, Q3]
 relevance: core
-cites: []
-cited_by: []
-cited_by_count: 38
+cites:
+  - "[[Phenol-Explorer (candidate)]]"
+cited_by_count: 0
 tags:
   - type/paper
   - relevance/core

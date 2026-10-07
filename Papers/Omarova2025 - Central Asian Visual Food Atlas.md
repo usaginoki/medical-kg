@@ -15,8 +15,9 @@ datasets: ["[[Central Asian Digital Visual Food Atlas]]"]
 topics: [cultural-food-health]
 questions: [Q1]
 relevance: core
-cites: []
-cited_by: []
+cites:
+  - "[[Central Asian Food Dataset (candidate)]]"
+  - "[[Karabay2025 - Central Asian Food Scenes Dataset]]"
 cited_by_count: 0
 tags:
   - type/paper

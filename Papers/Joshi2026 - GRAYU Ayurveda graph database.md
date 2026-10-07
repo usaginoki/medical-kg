@@ -15,8 +15,16 @@ datasets: ["[[GRAYU]]"]
 topics: [cultural-food-health]
 questions: [Q2, Q3]
 relevance: core
-cites: []
-cited_by: []
+cites:
+  - "[[BATMAN-TCM]]"
+  - "[[CMAUP (candidate)]]"
+  - "[[ETCM]]"
+  - "[[HERB (candidate)]]"
+  - "[[HMDB (candidate)]]"
+  - "[[IMPPAT (candidate)]]"
+  - "[[OSADHI]]"
+  - "[[PubChem]]"
+  - "[[SymMap (candidate)]]"
 cited_by_count: 0
 tags:
   - type/paper

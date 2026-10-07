@@ -22,8 +22,8 @@ countries: "India (Ayurveda)"
 why: "Ayurveda graph with diseases mapped to MeSH/DOID"
 found_by: [search/ingredients, search/regions]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/ingredient

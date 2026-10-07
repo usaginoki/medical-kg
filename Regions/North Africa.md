@@ -46,6 +46,9 @@ tags:
 - [[Dr. Duke's Phytochemical and Ethnobotanical Databases]] · open-download · accessed · body effect: direct
 - [[Exposome-Explorer]] · open-download · accessed · body effect: direct
 - [[KNApSAcK Family]] · open-web · partly accessed · body effect: direct
+
+### Patient case datasets (1)
+- [[MedArabiQ]] · open-download · accessed · cases: real → advice, mcq-answer, fill-in, diet: subset
 %% auto:end %%
 
 ## Countries

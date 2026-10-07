@@ -21,9 +21,11 @@ access_link: "https://github.com/IS2AI/Central-Asian-Food-Dataset"
 countries: "Kazakhstan, Uzbekistan, Kyrgyzstan, Tajikistan, Turkmenistan"
 why: "Only substantial Central Asian dish inventory (images; CAFSD extension)"
 found_by: [search/food, search/regions]
-cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by:
+  - "[[Karabay2025 - Central Asian Food Scenes Dataset]]"
+  - "[[Omarova2025 - Central Asian Visual Food Atlas]]"
+cited_by_count: 2
 tags:
   - type/candidate
   - kind/food

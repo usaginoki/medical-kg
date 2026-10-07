@@ -21,9 +21,12 @@ access_link: "http://www.symmap.org/download/"
 countries: "China (TCM)"
 why: "Herb→TCM symptom→modern symptom→disease"
 found_by: [search/ingredients]
-cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by:
+  - "[[Hong2024 - DDID diet-drug interactions]]"
+  - "[[Joshi2026 - GRAYU Ayurveda graph database]]"
+  - "[[Kim2024 - TM-MC 2.0 Northeast Asian medicinal materials chemical database]]"
+cited_by_count: 3
 tags:
   - type/candidate
   - kind/ingredient

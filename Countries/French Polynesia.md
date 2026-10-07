@@ -22,6 +22,9 @@ tags:
 
 ## Compound datasets (1)
 - [[KNApSAcK Family]] · open-web · partly accessed · body effect: direct
+
+## Patient case datasets (0)
+- none
 Global resources (no country labels, usable for any country): [[Global]]
 %% auto:end %%
 

@@ -15,8 +15,8 @@ datasets: ["[[WorldCuisines]]"]
 topics: [cultural-food-health]
 questions: [Q1]
 relevance: core
-cites: []
-cited_by: []
+cites:
+  - "[[FoodieQA]]"
 cited_by_count: 0
 tags:
   - type/paper

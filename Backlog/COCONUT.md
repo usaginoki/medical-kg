@@ -20,9 +20,10 @@ access_link: "https://coconut.naturalproducts.net"
 countries: "global"
 why: "Natural-product structure backbone"
 found_by: [search/compounds, search/ingredients]
-cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by:
+  - "[[Lin2026 - NPASS database update 2026]]"
+cited_by_count: 1
 tags:
   - type/candidate
   - kind/compound

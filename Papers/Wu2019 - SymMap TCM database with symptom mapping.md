@@ -15,8 +15,8 @@ datasets: ["[[SymMap]]"]
 topics: [cultural-food-health]
 questions: [Q2, Q3]
 relevance: core
-cites: []
-cited_by: []
+cites:
+  - "[[TCMSP]]"
 cited_by_count: 0
 tags:
   - type/paper

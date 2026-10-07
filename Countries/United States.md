@@ -38,6 +38,11 @@ tags:
 - [[Exposome-Explorer]] · open-download · accessed · body effect: direct
 - [[KNApSAcK Family]] · open-web · partly accessed · body effect: direct
 - [[NPASS]] · open-download · accessed · body effect: direct
+
+## Patient case datasets (3)
+- [[FAM-Bench]] · open-download · accessed · cases: diet → suitability, ranking, advice, diet: central
+- [[MedicationQA]] · open-download · accessed · cases: real → advice, safety-warning, drug-information, diet: subset
+- [[NGQA]] · open-download · accessed · cases: diet → suitability, nutrient-rationale, advice, diet: central
 Global resources (no country labels, usable for any country): [[Global]]
 %% auto:end %%
 

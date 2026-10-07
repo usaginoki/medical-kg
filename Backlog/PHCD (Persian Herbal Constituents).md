@@ -21,8 +21,8 @@ countries: "Iran"
 why: "Preprint only"
 found_by: [search/ingredients, search/compounds]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/compound

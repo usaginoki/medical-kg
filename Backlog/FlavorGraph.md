@@ -20,9 +20,10 @@ access_link: "https://github.com/lamypark/FlavorGraph"
 countries: "global"
 why: "Ingredient–compound embeddings"
 found_by: [search/compounds]
-cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by:
+  - "[[Li2026 - FoodAtlas unified food-chemical-disease KG]]"
+cited_by_count: 1
 tags:
   - type/candidate
   - kind/compound

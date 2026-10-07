@@ -20,9 +20,11 @@ access_link: "https://recipenlg.cs.put.poznan.pl/"
 countries: "no cuisine labels"
 why: "2.2M recipes; base for GlobalFusion"
 found_by: [search/food]
-cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by:
+  - "[[Goel2026 - RecipeDB2 recipe data structure framework]]"
+  - "[[Mao2026 - FAM-Bench food-as-medicine benchmark]]"
+cited_by_count: 2
 tags:
   - type/candidate
   - kind/food

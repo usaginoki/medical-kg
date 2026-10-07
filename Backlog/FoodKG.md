@@ -20,9 +20,10 @@ access_link: "https://foodkg.github.io/"
 countries: "inherits Recipe1M"
 why: "KG schema linking recipes to USDA"
 found_by: [search/food, search/compounds]
-cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by:
+  - "[[Goel2026 - RecipeDB2 recipe data structure framework]]"
+cited_by_count: 1
 tags:
   - type/candidate
   - kind/food

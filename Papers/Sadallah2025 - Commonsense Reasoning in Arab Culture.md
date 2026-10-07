@@ -15,9 +15,7 @@ datasets: ["[[ArabCulture]]"]
 topics: [cultural-food-health]
 questions: [Q1]
 relevance: core
-cites: []
-cited_by: []
-cited_by_count: 22
+cited_by_count: 0
 tags:
   - type/paper
   - relevance/core

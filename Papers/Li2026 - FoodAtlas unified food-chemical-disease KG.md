@@ -15,8 +15,11 @@ datasets: ["[[FoodAtlas]]"]
 topics: [cultural-food-health]
 questions: [Q2, Q3]
 relevance: core
-cites: []
-cited_by: []
+cites:
+  - "[[CTD (candidate)]]"
+  - "[[FlavorGraph]]"
+  - "[[NutriChem]]"
+  - "[[USDA FoodData Central (candidate)]]"
 cited_by_count: 0
 tags:
   - type/paper

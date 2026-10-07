@@ -25,6 +25,11 @@ has_nutrition:
 body_effect:
 body_effect_how: ""
 join_keys: []
+case_type: []
+conclusion_type: []
+languages: []
+n_cases: ""
+diet_relevance:
 topics: [cultural-food-health]
 questions: []
 relevance: core
@@ -65,6 +70,10 @@ Sample: `Data/<slug>/sample.csv` · full profile: `Data/<slug>/schema.md`
 ## Inferring effects on the body
 %% Ingredient / compound datasets only; delete otherwise. Which fields or relations support a
    health inference (direct), or which ids link to a DB that has them (linkable). %%
+
+## Cases & conclusions
+%% Case datasets only; delete otherwise. What one case looks like, what the reference conclusion is, how it is
+   scored (accuracy, rubric, human), and which part touches food, diet, herbs or food–drug interactions. %%
 
 ## Linking to other datasets
 %% Join keys and which vault datasets they connect to. %%

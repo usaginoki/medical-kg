@@ -21,8 +21,8 @@ countries: "173 countries (country in title)"
 why: "Same dish across countries with cultural distance scores"
 found_by: [search/food]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/food

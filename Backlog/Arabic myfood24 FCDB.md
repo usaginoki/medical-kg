@@ -21,8 +21,8 @@ countries: "Saudi Arabia, Kuwait"
 why: "Arabic-named foods with nutrients"
 found_by: [search/regions, search/ingredients]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/ingredient

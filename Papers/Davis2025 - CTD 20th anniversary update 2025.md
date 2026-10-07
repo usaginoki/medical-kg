@@ -16,7 +16,6 @@ topics: [cultural-food-health]
 questions: [Q3]
 relevance: adjacent
 cites: []
-cited_by: []
 cited_by_count: 0
 tags:
   - type/paper

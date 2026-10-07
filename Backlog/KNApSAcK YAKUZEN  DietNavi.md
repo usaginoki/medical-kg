@@ -21,8 +21,8 @@ countries: "Japan"
 why: "Japanese medicinal cuisine linked to KNApSAcK metabolites"
 found_by: [processing/eastasia-herbs]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/food

@@ -21,8 +21,8 @@ countries: "China"
 why: "Print, 6th ed."
 found_by: [search/regions, search/ingredients]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/ingredient

@@ -21,9 +21,10 @@ access_link: "https://cosylab.iiitd.edu.in/flavordb2/"
 countries: "global ingredients"
 why: "Ingredient→flavor molecule layer (links to CulinaryDB)"
 found_by: [search/ingredients, search/compounds]
-cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by:
+  - "[[Goel2026 - RecipeDB2 recipe data structure framework]]"
+cited_by_count: 1
 tags:
   - type/candidate
   - kind/ingredient

@@ -15,9 +15,7 @@ datasets: ["[[CulinaryDB]]"]
 topics: [cultural-food-health]
 questions: [Q1, Q2]
 relevance: core
-cites: []
-cited_by: []
-cited_by_count: 5
+cited_by_count: 0
 tags:
   - type/paper
   - relevance/core

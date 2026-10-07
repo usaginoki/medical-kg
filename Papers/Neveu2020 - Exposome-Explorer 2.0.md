@@ -15,8 +15,6 @@ datasets: ["[[Exposome-Explorer]]"]
 topics: [cultural-food-health]
 questions: [Q3]
 relevance: core
-cites: []
-cited_by: []
 cited_by_count: 0
 tags:
   - type/paper

@@ -21,8 +21,8 @@ countries: "United States"
 why: "Quantitative flavonoid values by NDB number (gap in FDC)"
 found_by: [processing/backbone]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/compound

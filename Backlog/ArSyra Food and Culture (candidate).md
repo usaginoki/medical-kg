@@ -22,8 +22,8 @@ countries: "17 Arab countries incl. Saudi Arabia, UAE, Kuwait, Iraq, Yemen"
 why: "Arabic-dialect dish/ingredient records (provenance to verify)"
 found_by: [search/food]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/food

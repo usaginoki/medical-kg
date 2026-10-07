@@ -15,9 +15,10 @@ datasets: ["[[SpiceRx]]"]
 topics: [cultural-food-health]
 questions: [Q2, Q3]
 relevance: core
-cites: []
-cited_by: []
-cited_by_count: 4
+cites:
+  - "[[KNApSAcK Family (candidate)]]"
+  - "[[Phenol-Explorer (candidate)]]"
+cited_by_count: 0
 tags:
   - type/paper
   - relevance/core

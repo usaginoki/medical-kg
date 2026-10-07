@@ -1,6 +1,6 @@
 ---
-topics: [cultural-food-health]
-updated: 2026-09-30
+topics: [cultural-food-health, kg-medical-eval]
+updated: 2026-10-07
 tags:
   - type/access-requests
 ---
@@ -21,6 +21,22 @@ dataset note (`accessed: true`).
 | 7   | [[DrugBank]]            | **Free academic account.** Even then, downloads may be blocked: on 2026-09-30 every download, including the CC0 vocabulary, returned 403 "Academic downloads are currently disabled". Public drug pages hide food interactions behind sign-in                                                                                                           | sign up: https://go.drugbank.com/releases/sign_up · release 5.1.22 (2026-06-27)                                                                                                              | `.../releases/5-1-22/downloads/all-full-database` (XML zip, 204 MB, has `<food-interactions>`) + `.../all-drugbank-vocabulary` (CSV, 1.1 MB) → `Data/drugbank/` | open (partial workaround: FooDrugs contains DrugBank food-interaction texts) |
 | 8 | [[Saudi Food Composition Tables]] | *Optional:* the SFDA web tool is geo-restricted (connection reset from here). The full English PDF (130 dishes × 49 analytes) is already extracted to CSV | https://fd.sfda.gov.sa/ (from UAE/KSA or via VPN) | any export/CSV, or a few food pages saved as HTML → `Data/saudi-food-composition-tables/web/` | optional |
 | 9 | [[Central Asian Digital Visual Food Atlas]] | **Ask permission.** The owners deleted `Atlas.pdf` from the repo; we recovered it from the git history. Ask whether we may use it and whether an official version exists | yen.chan@nu.edu.kz (verify the corresponding author in Omarova et al. 2025) | none needed. Data already parsed in `Data/central-asian-digital-visual-food-atlas/`; delete it if they say no | open |
+
+## Patient case datasets (topic `kg-medical-eval`, added 2026-10-07)
+These candidates for [[Q4 Patient case-conclusion datasets|Q4]] need an action from you. None blocks the first experiments:
+the five processed sets ([[MTCMB]], [[FAM-Bench]], [[RuMedBench]], [[MedArabiQ]], [[ISSAI Dietary Recommendation profiles]]) are open.
+
+| #  | Dataset | What's needed | Where | Status |
+| -- | ------- | ------------- | ----- | ------ |
+| 10 | [[PersianMedQA]] | **Hugging Face login + accept the terms** (gated, non-commercial academic use). Then run `hf auth login` here and ask Claude to download | https://huggingface.co/datasets/MohammadJRanjbar/PersianMedQA | open |
+| 11 | [[BhashaBench-Ayur]] | **Hugging Face login + accept the terms** (gated) | https://huggingface.co/datasets/bharatgenai/BhashaBench-Ayur | open |
+| 12 | [[AfriMed-QA]] | **Hugging Face login + accept the terms** (gated, CC BY-SA) | https://huggingface.co/datasets/intronhealth/afrimedqa_v2 | open |
+| 13 | [[MIMIC-IV-Note]] | **PhysioNet credentialing** (identity check + CITI "Data or Specimens Only Research" course), then sign the data-use agreement. Only if we want real discharge diet advice | https://physionet.org/content/mimic-iv-note/2.2/ | optional |
+| 14 | [[TCM-SD]] | **Alibaba Tianchi account** (free) to download the full 54,152 records | https://tianchi.aliyun.com/dataset/139034 | open |
+| 15 | [[TCM-TBOSD]] | **Email a signed data-use pledge** + Tianchi sign-up; only train (800) and unlabelled val (200) are released | https://github.com/QLU-NLP/TCM-Syndrome-and-Disease-Differentiation-and-Prescription-Recommendation | optional |
+| 16 | [[AraMed]] | **Email the authors** (270k Arabic patient–doctor pairs "available upon request") | https://aclanthology.org/2024.osact-1.6/ | open |
+| 17 | [[CCBench]] / [[RamadanSafeQA]] | **Email the authors**: neither paper links its data (cultural health-advice norms; Ramadan-fasting × diabetes safety vignettes) | arXiv 2607.05405 · https://openreview.net/forum?id=4utVDbChOK | open |
+| 18 | [[LingLanMiDian]] | **Wait or email**: gold labels are withheld "until paper accepted" | https://github.com/TCMAI-BJTU/LingLan | open |
 
 ## Drafts ready to send
 Everything is in `Access-help/<name>/` (tracked in git; each also has a GitHub issue). Personal details are filled in (Artur Pak, NLP, artur.pak@mbzuai.ac.ae); cc Dr. Fajri Koto.

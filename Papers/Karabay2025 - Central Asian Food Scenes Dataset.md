@@ -15,9 +15,11 @@ datasets: ["[[Central Asian Food Dataset]]"]
 topics: [cultural-food-health]
 questions: [Q1]
 relevance: core
-cites: []
-cited_by: []
-cited_by_count: 0
+cites:
+  - "[[Central Asian Food Dataset (candidate)]]"
+cited_by:
+  - "[[Omarova2025 - Central Asian Visual Food Atlas]]"
+cited_by_count: 1
 tags:
   - type/paper
   - relevance/core

@@ -21,8 +21,8 @@ countries: "South Korea"
 why: "Nutrients of prepared Korean dishes (RDA table lacks them)"
 found_by: [processing/east-asia]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/ingredient

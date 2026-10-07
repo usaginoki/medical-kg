@@ -26,11 +26,11 @@ tags:
 - [[Austria]]: 10 datasets
 - [[Belgium]]: 10 datasets
 - [[Poland]]: 10 datasets
+- [[Russia]]: 10 datasets
 - [[Sweden]]: 10 datasets
 - [[Czech Republic]]: 9 datasets
 - [[Denmark]]: 9 datasets
 - [[Portugal]]: 9 datasets
-- [[Russia]]: 9 datasets
 - [[Bulgaria]]: 8 datasets
 - [[Finland]]: 8 datasets
 - [[Hungary]]: 8 datasets
@@ -80,6 +80,9 @@ tags:
 - [[Dr. Duke's Phytochemical and Ethnobotanical Databases]] · open-download · accessed · body effect: direct
 - [[Exposome-Explorer]] · open-download · accessed · body effect: direct
 - [[KNApSAcK Family]] · open-web · partly accessed · body effect: direct
+
+### Patient case datasets (1)
+- [[RuMedBench]] · open-download · accessed · cases: real → diagnosis, diet: subset
 %% auto:end %%
 
 ## Countries

@@ -26,6 +26,9 @@ tags:
 - [[CMAUP]] · open-download · accessed · body effect: direct
 - [[Exposome-Explorer]] · open-download · accessed · body effect: direct
 - [[KNApSAcK Family]] · open-web · partly accessed · body effect: direct
+
+## Patient case datasets (0)
+- none
 Global resources (no country labels, usable for any country): [[Global]]
 %% auto:end %%
 

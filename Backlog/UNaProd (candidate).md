@@ -22,8 +22,8 @@ countries: "Iran (Persian / Unani medicine)"
 why: "Only Persian materia medica DB: Mizaj, actions, uses"
 found_by: [search/ingredients, search/compounds, search/regions]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/ingredient

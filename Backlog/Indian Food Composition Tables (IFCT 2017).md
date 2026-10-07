@@ -21,8 +21,8 @@ countries: "India"
 why: "National FCT; site down (521)"
 found_by: [search/ingredients]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/ingredient

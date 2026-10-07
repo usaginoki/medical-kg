@@ -22,8 +22,8 @@ countries: "global ethnobotany by country"
 why: "Public-domain chemical activities + ethnobotanical uses by culture"
 found_by: [search/ingredients, search/compounds]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/ingredient

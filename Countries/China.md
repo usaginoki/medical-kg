@@ -46,6 +46,10 @@ tags:
 - [[NPASS]] · open-download · accessed · body effect: direct
 - [[SymMap]] · open-download · accessed · body effect: direct
 - [[TM-MC]] · open-download · accessed · body effect: linkable
+
+## Patient case datasets (2)
+- [[MTCMB]] · open-download · accessed · cases: real, vignette, synthetic → diagnosis, syndrome, treatment, prescription, mcq-answer, safety, diet: subset
+- [[TCM-BEST4SDT]] · open-download · accessed · cases: real, vignette → syndrome, diagnosis, treatment, prescription, advice, mcq-answer, diet: central
 Global resources (no country labels, usable for any country): [[Global]]
 %% auto:end %%
 

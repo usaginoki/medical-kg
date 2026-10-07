@@ -28,6 +28,9 @@ tags:
 ## Compound datasets (2)
 - [[CMAUP]] · open-download · accessed · body effect: direct
 - [[KNApSAcK Family]] · open-web · partly accessed · body effect: direct
+
+## Patient case datasets (1)
+- [[ISSAI Dietary Recommendation profiles]] · open-download · accessed · cases: synthetic, diet → advice, diet: central
 Global resources (no country labels, usable for any country): [[Global]]
 %% auto:end %%
 

@@ -21,8 +21,8 @@ countries: "China (TCM medicinal diet)"
 why: "Dish→TCM efficacy claims; only 100 items released"
 found_by: [search/food]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/food

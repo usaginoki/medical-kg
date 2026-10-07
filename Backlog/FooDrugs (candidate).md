@@ -21,9 +21,10 @@ access_link: "https://zenodo.org/records/8192515"
 countries: "global"
 why: "3.4M food–drug interactions (text + transcriptomics)"
 found_by: [search/compounds]
-cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by:
+  - "[[Hong2024 - DDID diet-drug interactions]]"
+cited_by_count: 1
 tags:
   - type/candidate
   - kind/compound

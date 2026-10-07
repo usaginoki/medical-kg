@@ -22,8 +22,8 @@ countries: "13 Arab countries incl. Saudi Arabia, UAE, Egypt, Jordan, Lebanon"
 why: "Native-written Arab food customs (priority region)"
 found_by: [search/food, search/regions]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/food

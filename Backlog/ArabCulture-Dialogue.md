@@ -21,8 +21,8 @@ countries: "13 Arab countries"
 why: "MSA/dialect dialogue pairs incl. dish names in dialect"
 found_by: [processing/culture-kb]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/food

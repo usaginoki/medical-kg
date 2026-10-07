@@ -22,8 +22,8 @@ countries: "99 countries, 32 regions incl. Middle East, Indian Subcontinent, Chi
 why: "Largest cuisine-labelled recipe DB with ingredient amounts, steps, USDA nutrition; v1 RecipeDB (10.1093/database/baaa077) had 118k recipes / 74 countries"
 found_by: [search/food]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/food

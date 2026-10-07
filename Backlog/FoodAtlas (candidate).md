@@ -22,8 +22,8 @@ countries: "global"
 why: "Food→chemical→disease KG with provenance (KGv2)"
 found_by: [search/compounds, search/ingredients]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/compound

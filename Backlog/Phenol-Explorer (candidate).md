@@ -21,9 +21,12 @@ access_link: "http://phenol-explorer.eu/"
 countries: "global"
 why: "Polyphenol contents + human metabolism (v3.6)"
 found_by: [search/compounds, search/ingredients]
-cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by:
+  - "[[Goel2024 - FlavorDB2 updated flavor molecules database]]"
+  - "[[LacruzPleguezuelos2023 - FooDrugs food-drug interactions database]]"
+  - "[[Rakhi2018 - SpiceRx health impacts of culinary spices and herbs]]"
+cited_by_count: 3
 tags:
   - type/candidate
   - kind/compound

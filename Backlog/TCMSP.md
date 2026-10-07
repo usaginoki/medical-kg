@@ -20,9 +20,11 @@ access_link: "https://www.tcmsp-e.com/"
 countries: "China (TCM)"
 why: "ADME-filtered TCM ingredients"
 found_by: [search/ingredients]
-cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by:
+  - "[[Kim2024 - TM-MC 2.0 Northeast Asian medicinal materials chemical database]]"
+  - "[[Wu2019 - SymMap TCM database with symptom mapping]]"
+cited_by_count: 2
 tags:
   - type/candidate
   - kind/ingredient

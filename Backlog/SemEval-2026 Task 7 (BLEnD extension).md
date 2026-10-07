@@ -21,8 +21,8 @@ countries: "17 new cultures"
 why: "Source of the new BLEnD cultures"
 found_by: [processing/culture-kb]
 cited_by: []
-cited_by_count: 0
 added: 2026-09-30
+cited_by_count: 0
 tags:
   - type/candidate
   - kind/food
