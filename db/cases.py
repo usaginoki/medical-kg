@@ -26,7 +26,7 @@ case or the answer as fields, the fields are written one per line as "field: val
 names; every choice of fields is listed per source below. Some rows are not redistributable (MedArabiQ licence:
 internal research only; the Rezaei repository has no licence), so the export stays out of git.
 """
-import ast, json, os, random, re, sys
+import ast, csv, io, json, os, random, re, sys, zipfile
 
 import pandas as pd
 
@@ -55,12 +55,35 @@ def fields(d, sep="："):
 
 @reader
 def rumedbench():
-    """RuMedTop3: real outpatient complaints (Russian) -> the doctor's ICD-10 code. All splits have the code."""
+    """RuMedTop3: real outpatient visits (Russian) -> the doctor's ICD-10 code. All splits have the code.
+
+    RuMedTop3 keeps only the complaints (`symptoms`) and the code cut to 3 characters. The parent set RuMedPrime
+    (Zenodo) has the same visits (idx = new_event_id) with the anamnesis and the full code, so both are added: the
+    case is complaints + anamnesis, the conclusion is the 3-character code with its WHO ICD-10 title plus the full
+    code. Without the RuMedPrime zip the case is the complaints alone. Titles: maps/icd10_titles.csv."""
+    titles = dict(csv.reader(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "maps", "icd10_titles.csv"),
+                              encoding="utf-8")))
+    named = lambda c: f"{c} ({titles[c]})" if c in titles else c  # noqa: E731
+    prime = {}
+    zpath = f"{DATA}/rumedbench/zenodo/RuMedPrimeData.zip"
+    if os.path.exists(zpath):
+        with zipfile.ZipFile(zpath) as z:
+            p = pd.read_csv(io.BytesIO(z.read("RuMedPrimeData.tsv")), sep="\t").fillna("")
+        prime = {r.new_event_id: r for r in p.itertuples()}
+    else:
+        print("  rumedbench: RuMedPrimeData.zip missing, cases are complaints only (uv run db/fetch.py rumedbench)")
     rows = []
     for split in ("train", "dev", "test"):
         for r in jsonl(f"{DATA}/rumedbench/medbench/data/RuMedTop3/{split}_v1.jsonl"):
-            rows.append((f"rumedbench:top3-{split}:{r['idx']}", "RuMedBench", r["symptoms"], f"ICD-10: {r['code']}",
-                         "rumedbench:top3"))
+            p = prime.get(r["idx"])
+            case, answer = r["symptoms"], f"ICD-10: {named(r['code'])}"
+            if p is not None:
+                if p.icd10[:3] != r["code"]:
+                    raise ValueError(f"RuMedPrime {r['idx']}: code {p.icd10} does not start with {r['code']}")
+                case = fields({"Жалобы": r["symptoms"], "Анамнез": p.anamnesis}, ": ")
+                if p.icd10 != r["code"]:
+                    answer += f"\nfull code: {named(p.icd10)}"
+            rows.append((f"rumedbench:top3-{split}:{r['idx']}", "RuMedBench", case, answer, "rumedbench:top3"))
     return rows
 
 
@@ -251,8 +274,8 @@ def P(lang, origin, case_ai, conclusion_ai, gold, gold_note, culture=None, diet=
 # culture: why the whole part is tied to a culture even when no keyword matches; diet: the part is about food.
 # TCM parts count as traditional-medicine content throughout (their conclusions are syndromes, formulas and herbs).
 PARTS = {
-    "rumedbench:top3": P("ru", "real outpatient visit record, university hospital in Tomsk (Russia)", "no", "no", "gold",
-                         "the doctor's ICD-10 code"),
+    "rumedbench:top3": P("ru", "real outpatient visit record (complaints + anamnesis), university hospital in Tomsk (Russia)", "no", "no", "gold",
+                         "the doctor's ICD-10 code (title added from the WHO ICD-10 list)"),
     "medcasereasoning": P("en", "published case report (PubMed Central, authors worldwide)", "ai-rewritten",
                           "ai-extracted", "gold",
                           "the report's final diagnosis, extracted by an LLM (100 cases physician-checked)"),

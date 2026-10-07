@@ -1,0 +1,1314 @@
+code,title
+A04,Other bacterial intestinal infections
+A04.9,"Bacterial intestinal infection, unspecified"
+A09,Other gastroenteritis and colitis of infectious and unspecified origin
+A09.9,Gastroenteritis and colitis of unspecified origin
+A37,Whooping cough
+A37.0,Whooping cough due to Bordetella pertussis
+A69,Other spirochaetal infections
+A69.2,Lyme disease
+A84,Tick-borne viral encephalitis
+A84.0,Far Eastern tick-borne encephalitis [Russian spring-summer encephalitis]
+B00,Herpesviral [herpes simplex] infections
+B00.8,Other forms of herpesviral infection
+B00.9,"Herpesviral infection, unspecified"
+B02,Zoster [herpes zoster]
+B02.3,Zoster ocular disease
+B02.8,Zoster with other complications
+B02.9,Zoster without complication
+B07,Viral warts
+B08,"Other viral infections characterized by skin and mucous membrane lesions, not elsewhere classified"
+B18,Chronic viral hepatitis
+B18.1,Chronic viral hepatitis B without delta-agent
+B18.2,Chronic viral hepatitis C
+B18.9,"Chronic viral hepatitis, unspecified"
+B25,Cytomegaloviral disease
+B25.8,Other cytomegaloviral diseases
+B27,Infectious mononucleosis
+B27.9,"Infectious mononucleosis, unspecified"
+B35,Dermatophytosis
+B35.1,Tinea unguium
+B35.3,Tinea pedis
+B35.6,Tinea inguinalis [Tinea cruris]
+B36,Other superficial mycoses
+B36.0,Pityriasis versicolor
+B37,Candidiasis
+B37.2,Candidiasis of skin and nail
+B37.3,Candidiasis of vulva and vagina
+B66,Other fluke infections
+B66.0,Opisthorchiasis
+B97,Viral agents as the cause of diseases classified to other chapters
+B97.7,Papillomavirus as the cause of diseases classified to other chapters
+C00,Malignant neoplasm of lip
+C06,Malignant neoplasm of other and unspecified parts of mouth
+C20,Malignant neoplasm of rectum
+C25,Malignant neoplasm of pancreas
+C25.0,Malignant neoplasm: Head of pancreas
+C34,Malignant neoplasm of bronchus and lung
+C50,Malignant neoplasm of breast
+C50.9,"Malignant neoplasm: Breast, unspecified"
+C53,Malignant neoplasm of cervix uteri
+C53.8,Malignant neoplasm: Overlapping lesion of cervix uteri
+C71,Malignant neoplasm of brain
+C71.0,"Malignant neoplasm: Cerebrum, except lobes and ventricles"
+C71.1,Malignant neoplasm: Frontal lobe
+C73,Malignant neoplasm of thyroid gland
+D10,Benign neoplasm of mouth and pharynx
+D12,"Benign neoplasm of colon, rectum, anus and anal canal"
+D12.3,Benign neoplasm: Transverse colon
+D13,Benign neoplasm of other and ill-defined parts of digestive system
+D13.1,Benign neoplasm: Stomach
+D13.5,Benign neoplasm: Extrahepatic bile ducts
+D14,Benign neoplasm of middle ear and respiratory system
+D14.1,Benign neoplasm: Larynx
+D14.3,Benign neoplasm: Bronchus and lung
+D14.4,"Benign neoplasm: Respiratory system, unspecified"
+D16,Benign neoplasm of bone and articular cartilage
+D16.1,Benign neoplasm: Short bones of upper limb
+D16.9,"Benign neoplasm: Bone and articular cartilage, unspecified"
+D17,Benign lipomatous neoplasm
+D17.1,Benign lipomatous neoplasm of skin and subcutaneous tissue of trunk
+D17.2,Benign lipomatous neoplasm of skin and subcutaneous tissue of limbs
+D17.3,Benign lipomatous neoplasm of skin and subcutaneous tissue of other and unspecified sites
+D17.4,Benign lipomatous neoplasm of intrathoracic organs
+D21,Other benign neoplasms of connective and other soft tissue
+D21.0,"Benign neoplasm: Connective and other soft tissue of head, face and neck"
+D21.1,"Benign neoplasm: Connective and other soft tissue of upper limb, including shoulder"
+D21.2,"Benign neoplasm: Connective and other soft tissue of lower limb, including hip"
+D23,Other benign neoplasms of skin
+D23.3,Benign neoplasm: Skin of other and unspecified parts of face
+D23.4,Benign neoplasm: Skin of scalp and neck
+D23.5,Benign neoplasm: Skin of trunk
+D23.7,"Benign neoplasm: Skin of lower limb, including hip"
+D25,Leiomyoma of uterus
+D25.0,Submucous leiomyoma of uterus
+D25.1,Intramural leiomyoma of uterus
+D25.2,Subserosal leiomyoma of uterus
+D27,Benign neoplasm of ovary
+D29,Benign neoplasm of male genital organs
+D29.9,"Benign neoplasm: Male genital organ, unspecified"
+D30,Benign neoplasm of urinary organs
+D30.0,Benign neoplasm: Kidney
+D30.3,Benign neoplasm: Bladder
+D32,Benign neoplasm of meninges
+D32.0,Benign neoplasm: Cerebral meninges
+D33,Benign neoplasm of brain and other parts of central nervous system
+D33.0,"Benign neoplasm: Brain, supratentorial"
+D35,Benign neoplasm of other and unspecified endocrine glands
+D35.0,Benign neoplasm: Adrenal gland
+D36,Benign neoplasm of other and unspecified sites
+D36.0,Benign neoplasm: Lymph nodes
+D38,Neoplasm of uncertain or unknown behaviour of middle ear and respiratory and intrathoracic organs
+D38.1,"Neoplasm of uncertain or unknown behaviour: Trachea, bronchus and lung"
+D39,Neoplasm of uncertain or unknown behaviour of female genital organs
+D39.0,Neoplasm of uncertain or unknown behaviour: Uterus
+D43,Neoplasm of uncertain or unknown behaviour of brain and central nervous system
+D43.2,"Neoplasm of uncertain or unknown behaviour: Brain, unspecified"
+D48,Neoplasm of uncertain or unknown behaviour of other and unspecified sites
+D48.5,Neoplasm of uncertain or unknown behaviour: Skin
+D48.6,Neoplasm of uncertain or unknown behaviour: Breast
+D50,Iron deficiency anaemia
+D50.9,"Iron deficiency anaemia, unspecified"
+D64,Other anaemias
+D64.9,"Anaemia, unspecified"
+D75,Other diseases of blood and blood-forming organs
+D77,Other disorders of blood and blood-forming organs in diseases classified elsewhere
+D80,Immunodeficiency with predominantly antibody defects
+D80.8,Other immunodeficiencies with predominantly antibody defects
+D81,Combined immunodeficiencies
+D81.9,"Combined immunodeficiency, unspecified"
+D82,Immunodeficiency associated with other major defects
+D82.9,"Immunodeficiency associated with major defect, unspecified"
+D84,Other immunodeficiencies
+D84.9,"Immunodeficiency, unspecified"
+D86,Sarcoidosis
+D86.0,Sarcoidosis of lung
+D86.1,Sarcoidosis of lymph nodes
+D86.2,Sarcoidosis of lung with sarcoidosis of lymph nodes
+E01,Iodine-deficiency-related thyroid disorders and allied conditions
+E01.0,Iodine-deficiency-related diffuse (endemic) goitre
+E01.1,Iodine-deficiency-related multinodular (endemic) goitre
+E01.2,"Iodine-deficiency-related (endemic) goitre, unspecified"
+E01.8,Other iodine-deficiency-related thyroid disorders and allied conditions
+E02,Subclinical iodine-deficiency hypothyroidism
+E03,Other hypothyroidism
+E03.2,Hypothyroidism due to medicaments and other exogenous substances
+E03.8,Other specified hypothyroidism
+E03.9,"Hypothyroidism, unspecified"
+E04,Other nontoxic goitre
+E04.0,Nontoxic diffuse goitre
+E04.1,Nontoxic single thyroid nodule
+E04.2,Nontoxic multinodular goitre
+E05,Thyrotoxicosis [hyperthyroidism]
+E05.0,Thyrotoxicosis with diffuse goitre
+E05.1,Thyrotoxicosis with toxic single thyroid nodule
+E05.2,Thyrotoxicosis with toxic multinodular goitre
+E05.8,Other thyrotoxicosis
+E05.9,"Thyrotoxicosis, unspecified"
+E06,Thyroiditis
+E06.1,Subacute thyroiditis
+E06.2,Chronic thyroiditis with transient thyrotoxicosis
+E06.3,Autoimmune thyroiditis
+E06.4,Drug-induced thyroiditis
+E07,Other disorders of thyroid
+E07.9,"Disorder of thyroid, unspecified"
+E10,Type 1 diabetes mellitus
+E10.3,Type 1 diabetes mellitus with ophthalmic complications
+E10.7,Type 1 diabetes mellitus with multiple complications
+E10.8,Type 1 diabetes mellitus with unspecified complications
+E10.9,Type 1 diabetes mellitus without complications
+E11,Type 2 diabetes mellitus
+E11.2,Type 2 diabetes mellitus with renal complications
+E11.3,Type 2 diabetes mellitus with ophthalmic complications
+E11.4,Type 2 diabetes mellitus with neurological complications
+E11.7,Type 2 diabetes mellitus with multiple complications
+E11.8,Type 2 diabetes mellitus with unspecified complications
+E11.9,Type 2 diabetes mellitus without complications
+E13,Other specified diabetes mellitus
+E13.9,Other specified diabetes mellitus without complications
+E14,Unspecified diabetes mellitus
+E14.9,Unspecified diabetes mellitus without complications
+E16,Other disorders of pancreatic internal secretion
+E16.8,Other specified disorders of pancreatic internal secretion
+E16.9,"Disorder of pancreatic internal secretion, unspecified"
+E20,Hypoparathyroidism
+E20.0,Idiopathic hypoparathyroidism
+E21,Hyperparathyroidism and other disorders of parathyroid gland
+E21.0,Primary hyperparathyroidism
+E21.1,"Secondary hyperparathyroidism, not elsewhere classified"
+E21.3,"Hyperparathyroidism, unspecified"
+E22,Hyperfunction of pituitary gland
+E22.1,Hyperprolactinaemia
+E22.9,"Hyperfunction of pituitary gland, unspecified"
+E23,Hypofunction and other disorders of pituitary gland
+E23.0,Hypopituitarism
+E23.3,"Hypothalamic dysfunction, not elsewhere classified"
+E23.6,Other disorders of pituitary gland
+E23.7,"Disorder of pituitary gland, unspecified"
+E25,Adrenogenital disorders
+E25.0,Congenital adrenogenital disorders associated with enzyme deficiency
+E25.8,Other adrenogenital disorders
+E25.9,"Adrenogenital disorder, unspecified"
+E27,Other disorders of adrenal gland
+E27.0,Other adrenocortical overactivity
+E27.1,Primary adrenocortical insufficiency
+E27.3,Drug-induced adrenocortical insufficiency
+E27.5,Adrenomedullary hyperfunction
+E27.9,"Disorder of adrenal gland, unspecified"
+E28,Ovarian dysfunction
+E28.0,Ovarian dysfunction: Estrogen excess
+E28.1,Ovarian dysfunction: Androgen excess
+E28.2,Polycystic ovarian syndrome
+E28.3,Primary ovarian failure
+E28.8,Other ovarian dysfunction
+E28.9,"Ovarian dysfunction, unspecified"
+E29,Testicular dysfunction
+E29.1,Testicular hypofunction
+E29.8,Other testicular dysfunction
+E29.9,"Testicular dysfunction, unspecified"
+E31,Polyglandular dysfunction
+E31.0,Autoimmune polyglandular failure
+E35,Disorders of endocrine glands in diseases classified elsewhere
+E35.8,Disorders of other endocrine glands in diseases classified elsewhere
+E44,Protein-energy malnutrition of moderate and mild degree
+E44.1,Mild protein-energy malnutrition
+E55,Vitamin D deficiency
+E55.9,"Vitamin D deficiency, unspecified"
+E61,Deficiency of other nutrient elements
+E61.1,Iron deficiency
+E66,Obesity
+E66.0,Obesity due to excess calories
+E66.2,Extreme obesity with alveolar hypoventilation
+E66.8,Other obesity
+E74,Other disorders of carbohydrate metabolism
+E74.8,Other specified disorders of carbohydrate metabolism
+E74.9,"Disorder of carbohydrate metabolism, unspecified"
+E78,Disorders of lipoprotein metabolism and other lipidaemias
+E78.8,Other disorders of lipoprotein metabolism
+E79,Disorders of purine and pyrimidine metabolism
+E79.0,Hyperuricaemia without signs of inflammatory arthritis and tophaceous disease
+E80,Disorders of porphyrin and bilirubin metabolism
+E80.4,Gilbert syndrome
+E83,Disorders of mineral metabolism
+E83.5,Disorders of calcium metabolism
+E89,"Postprocedural endocrine and metabolic disorders, not elsewhere classified"
+E89.0,Postprocedural hypothyroidism
+F38,Other mood [affective] disorders
+F40,Phobic anxiety disorders
+F40.8,Other phobic anxiety disorders
+F41,Other anxiety disorders
+F41.0,Panic disorder [episodic paroxysmal anxiety]
+F41.8,Other specified anxiety disorders
+F42,Obsessive-compulsive disorder
+F42.8,Other obsessive-compulsive disorders
+F43,"Reaction to severe stress, and adjustment disorders"
+F45,Somatoform disorders
+F45.3,Somatoform autonomic dysfunction
+F45.8,Other somatoform disorders
+F45.9,"Somatoform disorder, unspecified"
+F48,Other neurotic disorders
+F48.8,Other specified neurotic disorders
+F48.9,"Neurotic disorder, unspecified"
+F51,Nonorganic sleep disorders
+F51.0,Nonorganic insomnia
+F51.3,Sleepwalking [somnambulism]
+F84,Pervasive developmental disorders
+F95,Tic disorders
+F95.9,"Tic disorder, unspecified"
+F98,Other behavioural and emotional disorders with onset usually occurring in childhood and adolescence
+F98.0,Nonorganic enuresis
+G10,Huntington disease
+G11,Hereditary ataxia
+G11.2,Late-onset cerebellar ataxia
+G11.8,Other hereditary ataxias
+G11.9,"Hereditary ataxia, unspecified"
+G12,Spinal muscular atrophy and related syndromes
+G12.2,Motor neuron disease
+G13,Systemic atrophies primarily affecting central nervous system in diseases classified elsewhere
+G13.0,Paraneoplastic neuromyopathy and neuropathy
+G20,Parkinson disease
+G21,Secondary parkinsonism
+G21.1,Other drug-induced secondary parkinsonism
+G21.2,Secondary parkinsonism due to other external agents
+G21.4,Vascular parkinsonism
+G21.8,Other secondary parkinsonism
+G21.9,"Secondary parkinsonism, unspecified"
+G23,Other degenerative diseases of basal ganglia
+G23.1,Progressive supranuclear ophthalmoplegia [Steele-Richardson-Olszewski]
+G23.2,"Multiple system atrophy, parkinsonian type [MSA-P]"
+G23.8,Other specified degenerative diseases of basal ganglia
+G24,Dystonia
+G24.2,Idiopathic nonfamilial dystonia
+G24.3,Spasmodic torticollis
+G24.4,Idiopathic orofacial dystonia
+G24.5,Blepharospasm
+G24.8,Other dystonia
+G24.9,"Dystonia, unspecified"
+G25,Other extrapyramidal and movement disorders
+G25.0,Essential tremor
+G25.2,Other specified forms of tremor
+G25.6,Drug-induced tics and other tics of organic origin
+G25.8,Other specified extrapyramidal and movement disorders
+G30,Alzheimer disease
+G30.0,Alzheimer disease with early onset
+G30.1,Alzheimer disease with late onset
+G31,"Other degenerative diseases of nervous system, not elsewhere classified"
+G31.9,"Degenerative disease of nervous system, unspecified"
+G32,Other degenerative disorders of nervous system in diseases classified elsewhere
+G32.8,Other specified degenerative disorders of nervous system in diseases classified elsewhere
+G35,Multiple sclerosis
+G37,Other demyelinating diseases of central nervous system
+G37.3,Acute transverse myelitis in demyelinating disease of central nervous system
+G37.8,Other specified demyelinating diseases of central nervous system
+G37.9,"Demyelinating disease of central nervous system, unspecified"
+G40,Epilepsy
+G40.0,Localization-related (focal)(partial) idiopathic epilepsy and epileptic syndromes with seizures of localized onset
+G40.1,Localization-related (focal)(partial) symptomatic epilepsy and epileptic syndromes with simple partial seizures
+G40.2,Localization-related (focal)(partial) symptomatic epilepsy and epileptic syndromes with complex partial seizures
+G40.3,Generalized idiopathic epilepsy and epileptic syndromes
+G40.5,Special epileptic syndromes
+G40.6,"Grand mal seizures, unspecified (with or without petit mal)"
+G40.7,"Petit mal, unspecified, without grand mal seizures"
+G40.9,"Epilepsy, unspecified"
+G41,Status epilepticus
+G41.0,Grand mal status epilepticus
+G43,Migraine
+G43.0,Migraine without aura [common migraine]
+G43.1,Migraine with aura [classical migraine]
+G43.9,"Migraine, unspecified"
+G44,Other headache syndromes
+G44.1,"Vascular headache, not elsewhere classified"
+G44.2,Tension-type headache
+G44.4,"Drug-induced headache, not elsewhere classified"
+G44.8,Other specified headache syndromes
+G45,Transient cerebral ischaemic attacks and related syndromes
+G45.4,Transient global amnesia
+G45.9,"Transient cerebral ischaemic attack, unspecified"
+G46,Vascular syndromes of brain in cerebrovascular diseases
+G46.0,Middle cerebral artery syndrome
+G46.8,Other vascular syndromes of brain in cerebrovascular diseases
+G47,Sleep disorders
+G47.0,Disorders of initiating and maintaining sleep [insomnias]
+G47.2,Disorders of the sleep-wake schedule
+G47.8,Other sleep disorders
+G47.9,"Sleep disorder, unspecified"
+G50,Disorders of trigeminal nerve
+G50.0,Trigeminal neuralgia
+G50.1,Atypical facial pain
+G50.8,Other disorders of trigeminal nerve
+G51,Facial nerve disorders
+G51.0,Bell palsy
+G51.3,Clonic hemifacial spasm
+G51.4,Facial myokymia
+G51.8,Other disorders of facial nerve
+G52,Disorders of other cranial nerves
+G52.8,Disorders of other specified cranial nerves
+G53,Cranial nerve disorders in diseases classified elsewhere
+G53.0,Postzoster neuralgia
+G54,Nerve root and plexus disorders
+G54.1,Lumbosacral plexus disorders
+G54.2,"Cervical root disorders, not elsewhere classified"
+G54.3,"Thoracic root disorders, not elsewhere classified"
+G54.4,"Lumbosacral root disorders, not elsewhere classified"
+G54.8,Other nerve root and plexus disorders
+G54.9,"Nerve root and plexus disorder, unspecified"
+G56,Mononeuropathies of upper limb
+G56.0,Carpal tunnel syndrome
+G56.2,Lesion of ulnar nerve
+G57,Mononeuropathies of lower limb
+G57.2,Lesion of femoral nerve
+G57.8,Other mononeuropathies of lower limb
+G58,Other mononeuropathies
+G58.0,Intercostal neuropathy
+G58.9,"Mononeuropathy, unspecified"
+G60,Hereditary and idiopathic neuropathy
+G60.0,Hereditary motor and sensory neuropathy
+G60.8,Other hereditary and idiopathic neuropathies
+G61,Inflammatory polyneuropathy
+G61.8,Other inflammatory polyneuropathies
+G61.9,"Inflammatory polyneuropathy, unspecified"
+G62,Other polyneuropathies
+G62.8,Other specified polyneuropathies
+G62.9,"Polyneuropathy, unspecified"
+G63,Polyneuropathy in diseases classified elsewhere
+G63.0,Polyneuropathy in infectious and parasitic diseases classified elsewhere
+G63.1,Polyneuropathy in neoplastic disease
+G63.2,Diabetic polyneuropathy
+G64,Other disorders of peripheral nervous system
+G70,Myasthenia gravis and other myoneural disorders
+G70.0,Myasthenia gravis
+G70.9,"Myoneural disorder, unspecified"
+G71,Primary disorders of muscles
+G73,Disorders of myoneural junction and muscle in diseases classified elsewhere
+G73.3,Myasthenic syndromes in other diseases classified elsewhere
+G80,Cerebral palsy
+G81,Hemiplegia
+G81.1,Spastic hemiplegia
+G90,Disorders of autonomic nervous system
+G90.0,Idiopathic peripheral autonomic neuropathy
+G90.2,Horner syndrome
+G90.8,Other disorders of autonomic nervous system
+G90.9,"Disorder of autonomic nervous system, unspecified"
+G93,Other disorders of brain
+G93.4,"Encephalopathy, unspecified"
+G93.8,Other specified disorders of brain
+G95,Other diseases of spinal cord
+G96,Other disorders of central nervous system
+G96.8,Other specified disorders of central nervous system
+G96.9,"Disorder of central nervous system, unspecified"
+G98,"Other disorders of nervous system, not elsewhere classified"
+H10,Conjunctivitis
+H10.3,"Acute conjunctivitis, unspecified"
+H10.4,Chronic conjunctivitis
+H10.5,Blepharoconjunctivitis
+H10.8,Other conjunctivitis
+H10.9,"Conjunctivitis, unspecified"
+H11,Other disorders of conjunctiva
+H11.4,Other conjunctival vascular disorders and cysts
+H11.9,"Disorder of conjunctiva, unspecified"
+H18,Other disorders of cornea
+H18.4,Corneal degeneration
+H25,Senile cataract
+H25.0,Senile incipient cataract
+H25.1,Senile nuclear cataract
+H26,Other cataract
+H26.2,Complicated cataract
+H30,Chorioretinal inflammation
+H30.8,Other chorioretinal inflammations
+H35,Other retinal disorders
+H35.0,Background retinopathy and retinal vascular changes
+H40,Glaucoma
+H40.0,Glaucoma suspect
+H44,Disorders of globe
+H44.9,"Disorder of globe, unspecified"
+H47,Other disorders of optic [2nd] nerve and visual pathways
+H47.1,"Papilloedema, unspecified"
+H52,Disorders of refraction and accommodation
+H52.0,Hypermetropia
+H52.1,Myopia
+H52.2,Astigmatism
+H52.4,Presbyopia
+H60,Otitis externa
+H60.3,Other infective otitis externa
+H60.9,"Otitis externa, unspecified"
+H61,Other disorders of external ear
+H61.2,Impacted cerumen
+H61.9,"Disorder of external ear, unspecified"
+H62,Disorders of external ear in diseases classified elsewhere
+H62.2,Otitis externa in mycoses
+H65,Nonsuppurative otitis media
+H65.0,Acute serous otitis media
+H65.1,Other acute nonsuppurative otitis media
+H66,Suppurative and unspecified otitis media
+H66.1,Chronic tubotympanic suppurative otitis media
+H74,Other disorders of middle ear and mastoid
+H74.1,Adhesive middle ear disease
+H81,Disorders of vestibular function
+H81.0,Ménière disease
+H81.1,Benign paroxysmal vertigo
+H81.3,Other peripheral vertigo
+H81.4,Vertigo of central origin
+H81.8,Other disorders of vestibular function
+H81.9,"Disorder of vestibular function, unspecified"
+H83,Other diseases of inner ear
+H83.3,Noise effects on inner ear
+H90,Conductive and sensorineural hearing loss
+H90.3,"Sensorineural hearing loss, bilateral"
+H90.4,"Sensorineural hearing loss, unilateral with unrestricted hearing on the contralateral side"
+H90.8,"Mixed conductive and sensorineural hearing loss, unspecified"
+H93,"Other disorders of ear, not elsewhere classified"
+H93.1,Tinnitus
+I05,Rheumatic mitral valve diseases
+I05.0,Mitral stenosis
+I08,Multiple valve diseases
+I08.1,Disorders of both mitral and tricuspid valves
+I10,Essential (primary) hypertension
+I11,Hypertensive heart disease
+I11.0,Hypertensive heart disease with (congestive) heart failure
+I11.9,Hypertensive heart disease without (congestive) heart failure
+I15,Secondary hypertension
+I15.9,"Secondary hypertension, unspecified"
+I20,Angina pectoris
+I20.0,Unstable angina
+I20.8,Other forms of angina pectoris
+I20.9,"Angina pectoris, unspecified"
+I24,Other acute ischaemic heart diseases
+I24.9,"Acute ischaemic heart disease, unspecified"
+I25,Chronic ischaemic heart disease
+I25.2,Old myocardial infarction
+I25.8,Other forms of chronic ischaemic heart disease
+I25.9,"Chronic ischaemic heart disease, unspecified"
+I26,Pulmonary embolism
+I26.9,Pulmonary embolism without mention of acute cor pulmonale
+I35,Nonrheumatic aortic valve disorders
+I35.0,Aortic (valve) stenosis
+I42,Cardiomyopathy
+I42.8,Other cardiomyopathies
+I42.9,"Cardiomyopathy, unspecified"
+I47,Paroxysmal tachycardia
+I47.9,"Paroxysmal tachycardia, unspecified"
+I48,Atrial fibrillation and flutter
+I48.0,Paroxysmal atrial fibrillation
+I48.9,"Atrial fibrillation and atrial flutter, unspecified"
+I49,Other cardiac arrhythmias
+I49.0,Ventricular fibrillation and flutter
+I49.3,Ventricular premature depolarization
+I49.8,Other specified cardiac arrhythmias
+I49.9,"Cardiac arrhythmia, unspecified"
+I51,Complications and ill-defined descriptions of heart disease
+I51.4,"Myocarditis, unspecified"
+I63,Cerebral infarction
+I63.5,Cerebral infarction due to unspecified occlusion or stenosis of cerebral arteries
+I65,"Occlusion and stenosis of precerebral arteries, not resulting in cerebral infarction"
+I65.0,Occlusion and stenosis of vertebral artery
+I67,Other cerebrovascular diseases
+I67.8,Other specified cerebrovascular diseases
+I67.9,"Cerebrovascular disease, unspecified"
+I68,Cerebrovascular disorders in diseases classified elsewhere
+I68.8,Other cerebrovascular disorders in diseases classified elsewhere
+I69,Sequelae of cerebrovascular disease
+I69.3,Sequelae of cerebral infarction
+I69.4,"Sequelae of stroke, not specified as haemorrhage or infarction"
+I69.8,Sequelae of other and unspecified cerebrovascular diseases
+I70,Atherosclerosis
+I70.2,Atherosclerosis of arteries of extremities
+I70.8,Atherosclerosis of other arteries
+I73,Other peripheral vascular diseases
+I73.0,Raynaud syndrome
+I74,Arterial embolism and thrombosis
+I74.2,Embolism and thrombosis of arteries of upper extremities
+I74.9,Embolism and thrombosis of unspecified artery
+I77,Other disorders of arteries and arterioles
+I77.8,Other specified disorders of arteries and arterioles
+I78,Diseases of capillaries
+I78.1,"Naevus, non-neoplastic"
+I79,"Disorders of arteries, arterioles and capillaries in diseases classified elsewhere"
+I79.2,Peripheral angiopathy in diseases classified elsewhere
+I80,Phlebitis and thrombophlebitis
+I80.2,Phlebitis and thrombophlebitis of other deep vessels of lower extremities
+I82,Other venous embolism and thrombosis
+I82.8,Embolism and thrombosis of other specified veins
+I83,Varicose veins of lower extremities
+I83.9,Varicose veins of lower extremities without ulcer or inflammation
+I86,Varicose veins of other sites
+I86.1,Scrotal varices
+I86.2,Pelvic varices
+I86.8,Varicose veins of other specified sites
+I87,Other disorders of veins
+I87.2,Venous insufficiency (chronic)(peripheral)
+I87.8,Other specified disorders of veins
+I88,Nonspecific lymphadenitis
+I88.8,Other nonspecific lymphadenitis
+I88.9,"Nonspecific lymphadenitis, unspecified"
+I89,Other noninfective disorders of lymphatic vessels and lymph nodes
+I89.9,"Noninfective disorder of lymphatic vessels and lymph nodes, unspecified"
+I95,Hypotension
+I99,Other and unspecified disorders of circulatory system
+J00,Acute nasopharyngitis [common cold]
+J01,Acute sinusitis
+J01.0,Acute maxillary sinusitis
+J01.9,"Acute sinusitis, unspecified"
+J02,Acute pharyngitis
+J02.9,"Acute pharyngitis, unspecified"
+J03,Acute tonsillitis
+J03.9,"Acute tonsillitis, unspecified"
+J04,Acute laryngitis and tracheitis
+J04.0,Acute laryngitis
+J04.2,Acute laryngotracheitis
+J06,Acute upper respiratory infections of multiple and unspecified sites
+J06.0,Acute laryngopharyngitis
+J06.8,Other acute upper respiratory infections of multiple sites
+J06.9,"Acute upper respiratory infection, unspecified"
+J11,"Influenza, virus not identified"
+J11.8,"Influenza with other manifestations, virus not identified"
+J12,"Viral pneumonia, not elsewhere classified"
+J12.9,"Viral pneumonia, unspecified"
+J18,"Pneumonia, organism unspecified"
+J18.8,"Other pneumonia, organism unspecified"
+J18.9,"Pneumonia, unspecified"
+J20,Acute bronchitis
+J20.9,"Acute bronchitis, unspecified"
+J22,Unspecified acute lower respiratory infection
+J30,Vasomotor and allergic rhinitis
+J30.0,Vasomotor rhinitis
+J30.1,Allergic rhinitis due to pollen
+J30.3,Other allergic rhinitis
+J30.4,"Allergic rhinitis, unspecified"
+J31,"Chronic rhinitis, nasopharyngitis and pharyngitis"
+J31.0,Chronic rhinitis
+J31.1,Chronic nasopharyngitis
+J31.2,Chronic pharyngitis
+J32,Chronic sinusitis
+J32.0,Chronic maxillary sinusitis
+J32.9,"Chronic sinusitis, unspecified"
+J34,Other disorders of nose and nasal sinuses
+J34.1,Cyst and mucocele of nose and nasal sinus
+J34.2,Deviated nasal septum
+J34.8,Other specified disorders of nose and nasal sinuses
+J35,Chronic diseases of tonsils and adenoids
+J35.0,Chronic tonsillitis
+J35.3,Hypertrophy of tonsils with hypertrophy of adenoids
+J35.8,Other chronic diseases of tonsils and adenoids
+J35.9,"Chronic disease of tonsils and adenoids, unspecified"
+J37,Chronic laryngitis and laryngotracheitis
+J37.0,Chronic laryngitis
+J39,Other diseases of upper respiratory tract
+J39.3,"Upper respiratory tract hypersensitivity reaction, site unspecified"
+J39.8,Other specified diseases of upper respiratory tract
+J40,"Bronchitis, not specified as acute or chronic"
+J41,Simple and mucopurulent chronic bronchitis
+J41.0,Simple chronic bronchitis
+J41.1,Mucopurulent chronic bronchitis
+J42,Unspecified chronic bronchitis
+J44,Other chronic obstructive pulmonary disease
+J44.0,Chronic obstructive pulmonary disease with acute lower respiratory infection
+J44.8,Other specified chronic obstructive pulmonary disease
+J44.9,"Chronic obstructive pulmonary disease, unspecified"
+J45,Asthma
+J45.0,Predominantly allergic asthma
+J45.1,Nonallergic asthma
+J45.8,Mixed asthma
+J45.9,"Asthma, unspecified"
+J47,Bronchiectasis
+J84,Other interstitial pulmonary diseases
+J84.1,Other interstitial pulmonary diseases with fibrosis
+J84.8,Other specified interstitial pulmonary diseases
+J84.9,"Interstitial pulmonary disease, unspecified"
+J85,Abscess of lung and mediastinum
+J85.1,Abscess of lung with pneumonia
+J98,Other respiratory disorders
+J98.9,"Respiratory disorder, unspecified"
+K05,Gingivitis and periodontal diseases
+K05.0,Acute gingivitis
+K07,Dentofacial anomalies [including malocclusion]
+K07.6,Temporomandibular joint disorders
+K10,Other diseases of jaws
+K10.9,"Disease of jaws, unspecified"
+K12,Stomatitis and related lesions
+K12.0,Recurrent oral aphthae
+K21,Gastro-oesophageal reflux disease
+K21.0,Gastro-oesophageal reflux disease with oesophagitis
+K21.9,Gastro-oesophageal reflux disease without oesophagitis
+K25,Gastric ulcer
+K25.7,Gastric ulcer : chronic without haemorrhage or perforation
+K26,Duodenal ulcer
+K26.3,Duodenal ulcer : acute without haemorrhage or perforation
+K26.4,Duodenal ulcer : chronic or unspecified with haemorrhage
+K26.5,Duodenal ulcer : chronic or unspecified with perforation
+K26.7,Duodenal ulcer : chronic without haemorrhage or perforation
+K26.9,"Duodenal ulcer : unspecified as acute or chronic, without haemorrhage or perforation"
+K29,Gastritis and duodenitis
+K29.0,Acute haemorrhagic gastritis
+K29.3,Chronic superficial gastritis
+K29.4,Chronic atrophic gastritis
+K29.5,"Chronic gastritis, unspecified"
+K29.6,Other gastritis
+K29.7,"Gastritis, unspecified"
+K29.8,Duodenitis
+K29.9,"Gastroduodenitis, unspecified"
+K30,Functional dyspepsia
+K31,Other diseases of stomach and duodenum
+K31.7,Polyp of stomach and duodenum
+K31.8,Other specified diseases of stomach and duodenum
+K35,Acute appendicitis
+K35.3,Acute appendicitis with localized peritonitis
+K35.8,"Acute appendicitis, other and unspecified"
+K36,Other appendicitis
+K40,Inguinal hernia
+K40.0,"Bilateral inguinal hernia, with obstruction, without gangrene"
+K40.2,"Bilateral inguinal hernia, without obstruction or gangrene"
+K40.9,"Unilateral or unspecified inguinal hernia, without obstruction or gangrene"
+K42,Umbilical hernia
+K42.9,Umbilical hernia without obstruction or gangrene
+K43,Ventral hernia
+K43.0,"Incisional hernia with obstruction, without gangrene"
+K43.2,Incisional hernia without obstruction or gangrene
+K43.9,Other and unspecified ventral hernia without obstruction or gangrene
+K44,Diaphragmatic hernia
+K44.9,Diaphragmatic hernia without obstruction or gangrene
+K50,Crohn disease [regional enteritis]
+K50.0,Crohn disease of small intestine
+K50.1,Crohn disease of large intestine
+K50.9,"Crohn disease, unspecified"
+K51,Ulcerative colitis
+K51.0,Ulcerative (chronic) pancolitis
+K51.2,Ulcerative (chronic) proctitis
+K51.3,Ulcerative (chronic) rectosigmoiditis
+K51.9,"Ulcerative colitis, unspecified"
+K52,Other noninfective gastroenteritis and colitis
+K52.3,Indeterminate colitis
+K52.9,"Noninfective gastroenteritis and colitis, unspecified"
+K57,Diverticular disease of intestine
+K57.1,Diverticular disease of small intestine without perforation or abscess
+K57.2,Diverticular disease of large intestine with perforation and abscess
+K57.3,Diverticular disease of large intestine without perforation or abscess
+K58,Irritable bowel syndrome
+K59,Other functional intestinal disorders
+K59.0,Constipation
+K59.3,"Megacolon, not elsewhere classified"
+K59.8,Other specified functional intestinal disorders
+K60,Fissure and fistula of anal and rectal regions
+K60.0,Acute anal fissure
+K60.1,Chronic anal fissure
+K62,Other diseases of anus and rectum
+K62.1,Rectal polyp
+K63,Other diseases of intestine
+K63.4,Enteroptosis
+K64,Haemorrhoids and perianal venous thrombosis
+K64.1,Second degree haemorrhoids
+K64.8,Other specified haemorrhoids
+K66,Other disorders of peritoneum
+K66.0,Peritoneal adhesions
+K73,"Chronic hepatitis, not elsewhere classified"
+K73.9,"Chronic hepatitis, unspecified"
+K74,Fibrosis and cirrhosis of liver
+K74.6,Other and unspecified cirrhosis of liver
+K76,Other diseases of liver
+K76.8,Other specified diseases of liver
+K76.9,"Liver disease, unspecified"
+K80,Cholelithiasis
+K80.1,Calculus of gallbladder with other cholecystitis
+K80.4,Calculus of bile duct with cholecystitis
+K80.5,Calculus of bile duct without cholangitis or cholecystitis
+K80.8,Other cholelithiasis
+K81,Cholecystitis
+K81.0,Acute cholecystitis
+K81.1,Chronic cholecystitis
+K81.8,Other cholecystitis
+K81.9,"Cholecystitis, unspecified"
+K82,Other diseases of gallbladder
+K82.8,Other specified diseases of gallbladder
+K83,Other diseases of biliary tract
+K83.0,Cholangitis
+K83.9,"Disease of biliary tract, unspecified"
+K86,Other diseases of pancreas
+K86.1,Other chronic pancreatitis
+K92,Other diseases of digestive system
+K92.9,"Disease of digestive system, unspecified"
+L01,Impetigo
+L01.0,Impetigo [any organism] [any site]
+L02,"Cutaneous abscess, furuncle and carbuncle"
+L02.1,"Cutaneous abscess, furuncle and carbuncle of neck"
+L02.2,"Cutaneous abscess, furuncle and carbuncle of trunk"
+L02.4,"Cutaneous abscess, furuncle and carbuncle of limb"
+L02.8,"Cutaneous abscess, furuncle and carbuncle of other sites"
+L03,Cellulitis
+L03.0,Cellulitis of finger and toe
+L04,Acute lymphadenitis
+L04.0,"Acute lymphadenitis of face, head and neck"
+L04.2,Acute lymphadenitis of upper limb
+L05,Pilonidal cyst
+L05.9,Pilonidal cyst without abscess
+L08,Other local infections of skin and subcutaneous tissue
+L08.0,Pyoderma
+L08.8,Other specified local infections of skin and subcutaneous tissue
+L08.9,"Local infection of skin and subcutaneous tissue, unspecified"
+L11,Other acantholytic disorders
+L11.0,Acquired keratosis follicularis
+L13,Other bullous disorders
+L13.9,"Bullous disorder, unspecified"
+L20,Atopic dermatitis
+L20.8,Other atopic dermatitis
+L20.9,"Atopic dermatitis, unspecified"
+L21,Seborrhoeic dermatitis
+L21.0,Seborrhoea capitis
+L21.8,Other seborrhoeic dermatitis
+L21.9,"Seborrhoeic dermatitis, unspecified"
+L22,Diaper [napkin] dermatitis
+L23,Allergic contact dermatitis
+L23.3,Allergic contact dermatitis due to drugs in contact with skin
+L23.5,Allergic contact dermatitis due to other chemical products
+L23.7,"Allergic contact dermatitis due to plants, except food"
+L23.8,Allergic contact dermatitis due to other agents
+L23.9,"Allergic contact dermatitis, unspecified cause"
+L24,Irritant contact dermatitis
+L24.9,"Irritant contact dermatitis, unspecified cause"
+L25,Unspecified contact dermatitis
+L25.3,Unspecified contact dermatitis due to other chemical products
+L25.5,"Unspecified contact dermatitis due to plants, except food"
+L25.9,"Unspecified contact dermatitis, unspecified cause"
+L27,Dermatitis due to substances taken internally
+L27.9,Dermatitis due to unspecified substance taken internally
+L28,Lichen simplex chronicus and prurigo
+L28.2,Other prurigo
+L30,Other dermatitis
+L30.0,Nummular dermatitis
+L30.3,Infective dermatitis
+L30.8,Other specified dermatitis
+L30.9,"Dermatitis, unspecified"
+L40,Psoriasis
+L40.0,Psoriasis vulgaris
+L40.4,Guttate psoriasis
+L40.5,Arthropathic psoriasis
+L40.8,Other psoriasis
+L40.9,"Psoriasis, unspecified"
+L41,Parapsoriasis
+L41.3,Small plaque parapsoriasis
+L42,Pityriasis rosea
+L43,Lichen planus
+L43.8,Other lichen planus
+L43.9,"Lichen planus, unspecified"
+L50,Urticaria
+L50.0,Allergic urticaria
+L50.1,Idiopathic urticaria
+L50.6,Contact urticaria
+L50.9,"Urticaria, unspecified"
+L52,Erythema nodosum
+L60,Nail disorders
+L60.0,Ingrowing nail
+L60.3,Nail dystrophy
+L60.8,Other nail disorders
+L63,Alopecia areata
+L63.1,Alopecia universalis
+L63.8,Other alopecia areata
+L63.9,"Alopecia areata, unspecified"
+L64,Androgenic alopecia
+L64.8,Other androgenic alopecia
+L64.9,"Androgenic alopecia, unspecified"
+L65,Other nonscarring hair loss
+L65.0,Telogen effluvium
+L66,Cicatricial alopecia [scarring hair loss]
+L66.9,"Cicatricial alopecia, unspecified"
+L70,Acne
+L70.0,Acne vulgaris
+L70.8,Other acne
+L70.9,"Acne, unspecified"
+L71,Rosacea
+L71.0,Perioral dermatitis
+L71.8,Other rosacea
+L71.9,"Rosacea, unspecified"
+L72,Follicular cysts of skin and subcutaneous tissue
+L72.8,Other follicular cysts of skin and subcutaneous tissue
+L73,Other follicular disorders
+L73.0,Acne keloid
+L73.8,Other specified follicular disorders
+L82,Seborrhoeic keratosis
+L85,Other epidermal thickening
+L85.1,Acquired keratosis [keratoderma] palmaris et plantaris
+L85.3,Xerosis cutis
+L92,Granulomatous disorders of skin and subcutaneous tissue
+L92.1,"Necrobiosis lipoidica, not elsewhere classified"
+L92.3,Foreign body granuloma of skin and subcutaneous tissue
+L94,Other localized connective tissue disorders
+L94.0,Localized scleroderma [morphea]
+L94.9,"Localized connective tissue disorder, unspecified"
+L95,"Vasculitis limited to skin, not elsewhere classified"
+L95.0,Livedoid vasculitis
+L98,"Other disorders of skin and subcutaneous tissue, not elsewhere classified"
+L98.8,Other specified disorders of skin and subcutaneous tissue
+L98.9,"Disorder of skin and subcutaneous tissue, unspecified"
+L99,Other disorders of skin and subcutaneous tissue in diseases classified elsewhere
+L99.8,Other specified disorders of skin and subcutaneous tissue in diseases classified elsewhere
+M02,Reactive arthropathies
+M02.8,Other reactive arthropathies
+M02.9,"Reactive arthropathy, unspecified"
+M05,Seropositive rheumatoid arthritis
+M05.3,Rheumatoid arthritis with involvement of other organs and systems
+M05.8,Other seropositive rheumatoid arthritis
+M06,Other rheumatoid arthritis
+M06.0,Seronegative rheumatoid arthritis
+M06.4,Inflammatory polyarthropathy
+M06.9,"Rheumatoid arthritis, unspecified"
+M08,Juvenile arthritis
+M08.2,Juvenile arthritis with systemic onset
+M10,Gout
+M10.0,Idiopathic gout
+M10.9,"Gout, unspecified"
+M12,Other specific arthropathies
+M12.8,"Other specific arthropathies, not elsewhere classified"
+M13,Other arthritis
+M13.0,"Polyarthritis, unspecified"
+M13.1,"Monoarthritis, not elsewhere classified"
+M13.9,"Arthritis, unspecified"
+M14,Arthropathies in other diseases classified elsewhere
+M14.8,Arthropathies in other specified diseases classified elsewhere
+M15,Polyarthrosis
+M15.0,Primary generalized (osteo)arthrosis
+M15.1,Heberden nodes (with arthropathy)
+M15.8,Other polyarthrosis
+M15.9,"Polyarthrosis, unspecified"
+M16,Coxarthrosis [arthrosis of hip]
+M16.0,"Primary coxarthrosis, bilateral"
+M16.1,Other primary coxarthrosis
+M16.2,"Coxarthrosis resulting from dysplasia, bilateral"
+M16.3,Other dysplastic coxarthrosis
+M16.6,"Other secondary coxarthrosis, bilateral"
+M16.7,Other secondary coxarthrosis
+M17,Gonarthrosis [arthrosis of knee]
+M17.0,"Primary gonarthrosis, bilateral"
+M17.1,Other primary gonarthrosis
+M17.2,"Post-traumatic gonarthrosis, bilateral"
+M17.3,Other post-traumatic gonarthrosis
+M17.4,"Other secondary gonarthrosis, bilateral"
+M17.5,Other secondary gonarthrosis
+M17.9,"Gonarthrosis, unspecified"
+M19,Other arthrosis
+M19.0,Primary arthrosis of other joints
+M19.1,Post-traumatic arthrosis of other joints
+M19.2,Other secondary arthrosis
+M19.8,Other specified arthrosis
+M19.9,"Arthrosis, unspecified"
+M21,Other acquired deformities of limbs
+M21.4,Flat foot [pes planus] (acquired)
+M23,Internal derangement of knee
+M23.5,Chronic instability of knee
+M25,"Other joint disorders, not elsewhere classified"
+M25.5,Pain in joint
+M25.9,"Joint disorder, unspecified"
+M30,Polyarteritis nodosa and related conditions
+M30.0,Polyarteritis nodosa
+M31,Other necrotizing vasculopathies
+M31.8,Other specified necrotizing vasculopathies
+M32,Systemic lupus erythematosus
+M32.0,Drug-induced systemic lupus erythematosus
+M32.1,Systemic lupus erythematosus with organ or system involvement
+M32.9,"Systemic lupus erythematosus, unspecified"
+M33,Dermatopolymyositis
+M33.1,Other dermatomyositis
+M34,Systemic sclerosis
+M34.0,Progressive systemic sclerosis
+M34.1,CR(E)ST syndrome
+M35,Other systemic involvement of connective tissue
+M35.0,Sicca syndrome [Sjögren]
+M35.1,Other overlap syndromes
+M35.2,Behçet disease
+M35.3,Polymyalgia rheumatica
+M35.7,Hypermobility syndrome
+M41,Scoliosis
+M41.2,Other idiopathic scoliosis
+M42,Spinal osteochondrosis
+M42.1,Adult osteochondrosis of spine
+M42.9,"Spinal osteochondrosis, unspecified"
+M43,Other deforming dorsopathies
+M43.9,"Deforming dorsopathy, unspecified"
+M45,Ankylosing spondylitis
+M46,Other inflammatory spondylopathies
+M46.1,"Sacroiliitis, not elsewhere classified"
+M46.8,Other specified inflammatory spondylopathies
+M46.9,"Inflammatory spondylopathy, unspecified"
+M48,Other spondylopathies
+M48.0,Spinal stenosis
+M49,Spondylopathies in diseases classified elsewhere
+M50,Cervical disc disorders
+M50.1,Cervical disc disorder with radiculopathy
+M50.2,Other cervical disc displacement
+M50.8,Other cervical disc disorders
+M51,Other intervertebral disc disorders
+M51.1,Lumbar and other intervertebral disc disorders with radiculopathy
+M51.2,Other specified intervertebral disc displacement
+M51.3,Other specified intervertebral disc degeneration
+M51.8,Other specified intervertebral disc disorders
+M53,"Other dorsopathies, not elsewhere classified"
+M53.0,Cervicocranial syndrome
+M53.1,Cervicobrachial syndrome
+M53.9,"Dorsopathy, unspecified"
+M54,Dorsalgia
+M54.1,Radiculopathy
+M54.2,Cervicalgia
+M54.3,Sciatica
+M54.4,Lumbago with sciatica
+M54.5,Low back pain
+M54.6,Pain in thoracic spine
+M54.8,Other dorsalgia
+M54.9,"Dorsalgia, unspecified"
+M60,Myositis
+M60.9,"Myositis, unspecified"
+M62,Other disorders of muscle
+M62.8,Other specified disorders of muscle
+M65,Synovitis and tenosynovitis
+M65.3,Trigger finger
+M65.8,Other synovitis and tenosynovitis
+M65.9,"Synovitis and tenosynovitis, unspecified"
+M67,Other disorders of synovium and tendon
+M67.8,Other specified disorders of synovium and tendon
+M70,"Soft tissue disorders related to use, overuse and pressure"
+M70.2,Olecranon bursitis
+M70.3,Other bursitis of elbow
+M70.5,Other bursitis of knee
+M70.9,"Unspecified soft tissue disorder related to use, overuse and pressure"
+M71,Other bursopathies
+M71.3,Other bursal cyst
+M71.8,Other specified bursopathies
+M72,Fibroblastic disorders
+M72.0,Palmar fascial fibromatosis [Dupuytren]
+M75,Shoulder lesions
+M75.0,Adhesive capsulitis of shoulder
+M75.8,Other shoulder lesions
+M75.9,"Shoulder lesion, unspecified"
+M76,"Enthesopathies of lower limb, excluding foot"
+M76.6,Achilles tendinitis
+M77,Other enthesopathies
+M77.1,Lateral epicondylitis
+M77.3,Calcaneal spur
+M77.4,Metatarsalgia
+M79,"Other soft tissue disorders, not elsewhere classified"
+M79.1,Myalgia
+M79.2,"Neuralgia and neuritis, unspecified"
+M80,Osteoporosis with pathological fracture
+M80.0,Postmenopausal osteoporosis with pathological fracture
+M80.9,Unspecified osteoporosis with pathological fracture
+M81,Osteoporosis without pathological fracture
+M81.0,Postmenopausal osteoporosis
+M81.9,"Osteoporosis, unspecified"
+M82,Osteoporosis in diseases classified elsewhere
+M86,Osteomyelitis
+M89,Other disorders of bone
+M89.8,Other specified disorders of bone
+M94,Other disorders of cartilage
+M94.0,Chondrocostal junction syndrome [Tietze]
+M95,Other acquired deformities of musculoskeletal system and connective tissue
+M95.9,"Acquired deformity of musculoskeletal system, unspecified"
+M99,"Biomechanical lesions, not elsewhere classified"
+M99.9,"Biomechanical lesion, unspecified"
+N10,Acute tubulo-interstitial nephritis
+N11,Chronic tubulo-interstitial nephritis
+N11.1,Chronic obstructive pyelonephritis
+N11.8,Other chronic tubulo-interstitial nephritis
+N11.9,"Chronic tubulo-interstitial nephritis, unspecified"
+N12,"Tubulo-interstitial nephritis, not specified as acute or chronic"
+N13,Obstructive and reflux uropathy
+N13.1,"Hydronephrosis with ureteral stricture, not elsewhere classified"
+N18,Chronic kidney disease
+N18.2,"Chronic kidney disease, stage 2"
+N18.5,"Chronic kidney disease, stage 5"
+N20,Calculus of kidney and ureter
+N20.0,Calculus of kidney
+N20.1,Calculus of ureter
+N20.9,"Urinary calculus, unspecified"
+N23,Unspecified renal colic
+N28,"Other disorders of kidney and ureter, not elsewhere classified"
+N28.1,Cyst of kidney
+N28.8,Other specified disorders of kidney and ureter
+N28.9,"Disorder of kidney and ureter, unspecified"
+N30,Cystitis
+N30.0,Acute cystitis
+N30.2,Other chronic cystitis
+N30.8,Other cystitis
+N30.9,"Cystitis, unspecified"
+N31,"Neuromuscular dysfunction of bladder, not elsewhere classified"
+N31.8,Other neuromuscular dysfunction of bladder
+N32,Other disorders of bladder
+N32.8,Other specified disorders of bladder
+N34,Urethritis and urethral syndrome
+N34.1,Nonspecific urethritis
+N34.2,Other urethritis
+N34.3,"Urethral syndrome, unspecified"
+N35,Urethral stricture
+N35.0,Post-traumatic urethral stricture
+N35.9,"Urethral stricture, unspecified"
+N36,Other disorders of urethra
+N36.2,Urethral caruncle
+N39,Other disorders of urinary system
+N39.0,"Urinary tract infection, site not specified"
+N39.4,Other specified urinary incontinence
+N40,Hyperplasia of prostate
+N41,Inflammatory diseases of prostate
+N41.0,Acute prostatitis
+N41.1,Chronic prostatitis
+N43,Hydrocele and spermatocele
+N43.2,Other hydrocele
+N43.3,"Hydrocele, unspecified"
+N45,Orchitis and epididymitis
+N45.9,"Orchitis, epididymitis and epididymo-orchitis without abscess"
+N47,"Redundant prepuce, phimosis and paraphimosis"
+N48,Other disorders of penis
+N48.1,Balanoposthitis
+N48.2,Other inflammatory disorders of penis
+N48.9,"Disorder of penis, unspecified"
+N49,"Inflammatory disorders of male genital organs, not elsewhere classified"
+N50,Other disorders of male genital organs
+N50.8,Other specified disorders of male genital organs
+N51,Disorders of male genital organs in diseases classified elsewhere
+N51.2,Balanitis in diseases classified elsewhere
+N60,Benign mammary dysplasia
+N60.1,Diffuse cystic mastopathy
+N62,Hypertrophy of breast
+N63,Unspecified lump in breast
+N70,Salpingitis and oophoritis
+N70.0,Acute salpingitis and oophoritis
+N70.1,Chronic salpingitis and oophoritis
+N71,"Inflammatory disease of uterus, except cervix"
+N71.1,Chronic inflammatory disease of uterus
+N72,Inflammatory disease of cervix uteri
+N73,Other female pelvic inflammatory diseases
+N73.3,Female acute pelvic peritonitis
+N73.6,Female pelvic peritoneal adhesions
+N76,Other inflammation of vagina and vulva
+N76.0,Acute vaginitis
+N76.1,Subacute and chronic vaginitis
+N76.2,Acute vulvitis
+N76.3,Subacute and chronic vulvitis
+N76.8,Other specified inflammation of vagina and vulva
+N80,Endometriosis
+N80.0,Endometriosis of uterus
+N80.1,Endometriosis of ovary
+N80.4,Endometriosis of rectovaginal septum and vagina
+N81,Female genital prolapse
+N81.1,Cystocele
+N81.2,Incomplete uterovaginal prolapse
+N81.3,Complete uterovaginal prolapse
+N81.4,"Uterovaginal prolapse, unspecified"
+N81.6,Rectocele
+N82,Fistulae involving female genital tract
+N83,"Noninflammatory disorders of ovary, fallopian tube and broad ligament"
+N83.0,Follicular cyst of ovary
+N83.1,Corpus luteum cyst
+N83.2,Other and unspecified ovarian cysts
+N84,Polyp of female genital tract
+N84.0,Polyp of corpus uteri
+N84.1,Polyp of cervix uteri
+N85,"Other noninflammatory disorders of uterus, except cervix"
+N85.0,Endometrial glandular hyperplasia
+N85.8,Other specified noninflammatory disorders of uterus
+N86,Erosion and ectropion of cervix uteri
+N87,Dysplasia of cervix uteri
+N87.0,Mild cervical dysplasia
+N87.1,Moderate cervical dysplasia
+N87.2,"Severe cervical dysplasia, not elsewhere classified"
+N87.9,"Dysplasia of cervix uteri, unspecified"
+N90,Other noninflammatory disorders of vulva and perineum
+N90.4,Leukoplakia of vulva
+N91,"Absent, scanty and rare menstruation"
+N91.1,Secondary amenorrhoea
+N91.2,"Amenorrhoea, unspecified"
+N91.4,Secondary oligomenorrhoea
+N91.5,"Oligomenorrhoea, unspecified"
+N92,"Excessive, frequent and irregular menstruation"
+N92.0,Excessive and frequent menstruation with regular cycle
+N92.1,Excessive and frequent menstruation with irregular cycle
+N92.3,Ovulation bleeding
+N92.5,Other specified irregular menstruation
+N92.6,"Irregular menstruation, unspecified"
+N93,Other abnormal uterine and vaginal bleeding
+N93.0,Postcoital and contact bleeding
+N93.8,Other specified abnormal uterine and vaginal bleeding
+N93.9,"Abnormal uterine and vaginal bleeding, unspecified"
+N94,Pain and other conditions associated with female genital organs and menstrual cycle
+N94.3,Premenstrual tension syndrome
+N94.4,Primary dysmenorrhoea
+N94.5,Secondary dysmenorrhoea
+N94.6,"Dysmenorrhoea, unspecified"
+N94.8,Other specified conditions associated with female genital organs and menstrual cycle
+N95,Menopausal and other perimenopausal disorders
+N95.0,Postmenopausal bleeding
+N95.1,Menopausal and female climacteric states
+N95.2,Postmenopausal atrophic vaginitis
+N95.9,"Menopausal and perimenopausal disorder, unspecified"
+N97,Female infertility
+N97.0,Female infertility associated with anovulation
+N97.1,Female infertility of tubal origin
+N97.4,Female infertility associated with male factors
+N97.8,Female infertility of other origin
+N97.9,"Female infertility, unspecified"
+N99,"Postprocedural disorders of genitourinary system, not elsewhere classified"
+N99.4,Postprocedural pelvic peritoneal adhesions
+O00,Ectopic pregnancy
+O00.9,"Ectopic pregnancy, unspecified"
+O20,Haemorrhage in early pregnancy
+O20.0,Threatened abortion
+O21,Excessive vomiting in pregnancy
+O21.0,Mild hyperemesis gravidarum
+O24,Diabetes mellitus in pregnancy
+O24.4,Diabetes mellitus arising in pregnancy
+O26,Maternal care for other conditions predominantly related to pregnancy
+O26.8,Other specified pregnancy-related conditions
+O26.9,"Pregnancy-related condition, unspecified"
+O99,"Other maternal diseases classifiable elsewhere but complicating pregnancy, childbirth and the puerperium"
+O99.4,"Diseases of the circulatory system complicating pregnancy, childbirth and the puerperium"
+P91,Other disturbances of cerebral status of newborn
+P91.0,Neonatal cerebral ischaemia
+Q23,Congenital malformations of aortic and mitral valves
+Q23.0,Congenital stenosis of aortic valve
+Q24,Other congenital malformations of heart
+Q24.9,"Congenital malformation of heart, unspecified"
+Q28,Other congenital malformations of circulatory system
+Q28.0,Arteriovenous malformation of precerebral vessels
+Q28.2,Arteriovenous malformation of cerebral vessels
+Q51,Congenital malformations of uterus and cervix
+Q51.8,Other congenital malformations of uterus and cervix
+Q52,Other congenital malformations of female genitalia
+Q60,Renal agenesis and other reduction defects of kidney
+Q60.2,"Renal agenesis, unspecified"
+R00,Abnormalities of heart beat
+R00.0,"Tachycardia, unspecified"
+R00.8,Other and unspecified abnormalities of heart beat
+R03,"Abnormal blood-pressure reading, without diagnosis"
+R03.0,"Elevated blood-pressure reading, without diagnosis of hypertension"
+R04,Haemorrhage from respiratory passages
+R04.2,Haemoptysis
+R06,Abnormalities of breathing
+R06.0,Dyspnoea
+R09,Other symptoms and signs involving the circulatory and respiratory systems
+R09.1,Pleurisy
+R09.8,Other specified symptoms and signs involving the circulatory and respiratory systems
+R10,Abdominal and pelvic pain
+R10.0,Acute abdomen
+R10.2,Pelvic and perineal pain
+R10.3,Pain localized to other parts of lower abdomen
+R19,Other symptoms and signs involving the digestive system and abdomen
+R19.3,Abdominal rigidity
+R23,Other skin changes
+R23.8,Other and unspecified skin changes
+R25,Abnormal involuntary movements
+R25.1,"Tremor, unspecified"
+R29,Other symptoms and signs involving the nervous and musculoskeletal systems
+R29.8,Other and unspecified symptoms and signs involving the nervous and musculoskeletal systems
+R31,Unspecified haematuria
+R32,Unspecified urinary incontinence
+R39,Other symptoms and signs involving the urinary system
+R39.1,Other difficulties with micturition
+R41,Other symptoms and signs involving cognitive functions and awareness
+R41.3,Other amnesia
+R43,Disturbances of smell and taste
+R43.0,Anosmia
+R43.8,Other and unspecified disturbances of smell and taste
+R47,"Speech disturbances, not elsewhere classified"
+R47.0,Dysphasia and aphasia
+R50,Fever of other and unknown origin
+R50.9,"Fever, unspecified"
+R51,Headache
+R52,"Pain, not elsewhere classified"
+R52.9,"Pain, unspecified"
+R55,Syncope and collapse
+R56,"Convulsions, not elsewhere classified"
+R56.8,Other and unspecified convulsions
+R60,"Oedema, not elsewhere classified"
+R63,Symptoms and signs concerning food and fluid intake
+R63.5,Abnormal weight gain
+R73,Elevated blood glucose level
+R79,Other abnormal findings of blood chemistry
+R79.8,Other specified abnormal findings of blood chemistry
+R93,Abnormal findings on diagnostic imaging of other body structures
+R93.1,Abnormal findings on diagnostic imaging of heart and coronary circulation
+R94,Abnormal results of function studies
+R94.3,Abnormal results of cardiovascular function studies
+S20,Superficial injury of thorax
+S20.2,Contusion of thorax
+S22,"Fracture of rib(s), sternum and thoracic spine"
+S22.4,Multiple fractures of ribs
+S30,"Superficial injury of abdomen, lower back and pelvis"
+S30.8,"Other superficial injuries of abdomen, lower back and pelvis"
+S42,Fracture of shoulder and upper arm
+S42.2,Fracture of upper end of humerus
+S43,"Dislocation, sprain and strain of joints and ligaments of shoulder girdle"
+S43.4,Sprain and strain of shoulder joint
+S50,Superficial injury of forearm
+S50.0,Contusion of elbow
+S61,Open wound of wrist and hand
+S61.8,Open wound of other parts of wrist and hand
+S62,Fracture at wrist and hand level
+S62.6,Fracture of other finger
+S63,"Dislocation, sprain and strain of joints and ligaments at wrist and hand level"
+S63.5,Sprain and strain of wrist
+S68,Traumatic amputation of wrist and hand
+S68.1,Traumatic amputation of other single finger (complete)(partial)
+S76,Injury of muscle and tendon at hip and thigh level
+S76.2,Injury of adductor muscle and tendon of thigh
+S80,Superficial injury of lower leg
+S80.0,Contusion of knee
+S80.1,Contusion of other and unspecified parts of lower leg
+S80.9,"Superficial injury of lower leg, unspecified"
+S83,"Dislocation, sprain and strain of joints and ligaments of knee"
+S83.2,"Tear of meniscus, current"
+S83.4,Sprain and strain involving (fibular)(tibial) collateral ligament of knee
+S83.6,Sprain and strain of other and unspecified parts of knee
+S89,Other and unspecified injuries of lower leg
+S89.9,Unspecified injury of lower leg
+S92,"Fracture of foot, except ankle"
+S92.0,Fracture of calcaneus
+S93,"Dislocation, sprain and strain of joints and ligaments at ankle and foot level"
+S93.4,Sprain and strain of ankle
+S99,Other and unspecified injuries of ankle and foot
+S99.9,Unspecified injury of ankle and foot
+T06,"Other injuries involving multiple body regions, not elsewhere classified"
+T06.8,Other specified injuries involving multiple body regions
+T14,Injury of unspecified body region
+T14.9,"Injury, unspecified"
+T22,"Burn and corrosion of shoulder and upper limb, except wrist and hand"
+T22.0,"Burn of unspecified degree of shoulder and upper limb, except wrist and hand"
+T24,"Burn and corrosion of hip and lower limb, except ankle and foot"
+T24.0,"Burn of unspecified degree of hip and lower limb, except ankle and foot"
+T26,Burn and corrosion confined to eye and adnexa
+T26.6,Corrosion of cornea and conjunctival sac
+T34,Frostbite with tissue necrosis
+T78,"Adverse effects, not elsewhere classified"
+T78.4,"Allergy, unspecified"
+T79,"Certain early complications of trauma, not elsewhere classified"
+T79.3,"Post-traumatic wound infection, not elsewhere classified"
+U07,Emergency use of U07
+U07.1,"COVID-19, virus identified"
+Z00,General examination and investigation of persons without complaint and reported diagnosis
+Z00.0,General medical examination
+Z00.1,Routine child health examination
+Z00.8,Other general examinations
+Z01,Other special examinations and investigations of persons without complaint or reported diagnosis
+Z01.4,Gynaecological examination (general)(routine)
+Z01.8,Other specified special examinations
+Z02,Examination and encounter for administrative purposes
+Z02.4,Examination for driving licence
+Z02.7,Issue of medical certificate
+Z03,"Medical observation and evaluation for suspected diseases and conditions, ruled out"
+Z03.8,Observation for other suspected diseases and conditions
+Z03.9,"Observation for suspected disease or condition, unspecified"
+Z04,Examination and observation for other reasons
+Z04.8,Examination and observation for other specified reasons
+Z10,Routine general health check-up of defined subpopulation
+Z10.8,Routine general health check-up of other defined subpopulations
+Z30,Contraceptive management
+Z30.0,General counselling and advice on contraception
+Z31,Procreative management
+Z31.1,Artificial insemination
+Z31.4,Procreative investigation and testing
+Z31.6,General counselling and advice on procreation
+Z32,Pregnancy examination and test
+Z32.1,Pregnancy confirmed
+Z33,"Pregnant state, incidental"
+Z71,"Persons encountering health services for other counselling and medical advice, not elsewhere classified"
+Z71.2,Person consulting for explanation of investigation findings
+Z71.8,Other specified counselling
+Z72,Problems related to lifestyle
+Z72.0,Tobacco use
+Z93,Artificial opening status
+Z93.3,Colostomy status
+Z96,Presence of other functional implants
+Z96.1,Presence of intraocular lens

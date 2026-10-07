@@ -42,7 +42,7 @@ uv run db/build/links_symmap_scrape.py   # appends 6 more herbs to the SymMap sc
 | `build.py` | orchestrator; runs the stages in `STAGES` order |
 | `build/<stage>.py` | one module per stage, each exposing `build(con)` |
 | `build/resolve_*.py` | shared resolvers, one file per entity stage, re-exported by `build/resolve.py` |
-| `maps/*.csv` | small curated maps: nutrients, actions, manual ingredient matches |
+| `maps/*.csv` | small curated maps: nutrients, actions, manual ingredient matches; `icd10_titles.csv` = WHO ICD-10 (2019) titles for the codes in RuMedPrime, taken from the `simple-icd-10` package, used by `cases.py` |
 | `views.sql` | analysis views (`v_ingredient_condition_all`, `v_dish_condition`, `v_condition_dish`) |
 | `export.py` | writes the 3 flat tables `dishes`, `ingredients`, `effects` to `export/` (Parquet + CSV) |
 | `cases.py` | writes the patient-case table `cases` to `export/` (Parquet + CSV), see *Patient cases* below |

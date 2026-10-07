@@ -48,7 +48,8 @@ Two distinctions matter for evaluation:
 
 ### 2. Cues in the 37,631 cases we already have
 The case table has since grown to 38,301 rows with the AI-flagged parts ([[Export tables]]); the counts below are
-for the 8 gold datasets as first built and are unchanged for them.
+for the 8 gold datasets as first built. They are unchanged except for RuMedBench, whose cases now include the
+anamnesis: 56 of its 6,360 cases (0.9%) then carry a cue, mostly herbal self-treatment (24) and foods (22).
 
 Counted with `uv run db/cues.py` (keyword patterns in English, Russian, Chinese and Arabic over the `case` text; one
 count per case; snippets checked by hand with `--examples`). The patterns are a **lower bound on recall** and are not

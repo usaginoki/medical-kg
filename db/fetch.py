@@ -538,7 +538,7 @@ def rumedbench():
     zip_paths(data, ["RuMedNER", "raw/RuDReC.csv"], os.path.join(data, "RuMedNER_RuDReC.zip"))
     zip_paths(base, ["code", "lb_submissions"], os.path.join(base, "code_and_lb_submissions.zip"))
     curl("https://zenodo.org/api/records/5765873/files/RuMedPrimeData.zip/content",
-         os.path.join(d("rumedbench", "zenodo"), "RuMedPrimeData.zip"))
+         os.path.join(d("rumedbench", "zenodo"), "RuMedPrimeData.zip"), ua="curl/8.0")  # Zenodo answers 403 to a browser UA
 
 
 @source
