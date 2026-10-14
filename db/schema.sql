@@ -205,3 +205,7 @@ CREATE TABLE IF NOT EXISTS ingredient_drug (
   source_id     VARCHAR,
   note          VARCHAR
 );
+
+-- Stored LLM results (stage `llm`, created from db/export/llm/*.parquet written by db/llm/store.py; columns follow the
+-- parquet files, see db/llm/store.py): llm_case_tags, llm_case_facts, llm_ingredient_lines, llm_condition_terms,
+-- llm_dishes. They are kept apart from the graph tables, which do not use them.

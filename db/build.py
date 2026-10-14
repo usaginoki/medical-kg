@@ -19,6 +19,7 @@ STAGES = [
     "ingredients",   # ingredient, ingredient_alias, ingredient_xref, ingredient_property
     "dishes",        # dish, dish_ingredient, dish_nutrient
     "links",         # ingredient_compound, compound_condition, ingredient_condition, drug*, ingredient_drug
+    "llm",           # llm_* tables from db/export/llm/*.parquet (stored LLM results; optional, graph untouched)
     "views",         # db/views.sql
     "report",        # db/build_report.md
 ]

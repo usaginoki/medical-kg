@@ -34,6 +34,10 @@ TEXT = [
     ("split bengal gram", "en", "ING:chana-dal"),
     ("washed urad dal", "en", "ING:urad-dal"),
     ("black gram dal", "en", "ING:urad-dal"),
+    # duplicates merged (issue #10): jowar is sorghum
+    ("jowar", "en", "ING:sorghum"),
+    ("jowar flour", "en", "!ING:jowar"),
+    ("cholam", "en", "ING:sorghum"),
     # 2. CJK substrings: the animal beats generic heads that default to pork
     ("牛肉片", "zh", "ING:beef"),
     ("羊肉片", "zh", "ING:lamb"),

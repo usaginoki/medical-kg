@@ -2,13 +2,16 @@
 
 The model reads the case, the dataset's conclusion and the keyword hits, and returns which cultural cues are really
 there (with negation and who they are about), whether culture matters for the conclusion, and whether food / diet /
-herb knowledge could help. The definitions in SYSTEM are also the labelling guide for the reference set.
+herb knowledge could help, with a short reason for the culture role. The definitions in SYSTEM are also the labelling
+guide for the reference set.
 """
 from typing import Literal
 
 from pydantic import BaseModel, Field
 
-VERSION = "w1-v1"
+VERSION = "w1-v3"
+# v2: consanguinity is not a cue (#8); alcohol and food-triggered symptoms are diet (#9)
+# v3: answer_leak removed; culture_reason added before culture_role; dish answers resting on nutrients are not decisive
 
 CueType = Literal["place", "ethnicity", "religion", "habit", "food", "tradmed"]
 
@@ -22,10 +25,10 @@ class Cue(BaseModel):
 
 class CaseTags(BaseModel):
     cues: list[Cue]
+    culture_reason: str = Field(description="1-2 English sentences: which cue (if any) and how it bears on the conclusion")
     culture_role: Literal["none", "incidental", "supportive", "decisive"]
     diet_relevant: bool
     graph_answerable: bool
-    answer_leak: bool
 
 
 SYSTEM = """You tag patient cases for an evaluation of a culturally aware medical assistant. Each item has a CASE
@@ -45,23 +48,36 @@ cues: every cultural cue stated in the CASE (not the conclusion). Types:
   For each: text = the exact words, negated = the case says it is absent/denied ("denied recent travel", "否认…"),
   about = patient | family | other | name_of_test_or_disease (India ink, Japanese encephalitis, Mediterranean
   fever as a disease name) | template_field (fixed form lines such as "久居本地", "Выезд за пределы … отрицает").
-  Generic foods (rice, milk, fruit), generic diet words and ordinary Western drugs are NOT cues.
+  Generic foods and ingredients (rice, milk, fruit, onion, garlic, soy sauce), generic diet words and ordinary
+  Western drugs are NOT cues. Consanguinity,
+  family history and genetic findings are NOT cultural cues; generic alcohol or tobacco use is not a cue either.
+culture_reason: one or two short English sentences, written before you choose culture_role: name the cue (or say
+  there is none) and say how it bears on the CONCLUSION, e.g. "Paddy-field exposure in a Sri Lankan woman points to
+  melioidosis, which is endemic there." or "Japanese nationality is mentioned but plays no role in diagnosing
+  appendicitis." A cue need not be written in the case: when the CONCLUSION is a traditional-medicine diagnosis or
+  formula (TCM syndrome, herbal prescription), say that the case is framed in that system ("No explicit cue, but the
+  conclusion is a TCM syndrome with an herbal formula, so the TCM framework shapes it."); when the advice is a diet
+  plan that uses the patient's local or cultural foods, say so. Both are supportive. A general population statistic
+  ("GCA is more common in people of Northern European descent") is not enough for supportive: the cue must point
+  to the conclusion in this case (an endemic exposure, a practice, a food, a remedy, a population-specific
+  disease the findings fit).
 culture_role: does a cultural cue matter for reaching the CONCLUSION?
   decisive    the conclusion depends on a cue; without it a clinician would likely miss or change it (raw camel
               milk -> brucellosis; travel to an endemic area -> malaria; Ramadan fasting -> hypoglycaemia; betel ->
               oral cancer; Ashkenazi -> Gaucher disease; herbal remedy -> hepatotoxicity)
   supportive  a cue raises or lowers the likelihood of the conclusion or shapes the advice, but the conclusion is
               reachable without it; also cases whose whole framework is a traditional medicine system (TCM syndrome /
-              formula, Persian temperament) where the conclusion is in that system's terms
-  incidental  cues are present but do not bear on the conclusion ("a 71-year-old Japanese man" with appendicitis)
+              formula, Persian temperament) where the conclusion is in that system's terms, even when the case states no
+              explicit cue
+  incidental  cues are present but do not bear on the conclusion ("a 71-year-old Japanese man" with appendicitis);
+              in a dish question, a cuisine is incidental when the answer rests only on nutrients (sodium, sugar, fat)
   none        no non-negated cue about the patient
 diet_relevant: the patient's own food, drink, diet, supplement or herb intake is described (not negated) and is
-  plausibly part of the problem or the advice; or the case is a dish / diet question.
+  plausibly part of the problem or the advice; or the case is a dish / diet question. Alcohol intake counts as a
+  drink ("chronic alcoholic"), and symptoms triggered by eating or by a food count ("pain after fatty food").
 graph_answerable: knowledge of foods, ingredients, their chemical compounds, herbs or food-drug interactions
   could plausibly help reach or improve the CONCLUSION (diet advice, a food- or herb-caused condition, a TCM formula
   of herbs, nutrient deficiency). False when the conclusion is a diagnosis that food knowledge cannot inform.
-answer_leak: the CASE already states the conclusion (the diagnosis name, ICD code or formula) so the item is
-  trivial.
 Be strict and literal; do not invent cues."""
 
 
@@ -82,7 +98,9 @@ SHOTS = [
               "travel. CT showed an inflamed appendix.", "conclusion": "Acute appendicitis"},
      CaseTags(cues=[Cue(type="ethnicity", text="Caucasian", negated=False, about="patient"),
                     Cue(type="place", text="recent travel", negated=True, about="patient")],
-              culture_role="incidental", diet_relevant=False, graph_answerable=False, answer_leak=True)),
+              culture_reason="Caucasian ethnicity is mentioned but plays no role in diagnosing appendicitis; travel is "
+                             "denied.",
+              culture_role="incidental", diet_relevant=False, graph_answerable=False)),
     ({"source": "MedCaseReasoning", "origin": "published case report", "lang": "en", "cue_hits": "ethnicity: Bedouin",
       "cues_negated": "", "case": "A 34-year-old Bedouin shepherd from southern Israel had 3 weeks of fever, night "
       "sweats and knee pain. He regularly drinks unpasteurized camel milk from his herd.",
@@ -90,13 +108,16 @@ SHOTS = [
      CaseTags(cues=[Cue(type="ethnicity", text="Bedouin", negated=False, about="patient"),
                     Cue(type="place", text="southern Israel", negated=False, about="patient"),
                     Cue(type="food", text="unpasteurized camel milk", negated=False, about="patient")],
-              culture_role="decisive", diet_relevant=True, graph_answerable=True, answer_leak=False)),
+              culture_reason="Drinking unpasteurized camel milk, a Bedouin pastoral practice, is the classic route of "
+                             "brucellosis and points straight to the diagnosis.",
+              culture_role="decisive", diet_relevant=True, graph_answerable=True)),
     ({"source": "RuMedBench", "origin": "outpatient visit, Tomsk", "lang": "ru", "cue_hits": "",
       "cues_negated": "place: Выезд за пределы",
       "case": "Жалобы: изжога после еды, особенно после жирной и острой пищи. Анамнез: Выезд за пределы *РЕГИОН* и "
               "*СТРАНА* и контакт с инфекционными больными отрицает.", "conclusion": "ICD-10: K21 (Gastro-oesophageal reflux disease)"},
      CaseTags(cues=[Cue(type="place", text="Выезд за пределы *РЕГИОН* и *СТРАНА*", negated=True, about="template_field")],
-              culture_role="none", diet_relevant=True, graph_answerable=True, answer_leak=False)),
+              culture_reason="No cultural cue: the only place mention is a negated template line.",
+              culture_role="none", diet_relevant=True, graph_answerable=True)),
 ]
 
 

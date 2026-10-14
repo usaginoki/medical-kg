@@ -52,6 +52,16 @@ CASES = [
     ("RuMedBench", "ru", "введение прикорма ( кабачок брокколи) 3 недели назад", {"diet": True}),
     ("RuMedBench", "ru", "Повторный прием: отказался от сладкого.", {"diet": True}),
     ("RuMedBench", "ru", "Холекальциферол 10 000 МЕ в нед, Хелатное железо.", {"diet": True}),
+    # alcohol and food-triggered symptoms count as diet (issue #9)
+    ("MedCaseReasoning", "en", "He was a chronic alcoholic with melena.", {"diet": True}),
+    ("MedCaseReasoning", "en", "He denied alcohol or tobacco use.", {"diet": False}),
+    ("MedCaseReasoning", "en", "The skin was cleaned with an alcohol swab; non-alcoholic fatty liver disease.", {"diet": False}),
+    ("MedCaseReasoning", "en", "Epigastric pain occurred after meals.", {"diet": True}),
+    ("RuMedBench", "ru", "Злоупотребляет алкоголем.", {"diet": True}),
+    ("RuMedBench", "ru", "Алкоголь отрицает.", {"diet": False}),
+    ("RuMedBench", "ru", "Боль в эпигастрии после еды.", {"diet": True}),
+    ("MTCMB", "zh", "无嗜酒史，无吸烟史。", {"diet": False}),
+    ("MTCMB", "zh", "胃脘胀痛，饭后加重。", {"diet": True}),
     # Russian
     ("RuMedBench", "ru", "Образование в молочной железе справа.", {"diet": False}),
     ("RuMedBench", "ru", "ЭГДС: кандидоз пищевода.", {"diet": False}),

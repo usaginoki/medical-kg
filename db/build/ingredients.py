@@ -244,6 +244,8 @@ SYN_DROP = {("Hard wheat", "spaghetti"), ("Baking Powder", "baking soda"), ("Cay
             ("Salmon", "salmonidae")}
 # FlavorDB2 synonyms that are a different food
 FLAVORDB_SYN_DROP = {("Marjoram", "Oregano"), ("Anise", "Saunf")}  # saunf is fennel
+# IndicRecipeNutri nodes that are a regional name of another ingredient: the extra name merges them (issue #10)
+IRN_SAME_AS = {"jowar": ["sorghum", "jola", "cholam"]}
 # IndicRecipeNutri nodes that are not ingredients (adjectives, cuts, units, tokenisation debris)
 IRN_JUNK = set("""apf bites boneless bones bonnet belly blend canned carbonate carbonated chill cob condiments cones
 cracked crisp crispy crumb crunchy crush crust crystals cutlets dices diabetes diluted drinking ears eyes filet
@@ -434,8 +436,8 @@ def load_seeds():
         if name in IRN_JUNK:
             continue
         foodon = tail.split("::", 1)[1].replace("_", ":", 1) if tail else None
-        recs.append(rec("indicrecipenutri", name.replace("-", " ").strip(), names=[name], foodon=foodon,
-                        xrefs=[("indicrecipenutri", nid)]))
+        recs.append(rec("indicrecipenutri", name.replace("-", " ").strip(), names=[name] + IRN_SAME_AS.get(name, []),
+                        foodon=foodon, xrefs=[("indicrecipenutri", nid)]))
     # targets of the manual dish map that are new ingredients
     for iid, canon, cat in manual_targets():
         recs.append(rec("manual", canon, cat=cat))

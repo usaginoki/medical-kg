@@ -198,6 +198,9 @@ DIET = {
           r"fasting (?:during|month)|(?:religious|intermittent|ramadan) fast\w*|"
           r"consum\w+ (?:of )?(?:raw|unpasteuri[sz]ed|large amounts)|breastfe\w+|formula[- ]fed|gluten|lactose|"
           r"fish oil|omega-3|melatonin|probiotic\w*|multivitamin\w*|"
+          # alcohol is a drink, and symptoms triggered by food count as diet content (issue #9)
+          r"alcohol\w*|ethanol|beer|wine|vodka|whisk(?:e)?y|binge drinking|drinks? (?:daily|heavily|socially)|"
+          r"postprandial\w*|after (?:eating|meals?|food|intake)|food[- ](?:induced|triggered|related)|"
           # minerals only as supplements ('taking magnesium', 'zinc tablets') or in a consumer question, not lab values
           r"(?:taking|takes|took|started on|oral|dose of|supplement\w* of)\s+(?:magnesium|zinc|selenium|iodine)|"
           r"(?:magnesium|zinc|selenium|iodine)\s+(?:supplement\w*|citrate|oxide|gluconate|chelate\w*|glycinate|"
@@ -208,12 +211,14 @@ DIET = {
           r"жирн\w+ пищ\w+|остр\w+ пищ\w+|сладк(?:ое|ого|им|ому|ие|их|ая|ую)|мучн(?:ое|ого|ые|ых)|жарен\w+|копчен\w+|"
           r"фастфуд\w*|газировк\w*|напитк\w*|прикорм\w*|вскармливан\w*|"
           r"(?:холе|коле)кальциферол\w*|аквадетрим\w*|вигантол\w*|сорбифер\w*|мальтофер\w*|феррум\w*|"
-          r"магне[- ]?в6|омега\w*|пробиотик\w*)\b",
-    "kk": r"(?i)(?:тамақ\w*|диета\w*|тағам\w*|сүт\w*|ет|дәрумен\w*)",
-    "zh": r"(?:饮食|食物|进食|忌口|忌食|食疗|膳食|药膳|辛辣|油腻|生冷|饮酒|茶|牛奶|海鲜|水果|蔬菜|肥甘)",
+          r"магне[- ]?в6|омега\w*|пробиотик\w*|алкогол\w*|спиртн\w+|пив[оа]\b|вин[оа]\b|водк\w*|"
+          r"после (?:еды|приема пищи|приёма пищи))\b",
+    "kk": r"(?i)(?:тамақ\w*|диета\w*|тағам\w*|сүт\w*|ет|дәрумен\w*|алкоголь\w*|ішімдік\w*)",
+    "zh": r"(?:饮食|食物|进食|忌口|忌食|食疗|膳食|药膳|辛辣|油腻|生冷|饮酒|嗜酒|酗酒|喝酒|啤酒|茶|牛奶|海鲜|水果|蔬菜|肥甘|"
+          r"饭后|食后|餐后)",
     "ar": r"(?:حمية|رجيم|غذاء|غذائي|أكل|اكل|طعام|وجبة|وجبات|فيتامين|فيتامينات|مكمل|مكملات|أعشاب|حليب|قهوة|شاي|صيام|"
-          r"عسل|تمر|قرفة|زنجبيل)",
-    "fa": r"(?:رژیم|غذا|غذایی|تغذیه|خوراکی|ویتامین|مکمل|گیاهی|دمنوش|شیر|چای|قهوه|میوه|لبنیات|عسل|روزه داری|رمضان|"
+          r"عسل|تمر|قرفة|زنجبيل|كحول|خمر)",
+    "fa": r"(?:رژیم|غذا|غذایی|تغذیه|خوراکی|ویتامین|مکمل|گیاهی|دمنوش|شیر|چای|قهوه|میوه|لبنیات|عسل|روزه داری|رمضان|الکل|مشروب|"
           r"روزه گرفتن|روزه بگیرم)",
 }
 
@@ -227,7 +232,11 @@ STOP = {
            r"(?i)\b(?:gastric|pancreatic|duodenal) juice\b", r"(?i)\bcoffee[- ]ground\w*",
            r"(?i)\b(?:tea|cola|coffee)[- ]colou?red\b", r"(?i)\bcaf[eé][- ]au[- ]lait\b", r"(?i)\bcurrant[- ]jelly\b",
            r"(?i)\bstrawberry (?:tongue|cervix|gallbladder)\b", r"(?i)\bmilk(?:y)? (?:of magnesia|discharge)\b",
-           r"(?i)\bWhite (?:blood|matter|count)\b", r"(?i)\bNorth American blastomycosis\b"],
+           r"(?i)\bWhite (?:blood|matter|count)\b", r"(?i)\bNorth American blastomycosis\b",
+           r"(?i)\b(?:isopropyl|ethyl|benzyl|polyvinyl|cetyl|methyl|absolute|dehydrated) alcohol\b",
+           r"(?i)\balcohol(?:[- ]based|[- ]containing| swabs?| wipes?| pads?| gel| sanitizer| septal ablation| ablation|"
+           r" sclerotherapy| injection| fixation| fixed| dehydrogenase)\b", r"(?i)\bwine[- ]colou?red\b",
+           r"(?i)\bport[- ]wine stain\b"],
     "ru": [r"(?i)молочн\w+\s+желез\w*", r"(?i)пищевод\w*", r"(?i)пищеварит\w*", r"(?i)кофейн\w+\s+гущ\w+",
            r"(?i)цвет\w*\s+(?:чая|пива|кофе)"],
     "zh": [r"发病节气", r"(?:食物|药物)过敏史", r"(?:生于|久居)(?:原籍|本地|当地)", r"旅居史",

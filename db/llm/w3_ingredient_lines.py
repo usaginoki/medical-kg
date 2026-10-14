@@ -66,6 +66,7 @@ class Candidates:
         self.aliases = {}
         for i, a, _ in al:
             self.aliases.setdefault(i, []).append(a)
+        self.cjk = {j: k for j, k in enumerate(self.keys) if CJK.search(k)}  # CJK aliases, for CJK lines
 
     def __call__(self, text, current=None):
         """Chinese / Japanese lines: aliases contained in the line first (longest first), then WRatio over CJK
@@ -73,13 +74,11 @@ class Candidates:
         text = text.lower()
         out = [current] if isinstance(current, str) else []
         if CJK.search(text):
-            inside = sorted({(len(k), self.ids[j]) for j, k in enumerate(self.keys) if CJK.search(k) and k in text},
-                            reverse=True)
+            inside = sorted({(len(k), self.ids[j]) for j, k in self.cjk.items() if k in text}, reverse=True)
             for _, i in inside:
                 if i not in out:
                     out.append(i)
-            keys = [(j, k) for j, k in enumerate(self.keys) if CJK.search(k)]
-            hits = process.extract(text, dict(keys), scorer=fuzz.WRatio, limit=60)
+            hits = process.extract(text, self.cjk, scorer=fuzz.WRatio, limit=60)
         else:
             hits = process.extract(text, self.keys, scorer=fuzz.WRatio, limit=60)
         for _, _, j in hits:
@@ -100,8 +99,8 @@ def render(r, cands):
             f"CANDIDATES:\n" + "\n".join(cands.show(i) for i in r["candidates"]))
 
 
-def sample():
-    con = con_db()
+def population(con):
+    """Distinct weak or unmatched ingredient lines (lower-cased) with their current match and line count."""
     q = f"""SELECT lower(di.raw_text) raw_text, any_value(di.ingredient_id) ingredient_id,
                    any_value(di.match_method) match_method, round(any_value(di.match_score), 2) match_score,
                    any_value(d.lang) lang, any_value(di.source_id) source_id, count(*) lines
@@ -110,6 +109,12 @@ def sample():
     pop = con.sql(q).df()
     print(f"population: {len(pop):,} distinct weak lines ({pop.lines.sum():,} lines); by method:")
     print(pop.groupby("match_method").lines.agg(["count", "sum"]).to_string())
+    return pop
+
+
+def sample():
+    con = con_db()
+    pop = population(con)
     import numpy as np
     rng = np.random.default_rng(9)
     parts = []

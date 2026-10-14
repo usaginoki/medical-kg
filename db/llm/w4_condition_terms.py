@@ -86,7 +86,8 @@ def ground(cr, names):
     return out
 
 
-def sample():
+def population():
+    """Every distinct term of the three sources with its current rule-based condition ids (DataFrame)."""
     from common import data
     con, cr, ct = resolver()
     duke = "dr-dukes-phytochemical-and-ethnobotanical-databases"
@@ -108,6 +109,11 @@ def sample():
     df = pd.DataFrame(recs)
     print(f"{len(df):,} distinct terms; unmatched {df.current.map(len).eq(0).sum():,} "
           f"({df[df.current.map(len).eq(0)].rows.sum():,} of {df.rows.sum():,} rows)")
+    return df
+
+
+def sample():
+    df = population()
     rng = random.Random(5)
     un = df[df.current.map(len).eq(0)]
     ma = df[df.current.map(len).gt(0)]

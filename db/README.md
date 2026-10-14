@@ -48,9 +48,9 @@ uv run db/build/links_symmap_scrape.py   # appends 6 more herbs to the SymMap sc
 | `cases.py` | writes the patient-case table `cases` to `export/` (Parquet + CSV), see *Patient cases* below |
 | `cues.py` | keyword patterns (EN / RU / KK / ZH / AR / FA) for cultural cues (place, ethnicity, religion, habit, food, traditional medicine) and diet content, with a stoplist of medical terms (India ink, FISH, 食物过敏史…), negation (before the match in the clause, or a denial after it) and weak / strong cue strength; `cases.py` calls `cues.tag`; run alone it counts them per dataset; a cheap screen, check with `--examples` |
 | `checks/*_regress.py` | regression checks for the rule fixes of the 2026-10-14 audit: `cues_regress.py` (case cue screen, synthetic texts), `ingredients_regress.py`, `conditions_regress.py` (need `UNIFIED_DB`) |
-| `llm/` | LLM tagging experiments after the rule screens (Gemini / Gemma via `GOOGLE_API_KEY` in `.env`): `client.py` (async structured output, workers, retries, SQLite cache in `.cache/llm/`, cost cap), one module per workflow (`w1_case_tags`, `w1b_leak`, `w2_case_facts`, `w3_ingredient_lines`, `w4_condition_terms`, `w5_dish_check`), `costs.py`, `fn_check.py` (recall of the case screen on rejected and weak-cue cases), `disagree.py` (items where 2+ models disagree with the reference, for manual review; verdicts in `.cache/llm/refs/w*_review.json` are applied by the scorers); results in `Database/LLM tagging experiments.md` |
+| `llm/` | LLM tagging experiments after the rule screens (Gemini / Gemma via `GOOGLE_API_KEY` in `.env`): `client.py` (async structured output, workers, retries, SQLite cache in `.cache/llm/`, cost cap), one module per workflow (`w1_case_tags`, `w1b_leak`, `w2_case_facts`, `w3_ingredient_lines`, `w4_condition_terms`, `w5_dish_check`), `costs.py`, `fn_check.py` (recall of the case screen on rejected and weak-cue cases), `disagree.py` (items where 2+ models disagree with the reference, for manual review; verdicts in `.cache/llm/refs/w*_review.json` are applied by the scorers); full pass: `full_pass.py` (items per workflow, MedArabiQ excluded), `batch.py` (Gemini Batch API, $ cap), `store.py` (→ `export/llm/*.parquet`, see *LLM layer* below); results in `Database/LLM tagging experiments.md` |
 | `prep_issai.py` | ISSAI dietary-profile parser, run by `prep.py issai` |
-| `viewer/index.html` | browser viewer for the exported tables (the Cases tab appears when `cases.parquet` exists): `uv run python -m http.server 8765 -d db` → http://localhost:8765/viewer/ |
+| `viewer/index.html` | browser viewer for the exported tables (the Cases tab appears when `cases.parquet` exists; LLM columns, filters and the *Line matches* / *Condition terms* tabs appear when `export/llm/*.parquet` exist): `uv run python -m http.server 8765 -d db` → http://localhost:8765/viewer/ |
 | `trace.py` | CLI that prints dish → condition and condition → dish traces |
 | `build_report.md` | generated: row counts, match rates, orphan checks |
 | `presentation/` | interactive presentation: `uv run db/presentation/export.py` (after a build) writes `Database/presentation/index.html` from the DB, `content.py` (curated dataset text) and `template.html` |
@@ -82,6 +82,26 @@ not linked to the graph tables yet; matching cases to graph ids is the next step
   (they are what the answer is checked against); MedCaseReasoning's `diagnostic_reasoning`.
 - **Licences:** MedArabiQ (100 rows) allows internal research only, so `export/` must never be committed or shared;
   MedicationQA and FAM-Bench answers quote third-party websites.
+
+## LLM layer (stored results, not part of the graph)
+The full LLM pass runs the workflows of `Database/LLM tagging experiments.md` over what the rule screens hand off, through
+the Gemini Batch API (half price; `LLM_BATCH_MAX_USD`, default 40), and stores the answers as separate tables:
+```
+uv run db/llm/full_pass.py items        # items per workflow -> .cache/llm/full/ (MedArabiQ excluded, GitHub issue #11)
+uv run db/llm/full_pass.py submit       # batch jobs (cached items skipped); status / collect / costs
+uv run db/llm/store.py                  # -> export/llm/llm_*.parquet
+uv run db/build.py --only llm           # -> llm_* tables in unified.duckdb
+```
+| Table | Key | Contents |
+|---|---|---|
+| `llm_case_tags` | case_id | culture_reason (1–2 English sentences), culture_role, diet_relevant, graph_answerable, cues[] (type, text, negated, about) (W1, prompt `w1-v3`) |
+| `llm_case_facts` | case_id | age, sex, country, region_or_city, ethnicity, religious_practices, symptoms, history, diagnosis_en, foods[] (with ingredient_id, dish_ids), drugs, condition ids for diagnosis / symptoms / history (W2) |
+| `llm_ingredient_lines` | raw_text (lower-cased) | current match vs LLM kind, name_en, choice, fit, llm_ingredient_id, agrees (W3) |
+| `llm_condition_terms` | source + term | kind, meaning, evidence_level, conditions[] (name, relation, condition_id) (W4) |
+| `llm_dishes` | dish_id | stored vs LLM cuisine country, kind, name_en, style (W5) |
+
+Every row has `model`, `prompt_version`, `stored_at`. The stage `llm` owns these tables only; no graph table, view or
+export reads them (GitHub issue #12 tracks whether and how to integrate them). The files are git-ignored like `cases`.
 
 ## Contract between stages
 - **Ownership.** Each stage owns the tables it fills. It first deletes its own rows (`DELETE FROM t WHERE source_id IN (...)`,

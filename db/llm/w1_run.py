@@ -24,7 +24,8 @@ def load(path):
 
 
 def run_name(model, shots, thinking):
-    return f"w1_{model}_{shots}shot_{thinking}"
+    """Run file name; prompt versions after w1-v1 are suffixed so earlier runs stay comparable."""
+    return f"w1_{model}_{shots}shot_{thinking}" + ("" if W.VERSION.startswith("w1-v1") else f"_{W.VERSION.split()[0]}")
 
 
 async def run_one(model, shots, thinking, rows):
@@ -87,7 +88,9 @@ def score_pred(rows, gold, pred, skip=None):
     out["decisive_F1"] = binary([gold[i]["culture_role"] == "decisive" for i in k],
                                 [pred[i]["culture_role"] == "decisive" for i in k])[2]
     for f in ("diet_relevant", "graph_answerable", "answer_leak"):
-        k = keep(f)
+        k = [i for i in keep(f) if f in pred[i]]  # w1-v3 no longer asks for answer_leak
+        if not k:
+            continue
         out[f + "_F1"] = binary([gold[i][f] for i in k], [pred[i][f] for i in k])[2]
         out[f + "_acc"] = sum(gold[i][f] == pred[i][f] for i in k) / len(k)
     for name, merge in (("cue", False), ("cue_origin", True)):
@@ -114,9 +117,10 @@ def apply_review(gold, review):
                 if c["text"] in r.get("cue_about", {}):
                     c["about"] = r["cue_about"][c["text"]]
             g["cues"] = [c for c in g["cues"] if c["text"] not in r.get("cue_drop", [])]
-        else:
+        elif r["verdict"] == "ambiguous":
             for f in r["fields"]:
                 skip.setdefault(f, set()).add(r["id"])
+        # 'gold_ok': the reference stands (a decision settled the question)
     return gold, skip
 
 
@@ -143,7 +147,8 @@ def score():
     reviewed, skip = apply_review(raw, review)
     print(f"gold labels: {len(raw)} / {len(rows)}; review: "
           f"{sum(r['verdict'] == 'gold_wrong' for r in review)} corrected, "
-          f"{sum(r['verdict'] == 'ambiguous' for r in review)} ambiguous items left out of their field")
+          f"{sum(r['verdict'] == 'ambiguous' for r in review)} ambiguous items left out of their field, "
+          f"{sum(r['verdict'] == 'gold_ok' for r in review)} confirmed by a decision")
     cols = ["n", "valid", "role_acc", "matters_P", "matters_R", "matters_F1", "decisive_F1", "cue_F1", "cue_origin_F1",
             "diet_relevant_F1", "graph_answerable_F1", "answer_leak_F1", "usd_per_1k", "s_per_item"]
     runs = [("keyword screen", screen_baseline(rows, raw), None)]

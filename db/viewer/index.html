@@ -73,6 +73,7 @@ a:hover, .link:hover { text-decoration: underline; }
 .stats { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
 .note { color: var(--muted); font-size: 12px; margin-top: 6px; }
 @media (max-width: 640px) { header, main { padding-left: 16px; padding-right: 16px; } .filters input[type=text], .filters select { min-width: 120px; } }
+  .v-agree { color: var(--sub, #666); } .v-disagree { color: #b45309; font-weight: 600; } .v-LLM-recovered { color: #15803d; font-weight: 600; }
 </style>
 </head>
 <body>
@@ -84,6 +85,8 @@ a:hover, .link:hover { text-decoration: underline; }
     <button data-tab="ingredients">Ingredients</button>
     <button data-tab="effects">Effects</button>
     <button data-tab="cases">Cases</button>
+    <button data-tab="lines" title="LLM check of weak or unmatched recipe lines (db/llm, W3)">Line matches · LLM</button>
+    <button data-tab="terms" title="LLM mapping of unmatched indication / activity terms (db/llm, W4)">Condition terms · LLM</button>
   </nav>
 </header>
 <main id="main"><div class="status" id="status">Loading DuckDB and the Parquet files from <span class="mono">db/export/</span>…</div></main>
@@ -94,6 +97,9 @@ import * as duckdb from "https://cdn.jsdelivr.net/npm/@duckdb/duckdb-wasm@1.32.0
 const PAGE = 25;
 const FILES = ["dishes", "ingredients", "effects"];
 const OPTIONAL = ["cases"];  // built separately by db/cases.py; its tab is hidden when the file is missing
+// stored LLM results (db/llm/store.py -> db/export/llm/); optional: missing files hide their tabs, columns and filters
+const LLM_FILES = ["llm_case_tags", "llm_case_facts", "llm_ingredient_lines", "llm_condition_terms", "llm_dishes"];
+const LLM = {};  // name -> true when loaded
 const $ = (s, el = document) => el.querySelector(s);
 const esc = (v) => v == null ? "" : String(v).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const sq = (v) => "'" + String(v).replace(/'/g, "''") + "'";
@@ -131,6 +137,7 @@ const TABS = {
       { id: "subregion", label: "Subregion", type: "select", sql: "SELECT subregion v, count(*) n FROM dishes WHERE subregion IS NOT NULL GROUP BY 1 ORDER BY 2 DESC" },
       { id: "lang", label: "Language", type: "select", sql: "SELECT lang v, count(*) n FROM dishes GROUP BY 1 ORDER BY 2 DESC" },
       { id: "name", label: "Name contains (any language)", type: "text" },
+      { id: "dish_id", label: "Dish id", type: "text", placeholder: "foodcom:126014" },
       { id: "ingredient_id", label: "Contains ingredient id", type: "text", placeholder: "ING:turmeric" },
       { id: "ingredient_text", label: "Ingredient line contains", type: "text", placeholder: "saffron" },
       { id: "h_recipe", label: "recipe text", type: "check", group: "has" },
@@ -147,6 +154,7 @@ const TABS = {
       if (f.source) w.push(`source = ${sq(f.source)}`);
       if (f.country_iso2) w.push(`country_iso2 = ${sq(f.country_iso2)}`);
       if (f.subregion) w.push(`subregion = ${sq(f.subregion)}`);
+      if (f.dish_id) w.push(`dish_id = ${sq(f.dish_id)}`);
       if (f.name) w.push(`(name ILIKE ${sq("%" + f.name + "%")} OR name_local ILIKE ${sq("%" + f.name + "%")})`);
       if (f.ingredient_id) w.push(`len(list_filter(ingredients, x -> x.ingredient_id = ${sq(f.ingredient_id)})) > 0`);
       if (f.lang) w.push(`lang = ${sq(f.lang)}`);
@@ -208,6 +216,16 @@ const TABS = {
         h += table(["nutrient", "amount", "unit"], nut.map((x) => [esc(x.nutrient), fmt(x.amount_per_100g, 3), esc(x.unit)]));
       }
       h += `<h3>Recipe text</h3>` + (d.recipe_text ? `<div class="recipe">${esc(d.recipe_text)}</div>` : `<div class="sub">none in the source</div>`);
+      if (LLM.llm_dishes) {
+        const [l] = await q(`SELECT * FROM llm_dishes WHERE dish_id = ${sq(r.dish_id)}`);
+        h += `<h3>LLM check <span class="sub">(stored result, not used by the graph)</span></h3>` + (l ? `<div class="kv">
+          <b>kind</b><span>${esc(l.kind)}</span><b>English name</b><span>${esc(l.name_en)}</span>
+          <b>cuisine country</b><span>${esc(l.cuisine_country ? countryName(l.cuisine_country) + " (" + l.cuisine_country + ")" : "international / unclear")}
+            <span class="sub">stored: ${esc(l.stored_country || "none")}</span></span>
+          <b>style</b><span>${esc(l.style)}</span>
+          <b>made by</b><span class="sub">${esc(l.model)} · prompt ${esc(l.prompt_version)} · stored ${esc(l.stored_at)}</span></div>`
+          : `<div class="sub">not checked (only dishes without a country and Food.com dishes were sent)</div>`);
+      }
       return h;
     },
   },
@@ -433,10 +451,134 @@ const TABS = {
         <b>relevance</b><span><b>${esc(r.relevance)}</b>: ${esc(r.relevance_why)}</span>
         <b>cues in the text</b><span>${esc(cues)}${r.culture_by_construction ? " · culture by construction" : ""}${r.diet ? " · food / diet content" : ""}</span>
         <b>case</b><div class="recipe">${esc(r.case)}</div>
-        <b>conclusion</b><div class="recipe">${esc(r.conclusion)}</div></div>`;
+        <b>conclusion</b><div class="recipe">${esc(r.conclusion)}</div></div>` + (LLM.llm_case_tags || LLM.llm_case_facts ? await llmCaseDetail(r.case_id) : "");
+    },
+  },
+
+  lines: {
+    key: "raw_text",
+    filters: [
+      { id: "kind", label: "LLM: kind of line", type: "select", sql: "SELECT kind v, count(*) n FROM lines GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "fit", label: "LLM: fit", type: "select", sql: "SELECT fit v, count(*) n FROM lines GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "current_method", label: "Rule match method", type: "select", sql: "SELECT current_method v, count(*) n FROM lines GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "verdict", label: "LLM vs rules", type: "select", sql: "SELECT verdict v, count(*) n FROM lines GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "lang", label: "Language", type: "select", sql: "SELECT lang v, count(*) n FROM lines GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "source_id", label: "Dataset", type: "select", sql: "SELECT source_id v, count(*) n FROM lines GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "raw_text", label: "Line contains", type: "text", placeholder: "牛肉" },
+      { id: "ingredient_id", label: "Rule or LLM id", type: "text", placeholder: "ING:beef" },
+    ],
+    where(f) {
+      const w = [];
+      for (const k of ["kind", "fit", "current_method", "verdict", "lang", "source_id"]) if (f[k]) w.push(`${k} = ${sq(f[k])}`);
+      if (f.raw_text) w.push(`raw_text ILIKE ${sq("%" + f.raw_text + "%")}`);
+      if (f.ingredient_id) w.push(`(current_ingredient_id = ${sq(f.ingredient_id)} OR llm_ingredient_id = ${sq(f.ingredient_id)})`);
+      return w;
+    },
+    select: "*",
+    order: "lines DESC, raw_text",
+    cols: [
+      ["raw_text", "line (lower-cased)", (r) => clip(r.raw_text)],
+      ["lines", "# lines", (r) => fmt(r.lines, 0), "num"],
+      ["lang", "lang", (r) => esc(r.lang)],
+      ["current", "rule match", (r) => r.current_ingredient_id ? ingLink(r.current_ingredient_id, r.current_name) + ` <span class="sub">${esc(r.current_method)}</span>` : `<span class="sub">unmatched</span>`],
+      ["llm", "LLM match", (r) => r.llm_ingredient_id ? ingLink(r.llm_ingredient_id, r.llm_name) + ` <span class="sub">${esc(r.fit)}</span>` : `<span class="sub">none</span>`],
+      ["kind", "LLM kind", (r) => esc(r.kind)],
+      ["name_en", "LLM name", (r) => clip(r.name_en)],
+      ["verdict", "LLM vs rules", (r) => `<span class="v-${esc(r.verdict).replace(/ /g, "-")}">${esc(r.verdict)}</span>`],
+    ],
+    async detail(r) {
+      return `<div class="kv">
+        <b>line</b><span>${esc(r.raw_text)} <span class="sub">(${fmt(r.lines, 0)} lines, ${esc(r.source_id)}, ${esc(r.lang)})</span></span>
+        <b>rule match</b><span>${r.current_ingredient_id ? ingLink(r.current_ingredient_id, r.current_name) : "unmatched"} · ${esc(r.current_method)} ${r.current_score != null ? "· score " + fmt(r.current_score) : ""}</span>
+        <b>LLM</b><span>kind ${esc(r.kind)} · named “${esc(r.name_en)}” · choice <span class="mono">${esc(r.choice)}</span> · fit ${esc(r.fit)}</span>
+        <b>LLM match</b><span>${r.llm_ingredient_id ? ingLink(r.llm_ingredient_id, r.llm_name) : "none"}</span>
+        <b>jump to</b><span><span class="link" data-go="dishes" data-f="ingredient_text" data-v="${esc(r.raw_text)}">dishes with this line</span></span>
+        <b>made by</b><span class="sub">${esc(r.model)} · prompt ${esc(r.prompt_version)} · stored ${esc(r.stored_at)} — not used by the graph</span></div>`;
+    },
+  },
+
+  terms: {
+    key: "item",
+    filters: [
+      { id: "source", label: "Source", type: "select", sql: "SELECT source v, count(*) n FROM terms GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "kind", label: "LLM: kind of term", type: "select", sql: "SELECT kind v, count(*) n FROM terms GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "evidence_level", label: "LLM: evidence level", type: "select", sql: "SELECT evidence_level v, count(*) n FROM terms GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "term", label: "Term contains", type: "text", placeholder: "Anti" },
+      { id: "condition", label: "Condition contains", type: "text", placeholder: "Hypertension" },
+      { id: "h_grounded", label: "a condition in the graph", type: "check", group: "has" },
+      { id: "h_ungrounded", label: "a proposed condition not in the graph", type: "check", group: "has" },
+    ],
+    where(f) {
+      const w = [];
+      for (const k of ["source", "kind", "evidence_level"]) if (f[k]) w.push(`${k} = ${sq(f[k])}`);
+      if (f.term) w.push(`term ILIKE ${sq("%" + f.term + "%")}`);
+      if (f.condition) w.push(`conditions_s ILIKE ${sq("%" + f.condition + "%")}`);
+      if (f.h_grounded) w.push("n_grounded > 0");
+      if (f.h_ungrounded) w.push("n_conditions > n_grounded");
+      return w;
+    },
+    select: "*",
+    order: "rows DESC, term",
+    cols: [
+      ["term", "term", (r) => clip(r.term)],
+      ["source", "source", (r) => clip(r.source)],
+      ["rows", "# rows", (r) => fmt(r.rows, 0), "num"],
+      ["kind", "LLM kind", (r) => esc(r.kind)],
+      ["meaning", "LLM meaning", (r) => clip(r.meaning)],
+      ["conditions_s", "LLM conditions (graph id)", (r) => clip(r.conditions_s)],
+      ["evidence_level", "evidence", (r) => esc(r.evidence_level)],
+    ],
+    async detail(r) {
+      const [d] = await q(`SELECT to_json(conditions) AS c FROM terms WHERE item = ${sq(r.item)}`);
+      const cs = JSON.parse(d.c || "[]");
+      return `<div class="kv">
+        <b>term</b><span>${esc(r.term)} <span class="sub">(${fmt(r.rows, 0)} rows in ${esc(r.source)}; the rule resolver matched no condition)</span></span>
+        <b>LLM meaning</b><span>${esc(r.meaning)}</span><b>kind</b><span>${esc(r.kind)}</span>
+        <b>evidence level</b><span>${esc(r.evidence_level)}</span>
+        <b>made by</b><span class="sub">${esc(r.model)} · prompt ${esc(r.prompt_version)} · stored ${esc(r.stored_at)} — not used by the graph</span></div>`
+        + `<h3>Conditions (${cs.length})</h3>` + (cs.length ? table(["name proposed", "relation", "condition in the graph"], cs.map((c) => [
+          esc(c.name), esc(c.relation),
+          c.condition_id ? `<span class="link" data-go="effects" data-f="target" data-v="${esc(c.name)}">${esc(c.condition_id)}</span>` : `<span class="sub">not in the graph</span>`]))
+          : `<div class="sub">none (not a condition)</div>`);
     },
   },
 };
+
+const ingLink = (id, name) => `<span class="link" data-go="ingredients" data-f="ingredient_id" data-v="${esc(id)}">${esc(name || id)}</span>`;
+
+async function llmCaseDetail(id) {
+  let h = `<h3>LLM layer <span class="sub">(stored results, not gold; db/llm)</span></h3>`;
+  if (LLM.llm_case_tags) {
+    const [t] = await q(`SELECT culture_role, culture_reason, diet_relevant, graph_answerable, model, prompt_version,
+                                stored_at, to_json(cues) AS cues FROM llm_case_tags WHERE case_id = ${sq(id)}`);
+    if (t) {
+      const cues = JSON.parse(t.cues || "[]");
+      h += `<div class="kv"><b>culture role</b><span><b>${esc(t.culture_role)}</b> (does a cultural cue matter for the conclusion?)</span>
+        <b>why</b><span>${esc(t.culture_reason)}</span>
+        <b>diet relevant</b><span>${yes(t.diet_relevant) || "no"}</span><b>graph answerable</b><span>${yes(t.graph_answerable) || "no"}</span>
+        <b>made by</b><span class="sub">${esc(t.model)} · prompt ${esc(t.prompt_version)} · stored ${esc(t.stored_at)}</span></div>`;
+      if (cues.length) h += table(["cue", "text", "negated", "about"], cues.map((c) => [esc(c.type), esc(c.text), c.negated ? "negated" : "", esc(c.about)]));
+    } else h += `<div class="sub">no LLM tags (case not handed off by the screen, or MedArabiQ)</div>`;
+  }
+  if (LLM.llm_case_facts) {
+    const [f] = await q(`SELECT age_years, sex, country, region_or_city, ethnicity, diagnosis_en, diagnosis_condition_id,
+                                array_to_string(religious_practices, '; ') AS rel, array_to_string(symptoms, '; ') AS sym,
+                                array_to_string(history, '; ') AS hist, array_to_string(drugs, '; ') AS drugs,
+                                to_json(foods) AS foods FROM llm_case_facts WHERE case_id = ${sq(id)}`);
+    if (f) {
+      const foods = JSON.parse(f.foods || "[]");
+      h += `<div class="kv"><b>patient</b><span>${esc(f.age_years ?? "?")} y · ${esc(f.sex)} · ${esc([f.region_or_city, f.country].filter(Boolean).join(", "))}${f.ethnicity ? " · " + esc(f.ethnicity) : ""}</span>
+        <b>religious practice</b><span>${esc(f.rel)}</span><b>symptoms</b><span>${esc(f.sym)}</span><b>history</b><span>${esc(f.hist)}</span>
+        <b>diagnosis</b><span>${esc(f.diagnosis_en)}${f.diagnosis_condition_id ? ` <span class="mono sub">${esc(f.diagnosis_condition_id)}</span>` : ""}</span>
+        <b>drugs</b><span>${esc(f.drugs)}</span></div>`;
+      if (foods.length) h += table(["food / herb", "as written", "kind", "negated", "ingredient", "dishes"], foods.map((x) => [
+        esc(x.name_en), esc(x.original), esc(x.kind), x.negated ? "negated" : "",
+        x.ingredient_id ? ingLink(x.ingredient_id, x.ingredient_id) : `<span class="sub">—</span>`,
+        (x.dish_ids || []).slice(0, 3).map((d) => `<span class="link" data-go="dishes" data-f="dish_id" data-v="${esc(d)}">${esc(d)}</span>`).join(" ")]));
+    }
+  }
+  return h;
+}
 
 const clip = (v, cls = "") => v == null || v === "" ? "" : `<span class="clip ${cls}" title="${esc(v)}">${esc(v)}</span>`;
 const yes = (v) => v === true ? "✓" : v === false ? "" : esc(v);
@@ -577,6 +719,76 @@ document.addEventListener("click", async (e) => {
   if (tab) show(tab.dataset.tab);
 });
 
+// ---------------------------------------------------------------- LLM layer (optional)
+// Joins the stored LLM results onto the dishes and cases views and adds their filters / columns; the line-match and
+// condition-term tabs are removed when their files are missing.
+async function addLlm(loaded) {
+  const extend = (t, filters, cols, where) => {
+    const T = TABS[t], base = T.where;
+    T.filters.push(...filters);
+    T.cols.push(...cols);
+    T.where = (f) => [...base(f), ...where(f)];
+  };
+  if (LLM.llm_dishes) {
+    await conn.query(`CREATE OR REPLACE VIEW dishes AS SELECT d.*, l.kind AS llm_kind, l.name_en AS llm_name_en,
+        l.cuisine_country AS llm_country, l.style AS llm_style,
+        (l.dish_id IS NOT NULL AND l.cuisine_country IS DISTINCT FROM d.country_iso2) AS llm_country_differs
+      FROM read_parquet('dishes.parquet') d LEFT JOIN llm_dishes l USING (dish_id)`);
+    TABS.dishes.select += ", llm_kind, llm_name_en, llm_country, llm_style";
+    extend("dishes", [
+      { id: "llm_country", label: "LLM: cuisine country", type: "select", country: true,
+        sql: "SELECT llm_country v, count(*) n FROM dishes WHERE llm_country IS NOT NULL GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "llm_style", label: "LLM: style", type: "select", sql: "SELECT llm_style v, count(*) n FROM dishes WHERE llm_style IS NOT NULL GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "llm_kind", label: "LLM: kind", type: "select", sql: "SELECT llm_kind v, count(*) n FROM dishes WHERE llm_kind IS NOT NULL GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "llm_country_differs", label: "LLM country ≠ stored", type: "check", group: "has" },
+    ], [
+      ["llm_country", "LLM country", (r) => r.llm_country ? `<span title="${esc(countryName(r.llm_country))}">${esc(r.llm_country)}</span>` : (r.llm_kind ? `<span class="sub">intl.</span>` : "")],
+      ["llm_style", "LLM style", (r) => esc(r.llm_style)],
+    ], (f) => [
+      ...(f.llm_country ? [`llm_country = ${sq(f.llm_country)}`] : []), ...(f.llm_style ? [`llm_style = ${sq(f.llm_style)}`] : []),
+      ...(f.llm_kind ? [`llm_kind = ${sq(f.llm_kind)}`] : []), ...(f.llm_country_differs ? ["llm_country_differs"] : [])]);
+  }
+  if (LLM.llm_case_tags && loaded.includes("cases")) {
+    const facts = LLM.llm_case_facts;
+    await conn.query(`CREATE OR REPLACE VIEW cases AS SELECT c.*, t.culture_role AS llm_culture_role,
+        t.culture_reason AS llm_culture_reason, t.diet_relevant AS llm_diet,
+        t.graph_answerable AS llm_graph${facts ? ", f.country AS llm_country" : ""}
+      FROM read_parquet('cases.parquet') c LEFT JOIN llm_case_tags t USING (case_id)
+      ${facts ? "LEFT JOIN llm_case_facts f USING (case_id)" : ""}`);
+    extend("cases", [
+      { id: "llm_culture_role", label: "LLM: does culture matter", type: "select",
+        sql: "SELECT llm_culture_role v, count(*) n FROM cases WHERE llm_culture_role IS NOT NULL GROUP BY 1 ORDER BY 2 DESC" },
+      { id: "llm_reason", label: "LLM reason contains", type: "text", placeholder: "endemic" },
+      ...(facts ? [{ id: "llm_country", label: "LLM: patient country", type: "select",
+        sql: "SELECT llm_country v, count(*) n FROM cases WHERE llm_country IS NOT NULL GROUP BY 1 ORDER BY 2 DESC" }] : []),
+      { id: "llm_tagged", label: "LLM tags", type: "check", group: "has" },
+      { id: "llm_diet", label: "LLM: diet relevant", type: "check", group: "has" },
+      { id: "llm_graph", label: "LLM: graph answerable", type: "check", group: "has" },
+    ], [
+      ["llm_culture_role", "LLM culture", (r) => esc(r.llm_culture_role)],
+      ["llm_culture_reason", "LLM reason", (r) => clip(r.llm_culture_reason)],
+    ], (f) => [
+      ...["llm_culture_role", "llm_country"].filter((k) => f[k]).map((k) => `${k} = ${sq(f[k])}`),
+      ...(f.llm_reason ? [`llm_culture_reason ILIKE ${sq("%" + f.llm_reason + "%")}`] : []),
+      ...(f.llm_tagged ? ["llm_culture_role IS NOT NULL"] : []), ...(f.llm_diet ? ["llm_diet"] : []), ...(f.llm_graph ? ["llm_graph"] : [])]);
+  }
+  if (LLM.llm_ingredient_lines) {
+    await conn.query(`CREATE VIEW lines AS SELECT l.*, ci.canonical_name AS current_name, li.canonical_name AS llm_name,
+        CASE WHEN l.kind NOT IN ('ingredient', 'several_ingredients') THEN 'not an ingredient'
+             WHEN l.llm_ingredient_id IS NULL THEN 'LLM found none'
+             WHEN l.current_ingredient_id IS NULL THEN 'LLM recovered'
+             WHEN l.agrees THEN 'agree' ELSE 'disagree' END AS verdict
+      FROM llm_ingredient_lines l LEFT JOIN ingredients ci ON ci.ingredient_id = l.current_ingredient_id
+      LEFT JOIN ingredients li ON li.ingredient_id = l.llm_ingredient_id`);
+  } else $('#tabs [data-tab="lines"]').remove();
+  if (LLM.llm_condition_terms) {
+    await conn.query(`CREATE VIEW terms AS SELECT source || '|' || term AS item, *, len(conditions) AS n_conditions,
+        len(list_filter(conditions, x -> x.condition_id IS NOT NULL)) AS n_grounded,
+        array_to_string(list_transform(conditions, x -> x.name || coalesce(' [' || x.condition_id || ']', '')), '; ') AS conditions_s
+      FROM llm_condition_terms`);
+  } else $('#tabs [data-tab="terms"]').remove();
+}
+
 // ---------------------------------------------------------------- boot
 try {
   const bundle = await duckdb.selectBundle(duckdb.getJsDelivrBundles());
@@ -587,7 +799,7 @@ try {
   let mb = 0;
   for (const f of FILES) {
     $("#status").textContent = `Loading ${f}.parquet…`;
-    const res = await fetch(new URL(`../export/${f}.parquet`, location.href));
+    const res = await fetch(new URL(`../export/${f}.parquet`, location.href), { cache: "no-cache" });  // revalidate: re-exports must show
     if (!res.ok) throw new Error(`Could not load db/export/${f}.parquet (HTTP ${res.status}). Run: uv run db/export.py`);
     const buf = new Uint8Array(await res.arrayBuffer());
     mb += buf.length / 1e6;
@@ -596,7 +808,7 @@ try {
   }
   const loaded = [...FILES];
   for (const f of OPTIONAL) {
-    const res = await fetch(new URL(`../export/${f}.parquet`, location.href));
+    const res = await fetch(new URL(`../export/${f}.parquet`, location.href), { cache: "no-cache" });  // revalidate: re-exports must show
     if (!res.ok) { $(`#tabs [data-tab="${f}"]`).remove(); continue; }
     const buf = new Uint8Array(await res.arrayBuffer());
     mb += buf.length / 1e6;
@@ -604,10 +816,21 @@ try {
     await conn.query(`CREATE VIEW ${f} AS SELECT * FROM read_parquet('${f}.parquet')`);
     loaded.push(f);
   }
+  for (const f of LLM_FILES) {
+    const res = await fetch(new URL(`../export/llm/${f}.parquet`, location.href), { cache: "no-cache" });  // revalidate: re-exports must show
+    if (!res.ok) continue;
+    const buf = new Uint8Array(await res.arrayBuffer());
+    mb += buf.length / 1e6;
+    await db.registerFileBuffer(`${f}.parquet`, buf);
+    await conn.query(`CREATE VIEW ${f} AS SELECT * FROM read_parquet('${f}.parquet')`);
+    LLM[f] = true;
+  }
+  await addLlm(loaded);
   const counts = {};
   for (const f of loaded) counts[f] = (await q(`SELECT count(*) AS n FROM ${f}`))[0].n;
   $("#sub").innerHTML = `${fmt(counts.dishes, 0)} dishes · ${fmt(counts.ingredients, 0)} ingredients · ${fmt(counts.effects, 0)} effects`
-    + (counts.cases != null ? ` · ${fmt(counts.cases, 0)} cases` : "") + `
+    + (counts.cases != null ? ` · ${fmt(counts.cases, 0)} cases` : "")
+    + (Object.keys(LLM).length ? ` · LLM layer: ${Object.keys(LLM).length} of ${LLM_FILES.length} tables` : "") + `
     <span class="sub">(${mb.toFixed(0)} MB Parquet from db/export/, queried in your browser)</span>`;
   await show("dishes");
 } catch (err) {

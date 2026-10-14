@@ -88,6 +88,28 @@ class LLM:
                                        schema.model_json_schema()], ensure_ascii=False).encode()).hexdigest()
         return h
 
+    def key(self, version, system, text, schema):
+        """Cache key of a request (the same key the standard and the batch path use)."""
+        return self._key(version, system, text, schema)
+
+    def get(self, key):
+        """(raw, tokens_in, tokens_out) of a cached response, or None."""
+        return self.db.execute("SELECT raw, tokens_in, tokens_out FROM cache WHERE key=?", (key,)).fetchone()
+
+    def put(self, key, version, raw, tin, tout, latency=0.0):
+        self.db.execute("INSERT OR REPLACE INTO cache VALUES (?,?,?,?,?,?,?,?)",
+                        (key, self.model, version, raw, tin, tout, latency, time.time()))
+
+    def generation_config(self, schema):
+        """The generation config as a JSON dict (Batch API request lines): same settings as the standard path."""
+        from google.genai import _transformers as t
+        cfg = {"response_mime_type": "application/json", "temperature": 0.0,
+               "response_schema": t.t_schema(self.client._api_client, schema).model_dump(exclude_none=True, mode="json")}
+        if self.model.startswith("gemini"):
+            cfg["thinking_config"] = ({"thinking_budget": 0 if self.thinking == "off" else 1024} if "2.5" in self.model
+                                      else {"thinking_level": ("minimal" if self.thinking == "off" else self.thinking).upper()})
+        return cfg
+
     def _cost(self, tin, tout):
         pin, pout = PRICES.get(self.model, (0.30, 2.50))
         return tin / 1e6 * pin + tout / 1e6 * pout
