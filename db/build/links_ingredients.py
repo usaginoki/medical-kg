@@ -11,7 +11,7 @@ import re
 import pandas as pd
 
 from common import data
-from build.links_common import log, df_to_temp, xref_alias_map, s, pmids as parse_pmids
+from build.links_common import log, df_to_temp, xref_alias_map, s, split_terms, pmids as parse_pmids
 
 COLS = ["ingredient_id", "condition_id", "direction", "evidence_type", "tradition", "plant_part", "n_pos", "n_neg",
         "pmids", "source_id", "note"]
@@ -30,8 +30,12 @@ def _insert(con, rows, label):
 
 POS = re.compile(r"\b(effective|efficacious|improv\w*|significant(ly)? (reduc|decreas|lower|attenuat|alleviat)\w*|"
                  r"beneficial|ameliorat\w*|alleviat\w*|relie\w*)\b", re.I)
+# 'further studies are warranted' closes positive and negative abstracts alike, so it is not a negative cue
 NEG = re.compile(r"\b(no (significant )?(effect|difference|benefit|improvement)|not (effective|significant)|did not|"
-                 r"failed|no evidence|insufficient|inconclusive|unclear|warrant\w*)\b", re.I)
+                 r"failed|no evidence|insufficient|inconclusive|unclear)\b", re.I)
+# leading verbs of Jamu effect phrases ('Preventing and treating anemia', 'Effective to relieves … pain')
+JAMU_VERB = re.compile(r"^(effective to|helps?( to)?|cure[sd]?|curing|treat(s|ing)?|relie(ve|ves|ving)|overcome|"
+                       r"prevent(s|ing)?|reduce[sd]?|reducing|increase[sd]?|for)(\s+|$)", re.I)
 
 
 def build_ingredient_condition(con, ir, kr, ct, icd11):
@@ -193,7 +197,7 @@ def build_ingredient_condition(con, ir, kr, ct, icd11):
             continue
         # beneficial only when the curated conclusion says the intervention worked
         direction = "beneficial" if (POS.search(r["Conclusion"]) and not NEG.search(r["Conclusion"])) else "association"
-        for cond, _d, _m, _sc in ct.hits(r["Study condition"], "association"):
+        for cond, _d, _m, _sc in ct.hits_multi(r["Study condition"], "association"):
             rows.append(_row(ing[0], cond, direction, "clinical", "herb", pm=parse_pmids(r["PubMed id"]),
                              note=" ".join(f"{r['NCT id']} {r['Study condition']}".split())))
     _insert(con, rows, f"HERB clinical trials ({len(ch)} trials)")
@@ -203,10 +207,18 @@ def build_ingredient_condition(con, ir, kr, ct, icd11):
     je = pd.read_csv(data("knapsack-family", "jamu_herb_effect_examples.csv"), dtype=str, keep_default_na=False)
 
     def jamu_terms(effect):
-        e = re.sub(r"^(cure|curing|treat|treating|relieve|relieving|overcome|prevent|reduce|for)\s+", "", effect.strip(), flags=re.I)
-        e = re.sub(r"\s+(medicine|drug|salve)$", "", e, flags=re.I)
-        e = re.sub(r"^(drug|medicine)\s+", "", e, flags=re.I)
-        return [x.strip() for x in re.split(r",|\band\b", e) if x.strip()]
+        """'Preventing and treating anemia with symptoms: glazed eyes, tingling' -> anemia, glazed eyes, tingling."""
+        e = effect.strip().rstrip(".").replace("?", "")
+        e = re.sub(r"\b(with (\w+ )?symptoms?( of| in)?|accompanied by|because)\b:?|:", ",", e, flags=re.I)
+        out = []
+        for x in (p for chunk in e.split(",") for p in split_terms(chunk)):
+            prev = None
+            while prev != x:
+                prev, x = x, JAMU_VERB.sub("", x.strip())
+            x = re.sub(r"^(drug|medicine|a|an|the)\s+|\s+(medicine|drug|salve|in|on|of)$", "", x.strip(), flags=re.I)
+            if x:
+                out.append(x)
+        return list(dict.fromkeys(out))
 
     def jamu_ing(sci, name=None):
         return (ir.by_scientific(sci) if s(sci) else None) or (ir.by_xref("knapsack", sci) if s(sci) else None)
@@ -234,13 +246,14 @@ def build_ingredient_condition(con, ir, kr, ct, icd11):
     con.execute("DELETE FROM ingredient_condition")
     con.execute("""
         INSERT INTO ingredient_condition
-        SELECT ingredient_id, condition_id, direction, evidence_type, tradition,
-               left(string_agg(DISTINCT plant_part, '|'), 200), max(n_pos), max(n_neg),
-               left(string_agg(DISTINCT pmids, '|'), 2000), source_id,
-               left(string_agg(DISTINCT note, '; '), 500)
-        FROM stg_ic2
-        WHERE ingredient_id IN (SELECT ingredient_id FROM ingredient) AND condition_id IN (SELECT condition_id FROM condition)
-        GROUP BY ingredient_id, condition_id, direction, evidence_type, tradition, source_id""")
+        SELECT s.ingredient_id, s.condition_id, s.direction, s.evidence_type, s.tradition,
+               left(string_agg(DISTINCT s.plant_part, '|'), 200), max(s.n_pos), max(s.n_neg),
+               left(string_agg(DISTINCT s.pmids, '|'), 2000), s.source_id,
+               left(CASE WHEN any_value(k.animal_model) THEN 'animal model; ' ELSE '' END
+                    || string_agg(DISTINCT s.note, '; '), 500)
+        FROM stg_ic2 s JOIN condition k USING (condition_id)
+        WHERE s.ingredient_id IN (SELECT ingredient_id FROM ingredient)
+        GROUP BY s.ingredient_id, s.condition_id, s.direction, s.evidence_type, s.tradition, s.source_id""")
     dropped = con.execute("""SELECT count(*) FROM stg_ic2 WHERE condition_id NOT IN (SELECT condition_id FROM condition)""").fetchone()[0]
     log(f"ingredient_condition: {con.execute('SELECT count(*) FROM ingredient_condition').fetchone()[0]:,} rows "
         f"({dropped} staged rows had an unknown condition id)")

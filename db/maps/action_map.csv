@@ -201,3 +201,24 @@ tachycardic,MESH:D013610,harmful,Tachycardia; raises heart rate
 bradycardic,MESH:D001919,harmful,Bradycardia; lowers heart rate
 paralytic,MESH:D010243,harmful,Paralysis
 spasmogenic,MESH:D013035,harmful,Spasm; induces spasm
+ace inhibitor,MESH:D006973,beneficial,Hypertension; angiotensin-converting-enzyme inhibition lowers blood pressure
+ace inhibitor,MESH:D006333,beneficial,Heart Failure; ACE inhibitors are a first-line heart-failure treatment
+calcium antagonist,MESH:D006973,beneficial,Hypertension; calcium-channel blockade lowers blood pressure
+calcium antagonist,MESH:D000787,beneficial,Angina Pectoris; calcium-channel blockers are antianginal
+vasodilator,MESH:D006973,beneficial,Hypertension; widens blood vessels
+vasodilator,MESH:D000787,beneficial,Angina Pectoris; e.g. nitrates
+xanthine oxidase inhibitor,MESH:D006073,beneficial,Gout; lowers uric acid (allopurinol class)
+xanthine oxidase inhibitor,MESH:D033461,beneficial,Hyperuricemia; lowers uric acid
+myorelaxant,MESH:D013035,beneficial,Spasm; muscle relaxant
+myorelaxant,MESH:D009128,beneficial,Muscle Spasticity; muscle relaxant
+nervine,MESH:D001008,beneficial,Anxiety Disorders; traditional 'nerve tonic' for nervousness
+nootropic,MESH:D060825,beneficial,Cognitive Dysfunction; claimed cognition enhancer
+poison,MESH:D011041,harmful,Poisoning; the plant or chemical is poisonous (Duke 'Poison' / 'Toxic' / 'Fatality')
+piscicide,MESH:D011041,harmful,Poisoning; fish poison (rotenone / saponin plants)
+narcotic,MESH:D011041,harmful,Poisoning; induces stupor (narcotic poisoning) even when used deliberately
+irritant,MESH:D017453,harmful,"Dermatitis, Irritant; irritates skin or mucosa"
+vesicant,MESH:D001768,harmful,Blister; raises blisters
+hyperthermic,MESH:D005334,harmful,Fever; raises body temperature (condition adjective = induces)
+hypercholesterolemic,MESH:D006937,harmful,Hypercholesterolemia; raises blood cholesterol (condition adjective = induces)
+anorexic,MESH:D000855,harmful,Anorexia; suppresses appetite (condition adjective = induces)
+icteric,MESH:D007565,harmful,Jaundice; causes jaundice (condition adjective = induces)

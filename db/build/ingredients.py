@@ -34,7 +34,8 @@ MANUAL_GROUPS = [
       "red chili", "red chilli", "cayenne", "cayenne pepper", "hot pepper", "chilli pepper", "chile pepper",
       "red pepper flakes", "crushed red pepper", "red pepper flake", "chili flakes", "chilli flakes", "red chili flakes",
       "red chilli powder", "red chili powder", "chili powder", "chilli powder", "kashmiri chilli", "kashmiri red chilli",
-      "ground red pepper", "red pepper powder", "ground chili"],
+      "ground red pepper", "red pepper powder", "ground chili", "poblano", "poblano pepper", "poblano chile",
+      "aleppo pepper", "aleppo chili", "kashmiri chili"],
      "spice", None, None),
     (["black pepper", "pepper", "peppercorn", "blackpepper", "kali mirch", "black peppercorn"], "spice",
      "Piper nigrum", 13216),
@@ -68,7 +69,13 @@ MANUAL_GROUPS = [
     (["ginger", "adrak", "ginger root", "fresh ginger"], "spice", "Zingiber officinale", 94328),
     (["date", "dates", "khajur", "tamr", "date palm", "dates fruit"], "fruit", "Phoenix dactylifera", 42345),
     (["pomegranate", "anar", "anardana", "pomegranate seeds"], "fruit", "Punica granatum", 22663),
-    (["bell pepper", "capsicum", "capsicm", "sweet pepper", "paprika"], "vegetable", "Capsicum annuum", 4072),
+    (["bell pepper", "capsicum", "capsicm", "sweet pepper"], "vegetable", "Capsicum annuum", 4072),
+    # the dried spice is not the vegetable (amounts of grams, not hundreds); no taxon so it stays its own ingredient
+    (["paprika", "sweet paprika", "smoked paprika", "hot paprika", "paprika powder", "pimenton", "hungarian paprika",
+      "spanish paprika"], "spice", None, None),
+    (["oregano", "common oregano", "dried oregano", "origanum"], "herb", "Origanum vulgare", 39352),
+    (["kaffir lime", "makrut lime", "kaffir lime leaf", "kaffir lime leaves", "makrut lime leaves", "lime leaves",
+      "citrus hystrix"], "herb", "Citrus hystrix", None),
     (["scallion", "spring onion", "green onion", "welsh onion"], "vegetable", "Allium fistulosum", 35875),
     (["sesame", "til", "sesame seed"], "nut/seed", "Sesamum indicum", 4182),
     (["jujube", "red date", "chinese date"], "fruit", None, None),
@@ -202,7 +209,7 @@ MANUAL_GROUPS = [
       "white flour"], "flour", None, None),
 ]
 # scientific names assigned after merging (no merge key: the product is not the plant)
-POST_SCI = {"dried lime": "Citrus aurantiifolia", "chili pepper": "Capsicum annuum"}
+POST_SCI = {"dried lime": "Citrus aurantiifolia", "chili pepper": "Capsicum annuum", "paprika": "Capsicum annuum"}
 # extra scientific names (same food in the materia-medica sense)
 SCI_ALIASES = {"licorice": ["Glycyrrhiza uralensis", "Glycyrrhiza inflata"], "cassia": ["Cinnamomum aromaticum"],
                "jujube": ["Ziziphus jujuba var. inermis", "Zizyphus jujuba"], "goji": ["Lycium chinense"]}
@@ -218,16 +225,25 @@ RENAME = {
     ("culinarydb", "Dates"): "date", ("culinarydb", "Lentils"): "lentil", ("culinarydb", "Lavendar"): "lavender",
     ("culinarydb", "Cayenne"): "chili pepper", ("culinarydb", "Capsicum"): "bell pepper",
     ("culinarydb", "Welsh onion"): "scallion", ("culinarydb", "Flour"): "flour",
-    ("culinarydb", "Tea"): "tea", ("culinarydb", "Beans"): "beans",
+    ("culinarydb", "Tea"): "tea", ("culinarydb", "Beans"): "beans", ("culinarydb", "Common Tuna"): "tuna",
+    ("foodb", "Jalapeno pepper"): "jalapeno",
 }
 # renamed FooDB records whose original name must not be used as an alias/merge key
 RENAME_NO_ALIAS = {("foodb", "Tea"), ("foodb", "Pepper"), ("foodb", "Liquorice"), ("foodb", "Wheat")}
+# FooDB cultivars filed under the species taxon: merged by name only (jalapeño is not bell pepper)
+FOODB_NO_TAXON = {"Jalapeno pepper"}
+# FooDB group records whose parenthesised names would merge different foods (cherry into plum, oyster into clam,
+# tuna into bonito)
+FOODB_NO_PAREN = {"Prunus (Cherry, Plum)", "Scombridae (Bonito, Mackerel, Tuna)", "Bivalvia (Clam, Mussel, Oyster)"}
 # synonyms in CulinaryDB that are misleading for text matching
 SYN_DROP = {("Hard wheat", "spaghetti"), ("Baking Powder", "baking soda"), ("Cayenne", "harissa"),
             ("Lamb", "keema"), ("Fish", "pomfret"), ("Corn", "corn starch"), ("Corn", "corn flour"),
             ("Anise", "saunf"), ("Mango", "amchoor"), ("Mango", "amchur"), ("Capsicum", "paprika"),
             ("Pomegranate", "anaardana"), ("Cayenne", "green chile"), ("Beef", "steak"), ("Milk Fat", "cream"),
-            ("Radish", "daikon"), ("Water", "ice"), ("Grape", "merlot")}
+            ("Radish", "daikon"), ("Water", "ice"), ("Grape", "merlot"), ("Salmon", "cisco"),
+            ("Salmon", "salmonidae")}
+# FlavorDB2 synonyms that are a different food
+FLAVORDB_SYN_DROP = {("Marjoram", "Oregano"), ("Anise", "Saunf")}  # saunf is fennel
 # IndicRecipeNutri nodes that are not ingredients (adjectives, cuts, units, tokenisation debris)
 IRN_JUNK = set("""apf bites boneless bones bonnet belly blend canned carbonate carbonated chill cob condiments cones
 cracked crisp crispy crumb crunchy crush crust crystals cutlets dices diabetes diluted drinking ears eyes filet
@@ -238,7 +254,7 @@ prepared pressed processed quarters rack ready reserved rind ring ripe roast roo
 separated shape shelled shreds skin skinless smoke smooth solids spanish sparkling spears splash split sponge springs
 sprouted squares squeeze star strained stripes substitute sweetened tablets tails tatse tender thai tops trimmed
 uncooked unsweetened vine weight whip whipped wings wrapper wraps bulb chat dana khar kuria massala masalo oma pearl
-phool tawa atar beni biber bafat bandhania chilka cane charcoal decoction dum natural""".split())
+phool tawa atar beni biber bafat bandhania chilka cane charcoal decoction dum natural gram grams""".split())
 
 CAT_CDB = {"Spice": "spice", "Herb": "herb", "Vegetable": "vegetable", "Fruit": "fruit", "Meat": "meat",
            "Fish": "fish", "Seafood": "seafood", "Dairy": "dairy", "Cereal": "grain", "Maize": "grain",
@@ -371,13 +387,15 @@ def load_seeds():
     for _, r in d.iterrows():
         name = r["Compound Ingredient Name"].strip()
         prim = RENAME.get(("culinarydb", name), name)
-        recs.append(rec("culinarydb", prim, names=[name] + cdb_synonyms(r["Compound Ingredient Synonyms"]),
+        syns = [x for x in cdb_synonyms(r["Compound Ingredient Synonyms"]) if (name, x) not in SYN_DROP]
+        recs.append(rec("culinarydb", prim, names=[name] + syns,
                         cat=CAT_CDB.get(r["Category"], (r["Category"] or "").lower() or None),
                         xrefs=[("culinarydb", r["entity_id"])]))
     # FlavorDB2 entities (a 48-entity sample; ids shared with CulinaryDB)
     d = pd.read_csv(data("flavordb2", "entities.csv"), dtype=str)
     for _, r in d.iterrows():
-        syns = [x.strip() for x in str(r["entity_alias_synonyms"] or "").split(",") if s(x)]
+        syns = [x.strip() for x in str(r["entity_alias_synonyms"] or "").split(",")
+                if s(x) and (r["entity_alias_readable"], x.strip()) not in FLAVORDB_SYN_DROP]
         recs.append(rec("flavordb", r["entity_alias_readable"], names=syns, cat=(r["category"] or "").lower(),
                         xrefs=[("flavordb", r["entity_id"])]))
     # FooDB foods
@@ -387,9 +405,13 @@ def load_seeds():
         prim = RENAME.get(("foodb", name), name)
         names = [] if ("foodb", name) in RENAME_NO_ALIAS else [name]
         m = re.match(r"^(.*?)\s*\((.*)\)$", name)
-        if m and "." not in m.group(2) and m.group(2).lower() not in ("var", "spice", "capsicum"):
+        if m and "." not in m.group(2) and m.group(2).lower() not in ("var", "spice", "capsicum") \
+                and name not in FOODB_NO_PAREN:
             names += [x.strip() for x in m.group(2).split(",")]
         tax = to_int(r["ncbi_taxonomy_id"]) if r["food_type"] == "Type 1" else None
+        sci = s(r["name_scientific"])
+        if name in FOODB_NO_TAXON:
+            tax = sci = None
         if tax in (135518,):  # FooDB gives Gooseberry and Watercress the same taxon
             tax = None
         cat = CAT_FOODB.get(r["food_group"])
@@ -397,7 +419,7 @@ def load_seeds():
             cat = "herb"
         if cat == "fish" and r["food_subgroup"] in ("Mollusks", "Crustaceans", "Seaweed"):
             cat = "seafood" if r["food_subgroup"] != "Seaweed" else "seaweed"
-        recs.append(rec("foodb", prim, names=names, sci=s(r["name_scientific"]), taxon=tax, cat=cat,
+        recs.append(rec("foodb", prim, names=names, sci=sci, taxon=tax, cat=cat,
                         xrefs=[("foodb_food", r["id"]), ("foodb_food", r["public_id"])]))
     # IndicRecipeNutri KG ingredient nodes (+ FoodOn grounding)
     kg = data("indicrecipenutri", "data", "kg")
@@ -421,9 +443,13 @@ def load_seeds():
 
 
 def manual_rows():
+    """rows of db/maps/ingredient_map_manual.csv; `scope=exact` rows are line fragments ('brown' → sugar) that the
+    resolver applies to the whole residual text only, so they are not loaded as aliases."""
     if not os.path.exists(MANUAL_MAP):
-        return pd.DataFrame(columns=["raw_norm", "lang", "ingredient_id", "note"])
+        return pd.DataFrame(columns=["raw_norm", "lang", "ingredient_id", "scope", "note"])
     m = pd.read_csv(MANUAL_MAP, dtype=str, keep_default_na=False)
+    if "scope" not in m:
+        m["scope"] = ""
     return m[(m.raw_norm != "") & (m.ingredient_id != "")]
 
 
@@ -950,7 +976,7 @@ def build(con):
     if missing:
         print(f"  [ingredients] manual map targets missing ({len(missing)}): {missing[:20]}")
     for _, r in man.iterrows():
-        if r.ingredient_id in ids:
+        if r.ingredient_id in ids and r.scope != "exact":
             alias.append((r.ingredient_id, r.raw_norm, r.lang or None, r.lang if r.lang in ("zh", "ja", "ko") else "common",
                            "manual"))
     for zh, canon in HERB_ZH.items():

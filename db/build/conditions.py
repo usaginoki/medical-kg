@@ -8,8 +8,9 @@ Layers, in order (later layers merge into earlier ones by id before creating new
      terms with a MeSH/DO id.
   4. ICD-11 codes used by CMAUP (plant–disease) and DDID (drug indications): 'ICD11:<code>', same_as to the
      MEDIC/UMLS condition with an exact normalised name/alias match.
-  5. db/maps/action_map.csv: 'ACT:<slug>' conditions (type 'action') with action_targets edges;
-     db/maps/condition_synonyms.csv: curated folk/organ synonyms added as aliases.
+  5. db/maps/condition_synonyms.csv: curated folk/organ synonyms and acronyms added as aliases (source 'manual');
+     db/maps/action_map.csv: 'ACT:<slug>' conditions (type 'action') with action_targets edges.
+  6. animal_model = MeSH '…, Experimental' descriptors and their descendants (flag only; links keep them).
 
 Extra cross-reference ids go into condition_alias with lang='xref', alias '<DB>:<id>' (UMLS, MESH, OMIM, DOID, HPO,
 ICD10CM, ICD10, SYMMAP, HERB). The resolver uses them for by_umls/by_mesh; they are never matched as text.
@@ -20,7 +21,7 @@ from collections import Counter
 import pandas as pd
 
 from common import DB_DIR, data, slug
-from build.resolve_conditions import VOCAB_RANK, cond_keys, fix_icd11
+from build.resolve_conditions import alias_score, cond_keys, fix_icd11, is_acronym, noisy_alias
 
 # spelling / phrasing variants of the actions in action_map.csv (variant -> canonical action)
 ACTION_VARIANTS = {
@@ -73,6 +74,17 @@ ACTION_VARIANTS = {
     "purgative": ["purgatives"],
     "aperient": ["aperients"],
     "anticoronary": ["anti coronary"],
+    "ace inhibitor": ["ace-inhibitor", "angiotensin-converting enzyme inhibitors", "angiotensin converting enzyme inhibitor"],
+    "calcium antagonist": ["calcium-antagonist", "calcium channel blockers"],
+    "xanthine oxidase inhibitor": ["xanthine-oxidase-inhibitor"],
+    "myorelaxant": ["muscle relaxant", "muscle relaxants, central"],
+    "nootropic": ["nootropic agent", "nootropic agents"],
+    "poison": ["poisonous", "toxic", "fatality", "poison(arrow)", "arrow poison"],
+    "piscicide": ["fishes, poisonous", "fish poison"],
+    "narcotic": ["narcotics"],
+    "hallucinogenic": ["hallucinogen", "hallucinogens"],
+    "irritant": ["irritants"],
+    "anorexic": ["anorectic", "appetite depressants"],
 }
 
 
@@ -126,7 +138,7 @@ class Builder:
         if alias is None or (isinstance(alias, float) and pd.isna(alias)):
             return
         a = str(alias).strip()
-        if a and (cid, a, lang) not in self.alias:
+        if a and ((cid, a, lang) not in self.alias or source == "manual"):  # a curated entry claims the alias
             self.alias[(cid, a, lang)] = source
 
     def xref(self, cid, db, x, source=None):
@@ -359,19 +371,23 @@ def load_herb(b, name_index):
 
 # ---------------------------------------------------------------------------------------------------------------
 def build_name_index(b, exclude_prefix=("ICD11:", "ACT:")):
-    """norm key -> best condition id among MEDIC/UMLS rows (vocab rank, primary name first)."""
+    """norm key -> best condition id among MEDIC/UMLS rows (same ranking and alias filters as ConditionResolver)."""
     best = {}
-    for (cid, alias, lang), _src in b.alias.items():
+    for (cid, alias, lang), src in b.alias.items():
         if lang == "xref" or cid.startswith(exclude_prefix):
             continue
         c = b.cond[cid]
         if c["type"] in ("tcm_symptom", "tcm_syndrome", "action"):
             continue
-        score = (VOCAB_RANK.get(c["source_vocab"], 9), 0 if alias == c["name"] else 1, cid)
+        if is_acronym(alias) and src != "manual":
+            continue
+        score = alias_score(src, c["source_vocab"], cid, alias == c["name"], c["type"])
         for k in cond_keys(alias):
+            if noisy_alias(alias, k, src, lang):
+                continue
             if k not in best or score < best[k]:
                 best[k] = score
-    return {k: v[2] for k, v in best.items()}
+    return {k: v[-1] for k, v in best.items()}
 
 
 def link_umls_same_as(b):
@@ -470,11 +486,34 @@ def load_actions(b):
         acts[aid] = 1
         b.rel.add((aid, tgt, "action_targets"))
     b.stats["actions"] = len(acts)
+
+
+def load_synonyms(b):
+    """db/maps/condition_synonyms.csv; loaded before the ICD-11 same_as step so curated names steer it too."""
     path = os.path.join(DB_DIR, "maps", "condition_synonyms.csv")
     for r in csv.DictReader(open(path, encoding="utf-8")):
         if r["condition_id"] not in b.cond:
             raise ValueError(f"condition_synonyms.csv: unknown condition {r['condition_id']}")
         b.al(r["condition_id"], r["alias"], r.get("lang") or "en", "manual")
+
+
+def flag_animal_models(b):
+    """animal_model = MeSH '…, Experimental' descriptors (disease induced in animals: 'Diabetes Mellitus, Experimental',
+    'Liver Neoplasms, Experimental') and their is_a descendants (Walker 256, Ehrlich tumour, Sarcoma 180 …)."""
+    kids = {}
+    for f, t, r in b.rel:
+        if r == "is_a":
+            kids.setdefault(t, []).append(f)
+    stack = [cid for cid, c in b.cond.items() if str(c["name"]).endswith(", Experimental")]
+    seen = set()
+    while stack:
+        cid = stack.pop()
+        if cid not in seen:
+            seen.add(cid)
+            stack += kids.get(cid, [])
+    for cid, c in b.cond.items():
+        c["animal_model"] = cid in seen
+    b.stats["animal_model"] = len(seen)
 
 
 # ---------------------------------------------------------------------------------------------------------------
@@ -485,14 +524,16 @@ def build(con):
     load_herb(b, None)
     link_umls_same_as(b)
     load_icd11(b)
+    load_synonyms(b)
     link_icd11_same_as(b, build_name_index(b))
     load_actions(b)
     # drop relations to ids that do not exist (MEDIC parents outside the vocabulary, if any)
     rel = [r for r in b.rel if r[0] in b.cond and r[1] in b.cond]
     b.stats["relations_dropped"] = len(b.rel) - len(rel)
+    flag_animal_models(b)
 
     cols = ["condition_id", "name", "type", "mesh_id", "umls_cui", "icd11", "icd10cm", "doid", "hpo", "mesh_tree",
-            "source_vocab"]
+            "source_vocab", "animal_model"]
     cdf = pd.DataFrame(list(b.cond.values()))[cols]
     adf = pd.DataFrame([(c, a, l, s) for (c, a, l), s in b.alias.items()],
                        columns=["condition_id", "alias", "lang", "source_id"])
@@ -500,7 +541,8 @@ def build(con):
     con.execute("DELETE FROM condition_relation")
     con.execute("DELETE FROM condition_alias")
     con.execute("DELETE FROM condition")
-    con.execute("INSERT INTO condition SELECT * FROM cdf")
+    con.execute("ALTER TABLE condition ADD COLUMN IF NOT EXISTS animal_model BOOLEAN")  # files built before the column
+    con.execute(f"INSERT INTO condition ({', '.join(cols)}) SELECT * FROM cdf")
     con.execute("INSERT INTO condition_alias SELECT * FROM adf")
     con.execute("INSERT INTO condition_relation SELECT * FROM rdf")
     print("[conditions]", dict(b.stats), flush=True)

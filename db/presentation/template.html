@@ -242,9 +242,9 @@ const $ = (s, el = document) => el.querySelector(s);
 const esc = v => String(v ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
 const fmtN = n => typeof n === "number" ? n.toLocaleString("en-US") : n;
 const EV = {clinical: "--ev-clinical", curated_literature: "--ev-curated", epidemiological: "--ev-epi",
-            traditional: "--ev-trad", text_mined: "--ev-text", predicted: "--ev-pred"};
+            traditional: "--ev-trad", text_mined: "--ev-text", in_vitro: "--ev-text", predicted: "--ev-pred"};
 const EVL = {clinical: "clinical", curated_literature: "curated", epidemiological: "epidemiological",
-             traditional: "traditional", text_mined: "text-mined", predicted: "predicted"};
+             traditional: "traditional", text_mined: "text-mined", in_vitro: "in vitro", predicted: "predicted"};
 const DIR = {beneficial: "↑ beneficial", harmful: "↓ harmful", marker: "~ marker", association: "· association"};
 const world = $("#world"), stage = $("#stage"), wires = $("#wires");
 

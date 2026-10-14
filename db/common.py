@@ -15,7 +15,8 @@ EVIDENCE = [  # code, rank (1 = strongest), label
     ("epidemiological", 3, "cohort or biomarker association"),
     ("traditional", 4, "traditional-medicine claim"),
     ("text_mined", 5, "text-mined from abstracts"),
-    ("predicted", 6, "computationally predicted / inferred"),
+    ("in_vitro", 6, "reported pharmacological activity, mostly in vitro / animal (Dr. Duke chemical activities)"),
+    ("predicted", 7, "computationally predicted / inferred"),
 ]
 
 

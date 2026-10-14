@@ -109,3 +109,31 @@ urogenital system,MESH:D000091642,en,Urogenital Diseases; IMPPAT label
 hemicrania,MESH:D008881,en,Migraine Disorders; one-sided headache (not anencephaly)
 pertussis,MESH:D014917,en,Whooping Cough
 disorder of ejaculation,MESH:D000097910,en,Ejaculatory Dysfunction; IMPPAT label
+PTSD,MESH:D013313,en,"Stress Disorders, Post-Traumatic; acronym (MEDIC also lists it for a pterin-synthase deficiency)"
+IBS,MESH:D043183,en,Irritable Bowel Syndrome; acronym (MEDIC: Ichthyosis Bullosa of Siemens)
+UTI,MESH:D014552,en,Urinary Tract Infections; acronym
+HIV,MESH:D015658,en,HIV Infections; acronym
+HTN,MESH:D006973,en,Hypertension; acronym
+CKD,MESH:D051436,en,"Renal Insufficiency, Chronic; acronym"
+CAD,MESH:D003324,en,Coronary Artery Disease; acronym
+HCV,MESH:D006526,en,Hepatitis C; acronym (MEDIC 'HCVs' = coronaviruses)
+breast cancer,MESH:D001943,en,Breast Neoplasms; HERB also gives it to the familial MeSH supplementary concepts
+prostate cancer,MESH:D011471,en,Prostatic Neoplasms
+lung cancer,MESH:D008175,en,Lung Neoplasms
+liver cancer,MESH:D008113,en,Liver Neoplasms
+pancreatic cancer,MESH:D010190,en,Pancreatic Neoplasms
+colorectal cancer,MESH:D015179,en,Colorectal Neoplasms
+colon and rectal cancer,MESH:D015179,en,Colorectal Neoplasms; Exposome-Explorer label
+gastric cancer,MESH:D013274,en,Stomach Neoplasms
+stomach cancer,MESH:D013274,en,Stomach Neoplasms
+esophageal cancer,MESH:D004938,en,Esophageal Neoplasms
+lymphoid cancer,MESH:D008223,en,Lymphoma; Exposome-Explorer label
+sore,MESH:D012883,en,Skin Ulcer; Duke 'Sore' (SymMap gives 'Sore' to Tenderness)
+sores,MESH:D012883,en,Skin Ulcer
+kidney stone,MESH:D007669,en,Kidney Calculi; CMAUP/ICD-11 label (not the calcium-oxalate subtype)
+hashimoto thyroiditis,MESH:D050031,en,Hashimoto Disease; ICD-11 label
+premature ovarian failure,MESH:D016649,en,Primary Ovarian Insufficiency; ICD-11 label
+fit,MESH:D012640,en,Seizures; folk term (Duke)
+fits,MESH:D012640,en,Seizures; folk term (Duke)
+cirrhosis,MESH:D008103,en,"Liver Cirrhosis; MeSH lists Cirrhosis under Fibrosis, folk use means the liver"
+disorder of female genital organs,MESH:D005831,en,"Genital Diseases, Female; IMPPAT label (fuzzy matching would pick the male twin)"

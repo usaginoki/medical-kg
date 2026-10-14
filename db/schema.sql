@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS source (
 );
 
 CREATE TABLE IF NOT EXISTS evidence_type (
-  code  VARCHAR PRIMARY KEY,   -- clinical | curated_literature | epidemiological | traditional | text_mined | predicted
+  code  VARCHAR PRIMARY KEY,   -- clinical | curated_literature | epidemiological | traditional | text_mined | in_vitro | predicted
   rank  INTEGER,               -- 1 = strongest
   label VARCHAR
 );
@@ -45,10 +45,15 @@ CREATE TABLE IF NOT EXISTS dish_ingredient (
   raw_text      VARCHAR,        -- ingredient line as in the source
   quantity      DOUBLE,
   unit          VARCHAR,
-  grams         DOUBLE,         -- NULL if unknown
-  match_method  VARCHAR,        -- xref | exact | normalised | fuzzy | manual | unmatched
+  grams         DOUBLE,         -- NULL if unknown (and for the parts of a split line)
+  match_method  VARCHAR,        -- xref | exact | normalised | manual | substring (guess from part of the text) | fuzzy | unmatched
   match_score   DOUBLE,
-  source_id     VARCHAR
+  source_id     VARCHAR,
+  ingredient_text  VARCHAR,     -- text the match was made on: the line without its amount, or one part of a split line
+  split_part       INTEGER,     -- 1..n when one line names several ingredients ('salt and pepper'); NULL otherwise
+  weight_tier      VARCHAR,     -- how grams were obtained: IndicRecipeNutri tier A–E (D/E = default weight, no stated
+                                --   amount) | 'piece' (db/maps/piece_weights.csv) | NULL (stated mass / volume)
+  weight_confident BOOLEAN      -- IndicRecipeNutri `confident` flag; NULL for other sources
 );
 
 CREATE TABLE IF NOT EXISTS dish_nutrient (
@@ -134,7 +139,8 @@ CREATE TABLE IF NOT EXISTS condition (
   doid         VARCHAR,
   hpo          VARCHAR,
   mesh_tree    VARCHAR,         -- '|'-joined tree numbers
-  source_vocab VARCHAR          -- medic | symmap | herb | icd11 | action_map | free_text
+  source_vocab VARCHAR,         -- medic | symmap | herb | icd11 | action_map | free_text
+  animal_model BOOLEAN          -- MeSH '…, Experimental' (disease induced in animals) or a descendant
 );
 
 CREATE TABLE IF NOT EXISTS condition_alias (
@@ -158,7 +164,8 @@ CREATE TABLE IF NOT EXISTS compound_condition (
   evidence_type VARCHAR,
   source_id     VARCHAR,
   pmids         VARCHAR,        -- '|'-joined
-  score         DOUBLE
+  score         DOUBLE,
+  note          VARCHAR         -- source term(s), e.g. 'Antitumor', 'Breast cancer'; 'animal model' flag
 );
 
 CREATE TABLE IF NOT EXISTS ingredient_condition (

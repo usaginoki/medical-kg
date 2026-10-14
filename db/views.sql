@@ -1,5 +1,5 @@
 -- Analysis views over the unified database (loaded by stage `views`).
--- Evidence rank: 1 = strongest (clinical) … 6 = weakest (predicted). A path is only as strong as its weakest hop.
+-- Evidence rank: 1 = strongest (clinical) … 7 = weakest (predicted). A path is only as strong as its weakest hop.
 
 -- Every ingredient → condition path: direct links, plus ingredient → compound → condition.
 CREATE OR REPLACE VIEW v_ingredient_condition_all AS
@@ -31,7 +31,7 @@ SELECT icp.ingredient_id,
        icp.source_id,
        NULL,
        cc.pmids,
-       NULL
+       cc.note                          -- the compound claim's source term ('Antitumor', CTD 'marker/mechanism')
 FROM ingredient_compound icp
 JOIN compound_condition cc ON cc.compound_id = icp.compound_id
 JOIN evidence_type e1 ON e1.code = icp.evidence_type

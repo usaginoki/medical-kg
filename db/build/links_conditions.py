@@ -3,6 +3,11 @@
 Sources: CTD curated chemical–disease (attached to the CTD-owning compound, fanned out to same-MeSH variants that
 occur in ingredient_compound), HMDB metabolite diseases, Exposome-Explorer cancer associations, FooDB
 CompoundsHealthEffect and Dr. Duke's AGGREGAC (chemical activities).
+
+`note` keeps the source term ('Antitumor', 'Breast cancer', CTD 'marker/mechanism') so a via-compound path still says
+what was claimed; links to animal-model conditions (condition.animal_model) start with 'animal model; '.
+Duke's activities are evidence 'in_vitro'. FooDB's health effects cite Duke for 10,930 of 11,062 rows: those are stored
+as source 'duke' (note '… via FooDB') so they merge with AGGREGAC instead of counting as a second source.
 """
 import os, pandas as pd
 
@@ -10,7 +15,7 @@ from common import data
 from build.links_common import log, lookup_table, df_to_temp, xref_alias_map, s, CondText
 
 STG = """CREATE OR REPLACE TEMP TABLE stg_cc (compound_id VARCHAR, condition_id VARCHAR, direction VARCHAR,
-         evidence_type VARCHAR, source_id VARCHAR, pmids VARCHAR, score DOUBLE)"""
+         evidence_type VARCHAR, source_id VARCHAR, pmids VARCHAR, score DOUBLE, note VARCHAR)"""
 CTD_SCORE = {"self": 1.0, "own": 1.0, "inchikey": 1.0, "cid": 1.0, "xref": 1.0,
              "inchikey_skeleton": 0.7, "name": 0.7, "cas": 0.7}
 
@@ -47,7 +52,7 @@ def build_compound_condition(con, cr, kr, ct):
     df_to_temp(con, "lk_ctd_c", pd.DataFrame(rows, columns=["mesh", "compound_id", "score"]))
     con.execute("""INSERT INTO stg_cc
         SELECT c.compound_id, d.v, CASE WHEN ctd.de = 'therapeutic' THEN 'beneficial' ELSE 'marker' END,
-               'curated_literature', 'ctd', ctd.pm, c.score
+               'curated_literature', 'ctd', ctd.pm, c.score, ctd.de
         FROM ctd JOIN lk_ctd_c c USING (mesh) JOIN lk_ctd_d d ON d.k = ctd.did""")
     n_ctd = con.execute("SELECT count(*) FROM ctd").fetchone()[0]
     log(f"CTD: {n_ctd:,} curated rows; {len(rows):,} mesh->compound links "
@@ -81,8 +86,8 @@ def build_compound_condition(con, cr, kr, ct):
                 continue
             if d.startswith("ACT:"):
                 continue
-            rows.append((c, d, "marker", "epidemiological", "hmdb", s(r.pubmed_ids), None))
-        df_to_temp(con, "hm", pd.DataFrame(rows, columns=list("abcdefg")))
+            rows.append((c, d, "marker", "epidemiological", "hmdb", s(r.pubmed_ids), None, s(r.disease_name)))
+        df_to_temp(con, "hm", pd.DataFrame(rows, columns=list("abcdefgh")))
         con.execute("INSERT INTO stg_cc SELECT * FROM hm")
         log(f"HMDB: {len(hm):,} rows after dropping {int(barth.sum()):,} templated cardiolipin/Barth rows -> "
             f"{len(rows):,} staged ({n_unres:,} rows with unresolved disease)")
@@ -103,33 +108,36 @@ def build_compound_condition(con, cr, kr, ct):
     rows = []
     for b, cancer in zip(ca.Biomarker, ca.Cancer):
         c = bmap.get(b)
-        for d, direction, _m, _sc in ct.hits(cancer, "association"):
+        for d, direction, _m, _sc in ct.hits_multi(cancer, "association"):
             if c:
-                rows.append((c, d, "association", "epidemiological", "exposome", None, None))
-    df_to_temp(con, "ex", pd.DataFrame(rows, columns=list("abcdefg")))
+                rows.append((c, d, "association", "epidemiological", "exposome", None, None, cancer))
+    df_to_temp(con, "ex", pd.DataFrame(rows, columns=list("abcdefgh")))
     con.execute("INSERT INTO stg_cc SELECT * FROM ex")
     log(f"Exposome-Explorer: {len(ca):,} cancer associations -> {len(rows):,} staged "
         f"(biomarkers resolved {sum(1 for b in ca.Biomarker.unique() if b in bmap)}/{ca.Biomarker.nunique()}; "
-        f"cancers resolved {sum(1 for x in ca.Cancer.unique() if ct.hits(x, 'association'))}/{ca.Cancer.nunique()})")
+        f"cancers resolved {sum(1 for x in ca.Cancer.unique() if ct.hits_multi(x, 'association'))}/{ca.Cancer.nunique()})")
 
     # ---- FooDB CompoundsHealthEffect ----------------------------------------------------------------------
     he = pd.read_csv(data("foodb", "HealthEffect.csv"), dtype=str, keep_default_na=False, usecols=["id", "name"])
     hname = dict(zip(he.id, he.name))
     ch = pd.read_csv(data("foodb", "CompoundsHealthEffect.csv"), dtype=str, keep_default_na=False,
-                     usecols=["compound_id", "health_effect_id", "citation"])
+                     usecols=["compound_id", "health_effect_id", "citation", "orig_health_effect_name"])
     rows, terms_hit = [], set()
-    for c_id, h_id, cit in zip(ch.compound_id, ch.health_effect_id, ch.citation):
+    for c_id, h_id, cit, orig in zip(ch.compound_id, ch.health_effect_id, ch.citation, ch.orig_health_effect_name):
         c = cr.by_xref("foodb", c_id)
         name = hname.get(h_id)
         if not c or not name:
             continue
-        ev = "curated_literature" if cit.upper() == "CHEBI" else "traditional"
+        # ChEBI roles are curated; the rest are Dr. Duke's activities copied into FooDB
+        src, ev = ("foodb", "curated_literature") if cit.upper() == "CHEBI" else ("duke", "in_vitro")
         for d, direction, _m, _sc in ct.hits(name, "association"):
             terms_hit.add(name)
-            rows.append((c, d, direction, ev, "foodb", None, None))
-    df_to_temp(con, "fh", pd.DataFrame(rows, columns=list("abcdefg")))
+            rows.append((c, d, direction, ev, src, None, None,
+                         (s(orig) or name) + (" (via FooDB)" if src == "duke" else "")))
+    df_to_temp(con, "fh", pd.DataFrame(rows, columns=list("abcdefgh")))
     con.execute("INSERT INTO stg_cc SELECT * FROM fh")
-    log(f"FooDB health effects: {len(ch):,} rows -> {len(rows):,} staged "
+    log(f"FooDB health effects: {len(ch):,} rows -> {len(rows):,} staged ({sum(1 for r in rows if r[4] == 'duke'):,} "
+        f"citing Duke, stored as source 'duke') "
         f"(terms mapped {len(terms_hit)}/{ch.health_effect_id.nunique()})")
 
     # ---- Dr. Duke's AGGREGAC (chemical activities) --------------------------------------------------------
@@ -143,22 +151,26 @@ def build_compound_condition(con, cr, kr, ct):
             continue
         for d, direction, _m, _sc in ct.hits(act, "association"):
             terms_hit.add(act)
-            rows.append((c, d, direction, "traditional", "duke", None, None))
-    df_to_temp(con, "dk", pd.DataFrame(rows, columns=list("abcdefg")))
+            rows.append((c, d, direction, "in_vitro", "duke", None, None, act))
+    df_to_temp(con, "dk", pd.DataFrame(rows, columns=list("abcdefgh")))
     con.execute("INSERT INTO stg_cc SELECT * FROM dk")
     log(f"Duke AGGREGAC: {len(ag):,} rows, chemicals resolved {sum(1 for v in cmap.values() if v)}/{len(cmap)}, "
         f"activities mapped {len(terms_hit)}/{ag.ACTIVITY.nunique()} -> {len(rows):,} staged")
 
     # ---- dedupe --------------------------------------------------------------------------------------------
     con.execute("DELETE FROM compound_condition")
+    con.execute("ALTER TABLE compound_condition ADD COLUMN IF NOT EXISTS note VARCHAR")  # files built before the column
     con.execute("""
         INSERT INTO compound_condition
-        SELECT compound_id, condition_id, direction, evidence_type, source_id,
-               nullif(left(array_to_string(list_distinct(flatten(list(string_split(coalesce(pmids, ''), '|')))), '|'), 2000), ''),
-               max(score)
-        FROM stg_cc
-        WHERE compound_id IN (SELECT compound_id FROM compound) AND condition_id IN (SELECT condition_id FROM condition)
-        GROUP BY compound_id, condition_id, direction, evidence_type, source_id""")
+        SELECT s.compound_id, s.condition_id, s.direction, s.evidence_type, s.source_id,
+               nullif(left(array_to_string(list_distinct(flatten(list(string_split(coalesce(s.pmids, ''), '|')))), '|'), 2000), ''),
+               max(s.score),
+               left(CASE WHEN any_value(k.animal_model) THEN 'animal model; ' ELSE '' END
+                    || coalesce(string_agg(DISTINCT s.note, '; '), ''), 200)
+        FROM stg_cc s JOIN condition k USING (condition_id)
+        WHERE s.compound_id IN (SELECT compound_id FROM compound)
+        GROUP BY s.compound_id, s.condition_id, s.direction, s.evidence_type, s.source_id""")
+    con.execute("UPDATE compound_condition SET note = NULL WHERE note = ''")
     con.execute("UPDATE compound_condition SET pmids = trim(replace('|' || pmids || '|', '||', '|'), '|') WHERE pmids IS NOT NULL")
     log("compound_condition: " + ", ".join(f"{a} {b:,}" for a, b in con.execute(
         "SELECT source_id, count(*) FROM compound_condition GROUP BY 1 ORDER BY 2 DESC").fetchall()))

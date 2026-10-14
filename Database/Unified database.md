@@ -115,9 +115,10 @@ erDiagram
 | 1 | clinical | CMAUP plant–trial links, HERB curated trial conclusions |
 | 2 | curated_literature | CTD curated chemical–disease; measured food composition; DDID rows with PMIDs |
 | 3 | epidemiological | HMDB biomarkers, Exposome-Explorer cancer associations |
-| 4 | traditional | IMPPAT uses, Duke ethnobotany and activities, SymMap herb→TCM symptom, UNaProd, Jamu |
+| 4 | traditional | IMPPAT uses, Duke ethnobotany, SymMap herb→TCM symptom, UNaProd, Jamu |
 | 5 | text_mined | SpiceRx (MEDLINE co-occurrence with ± polarity) |
-| 6 | predicted | SymMap inferred herb–disease links, CMAUP target/transcriptome associations, DDID "Possible" without a PMID |
+| 6 | in_vitro | Duke chemical activities (AGGREGAC) and the FooDB health effects copied from them |
+| 7 | predicted | SymMap inferred herb–disease links, CMAUP target/transcriptome associations, DDID "Possible" without a PMID |
 
 **Direction** is one of:
 - **beneficial**: CTD *therapeutic*, a traditional use, or SpiceRx with more positive than negative papers;

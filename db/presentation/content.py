@@ -764,9 +764,9 @@ DATASETS = {
             },
             "dish_ingredient": {
                 "how": [
-                    "Source grams used as is; weight tier appended to raw_text",
+                    "Source grams used as is; weight tier in its own column (weight_tier); website junk lines dropped",
                     "Tier E lines are defaults (e.g. 'salt' → 20 g), not measurements",
-                    "Name → ingredient by alias text (exact → normalised → fuzzy)",
+                    "Name → ingredient by alias text (exact → normalised → substring → fuzzy)",
                 ],
                 "raw": {"file": "Data/indicrecipenutri/data/enrichment/ingredients_weights.parquet", "row": {
                     "recipe_id": "109888",
@@ -1989,7 +1989,7 @@ TABLES = {
     },
     "evidence_type": {
         "title": "Evidence type",
-        "role": "One evidence grade, ranked 1 (clinical) to 6 (predicted)",
+        "role": "One evidence grade, ranked 1 (clinical) to 7 (predicted)",
         "why": ["Lets the agent rank and filter claims by strength",
                 "Separates a trial from a folk use from a prediction"],
     },

@@ -8,10 +8,16 @@ Interface (db/README.md): every lookup returns `(ingredient_id, match_method, sc
     r.by_scientific('Curcuma longa L.')   -> ('ING:turmeric', 'scientific', 1.0)
     r.by_text('生姜', 'zh')                -> ('ING:ginger', 'manual', 1.0)
 
-`by_text` runs these stages in order: exact alias (lower-cased) → normalised alias (light key, then
-`common.norm_text`, then parenthesised content, then sub-phrases / CJK substrings) → fuzzy (rapidfuzz
-token_sort_ratio ≥ 90 against aliases of the same language). A hit on an alias that came from the curated
-map `db/maps/ingredient_map_manual.csv` (source_id 'manual') is reported as method 'manual'.
+`by_text` runs these stages in order: exact-only rows of the manual map → exact alias (lower-cased) →
+normalised alias (light key, then `common.norm_text`, then parenthesised content) → sub-phrases / CJK substrings
+(method 'substring': a guess from part of the text) → fuzzy (English: rapidfuzz token_sort_ratio ≥ 92 against
+food-source aliases, same first three letters, FUZZY_BLOCK pairs refused; CJK: character ratio ≥ 90). A hit on an alias that came from the curated map
+`db/maps/ingredient_map_manual.csv` (source_id 'manual') is reported as method 'manual'. Map rows with
+`scope=exact` are fragments of a line ('brown' → sugar, 'pinch' → salt): they are not aliases and only match when
+the whole residual text equals the key.
+
+`by_text_parts` additionally splits a line that names several ingredients ('salt and pepper', '土豆，面粉，鸡蛋')
+into parts that each resolve; `/` and ' or ' separate alternatives, of which the first that resolves is kept.
 """
 import re
 import unicodedata
@@ -40,7 +46,31 @@ GENERIC = {"meat", "piece", "pieces", "powder", "paste", "leaves", "leaf", "seed
            "chunk", "chunks", "bone", "boneless", "skinless", "large", "small", "medium", "plain", "salted",
            "unsalted", "whole", "baby", "mixed", "wild", "cold", "warm", "soft", "hard", "thin", "thick", "long",
            "cooked", "canned", "frozen", "instant", "low", "fat", "free", "dry", "few", "pinch", "some", "to", "as",
-           "required", "taste", "per", "slit", "split", "spring", "stalk", "string", "each", "bowl", "glass"}
+           "required", "taste", "per", "slit", "split", "spring", "stalk", "string", "each", "bowl", "glass",
+           "gram", "grams", "spoon", "nos"}
+# heads that lose to a resolvable modifier in the sub-phrase stage ('besan flour' -> besan, not wheat flour), unless
+# the modifier is a product ('bread flour', 'cake flour')
+WEAK_HEAD = {"flour", "atta"}
+WEAK_HEAD_NOT = {"bakery", "dish", "confectionery", "snack", "additive", "beverage", "alcoholic beverage", "dairy",
+                 "meat", "fish", "baby food"}
+# categories of a run of names that may be split on spaces ('ginger green chillies garlic')
+SEGMENT_CATS = {"spice", "herb", "vegetable", "fruit", "legume", "nut/seed"}
+# last words that make a run of names one product ('onion tomato masala', 'sesame ginger salad dressing')
+PRODUCT_HEAD = {"oil", "noodle", "dressing", "chutney", "sauce", "masala", "paste", "powder", "water", "juice", "milk",
+                "flour", "butter", "cream", "mix", "curry", "soup", "stock", "broth", "vinegar", "syrup", "tea", "bread",
+                "rice", "seasoning", "pickle", "jam", "salad", "cake", "chip"}
+# CJK aliases that are generic heads ('肉' meat → pork): any other substring of the line wins over them
+# (cuts that default to pork: '牛里脊肉' is beef, '羊排' lamb)
+CJK_GENERIC = {"肉", "肉片", "肉末", "肉丝", "肉馅", "肉沫", "肉糜", "肉块", "肉丁", "瘦肉", "里脊", "里脊肉", "排骨", "排骨肉",
+               "肋排", "五花", "五花肉", "花肉", "肥肠", "酱", "粉", "汁", "菜", "汤"}
+# sources whose English names are foods (fuzzy targets); herb / ethnobotany sources carry many plant names
+FOOD_SOURCES = {"manual", "curated", "culinarydb", "indicrecipenutri", "foodb", "flavordb"}
+# fuzzy pairs that look alike but are different foods (query key, alias key)
+FUZZY_BLOCK = {("leaves", "leaven"), ("fruity", "fruit"), ("crisco", "cisco"), ("marsala", "masala"),
+               ("sambal powder", "sambar powder"), ("pimenton", "pimento"), ("craisin", "raisin")}
+# separators of a line that lists several ingredients; alternatives ('ghee / oil', 'besan or gram flour')
+LIST_SEP = re.compile(r"\s*[、，,;；+＋&]\s*|\s+and\s+")
+ALT_SEP = re.compile(r"\s*[/／或]\s*|\s+or\s+")
 IRREG_PLURAL = {"leaves": "leaf", "halves": "half", "loaves": "loaf", "knives": "knife", "calves": "calf",
                 "tomatoes": "tomato", "potatoes": "potato", "mangoes": "mango", "chillies": "chilli",
                 "radishes": "radish", "dishes": "dish", "anchovies": "anchovy", "cherries": "cherry"}
@@ -52,7 +82,7 @@ EN_FILLER = re.compile(
     r"pinch|dash|bunch|sprig|some)(?: of)?|optional|or more|or less|approx(?:imately)?|about|little|"
     r"plus extra|plus more|if needed|if required|if available|or as required|at room temperature|"
     r"cut into [a-z ]+|finely|roughly|thinly|freshly|chopped|sliced|minced|diced|grated|crushed|ground|"
-    r"pieces?|nos?|number|\d+(?:\.\d+)?|tsp|tbsp|cups?|teaspoons?|tablespoons?|grams?|gm|kg|ml|inch|cm)\b",
+    r"pieces?|nos?|number|\d+(?:\.\d+)?|tsp|tbsp|cups?|teaspoons?|tablespoons?|grams|gms?|kg|ml|inch|cm)\b",
     re.I)
 
 
@@ -60,6 +90,7 @@ def clean_en(text):
     t = unicodedata.normalize("NFKC", str(text)).lower()
     t = re.sub(r"\([^)]*\)", " ", t)
     t = t.split(",")[0] if not t.startswith(",") else t
+    t = re.sub(r"^\s*no\.\s?s(?=[a-z])", "", t)  # 'no.stomato' (IndicRecipeNutri 'nos' glued to the name)
     t = EN_FILLER.sub(" ", t)
     t = re.sub(r"[^a-z\s'-]", " ", t)
     t = re.sub(r"\b(of|or|and|with|for)\s*$", " ", t.strip())
@@ -98,6 +129,9 @@ def key_norm(text):
     return " ".join(words)
 
 
+FUZZY_BLOCK_N = {(key_norm(a), key_norm(b)) for a, b in FUZZY_BLOCK}
+
+
 def sci_parse(name):
     """'Allium cepa var. cepa L.' -> ('allium cepa var. cepa', 'allium cepa'); returns (None, None) if no binomial."""
     if not name or not isinstance(name, str):
@@ -131,19 +165,25 @@ def sci_parse(name):
 
 
 def _manual_keys():
-    """lower-cased raw_norm keys of db/maps/ingredient_map_manual.csv (hits on these report method 'manual')."""
+    """db/maps/ingredient_map_manual.csv → (lower-cased raw_norm keys of alias rows (hits on these report method
+    'manual'), {lang: {key: ingredient_id}} of the `scope=exact` rows)."""
     import csv
     import os
     from common import DB_DIR
-    out = set()
+    out, exact = set(), {}
     try:
         with open(os.path.join(DB_DIR, "maps", "ingredient_map_manual.csv"), encoding="utf-8") as f:
             for row in csv.DictReader(f):
-                if row.get("raw_norm"):
-                    out.add(unicodedata.normalize("NFKC", row["raw_norm"]).lower().strip())
+                if not row.get("raw_norm") or not row.get("ingredient_id"):
+                    continue
+                k = unicodedata.normalize("NFKC", row["raw_norm"]).lower().strip()
+                if (row.get("scope") or "").strip() == "exact":
+                    exact.setdefault(row.get("lang") or None, {})[k] = row["ingredient_id"]
+                else:
+                    out.add(k)
     except FileNotFoundError:
         pass
-    return out
+    return out, exact
 
 
 def _rank(source_id, alias_type):
@@ -156,6 +196,7 @@ class IngredientResolver:
         rows = con.execute("SELECT ingredient_id, canonical_name, scientific_name, ncbi_taxon_id FROM ingredient").fetchall()
         self.ids = {r[0] for r in rows}
         self.name = {r[0]: r[1] for r in rows}
+        self.cat = dict(con.execute("SELECT ingredient_id, category FROM ingredient").fetchall())
         self.taxon, self.sci_full, self.sci_bin = {}, {}, {}
         for iid, _, sci, tax in rows:
             if tax is not None:
@@ -189,7 +230,9 @@ class IngredientResolver:
         # alias indexes: {lang: {key: (rank, iid, source)}}
         self.exact, self.keyn, self.normn, self.fuzzy_choices = {}, {}, {}, {}
         self.pharma = {}
-        self.manual_keys_pre = _manual_keys()
+        self.manual_keys_pre, exact_only = _manual_keys()
+        self.exact_only = {lg: {k: v for k, v in d.items() if v in self.ids} for lg, d in exact_only.items()}
+        self.food_keys = {}  # {lang: set of key_norm aliases from food sources} (fuzzy targets)
         arows = con.execute("SELECT ingredient_id, alias, lang, alias_type, source_id FROM ingredient_alias").fetchall()
         for iid, alias, lang, atype, src in arows:
             if not alias:
@@ -199,6 +242,8 @@ class IngredientResolver:
             src = "manual" if (src == "manual" and a in self.manual_keys_pre) else ("curated" if src == "manual" else src)
             self._put(self.exact, lang, a, rk, iid, src)
             self._put(self.keyn, lang, key_norm(alias), rk, iid, src)
+            if src in FOOD_SOURCES:
+                self.food_keys.setdefault(lang, set()).add(key_norm(alias))
             n = norm_text(alias)
             # a descriptor-stripped key ('dried lime' -> 'lime') loses to aliases that are literally that key
             self._put(self.normn, lang, n, (rk[0] + (0 if n == a else 20), rk[1]), iid, src)
@@ -287,14 +332,49 @@ class IngredientResolver:
         self._cache[ck] = res
         return res
 
+    def by_text_strict(self, text, lang="en"):
+        """exact / normalised stages only (no sub-phrase, substring or fuzzy guess)"""
+        if text is None:
+            return None
+        ck = ("strict", text, lang)
+        if ck not in self._cache:
+            self._cache[ck] = self._by_text(text, lang, fuzzy=False, loose=False)
+        return self._cache[ck]
+
+    def by_text_parts(self, text, lang="en"):
+        """→ [(part_text, (ingredient_id, match_method, score) | None), …]: one element unless the line names several
+        ingredients ('ginger, garlic and chillies', '土豆，面粉，鸡蛋'), which are split where every part resolves."""
+        if text is None:
+            return [(text, None)]
+        ck = ("parts", text, lang)
+        if ck not in self._cache:
+            whole = self._by_text(text, lang, fuzzy=False, loose=False, strict_upto="keyn")
+            parts = None if whole else self._split(text, lang)
+            self._cache[ck] = parts or [(text, whole or self.by_text(text, lang))]
+        return self._cache[ck]
+
     def _ret(self, hit, method, score):
         rk, iid, src = hit
         return (iid, "manual" if src == "manual" else method, score)
 
-    def _by_text(self, text, lang, fuzzy):
+    def _exact_only(self, raw, lang):
+        for lg in self._langs(lang):
+            d = self.exact_only.get(lg, {})
+            iid = d.get(raw) or d.get(key_norm(raw))
+            if iid:
+                return (iid, "manual", 1.0)
+        return None
+
+    def _by_text(self, text, lang, fuzzy, loose=True, strict_upto=None, parts=False):
+        """loose=False stops before the sub-phrase / substring / fuzzy guesses; strict_upto='keyn' stops after the
+        exact and light-key stages (used before trying to split a line); parts=True (a part of a split line) skips
+        the exact-only fragments ('8 large eggs, chilled' is not eggs + water)."""
         raw = unicodedata.normalize("NFKC", str(text)).lower().strip()
         if not raw:
             return None
+        res = None if parts else self._exact_only(raw, lang)
+        if res:
+            return res
         cjk = bool(CJK.search(raw))
         hit = self._lookup(self.exact, raw, lang, all_langs=True)
         if hit:
@@ -303,9 +383,21 @@ class IngredientResolver:
         hit = self._lookup(self.keyn, k, lang, all_langs=cjk)
         if hit:
             return self._ret(hit, "normalised", 0.95)
+        if strict_upto == "keyn":
+            return None
         if not cjk:
+            # the name before a comma as written ('crushed red pepper, ground'), before fillers are removed
+            head = raw.split(",")[0].strip()
+            if head and head != raw:
+                hit = self._lookup(self.keyn, key_norm(head), lang)
+                if hit:
+                    return self._ret(hit, "normalised", 0.93)
             ce = clean_en(raw)
             if ce and ce != raw:
+                # fragments also match the line without fillers ('a pinch of red color'), not a comma head
+                res = None if (parts or "," in raw) else self._exact_only(ce, lang)
+                if res:
+                    return res
                 hit = self._lookup(self.keyn, key_norm(ce), lang)
                 if hit:
                     return self._ret(hit, "normalised", 0.92)
@@ -323,6 +415,8 @@ class IngredientResolver:
             hit = self._lookup(self.keyn, key_norm(inner), lang, all_langs=cjk)
             if hit:
                 return self._ret(hit, "normalised", 0.85)
+        if not loose:
+            return None
         if cjk:
             res = self._cjk_sub(k or raw, lang)
             if res:
@@ -335,6 +429,96 @@ class IngredientResolver:
             return self._fuzzy(n or key_norm(raw_c) if not cjk else k, lang)
         return None
 
+    # ------------------------------------------------------------------ multi-ingredient lines
+    def _part(self, text, lang):
+        """a part of a split line: strict stages only (CJK parts may also use the substring stage); generic words
+        ('chopped', 'juice', 'gram') never count as a part."""
+        t = text.strip(" .:-–")
+        if not t or clean_en(t) in GENERIC or key_norm(t) in GENERIC:
+            return None
+        res = self._by_text(t, lang, fuzzy=False, loose=False, parts=True)
+        if not res and CJK.search(t):
+            res = self._cjk_sub(key_norm(t), lang)
+        return res
+
+    def _alts(self, text, lang):
+        """'besan / gram flour', 'ghee or oil' → the first alternative that resolves (whole text first)."""
+        res = self._part(text, lang)
+        if res:
+            return text, res
+        for alt in ALT_SEP.split(text):
+            res = self._part(alt, lang) if alt.strip() else None
+            if res:
+                return alt.strip(), res
+        return None
+
+    def _split(self, text, lang):
+        t = unicodedata.normalize("NFKC", str(text)).strip()
+        cjk = bool(CJK.search(t))
+        sep = re.compile(LIST_SEP.pattern + (r"|\s+" if cjk else ""))
+        chunks = [c for c in sep.split(t) if c and c.strip()]
+        out = []
+        if len(chunks) >= 2 and not cjk and re.search(r"\sor\s", t):
+            # 'Lamb, horse or beef meat': the commas list alternatives too
+            for c in re.split(r"\s*,\s*|\s+or\s+", t):
+                r = self._part(c, lang) if c.strip() else None
+                if r:
+                    return [(c.strip(), r)]
+            return None
+        if len(chunks) == 2 and not cjk and "," in t and self._part(f"{chunks[1]} {chunks[0]}", lang):
+            # INDB-style inverted names: 'Sugar, Icing' is icing sugar
+            return [(t, self._part(f"{chunks[1]} {chunks[0]}", lang))]
+        if len(chunks) >= 2:
+            for i, c in enumerate(chunks):
+                r = self._alts(c, lang)
+                # a later chunk with a participle is preparation, not another ingredient ('2 eggs, chilled',
+                # '1 head garlic, cloves peeled'), unless it is an alias as written
+                if r and i and not cjk and re.search(r"[a-z]ed\b", c.lower()) and r[1][1] not in ("exact", "manual"):
+                    r = None
+                if not r:
+                    out = []
+                    break
+                out.append(r)
+        elif ALT_SEP.search(t):
+            r = self._alts(t, lang)
+            return [r] if r else None
+        elif not cjk:
+            out = self._segment(t, lang)
+        # drop repeated ingredients; a split needs at least two different ones
+        seen, parts = set(), []
+        for p, r in out:
+            if r[0] not in seen:
+                seen.add(r[0])
+                parts.append((p, r))
+        return parts if len(parts) >= 2 else ([parts[0]] if parts and len(out) >= 2 else None)
+
+    def _segment(self, text, lang):
+        """space-separated run of ingredient names ('ginger green chillies garlic') → ≥ 3 known names covering all
+        words (fewest segments); anything less is left to the sub-phrase stage."""
+        words = key_norm(text).split()
+        if not 3 <= len(words) <= 10:
+            return []
+        best = {0: []}
+        for j in range(1, len(words) + 1):
+            for i in range(max(0, j - 4), j):
+                if i not in best:
+                    continue
+                seg = words[i:j]
+                if all(w in GENERIC for w in seg):
+                    continue
+                hit = self._lookup(self.keyn, key_norm(" ".join(seg)), lang)
+                if not hit or self.cat.get(hit[1]) not in SEGMENT_CATS:
+                    continue
+                cand = best[i] + [(" ".join(seg), self._ret(hit, "normalised", 0.9))]
+                if j not in best or len(cand) < len(best[j]):
+                    best[j] = cand
+        segs = best.get(len(words), [])
+        # a product named after its ingredients ('rice bran oil', 'mint coriander chutney') is one ingredient
+        if words[-1] in PRODUCT_HEAD:
+            return []
+        return segs if len(segs) >= 3 and len({r[0] for _, r in segs}) == len(segs) else []
+
+    # ------------------------------------------------------------------ guesses
     def _sub_phrase(self, n, lang):
         words = n.split()
         if len(words) < 2:
@@ -350,16 +534,22 @@ class IngredientResolver:
                     continue
                 hit = self._lookup(self.keyn, key_norm(" ".join(phrase)), lang)
                 if hit:
-                    cands.append(hit)
+                    cands.append((size == 1 and phrase[0] in WEAK_HEAD, hit))
             if cands:
-                return self._ret(cands[0], "normalised", round(0.6 + 0.3 * size / L, 2))
+                pick = cands[0][1]
+                if cands[0][0]:
+                    pick = next((h for _, h in cands[1:] if self.cat.get(h[1]) not in WEAK_HEAD_NOT), pick)
+                return (pick[1], "substring", round(0.6 + 0.3 * size / L, 2))
         return None
 
     def _cjk_sub(self, s, lang):
+        """longest alias found anywhere in the text; ties go to the right end (head noun in zh/ja); generic heads
+        ('肉' → pork, '里脊', '酱') only when nothing else is found ('牛肉片' → beef, not '肉片' → pork)."""
         L = len(s)
         minlen = 1 if L <= 3 else 2
+        cands = []
         for size in range(L - 1, minlen - 1, -1):
-            for i in range(L - size, -1, -1):  # prefer the right end (head noun in zh/ja)
+            for i in range(L - size, -1, -1):
                 sub = s[i:i + size]
                 if not CJK.search(sub):
                     continue
@@ -367,8 +557,11 @@ class IngredientResolver:
                 # substrings only against curated / seed aliases: short katakana plant names from herb sources
                 # ('チャ' tea, 'キビ' millet) and single characters ('酱', '桃') would match inside unrelated words
                 if hit and hit[0][0] <= 4 and (size >= 2 or hit[2] in ("manual", "curated")):
-                    return self._ret(hit, "normalised", round(0.6 + 0.3 * size / L, 2))
-        return None
+                    cands.append((sub in CJK_GENERIC, -size, -i, hit))
+        if not cands:
+            return None
+        _, size, _, hit = min(cands)
+        return (hit[1], "substring", round(0.6 + 0.3 * -size / L, 2))
 
     def _fuzzy(self, q, lang):
         if not q or len(q) < 5:
@@ -377,13 +570,18 @@ class IngredientResolver:
         lg = lang if lang in self.keyn else None
         if lg is None:
             return None
-        if lg not in self.fuzzy_choices:
-            keys = [k for k in self.keyn[lg] if len(k) >= 3]
-            self.fuzzy_choices[lg] = keys
-        keys = self.fuzzy_choices[lg]
-        scorer = fuzz.ratio if CJK.search(q) else fuzz.token_sort_ratio
-        m = process.extractOne(q, keys, scorer=scorer, score_cutoff=90)
-        if not m:
-            return None
-        hit = self.keyn[lg][m[0]]
-        return (hit[1], "fuzzy", round(m[1] / 100, 3))
+        cjk = bool(CJK.search(q))
+        if (lg, cjk) not in self.fuzzy_choices:
+            # English targets only from food sources (herb / ethnobotany names: 'Cisco' whitefish, 'Pimento')
+            food = self.food_keys.get(lg, set())
+            self.fuzzy_choices[(lg, cjk)] = [k for k in self.keyn[lg] if len(k) >= 3 and (cjk or k in food)]
+        keys = self.fuzzy_choices[(lg, cjk)]
+        qk = key_norm(q)
+        # English: ≥ 92 and the same first three letters ('leaves' ≠ 'leaven'); CJK keeps character ratio ≥ 90
+        for m in process.extract(q, keys, scorer=fuzz.ratio if cjk else fuzz.token_sort_ratio,
+                                 score_cutoff=90 if cjk else 92, limit=5):
+            if (not cjk and m[0][:3] != q[:3]) or (qk, key_norm(m[0])) in FUZZY_BLOCK_N:
+                continue
+            hit = self.keyn[lg][m[0]]
+            return (hit[1], "fuzzy", round(m[1] / 100, 3))
+        return None

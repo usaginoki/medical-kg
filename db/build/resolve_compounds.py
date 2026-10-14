@@ -16,6 +16,22 @@ NUTRIENT_MAP = os.path.join(DB_DIR, "maps", "nutrient_map.csv")
 _GREEK = {"α": "alpha", "β": "beta", "γ": "gamma", "δ": "delta", "ε": "epsilon", "κ": "kappa", "ω": "omega",
           "μ": "mu", "ψ": "psi"}
 _IK = re.compile(r"^[A-Z]{14}-[A-Z]{10}-[A-Z]$")
+# class / mixture words (Duke AGGREGAC, Phenol-Explorer): only a compound *named* so, or a structure-less class record
+# listing it as a synonym, may match ('Flavonoids', 'Oils, Volatile'), never a single molecule that lists the word as a
+# synonym ('RESIN' -> urea formaldehyde foam, 'SUGARS' -> Sucrose, 'FLAVONOIDS' -> Rutin, 'GUM' -> a trihydroxyflavan,
+# 'LECITHIN' -> one phosphatidylcholine)
+CLASS_WORDS = {"resin", "resins", "gum", "gums", "flavonoid", "flavonoids", "sugar", "sugars", "lecithin", "lecithins",
+               "tannin", "tannins", "fiber", "fibre", "dietaryfiber", "mucilage", "mucilages", "essentialoil",
+               "essentialoils", "volatileoil", "volatileoils", "oil", "oils", "fixedoil", "protein", "proteins", "fat",
+               "fats", "ash", "wax", "waxes", "alkaloid", "alkaloids", "saponin", "saponins", "glycoside", "glycosides",
+               "polyphenol", "polyphenols", "phenolics", "carotenoid", "carotenoids", "anthocyanin", "anthocyanins",
+               "vitaminb", "vitamins", "minerals", "aminoacids", "fattyacids", "polysaccharide", "polysaccharides",
+               "pectin", "starch", "terpenes", "terpenoids", "steroids", "sterols", "phytosterols", "coumarins",
+               "lignans", "bitterprinciple", "oleoresin", "balsam", "latex", "sap", "extract"}
+# names without the isomer prefix that several distinct compounds share ('PINENE' = alpha- or beta-pinene)
+ISOMERLESS = {"pinene", "carotene", "tocopherol", "tocotrienol", "terpinene", "phellandrene", "ocimene", "farnesene",
+              "bisabolene", "cadinene", "elemene", "selinene", "ionone", "thujone", "amyrin", "santalene", "santalol",
+              "curcumene", "cubebene", "bourbonene", "muurolene", "copaene", "irone", "terpineol"}
 
 
 def chem_norm(text):
@@ -79,8 +95,11 @@ class CompoundResolver:
         for cid_, db, x in xrefs:
             if db not in ("synonym", "pubchem", "cas", "chebi", "ctd_match"):
                 n_src[cid_] += 1
+        self._ikof = {}  # compound_id -> InChIKey (for by_name's same-molecule test)
         for cid_, name, ik, pc, cas, chebi, mesh in rows:
             self._rank[cid_] = (mesh is not None, n_src.get(cid_, 0))
+            if ik:
+                self._ikof[cid_] = ik
         # primary identifiers first (they win over secondary ones)
         self._names = defaultdict(set)      # norm name -> compounds whose primary name matches
         self._syn = defaultdict(set)        # norm name -> compounds with that synonym
@@ -168,16 +187,36 @@ class CompoundResolver:
         Default: if several compounds match, the one backed by most source records wins (a primary-name hit counts
         as one extra record; then MeSH id presence breaks ties), e.g. '6-gingerol' -> the InChIKey compound shared by
         CMAUP/NPASS/IMPPAT/TM-MC/HERB/SymMap rather than a single-source record that happens to be named '[6]-Gingerol'.
+        Synonym hits only compete with a structured primary-name hit when they are the same molecule (same InChIKey),
+        so 'Epicatechin' stays epicatechin although '(+)-Catechin' lists it as a synonym. A name that only synonyms
+        carry, for structurally different compounds (different InChIKey skeleton), resolves only when one skeleton
+        has twice the source support of any other; else it is ambiguous -> None.
+        Class words (CLASS_WORDS) never match a molecule by synonym; isomer-less names (ISOMERLESS) never match.
         """
         n = chem_norm(name)
-        if len(n) < 2:
+        if len(n) < 2 or n in ISOMERLESS:
             return None
         prim, syn = self._names.get(n, set()), self._syn.get(n, set())
+        if n in CLASS_WORDS:  # a class record (no structure, e.g. MeSH 'Oils, Volatile') may still match by synonym
+            syn = {c for c in syn if c not in self._ikof}
         if strict:
             for hits in (prim, syn):
                 if hits:
                     return next(iter(hits)) if len(hits) == 1 else None
             return None
+        prim_iks = {self._ikof[c] for c in prim if c in self._ikof}
+        if prim_iks:
+            syn = {c for c in syn if self._ikof.get(c) in prim_iks}
+        elif not prim and syn:
+            # synonym-only: group by InChIKey skeleton; keep the best-supported group only if it has at least twice the
+            # support of the next ('5-HYDROXYTRYPTAMINE' -> Serotonin), else the name is ambiguous ('PABA', 'THIAMIN')
+            grp = defaultdict(set)
+            for c in syn:
+                grp[self._ikof[c][:14] if c in self._ikof else c].add(c)
+            sup = sorted(((sum(self._rank.get(c, (False, 0))[1] + 1 for c in g), k) for k, g in grp.items()), reverse=True)
+            if len(sup) > 1 and sup[0][0] < 2 * sup[1][0]:
+                return None
+            syn = grp[sup[0][1]]
         hits = prim | syn
         if not hits:
             return None

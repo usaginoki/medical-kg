@@ -371,7 +371,7 @@ const TABS = {
         <b>path</b><span>${esc(r.path)}</span>
         <b>via compound</b><span>${esc(r.via_compound)} <span class="mono sub">${esc(r.via_compound_id)}</span></span>
         <b>amount</b><span>${r.compound_mg_per_100g != null ? fmt(r.compound_mg_per_100g, 3) + " mg / 100 g (from " + esc(r.compound_amount_source) + ")" : ""}</span>
-        <b>evidence</b><span>${esc(r.evidence_type)} (rank ${esc(r.evidence_rank)}; 1 = clinical … 6 = predicted)</span>
+        <b>evidence</b><span>${esc(r.evidence_type)} (rank ${esc(r.evidence_rank)}; 1 = clinical … 6 = in vitro, 7 = predicted)</span>
         <b>link source</b><span>${esc(r.source)}</span>
         <b>tradition</b><span>${esc(r.tradition)}</span>
         <b>mechanism</b><span>${esc(r.mechanism)}</span>

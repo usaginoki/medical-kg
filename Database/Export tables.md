@@ -2,7 +2,7 @@
 title: "Export tables: dishes, ingredients, effects, cases"
 topics: [cultural-food-health, kg-medical-eval]
 questions: [Q1, Q2, Q3, Q4, Q5]
-updated: 2026-10-07
+updated: 2026-10-14
 tags:
   - type/database
   - q/1
@@ -138,27 +138,33 @@ aware medical agent. The Cases tab of the viewer (`db/viewer/index.html`) has a 
 | `case_ai` | is the case text AI-written: `no` · `ai-rewritten` (a real or human source reworded by a model) · `ai-generated` · `not stated` |
 | `conclusion_ai` | is the conclusion AI-made: `no` · `ai-extracted` (copied from a human source by a model) · `ai-proposed, expert-checked` · `rule-derived` · `ai-generated` |
 | `gold` | summary for filtering: `gold` (24,249) · `weak gold` (13,802, rule-derived) · `ai-generated` (250) |
-| `cue_place`, `cue_ethnicity`, `cue_religion`, `cue_habit`, `cue_food`, `cue_tradmed` | keyword flags on the case text (`db/cues.py`; a lower bound) |
+| `cue_place`, `cue_ethnicity`, `cue_religion`, `cue_habit`, `cue_food`, `cue_tradmed` | keyword flags on the case text (`db/cues.py`; a cheap screen: medical terms such as "India ink" are skipped, negated mentions do not count) |
 | `culture_by_construction` | the whole part is tied to a culture: TCM sets, ISSAI Kazakh profiles, Rezaei's injected cues |
 | `diet` | a food, diet, supplement or herb word in the case text; always true for FAM-Bench, NGQA and ISSAI |
-| `relevance`, `relevance_why` | `high` (1,902) · `medium` (9,108) · `low` (27,291), and the reason with the matched words |
+| `cue_strength`, `cue_hits`, `cues_negated` | `strong` (5,789) · `weak` (2,457, only race words or bare place / nationality names) · `none`; the matched words per cue type, kept and negated ("denied recent travel") |
+| `dup_group` | shared by the versions of one item (MedArabiQ ×3, ISSAI ×5) |
+| `relevance`, `relevance_why` | `high` (1,700) · `medium` (7,381) · `low` (29,220), and the reason with the matched words |
 
-**Relevance rule** (`relevance()` in `db/cases.py`): *cue* = any cue flag or culture by construction; *actionable* =
-food, diet or herb content the graph can act on (`diet`, `cue_tradmed`, or a diet / traditional-medicine dataset).
+**Relevance rule** (`relevance()` in `db/cases.py`): *cue* = a **strong** cue or culture by construction; *actionable*
+= food, diet or herb content the graph can act on (`diet`, `cue_tradmed`, or a diet / traditional-medicine dataset).
 - **high:** cue and actionable and a gold conclusion.
-- **medium:** exactly one of the two with a gold conclusion, or both without one (weak gold or AI-generated).
+- **medium:** exactly one of the two with a gold conclusion, both without one (weak gold or AI-generated), or a weak
+  cue with actionable content and a gold conclusion.
 - **low:** the rest.
 
-The labels come from keywords and part-level facts, not from reading each case: a place name that looks like a
-keyword (a town called "Kampo") is counted, and a cue is not checked for whether the answer depends on it.
+The labels come from keywords and part-level facts, not from reading each case: a cue is not checked for whether the
+answer depends on it. That check is the LLM step tested in [[LLM tagging experiments]] (W1), which also flags answer
+leakage. Since the 2026-10-14 fixes (negation, medical-term stoplist, weak race / nationality cues), MedCaseReasoning
+has 122 high cases instead of 361. A check of 500 rejected and weak-cue cases for missed cues is in
+[[LLM tagging experiments]] (*False negatives of the case screen*).
 
 | Part | Cases | Origin | Case by AI | Conclusion by AI | Gold | High / medium / low |
 |---|---|---|---|---|---|---|
-| `medcasereasoning` | 14,489 | published case report (PMC) | ai-rewritten (o4-mini wrote the prompt from the article) | ai-extracted (the report's diagnosis; 100 physician-checked) | gold | 361 / 3,383 / 10,745 |
-| `ngqa` | 13,802 | real NHANES participant + a food, templated | no | rule-derived | weak gold | 0 / 3,814 / 9,988 |
-| `rumedbench:top3` | 6,360 | real outpatient visit (complaints + anamnesis), Tomsk | no | no | gold | 48 / 671 / 5,641 |
-| `fam-bench:task1` | 1,500 | web recipe + templated question | no | ai-proposed (GPT-5.5), expert-checked | gold | 576 / 924 / 0 |
-| `medicationqa` | 680 | real consumer question to MedlinePlus | no | no | gold | 1 / 27 / 652 |
+| `medcasereasoning` | 14,489 | published case report (PMC) | ai-rewritten (o4-mini wrote the prompt from the article) | ai-extracted (the report's diagnosis; 100 physician-checked) | gold | 122 / 1,392 / 12,975 |
+| `ngqa` | 13,802 | real NHANES participant + a food, templated | no | rule-derived | weak gold | 0 / 4,180 / 9,622 |
+| `rumedbench:top3` | 6,360 | real outpatient visit (complaints + anamnesis), Tomsk | no | no | gold | 42 / 606 / 5,712 |
+| `fam-bench:task1` | 1,500 | web recipe + templated question | no | ai-proposed (GPT-5.5), expert-checked | gold | 615 / 885 / 0 |
+| `medicationqa` | 680 | real consumer question to MedlinePlus | no | no | gold | 2 / 29 / 649 |
 | `mtcmb:msdd`, `mtcmb:pr` | 200 | real TCM medical records | no | no | gold | 200 / 0 / 0 |
 | `mtcmb:diagnosis-frd` | 200 | TCM textbook cases | no | no | gold | 200 / 0 / 0 |
 | `mtcmb:chgd` | 100 | dialogue written by DeepSeek-R1 from an exam case | ai-generated | no (exam-bank record) | gold | 100 / 0 / 0 |
@@ -166,15 +172,15 @@ keyword (a town called "Kampo") is counted, and a cue is not checked for whether
 | `tcm-best4sdt:classical` | 150 | classical case record retold in modern Chinese | not stated | no (expert-annotated) | gold | 150 / 0 / 0 |
 | `tcm-best4sdt:clinical` | 50 | modern clinical record | no | no | gold | 50 / 0 / 0 |
 | `tcm-best4sdt:vignette` | 100 | short modern vignette, author not stated | not stated | no | gold | 100 / 0 / 0 |
-| `medarabiq:patient-doctor-qa` | 100 | real Altibbi patient question | no | no | gold | 2 / 11 / 87 |
-| `medarabiq:patient-doctor-qa-gec` | 100 | the same questions, machine grammar-corrected | ai-rewritten | no | gold | 2 / 11 / 87 |
-| `medarabiq:patient-doctor-qa-llm` | 100 | the same questions, paraphrased by GPT-4o | ai-rewritten | no | gold | 3 / 6 / 91 |
+| `medarabiq:patient-doctor-qa` | 100 | real Altibbi patient question | no | no | gold | 3 / 11 / 86 |
+| `medarabiq:patient-doctor-qa-gec` | 100 | the same questions, machine grammar-corrected | ai-rewritten | no | gold | 3 / 11 / 86 |
+| `medarabiq:patient-doctor-qa-llm` | 100 | the same questions, paraphrased by GPT-4o | ai-rewritten | no | gold | 3 / 7 / 90 |
 | `issai:*` (5 parts) | 250 | mock Kazakh profile written by the study team | no | ai-generated (GPT-4) | ai-generated | 0 / 250 / 0 |
 | `permedcqa` | 10 | real Iranian patient question (sample with cues) | no | no | gold | 9 / 1 / 0 |
-| `rezaei2026` | 10 | MedQA vignette with an LLM-injected cultural cue | ai-rewritten | no (MedQA key) | gold | 0 / 10 / 0 |
+| `rezaei2026` | 10 | MedQA vignette with an LLM-injected cultural cue | ai-rewritten | no (MedQA key) | gold | 1 / 9 / 0 |
 
 - The three MedArabiQ parts and the five ISSAI parts repeat the same 100 questions and 50 profiles; filter on `part`
-  to avoid counting them more than once.
+  (or keep one row per `dup_group`) to avoid counting them more than once.
 - All 900 TCM cases are high because they are traditional medicine by construction with a gold answer; within them,
   the cue and `diet` flags show which ones mention food or habits.
 - **RuMedBench** cases are complaints + anamnesis, not the complaints-only input of the official RuMedTop3 task:

@@ -11,9 +11,12 @@ import argparse, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import connect  # noqa: E402
 
-RANK = {1: "clinical", 2: "curated", 3: "epidemiological", 4: "traditional", 5: "text-mined", 6: "predicted"}
+RANK = {1: "clinical", 2: "curated", 3: "epidemiological", 4: "traditional", 5: "text-mined", 6: "in vitro",
+        7: "predicted"}
+# CTD 'marker/mechanism' mostly means the chemical induces or worsens the disease (toxicology), so it is not shown as
+# a neutral association; HMDB biomarker rows share the direction
 DIRS = [("beneficial", "May help"), ("harmful", "May aggravate / harmful"),
-        ("marker", "Associated (marker / mechanism)"), ("association", "Associated")]
+        ("marker", "Marker / mechanism (CTD: often the chemical induces the disease)"), ("association", "Associated")]
 
 
 def inlist(values):
@@ -245,7 +248,7 @@ def trace_condition(con, a):
         dishes = con.execute("""
             WITH lines AS (   -- distrust lowest-confidence weights (IndicRecipeNutri tier E) and spices > 30 g
               SELECT di.dish_id, di.ingredient_id,
-                     CASE WHEN di.raw_text LIKE '%[weight tier E]%' OR (i.category = 'spice' AND di.grams > 30)
+                     CASE WHEN di.weight_tier = 'E' OR (i.category = 'spice' AND di.grams > 30)
                           THEN NULL ELSE di.grams END AS g
               FROM dish_ingredient di LEFT JOIN ingredient i USING (ingredient_id)),
             tot AS (SELECT l.dish_id, sum(l.g) g, count(*) n, avg((l.g IS NOT NULL)::INT) cov,

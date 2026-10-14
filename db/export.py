@@ -29,8 +29,10 @@ SELECT d.dish_id,
        d.servings,
        d.steps_text                          AS recipe_text,
        d.has_amounts,
-       (SELECT list({'raw_text': di.raw_text, 'ingredient_id': di.ingredient_id, 'ingredient': i.canonical_name,
+       (SELECT list({'raw_text': di.raw_text, 'ingredient_text': di.ingredient_text, 'split_part': di.split_part,
+                     'ingredient_id': di.ingredient_id, 'ingredient': i.canonical_name,
                      'quantity': di.quantity, 'unit': di.unit, 'grams': di.grams,
+                     'weight_tier': di.weight_tier, 'weight_confident': di.weight_confident,
                      'match_method': di.match_method, 'match_score': di.match_score})
         FROM dish_ingredient di LEFT JOIN ingredient i USING (ingredient_id)
         WHERE di.dish_id = d.dish_id)        AS ingredients,

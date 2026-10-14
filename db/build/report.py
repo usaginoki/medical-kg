@@ -57,9 +57,17 @@ def build(con):
                           FROM dish d LEFT JOIN dish_ingredient di USING (dish_id)
                           GROUP BY 1 ORDER BY 2 DESC"""),
                      ["source", "dishes", "ingredient lines", "matched", "with grams", "countries"]),
-            "", "Match methods:",
+            "", "Match methods ('substring' = a guess from part of the text):",
             md_table(q("SELECT match_method, count(*) FROM dish_ingredient GROUP BY 1 ORDER BY 2 DESC"),
-                     ["match_method", "lines"])]
+                     ["match_method", "lines"]),
+            "", "Where grams come from (`weight_tier`: IndicRecipeNutri tier A–E, D/E = default weight without a "
+                "stated amount; 'piece' = db/maps/piece_weights.csv):",
+            md_table(q("""SELECT source_id, coalesce(weight_tier, CASE WHEN grams IS NULL THEN '(no grams)'
+                                                                       ELSE 'stated amount' END) t, count(*)
+                          FROM dish_ingredient GROUP BY 1, 2 ORDER BY 1, 2"""), ["source", "grams from", "rows"]),
+            "", "Lines split into several ingredients: " + "{:,} lines → {:,} rows".format(*q(
+                """SELECT count(DISTINCT (dish_id, raw_text)), count(*) FROM dish_ingredient
+                   WHERE split_part IS NOT NULL""")[0])]
 
     out += ["", "## Top unmatched ingredient strings",
             md_table(q("""SELECT d.lang, di.raw_text, count(*) n FROM dish_ingredient di JOIN dish d USING (dish_id)

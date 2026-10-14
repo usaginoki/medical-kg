@@ -17,6 +17,9 @@ Usage:
   gold         gold | weak gold | ai-generated  (summary of conclusion_ai for filtering)
   relevance    high | medium | low for a culturally aware evaluation, with the reason in relevance_why (see relevance())
   cue_*, culture_by_construction, diet   the flags the relevance is built from (db/cues.py)
+  cue_strength strong | weak | none (weak = only race words or bare place names); cue_hits / cues_negated list the
+               matched words per cue type (negated ones do not set a flag)
+  dup_group    shared by versions of the same item (MedArabiQ ×3, ISSAI ×5), empty otherwise
   case         what is put to the model: patient text, profile or dish + question, in the dataset's own language
   conclusion   the dataset's answer: diagnosis, ICD-10 code, TCM syndrome / formula, doctor's answer, decision
 
@@ -331,32 +334,46 @@ for _lang, _name in (("en", "English"), ("ru", "Russian"), ("kk", "Kazakh")):
 def relevance(r):
     """high / medium / low for a culturally aware evaluation, and why.
 
-    cue        a cultural cue is stated in the case, or the part is tied to a culture by construction
+    cue        a strong cultural cue is stated in the case (db/cues.py: not a bare race word or country name), or the
+               part is tied to a culture by construction; weak cues alone count for medium at most
     actionable food, diet or herb content the graph can act on (keyword, or a diet / traditional-medicine dataset)
     high   = cue and actionable and a gold conclusion
-    medium = exactly one of the two with a gold conclusion, or both without one (weak gold or AI-generated)
+    medium = exactly one of the two with a gold conclusion, both without one (weak gold or AI-generated), or a weak
+             cue with actionable content and a gold conclusion
     low    = the rest
+    The keyword cues are a cheap screen; db/llm/ checks whether a cue matters for the conclusion.
     """
     p = PARTS[r["part"]]
-    found = [f"{c} ({r['m_' + c]})" for c in cues.CUES if r[f"cue_{c}"]]
-    cue = bool(found) or bool(p["culture"])
+    cue = r["cue_strength"] == "strong" or bool(p["culture"])
+    weak = r["cue_strength"] == "weak"
     actionable = bool(r["diet"] or r["cue_tradmed"] or p["diet"] or p["tradmed"])
-    if cue and actionable and p["gold"] == "gold":
+    gold = p["gold"] == "gold"
+    if cue and actionable and gold:
         level = "high"
-    elif (cue != actionable and p["gold"] == "gold") or (cue and actionable):
+    elif (cue != actionable and gold) or (cue and actionable) or (weak and actionable and gold):
         level = "medium"
     else:
         level = "low"
-    why = ["cue: " + (", ".join(found) if found else "none in the text")
+    why = [f"cue ({r['cue_strength']}): " + (r["cue_hits"] or "none in the text")
            + (f"; {p['culture']} by construction" if p["culture"] else ""),
            "food / diet / herb content: " + ("diet dataset" if p["diet"] else "traditional-medicine dataset" if p["tradmed"]
                                            else "yes" if actionable else "no"),
            f"{p['gold']}: {p['gold_note']}"]
+    if r["cues_negated"]:
+        why.insert(1, "negated: " + r["cues_negated"])
     return level, "; ".join(why)
 
 
-COLUMNS = ["case_id", "source", "part", "lang", "origin", "case_ai", "conclusion_ai", "gold", "relevance",
-           "relevance_why"] + [f"cue_{c}" for c in cues.CUES] + ["culture_by_construction", "diet", "case", "conclusion"]
+def dup_group(case_id):
+    """Rows that are versions of the same item share a group: MedArabiQ (3 versions of 100 questions) and ISSAI (50
+    profiles in 5 language pipelines). Empty for the other datasets."""
+    m = re.match(r"medarabiq:[^:]+:(\d+)$", case_id) or re.match(r"issai:[^:]+:(.+)$", case_id)
+    return f"{case_id.split(':')[0]}:{m.group(1)}" if m else ""
+
+
+COLUMNS = ["case_id", "source", "part", "dup_group", "lang", "origin", "case_ai", "conclusion_ai", "gold", "relevance",
+           "relevance_why"] + [f"cue_{c}" for c in cues.CUES] + ["cue_strength", "cue_hits", "cues_negated",
+                                                                  "culture_by_construction", "diet", "case", "conclusion"]
 
 
 def main():
@@ -376,6 +393,7 @@ def main():
     for col in ("lang", "origin", "case_ai", "conclusion_ai", "gold"):
         cases[col] = cases.part.map(lambda k: PARTS[k][col])
     cases["culture_by_construction"] = cases.part.map(lambda k: bool(PARTS[k]["culture"]))
+    cases["dup_group"] = cases.case_id.map(dup_group)
     cases = cues.tag(cases, keep_matches=True)
     cases["diet"] = cases.diet | cases.part.map(lambda k: PARTS[k]["diet"])
     rel = cases.apply(relevance, axis=1, result_type="expand")
