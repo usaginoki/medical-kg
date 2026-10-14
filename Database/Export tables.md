@@ -28,21 +28,22 @@ tags:
 > (filters by dataset, country, "has recipe / ingredients / nutrients…", random samples, expandable rows; a Cases
 > tab when `cases.parquet` exists).
 
-> [!warning] Build of 2026-10-01 without HMDB
-> HMDB access is pending, so this build skips it. That costs about 32k compounds and 23k compound → condition
-> links, including ~17k CTD links that HMDB used to bridge to food compounds. Everything else matches the
-> [[Unified database]] build of 2026-09-30 (see `db/build_report.md`).
+> [!warning] Build of 2026-10-15 without HMDB
+> HMDB is skipped for now, so the dishes, ingredients and effects numbers below come from a build without it. That
+> costs about 32k compounds (225,932 vs 258,236) and 23k compound → condition links (132,240 vs 155,639), including
+> ~17k CTD links that HMDB used to bridge to food compounds. `db/build_report.md` is the 2026-10-14 build with HMDB;
+> the other tables match it to within a few rows.
 
-## `dishes`: 46,252 dishes · 23 countries · 482,389 ingredient lines
+## `dishes`: 46,252 dishes · 23 countries · 483,207 ingredient lines
 | Dataset | Dishes | Countries | Ingredient lines | With recipe text | With grams | With lab nutrients | Language |
 |---|---|---|---|---|---|---|---|
-| [[IndicRecipeNutri]] | 20,415 | 1 (IN) | 235,320 | – | 20,358 | – | mostly en |
-| [[Food.com Recipes and Interactions\|Food.com]] | 10,095 | 21 | 108,653 | 10,095 | – | – | en |
-| [[CulinaryDB]] | 8,151 | 5 (CN IN JP KR TH) | 79,568 | – | 5,507 | – | en |
-| [[XiaChuFang Recipe Corpus\|XiaChuFang]] | 5,000 | 1 (CN) | 36,105 | 5,000 | 2,476 | – | zh |
-| [[Our Regional Cuisines (Japan MAFF)\|Japan MAFF]] | 1,355 | 1 (JP) | 11,200 | 1,340 | 1,253 | – | ja |
-| [[Indian Nutrient Databank (INDB)\|INDB]] | 1,014 | 1 (IN) | 10,271 | – | 1,014 | 1,014 | en |
-| [[Saudi Food Composition Tables\|Saudi FCT]] | 130 | 1 (SA) | 1,156 | 130 | 129 | 130 | en |
+| [[IndicRecipeNutri]] | 20,415 | 1 (IN) | 233,849 | – | 20,213 | – | mostly en |
+| [[Food.com Recipes and Interactions\|Food.com]] | 10,095 | 21 | 109,419 | 10,095 | – | – | en |
+| [[CulinaryDB]] | 8,151 | 5 (CN IN JP KR TH) | 80,268 | – | 5,522 | – | en |
+| [[XiaChuFang Recipe Corpus\|XiaChuFang]] | 5,000 | 1 (CN) | 36,846 | 5,000 | 3,718 | – | zh |
+| [[Our Regional Cuisines (Japan MAFF)\|Japan MAFF]] | 1,355 | 1 (JP) | 11,285 | 1,340 | 1,266 | – | ja |
+| [[Indian Nutrient Databank (INDB)\|INDB]] | 1,014 | 1 (IN) | 10,272 | – | 1,014 | 1,014 | en |
+| [[Saudi Food Composition Tables\|Saudi FCT]] | 130 | 1 (SA) | 1,152 | 130 | 129 | 130 | en |
 | [[Bahrain Food Composition Tables\|Bahrain FCT]] | 81 | 1 (BH) | – | – | – | 81 | ar |
 | [[Kyrgyzstan Food Composition Table\|Kyrgyz FCT]] | 11 | 1 (KG) | 116 | – | 11 | 11 | en |
 
@@ -52,38 +53,38 @@ tags:
 - **Bahrain has 81, not 82, dishes:** the book prints codes 7.1 and 8.19 twice each, and the codes are kept as
   printed, so one dish of each pair is merged away (Fatira with zaatar, Rangina).
 
-## `ingredients`: 1,688 ingredients
+## `ingredients`: 1,697 ingredients
 | | Count |
 |---|---|
-| With scientific name | 677 |
-| Medicinal herbs | 331 |
-| With compounds | 935 (248,799 compound amounts) |
-| Names (all languages) | 11,005 |
-| Cultural properties | KNApSAcK edible/medicinal use 396 · TCM 168 · Persian Mizaj 35 |
+| With scientific name | 679 |
+| Medicinal herbs | 332 |
+| With compounds | 936 (249,110 compound amounts) |
+| Names (all languages) | 11,050 |
+| Cultural properties | KNApSAcK edible/medicinal use 397 · TCM 168 · Persian Mizaj 35 |
 
-- **Compound amounts by source:** [[FooDB]] 105,227 · [[NPASS]] 56,402 · [[CMAUP]] 37,411 · [[IMPPAT]] 27,515 ·
-  [[TM-MC]] 7,650 · [[FlavorDB2]] 6,607 · [[Phenol-Explorer]] 4,542 · [[SymMap]] 2,042 · [[HERB]] 1,403.
+- **Compound amounts by source:** [[FooDB]] 105,227 · [[NPASS]] 56,497 · [[CMAUP]] 37,429 · [[IMPPAT]] 27,562 ·
+  [[TM-MC]] 7,650 · [[FlavorDB2]] 6,758 · [[Phenol-Explorer]] 4,542 · [[SymMap]] 2,042 · [[HERB]] 1,403.
 - **Cultural properties from:** [[KNApSAcK Family]] (use per country), [[SymMap]] and [[HERB]] (TCM),
   [[UNaProd]] (Persian Mizaj).
 
-## `effects`: 5,231,893 claims · 258,234 characteristic · 949 ingredients
+## `effects`: 4,679,181 claims · 235,360 characteristic · 950 ingredients
 | Source | Claims | Characteristic | Ingredients | Conditions / drugs | Path |
 |---|---|---|---|---|---|
-| [[CTD]] | 3,461,555 | 124,729 | 928 | 2,268 | via compound |
-| [[Dr. Duke's Phytochemical and Ethnobotanical Databases\|Duke]] | 810,841 | 32,851 | 928 | 390 | via compound + direct |
-| [[FooDB]] | 809,468 | 33,851 | 922 | 148 | via compound |
-| [[Exposome-Explorer]] | 84,279 | 1,053 | 881 | 14 | via compound |
-| [[CMAUP]] | 42,704 | 42,704 | 254 | 532 | direct |
+| [[CTD]] | 3,463,447 | 124,729 | 929 | 2,268 | via compound |
+| [[Dr. Duke's Phytochemical and Ethnobotanical Databases\|Duke]] | 1,021,534 | 42,938 | 932 | 390 | via compound + direct |
+| [[Exposome-Explorer]] | 119,602 | 1,476 | 882 | 18 | via compound |
+| [[CMAUP]] | 42,919 | 42,919 | 255 | 534 | direct |
 | [[SymMap]] | 9,908 | 9,908 | 13 | 5,063 | direct |
-| [[IMPPAT]] | 7,560 | 7,560 | 247 | 513 | direct |
+| [[FooDB]] | 8,598 | 217 | 813 | 18 | via compound |
+| [[IMPPAT]] | 7,592 | 7,592 | 247 | 515 | direct |
 | [[DDID]] | 4,893 | 4,893 | 241 | 536 drugs | drug interaction |
-| [[UNaProd]] | 292 | 292 | 17 | 98 | direct |
-| [[SpiceRx]] | 246 | 246 | 26 | 99 | direct |
+| [[UNaProd]] | 293 | 293 | 17 | 99 | direct |
+| [[SpiceRx]] | 236 | 236 | 25 | 98 | direct |
 | [[DrugBank]] (via DDID) | 121 | 121 | 22 | 60 drugs | drug interaction |
-| [[HERB]] | 18 | 18 | 2 | 18 | direct |
+| [[HERB]] | 30 | 30 | 2 | 30 | direct |
 | [[KNApSAcK Family\|KNApSAcK]] Jamu | 8 | 8 | 6 | 3 | direct |
 
-- **Conditions:** 5,226,879 claims over 6,325 conditions. **Drugs:** 5,014 claims over 539 drugs.
+- **Conditions:** 4,674,167 claims over 6,325 conditions. **Drugs:** 5,014 claims over 539 drugs.
 - **Characteristic** is the salience rule of [[Unified database#Ranking]]: direct claims always count; a compound path
   counts only when the ingredient has ≥ 1 mg/100 g of a rare compound or is a major source of it. So direct-only
   sources are 100% characteristic, while most CTD/FooDB/Duke compound paths are not.

@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>body{margin:0}[hidden]{display:none!important}</style>
+</head>
+<body>
+<title>Food–Health Graph in Numbers</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: three slides paged left/right, each a headline row + two working panels; data drawn as HTML bars. */
+:root {
+  --bg: #f3f5f2; --panel: #ffffff; --ink: #18211d; --muted: #5d6b64; --line: #dce3de;
+  --accent: #c7781a; --accent-soft: #f6e3c8; --herb: #2f7a58; --berry: #a83c66; --sky: #3b6f9c;
+  --high: #a83c66; --medium: #d9a441; --low: #c9d3cd;
+  --s1: #c7781a; --s2: #2f7a58; --s3: #3b6f9c; --s4: #a83c66; --s5: #7a5aa6; --s6: #4f9c97; --s7: #b5523a; --s8: #8a8f2e; --s9: #6b7680;
+  --display: "Familjen Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121815; --panel: #1a221e; --ink: #e6ece8; --muted: #9aa8a0; --line: #2c3832;
+  --accent: #e39a3f; --accent-soft: #3a2c1a; --herb: #5cb48a; --berry: #d76a95; --sky: #6fa3d1;
+  --high: #d76a95; --medium: #e0b45a; --low: #3c4a43;
+  --s1: #e39a3f; --s2: #5cb48a; --s3: #6fa3d1; --s4: #d76a95; --s5: #a98ad6; --s6: #6cc2bc; --s7: #e07a60; --s8: #b9be55; --s9: #96a2ac;
+  color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #121815; --panel: #1a221e; --ink: #e6ece8; --muted: #9aa8a0; --line: #2c3832;
+  --accent: #e39a3f; --accent-soft: #3a2c1a; --herb: #5cb48a; --berry: #d76a95; --sky: #6fa3d1;
+  --high: #d76a95; --medium: #e0b45a; --low: #3c4a43;
+  --s1: #e39a3f; --s2: #5cb48a; --s3: #6fa3d1; --s4: #d76a95; --s5: #a98ad6; --s6: #6cc2bc; --s7: #e07a60; --s8: #b9be55; --s9: #96a2ac;
+  color-scheme: dark }
+
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--ink); font: 15px/1.5 var(--body); }
+.wrap { max-width: 1180px; margin: 0 auto; padding-block: 20px 32px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 18px }
+.brand { font: 600 12px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted) }
+.tabs { display: flex; gap: 6px; flex-wrap: wrap }
+.tab { font: 500 13px var(--body); color: var(--muted); background: transparent; border: 1px solid var(--line);
+  border-radius: 999px; padding: 6px 14px; cursor: pointer }
+.tab[aria-selected="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink) }
+.tab:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+.slide { display: grid; gap: 18px }
+.head { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 24px; align-items: end }
+h1 { font: 700 clamp(28px, 4.2vw, 46px)/1.05 var(--display); letter-spacing: -.02em; margin: 0; text-wrap: balance }
+.lede { color: var(--muted); margin: 8px 0 0; max-width: 60ch }
+.kpis { display: flex; flex-wrap: wrap; gap: 8px 22px; justify-content: flex-end }
+.kpi b { display: block; font: 700 26px/1.1 var(--display); font-variant-numeric: tabular-nums }
+.kpi span { font: 12px var(--mono); color: var(--muted) }
+.grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 18px }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; min-width: 0 }
+.ph { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px; margin-bottom: 10px }
+h2 { font: 700 17px/1.2 var(--display); margin: 0 }
+.sub { font: 12px var(--mono); color: var(--muted) }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden }
+.seg button { font: 12px var(--mono); background: transparent; color: var(--muted); border: 0; padding: 4px 10px; cursor: pointer }
+.seg button[aria-pressed="true"] { background: var(--accent-soft); color: var(--ink) }
+.rows { display: grid; gap: 3px }
+.row { display: grid; grid-template-columns: 112px minmax(0, 1fr) 76px; align-items: center; gap: 8px; padding: 2px 4px;
+  border-radius: 5px; cursor: pointer; background: transparent; border: 0; color: inherit; text-align: left; font: inherit; width: 100% }
+.row:hover { background: var(--accent-soft) }
+.row.on { background: var(--accent-soft); box-shadow: inset 2px 0 0 var(--accent) }
+.row .lab { font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+.row .val { white-space: nowrap; font: 12px var(--mono); text-align: right; font-variant-numeric: tabular-nums; color: var(--muted) }
+.track { height: 14px; display: flex; border-radius: 3px; overflow: hidden; background: transparent }
+.track i { display: block; height: 100%; transition: width .35s ease }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 12px; margin-top: 10px; font-size: 12px; color: var(--muted) }
+.legend span::before { content: ""; display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 5px; background: var(--c) }
+.detail h3 { font: 700 24px/1.1 var(--display); margin: 0 }
+.facts { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 8px 0 12px; font: 12px var(--mono); color: var(--muted) }
+.facts b { color: var(--ink); font-weight: 500 }
+.ing { display: grid; gap: 5px }
+.ing div { display: grid; grid-template-columns: 110px minmax(0, 1fr) 44px; gap: 8px; align-items: center; font-size: 13px }
+.ing .bar { height: 10px; border-radius: 2px; background: var(--herb) }
+.ing .pct { font: 12px var(--mono); color: var(--muted); text-align: right }
+.check { display: inline-flex; gap: 6px; align-items: center; font: 12px var(--mono); color: var(--muted); cursor: pointer }
+.note { font-size: 12px; color: var(--muted); margin: 10px 0 0 }
+.chain { display: flex; flex-wrap: wrap; align-items: stretch; gap: 6px }
+.chain div { flex: 1 1 120px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; min-width: 0 }
+.chain b { display: block; font: 700 22px/1.1 var(--display); font-variant-numeric: tabular-nums }
+.chain span { font: 12px var(--mono); color: var(--muted) }
+.chain .arrow { flex: 0 0 auto; background: none; border: 0; padding: 0; display: grid; place-items: center; color: var(--accent); font-size: 18px }
+.axis { display: grid; grid-template-columns: 112px minmax(0, 1fr) 76px; gap: 8px; font: 10px var(--mono); color: var(--muted); margin-top: 4px }
+.axis div { position: relative; height: 12px }
+.axis div span { position: absolute; transform: translateX(-50%) }
+.overlay { position: relative; height: 14px }
+.overlay i { position: absolute; left: 0; top: 0; height: 100%; border-radius: 3px; transition: width .35s ease }
+.stack { display: flex; height: 26px; border-radius: 5px; overflow: hidden; margin: 6px 0 2px }
+.stack i { display: block; height: 100% }
+.heat { display: grid; grid-template-columns: 118px repeat(7, minmax(0, 1fr)); gap: 3px; font-size: 12px }
+.heat .h { font: 10px var(--mono); color: var(--muted); text-align: center; align-self: end; padding-bottom: 2px }
+.heat .n { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; align-self: center }
+.heat .c { height: 26px; border-radius: 3px; display: grid; place-items: center; font: 10px var(--mono); color: var(--ink);
+  background: color-mix(in srgb, var(--berry) calc(var(--v) * 100%), var(--bg)) }
+.tip { min-height: 1.5em; font: 12px var(--mono); color: var(--ink); margin-top: 8px }
+.chips { display: inline-flex; gap: 3px }
+.chips em { font: 10px var(--mono); font-style: normal; border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; color: var(--muted) }
+.llmtable { width: 100%; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums }
+.llmtable th { font: 10px var(--mono); color: var(--muted); text-align: right; font-weight: 400; padding: 4px 6px; border-bottom: 1px solid var(--line) }
+.llmtable td { padding: 4px 6px; text-align: right; border-bottom: 1px solid var(--line); white-space: nowrap }
+.llmtable th:first-child, .llmtable td:first-child { text-align: left }
+.llmtable td.barc { width: 34%; text-align: left }
+.llmtable .b { display: block; height: 10px; border-radius: 2px; background: var(--sky) }
+.scroll { overflow-x: auto }
+.foot { margin-top: 18px; font: 11px var(--mono); color: var(--muted); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px }
+.pager { display: flex; gap: 6px }
+.pager button { font: 12px var(--mono); border: 1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 6px; padding: 5px 12px; cursor: pointer }
+@media (max-width: 860px) {
+  .head, .grid { grid-template-columns: minmax(0, 1fr) }
+  .kpis { justify-content: flex-start }
+  .row, .axis { grid-template-columns: 86px minmax(0, 1fr) 56px }
+  .heat { grid-template-columns: 84px repeat(7, minmax(0, 1fr)) }
+  .ing div { grid-template-columns: 92px minmax(0, 1fr) 40px }
+}
+@media (prefers-reduced-motion: reduce) { .track i, .overlay i { transition: none } }
+</style>
+
+<div class="wrap">
+  <div class="top">
+    <div class="brand">Medical KG · local build, 15 Oct 2026 · commit c5d2e7c</div>
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" id="t0" aria-selected="true" data-i="0">1 · Dishes by country</button>
+      <button class="tab" role="tab" id="t1" aria-selected="false" data-i="1">2 · Ingredients</button>
+      <button class="tab" role="tab" id="t2" aria-selected="false" data-i="2">3 · From food to health</button>
+      <button class="tab" role="tab" id="t3" aria-selected="false" data-i="3">4 · Patient cases</button>
+    </div>
+  </div>
+
+  <!-- Slide 1 -->
+  <section class="slide" id="s0">
+    <div class="head">
+      <div>
+        <h1>46,252 dishes from 23 countries, and India is more than half of them</h1>
+        <p class="lede">Each bar is one country, split by the dataset its dishes come from. Click a country to see the ingredients that show up in most of its dishes.</p>
+      </div>
+      <div class="kpis" id="k0"></div>
+    </div>
+    <div class="grid">
+      <div class="panel">
+        <div class="ph"><h2>Dishes per country</h2>
+          <div class="seg" id="scale0"><button aria-pressed="true" data-v="lin">linear</button><button aria-pressed="false" data-v="log">log</button></div></div>
+        <div class="rows" id="countries"></div>
+        <div class="legend" id="srcLegend"></div>
+        <p class="note">4,089 more dishes have only a region label (e.g. CulinaryDB “Middle East”) and are not shown.</p>
+      </div>
+      <div class="panel detail" id="cdetail"></div>
+    </div>
+  </section>
+
+  <!-- Slide 2: ingredients -->
+  <section class="slide" id="s1" hidden>
+    <div class="head">
+      <div>
+        <h1>1,697 ingredients, the hub between dishes and health</h1>
+        <p class="lede">Every recipe line is matched to one of these ingredients, and every health claim starts from one. Switch the left chart between categories, the most-used ingredients and the ones with the most claims. The right chart shows the traditional-medicine and cultural labels attached to them.</p>
+      </div>
+      <div class="kpis" id="k1i"></div>
+    </div>
+    <div class="grid">
+      <div class="panel">
+        <div class="ph"><h2 id="ingTitle">Ingredients by category</h2>
+          <div class="seg" id="ingMode"><button aria-pressed="true" data-v="cat">category</button><button aria-pressed="false" data-v="used">most used</button><button aria-pressed="false" data-v="claims">most claims</button></div></div>
+        <div class="rows" id="ingRows"></div>
+        <div class="legend" id="ingLegend"></div>
+        <div class="tip" id="ingTip"></div>
+      </div>
+      <div class="panel">
+        <div class="ph"><h2 id="propTitle">Cultural labels</h2>
+          <div class="seg" id="propMode"><button aria-pressed="true" data-v="knap">use by country</button><button aria-pressed="false" data-v="nature">TCM nature</button><button aria-pressed="false" data-v="flavour">TCM flavour</button><button aria-pressed="false" data-v="mizaj">Mizaj</button></div></div>
+        <div class="sub" id="propSub" style="margin-bottom:8px"></div>
+        <div class="rows" id="propRows"></div>
+        <div class="legend" id="propLegend"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 3 -->
+  <section class="slide" id="s2" hidden>
+    <div class="head">
+      <div>
+        <h1>4.68 million food–health claims, but only 1 in 20 is characteristic</h1>
+        <p class="lede">The graph goes from a dish to its ingredients, to their compounds, to conditions and drugs. A claim is <b>characteristic</b> when the food really carries it: every direct claim counts, but a compound path counts only if the food has at least 1 mg/100 g of a rare compound or is a major source of it.</p>
+      </div>
+      <div class="kpis" id="k1"></div>
+    </div>
+    <div class="chain" id="chain"></div>
+    <div class="grid">
+      <div class="panel">
+        <div class="ph"><h2>Claims by source</h2><span class="sub">log scale · pale = all, solid = characteristic</span></div>
+        <div class="rows" id="effsrc"></div>
+        <div class="axis" id="effaxis"></div>
+        <div class="tip" id="efftip">Click a source for its numbers.</div>
+      </div>
+      <div class="panel">
+        <div class="ph"><h2>Most-reached conditions</h2><span class="sub">ingredients with a characteristic claim</span></div>
+        <div class="rows" id="conds"></div>
+        <div class="ph" style="margin-top:16px"><h2>Evidence behind characteristic claims</h2></div>
+        <div class="stack" id="evstack"></div>
+        <div class="legend" id="evlegend"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 4 -->
+  <section class="slide" id="s3" hidden>
+    <div class="head">
+      <div>
+        <h1>38,301 patient cases, and 1,718 where culture or diet should matter</h1>
+        <p class="lede">Each case is a question put to a model, with the dataset’s answer. Rules tag how likely culture or diet matters for the answer (high, medium, low) from cue words in the text.</p>
+      </div>
+      <div class="kpis" id="k2"></div>
+    </div>
+    <div class="grid">
+      <div class="panel">
+        <div class="ph"><h2>Relevance per dataset</h2>
+          <div class="seg" id="mode2"><button aria-pressed="true" data-v="n">cases</button><button aria-pressed="false" data-v="pct">share</button></div></div>
+        <div class="rows" id="cases"></div>
+        <div class="legend"><span style="--c:var(--high)">high</span><span style="--c:var(--medium)">medium</span><span style="--c:var(--low)">low</span></div>
+        <div class="tip" id="casetip">Click a dataset for its breakdown.</div>
+      </div>
+      <div class="panel">
+        <div class="ph"><h2>Which cues each dataset carries</h2><span class="sub">% of cases</span></div>
+        <div class="heat" id="heat"></div>
+        <div class="tip" id="heattip">Hover or tap a cell.</div>
+        <p class="note">Cues are keyword rules, so some are false hits: “denied recent travel” in a MedCaseReasoning case still counts as a place cue. Since 15 Oct, alcohol and food-triggered symptoms count as diet, and parental consanguinity is no longer a cue.</p>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="ph"><h2>LLM check: does culture change the answer?</h2>
+        <div class="seg" id="llmMode"><button aria-pressed="true" data-v="cm">culture matters</button><button aria-pressed="false" data-v="diet">diet relevant</button><button aria-pressed="false" data-v="graph">graph answerable</button></div></div>
+      <div class="sub" style="margin-bottom:8px">Gemini Flash-Lite read the 21,636 cases the keyword screen handed on (MedArabiQ excluded) and tagged each cue as decisive, supportive, incidental or none, with a one-sentence reason. Partner’s full run of 15 Oct 2026; numbers from <i>LLM tagging experiments</i>. The result files are not on this machine.</div>
+      <div class="scroll"><table class="llmtable" id="llm"></table></div>
+      <p class="note">The note flags the FAM-Bench and NGQA “decisive” tags as unreliable: the model often confuses “diet matters” with “culture matters”.</p>
+    </div>
+  </section>
+
+  <div class="foot">
+    <span>Source: db/export/*.parquet · build without HMDB · ← → keys change slide</span>
+    <div class="pager"><button id="prev">← Prev</button><button id="next">Next →</button></div>
+  </div>
+</div>
+
+<script>
+const D = {"country_source":[{"cc":"IN","source":"Indian Nutrient Databank (INDB)","n":1014},{"cc":"TH","source":"CulinaryDB","n":667},{"cc":"NP","source":"Food.com Recipes and Interactions","n":53},{"cc":"PK","source":"Food.com Recipes and Interactions","n":82},{"cc":"IN","source":"IndicRecipeNutri","n":20415},{"cc":"KR","source":"CulinaryDB","n":301},{"cc":"IQ","source":"Food.com Recipes and Interactions","n":98},{"cc":"TH","source":"Food.com Recipes and Interactions","n":1164},{"cc":"VN","source":"Food.com Recipes and Interactions","n":320},{"cc":"LA","source":"Food.com Recipes and Interactions","n":15},{"cc":"SA","source":"Food.com Recipes and Interactions","n":80},{"cc":"","source":"Food.com Recipes and Interactions","n":1036},{"cc":"CN","source":"Food.com Recipes and Interactions","n":1965},{"cc":"PH","source":"Food.com Recipes and Interactions","n":198},{"cc":"PS","source":"Food.com Recipes and Interactions","n":88},{"cc":"IN","source":"Food.com Recipes and Interactions","n":2692},{"cc":"CN","source":"CulinaryDB","n":941},{"cc":"","source":"CulinaryDB","n":3053},{"cc":"ID","source":"Food.com Recipes and Interactions","n":190},{"cc":"KH","source":"Food.com Recipes and Interactions","n":46},{"cc":"BH","source":"Bahrain Food Composition Tables","n":81},{"cc":"KR","source":"Food.com Recipes and Interactions","n":233},{"cc":"LB","source":"Food.com Recipes and Interactions","n":249},{"cc":"KG","source":"Kyrgyzstan Food Composition Table","n":11},{"cc":"JP","source":"Our Regional Cuisines (Japan MAFF)","n":1355},{"cc":"JP","source":"CulinaryDB","n":580},{"cc":"MY","source":"Food.com Recipes and Interactions","n":117},{"cc":"MN","source":"Food.com Recipes and Interactions","n":12},{"cc":"IN","source":"CulinaryDB","n":2609},{"cc":"EG","source":"Food.com Recipes and Interactions","n":193},{"cc":"TR","source":"Food.com Recipes and Interactions","n":233},{"cc":"CN","source":"XiaChuFang Recipe Corpus","n":5000},{"cc":"JP","source":"Food.com Recipes and Interactions","n":801},{"cc":"IR","source":"Food.com Recipes and Interactions","n":230},{"cc":"SA","source":"Saudi Food Composition Tables","n":130}],"country_top_ing":[{"cc":"KG","ing":"onion","n":11,"tot":11},{"cc":"KG","ing":"salt","n":10,"tot":11},{"cc":"KG","ing":"water","n":10,"tot":11},{"cc":"KG","ing":"chili pepper","n":8,"tot":11},{"cc":"KG","ing":"sunflower oil","n":6,"tot":11},{"cc":"KG","ing":"wheat flour","n":6,"tot":11},{"cc":"KG","ing":"carrot","n":5,"tot":11},{"cc":"KG","ing":"lamb","n":5,"tot":11},{"cc":"KG","ing":"potato","n":5,"tot":11},{"cc":"KG","ing":"herb","n":4,"tot":11},{"cc":"KG","ing":"vegetable oil","n":4,"tot":11},{"cc":"KG","ing":"garlic","n":3,"tot":11},{"cc":"KG","ing":"tomato paste","n":3,"tot":11},{"cc":"KG","ing":"beef","n":2,"tot":11},{"cc":"KG","ing":"black pepper","n":2,"tot":11},{"cc":"KR","ing":"garlic","n":370,"tot":534},{"cc":"KR","ing":"soy sauce","n":348,"tot":534},{"cc":"KR","ing":"scallion","n":323,"tot":534},{"cc":"KR","ing":"black pepper","n":257,"tot":534},{"cc":"KR","ing":"sesame oil","n":254,"tot":534},{"cc":"KR","ing":"sugar","n":251,"tot":534},{"cc":"KR","ing":"sesame","n":239,"tot":534},{"cc":"KR","ing":"salt","n":234,"tot":534},{"cc":"KR","ing":"ginger","n":186,"tot":534},{"cc":"KR","ing":"chili pepper","n":159,"tot":534},{"cc":"KR","ing":"water","n":154,"tot":534},{"cc":"KR","ing":"beef","n":129,"tot":534},{"cc":"KR","ing":"onion","n":120,"tot":534},{"cc":"KR","ing":"vegetable oil","n":120,"tot":534},{"cc":"KR","ing":"vinegar","n":117,"tot":534},{"cc":"TR","ing":"salt","n":159,"tot":233},{"cc":"TR","ing":"olive oil","n":119,"tot":233},{"cc":"TR","ing":"black pepper","n":110,"tot":233},{"cc":"TR","ing":"onion","n":88,"tot":233},{"cc":"TR","ing":"garlic","n":85,"tot":233},{"cc":"TR","ing":"tomato","n":74,"tot":233},{"cc":"TR","ing":"parsley","n":71,"tot":233},{"cc":"TR","ing":"water","n":70,"tot":233},{"cc":"TR","ing":"sugar","n":52,"tot":233},{"cc":"TR","ing":"butter","n":49,"tot":233},{"cc":"TR","ing":"lemon","n":49,"tot":233},{"cc":"TR","ing":"yogurt","n":47,"tot":233},{"cc":"TR","ing":"mint","n":44,"tot":233},{"cc":"TR","ing":"lemon juice","n":38,"tot":233},{"cc":"TR","ing":"egg","n":36,"tot":233},{"cc":"PH","ing":"garlic","n":109,"tot":198},{"cc":"PH","ing":"salt","n":103,"tot":198},{"cc":"PH","ing":"water","n":94,"tot":198},{"cc":"PH","ing":"black pepper","n":90,"tot":198},{"cc":"PH","ing":"soy sauce","n":89,"tot":198},{"cc":"PH","ing":"onion","n":82,"tot":198},{"cc":"PH","ing":"sugar","n":70,"tot":198},{"cc":"PH","ing":"vegetable oil","n":67,"tot":198},{"cc":"PH","ing":"pork","n":43,"tot":198},{"cc":"PH","ing":"vinegar","n":43,"tot":198},{"cc":"PH","ing":"carrot","n":40,"tot":198},{"cc":"PH","ing":"chicken","n":40,"tot":198},{"cc":"PH","ing":"egg","n":39,"tot":198},{"cc":"PH","ing":"laurel","n":32,"tot":198},{"cc":"PH","ing":"tomato","n":26,"tot":198},{"cc":"SA","ing":"water","n":150,"tot":209},{"cc":"SA","ing":"salt","n":149,"tot":209},{"cc":"SA","ing":"black pepper","n":80,"tot":209},{"cc":"SA","ing":"onion","n":72,"tot":209},{"cc":"SA","ing":"ghee","n":58,"tot":209},{"cc":"SA","ing":"wheat flour","n":56,"tot":209},{"cc":"SA","ing":"cardamom","n":54,"tot":209},{"cc":"SA","ing":"vegetable oil","n":44,"tot":209},{"cc":"SA","ing":"cumin","n":43,"tot":209},{"cc":"SA","ing":"garlic","n":40,"tot":209},{"cc":"SA","ing":"lamb","n":39,"tot":209},{"cc":"SA","ing":"sugar","n":39,"tot":209},{"cc":"SA","ing":"tomato","n":39,"tot":209},{"cc":"SA","ing":"coriander","n":34,"tot":209},{"cc":"SA","ing":"spice","n":34,"tot":209},{"cc":"IR","ing":"salt","n":155,"tot":230},{"cc":"IR","ing":"black pepper","n":112,"tot":230},{"cc":"IR","ing":"onion","n":105,"tot":230},{"cc":"IR","ing":"water","n":74,"tot":230},{"cc":"IR","ing":"garlic","n":60,"tot":230},{"cc":"IR","ing":"vegetable oil","n":57,"tot":230},{"cc":"IR","ing":"olive oil","n":55,"tot":230},{"cc":"IR","ing":"sugar","n":55,"tot":230},{"cc":"IR","ing":"cinnamon","n":54,"tot":230},{"cc":"IR","ing":"turmeric","n":54,"tot":230},{"cc":"IR","ing":"butter","n":44,"tot":230},{"cc":"IR","ing":"saffron","n":41,"tot":230},{"cc":"IR","ing":"parsley","n":38,"tot":230},{"cc":"IR","ing":"basmati rice","n":33,"tot":230},{"cc":"IR","ing":"rice","n":33,"tot":230},{"cc":"KH","ing":"sugar","n":33,"tot":46},{"cc":"KH","ing":"garlic","n":30,"tot":46},{"cc":"KH","ing":"salt","n":25,"tot":46},{"cc":"KH","ing":"fish sauce","n":23,"tot":46},{"cc":"KH","ing":"water","n":20,"tot":46},{"cc":"KH","ing":"chili pepper","n":18,"tot":46},{"cc":"KH","ing":"black pepper","n":17,"tot":46},{"cc":"KH","ing":"soy sauce","n":16,"tot":46},{"cc":"KH","ing":"vegetable oil","n":15,"tot":46},{"cc":"KH","ing":"coriander","n":12,"tot":46},{"cc":"KH","ing":"scallion","n":12,"tot":46},{"cc":"KH","ing":"chicken","n":11,"tot":46},{"cc":"KH","ing":"lime","n":10,"tot":46},{"cc":"KH","ing":"peanut","n":10,"tot":46},{"cc":"KH","ing":"shallot","n":10,"tot":46},{"cc":"LA","ing":"garlic","n":9,"tot":15},{"cc":"LA","ing":"sugar","n":9,"tot":15},{"cc":"LA","ing":"chili pepper","n":8,"tot":15},{"cc":"LA","ing":"water","n":7,"tot":15},{"cc":"LA","ing":"fish sauce","n":6,"tot":15},{"cc":"LA","ing":"salt","n":6,"tot":15},{"cc":"LA","ing":"coriander","n":5,"tot":15},{"cc":"LA","ing":"ginger","n":5,"tot":15},{"cc":"LA","ing":"lemongrass","n":4,"tot":15},{"cc":"LA","ing":"onion","n":4,"tot":15},{"cc":"LA","ing":"vegetable oil","n":4,"tot":15},{"cc":"LA","ing":"lime","n":3,"tot":15},{"cc":"LA","ing":"mint","n":3,"tot":15},{"cc":"LA","ing":"peanut","n":3,"tot":15},{"cc":"LA","ing":"scallion","n":3,"tot":15},{"cc":"JP","ing":"soy sauce","n":1429,"tot":2713},{"cc":"JP","ing":"sugar","n":1285,"tot":2713},{"cc":"JP","ing":"salt","n":1113,"tot":2713},{"cc":"JP","ing":"water","n":912,"tot":2713},{"cc":"JP","ing":"ginger","n":649,"tot":2713},{"cc":"JP","ing":"sake","n":624,"tot":2713},{"cc":"JP","ing":"scallion","n":622,"tot":2713},{"cc":"JP","ing":"vinegar","n":565,"tot":2713},{"cc":"JP","ing":"mirin","n":519,"tot":2713},{"cc":"JP","ing":"carrot","n":503,"tot":2713},{"cc":"JP","ing":"rice","n":502,"tot":2713},{"cc":"JP","ing":"vegetable oil","n":496,"tot":2713},{"cc":"JP","ing":"miso","n":419,"tot":2713},{"cc":"JP","ing":"dashi","n":381,"tot":2713},{"cc":"JP","ing":"sesame","n":375,"tot":2713},{"cc":"ID","ing":"garlic","n":130,"tot":190},{"cc":"ID","ing":"salt","n":112,"tot":190},{"cc":"ID","ing":"chili pepper","n":93,"tot":190},{"cc":"ID","ing":"onion","n":80,"tot":190},{"cc":"ID","ing":"soy sauce","n":79,"tot":190},{"cc":"ID","ing":"ginger","n":74,"tot":190},{"cc":"ID","ing":"vegetable oil","n":60,"tot":190},{"cc":"ID","ing":"black pepper","n":55,"tot":190},{"cc":"ID","ing":"water","n":55,"tot":190},{"cc":"ID","ing":"sugar","n":51,"tot":190},{"cc":"ID","ing":"coriander","n":47,"tot":190},{"cc":"ID","ing":"coconut milk","n":45,"tot":190},{"cc":"ID","ing":"chicken","n":42,"tot":190},{"cc":"ID","ing":"egg","n":38,"tot":190},{"cc":"ID","ing":"shallot","n":32,"tot":190},{"cc":"LB","ing":"salt","n":204,"tot":249},{"cc":"LB","ing":"olive oil","n":150,"tot":249},{"cc":"LB","ing":"garlic","n":138,"tot":249},{"cc":"LB","ing":"black pepper","n":131,"tot":249},{"cc":"LB","ing":"onion","n":104,"tot":249},{"cc":"LB","ing":"water","n":88,"tot":249},{"cc":"LB","ing":"lemon juice","n":78,"tot":249},{"cc":"LB","ing":"parsley","n":77,"tot":249},{"cc":"LB","ing":"tomato","n":69,"tot":249},{"cc":"LB","ing":"cinnamon","n":52,"tot":249},{"cc":"LB","ing":"lemon","n":52,"tot":249},{"cc":"LB","ing":"cumin","n":44,"tot":249},{"cc":"LB","ing":"mint","n":44,"tot":249},{"cc":"LB","ing":"chili pepper","n":41,"tot":249},{"cc":"LB","ing":"sugar","n":34,"tot":249},{"cc":"VN","ing":"garlic","n":201,"tot":320},{"cc":"VN","ing":"sugar","n":192,"tot":320},{"cc":"VN","ing":"fish sauce","n":171,"tot":320},{"cc":"VN","ing":"chili pepper","n":136,"tot":320},{"cc":"VN","ing":"coriander","n":136,"tot":320},{"cc":"VN","ing":"salt","n":132,"tot":320},{"cc":"VN","ing":"black pepper","n":122,"tot":320},{"cc":"VN","ing":"lime","n":118,"tot":320},{"cc":"VN","ing":"water","n":110,"tot":320},{"cc":"VN","ing":"vegetable oil","n":109,"tot":320},{"cc":"VN","ing":"scallion","n":92,"tot":320},{"cc":"VN","ing":"ginger","n":91,"tot":320},{"cc":"VN","ing":"soy sauce","n":81,"tot":320},{"cc":"VN","ing":"mint","n":80,"tot":320},{"cc":"VN","ing":"carrot","n":73,"tot":320},{"cc":"PS","ing":"salt","n":64,"tot":88},{"cc":"PS","ing":"olive oil","n":48,"tot":88},{"cc":"PS","ing":"black pepper","n":38,"tot":88},{"cc":"PS","ing":"garlic","n":37,"tot":88},{"cc":"PS","ing":"water","n":35,"tot":88},{"cc":"PS","ing":"onion","n":28,"tot":88},{"cc":"PS","ing":"lemon","n":25,"tot":88},{"cc":"PS","ing":"tomato","n":25,"tot":88},{"cc":"PS","ing":"parsley","n":24,"tot":88},{"cc":"PS","ing":"lemon juice","n":23,"tot":88},{"cc":"PS","ing":"yogurt","n":15,"tot":88},{"cc":"PS","ing":"sugar","n":14,"tot":88},{"cc":"PS","ing":"tahini","n":14,"tot":88},{"cc":"PS","ing":"allspice","n":13,"tot":88},{"cc":"PS","ing":"chicken","n":13,"tot":88},{"cc":"PK","ing":"salt","n":62,"tot":82},{"cc":"PK","ing":"chili pepper","n":59,"tot":82},{"cc":"PK","ing":"vegetable oil","n":52,"tot":82},{"cc":"PK","ing":"onion","n":47,"tot":82},{"cc":"PK","ing":"coriander","n":46,"tot":82},{"cc":"PK","ing":"cumin","n":42,"tot":82},{"cc":"PK","ing":"ginger","n":41,"tot":82},{"cc":"PK","ing":"garlic","n":39,"tot":82},{"cc":"PK","ing":"turmeric","n":35,"tot":82},{"cc":"PK","ing":"tomato","n":30,"tot":82},{"cc":"PK","ing":"black pepper","n":27,"tot":82},{"cc":"PK","ing":"cardamom","n":25,"tot":82},{"cc":"PK","ing":"chicken","n":24,"tot":82},{"cc":"PK","ing":"water","n":22,"tot":82},{"cc":"PK","ing":"garam masala","n":19,"tot":82},{"cc":"CN","ing":"soy sauce","n":3791,"tot":7848},{"cc":"CN","ing":"salt","n":3599,"tot":7848},{"cc":"CN","ing":"ginger","n":2801,"tot":7848},{"cc":"CN","ing":"sugar","n":2758,"tot":7848},{"cc":"CN","ing":"scallion","n":2749,"tot":7848},{"cc":"CN","ing":"garlic","n":2687,"tot":7848},{"cc":"CN","ing":"vegetable oil","n":1923,"tot":7848},{"cc":"CN","ing":"water","n":1818,"tot":7848},{"cc":"CN","ing":"egg","n":1664,"tot":7848},{"cc":"CN","ing":"chili pepper","n":1505,"tot":7848},{"cc":"CN","ing":"pork","n":1376,"tot":7848},{"cc":"CN","ing":"chicken","n":1370,"tot":7848},{"cc":"CN","ing":"shaoxing wine","n":1328,"tot":7848},{"cc":"CN","ing":"sesame oil","n":1199,"tot":7848},{"cc":"CN","ing":"cornstarch","n":1131,"tot":7848},{"cc":"IN","ing":"salt","n":17683,"tot":26514},{"cc":"IN","ing":"chili pepper","n":16740,"tot":26514},{"cc":"IN","ing":"coriander","n":11207,"tot":26514},{"cc":"IN","ing":"vegetable oil","n":10698,"tot":26514},{"cc":"IN","ing":"turmeric","n":10081,"tot":26514},{"cc":"IN","ing":"cumin","n":9438,"tot":26514},{"cc":"IN","ing":"onion","n":9411,"tot":26514},{"cc":"IN","ing":"water","n":8636,"tot":26514},{"cc":"IN","ing":"ginger","n":7508,"tot":26514},{"cc":"IN","ing":"garlic","n":6604,"tot":26514},{"cc":"IN","ing":"tomato","n":5676,"tot":26514},{"cc":"IN","ing":"ghee","n":5329,"tot":26514},{"cc":"IN","ing":"cardamom","n":5218,"tot":26514},{"cc":"IN","ing":"sugar","n":5104,"tot":26514},{"cc":"IN","ing":"curry leaf","n":5092,"tot":26514},{"cc":"MY","ing":"garlic","n":62,"tot":117},{"cc":"MY","ing":"salt","n":61,"tot":117},{"cc":"MY","ing":"ginger","n":56,"tot":117},{"cc":"MY","ing":"chili pepper","n":54,"tot":117},{"cc":"MY","ing":"water","n":47,"tot":117},{"cc":"MY","ing":"sugar","n":43,"tot":117},{"cc":"MY","ing":"coriander","n":38,"tot":117},{"cc":"MY","ing":"soy sauce","n":34,"tot":117},{"cc":"MY","ing":"vegetable oil","n":34,"tot":117},{"cc":"MY","ing":"onion","n":33,"tot":117},{"cc":"MY","ing":"black pepper","n":32,"tot":117},{"cc":"MY","ing":"coconut milk","n":31,"tot":117},{"cc":"MY","ing":"chicken","n":26,"tot":117},{"cc":"MY","ing":"shallot","n":22,"tot":117},{"cc":"MY","ing":"turmeric","n":22,"tot":117},{"cc":"EG","ing":"salt","n":139,"tot":193},{"cc":"EG","ing":"black pepper","n":98,"tot":193},{"cc":"EG","ing":"onion","n":92,"tot":193},{"cc":"EG","ing":"garlic","n":82,"tot":193},{"cc":"EG","ing":"cumin","n":69,"tot":193},{"cc":"EG","ing":"olive oil","n":68,"tot":193},{"cc":"EG","ing":"water","n":62,"tot":193},{"cc":"EG","ing":"tomato","n":53,"tot":193},{"cc":"EG","ing":"coriander","n":48,"tot":193},{"cc":"EG","ing":"lemon","n":40,"tot":193},{"cc":"EG","ing":"butter","n":37,"tot":193},{"cc":"EG","ing":"lemon juice","n":34,"tot":193},{"cc":"EG","ing":"sugar","n":34,"tot":193},{"cc":"EG","ing":"vegetable oil","n":34,"tot":193},{"cc":"EG","ing":"egg","n":30,"tot":193},{"cc":"IQ","ing":"salt","n":72,"tot":98},{"cc":"IQ","ing":"onion","n":52,"tot":98},{"cc":"IQ","ing":"black pepper","n":43,"tot":98},{"cc":"IQ","ing":"water","n":40,"tot":98},{"cc":"IQ","ing":"garlic","n":38,"tot":98},{"cc":"IQ","ing":"tomato","n":28,"tot":98},{"cc":"IQ","ing":"tomato paste","n":23,"tot":98},{"cc":"IQ","ing":"sugar","n":21,"tot":98},{"cc":"IQ","ing":"vegetable oil","n":21,"tot":98},{"cc":"IQ","ing":"lemon","n":20,"tot":98},{"cc":"IQ","ing":"olive oil","n":20,"tot":98},{"cc":"IQ","ing":"butter","n":17,"tot":98},{"cc":"IQ","ing":"cinnamon","n":17,"tot":98},{"cc":"IQ","ing":"coriander","n":17,"tot":98},{"cc":"IQ","ing":"cardamom","n":16,"tot":98},{"cc":"NP","ing":"garlic","n":40,"tot":53},{"cc":"NP","ing":"ginger","n":40,"tot":53},{"cc":"NP","ing":"salt","n":40,"tot":53},{"cc":"NP","ing":"vegetable oil","n":37,"tot":53},{"cc":"NP","ing":"onion","n":31,"tot":53},{"cc":"NP","ing":"coriander","n":30,"tot":53},{"cc":"NP","ing":"turmeric","n":29,"tot":53},{"cc":"NP","ing":"black pepper","n":28,"tot":53},{"cc":"NP","ing":"chili pepper","n":28,"tot":53},{"cc":"NP","ing":"cumin","n":25,"tot":53},{"cc":"NP","ing":"tomato","n":25,"tot":53},{"cc":"NP","ing":"water","n":14,"tot":53},{"cc":"NP","ing":"chicken","n":13,"tot":53},{"cc":"NP","ing":"yogurt","n":12,"tot":53},{"cc":"NP","ing":"butter","n":11,"tot":53},{"cc":"MN","ing":"garlic","n":11,"tot":12},{"cc":"MN","ing":"soy sauce","n":11,"tot":12},{"cc":"MN","ing":"ginger","n":9,"tot":12},{"cc":"MN","ing":"cornstarch","n":8,"tot":12},{"cc":"MN","ing":"scallion","n":8,"tot":12},{"cc":"MN","ing":"water","n":8,"tot":12},{"cc":"MN","ing":"onion","n":6,"tot":12},{"cc":"MN","ing":"bell pepper","n":5,"tot":12},{"cc":"MN","ing":"carrot","n":5,"tot":12},{"cc":"MN","ing":"hoisin sauce","n":5,"tot":12},{"cc":"MN","ing":"sesame oil","n":5,"tot":12},{"cc":"MN","ing":"steak","n":5,"tot":12},{"cc":"MN","ing":"brown sugar","n":3,"tot":12},{"cc":"MN","ing":"chinese cabbage","n":3,"tot":12},{"cc":"MN","ing":"egg","n":3,"tot":12},{"cc":"TH","ing":"garlic","n":1046,"tot":1830},{"cc":"TH","ing":"coriander","n":903,"tot":1830},{"cc":"TH","ing":"lime","n":826,"tot":1830},{"cc":"TH","ing":"fish sauce","n":779,"tot":1830},{"cc":"TH","ing":"chili pepper","n":766,"tot":1830},{"cc":"TH","ing":"sugar","n":704,"tot":1830},{"cc":"TH","ing":"chicken","n":632,"tot":1830},{"cc":"TH","ing":"ginger","n":623,"tot":1830},{"cc":"TH","ing":"salt","n":611,"tot":1830},{"cc":"TH","ing":"soy sauce","n":591,"tot":1830},{"cc":"TH","ing":"coconut milk","n":588,"tot":1830},{"cc":"TH","ing":"vegetable oil","n":550,"tot":1830},{"cc":"TH","ing":"scallion","n":530,"tot":1830},{"cc":"TH","ing":"black pepper","n":398,"tot":1830},{"cc":"TH","ing":"water","n":390,"tot":1830}],"country_n_ing":[{"cc":"PS","n":132},{"cc":"JP","n":468},{"cc":"IN","n":863},{"cc":"CN","n":554},{"cc":"MY","n":198},{"cc":"IQ","n":141},{"cc":"EG","n":195},{"cc":"NP","n":114},{"cc":"IR","n":212},{"cc":"KH","n":110},{"cc":"TR","n":229},{"cc":"PK","n":121},{"cc":"KR","n":274},{"cc":"KG","n":30},{"cc":"TH","n":421},{"cc":"MN","n":61},{"cc":"SA","n":174},{"cc":"PH","n":207},{"cc":"LA","n":68},{"cc":"ID","n":196},{"cc":"LB","n":200},{"cc":"VN","n":244}],"effects_src":[{"source":"ctd","claims":3463447,"charac":124729,"ingr":929},{"source":"duke","claims":1021534,"charac":42938,"ingr":932},{"source":"exposome","claims":119602,"charac":1476,"ingr":882},{"source":"cmaup","claims":42919,"charac":42919,"ingr":255},{"source":"symmap","claims":9908,"charac":9908,"ingr":13},{"source":"foodb","claims":8598,"charac":217,"ingr":813},{"source":"imppat","claims":7592,"charac":7592,"ingr":247},{"source":"ddid","claims":4893,"charac":4893,"ingr":241},{"source":"unaprod","claims":293,"charac":293,"ingr":17},{"source":"spicerx","claims":236,"charac":236,"ingr":25},{"source":"drugbank","claims":121,"charac":121,"ingr":22},{"source":"herb","claims":30,"charac":30,"ingr":2},{"source":"knapsack","claims":8,"charac":8,"ingr":6}],"evidence":[{"evidence_type":"curated_literature","n":3453772,"charac":128844},{"evidence_type":"in_vitro","n":1017444,"charac":38848},{"evidence_type":"epidemiological","n":119160,"charac":1476},{"evidence_type":"predicted","n":52593,"charac":52593},{"evidence_type":"traditional","n":35564,"charac":12951},{"evidence_type":"clinical","n":412,"charac":412},{"evidence_type":"text_mined","n":236,"charac":236}],"top_cond":[{"target":"Neoplasms","ingr":650,"n":3745},{"target":"Inflammation","ingr":627,"n":2355},{"target":"Chemical and Drug Induced Liver Injury","ingr":626,"n":3647},{"target":"Anxiety Disorders","ingr":622,"n":1924},{"target":"Hypertension","ingr":612,"n":2433},{"target":"Pain","ingr":586,"n":1768},{"target":"Non-alcoholic Fatty Liver Disease","ingr":582,"n":1353},{"target":"Fatty Liver","ingr":580,"n":1491},{"target":"Edema","ingr":575,"n":2004},{"target":"Hyperglycemia","ingr":569,"n":1953},{"target":"Liver Diseases","ingr":564,"n":1572},{"target":"Poisoning","ingr":557,"n":1802},{"target":"Hypercholesterolemia","ingr":555,"n":1664},{"target":"Hyperlipidemias","ingr":546,"n":1095},{"target":"Angina Pectoris","ingr":544,"n":1238}],"ing_cat":[{"category":"(none)","n":373,"herbs":2},{"category":"fruit","n":196,"herbs":87},{"category":"fish","n":142,"herbs":3},{"category":"vegetable","n":136,"herbs":72},{"category":"dish","n":97,"herbs":0},{"category":"spice","n":76,"herbs":27},{"category":"herb","n":75,"herbs":53},{"category":"dairy","n":64,"herbs":1},{"category":"plant","n":63,"herbs":24},{"category":"meat","n":57,"herbs":2},{"category":"seafood","n":48,"herbs":4},{"category":"alcoholic beverage","n":47,"herbs":0},{"category":"beverage","n":41,"herbs":4},{"category":"grain","n":40,"herbs":10},{"category":"essential oil","n":40,"herbs":2},{"category":"bakery","n":39,"herbs":0},{"category":"nut/seed","n":33,"herbs":14},{"category":"legume","n":30,"herbs":18},{"category":"additive","n":24,"herbs":0},{"category":"fungus","n":14,"herbs":2},{"category":"condiment","n":13,"herbs":0},{"category":"flower","n":9,"herbs":5},{"category":"oil/fat","n":8,"herbs":0},{"category":"confectionery","n":5,"herbs":0},{"category":"soy product","n":5,"herbs":0},{"category":"cocoa","n":4,"herbs":1},{"category":"flour","n":3,"herbs":0},{"category":"sweetener","n":3,"herbs":1},{"category":"starch","n":3,"herbs":0},{"category":"egg","n":2,"herbs":0},{"category":"snack","n":2,"herbs":0},{"category":"broth","n":1,"herbs":0},{"category":"noodles","n":1,"herbs":0},{"category":"flavouring","n":1,"herbs":0},{"category":"baby food","n":1,"herbs":0},{"category":"seaweed","n":1,"herbs":0}],"funnel":[{"dishes":46252,"ingredients":1697,"compounds":38575,"conditions":6325,"drugs":539,"claims":4679181}],"cases":[{"source":"MedCaseReasoning","lang":"en","gold":"gold","n":14489,"high":140,"medium":1784,"low":12565,"diet":1576,"place":1506,"ethnicity":1377,"religion":18,"habit":16,"food":27,"tradmed":51,"case_ai":14489},{"source":"NGQA","lang":"en","gold":"weak gold","n":13802,"high":0,"medium":4180,"low":9622,"diet":13802,"place":0,"ethnicity":0,"religion":0,"habit":0,"food":4180,"tradmed":0,"case_ai":0},{"source":"RuMedBench","lang":"ru","gold":"gold","n":6360,"high":42,"medium":671,"low":5647,"diet":687,"place":26,"ethnicity":3,"religion":1,"habit":1,"food":19,"tradmed":19,"case_ai":0},{"source":"FAM-Bench","lang":"en","gold":"gold","n":1500,"high":615,"medium":885,"low":0,"diet":1500,"place":0,"ethnicity":0,"religion":2,"habit":2,"food":612,"tradmed":0,"case_ai":0},{"source":"MedicationQA","lang":"en","gold":"gold","n":680,"high":2,"medium":31,"low":647,"diet":32,"place":0,"ethnicity":0,"religion":0,"habit":0,"food":0,"tradmed":2,"case_ai":0},{"source":"MTCMB","lang":"zh","gold":"gold","n":600,"high":600,"medium":0,"low":0,"diet":164,"place":74,"ethnicity":0,"religion":0,"habit":6,"food":68,"tradmed":84,"case_ai":100},{"source":"MedArabiQ","lang":"ar","gold":"gold","n":300,"high":9,"medium":29,"low":262,"diet":37,"place":3,"ethnicity":0,"religion":0,"habit":0,"food":5,"tradmed":6,"case_ai":200},{"source":"TCM-BEST4SDT","lang":"zh","gold":"gold","n":300,"high":300,"medium":0,"low":0,"diet":80,"place":32,"ethnicity":0,"religion":0,"habit":28,"food":2,"tradmed":29,"case_ai":250},{"source":"ISSAI Dietary Recommendation profiles","lang":"ru","gold":"ai-generated","n":100,"high":0,"medium":100,"low":0,"diet":100,"place":92,"ethnicity":92,"religion":0,"habit":10,"food":50,"tradmed":30,"case_ai":0},{"source":"ISSAI Dietary Recommendation profiles","lang":"kk","gold":"ai-generated","n":100,"high":0,"medium":100,"low":0,"diet":100,"place":94,"ethnicity":94,"religion":0,"habit":12,"food":46,"tradmed":28,"case_ai":0},{"source":"ISSAI Dietary Recommendation profiles","lang":"en","gold":"ai-generated","n":50,"high":0,"medium":50,"low":0,"diet":50,"place":48,"ethnicity":38,"religion":15,"habit":1,"food":34,"tradmed":14,"case_ai":0},{"source":"PerMedCQA","lang":"fa","gold":"gold","n":10,"high":9,"medium":1,"low":0,"diet":9,"place":0,"ethnicity":0,"religion":2,"habit":1,"food":2,"tradmed":5,"case_ai":0},{"source":"Rezaei2026","lang":"en","gold":"gold","n":10,"high":1,"medium":9,"low":0,"diet":1,"place":6,"ethnicity":1,"religion":4,"habit":0,"food":0,"tradmed":0,"case_ai":10}],"ing":{"cat":[{"category":"(none)","n":373,"herbs":2,"with_cpd":5,"with_claim":7},{"category":"fruit","n":196,"herbs":87,"with_cpd":149,"with_claim":128},{"category":"fish","n":142,"herbs":3,"with_cpd":119,"with_claim":116},{"category":"vegetable","n":136,"herbs":72,"with_cpd":112,"with_claim":93},{"category":"dish","n":97,"herbs":0,"with_cpd":71,"with_claim":64},{"category":"spice","n":76,"herbs":27,"with_cpd":45,"with_claim":36},{"category":"herb","n":75,"herbs":53,"with_cpd":66,"with_claim":60},{"category":"dairy","n":64,"herbs":1,"with_cpd":26,"with_claim":24},{"category":"plant","n":63,"herbs":24,"with_cpd":49,"with_claim":41},{"category":"meat","n":57,"herbs":2,"with_cpd":23,"with_claim":22},{"category":"seafood","n":48,"herbs":4,"with_cpd":40,"with_claim":34},{"category":"alcoholic beverage","n":47,"herbs":0,"with_cpd":17,"with_claim":15},{"category":"beverage","n":41,"herbs":4,"with_cpd":34,"with_claim":23},{"category":"grain","n":40,"herbs":10,"with_cpd":30,"with_claim":27},{"category":"essential oil","n":40,"herbs":2,"with_cpd":2,"with_claim":4},{"category":"bakery","n":39,"herbs":0,"with_cpd":37,"with_claim":33},{"category":"nut/seed","n":33,"herbs":14,"with_cpd":29,"with_claim":27},{"category":"legume","n":30,"herbs":18,"with_cpd":24,"with_claim":22},{"category":"additive","n":24,"herbs":0,"with_cpd":16,"with_claim":15},{"category":"fungus","n":14,"herbs":2,"with_cpd":10,"with_claim":10},{"category":"condiment","n":13,"herbs":0,"with_cpd":2,"with_claim":2},{"category":"flower","n":9,"herbs":5,"with_cpd":5,"with_claim":5},{"category":"oil/fat","n":8,"herbs":0,"with_cpd":6,"with_claim":4},{"category":"confectionery","n":5,"herbs":0,"with_cpd":5,"with_claim":5},{"category":"soy product","n":5,"herbs":0,"with_cpd":2,"with_claim":2},{"category":"cocoa","n":4,"herbs":1,"with_cpd":4,"with_claim":1},{"category":"starch","n":3,"herbs":0,"with_cpd":1,"with_claim":0},{"category":"flour","n":3,"herbs":0,"with_cpd":1,"with_claim":1},{"category":"sweetener","n":3,"herbs":1,"with_cpd":1,"with_claim":1},{"category":"snack","n":2,"herbs":0,"with_cpd":2,"with_claim":2},{"category":"egg","n":2,"herbs":0,"with_cpd":1,"with_claim":0},{"category":"baby food","n":1,"herbs":0,"with_cpd":1,"with_claim":1},{"category":"flavouring","n":1,"herbs":0,"with_cpd":0,"with_claim":0},{"category":"broth","n":1,"herbs":0,"with_cpd":0,"with_claim":0},{"category":"noodles","n":1,"herbs":0,"with_cpd":0,"with_claim":0},{"category":"seaweed","n":1,"herbs":0,"with_cpd":1,"with_claim":0}],"top_used":[{"ing":"salt","dishes":27535,"countries":22},{"ing":"chili pepper","dishes":20972,"countries":22},{"ing":"vegetable oil","dishes":15450,"countries":22},{"ing":"coriander","dishes":14578,"countries":21},{"ing":"water","dishes":14303,"countries":22},{"ing":"garlic","dishes":14215,"countries":22},{"ing":"onion","dishes":13284,"countries":22},{"ing":"ginger","dishes":13065,"countries":21},{"ing":"sugar","dishes":11720,"countries":21},{"ing":"cumin","dishes":11223,"countries":18},{"ing":"turmeric","dishes":11138,"countries":19},{"ing":"black pepper","dishes":8667,"countries":22},{"ing":"tomato","dishes":7503,"countries":21},{"ing":"soy sauce","dishes":6904,"countries":16},{"ing":"cardamom","dishes":5875,"countries":16},{"ing":"ghee","dishes":5533,"countries":11},{"ing":"scallion","dishes":5307,"countries":21},{"ing":"curry leaf","dishes":5230,"countries":6},{"ing":"mustard","dishes":5169,"countries":15},{"ing":"yogurt","dishes":5081,"countries":20}],"top_claims":[{"ing":"turmeric","ch":3665,"conds":2557},{"ing":"fenugreek","ch":3350,"conds":2648},{"ing":"ginger","ch":2382,"conds":1714},{"ing":"common thyme","ch":2077,"conds":801},{"ing":"oregano","ch":1791,"conds":674},{"ing":"pomegranate","ch":1737,"conds":1196},{"ing":"clove","ch":1572,"conds":699},{"ing":"common sage","ch":1426,"conds":654},{"ing":"basil","ch":1378,"conds":658},{"ing":"cocoa bean","ch":1343,"conds":689},{"ing":"sunflower","ch":1301,"conds":636},{"ing":"marjoram","ch":1295,"conds":625}],"props":[{"system":"knapsack_use","property":"use_in_JP","value":"edible","n":312},{"system":"knapsack_use","property":"use_in_CN","value":"edible","n":197},{"system":"knapsack_use","property":"use_in_IN","value":"medicinal","n":190},{"system":"knapsack_use","property":"use_in_TH","value":"edible","n":140},{"system":"knapsack_use","property":"use_in_CN","value":"medicinal","n":129},{"system":"tcm","property":"flavour","value":"sweet","n":107},{"system":"knapsack_use","property":"use_in_IN","value":"edible","n":101},{"system":"knapsack_use","property":"use_in_ID","value":"medicinal","n":97},{"system":"knapsack_use","property":"use_in_TH","value":"medicinal","n":88},{"system":"knapsack_use","property":"use_in_JP","value":"medicinal","n":85},{"system":"knapsack_use","property":"use_in_JO","value":"medicinal","n":75},{"system":"tcm","property":"meridian","value":"lung","n":73},{"system":"tcm","property":"meridian","value":"stomach","n":71},{"system":"knapsack_use","property":"use_in_EG","value":"medicinal","n":70},{"system":"knapsack_use","property":"use_in_PH","value":"edible","n":70},{"system":"tcm","property":"meridian","value":"liver","n":68},{"system":"knapsack_use","property":"use_in_TR","value":"medicinal","n":65},{"system":"tcm","property":"meridian","value":"spleen","n":61},{"system":"knapsack_use","property":"use_in_PH","value":"medicinal","n":58},{"system":"tcm","property":"nature","value":"neutral","n":58},{"system":"knapsack_use","property":"use_in_IL","value":"edible","n":56},{"system":"tcm","property":"flavour","value":"bitter","n":56},{"system":"knapsack_use","property":"use_in_LB","value":"medicinal","n":54},{"system":"knapsack_use","property":"use_in_EG","value":"edible","n":52},{"system":"knapsack_use","property":"use_in_BD","value":"medicinal","n":52},{"system":"knapsack_use","property":"use_in_NP","value":"edible","n":52},{"system":"knapsack_use","property":"use_in_KR","value":"medicinal","n":51},{"system":"tcm","property":"flavour","value":"acrid","n":50},{"system":"knapsack_use","property":"use_in_NP","value":"medicinal","n":48},{"system":"tcm","property":"nature","value":"warm","n":48},{"system":"knapsack_use","property":"use_in_KR","value":"edible","n":43},{"system":"knapsack_use","property":"use_in_MA","value":"edible","n":42},{"system":"tcm","property":"meridian","value":"kidney","n":41},{"system":"tcm","property":"nature","value":"cold","n":41},{"system":"knapsack_use","property":"use_in_ID","value":"edible","n":38},{"system":"knapsack_use","property":"use_in_IQ","value":"medicinal","n":38},{"system":"knapsack_use","property":"use_in_MY","value":"medicinal","n":36},{"system":"tcm","property":"meridian","value":"heart","n":36},{"system":"knapsack_use","property":"use_in_TR","value":"edible","n":35},{"system":"tcm","property":"meridian","value":"large intestine","n":35},{"system":"knapsack_use","property":"use_in_MA","value":"medicinal","n":35},{"system":"tcm","property":"nature","value":"cool","n":34},{"system":"knapsack_use","property":"use_in_SY","value":"edible","n":31},{"system":"knapsack_use","property":"use_in_IL","value":"medicinal","n":30},{"system":"tcm","property":"flavour","value":"sour","n":27},{"system":"persian_mizaj","property":"mizaj","value":"Unbalanced Hot And Dry Mizaj","n":26},{"system":"tcm","property":"flavour","value":"pungent","n":24},{"system":"knapsack_use","property":"use_in_MY","value":"edible","n":23},{"system":"knapsack_use","property":"use_in_LB","value":"edible","n":21},{"system":"knapsack_use","property":"use_in_VN","value":"medicinal","n":21},{"system":"knapsack_use","property":"use_in_IR","value":"medicinal","n":21},{"system":"knapsack_use","property":"use_in_PK","value":"edible","n":21},{"system":"tcm","property":"nature","value":"calm","n":20},{"system":"knapsack_use","property":"use_in_TM","value":"medicinal","n":19},{"system":"tcm","property":"flavour","value":"slightly bitter","n":18},{"system":"knapsack_use","property":"use_in_IR","value":"edible","n":16},{"system":"knapsack_use","property":"use_in_VN","value":"edible","n":14},{"system":"tcm","property":"flavour","value":"astringent","n":14},{"system":"tcm","property":"nature","value":"mild","n":12},{"system":"knapsack_use","property":"use_in_LK","value":"medicinal","n":11},{"system":"tcm","property":"meridian","value":"bladder","n":10},{"system":"tcm","property":"flavour","value":"slightly sweet","n":10},{"system":"tcm","property":"nature","value":"minor warm","n":9},{"system":"knapsack_use","property":"use_in_BD","value":"edible","n":9},{"system":"knapsack_use","property":"use_in_SA","value":"edible","n":9},{"system":"knapsack_use","property":"use_in_PK","value":"medicinal","n":8},{"system":"knapsack_use","property":"use_in_KG","value":"edible","n":7},{"system":"knapsack_use","property":"use_in_MN","value":"medicinal","n":7},{"system":"knapsack_use","property":"use_in_LK","value":"edible","n":7},{"system":"knapsack_use","property":"use_in_AF","value":"medicinal","n":6},{"system":"tcm","property":"flavour","value":"salty","n":6},{"system":"knapsack_use","property":"use_in_SA","value":"medicinal","n":6},{"system":"tcm","property":"meridian","value":"gallbladder","n":5},{"system":"knapsack_use","property":"use_in_UZ","value":"edible","n":5},{"system":"knapsack_use","property":"use_in_AF","value":"edible","n":5},{"system":"persian_mizaj","property":"mizaj","value":"Unbalanced Cold And Dry Mizaj","n":5},{"system":"knapsack_use","property":"use_in_SY","value":"medicinal","n":5},{"system":"knapsack_use","property":"use_in_JO","value":"edible","n":5},{"system":"tcm","property":"nature","value":"slightly warm","n":4},{"system":"knapsack_use","property":"use_in_MN","value":"edible","n":4},{"system":"tcm","property":"nature","value":"minor cold","n":4},{"system":"tcm","property":"nature","value":"hot","n":4},{"system":"tcm","property":"flavour","value":"slightly sour","n":4},{"system":"knapsack_use","property":"use_in_KZ","value":"edible","n":4},{"system":"tcm","property":"meridian","value":"small intestine","n":4},{"system":"tcm","property":"flavour","value":"slightly acrid","n":3},{"system":"knapsack_use","property":"use_in_AE","value":"edible","n":3},{"system":"knapsack_use","property":"use_in_TM","value":"edible","n":3},{"system":"knapsack_use","property":"use_in_IQ","value":"edible","n":3},{"system":"knapsack_use","property":"use_in_KW","value":"medicinal","n":3},{"system":"persian_mizaj","property":"mizaj_degree","value":"DryThird; HotThird","n":3},{"system":"knapsack_use","property":"use_in_TJ","value":"edible","n":3},{"system":"knapsack_use","property":"use_in_YE","value":"medicinal","n":3},{"system":"knapsack_use","property":"use_in_YE","value":"edible","n":2},{"system":"tcm","property":"flavour","value":"punkery","n":2},{"system":"tcm","property":"nature","value":"slightly cold","n":2},{"system":"persian_mizaj","property":"mizaj","value":"Unbalanced Hot Mizaj","n":2},{"system":"tcm","property":"flavour","value":"bland","n":2},{"system":"tcm","property":"flavour","value":"slightly salty","n":2},{"system":"persian_mizaj","property":"mizaj","value":"Unbalanced Cold And Wet Mizaj","n":2},{"system":"persian_mizaj","property":"mizaj","value":"Unbalanced Hot And Wet Mizaj","n":2},{"system":"tcm","property":"toxicity","value":"toxic","n":2},{"system":"knapsack_use","property":"use_in_QA","value":"medicinal","n":2},{"system":"knapsack_use","property":"use_in_OM","value":"medicinal","n":2},{"system":"knapsack_use","property":"use_in_BH","value":"edible","n":1},{"system":"persian_mizaj","property":"mizaj_degree","value":"DryFirst; HotThird","n":1},{"system":"persian_mizaj","property":"mizaj_degree","value":"DryFirst; HotSecond; WetFirst; HotSecond","n":1},{"system":"persian_mizaj","property":"mizaj_degree","value":"DryFirst; HotSecond; DrySecond; HotThird","n":1},{"system":"persian_mizaj","property":"mizaj_degree","value":"DrySecond; HotSecond","n":1},{"system":"persian_mizaj","property":"mizaj_degree","value":"WetFirst; ColdnessDegree","n":1},{"system":"persian_mizaj","property":"mizaj_degree","value":"DryFourth; HotFourth","n":1},{"system":"persian_mizaj","property":"mizaj_degree","value":"DryFirst; HotSecond","n":1},{"system":"persian_mizaj","property":"mizaj_degree","value":"DryMinThird; HotMinThird; DryFourth; HotFourth","n":1},{"system":"tcm","property":"toxicity","value":"slightly toxic","n":1},{"system":"tcm","property":"meridian","value":"pericardium","n":1},{"system":"persian_mizaj","property":"mizaj_degree","value":"DryMinThird; HotMaxThird","n":1},{"system":"persian_mizaj","property":"mizaj_degree","value":"DryFirst; HotSecond; DrynessDegree; ColdnessDegree","n":1},{"system":"knapsack_use","property":"use_in_QA","value":"edible","n":1},{"system":"tcm","property":"flavour","value":"tasteless","n":1},{"system":"persian_mizaj","property":"mizaj_degree","value":"DryMaxSecond; HotMaxSecond; DryThird; HotThird; DryThird; HotSecond","n":1},{"system":"tcm","property":"flavour","value":"sweetbland","n":1},{"system":"knapsack_use","property":"use_in_OM","value":"edible","n":1},{"system":"persian_mizaj","property":"mizaj_degree","value":"DryThird; HotSecond; DryThird; HotThird","n":1},{"system":"persian_mizaj","property":"mizaj","value":"Unbalanced BalancedInWetnessDryness Mizaj","n":1},{"system":"knapsack_use","property":"use_in_KW","value":"edible","n":1},{"system":"tcm","property":"flavour","value":"sweetsour","n":1},{"system":"persian_mizaj","property":"mizaj","value":"Unbalanced BalancedHotInclined And Dry Mizaj","n":1},{"system":"persian_mizaj","property":"mizaj_degree","value":"DryMaxSecond; HotMaxThird; DryMaxThird; HotMaxThird; DrySecond; HotSecond","n":1},{"system":"persian_mizaj","property":"mizaj_degree","value":"HotFirst","n":1},{"system":"persian_mizaj","property":"mizaj","value":"Unbalanced MorakkabAlGhovaa Mizaj","n":1},{"system":"persian_mizaj","property":"mizaj","value":"Unbalanced BalancedHotInclined Mizaj","n":1},{"system":"tcm","property":"nature","value":"big hot","n":1},{"system":"tcm","property":"flavour","value":"slightly astringent","n":1}],"tot":[{"n":1697,"sci":679,"herbs":332,"with_cpd":936,"n_names":11050.0}],"used":[{"used":1099}],"claim_any":[{"n":950,"ch":825}]}};
+const fmt = n => Math.round(n).toLocaleString("en-US");
+const short = n => n >= 1e6 ? (n/1e6).toFixed(2).replace(/\.?0+$/,"") + "M" : n >= 1e4 ? Math.round(n/1e3) + "k" : fmt(n);
+const el = (tag, attrs = {}, html = "") => { const e = document.createElement(tag); for (const k in attrs) e.setAttribute(k, attrs[k]); e.innerHTML = html; return e; };
+
+/* ---------- slides ---------- */
+let cur = 0;
+function go(i) {
+  cur = (i + 4) % 4;
+  for (let k = 0; k < 4; k++) {
+    document.getElementById("s" + k).hidden = k !== cur;
+    document.getElementById("t" + k).setAttribute("aria-selected", k === cur);
+  }
+  try { localStorage.setItem("kgslide", cur); } catch (e) {}
+}
+document.querySelectorAll(".tab").forEach(b => b.onclick = () => go(+b.dataset.i));
+document.getElementById("prev").onclick = () => go(cur - 1);
+document.getElementById("next").onclick = () => go(cur + 1);
+addEventListener("keydown", e => { if (e.key === "ArrowRight") go(cur + 1); if (e.key === "ArrowLeft") go(cur - 1); });
+const kpis = (id, items) => document.getElementById(id).innerHTML = items.map(([v, l]) => `<div class="kpi"><b>${v}</b><span>${l}</span></div>`).join("");
+
+/* ---------- slide 1: countries ---------- */
+const CN = {IN:"India",CN:"China",JP:"Japan",TH:"Thailand",KR:"South Korea",VN:"Vietnam",LB:"Lebanon",TR:"Turkey",IR:"Iran",SA:"Saudi Arabia",
+  MY:"Malaysia",ID:"Indonesia",PH:"Philippines",EG:"Egypt",IQ:"Iraq",PK:"Pakistan",PS:"Palestine",NP:"Nepal",KH:"Cambodia",BH:"Bahrain",
+  LA:"Laos",MN:"Mongolia",KG:"Kyrgyzstan"};
+const SRC = [["IndicRecipeNutri","IndicRecipeNutri"],["Food.com Recipes and Interactions","Food.com"],["CulinaryDB","CulinaryDB"],
+  ["XiaChuFang Recipe Corpus","XiaChuFang"],["Our Regional Cuisines (Japan MAFF)","Japan MAFF"],["Indian Nutrient Databank (INDB)","INDB"],
+  ["Saudi Food Composition Tables","Saudi FCT"],["Bahrain Food Composition Tables","Bahrain FCT"],["Kyrgyzstan Food Composition Table","Kyrgyz FCT"]];
+const srcColor = Object.fromEntries(SRC.map(([s], i) => [s, `var(--s${i + 1})`]));
+const srcShort = Object.fromEntries(SRC);
+const byC = {};
+for (const r of D.country_source) { if (!r.cc) continue; (byC[r.cc] ??= {cc: r.cc, total: 0, src: {}}); byC[r.cc].src[r.source] = r.n; byC[r.cc].total += r.n; }
+const countries = Object.values(byC).sort((a, b) => b.total - a.total);
+const nIng = Object.fromEntries(D.country_n_ing.map(r => [r.cc, r.n]));
+const topIng = {}; for (const r of D.country_top_ing) (topIng[r.cc] ??= []).push(r);
+const BASICS = new Set(["salt", "water", "sugar", "vegetable oil", "oil", "black pepper"]);
+let scale0 = "lin", selC = "IN", hideBasics = true;
+const maxC = countries[0].total;
+
+kpis("k0", [[fmt(countries.reduce((s, c) => s + c.total, 0)), "dishes with a country"], ["23", "countries"], ["9", "dish datasets"]]);
+document.getElementById("srcLegend").innerHTML = SRC.map(([s, n]) => `<span style="--c:${srcColor[s]}">${n}</span>`).join("");
+
+function drawCountries() {
+  const box = document.getElementById("countries"); box.innerHTML = "";
+  for (const c of countries) {
+    const b = el("button", {class: "row" + (c.cc === selC ? " on" : ""), "aria-label": CN[c.cc]});
+    let track = "";
+    if (scale0 === "lin") {
+      for (const [s] of SRC) if (c.src[s]) track += `<i style="width:${c.src[s] / maxC * 100}%;background:${srcColor[s]}"></i>`;
+    } else {
+      const main = Object.entries(c.src).sort((a, b) => b[1] - a[1])[0][0];
+      track = `<i style="width:${Math.log10(c.total) / Math.log10(maxC) * 100}%;background:${srcColor[main]}"></i>`;
+    }
+    b.innerHTML = `<span class="lab">${CN[c.cc]}</span><span class="track">${track}</span><span class="val">${fmt(c.total)}</span>`;
+    b.onclick = () => { selC = c.cc; drawCountries(); drawDetail(); };
+    box.append(b);
+  }
+}
+function drawDetail() {
+  const c = byC[selC], box = document.getElementById("cdetail");
+  const srcs = Object.entries(c.src).sort((a, b) => b[1] - a[1]).map(([s, n]) => `<b>${srcShort[s]}</b> ${fmt(n)}`).join(" · ");
+  const list = (topIng[selC] || []).filter(r => !(hideBasics && BASICS.has(r.ing))).slice(0, 10);
+  const tot = list.length ? list[0].tot : 0;
+  box.innerHTML = `<div class="ph"><h3>${CN[selC]}</h3>
+      <label class="check"><input type="checkbox" id="basics" ${hideBasics ? "checked" : ""}> hide salt, water, sugar, oil, pepper</label></div>
+    <div class="facts"><span><b>${fmt(c.total)}</b> dishes</span><span><b>${fmt(nIng[selC] || 0)}</b> distinct ingredients</span><span>${srcs}</span></div>
+    <div class="sub" style="margin-bottom:6px">Share of ${CN[selC]}’s dishes that use each ingredient</div>
+    <div class="ing">${list.length ? list.map(r => `<div><span>${r.ing}</span><span><span class="bar" style="display:block;width:${r.n / tot * 100}%"></span></span><span class="pct">${Math.round(r.n / tot * 100)}%</span></div>`).join("")
+      : `<p class="note">These dishes come from a food composition table that lists nutrients but no ingredient lines.</p>`}</div>`;
+  document.getElementById("basics").onchange = e => { hideBasics = e.target.checked; drawDetail(); };
+}
+document.querySelectorAll("#scale0 button").forEach(b => b.onclick = () => {
+  scale0 = b.dataset.v; document.querySelectorAll("#scale0 button").forEach(x => x.setAttribute("aria-pressed", x === b)); drawCountries(); });
+drawCountries(); drawDetail();
+
+/* ---------- slide 2: ingredients ---------- */
+(function () {
+  const I = D.ing, T0 = I.tot[0];
+  kpis("k1i", [[fmt(T0.n), "ingredients"], [fmt(I.used[0].used), "used in dishes"], [fmt(T0.with_cpd), "with compounds"], [fmt(I.claim_any[0].ch), "with a characteristic claim"]]);
+  const CN2 = Object.assign({}, CN, {IL:"Israel",JO:"Jordan",MA:"Morocco",BD:"Bangladesh",SY:"Syria",TM:"Turkmenistan",LK:"Sri Lanka",AF:"Afghanistan",UZ:"Uzbekistan"});
+  const rowsBox = document.getElementById("ingRows"), tip = document.getElementById("ingTip"), leg = document.getElementById("ingLegend");
+  const bar = (lab, segs, val, onclick) => {
+    const b = el("button", {class: "row"});
+    b.innerHTML = `<span class="lab" title="${lab}">${lab}</span><span class="overlay">${segs.map(([w, c]) => `<i style="width:${w}%;background:${c}"></i>`).join("")}</span><span class="val">${val}</span>`;
+    b.onclick = () => { rowsBox.querySelectorAll(".row").forEach(x => x.classList.remove("on")); b.classList.add("on"); onclick(); };
+    rowsBox.append(b);
+  };
+  function draw(mode) {
+    rowsBox.innerHTML = "";
+    if (mode === "cat") {
+      document.getElementById("ingTitle").textContent = "Ingredients by category";
+      const cats = I.cat.filter(r => r.category !== "(none)").slice(0, 16), mx = cats[0].n;
+      for (const r of cats) bar(r.category, [[r.n / mx * 100, "var(--accent-soft)"], [r.with_claim / mx * 100, "var(--herb)"]], fmt(r.n),
+        () => tip.textContent = `${r.category}: ${fmt(r.n)} ingredients · ${fmt(r.herbs)} medicinal herbs · ${fmt(r.with_cpd)} with compounds · ${fmt(r.with_claim)} with a characteristic claim`);
+      leg.innerHTML = `<span style="--c:var(--accent-soft)">all</span><span style="--c:var(--herb)">with a characteristic claim</span>`;
+      tip.textContent = `${fmt(I.cat.find(r => r.category === "(none)").n)} more have no category. Click a category for its numbers.`;
+    } else if (mode === "used") {
+      document.getElementById("ingTitle").textContent = "Most used in dishes";
+      const mx = I.top_used[0].dishes;
+      for (const r of I.top_used.slice(0, 16)) bar(r.ing, [[r.dishes / mx * 100, "var(--accent)"]], short(r.dishes),
+        () => tip.textContent = `${r.ing}: in ${fmt(r.dishes)} dishes from ${r.countries} of 23 countries`);
+      leg.innerHTML = `<span style="--c:var(--accent)">dishes using it</span>`;
+      tip.textContent = "Click an ingredient for how many countries use it.";
+    } else {
+      document.getElementById("ingTitle").textContent = "Most characteristic health claims";
+      const mx = I.top_claims[0].ch;
+      for (const r of I.top_claims) bar(r.ing, [[r.ch / mx * 100, "var(--herb)"]], fmt(r.ch),
+        () => tip.textContent = `${r.ing}: ${fmt(r.ch)} characteristic claims over ${fmt(r.conds)} conditions`);
+      leg.innerHTML = `<span style="--c:var(--herb)">characteristic claims</span>`;
+      tip.textContent = "Click an ingredient for how many conditions it reaches.";
+    }
+  }
+  document.querySelectorAll("#ingMode button").forEach(b => b.onclick = () => {
+    document.querySelectorAll("#ingMode button").forEach(x => x.setAttribute("aria-pressed", x === b)); draw(b.dataset.v); });
+  draw("cat");
+
+  const pBox = document.getElementById("propRows"), pSub = document.getElementById("propSub"), pLeg = document.getElementById("propLegend");
+  const simple = (list, color) => { const mx = list[0].n; for (const r of list) { const d = el("div", {class: "row", style: "cursor:default"});
+    d.innerHTML = `<span class="lab" title="${r.label}">${r.label}</span><span class="track"><i style="width:${r.n / mx * 100}%;background:${color}"></i></span><span class="val">${fmt(r.n)}</span>`; pBox.append(d); } };
+  function drawP(mode) {
+    pBox.innerHTML = ""; pLeg.innerHTML = "";
+    if (mode === "knap") {
+      const by = {};
+      for (const r of I.props.filter(r => r.system === "knapsack_use")) { const cc = r.property.slice(7); (by[cc] ??= {cc, edible: 0, medicinal: 0})[r.value] = r.n; }
+      const list = Object.values(by).map(r => ({...r, t: r.edible + r.medicinal})).sort((a, b) => b.t - a.t).slice(0, 14), mx = list[0].t;
+      pSub.textContent = "KNApSAcK: ingredients recorded as eaten or used as medicine in each country";
+      for (const r of list) { const d = el("div", {class: "row", style: "cursor:default"});
+        d.innerHTML = `<span class="lab">${CN2[r.cc] || r.cc}</span><span class="track"><i style="width:${r.edible / mx * 100}%;background:var(--accent)"></i><i style="width:${r.medicinal / mx * 100}%;background:var(--berry)"></i></span><span class="val">${r.edible} / ${r.medicinal}</span>`; pBox.append(d); }
+      pLeg.innerHTML = `<span style="--c:var(--accent)">edible</span><span style="--c:var(--berry)">medicinal</span>`;
+    } else if (mode === "nature" || mode === "flavour") {
+      pSub.textContent = mode === "nature" ? "Traditional Chinese medicine: the thermal nature of each ingredient (SymMap, HERB)" : "Traditional Chinese medicine: flavours (an ingredient can have several)";
+      simple(I.props.filter(r => r.system === "tcm" && r.property === mode).slice(0, 12).map(r => ({label: r.value, n: r.n})), mode === "nature" ? "var(--sky)" : "var(--s5)");
+    } else {
+      pSub.textContent = "Persian medicine temperament (Mizaj) from UNaProd, 35 ingredients";
+      simple(I.props.filter(r => r.system === "persian_mizaj" && r.property === "mizaj").map(r => ({label: r.value.replace(/^Unbalanced /, "").replace(/ Mizaj$/, "").replace(/([a-z])([A-Z])/g, "$1 $2").toLowerCase(), n: r.n})), "var(--s7)");
+    }
+  }
+  document.querySelectorAll("#propMode button").forEach(b => b.onclick = () => {
+    document.querySelectorAll("#propMode button").forEach(x => x.setAttribute("aria-pressed", x === b)); drawP(b.dataset.v); });
+  drawP("knap");
+})();
+
+/* ---------- slide 3: food to health ---------- */
+const F = D.funnel[0];
+kpis("k1", [[short(F.claims), "claims"], [fmt(D.effects_src.reduce((s, r) => s + r.charac, 0)), "characteristic"], ["950", "ingredients with a claim"]]);
+document.getElementById("chain").innerHTML = [[F.dishes, "dishes"], [F.ingredients, "ingredients"], [F.compounds, "compounds in them"], [F.conditions, "conditions"], [F.drugs, "drugs (interactions)"]]
+  .map(([v, l], i) => (i ? `<div class="arrow">→</div>` : "") + `<div><b>${fmt(v)}</b><span>${l}</span></div>`).join("");
+const ESRC = {ctd:["CTD","via compound"],duke:["Dr. Duke’s","direct + via compound"],exposome:["Exposome-Explorer","via compound"],cmaup:["CMAUP","direct"],
+  symmap:["SymMap","direct"],foodb:["FooDB","via compound"],imppat:["IMPPAT","direct"],ddid:["DDID","drug interaction"],unaprod:["UNaProd","direct"],
+  spicerx:["SpiceRx","direct"],drugbank:["DrugBank","drug interaction"],herb:["HERB","direct"],knapsack:["KNApSAcK","direct"]};
+const LMAX = 7; const lw = n => n > 0 ? Math.log10(n) / LMAX * 100 : 0;
+(function () {
+  const box = document.getElementById("effsrc");
+  for (const r of D.effects_src) {
+    const b = el("button", {class: "row"});
+    b.innerHTML = `<span class="lab">${ESRC[r.source][0]}</span><span class="overlay"><i style="width:${lw(r.claims)}%;background:var(--accent-soft)"></i><i style="width:${lw(r.charac)}%;background:var(--accent)"></i></span><span class="val">${short(r.claims)}</span>`;
+    b.onclick = () => {
+      box.querySelectorAll(".row").forEach(x => x.classList.remove("on")); b.classList.add("on");
+      document.getElementById("efftip").textContent = `${ESRC[r.source][0]}: ${fmt(r.claims)} claims, ${fmt(r.charac)} characteristic (${(r.charac / r.claims * 100).toFixed(1)}%), ${fmt(r.ingr)} ingredients, path: ${ESRC[r.source][1]}`;
+    };
+    box.append(b);
+  }
+  document.getElementById("effaxis").innerHTML = `<span></span><div>${[1, 2, 3, 4, 5, 6].map(p => `<span style="left:${p / LMAX * 100}%">${short(10 ** p)}</span>`).join("")}</div><span></span>`;
+})();
+(function () {
+  const box = document.getElementById("conds"), mx = 950;
+  for (const r of D.top_cond.slice(0, 10)) {
+    const d = el("div", {class: "row", style: "cursor:default"});
+    d.innerHTML = `<span class="lab" title="${r.target}">${r.target}</span><span class="track"><i style="width:${r.ingr / mx * 100}%;background:var(--herb)"></i></span><span class="val">${fmt(r.ingr)}</span>`;
+    box.append(d);
+  }
+  const ev = D.evidence.filter(r => r.charac > 0), tot = ev.reduce((s, r) => s + r.charac, 0);
+  const col = ["var(--sky)", "var(--s5)", "var(--s6)", "var(--accent)", "var(--herb)", "var(--berry)", "var(--s9)"];
+  const name = s => s.replace("_", " ");
+  document.getElementById("evstack").innerHTML = ev.map((r, i) => `<i title="${name(r.evidence_type)}: ${fmt(r.charac)}" style="width:${r.charac / tot * 100}%;background:${col[i]}"></i>`).join("");
+  document.getElementById("evlegend").innerHTML = ev.map((r, i) => `<span style="--c:${col[i]}">${name(r.evidence_type)} ${(r.charac / tot * 100).toFixed(r.charac / tot < .01 ? 2 : 0)}%</span>`).join("");
+})();
+
+/* ---------- slide 4: cases ---------- */
+const NAME = {"ISSAI Dietary Recommendation profiles": "ISSAI"};
+const cs = {};
+for (const r of D.cases) {
+  const k = NAME[r.source] || r.source, c = (cs[k] ??= {name: k, langs: [], gold: r.gold});
+  c.langs.push(r.lang);
+  for (const f of ["n","high","medium","low","diet","place","ethnicity","religion","habit","food","tradmed","case_ai"]) c[f] = (c[f] || 0) + r[f];
+}
+const cases = Object.values(cs).sort((a, b) => b.n - a.n), maxN = cases[0].n;
+const T = f => cases.reduce((s, c) => s + c[f], 0);
+kpis("k2", [[fmt(T("n")), "cases"], [fmt(T("high")), "high relevance"], [fmt(T("medium")), "medium"], ["6", "languages"]]);
+let mode2 = "n";
+function drawCases() {
+  const box = document.getElementById("cases"); box.innerHTML = "";
+  for (const c of cases) {
+    const b = el("button", {class: "row"});
+    const w = f => mode2 === "n" ? c[f] / maxN * 100 : c[f] / c.n * 100;
+    b.innerHTML = `<span class="lab">${c.name}</span><span class="track"><i style="width:${w("high")}%;background:var(--high)"></i><i style="width:${w("medium")}%;background:var(--medium)"></i><i style="width:${w("low")}%;background:var(--low)"></i></span><span class="val">${mode2 === "n" ? short(c.n) : Math.round(c.high / c.n * 100) + "% hi"}</span>`;
+    b.onclick = () => {
+      box.querySelectorAll(".row").forEach(x => x.classList.remove("on")); b.classList.add("on");
+      document.getElementById("casetip").innerHTML = `${c.name} <span class="chips">${c.langs.map(l => `<em>${l}</em>`).join("")}</span> · ${fmt(c.n)} cases · high ${fmt(c.high)} · medium ${fmt(c.medium)} · low ${fmt(c.low)} · answers: ${c.gold} · AI-touched case text: ${fmt(c.case_ai)}`;
+    };
+    box.append(b);
+  }
+}
+document.querySelectorAll("#mode2 button").forEach(b => b.onclick = () => {
+  mode2 = b.dataset.v; document.querySelectorAll("#mode2 button").forEach(x => x.setAttribute("aria-pressed", x === b)); drawCases(); });
+drawCases();
+(function () {
+  const cols = [["place","place"],["ethnicity","ethnic"],["religion","religion"],["habit","habit"],["food","food"],["tradmed","trad. med"],["diet","diet"]];
+  const box = document.getElementById("heat");
+  box.append(el("span"));
+  for (const [, l] of cols) box.append(el("span", {class: "h"}, l));
+  for (const c of cases) {
+    box.append(el("span", {class: "n"}, c.name));
+    for (const [f, l] of cols) {
+      const v = c[f] / c.n, cell = el("span", {class: "c", tabindex: "0", style: `--v:${(v > 0 ? .12 + v * .6 : 0).toFixed(3)}`}, v >= .005 ? Math.round(v * 100) : "");
+      const show = () => document.getElementById("heattip").textContent = `${c.name} · ${l}: ${fmt(c[f])} of ${fmt(c.n)} cases (${(v * 100).toFixed(1)}%)`;
+      cell.onmouseenter = show; cell.onfocus = show; cell.onclick = show;
+      box.append(cell);
+    }
+  }
+})();
+
+/* LLM check (numbers from Database/LLM tagging experiments.md, full pass of 2026-10-15) */
+(function () {
+  const L = [["NGQA",13802,4.1,94,475,100,100],["MedCaseReasoning",4126,12.7,267,259,6.6,2.9],["FAM-Bench",1500,22.9,176,168,100,100],
+    ["RuMedBench",1005,7.4,6,68,28.7,8.9],["MTCMB",600,98,4,584,32.8,89.5],["TCM-BEST4SDT",300,96.3,4,285,96,100],["ISSAI",250,98,0,245,100,100],
+    ["MedicationQA",33,12,1,3,null,null],["PerMedCQA",10,80,1,7,null,null],["Rezaei2026",10,0,0,0,null,null]];
+  const col = {cm: [2, "var(--berry)"], diet: [5, "var(--accent)"], graph: [6, "var(--herb)"]};
+  const tb = document.getElementById("llm");
+  function draw(m) {
+    const [ix, c] = col[m];
+    tb.innerHTML = `<tr><th>Dataset</th><th>Tagged</th><th>Decisive</th><th>Supportive</th><th style="text-align:left">${{cm:"Culture matters",diet:"Diet relevant",graph:"Graph answerable"}[m]}</th><th></th></tr>` +
+      L.map(r => `<tr><td>${r[0]}</td><td>${fmt(r[1])}</td><td>${fmt(r[3])}</td><td>${fmt(r[4])}</td>
+        <td class="barc">${r[ix] == null ? "" : `<span class="b" style="width:${r[ix]}%;background:${c}"></span>`}</td><td>${r[ix] == null ? "n/a" : r[ix] + "%"}</td></tr>`).join("") +
+      `<tr><td><b>Total</b></td><td><b>${fmt(L.reduce((s, r) => s + r[1], 0))}</b></td><td>${fmt(L.reduce((s, r) => s + r[3], 0))}</td><td>${fmt(L.reduce((s, r) => s + r[4], 0))}</td><td></td><td></td></tr>`;
+  }
+  document.querySelectorAll("#llmMode button").forEach(b => b.onclick = () => {
+    document.querySelectorAll("#llmMode button").forEach(x => x.setAttribute("aria-pressed", x === b)); draw(b.dataset.v); });
+  draw("cm");
+})();
+
+try { const s = +localStorage.getItem("kgslide"); if (s > 0 && s < 4) go(s); } catch (e) {}
+</script>
+
+</body>
+</html>
