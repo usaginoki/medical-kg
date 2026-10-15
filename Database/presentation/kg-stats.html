@@ -232,7 +232,7 @@ h2 { font: 700 17px/1.2 var(--display); margin: 0 }
     </div>
     <div class="panel">
       <div class="ph"><h2>LLM check: does culture change the answer?</h2>
-        <div class="seg" id="llmMode"><button aria-pressed="true" data-v="cm">culture matters</button><button aria-pressed="false" data-v="diet">diet relevant</button><button aria-pressed="false" data-v="graph">graph answerable</button></div></div>
+        <div class="seg" id="llmMode"><button aria-pressed="true" data-v="cm">culture matters</button><button aria-pressed="false" data-v="diet">diet relevant</button></div></div>
       <div class="sub" style="margin-bottom:8px">Gemini Flash-Lite read the 21,636 cases the keyword screen handed on (MedArabiQ excluded) and tagged each cue as decisive, supportive, incidental or none, with a one-sentence reason. Partner’s full run of 15 Oct 2026; numbers from <i>LLM tagging experiments</i>. The result files are not on this machine.</div>
       <div class="scroll"><table class="llmtable" id="llm"></table></div>
       <p class="note">The note flags the FAM-Bench and NGQA “decisive” tags as unreliable: the model often confuses “diet matters” with “culture matters”.</p>
@@ -473,11 +473,11 @@ drawCases();
   const L = [["NGQA",13802,4.1,94,475,100,100],["MedCaseReasoning",4126,12.7,267,259,6.6,2.9],["FAM-Bench",1500,22.9,176,168,100,100],
     ["RuMedBench",1005,7.4,6,68,28.7,8.9],["MTCMB",600,98,4,584,32.8,89.5],["TCM-BEST4SDT",300,96.3,4,285,96,100],["ISSAI",250,98,0,245,100,100],
     ["MedicationQA",33,12,1,3,null,null],["PerMedCQA",10,80,1,7,null,null],["Rezaei2026",10,0,0,0,null,null]];
-  const col = {cm: [2, "var(--berry)"], diet: [5, "var(--accent)"], graph: [6, "var(--herb)"]};
+  const col = {cm: [2, "var(--berry)"], diet: [5, "var(--accent)"]};
   const tb = document.getElementById("llm");
   function draw(m) {
     const [ix, c] = col[m];
-    tb.innerHTML = `<tr><th>Dataset</th><th>Tagged</th><th>Decisive</th><th>Supportive</th><th style="text-align:left">${{cm:"Culture matters",diet:"Diet relevant",graph:"Graph answerable"}[m]}</th><th></th></tr>` +
+    tb.innerHTML = `<tr><th>Dataset</th><th>Tagged</th><th>Decisive</th><th>Supportive</th><th style="text-align:left">${{cm:"Culture matters",diet:"Diet relevant"}[m]}</th><th></th></tr>` +
       L.map(r => `<tr><td>${r[0]}</td><td>${fmt(r[1])}</td><td>${fmt(r[3])}</td><td>${fmt(r[4])}</td>
         <td class="barc">${r[ix] == null ? "" : `<span class="b" style="width:${r[ix]}%;background:${c}"></span>`}</td><td>${r[ix] == null ? "n/a" : r[ix] + "%"}</td></tr>`).join("") +
       `<tr><td><b>Total</b></td><td><b>${fmt(L.reduce((s, r) => s + r[1], 0))}</b></td><td>${fmt(L.reduce((s, r) => s + r[3], 0))}</td><td>${fmt(L.reduce((s, r) => s + r[4], 0))}</td><td></td><td></td></tr>`;
